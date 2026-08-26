@@ -18,20 +18,12 @@ DATA_ROOT = PROJECT_ROOT / "data"
 RAW_ROOT       = DATA_ROOT / "raw"             # File MP4/AVI gốc
 PROCESSED_ROOT = DATA_ROOT / "processed"       # Output của TransNetV2
 JSON_ROOT      = DATA_ROOT / "json"            # JSON metadata của từng stage
-KEYFRAMES_ROOT = PROCESSED_ROOT / "keyframes"  # Keyframe images (fallback)
-
-# ==========================================
-# 1b. ĐƯỜNG DẪN DỮ LIỆU AIC-2026 (FOLDER CÓ SẴN)
-# Folder keyframes của ban tổ chức — dùng làm nguồn ảnh chính cho Stage C.
-# ==========================================
-# Keyframe images của L26_V200–V299 (tổng ~100 videos, ~1fps)
-AIC_KEYFRAMES_ROOT = Path("/Users/dangphuoctienthu/Desktop/AIC-2026/keyframesL26c")
-# JSON metadata frame-level từ ban tổ chức (description, objects, scene_type, ocr_text)
-AIC_METADATA_FILE  = Path("/Users/dangphuoctienthu/Desktop/AIC-2026/data/keyframes_L26_V200_V299_metadata.json")
+KEYFRAMES_ROOT = PROCESSED_ROOT / "keyframes"  # Keyframe images
 
 # Khởi tạo sẵn các thư mục để tránh lỗi Not Found
 for _path in [RAW_ROOT, PROCESSED_ROOT, JSON_ROOT, KEYFRAMES_ROOT]:
     _path.mkdir(parents=True, exist_ok=True)
+
 
 
 def dataset_path(dataset_name: str, kind: str = "raw") -> Path:
