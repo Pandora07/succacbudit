@@ -1,0 +1,371 @@
+{
+    "video_id": "L23_V008",
+    "fps": 25.0,
+    "total_shots": 13,
+    "total_keyframes": 22,
+    "shots": [
+        {
+            "shot_id": "L23_V008_S0001",
+            "start_frame": 0,
+            "end_frame": 590,
+            "start_ts": 0.0,
+            "end_ts": 23.6,
+            "duration": 23.6,
+            "keyframes": [
+                {
+                    "frame_idx": 295,
+                    "timestamp": 11.8,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L23_V008/L23_V008_S0001_F000295.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Tài đua của TP.HCM lên ở phía trên này có lẽ là họ muốn kéo tông này dài ra hơn để đẩy Peter Rikunov xuống ở phía dưới một chút Nhằm khiến cho tài đua đang mặc áo xanh không có được một vị trí thuận lợi nhất trong đoạn tung nước rút Nhưng hãy chờ xem sự khôn khéo của các chân rút, họ là những người rất biết chọn vị trí ở những mét cuối cùng Lúc này thì Peter Rikunov đang đi đất sát vị trí",
+                "ocr_text": "HTL V CHĂNG 8 2.0 Km 1 03:21:45 HỂ THAO TON DONG A HTV",
+                "vlm_caption": {
+                    "detailed_description": "A cycling race is taking place on a road with participants riding bicycles, and the race is being broadcast on HTV.",
+                    "objects_and_counts": [
+                        "2 bicycle, 2 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L23_V008_S0002",
+            "start_frame": 591,
+            "end_frame": 808,
+            "start_ts": 23.64,
+            "end_ts": 32.32,
+            "duration": 8.68,
+            "keyframes": [
+                {
+                    "frame_idx": 699,
+                    "timestamp": 27.96,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L23_V008/L23_V008_S0002_F000699.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Các bạn có thể nhìn thấy tên của Martin Las người đang nằm cuối cùng ở tầm nước đốt được tạo ra bởi các tay đua Vĩnh Long.",
+                "ocr_text": "CHẶNG 8 HTV 1.9 Km 1 03:22:02 )HỂ THAO",
+                "vlm_caption": {
+                    "detailed_description": "An aerial view of a race track with a car speeding along the track, surrounded by residential buildings and greenery.",
+                    "objects_and_counts": [
+                        "3 car, 1 person, 1 truck"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L23_V008_S0003",
+            "start_frame": 809,
+            "end_frame": 1508,
+            "start_ts": 32.36,
+            "end_ts": 60.32,
+            "duration": 27.96,
+            "keyframes": [
+                {
+                    "frame_idx": 1158,
+                    "timestamp": 46.32,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L23_V008/L23_V008_S0003_F001158.jpg"
+                },
+                {
+                    "frame_idx": 983,
+                    "timestamp": 39.32,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L23_V008/L23_V008_S0003_F000983.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Chỉ còn 1,7 km nữa thôi Lúc này thì tốc độ đang được các tay đua Tạo ra là rất lớn ở trên đường đua Bên phải đó là các tay đua của Dược Domesco Đồng Tháp Nhưng phía trước Trần Tuấn Kiệt chỉ là 2 tay đua của đội đua áo vàng đỏ Peter Rikunov đang đu rất sát Martin Las Phía sau Rikunov đó là Nguyễn Văn Bình và Lê Nguyệt Minh Và cả áo vàng Ivanov Timofey Đến lượt các tay đua Đồng Tháp vươn lên là người Hãy subscribe cho kênh La La School Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "V CHĂNG 8 1.5 Km 1 03:22:20 HỂ THAO TON DONG A HTV 58 | V CHĂNG 8 1.7 Km 1 1 03:22:13 HỂ THAO TON DONG A HTV",
+                "vlm_caption": {
+                    "detailed_description": "A cyclist in a yellow jersey is leading a group of cyclists on a road with buildings and trees in the background.",
+                    "objects_and_counts": [
+                        "3 bicycle, 5 person, 1 car | 2 car, 8 person, 1 traffic light, 1 stop sign"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L23_V008_S0004",
+            "start_frame": 1509,
+            "end_frame": 2510,
+            "start_ts": 60.36,
+            "end_ts": 100.4,
+            "duration": 40.04,
+            "keyframes": [
+                {
+                    "frame_idx": 2009,
+                    "timestamp": 80.36,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L23_V008/L23_V008_S0004_F002009.jpg"
+                },
+                {
+                    "frame_idx": 1759,
+                    "timestamp": 70.36,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L23_V008/L23_V008_S0004_F001759.jpg"
+                },
+                {
+                    "frame_idx": 2259,
+                    "timestamp": 90.36,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L23_V008/L23_V008_S0004_F002259.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "dẫn đầu nhưng phía bên kia thì Bình Long một lần nữa lại mở nước lớn để kéo cái tay đua chủ lực của mình. Bê Tơ đi cung ấp đang tìm kiếm một vị trí. Anh đi sát với tay đua Martin Las của 620 Châu Thế Bình Long. Tông của Dược Đô Mexico Đồng Tháp chỉ còn mỗi lối. Sẽ đưa cho Trần Tuấn Kiệt tràn lên phía trên thôi. Lúc này thì Trần Tuấn Kiệt đang là tay đua có được vị trí thuận lợi hơn. Nhưng khoảng cách còn 1 km nữa không phải là một đoạn rút phù hợp với hơi rút ngắn của Trần Tuấn Kiệt. Một tay đua của ekip 620 Châu Thế Bình Long đã quyết định tấn công ngay phía trên tay đua của Loic Desuyac.",
+                "ocr_text": "CHĂNG 8 HTV 1.0 Km 1 HỂ THAO 03:22:54 52 DPG 051 Kiệt | Service HTV CHẶNG 8 1.2 Km 1 03:22:44 S HẾ THAO Benz LEONE WE | HTV CHĂNG 8 0.9 Km 1 HỂ THAO 03:23:04 RƯA XE 53 P.Rikunov TLT 027",
+                "vlm_caption": {
+                    "detailed_description": "A motorcycle race is taking place on a city street with participants lined up at the starting line, surrounded by spectators and parked cars.",
+                    "objects_and_counts": [
+                        "18 car, 7 person | 7 person | 2 car, 18 person, 2 motorcycle, 1 bicycle"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L23_V008_S0005",
+            "start_frame": 2511,
+            "end_frame": 2880,
+            "start_ts": 100.44,
+            "end_ts": 115.2,
+            "duration": 14.76,
+            "keyframes": [
+                {
+                    "frame_idx": 2695,
+                    "timestamp": 107.8,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L23_V008/L23_V008_S0005_F002695.jpg"
+                },
+                {
+                    "frame_idx": 2603,
+                    "timestamp": 104.12,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L23_V008/L23_V008_S0005_F002603.jpg"
+                },
+                {
+                    "frame_idx": 2787,
+                    "timestamp": 111.48,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L23_V008/L23_V008_S0005_F002787.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "CHĂNG 8 HTV 0.6 Km 1 03:23:21 HỂ THAO | H V CHẶNG 8 0.6 Km 03:23:18 HỂ THAO | CHẶNG 8 HTV 1 0.6 Km 1 03:23:25 HỂ THAO 59",
+                "vlm_caption": {
+                    "detailed_description": "A motorcycle leads a group of cyclists in a race, with spectators and banners lining the road.",
+                    "objects_and_counts": [
+                        "13 person, 4 car, 2 bicycle, 1 traffic light | 1 motorcycle, 2 car, 12 person, 1 bus | 2 motorcycle, 15 person, 3 traffic light, 1 car, 1 bus, 2 bicycle"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L23_V008_S0006",
+            "start_frame": 2881,
+            "end_frame": 3044,
+            "start_ts": 115.24,
+            "end_ts": 121.76,
+            "duration": 6.52,
+            "keyframes": [
+                {
+                    "frame_idx": 2962,
+                    "timestamp": 118.48,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L23_V008/L23_V008_S0006_F002962.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "HTV CHĂNG 8 0.4 Km 1 03:23:32 HỂ THAO 59",
+                "vlm_caption": {
+                    "detailed_description": "A group of cyclists is racing on a wet road, with a 0.4 km distance marker and a timer showing 03:23:32.",
+                    "objects_and_counts": [
+                        "2 car, 17 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L23_V008_S0007",
+            "start_frame": 3045,
+            "end_frame": 3341,
+            "start_ts": 121.8,
+            "end_ts": 133.64,
+            "duration": 11.84,
+            "keyframes": [
+                {
+                    "frame_idx": 3193,
+                    "timestamp": 127.72,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L23_V008/L23_V008_S0007_F003193.jpg"
+                },
+                {
+                    "frame_idx": 3267,
+                    "timestamp": 130.68,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L23_V008/L23_V008_S0007_F003267.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Bạn đứng lúc này diễn ra Bateri của Nam Tấp ra hẳn bên vỉa bên hành lành anh trai Cũng chờ xem Martin Las đang cố gắng Martin Las là người đã về đến đầu tiên trong trận đấu ngày hôm nay",
+                "ocr_text": "T V CHẶNG 8 03:23:41 T HỂ THAO BỆNH VIÊN ĐA KHI I HINH IN DONGA HỘT ĐÃ ỮM BÔNG A N | HTV CHĂNG 8 00:00 03:23:44 HỂ THAO ĐICH C TON DONG 1 HON DONG A",
+                "vlm_caption": {
+                    "detailed_description": "A group of cyclists is racing down a street lined with spectators and banners, approaching a red inflatable archway marked \"ĐIỂCH.\"",
+                    "objects_and_counts": [
+                        "13 person, 7 bicycle, 1 car, 1 backpack | 6 bicycle, 12 person, 4 umbrella"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L23_V008_S0008",
+            "start_frame": 3342,
+            "end_frame": 3638,
+            "start_ts": 133.68,
+            "end_ts": 145.52,
+            "duration": 11.84,
+            "keyframes": [
+                {
+                    "frame_idx": 3490,
+                    "timestamp": 139.6,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L23_V008/L23_V008_S0008_F003490.jpg"
+                },
+                {
+                    "frame_idx": 3416,
+                    "timestamp": 136.64,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L23_V008/L23_V008_S0008_F003416.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Xin chúc mừng 2 ekip 620 Châu Huế Vĩnh Long và 620 Nông Nghiệp",
+                "ocr_text": "CHĂNG 8 HTV 00:09 03:23:44 HỂ THAO | CHĂNG 8 HTV 00:06 03:23:44 HỂ THAO",
+                "vlm_caption": {
+                    "detailed_description": "A group of cyclists is riding down a city street, with spectators lining the sides and vehicles passing by.",
+                    "objects_and_counts": [
+                        "12 car, 2 truck, 1 bus | 2 umbrella, 6 car, 2 truck, 10 person, 1 traffic light"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L23_V008_S0009",
+            "start_frame": 3639,
+            "end_frame": 4455,
+            "start_ts": 145.56,
+            "end_ts": 178.2,
+            "duration": 32.64,
+            "keyframes": [
+                {
+                    "frame_idx": 4047,
+                    "timestamp": 161.88,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L23_V008/L23_V008_S0009_F004047.jpg"
+                },
+                {
+                    "frame_idx": 4251,
+                    "timestamp": 170.04,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L23_V008/L23_V008_S0009_F004251.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Đang thâu ngắn khoảng cách xuống chỉ còn 1 điểm trên mạng xe mạng AllSign so với tay đua người nhà. Có thể thấy là Hoàng Văn Cường làm nhiệm vụ máy kéo để đưa Phạm Lê Xuân Lộc về cố gắng tranh chấp ở đoạn nước rút này. Nhưng cú nhấn bàn đạp của Martin Lap là quá ấn tượng. Anh đã bỏ lại cả Peter Rikunov ở bên cánh trái. Còn ở bên cánh phải là Nguyễn Văn Bình. Ở sau lưng Peter Rikunov là Lê Nguyệt Minh. Như vậy người về hãng 5 là Quang Anh.",
+                "ocr_text": "HTV HỂ THAO HOONGL ONGA REPLAY TON a TON DONG A | ON HTV HẾ THAO TONDON DONG TON DONGA REPLA",
+                "vlm_caption": {
+                    "detailed_description": "A group of cyclists is racing on a paved road, with spectators and banners lining the sides.",
+                    "objects_and_counts": [
+                        "8 person, 1 motorcycle, 7 bicycle | 9 person, 4 motorcycle"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L23_V008_S0010",
+            "start_frame": 4456,
+            "end_frame": 5004,
+            "start_ts": 178.24,
+            "end_ts": 200.16,
+            "duration": 21.92,
+            "keyframes": [
+                {
+                    "frame_idx": 4730,
+                    "timestamp": 189.2,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L23_V008/L23_V008_S0010_F004730.jpg"
+                },
+                {
+                    "frame_idx": 4593,
+                    "timestamp": 183.72,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L23_V008/L23_V008_S0010_F004593.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "T V H V HỂ THAO BỆNH VIÊN DA KH N HINH Ô HỔ CHÍ MINH ON DONG A MỘT ĐÃI TÔN DÔNG A GA REPLAY | HTV HỂ THAO )REPLAY",
+                "vlm_caption": {
+                    "detailed_description": "A bicycle race is taking place on a road lined with spectators and barriers, with a large group of cyclists in the foreground and a few leading cyclists in the background.",
+                    "objects_and_counts": [
+                        "11 person, 2 car, 5 bicycle, 2 bus | 2 car, 9 person, 1 stop sign, 3 bicycle"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L23_V008_S0011",
+            "start_frame": 5005,
+            "end_frame": 5594,
+            "start_ts": 200.2,
+            "end_ts": 223.76,
+            "duration": 23.56,
+            "keyframes": [
+                {
+                    "frame_idx": 5299,
+                    "timestamp": 211.96,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L23_V008/L23_V008_S0011_F005299.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Tuyệt vời của các học trò huấn luyện viên Nguyễn Khắc Lộc. Họ đã thất bại ở trận đua từ Hà Nội về Sâm Sơn. Trong việc làm tông đưa về rút nhưng để Peter Rikunov rút thắng chặn. Nhưng trận này họ đã không nạn trí. Tiếp tục lên làm tài nước lớn. Và mặc dù là họ đã bị chen cọt bởi các tay đua của Đồng Tháp. Nhưng lần này Martin Ladd lại có màn thể hiện cực kỳ ấn tượng của đất.",
+                "ocr_text": "HTV T HỂ THAO REPLAY",
+                "vlm_caption": {
+                    "detailed_description": "A group of cyclists is racing on a paved road, with one rider in a white jersey leading the pack.",
+                    "objects_and_counts": [
+                        "13 person, 5 bicycle, 2 motorcycle"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L23_V008_S0012",
+            "start_frame": 5595,
+            "end_frame": 6070,
+            "start_ts": 223.8,
+            "end_ts": 242.8,
+            "duration": 19.0,
+            "keyframes": [
+                {
+                    "frame_idx": 5832,
+                    "timestamp": 233.28,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L23_V008/L23_V008_S0012_F005832.jpg"
+                },
+                {
+                    "frame_idx": 5713,
+                    "timestamp": 228.52,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L23_V008/L23_V008_S0012_F005713.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Thắng chặn cho tay đùa số đèo 117 ở Cúp truyền hình TP.HCM năm 2024. Có thể thấy là Martin Lat cũng có một hơi rất dài trong đoạn nước rút. Trong khi Luis...",
+                "ocr_text": "HTV TON DONG A TV HẾ THAO ĐÍCH CUP TE CUP TRUYẾN HÌNH TON DONGA JC TONDONGA ONO REPLAY | HTV C TON DONG A HẾ THAO ĐÍCH Chộng 8-152 km 9 Sảm Sản (Thanh Hóo) - Vinh (Nghệ An) COP TRUYỆN HINH C TONDONGA JC TON DONGA TOND NG A REPLAY",
+                "vlm_caption": {
+                    "detailed_description": "The image depicts a cycling race with participants approaching the finish line, surrounded by spectators waving Vietnamese flags and banners.",
+                    "objects_and_counts": [
+                        "10 person | 11 person, 5 bicycle, 1 cell phone, 1 umbrella"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L23_V008_S0013",
+            "start_frame": 6071,
+            "end_frame": 6165,
+            "start_ts": 242.84,
+            "end_ts": 246.6,
+            "duration": 3.76,
+            "keyframes": [],
+            "extracted_data": {
+                "transcript": "Thanks for watching!",
+                "ocr_text": ""
+            }
+        }
+    ]
+}

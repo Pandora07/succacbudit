@@ -1,0 +1,859 @@
+{
+    "video_id": "L30_V059",
+    "fps": 25.0,
+    "total_shots": 32,
+    "total_keyframes": 46,
+    "shots": [
+        {
+            "shot_id": "L30_V059_S0001",
+            "start_frame": 0,
+            "end_frame": 74,
+            "start_ts": 0.0,
+            "end_ts": 2.96,
+            "duration": 2.96,
+            "keyframes": [],
+            "extracted_data": {
+                "transcript": "",
+                "ocr_text": ""
+            }
+        },
+        {
+            "shot_id": "L30_V059_S0002",
+            "start_frame": 75,
+            "end_frame": 288,
+            "start_ts": 3.0,
+            "end_ts": 11.52,
+            "duration": 8.52,
+            "keyframes": [
+                {
+                    "frame_idx": 181,
+                    "timestamp": 7.24,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V059/L30_V059_S0002_F000181.jpg"
+                },
+                {
+                    "frame_idx": 128,
+                    "timestamp": 5.12,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V059/L30_V059_S0002_F000128.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "",
+                "ocr_text": "Clip bạn đọc dự thi cuộc thi: Lan tỏa năng lượng tích cực 2024 | Herbalife",
+                "vlm_caption": {
+                    "detailed_description": "The image features the Herbalife logo with the word \"Herbalife\" in green letters and a green leaf symbol to the right."
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V059_S0003",
+            "start_frame": 289,
+            "end_frame": 364,
+            "start_ts": 11.56,
+            "end_ts": 14.56,
+            "duration": 3.0,
+            "keyframes": [
+                {
+                    "frame_idx": 326,
+                    "timestamp": 13.04,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V059/L30_V059_S0003_F000326.jpg"
+                },
+                {
+                    "frame_idx": 345,
+                    "timestamp": 13.8,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V059/L30_V059_S0003_F000345.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Tại những nhà thùng ủ chợp nước",
+                "ocr_text": "CÔNG TY TNHH MTV NƯỚC MẮM KIM HOA ĐC: 49/2 Đường Nguyễn Haệ, KP. 11, R. Dương Dùng, TR. Phú Quốc, Kiên Giang ĐT: 0913.885.101 | CÔNG TY TNHH MTV NƯỚC MĂM KIM HOA ĐT: 0913.885.101 ĐC: 49/2 Đường Nguyễn Hoệ, KR. 11, R. Dương Đồng, TR. Phú Quốc, Kiên Giang Cuộc thi Lan tỏa năng lượng tích cực 2024: Herbalife Đổi mới sáng tạo là chìa khóa thành công",
+                "vlm_caption": {
+                    "detailed_description": "A man stands in front of a building with a sign reading \"Công ty TNHH MTV Nước Mắm Kim Hoa,\" with several large white tanks in the foreground.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V059_S0004",
+            "start_frame": 365,
+            "end_frame": 425,
+            "start_ts": 14.6,
+            "end_ts": 17.0,
+            "duration": 2.4,
+            "keyframes": [
+                {
+                    "frame_idx": 395,
+                    "timestamp": 15.8,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V059/L30_V059_S0004_F000395.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Mắm truyền thống ở Phú Quốc không khói.",
+                "ocr_text": "Cuộc thi Lan tỏa năng lượng tích cực 2024: Herbalife' Đổi mới sáng tạo là chìa khóa thành công",
+                "vlm_caption": {
+                    "detailed_description": "A blue bucket with a water pump and a hose submerged in water, with a text overlay in Vietnamese about a 2024 competition."
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V059_S0005",
+            "start_frame": 426,
+            "end_frame": 484,
+            "start_ts": 17.04,
+            "end_ts": 19.36,
+            "duration": 2.32,
+            "keyframes": [
+                {
+                    "frame_idx": 455,
+                    "timestamp": 18.2,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V059/L30_V059_S0005_F000455.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "để mọi người cảm nhận được không khí công nhân.",
+                "ocr_text": "15 Cuộc thi Lan tỏa năng lượng tích cực 2024: Herbalife' Đổi mới sáng tạo là chìa khóa thành công",
+                "vlm_caption": {
+                    "detailed_description": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+                    "objects_and_counts": [
+                        "2 person, 1 boat"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V059_S0006",
+            "start_frame": 485,
+            "end_frame": 535,
+            "start_ts": 19.4,
+            "end_ts": 21.4,
+            "duration": 2.0,
+            "keyframes": [
+                {
+                    "frame_idx": 510,
+                    "timestamp": 20.4,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V059/L30_V059_S0006_F000510.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "1 chiếc nước mắm, đóng chai, dán",
+                "ocr_text": "Cuộc thi Lan tỏa năng lượng tích cực 2024: Herbalife Đổi mới sáng tạo là chìa khóa thành công",
+                "vlm_caption": {
+                    "detailed_description": "A hand is pouring a dark liquid from a faucet into a small white bowl.",
+                    "objects_and_counts": [
+                        "1 person, 1 toothbrush"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V059_S0007",
+            "start_frame": 536,
+            "end_frame": 584,
+            "start_ts": 21.44,
+            "end_ts": 23.36,
+            "duration": 1.92,
+            "keyframes": [
+                {
+                    "frame_idx": 560,
+                    "timestamp": 22.4,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V059/L30_V059_S0007_F000560.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "CỘNG TY PHIH NÌNH DOANH NƯOC MẤM HUTNH KHUN CONG TT INHH SINH DOENE NƯỚC MẤM HUYNH KHOA 11 40 Đạm 40 Đam",
+                "vlm_caption": {
+                    "detailed_description": "A person in a green shirt and blue hat is holding a red box while another person in a blue shirt and hat stands behind a counter filled with numerous bottles.",
+                    "objects_and_counts": [
+                        "3 person, 6 bottle, 1 potted plant"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V059_S0008",
+            "start_frame": 585,
+            "end_frame": 645,
+            "start_ts": 23.4,
+            "end_ts": 25.8,
+            "duration": 2.4,
+            "keyframes": [
+                {
+                    "frame_idx": 615,
+                    "timestamp": 24.6,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V059/L30_V059_S0008_F000615.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Trưng bày lên kệ và gói qua.",
+                "ocr_text": "CRNG TY TNHH SINH DONNR NƯỚC MẪM HƯÊNH KHOX Địa chỉ sin sấi vã đing chải = Đưng tránh Dương Đing, Suli au Xã Daung Te, Thành Phí thú Quế Tỉnh Kiên Giang, Việt Num",
+                "vlm_caption": {
+                    "detailed_description": "A person holds a red bottle of Vietnamese soy sauce in front of a display of similar bottles.",
+                    "objects_and_counts": [
+                        "2 person, 10 bottle"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V059_S0009",
+            "start_frame": 646,
+            "end_frame": 702,
+            "start_ts": 25.84,
+            "end_ts": 28.08,
+            "duration": 2.24,
+            "keyframes": [
+                {
+                    "frame_idx": 674,
+                    "timestamp": 26.96,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V059/L30_V059_S0009_F000674.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Phục vụ khách du lịch đến tham quan và mở cửa.",
+                "ocr_text": "PHUQUOC HUYNH KHOA",
+                "vlm_caption": {
+                    "detailed_description": "A person is holding a red and yellow box with a white label, while placing it on a table with several blank white cards.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V059_S0010",
+            "start_frame": 703,
+            "end_frame": 779,
+            "start_ts": 28.12,
+            "end_ts": 31.16,
+            "duration": 3.04,
+            "keyframes": [
+                {
+                    "frame_idx": 741,
+                    "timestamp": 29.64,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V059/L30_V059_S0010_F000741.jpg"
+                },
+                {
+                    "frame_idx": 722,
+                    "timestamp": 28.88,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V059/L30_V059_S0010_F000722.jpg"
+                },
+                {
+                    "frame_idx": 760,
+                    "timestamp": 30.4,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V059/L30_V059_S0010_F000760.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A person wearing a blue hairnet is working in a factory setting, surrounded by rows of yellow-capped bottles.",
+                    "objects_and_counts": [
+                        "2 person, 6 bottle | 2 person, 1 chair, 6 bottle | 2 person, 7 bottle"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V059_S0011",
+            "start_frame": 780,
+            "end_frame": 1410,
+            "start_ts": 31.2,
+            "end_ts": 56.4,
+            "duration": 25.2,
+            "keyframes": [
+                {
+                    "frame_idx": 1095,
+                    "timestamp": 43.8,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V059/L30_V059_S0011_F001095.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Thành viên của Hợp tác xã G10, tất cả những thành viên Hợp tác xã G10 đều là những người tuổi trẻ, lớp trẻ, dình dự bảo tồn nghề làm nước bóng trị nắng quốc, thì muốn đoàn kết với nhau để tạo ra một sản phẩm chung cho nước bóng quốc, để có thể dễ dàng xúc tiến không chỉ trong nước và ngoài nước, và kết hợp với các các lãnh đạo, các quân bài ngành để có thể quảng bá được giá trị sản phẩm chung của nước bóng trị nắng quốc.",
+                "ocr_text": "BU Gỡ Xưa Gỡ Xưa HUYNH KHON HUỲNH KHOA HE H KHO",
+                "vlm_caption": {
+                    "detailed_description": "A man stands in front of shelves displaying various bottles and boxes of Vietnamese products, including Gõ Xatra and Húng 4 Kho.",
+                    "objects_and_counts": [
+                        "2 person, 6 bottle, 1 book"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V059_S0012",
+            "start_frame": 1411,
+            "end_frame": 1563,
+            "start_ts": 56.44,
+            "end_ts": 62.52,
+            "duration": 6.08,
+            "keyframes": [
+                {
+                    "frame_idx": 1487,
+                    "timestamp": 59.48,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V059/L30_V059_S0012_F001487.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Nước mắm truyền thống được các nhà thùn Phú Quốc lựa chọn các cơm đánh bắp rồi đem về Úc.",
+                "ocr_text": "02",
+                "vlm_caption": {
+                    "detailed_description": "The image depicts a warehouse with stacks of large, cylindrical objects, possibly industrial equipment, arranged in rows, with a ladder and a blue container visible in the foreground."
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V059_S0013",
+            "start_frame": 1564,
+            "end_frame": 1629,
+            "start_ts": 62.56,
+            "end_ts": 65.16,
+            "duration": 2.6,
+            "keyframes": [
+                {
+                    "frame_idx": 1596,
+                    "timestamp": 63.84,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V059/L30_V059_S0013_F001596.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Các bạn hãy đăng ký kênh để ủng hộ kênh của mình nhé.",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A red liquid is flowing from a cylindrical object into a vertical pipe against a blue background.",
+                    "objects_and_counts": [
+                        "2 toothbrush"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V059_S0014",
+            "start_frame": 1630,
+            "end_frame": 1702,
+            "start_ts": 65.2,
+            "end_ts": 68.08,
+            "duration": 2.88,
+            "keyframes": [
+                {
+                    "frame_idx": 1666,
+                    "timestamp": 66.64,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V059/L30_V059_S0014_F001666.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Số khoảng 12-15 tháng ủ trượt",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A person in a blue polo shirt is writing on a clipboard while standing among several white cylindrical tanks with red metal frames.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V059_S0015",
+            "start_frame": 1703,
+            "end_frame": 1787,
+            "start_ts": 68.12,
+            "end_ts": 71.48,
+            "duration": 3.36,
+            "keyframes": [
+                {
+                    "frame_idx": 1745,
+                    "timestamp": 69.8,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V059/L30_V059_S0015_F001745.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Nước lấm sẽ chín và mang hương vị đặc trưng thơm ngon.",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A person in a blue shirt is applying red paint to a metal structure outdoors.",
+                    "objects_and_counts": [
+                        "1 person, 1 boat"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V059_S0016",
+            "start_frame": 1788,
+            "end_frame": 1910,
+            "start_ts": 71.52,
+            "end_ts": 76.4,
+            "duration": 4.88,
+            "keyframes": [
+                {
+                    "frame_idx": 1849,
+                    "timestamp": 73.96,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V059/L30_V059_S0016_F001849.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "rất riêng và có 25-40 độ đạm.",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A red and orange object is pouring a dark liquid into a black, bubbling substance in a blue container."
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V059_S0017",
+            "start_frame": 1911,
+            "end_frame": 2740,
+            "start_ts": 76.44,
+            "end_ts": 109.6,
+            "duration": 33.16,
+            "keyframes": [
+                {
+                    "frame_idx": 2325,
+                    "timestamp": 93.0,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V059/L30_V059_S0017_F002325.jpg"
+                },
+                {
+                    "frame_idx": 2118,
+                    "timestamp": 84.72,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V059/L30_V059_S0017_F002118.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "không những doanh nghiệp của tôi mà còn Hợp tác xã Gà Mười đã làm ra những cái gói quà để cho bà con có thể trọn lọc nhiều cái mệnh giá nhiều cái giá trị của hàng quà khác nhau nhưng cái cốt lõi của hàng quà đó là những cái sản phẩm đặc thù của địa phương không chỉ là nước mắt húa mà còn những cái đặc sản khác như về tiêu và nón rút và tiêu ngào những sản phẩm đặc thù của địa phương đến những người dùng mang được cái giá trị cao về sản phẩm và cái khi mà người khách người đi dùng có thể mua được cái sản phẩm đó để dùng luôn được sản phẩm đó",
+                "ocr_text": "Gỡ Xưa Gỡ Xưa HƯỲNH KHOA HE | Gỡ Xưa Gỡ Xưa 2183 HUINH KHOC HƯỲNH KHOA HE 4 KHO",
+                "vlm_caption": {
+                    "detailed_description": "A man stands in front of shelves displaying various products, including bottles and boxes of Go Xua and Huynh Khoa brand items.",
+                    "objects_and_counts": [
+                        "1 person, 5 bottle, 1 book | 1 person, 4 bottle, 1 book"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V059_S0018",
+            "start_frame": 2741,
+            "end_frame": 2851,
+            "start_ts": 109.64,
+            "end_ts": 114.04,
+            "duration": 4.4,
+            "keyframes": [
+                {
+                    "frame_idx": 2796,
+                    "timestamp": 111.84,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V059/L30_V059_S0018_F002796.jpg"
+                },
+                {
+                    "frame_idx": 2768,
+                    "timestamp": 110.72,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V059/L30_V059_S0018_F002768.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Phú Quốc có khoảng 54 thành viên nhà thùng",
+                "ocr_text": "MÃ SỐ LÔ KH21104 PQ:21021013 | MÃ SỐ LÔ PID QUỐC KH21104 PO:21021013",
+                "vlm_caption": {
+                    "detailed_description": "A man points to a label on a stack of barrels, with the label reading \"Mã Số Lô KH21104.\"",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V059_S0019",
+            "start_frame": 2852,
+            "end_frame": 2975,
+            "start_ts": 114.08,
+            "end_ts": 119.0,
+            "duration": 4.92,
+            "keyframes": [
+                {
+                    "frame_idx": 2913,
+                    "timestamp": 116.52,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V059/L30_V059_S0019_F002913.jpg"
+                },
+                {
+                    "frame_idx": 2882,
+                    "timestamp": 115.28,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V059/L30_V059_S0019_F002882.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Với khoảng 7.000 thùng ủ trượt, mỗi thùng có sức chứa khoảng 12-15 thùng.",
+                "ocr_text": "MÃ SỐ LÔ QUỐC MÀ SO KH21104 PQ:21021013 | PHỮ MÃ SỐ LÔ KH21104 PQ:21021015",
+                "vlm_caption": {
+                    "detailed_description": "A hand points to a yellow card with a red seal and text, next to a white sign with black text on a red surface.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V059_S0020",
+            "start_frame": 2976,
+            "end_frame": 3070,
+            "start_ts": 119.04,
+            "end_ts": 122.8,
+            "duration": 3.76,
+            "keyframes": [
+                {
+                    "frame_idx": 3023,
+                    "timestamp": 120.92,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V059/L30_V059_S0020_F003023.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Sản lượng sản xuất nước mắm đạt 20-30%",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A person's hand is holding a hose connected to a pipe, with a bucket nearby, in an industrial setting.",
+                    "objects_and_counts": [
+                        "1 person, 1 bowl"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V059_S0021",
+            "start_frame": 3071,
+            "end_frame": 3141,
+            "start_ts": 122.84,
+            "end_ts": 125.64,
+            "duration": 2.8,
+            "keyframes": [
+                {
+                    "frame_idx": 3106,
+                    "timestamp": 124.24,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V059/L30_V059_S0021_F003106.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A man in a blue and white checkered shirt stands next to a blue container in a warehouse filled with red barrels.",
+                    "objects_and_counts": [
+                        "1 person, 1 suitcase"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V059_S0022",
+            "start_frame": 3142,
+            "end_frame": 3219,
+            "start_ts": 125.68,
+            "end_ts": 128.76,
+            "duration": 3.08,
+            "keyframes": [
+                {
+                    "frame_idx": 3180,
+                    "timestamp": 127.2,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V059/L30_V059_S0022_F003180.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Cảm ơn các bạn đã theo dõi và hẹn gặp lại.",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A hand holds a small white bowl containing a dark red liquid against a blue background.",
+                    "objects_and_counts": [
+                        "1 bowl, 1 person, 1 dining table"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V059_S0023",
+            "start_frame": 3220,
+            "end_frame": 4359,
+            "start_ts": 128.8,
+            "end_ts": 174.36,
+            "duration": 45.56,
+            "keyframes": [
+                {
+                    "frame_idx": 3789,
+                    "timestamp": 151.56,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V059/L30_V059_S0023_F003789.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Tình hướng của chúng tôi là tới đây là phát triển khoảng 10.000 sản phẩm của đặc sản quốc. Ví dụ như các loại khô, tiêu quốc, các loại dạy tiêu, tiêu gạo, muối tiêu. Chúng tôi đã kết hợp giữa nước mắm và tiêu, dao một dòng muối tiêu. Ở Hà Tây Ninh có muối tiêu tôm, thì quốc có muối tiêu đạm cá của tôi. Thành phẩm tôi đã làm rồi, năm nay tôi phát triển G10 sẽ phát triển nó thêm. Thì khi mà sản phẩm tôi được 10.000 sản phẩm, chúng tôi sẽ hướng tới là những combo sản phẩm đó. Chúng tôi sẽ đi vô combo để phục vụ cho du khách.",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A man in a purple and white checkered shirt is sitting and holding a small object in his hands.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V059_S0024",
+            "start_frame": 4360,
+            "end_frame": 4469,
+            "start_ts": 174.4,
+            "end_ts": 178.76,
+            "duration": 4.36,
+            "keyframes": [
+                {
+                    "frame_idx": 4414,
+                    "timestamp": 176.56,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V059/L30_V059_S0024_F004414.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Nước món Phú Quốc trước đây được các nhà thôn bán sĩ, bán hàng, bán hàng, bán hàng, bán hàng, bán hàng, bán hàng, bán hàng, bán hàng, bán hàng, bán hàng, bán hàng, bán hàng, bán hàng, bán hàng, bán hàng, bán hàng, bán hàng, bán hàng, bán hàng, bán hàng, bán hàng, bán hàng, bán hàng, bán hàng, bán hàng, bán hàng, bán hàng, bán hàng, bán hàng, bán hàng, bán hàng, bán hàng, bán hàng, bán hàng, bán hàng, bán hàng, bán hàng, bán hàng, bán hàng, bán hàng, bán hàng, bán hàng, bán hàng, bán hàng, bán hàng, bán hàng, bán hàng, bán hàng, bán hàng, bán hàng, bán hàng, b",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "Two workers in blue hairnets are inspecting rows of dark bottles with yellow caps in a factory setting.",
+                    "objects_and_counts": [
+                        "2 person, 5 bottle"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V059_S0025",
+            "start_frame": 4470,
+            "end_frame": 4568,
+            "start_ts": 178.8,
+            "end_ts": 182.72,
+            "duration": 3.92,
+            "keyframes": [
+                {
+                    "frame_idx": 4519,
+                    "timestamp": 180.76,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V059/L30_V059_S0025_F004519.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "đúng nước mắm nguyên liệu thu. Tuy nhiên, hiện các nhà thùng đã nâng độ",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "The image shows a collection of dark bottles with yellow caps, likely containing a beverage or liquid, arranged in rows on a dark surface.",
+                    "objects_and_counts": [
+                        "12 bottle"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V059_S0026",
+            "start_frame": 4569,
+            "end_frame": 4669,
+            "start_ts": 182.76,
+            "end_ts": 186.76,
+            "duration": 4.0,
+            "keyframes": [
+                {
+                    "frame_idx": 4619,
+                    "timestamp": 184.76,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V059/L30_V059_S0026_F004619.jpg"
+                },
+                {
+                    "frame_idx": 4594,
+                    "timestamp": 183.76,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V059/L30_V059_S0026_F004594.jpg"
+                },
+                {
+                    "frame_idx": 4644,
+                    "timestamp": 185.76,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V059/L30_V059_S0026_F004644.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A woman in a blue uniform and hairnet is preparing food items on a counter with bottles of sauce in the background.",
+                    "objects_and_counts": [
+                        "1 person, 7 bottle, 1 dining table, 1 hot dog | 1 person, 8 bottle, 1 dining table | 1 person, 6 bottle, 2 dining table"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V059_S0027",
+            "start_frame": 4670,
+            "end_frame": 4759,
+            "start_ts": 186.8,
+            "end_ts": 190.36,
+            "duration": 3.56,
+            "keyframes": [
+                {
+                    "frame_idx": 4714,
+                    "timestamp": 188.56,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V059/L30_V059_S0027_F004714.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "thích làm phù hợp với thị hiếu của thị trường và người tiên dùng.",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "The image shows a market stall with rows of neatly arranged bottles, likely containing beverages or condiments, with a person in the background taking a photograph.",
+                    "objects_and_counts": [
+                        "4 person, 15 bottle"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V059_S0028",
+            "start_frame": 4760,
+            "end_frame": 4881,
+            "start_ts": 190.4,
+            "end_ts": 195.24,
+            "duration": 4.84,
+            "keyframes": [
+                {
+                    "frame_idx": 4820,
+                    "timestamp": 192.8,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V059/L30_V059_S0028_F004820.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "dễ dàng lựa chọn mua về ăn. Đặc biệt, tích nguyên đáng nhất thịt 2024.",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "The image shows a well-organized shelf displaying various bottles of soy sauce and other condiments, with a decorative red and white logo and framed certificates in the background.",
+                    "objects_and_counts": [
+                        "11 bottle"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V059_S0029",
+            "start_frame": 4882,
+            "end_frame": 4997,
+            "start_ts": 195.28,
+            "end_ts": 199.88,
+            "duration": 4.6,
+            "keyframes": [
+                {
+                    "frame_idx": 4939,
+                    "timestamp": 197.56,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V059/L30_V059_S0029_F004939.jpg"
+                },
+                {
+                    "frame_idx": 4910,
+                    "timestamp": 196.4,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V059/L30_V059_S0029_F004910.jpg"
+                },
+                {
+                    "frame_idx": 4968,
+                    "timestamp": 198.72,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V059/L30_V059_S0029_F004968.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Các nhà thùng bán được nhiều giỏ quà, combo nước mắm cho du khách.",
+                "ocr_text": "A TOP GA eS les | A",
+                "vlm_caption": {
+                    "detailed_description": "A man stands behind a display of soy sauce bottles in a store, while another man sits in the background.",
+                    "objects_and_counts": [
+                        "2 person, 5 bottle | 2 person, 10 bottle | 2 person, 2 bottle"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V059_S0030",
+            "start_frame": 4998,
+            "end_frame": 5157,
+            "start_ts": 199.92,
+            "end_ts": 206.28,
+            "duration": 6.36,
+            "keyframes": [
+                {
+                    "frame_idx": 5077,
+                    "timestamp": 203.08,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V059/L30_V059_S0030_F005077.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Cách làm này không chỉ giúp nhà thùng làm nước mắm truyền thống Phú Quốc mở rộng đường đi sản phẩm đặc trưng của địa phương.",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A woman in a blue uniform and hairnet is inspecting a bottle of dark liquid on a table filled with similar bottles.",
+                    "objects_and_counts": [
+                        "1 person, 14 bottle, 1 chair"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V059_S0031",
+            "start_frame": 5158,
+            "end_frame": 5281,
+            "start_ts": 206.32,
+            "end_ts": 211.24,
+            "duration": 4.92,
+            "keyframes": [
+                {
+                    "frame_idx": 5219,
+                    "timestamp": 208.76,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V059/L30_V059_S0031_F005219.jpg"
+                },
+                {
+                    "frame_idx": 5188,
+                    "timestamp": 207.52,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V059/L30_V059_S0031_F005188.jpg"
+                },
+                {
+                    "frame_idx": 5250,
+                    "timestamp": 210.0,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V059/L30_V059_S0031_F005250.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Cảm ơn các bạn đã theo dõi và hẹn gặp lại.",
+                "ocr_text": "ON cam nar Tác giả: Nguyễn Công Herbalife | CON | Tác giả: Nguyễn Công Herbalife",
+                "vlm_caption": {
+                    "detailed_description": "A hand with a tattoo is reaching towards a stack of books on a shelf.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V059_S0032",
+            "start_frame": 5282,
+            "end_frame": 5392,
+            "start_ts": 211.28,
+            "end_ts": 215.68,
+            "duration": 4.4,
+            "keyframes": [
+                {
+                    "frame_idx": 5337,
+                    "timestamp": 213.48,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V059/L30_V059_S0032_F005337.jpg"
+                },
+                {
+                    "frame_idx": 5309,
+                    "timestamp": 212.36,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V059/L30_V059_S0032_F005309.jpg"
+                },
+                {
+                    "frame_idx": 5364,
+                    "timestamp": 214.56,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V059/L30_V059_S0032_F005364.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Tiến là nghề lâu dài.",
+                "ocr_text": "Tác giả: Nguyễn Công Herbalife | Tác giả: Nguyễn Công He. - se",
+                "vlm_caption": {
+                    "detailed_description": "Workers in blue hairnets are packaging bottles with yellow caps into red boxes in a factory setting.",
+                    "objects_and_counts": [
+                        "3 person, 2 chair, 4 bottle, 2 potted plant | 3 person, 1 chair, 4 bottle, 2 potted plant"
+                    ]
+                }
+            }
+        }
+    ]
+}

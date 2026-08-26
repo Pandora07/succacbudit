@@ -1,0 +1,2704 @@
+{
+    "video_id": "L26_V301",
+    "fps": 25.0,
+    "total_shots": 100,
+    "total_keyframes": 143,
+    "shots": [
+        {
+            "shot_id": "L26_V301_S0001",
+            "start_frame": 0,
+            "end_frame": 20,
+            "start_ts": 0.0,
+            "end_ts": 0.8,
+            "duration": 0.8,
+            "keyframes": [
+                {
+                    "frame_idx": 10,
+                    "timestamp": 0.4,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V301/L26_V301_S0001_F000010.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "The image features a circular arrangement of various vegetables, including broccoli, tomatoes, and peppers, on a white background.",
+                    "objects_and_counts": [
+                        "5 broccoli"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V301_S0002",
+            "start_frame": 21,
+            "end_frame": 32,
+            "start_ts": 0.84,
+            "end_ts": 1.28,
+            "duration": 0.44,
+            "keyframes": [
+                {
+                    "frame_idx": 26,
+                    "timestamp": 1.04,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V301/L26_V301_S0002_F000026.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "A frying pan contains a colorful assortment of vegetables, including broccoli, cauliflower, and carrots, being cooked on a stovetop.",
+                    "objects_and_counts": [
+                        "6 carrot, 6 broccoli, 2 bowl, 2 dining table"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V301_S0003",
+            "start_frame": 33,
+            "end_frame": 77,
+            "start_ts": 1.32,
+            "end_ts": 3.08,
+            "duration": 1.76,
+            "keyframes": [
+                {
+                    "frame_idx": 55,
+                    "timestamp": 2.2,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V301/L26_V301_S0003_F000055.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "A person is using a yellow sponge to scrub a surface covered in white residue, likely cleaning a kitchen or bathroom countertop."
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V301_S0004",
+            "start_frame": 78,
+            "end_frame": 99,
+            "start_ts": 3.12,
+            "end_ts": 3.96,
+            "duration": 0.84,
+            "keyframes": [
+                {
+                    "frame_idx": 88,
+                    "timestamp": 3.52,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V301/L26_V301_S0004_F000088.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Bye.",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "The image shows a close-up of white, elongated objects, possibly grains of rice, scattered on a surface."
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V301_S0005",
+            "start_frame": 101,
+            "end_frame": 143,
+            "start_ts": 4.04,
+            "end_ts": 5.72,
+            "duration": 1.68,
+            "keyframes": [
+                {
+                    "frame_idx": 122,
+                    "timestamp": 4.88,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V301/L26_V301_S0005_F000122.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "A hand sprinkles black pepper onto a piece of salmon on a wooden board, surrounded by tomatoes, salt, and herbs.",
+                    "objects_and_counts": [
+                        "1 person, 1 carrot, 1 bowl, 1 bottle"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V301_S0006",
+            "start_frame": 145,
+            "end_frame": 164,
+            "start_ts": 5.8,
+            "end_ts": 6.56,
+            "duration": 0.76,
+            "keyframes": [
+                {
+                    "frame_idx": 154,
+                    "timestamp": 6.16,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V301/L26_V301_S0006_F000154.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "you",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "Various fresh vegetables, including lettuce, broccoli, carrots, tomatoes, green beans, and an onion, are arranged on a dark surface.",
+                    "objects_and_counts": [
+                        "2 carrot, 2 broccoli"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V301_S0007",
+            "start_frame": 165,
+            "end_frame": 299,
+            "start_ts": 6.6,
+            "end_ts": 11.96,
+            "duration": 5.36,
+            "keyframes": [
+                {
+                    "frame_idx": 232,
+                    "timestamp": 9.28,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V301/L26_V301_S0007_F000232.jpg"
+                },
+                {
+                    "frame_idx": 198,
+                    "timestamp": 7.92,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V301/L26_V301_S0007_F000198.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Món ngon mỗi ngày",
+                "ocr_text": "line",
+                "vlm_caption": {
+                    "detailed_description": "The image depicts an artistic arrangement of vegetables and fruits, including broccoli, tomatoes, bell peppers, and okra, arranged in a visually appealing pattern on a white background.",
+                    "objects_and_counts": [
+                        "1 broccoli | 2 broccoli"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V301_S0008",
+            "start_frame": 300,
+            "end_frame": 340,
+            "start_ts": 12.0,
+            "end_ts": 13.6,
+            "duration": 1.6,
+            "keyframes": [
+                {
+                    "frame_idx": 320,
+                    "timestamp": 12.8,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V301/L26_V301_S0008_F000320.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Trời đất ơi hôm nay nấu ăn",
+                "ocr_text": "HTV line ON ngày Aj N M NGON mỗi ngày t Aj",
+                "vlm_caption": {
+                    "detailed_description": "A woman in an apron stands at a kitchen counter, preparing food, while a man in a chef's coat observes in the background.",
+                    "objects_and_counts": [
+                        "2 person, 3 bowl, 1 vase, 4 potted plant, 1 bottle, 1 oven, 1 knife"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V301_S0009",
+            "start_frame": 341,
+            "end_frame": 374,
+            "start_ts": 13.64,
+            "end_ts": 14.96,
+            "duration": 1.32,
+            "keyframes": [
+                {
+                    "frame_idx": 357,
+                    "timestamp": 14.28,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V301/L26_V301_S0009_F000357.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Không cần tới lòng luôn",
+                "ocr_text": "ATV Online N M. NGÓN mỗi ngày Eat Well. Live Well. Aj",
+                "vlm_caption": {
+                    "detailed_description": "A woman wearing a yellow shirt and a white apron with a red logo is standing in a kitchen.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V301_S0010",
+            "start_frame": 375,
+            "end_frame": 418,
+            "start_ts": 15.0,
+            "end_ts": 16.72,
+            "duration": 1.72,
+            "keyframes": [
+                {
+                    "frame_idx": 396,
+                    "timestamp": 15.84,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V301/L26_V301_S0010_F000396.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Trời ơi, làm sao gian bếp này",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "A chef in a white uniform with a red stripe and logo stands in a modern kitchen setting, facing slightly to the right.",
+                    "objects_and_counts": [
+                        "1 person, 2 potted plant, 1 cup"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V301_S0011",
+            "start_frame": 419,
+            "end_frame": 496,
+            "start_ts": 16.76,
+            "end_ts": 19.84,
+            "duration": 3.08,
+            "keyframes": [
+                {
+                    "frame_idx": 457,
+                    "timestamp": 18.28,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V301/L26_V301_S0011_F000457.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "và thiếu hàng lông được Đình chỗ tài lẻ",
+                "ocr_text": "HTV line N M NGON mỗi ngày Aj N M NGÓN moi ngày Aj",
+                "vlm_caption": {
+                    "detailed_description": "A man and woman are cooking together in a modern kitchen, with the woman holding a bowl and the man standing beside a stove.",
+                    "objects_and_counts": [
+                        "2 person, 2 vase, 2 bowl, 5 potted plant, 2 bottle"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V301_S0012",
+            "start_frame": 497,
+            "end_frame": 557,
+            "start_ts": 19.88,
+            "end_ts": 22.28,
+            "duration": 2.4,
+            "keyframes": [
+                {
+                    "frame_idx": 527,
+                    "timestamp": 21.08,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V301/L26_V301_S0012_F000527.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "À, mấy trẻ quá không? Ừ đúng",
+                "ocr_text": "Online Ay",
+                "vlm_caption": {
+                    "detailed_description": "A chef in a white uniform with red accents is seated in a kitchen setting, smiling and looking to the side.",
+                    "objects_and_counts": [
+                        "1 person, 2 potted plant, 2 refrigerator, 2 vase"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V301_S0013",
+            "start_frame": 558,
+            "end_frame": 660,
+            "start_ts": 22.32,
+            "end_ts": 26.4,
+            "duration": 4.08,
+            "keyframes": [
+                {
+                    "frame_idx": 609,
+                    "timestamp": 24.36,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V301/L26_V301_S0013_F000609.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Tại vì Minh Phương mới biết được thông tin nha, phổ tai có rất là nhiều chất sắc.",
+                "ocr_text": "HTV Online N NGÓN mỗi ngày Live Well Wel Aj",
+                "vlm_caption": {
+                    "detailed_description": "A woman in an apron stands next to a man in a chef's coat in a kitchen, holding a bowl and gesturing towards a pot on a stove.",
+                    "objects_and_counts": [
+                        "2 person, 4 bowl, 2 potted plant, 1 vase, 1 bottle, 1 spoon"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V301_S0014",
+            "start_frame": 661,
+            "end_frame": 711,
+            "start_ts": 26.44,
+            "end_ts": 28.44,
+            "duration": 2.0,
+            "keyframes": [
+                {
+                    "frame_idx": 686,
+                    "timestamp": 27.44,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V301/L26_V301_S0014_F000686.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Đúng không?",
+                "ocr_text": "Online Ay",
+                "vlm_caption": {
+                    "detailed_description": "A chef in a white uniform with red accents is standing in a kitchen, with shelves displaying various jars and a hanging plant in the background.",
+                    "objects_and_counts": [
+                        "1 person, 2 refrigerator, 2 potted plant, 4 vase"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V301_S0015",
+            "start_frame": 712,
+            "end_frame": 789,
+            "start_ts": 28.48,
+            "end_ts": 31.56,
+            "duration": 3.08,
+            "keyframes": [
+                {
+                    "frame_idx": 750,
+                    "timestamp": 30.0,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V301/L26_V301_S0015_F000750.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Phổ tai thì chỉ nấu chè thôi Chỉ làm được cái gì Cho nên là sẽ nấu chè",
+                "ocr_text": "HTV Online N M NGÓN mỗi ngày Cat Wel, Live Well Aj",
+                "vlm_caption": {
+                    "detailed_description": "A woman in an apron stands next to a man in a chef's coat, both near a stove with a pot on it, in a kitchen setting with various cooking utensils and ingredients visible.",
+                    "objects_and_counts": [
+                        "2 person, 5 bowl, 2 potted plant, 1 bottle, 2 spoon"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V301_S0016",
+            "start_frame": 790,
+            "end_frame": 872,
+            "start_ts": 31.6,
+            "end_ts": 34.88,
+            "duration": 3.28,
+            "keyframes": [
+                {
+                    "frame_idx": 831,
+                    "timestamp": 33.24,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V301/L26_V301_S0016_F000831.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Không hẳn là phổ tai chỉ có thể nấu chè Mà có thể làm rất là nhiều món khác",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "A chef in a white uniform with red accents gestures with his hands while standing in a kitchen with shelves displaying jars and a potted plant.",
+                    "objects_and_counts": [
+                        "1 person, 1 refrigerator, 3 potted plant, 4 bottle"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V301_S0017",
+            "start_frame": 873,
+            "end_frame": 927,
+            "start_ts": 34.92,
+            "end_ts": 37.08,
+            "duration": 2.16,
+            "keyframes": [
+                {
+                    "frame_idx": 900,
+                    "timestamp": 36.0,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V301/L26_V301_S0017_F000900.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Không có nha Đối với cái người mà mê",
+                "ocr_text": "Online N M NGÓN mỗi ngày Eat well, Live Well Aj",
+                "vlm_caption": {
+                    "detailed_description": "A woman in a yellow shirt and white apron is speaking in a kitchen with a window and shelves in the background.",
+                    "objects_and_counts": [
+                        "2 person, 2 potted plant"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V301_S0018",
+            "start_frame": 928,
+            "end_frame": 973,
+            "start_ts": 37.12,
+            "end_ts": 38.92,
+            "duration": 1.8,
+            "keyframes": [
+                {
+                    "frame_idx": 950,
+                    "timestamp": 38.0,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V301/L26_V301_S0018_F000950.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Ăn ngọt như Minh Phương thì Minh Phương chỉ",
+                "ocr_text": "HT/V Online N M NOON mỗi ngày r Well, Live Well Aj",
+                "vlm_caption": {
+                    "detailed_description": "A man and a woman stand in a modern kitchen, with the woman holding a bowl and the man gesturing with his hands.",
+                    "objects_and_counts": [
+                        "2 person, 4 bowl, 1 bottle, 2 potted plant, 1 vase, 2 spoon"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V301_S0019",
+            "start_frame": 974,
+            "end_frame": 1009,
+            "start_ts": 38.96,
+            "end_ts": 40.36,
+            "duration": 1.4,
+            "keyframes": [
+                {
+                    "frame_idx": 991,
+                    "timestamp": 39.64,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V301/L26_V301_S0019_F000991.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "thấy là phổ tai là nấu chè thôi.",
+                "ocr_text": "HTV Online N M NGÓN mỗi ngày at wall, Live Walt. Aj",
+                "vlm_caption": {
+                    "detailed_description": "A woman in a yellow shirt and red apron is standing in a kitchen, holding a card with the text \"MOM NONG\" and \"Eat Well. Live Well.\"",
+                    "objects_and_counts": [
+                        "2 person, 1 bottle, 3 bowl"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V301_S0020",
+            "start_frame": 1010,
+            "end_frame": 1035,
+            "start_ts": 40.4,
+            "end_ts": 41.4,
+            "duration": 1.0,
+            "keyframes": [
+                {
+                    "frame_idx": 1022,
+                    "timestamp": 40.88,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V301/L26_V301_S0020_F001022.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Bây giờ cả không?",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "A chef in a white uniform with red accents stands in a modern kitchen with shelves displaying jars and a potted plant.",
+                    "objects_and_counts": [
+                        "1 person, 1 refrigerator, 2 vase, 3 bottle, 3 potted plant, 1 tie"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V301_S0021",
+            "start_frame": 1036,
+            "end_frame": 1073,
+            "start_ts": 41.44,
+            "end_ts": 42.92,
+            "duration": 1.48,
+            "keyframes": [
+                {
+                    "frame_idx": 1054,
+                    "timestamp": 42.16,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V301/L26_V301_S0021_F001054.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Bây giờ là Hàng Long nấu món khác.",
+                "ocr_text": "HTV Online N M NGÓN môi ngày tat Well, Ulva Well. Aj",
+                "vlm_caption": {
+                    "detailed_description": "A woman wearing a yellow shirt and a white apron with red accents stands in a kitchen, arms crossed, with a window and shelves in the background.",
+                    "objects_and_counts": [
+                        "1 person, 2 bottle, 2 bowl"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V301_S0022",
+            "start_frame": 1074,
+            "end_frame": 1116,
+            "start_ts": 42.96,
+            "end_ts": 44.64,
+            "duration": 1.68,
+            "keyframes": [
+                {
+                    "frame_idx": 1095,
+                    "timestamp": 43.8,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V301/L26_V301_S0022_F001095.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Nhanh, gọn lẹ, đơn giản luôn",
+                "ocr_text": "HTV Online NGON",
+                "vlm_caption": {
+                    "detailed_description": "A man in a white chef's coat with red accents is speaking and gesturing in a kitchen setting with various jars and a potted plant in the background.",
+                    "objects_and_counts": [
+                        "1 person, 1 refrigerator, 3 potted plant, 2 vase"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V301_S0023",
+            "start_frame": 1117,
+            "end_frame": 1167,
+            "start_ts": 44.68,
+            "end_ts": 46.68,
+            "duration": 2.0,
+            "keyframes": [
+                {
+                    "frame_idx": 1142,
+                    "timestamp": 45.68,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V301/L26_V301_S0023_F001142.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Mà đơn giản nhất là salad",
+                "ocr_text": "Online N M NGÓN",
+                "vlm_caption": {
+                    "detailed_description": "A woman in a yellow shirt and red apron stands in a kitchen, preparing to cook.",
+                    "objects_and_counts": [
+                        "2 person, 1 bottle, 2 bowl"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V301_S0024",
+            "start_frame": 1168,
+            "end_frame": 1199,
+            "start_ts": 46.72,
+            "end_ts": 47.96,
+            "duration": 1.24,
+            "keyframes": [
+                {
+                    "frame_idx": 1183,
+                    "timestamp": 47.32,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V301/L26_V301_S0024_F001183.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Làm ngay lập tức rồi",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "A chef in a white and red uniform stands in a kitchen, looking down at a piece of paper.",
+                    "objects_and_counts": [
+                        "1 person, 3 vase, 3 potted plant, 1 refrigerator, 2 bottle"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V301_S0025",
+            "start_frame": 1200,
+            "end_frame": 1273,
+            "start_ts": 48.0,
+            "end_ts": 50.92,
+            "duration": 2.92,
+            "keyframes": [],
+            "extracted_data": {
+                "transcript": "Làm mới tình",
+                "ocr_text": ""
+            }
+        },
+        {
+            "shot_id": "L26_V301_S0026",
+            "start_frame": 1274,
+            "end_frame": 1351,
+            "start_ts": 50.96,
+            "end_ts": 54.04,
+            "duration": 3.08,
+            "keyframes": [
+                {
+                    "frame_idx": 1312,
+                    "timestamp": 52.48,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V301/L26_V301_S0026_F001312.jpg"
+                },
+                {
+                    "frame_idx": 1293,
+                    "timestamp": 51.72,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V301/L26_V301_S0026_F001293.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Salad mực phổ tai, giòn mát, cực khoái",
+                "ocr_text": "HTV Online SALAD MỰC PHỔ TAI | Online SALAD MI TAI",
+                "vlm_caption": {
+                    "detailed_description": "A salad with various vegetables and a glass of water is displayed on a table.",
+                    "objects_and_counts": [
+                        "1 cup, 1 dining table, 1 fork, 5 carrot, 2 bowl"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V301_S0027",
+            "start_frame": 1352,
+            "end_frame": 1477,
+            "start_ts": 54.08,
+            "end_ts": 59.08,
+            "duration": 5.0,
+            "keyframes": [
+                {
+                    "frame_idx": 1414,
+                    "timestamp": 56.56,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V301/L26_V301_S0027_F001414.jpg"
+                },
+                {
+                    "frame_idx": 1445,
+                    "timestamp": 57.8,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V301/L26_V301_S0027_F001445.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "The image shows a close-up of various ingredients, including seaweed, garlic, and a bowl of yellow powder, arranged on a wooden surface with a blurred background.",
+                    "objects_and_counts": [
+                        "3 bowl, 1 apple, 1 spoon | 2 bowl"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V301_S0028",
+            "start_frame": 1479,
+            "end_frame": 1576,
+            "start_ts": 59.16,
+            "end_ts": 63.04,
+            "duration": 3.88,
+            "keyframes": [
+                {
+                    "frame_idx": 1527,
+                    "timestamp": 61.08,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V301/L26_V301_S0028_F001527.jpg"
+                },
+                {
+                    "frame_idx": 1503,
+                    "timestamp": 60.12,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V301/L26_V301_S0028_F001503.jpg"
+                },
+                {
+                    "frame_idx": 1551,
+                    "timestamp": 62.04,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V301/L26_V301_S0028_F001551.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Thank you.",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "The image features a close-up of fresh vegetables, including celery, onions, and carrots, arranged on a wooden surface with a blurred background of a green plate and a white bowl.",
+                    "objects_and_counts": [
+                        "2 bowl, 1 carrot | 1 carrot | 2 carrot"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V301_S0029",
+            "start_frame": 1577,
+            "end_frame": 1750,
+            "start_ts": 63.08,
+            "end_ts": 70.0,
+            "duration": 6.92,
+            "keyframes": [
+                {
+                    "frame_idx": 1663,
+                    "timestamp": 66.52,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V301/L26_V301_S0029_F001663.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "",
+                "ocr_text": "HTV Online NGUYÊN LIỆU 1. Mực lá: 200g 2. Phổ tai khô ngâm nở: 30g 3. Dưa leo: 2 trái 4. Cần tây: 50g 5. Cà rốt: 50g Aọt địu hương sữa tinh mì thêm ngon 130 g 6. Mè trắng rang thơm: IM 7. Ốt sừng cắt sợi: 1 trái 8. Nước hành tỏi, tương ớt 9. Bột ngọt, giấm gạo 10. Hạt nêm Il. Mayonnaise ngọt dịu",
+                "vlm_caption": {
+                    "detailed_description": "The image displays a list of ingredients for a recipe, including squid, vegetables, spices, and condiments, arranged on a wooden surface.",
+                    "objects_and_counts": [
+                        "1 carrot"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V301_S0030",
+            "start_frame": 1751,
+            "end_frame": 1911,
+            "start_ts": 70.04,
+            "end_ts": 76.44,
+            "duration": 6.4,
+            "keyframes": [
+                {
+                    "frame_idx": 1831,
+                    "timestamp": 73.24,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V301/L26_V301_S0030_F001831.jpg"
+                },
+                {
+                    "frame_idx": 1791,
+                    "timestamp": 71.64,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V301/L26_V301_S0030_F001791.jpg"
+                },
+                {
+                    "frame_idx": 1871,
+                    "timestamp": 74.84,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V301/L26_V301_S0030_F001871.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Mình chào quý vị khán giả đã quay trở lại với chương trình Món Ngon Mỗi Ngày Chương trình được tài trợ bởi công ty Ajinomoto Việt Nam",
+                "ocr_text": "HTV Online N NGÓN mỗi ngày Eor Wet, Live Wee Aj | HTV N M GON mỗi ngày Aj NGÓN mãi ngày | HTV Online N M NGÓN mỗi ngày tar Wel, Live Well Aj",
+                "vlm_caption": {
+                    "detailed_description": "A chef and a woman stand behind a kitchen counter, preparing to cook, with various cooking utensils and ingredients visible.",
+                    "objects_and_counts": [
+                        "2 person, 4 bottle, 4 potted plant, 1 bowl, 2 vase, 2 oven, 1 cup | 2 person, 4 bottle, 2 potted plant, 2 bowl, 1 vase | 2 person, 1 vase, 5 bottle, 2 bowl, 2 potted plant, 1 spoon"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V301_S0031",
+            "start_frame": 1912,
+            "end_frame": 1940,
+            "start_ts": 76.48,
+            "end_ts": 77.6,
+            "duration": 1.12,
+            "keyframes": [
+                {
+                    "frame_idx": 1926,
+                    "timestamp": 77.04,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V301/L26_V301_S0031_F001926.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Uhm, hào hức quá",
+                "ocr_text": "Online NG Eat Well, Live Will Aj",
+                "vlm_caption": {
+                    "detailed_description": "A woman in a yellow shirt and apron is gesturing with her fists in a kitchen setting.",
+                    "objects_and_counts": [
+                        "1 person, 3 bottle, 1 vase, 1 potted plant"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V301_S0032",
+            "start_frame": 1941,
+            "end_frame": 1977,
+            "start_ts": 77.64,
+            "end_ts": 79.08,
+            "duration": 1.44,
+            "keyframes": [
+                {
+                    "frame_idx": 1959,
+                    "timestamp": 78.36,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V301/L26_V301_S0032_F001959.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Bây giờ làm bằng trước nha Rồi",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "A hand is pressing down on a white object on a wooden cutting board.",
+                    "objects_and_counts": [
+                        "1 knife, 1 person, 1 dining table"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V301_S0033",
+            "start_frame": 1978,
+            "end_frame": 2055,
+            "start_ts": 79.12,
+            "end_ts": 82.2,
+            "duration": 3.08,
+            "keyframes": [
+                {
+                    "frame_idx": 2016,
+                    "timestamp": 80.64,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V301/L26_V301_S0033_F002016.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Mực lá này chúng ta đã làm sạch nè Cũng như là rửa",
+                "ocr_text": "HTV Online MỰC KHỨA VẤY RÔNG",
+                "vlm_caption": {
+                    "detailed_description": "A hand holds a knife over a piece of white fish on a wooden surface.",
+                    "objects_and_counts": [
+                        "1 person, 1 knife, 1 dining table"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V301_S0034",
+            "start_frame": 2056,
+            "end_frame": 2165,
+            "start_ts": 82.24,
+            "end_ts": 86.6,
+            "duration": 4.36,
+            "keyframes": [
+                {
+                    "frame_idx": 2110,
+                    "timestamp": 84.4,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V301/L26_V301_S0034_F002110.jpg"
+                },
+                {
+                    "frame_idx": 2083,
+                    "timestamp": 83.32,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V301/L26_V301_S0034_F002083.jpg"
+                },
+                {
+                    "frame_idx": 2137,
+                    "timestamp": 85.48,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V301/L26_V301_S0034_F002137.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Đúng rồi, lâu khô lại Bây giờ mình sẽ khứa 7 đồng cho nó nha Đối với những",
+                "ocr_text": "Online | HTV Online MỰC KHỨA VẨY RỒNG",
+                "vlm_caption": {
+                    "detailed_description": "A hand is using a knife to cut a piece of squid, with the text \"MỤC KHƯA VẤY RỒNG\" displayed at the bottom.",
+                    "objects_and_counts": [
+                        "1 person, 1 knife, 1 dining table | 1 person, 1 dining table"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V301_S0035",
+            "start_frame": 2166,
+            "end_frame": 2290,
+            "start_ts": 86.64,
+            "end_ts": 91.6,
+            "duration": 4.96,
+            "keyframes": [
+                {
+                    "frame_idx": 2228,
+                    "timestamp": 89.12,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V301/L26_V301_S0035_F002228.jpg"
+                },
+                {
+                    "frame_idx": 2197,
+                    "timestamp": 87.88,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V301/L26_V301_S0035_F002197.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Món ăn liên quan đến mực thì phần tạo hình khi mà chúng ta thưởng thức cũng rất là thú vị.",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "A person is using a blue brush to clean the inside of a white, textured object, likely a shellfish, on a wooden surface.",
+                    "objects_and_counts": [
+                        "1 person, 1 dining table, 1 cake | 1 person, 1 dining table"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V301_S0036",
+            "start_frame": 2291,
+            "end_frame": 2348,
+            "start_ts": 91.64,
+            "end_ts": 93.92,
+            "duration": 2.28,
+            "keyframes": [
+                {
+                    "frame_idx": 2319,
+                    "timestamp": 92.76,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V301/L26_V301_S0036_F002319.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Bây giờ mình sẽ pha phần sốt để mình ướp mực.",
+                "ocr_text": "HTY Online N M NGON mỗi ngày Ear Wes, Live Wes Aj",
+                "vlm_caption": {
+                    "detailed_description": "A man and a woman stand in a modern kitchen, preparing to cook, with various cooking utensils and ingredients visible on the counter.",
+                    "objects_and_counts": [
+                        "2 person, 1 vase, 3 bottle, 2 potted plant, 3 bowl, 1 spoon"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V301_S0037",
+            "start_frame": 2349,
+            "end_frame": 2444,
+            "start_ts": 93.96,
+            "end_ts": 97.76,
+            "duration": 3.8,
+            "keyframes": [
+                {
+                    "frame_idx": 2396,
+                    "timestamp": 95.84,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V301/L26_V301_S0037_F002396.jpg"
+                },
+                {
+                    "frame_idx": 2372,
+                    "timestamp": 94.88,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V301/L26_V301_S0037_F002372.jpg"
+                },
+                {
+                    "frame_idx": 2420,
+                    "timestamp": 96.8,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V301/L26_V301_S0037_F002420.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Mình sẽ cho vào đây là hạt nêm Aji ngon gà Cái đến là",
+                "ocr_text": "HTV Online Aji-ngon. HẠT NÊM 1m | Online Aji-ngon. HẠT NÊM Im | Online HẠT NÊM Im",
+                "vlm_caption": {
+                    "detailed_description": "A person in a white lab coat is holding a small, textured white bowl with a logo on it, using a spoon to scoop out a small amount of a yellowish substance from the bowl.",
+                    "objects_and_counts": [
+                        "2 person | 3 person, 2 bottle, 1 bowl"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V301_S0038",
+            "start_frame": 2445,
+            "end_frame": 2483,
+            "start_ts": 97.8,
+            "end_ts": 99.32,
+            "duration": 1.52,
+            "keyframes": [
+                {
+                    "frame_idx": 2464,
+                    "timestamp": 98.56,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V301/L26_V301_S0038_F002464.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "ปุกหงอก อาชินโนโมโต",
+                "ocr_text": "HTV Online BỘT NGỌT 1/2m",
+                "vlm_caption": {
+                    "detailed_description": "A clear glass bowl contains a small pile of yellow powder labeled \"BỘT NGỌT 1/2m\" on a white surface.",
+                    "objects_and_counts": [
+                        "1 wine glass"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V301_S0039",
+            "start_frame": 2484,
+            "end_frame": 2533,
+            "start_ts": 99.36,
+            "end_ts": 101.32,
+            "duration": 1.96,
+            "keyframes": [
+                {
+                    "frame_idx": 2508,
+                    "timestamp": 100.32,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V301/L26_V301_S0039_F002508.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Sốt mayonnaise, aji mayo ngọt dịu.",
+                "ocr_text": "HTV Online MAYONNAISE NGỌT DỊU 2M",
+                "vlm_caption": {
+                    "detailed_description": "A person is squeezing mayonnaise onto a spoon, with the text \"MAYONNAISE NGỌT DỊU 2M\" displayed at the bottom.",
+                    "objects_and_counts": [
+                        "1 person, 1 toothbrush"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V301_S0040",
+            "start_frame": 2534,
+            "end_frame": 2563,
+            "start_ts": 101.36,
+            "end_ts": 102.52,
+            "duration": 1.16,
+            "keyframes": [
+                {
+                    "frame_idx": 2548,
+                    "timestamp": 101.92,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V301/L26_V301_S0040_F002548.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "감사합니다.",
+                "ocr_text": "HTV Online MAYONNAISE NGỌT DỊU 2M",
+                "vlm_caption": {
+                    "detailed_description": "A hand is pouring mayonnaise into a glass bowl.",
+                    "objects_and_counts": [
+                        "1 person, 1 spoon"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V301_S0041",
+            "start_frame": 2564,
+            "end_frame": 2600,
+            "start_ts": 102.56,
+            "end_ts": 104.0,
+            "duration": 1.44,
+            "keyframes": [
+                {
+                    "frame_idx": 2582,
+                    "timestamp": 103.28,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V301/L26_V301_S0041_F002582.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Xa tế để tạo màu.",
+                "ocr_text": "HTV Online SA TẾ IM",
+                "vlm_caption": {
+                    "detailed_description": "A person is adding a red ingredient from a small white bowl into a clear glass bowl containing a yellow substance.",
+                    "objects_and_counts": [
+                        "3 bowl, 4 person, 1 dining table, 1 knife"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V301_S0042",
+            "start_frame": 2601,
+            "end_frame": 2626,
+            "start_ts": 104.04,
+            "end_ts": 105.04,
+            "duration": 1.0,
+            "keyframes": [
+                {
+                    "frame_idx": 2613,
+                    "timestamp": 104.52,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V301/L26_V301_S0042_F002613.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "ít nước hành tỏi băm",
+                "ocr_text": "Online NƯỚC HÀNH TỎI BẮM IM",
+                "vlm_caption": {
+                    "detailed_description": "A clear glass bowl contains a mixture of minced garlic, a dark red paste, and a white substance, with text indicating \"NƯỚC HÀNH TỎI BĂM 1M.\"",
+                    "objects_and_counts": [
+                        "1 wine glass"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V301_S0043",
+            "start_frame": 2627,
+            "end_frame": 2717,
+            "start_ts": 105.08,
+            "end_ts": 108.68,
+            "duration": 3.6,
+            "keyframes": [
+                {
+                    "frame_idx": 2672,
+                    "timestamp": 106.88,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V301/L26_V301_S0043_F002672.jpg"
+                },
+                {
+                    "frame_idx": 2649,
+                    "timestamp": 105.96,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V301/L26_V301_S0043_F002649.jpg"
+                },
+                {
+                    "frame_idx": 2694,
+                    "timestamp": 107.76,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V301/L26_V301_S0043_F002694.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Và cuối cùng thêm vào đây một ít tiêu nữa Rồi mình khuấy đều lên",
+                "ocr_text": "TIÊU HTV Online ÍT TIÊU | HTV Online TIÊU ÍT TIÊU | HTV ÍT TIÊU",
+                "vlm_caption": {
+                    "detailed_description": "A person in a white lab coat holds a small, white, cylindrical object labeled \"TIÊU\" in their hand.",
+                    "objects_and_counts": [
+                        "2 person | 2 person, 1 spoon, 1 bowl, 1 dining table | 1 person, 1 remote"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V301_S0044",
+            "start_frame": 2718,
+            "end_frame": 2779,
+            "start_ts": 108.72,
+            "end_ts": 111.16,
+            "duration": 2.44,
+            "keyframes": [
+                {
+                    "frame_idx": 2748,
+                    "timestamp": 109.92,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V301/L26_V301_S0044_F002748.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Nhưng mà Hoàng Long ơi, Minh Phương thắc mắc là tại sao trong cái phim này,",
+                "ocr_text": "Onlin",
+                "vlm_caption": {
+                    "detailed_description": "A hand is stirring a mixture in a glass bowl with a spoon.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V301_S0045",
+            "start_frame": 2780,
+            "end_frame": 2854,
+            "start_ts": 111.2,
+            "end_ts": 114.16,
+            "duration": 2.96,
+            "keyframes": [
+                {
+                    "frame_idx": 2817,
+                    "timestamp": 112.68,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V301/L26_V301_S0045_F002817.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "phần nước sốt này lại có mayonaise ajimayo ngọt dịu",
+                "ocr_text": "HTV Online N NGÓN mỗi ngày Eat Well, Live Well. Aj",
+                "vlm_caption": {
+                    "detailed_description": "A woman in a yellow shirt and red apron is gesturing with her right hand while standing in a kitchen.",
+                    "objects_and_counts": [
+                        "1 person, 2 vase, 1 potted plant, 1 bowl"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V301_S0046",
+            "start_frame": 2855,
+            "end_frame": 3005,
+            "start_ts": 114.2,
+            "end_ts": 120.2,
+            "duration": 6.0,
+            "keyframes": [
+                {
+                    "frame_idx": 2930,
+                    "timestamp": 117.2,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V301/L26_V301_S0046_F002930.jpg"
+                },
+                {
+                    "frame_idx": 2892,
+                    "timestamp": 115.68,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V301/L26_V301_S0046_F002892.jpg"
+                },
+                {
+                    "frame_idx": 2967,
+                    "timestamp": 118.68,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V301/L26_V301_S0046_F002967.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Cái việc mà cho thêm cái phần sốt mayonnaise, aji mayo ngọt dịu vào sẽ giúp cho mực có vị béo thơm và hấp dẫn hơn.",
+                "ocr_text": "HTV Online N M NGON mỗi ngày Ear Well, Live Weil. Aj NGÓN ƯỚP MỰC VỚI MAYONNAISE NGỌT DỊU ĐỂ MỰC BÉO THƠM HẤP DẪN | HTV Online N M. NGÓN mỗi ngày Aj ƯỚP MỰC VỚI MAYONNAISE NGỌT DỊU ĐỂ MỰC BÉO THƠM HẤP DẪN? | HTV Online N M NGON mỗi ngày Eat Well. Live Well. Aj ƯỚP MỰC VỚI MAYONNAISE NGỌT DỊU ĐỂ MỰC BÉO THƠM HẤP DẪN",
+                "vlm_caption": {
+                    "detailed_description": "A chef and a woman in an apron stand in a kitchen, preparing to cook, with a sign reading \"Món ngon mọi ngày\" in the background.",
+                    "objects_and_counts": [
+                        "2 person | 2 person, 3 bottle, 2 potted plant, 3 bowl, 1 vase, 1 spoon, 1 oven"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V301_S0047",
+            "start_frame": 3006,
+            "end_frame": 3080,
+            "start_ts": 120.24,
+            "end_ts": 123.2,
+            "duration": 2.96,
+            "keyframes": [
+                {
+                    "frame_idx": 3043,
+                    "timestamp": 121.72,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V301/L26_V301_S0047_F003043.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Thì ra đây là một cái bí quyết nè",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "A clear glass bowl with a scalloped edge contains a white, creamy substance being stirred with chopsticks and a spoon.",
+                    "objects_and_counts": [
+                        "1 vase"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V301_S0048",
+            "start_frame": 3081,
+            "end_frame": 3131,
+            "start_ts": 123.24,
+            "end_ts": 125.24,
+            "duration": 2.0,
+            "keyframes": [
+                {
+                    "frame_idx": 3106,
+                    "timestamp": 124.24,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V301/L26_V301_S0048_F003106.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Nhìn thôi là thấy béo rồi đó",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "A hand pours a liquid into a glass bowl containing a yellowish substance.",
+                    "objects_and_counts": [
+                        "1 person, 2 dining table, 1 book"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V301_S0049",
+            "start_frame": 3132,
+            "end_frame": 3165,
+            "start_ts": 125.28,
+            "end_ts": 126.6,
+            "duration": 1.32,
+            "keyframes": [
+                {
+                    "frame_idx": 3148,
+                    "timestamp": 125.92,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V301/L26_V301_S0049_F003148.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Mực thì đã ướp trời giấu thấm",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A hand uses a spoon to transfer sliced vegetables from a white plate into a glass bowl.",
+                    "objects_and_counts": [
+                        "1 person, 1 carrot, 1 bowl, 1 vase, 1 dining table"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V301_S0050",
+            "start_frame": 3166,
+            "end_frame": 3200,
+            "start_ts": 126.64,
+            "end_ts": 128.0,
+            "duration": 1.36,
+            "keyframes": [
+                {
+                    "frame_idx": 3183,
+                    "timestamp": 127.32,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V301/L26_V301_S0050_F003183.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "ướp sơ cái phần mà",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "A person is holding a white plate with sliced vegetables over a glass bowl containing similar vegetables, with a red logo and the text \"HTV Online\" visible in the background.",
+                    "objects_and_counts": [
+                        "2 person, 4 bowl, 1 dining table, 1 carrot"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V301_S0051",
+            "start_frame": 3201,
+            "end_frame": 3274,
+            "start_ts": 128.04,
+            "end_ts": 130.96,
+            "duration": 2.92,
+            "keyframes": [
+                {
+                    "frame_idx": 3237,
+                    "timestamp": 129.48,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V301/L26_V301_S0051_F003237.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "dưa leo với cà rốt với đường dưa leo mình bỏ hộp đi cái việc mà mình",
+                "ocr_text": "HTY Onlin: ĐƯỜNG IM",
+                "vlm_caption": {
+                    "detailed_description": "A hand is sprinkling sugar into a bowl containing sliced vegetables.",
+                    "objects_and_counts": [
+                        "1 person, 1 bowl, 2 carrot"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V301_S0052",
+            "start_frame": 3275,
+            "end_frame": 3380,
+            "start_ts": 131.0,
+            "end_ts": 135.2,
+            "duration": 4.2,
+            "keyframes": [
+                {
+                    "frame_idx": 3327,
+                    "timestamp": 133.08,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V301/L26_V301_S0052_F003327.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Mình cho đường và ướp chung với dưa leo cà rốt để cho 2 cái này nó trở nên giò và ngọt hơn",
+                "ocr_text": "HTV Online N M NGON mỗi ngày Eat Well, Live Well. Aj ƯỚP DƯA LEO, CÀ RỐT VỚI ĐƯỜNG GIÚP DƯA LEO VÀ CÀ RỐT Ay GIÒN VÀ NGỌT HƠN",
+                "vlm_caption": {
+                    "detailed_description": "A chef in a white uniform is speaking in front of a backdrop with the \"MON NGON mỗi ngày\" logo and Ajinomoto branding.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V301_S0053",
+            "start_frame": 3381,
+            "end_frame": 3440,
+            "start_ts": 135.24,
+            "end_ts": 137.6,
+            "duration": 2.36,
+            "keyframes": [
+                {
+                    "frame_idx": 3410,
+                    "timestamp": 136.4,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V301/L26_V301_S0053_F003410.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Sau khi mình cho phần đường vào cả dưa leo và cà rốt",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "A hand is sprinkling seasoning over a bowl of sliced vegetables.",
+                    "objects_and_counts": [
+                        "11 carrot, 2 spoon, 1 bowl"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V301_S0054",
+            "start_frame": 3441,
+            "end_frame": 3498,
+            "start_ts": 137.64,
+            "end_ts": 139.92,
+            "duration": 2.28,
+            "keyframes": [
+                {
+                    "frame_idx": 3469,
+                    "timestamp": 138.76,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V301/L26_V301_S0054_F003469.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Thì mình sẽ để khoảng 5 phút, sau đó mình sẽ phát ráo trở lại.",
+                "ocr_text": "HTV Online N M NGÓN mỗi ngày Ear wes, Live Wes Aj",
+                "vlm_caption": {
+                    "detailed_description": "A man and woman stand in a kitchen, preparing food, with a \"MON NGON\" sign and various kitchen items visible.",
+                    "objects_and_counts": [
+                        "2 person, 4 bottle, 1 vase, 3 bowl, 2 potted plant, 1 spoon, 1 sink, 1 oven"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V301_S0055",
+            "start_frame": 3499,
+            "end_frame": 3559,
+            "start_ts": 139.96,
+            "end_ts": 142.36,
+            "duration": 2.4,
+            "keyframes": [
+                {
+                    "frame_idx": 3529,
+                    "timestamp": 141.16,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V301/L26_V301_S0055_F003529.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Để pha sốt trộn gỏi chúng ta sẽ cần vào đây một ít giấm.",
+                "ocr_text": "TV Online Lên Vinoger Men Giấm Gạo CHLA THANH DAU CHUẨN TỰ NỀN GIẤM GẠO IM",
+                "vlm_caption": {
+                    "detailed_description": "A person is pouring a yellow liquid from a bottle labeled \"Giấm Gạo\" into a clear glass bowl on a white surface.",
+                    "objects_and_counts": [
+                        "2 person, 1 bowl, 1 dining table, 1 bottle, 1 book, 1 fork"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V301_S0056",
+            "start_frame": 3560,
+            "end_frame": 3595,
+            "start_ts": 142.4,
+            "end_ts": 143.8,
+            "duration": 1.4,
+            "keyframes": [
+                {
+                    "frame_idx": 3577,
+                    "timestamp": 143.08,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V301/L26_V301_S0056_F003577.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Cứ đến là đường",
+                "ocr_text": "HTV Online ĐƯỜNG 1M",
+                "vlm_caption": {
+                    "detailed_description": "A hand is stirring a clear liquid in a glass bowl with a spoon.",
+                    "objects_and_counts": [
+                        "1 person, 1 spoon, 1 cup"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V301_S0057",
+            "start_frame": 3596,
+            "end_frame": 3640,
+            "start_ts": 143.84,
+            "end_ts": 145.6,
+            "duration": 1.76,
+            "keyframes": [
+                {
+                    "frame_idx": 3618,
+                    "timestamp": 144.72,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V301/L26_V301_S0057_F003618.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "mình khuấy đều lên cho tan đường ra",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "A chef in a white uniform is holding a clear glass bowl with a spoon, preparing to mix ingredients.",
+                    "objects_and_counts": [
+                        "2 person, 1 bowl, 1 dining table"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V301_S0058",
+            "start_frame": 3641,
+            "end_frame": 3669,
+            "start_ts": 145.64,
+            "end_ts": 146.76,
+            "duration": 1.12,
+            "keyframes": [
+                {
+                    "frame_idx": 3655,
+                    "timestamp": 146.2,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V301/L26_V301_S0058_F003655.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Đường hòa tan cũng phải dấm",
+                "ocr_text": "HTV Online N M NGÓN mỗi ngày Cat Wel. Live Well Aj",
+                "vlm_caption": {
+                    "detailed_description": "A man and a woman stand in a modern kitchen, with the man holding a small bowl and the woman wearing an apron, preparing to cook.",
+                    "objects_and_counts": [
+                        "2 person, 1 vase, 6 bottle, 2 potted plant, 2 bowl, 1 cup, 1 spoon, 1 sink"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V301_S0059",
+            "start_frame": 3670,
+            "end_frame": 3733,
+            "start_ts": 146.8,
+            "end_ts": 149.32,
+            "duration": 2.52,
+            "keyframes": [
+                {
+                    "frame_idx": 3701,
+                    "timestamp": 148.04,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V301/L26_V301_S0059_F003701.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Làm cho vào đây là sốt mayonaise ajimayo ngọt dịu",
+                "ocr_text": "HTV Online MAYONNAISE NGỌT DỊU 2M",
+                "vlm_caption": {
+                    "detailed_description": "A hand is squeezing mayonnaise into a clear glass bowl.",
+                    "objects_and_counts": [
+                        "2 person, 1 bowl, 1 cup, 1 banana"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V301_S0060",
+            "start_frame": 3734,
+            "end_frame": 3874,
+            "start_ts": 149.36,
+            "end_ts": 154.96,
+            "duration": 5.6,
+            "keyframes": [
+                {
+                    "frame_idx": 3804,
+                    "timestamp": 152.16,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V301/L26_V301_S0060_F003804.jpg"
+                },
+                {
+                    "frame_idx": 3839,
+                    "timestamp": 153.56,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V301/L26_V301_S0060_F003839.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Nước trộn gỏi ngày hôm nay khá là đặc biệt bởi vì có thêm độ béo béo của mayonaise aji mayo.",
+                "ocr_text": "HTV RA NGON mỗi ngày Eat Well, Live Well. Ai NGON 78 ngà Aj | HTV NGON mỗi ngày Eat Well. Live Well. Aj N M NGON mal noay Aj II IF",
+                "vlm_caption": {
+                    "detailed_description": "A man and a woman in a kitchen setting are preparing a dish, with the man holding a small bowl and the woman gesturing with her hand.",
+                    "objects_and_counts": [
+                        "2 person, 1 refrigerator, 1 vase, 3 potted plant, 1 sink, 1 bowl, 1 bottle | 2 person, 1 refrigerator, 2 sink, 2 potted plant, 1 vase"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V301_S0061",
+            "start_frame": 3875,
+            "end_frame": 3978,
+            "start_ts": 155.0,
+            "end_ts": 159.12,
+            "duration": 4.12,
+            "keyframes": [
+                {
+                    "frame_idx": 3926,
+                    "timestamp": 157.04,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V301/L26_V301_S0061_F003926.jpg"
+                },
+                {
+                    "frame_idx": 3900,
+                    "timestamp": 156.0,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V301/L26_V301_S0061_F003900.jpg"
+                },
+                {
+                    "frame_idx": 3952,
+                    "timestamp": 158.08,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V301/L26_V301_S0061_F003952.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Thanh mát chua chua của giấm gạo lên men cũng như là đường đúng không nào? Đúng rồi",
+                "ocr_text": "online | Online",
+                "vlm_caption": {
+                    "detailed_description": "A person is holding a glass bowl containing a creamy substance and using a spoon to scoop it.",
+                    "objects_and_counts": [
+                        "1 person, 1 bowl | 1 person, 1 cup, 1 bottle, 1 bowl | 1 person, 1 bowl, 1 spoon"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V301_S0062",
+            "start_frame": 3979,
+            "end_frame": 4023,
+            "start_ts": 159.16,
+            "end_ts": 160.92,
+            "duration": 1.76,
+            "keyframes": [
+                {
+                    "frame_idx": 4001,
+                    "timestamp": 160.04,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V301/L26_V301_S0062_F004001.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Bây giờ mình sẽ tới công đoạn là mình áp chảo mực.",
+                "ocr_text": "HT/V Online N M NGÓN mỗi ngày Ear Well, Live Well Aj",
+                "vlm_caption": {
+                    "detailed_description": "A man and a woman stand in a modern kitchen, preparing to cook, with various cooking ingredients and utensils visible on the counter.",
+                    "objects_and_counts": [
+                        "2 person, 1 vase, 6 bottle, 2 potted plant, 2 bowl, 1 spoon, 1 oven"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V301_S0063",
+            "start_frame": 4024,
+            "end_frame": 4059,
+            "start_ts": 160.96,
+            "end_ts": 162.36,
+            "duration": 1.4,
+            "keyframes": [
+                {
+                    "frame_idx": 4041,
+                    "timestamp": 161.64,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V301/L26_V301_S0063_F004041.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Một ít dầu ăn vào chảo",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "A droplet of oil is being poured into a hot frying pan on a stovetop."
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V301_S0064",
+            "start_frame": 4060,
+            "end_frame": 4113,
+            "start_ts": 162.4,
+            "end_ts": 164.52,
+            "duration": 2.12,
+            "keyframes": [
+                {
+                    "frame_idx": 4086,
+                    "timestamp": 163.44,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V301/L26_V301_S0064_F004086.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Chúng ta sẽ cho cái mặt mà chúng ta đã",
+                "ocr_text": "HTV Online N M NGÓN mỗi ngày Eat Well, Live Well Aj",
+                "vlm_caption": {
+                    "detailed_description": "A chef and a woman are cooking together in a kitchen, with the chef stirring a pan on a gas stove and the woman gesturing with her hands.",
+                    "objects_and_counts": [
+                        "2 person, 2 bottle, 1 vase, 2 potted plant, 3 bowl, 1 cup, 1 spoon, 1 oven"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V301_S0065",
+            "start_frame": 4114,
+            "end_frame": 4203,
+            "start_ts": 164.56,
+            "end_ts": 168.12,
+            "duration": 3.56,
+            "keyframes": [
+                {
+                    "frame_idx": 4158,
+                    "timestamp": 166.32,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V301/L26_V301_S0065_F004158.jpg"
+                },
+                {
+                    "frame_idx": 4136,
+                    "timestamp": 165.44,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V301/L26_V301_S0065_F004136.jpg"
+                },
+                {
+                    "frame_idx": 4180,
+                    "timestamp": 167.2,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V301/L26_V301_S0065_F004180.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Khứa xéo nó vào trước đúng không?",
+                "ocr_text": "HTV Online BÓN nỗi ngày at well, Live Weit. Aj | Online | at Well, Uve Well Online",
+                "vlm_caption": {
+                    "detailed_description": "A person in a white chef's coat is cooking in a pan on a gas stove, while another person in a yellow shirt and red apron gestures towards the cooking process.",
+                    "objects_and_counts": [
+                        "2 person, 2 bowl, 1 oven, 1 spoon | 3 bowl, 2 person, 1 oven, 1 spoon | 2 person, 2 bowl, 1 refrigerator, 2 spoon, 1 oven"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V301_S0066",
+            "start_frame": 4204,
+            "end_frame": 4280,
+            "start_ts": 168.16,
+            "end_ts": 171.2,
+            "duration": 3.04,
+            "keyframes": [
+                {
+                    "frame_idx": 4242,
+                    "timestamp": 169.68,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V301/L26_V301_S0066_F004242.jpg"
+                },
+                {
+                    "frame_idx": 4261,
+                    "timestamp": 170.44,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V301/L26_V301_S0066_F004261.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Mực thì chắc chắn rất là nhanh chín đúng không Hoàng Long? Đúng rồi",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "A wooden spatula stirs a thick, yellowish mixture in a non-stick frying pan.",
+                    "objects_and_counts": [
+                        "1 bowl, 1 banana"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V301_S0067",
+            "start_frame": 4281,
+            "end_frame": 4351,
+            "start_ts": 171.24,
+            "end_ts": 174.04,
+            "duration": 2.8,
+            "keyframes": [
+                {
+                    "frame_idx": 4316,
+                    "timestamp": 172.64,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V301/L26_V301_S0067_F004316.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Mình lật được chưa ta? Lật rồi Wow",
+                "ocr_text": "Online = Blendy y",
+                "vlm_caption": {
+                    "detailed_description": "A man and woman are cooking together in a modern kitchen, with the man stirring a pan and the woman gesturing with her hands.",
+                    "objects_and_counts": [
+                        "2 person, 2 bottle, 3 bowl, 1 vase, 2 potted plant, 1 spoon, 1 cup"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V301_S0068",
+            "start_frame": 4352,
+            "end_frame": 4446,
+            "start_ts": 174.08,
+            "end_ts": 177.84,
+            "duration": 3.76,
+            "keyframes": [
+                {
+                    "frame_idx": 4399,
+                    "timestamp": 175.96,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V301/L26_V301_S0068_F004399.jpg"
+                },
+                {
+                    "frame_idx": 4375,
+                    "timestamp": 175.0,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V301/L26_V301_S0068_F004375.jpg"
+                },
+                {
+                    "frame_idx": 4422,
+                    "timestamp": 176.88,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V301/L26_V301_S0068_F004422.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Đẹp quá Hồng ơi",
+                "ocr_text": "Online DEP QUAT | Online | Online DEP QUAI",
+                "vlm_caption": {
+                    "detailed_description": "A wooden spatula lifts a piece of food from a hot pan.",
+                    "objects_and_counts": [
+                        "1 donut, 1 banana, 1 bowl | 1 bird"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V301_S0069",
+            "start_frame": 4447,
+            "end_frame": 4519,
+            "start_ts": 177.88,
+            "end_ts": 180.76,
+            "duration": 2.88,
+            "keyframes": [
+                {
+                    "frame_idx": 4483,
+                    "timestamp": 179.32,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V301/L26_V301_S0069_F004483.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Như vậy là chúng ta áp chảo hai mặt mực xong rồi đó",
+                "ocr_text": "HTV Online =E Blendy N M IGÓN ổĩ ngày Live Well Aj MOTO.",
+                "vlm_caption": {
+                    "detailed_description": "A chef and a woman are cooking together in a modern kitchen, with various cooking utensils and ingredients visible.",
+                    "objects_and_counts": [
+                        "2 person, 3 bowl, 1 vase, 1 bottle, 2 potted plant, 2 spoon, 1 cup"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V301_S0070",
+            "start_frame": 4520,
+            "end_frame": 4675,
+            "start_ts": 180.8,
+            "end_ts": 187.0,
+            "duration": 6.2,
+            "keyframes": [
+                {
+                    "frame_idx": 4597,
+                    "timestamp": 183.88,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V301/L26_V301_S0070_F004597.jpg"
+                },
+                {
+                    "frame_idx": 4558,
+                    "timestamp": 182.32,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V301/L26_V301_S0070_F004558.jpg"
+                },
+                {
+                    "frame_idx": 4636,
+                    "timestamp": 185.44,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V301/L26_V301_S0070_F004636.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Chảo cho hai mật nó vừa chín tới là được Sau đó mình lấy ra Hấp dẫn quá Bây giờ mình lấy thớt, chuẩn bị mình cắt thôi",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "A chef is using a wooden spatula to transfer fried food from a pan to a hot surface.",
+                    "objects_and_counts": [
+                        "1 person, 1 bowl, 1 knife, 1 book | 4 bowl, 1 dining table, 1 oven, 1 cake | 2 bowl, 1 spoon, 1 person, 1 dining table"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V301_S0071",
+            "start_frame": 4676,
+            "end_frame": 4767,
+            "start_ts": 187.04,
+            "end_ts": 190.68,
+            "duration": 3.64,
+            "keyframes": [
+                {
+                    "frame_idx": 4721,
+                    "timestamp": 188.84,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V301/L26_V301_S0071_F004721.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Lông sẽ cắt ra thằng đó mình cắt xéo",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "A knife slices through a piece of food on a wooden cutting board, with visible oil and seasoning on the board.",
+                    "objects_and_counts": [
+                        "1 knife, 1 fork"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V301_S0072",
+            "start_frame": 4768,
+            "end_frame": 4860,
+            "start_ts": 190.72,
+            "end_ts": 194.4,
+            "duration": 3.68,
+            "keyframes": [
+                {
+                    "frame_idx": 4814,
+                    "timestamp": 192.56,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V301/L26_V301_S0072_F004814.jpg"
+                },
+                {
+                    "frame_idx": 4791,
+                    "timestamp": 191.64,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V301/L26_V301_S0072_F004791.jpg"
+                },
+                {
+                    "frame_idx": 4837,
+                    "timestamp": 193.48,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V301/L26_V301_S0072_F004837.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Rồi ta cho ra dĩa Wow hấp dẫn chưa",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "A close-up of a wooden surface with scattered food crumbs and a pink object in the background.",
+                    "objects_and_counts": [
+                        "1 person, 2 knife"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V301_S0073",
+            "start_frame": 4861,
+            "end_frame": 4991,
+            "start_ts": 194.44,
+            "end_ts": 199.64,
+            "duration": 5.2,
+            "keyframes": [
+                {
+                    "frame_idx": 4926,
+                    "timestamp": 197.04,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V301/L26_V301_S0073_F004926.jpg"
+                },
+                {
+                    "frame_idx": 4893,
+                    "timestamp": 195.72,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V301/L26_V301_S0073_F004893.jpg"
+                },
+                {
+                    "frame_idx": 4958,
+                    "timestamp": 198.32,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V301/L26_V301_S0073_F004958.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Đây là phần dưa leo và cà rốt Phương đã bắt ráo nhưng mà không có bóp quá mạnh.",
+                "ocr_text": "Online Eat Well, Live Well! Ai | HTV Online M NGÓN mỗi ngày | HTV Online MI NG mỗi r Eat Well, Live Well.",
+                "vlm_caption": {
+                    "detailed_description": "A woman in a yellow shirt and apron holds a plate of food in a kitchen setting.",
+                    "objects_and_counts": [
+                        "2 person, 2 vase, 1 cup | 1 person, 3 vase, 1 potted plant, 1 cup | 1 person, 2 vase, 1 potted plant"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V301_S0074",
+            "start_frame": 4992,
+            "end_frame": 5122,
+            "start_ts": 199.68,
+            "end_ts": 204.88,
+            "duration": 5.2,
+            "keyframes": [
+                {
+                    "frame_idx": 5057,
+                    "timestamp": 202.28,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V301/L26_V301_S0074_F005057.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Đúng rồi, dưa leo nè, cà rốt nè Cà rốt Và đây là cần tây nè Ừ Ớ nào cũng phải trụng chung với nhau luôn",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "A person is using chopsticks to mix sliced vegetables in a white bowl.",
+                    "objects_and_counts": [
+                        "1 person, 1 bowl, 9 carrot, 1 spoon"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V301_S0075",
+            "start_frame": 5123,
+            "end_frame": 5203,
+            "start_ts": 204.92,
+            "end_ts": 208.12,
+            "duration": 3.2,
+            "keyframes": [
+                {
+                    "frame_idx": 5163,
+                    "timestamp": 206.52,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V301/L26_V301_S0075_F005163.jpg"
+                },
+                {
+                    "frame_idx": 5143,
+                    "timestamp": 205.72,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V301/L26_V301_S0075_F005143.jpg"
+                },
+                {
+                    "frame_idx": 5183,
+                    "timestamp": 207.32,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V301/L26_V301_S0075_F005183.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Đồng nghĩa là mình sẽ cho một chơi lại chút xíu",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "A person in a white coat holds chopsticks with green-tipped ends, with another individual partially visible in the background.",
+                    "objects_and_counts": [
+                        "2 person | 2 person, 1 spoon, 1 dining table, 1 bowl, 1 carrot | 2 person, 1 dining table"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V301_S0076",
+            "start_frame": 5204,
+            "end_frame": 5320,
+            "start_ts": 208.16,
+            "end_ts": 212.8,
+            "duration": 4.64,
+            "keyframes": [
+                {
+                    "frame_idx": 5262,
+                    "timestamp": 210.48,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V301/L26_V301_S0076_F005262.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Phổ tai thì thông thường mình mua về nè, mình Phương nấu chè thì Phương sẽ ngâm đúng không?",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "A person is using chopsticks to mix seaweed with shredded vegetables in a bowl.",
+                    "objects_and_counts": [
+                        "1 bowl, 9 carrot, 1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V301_S0077",
+            "start_frame": 5321,
+            "end_frame": 5442,
+            "start_ts": 212.84,
+            "end_ts": 217.68,
+            "duration": 4.84,
+            "keyframes": [
+                {
+                    "frame_idx": 5381,
+                    "timestamp": 215.24,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V301/L26_V301_S0077_F005381.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Còn đối với khi làm gỏi thì chúng ta cũng ngâm thôi hả? Hay như thế nào? Mình cũng ngâm rồi sau đó mình để ráo nước",
+                "ocr_text": "HTV Online Ee Blendy/ N M NGÓN mỗi ngày Cat Well, Live Wea. Aj",
+                "vlm_caption": {
+                    "detailed_description": "A chef and a woman are preparing food in a modern kitchen with a Mon Ngon logo on the wall.",
+                    "objects_and_counts": [
+                        "2 person, 3 bowl, 1 vase, 1 bottle, 2 potted plant, 1 sink, 1 spoon"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V301_S0078",
+            "start_frame": 5443,
+            "end_frame": 5555,
+            "start_ts": 217.72,
+            "end_ts": 222.2,
+            "duration": 4.48,
+            "keyframes": [
+                {
+                    "frame_idx": 5499,
+                    "timestamp": 219.96,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V301/L26_V301_S0078_F005499.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Bản thân nó có một loại rong miễn nên mình cũng khá ứng dụng khá là nhiều món đấy",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "A person is using chopsticks to mix seaweed salad with vegetables on a white plate.",
+                    "objects_and_counts": [
+                        "1 person, 1 bowl, 11 carrot, 2 spoon"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V301_S0079",
+            "start_frame": 5556,
+            "end_frame": 5666,
+            "start_ts": 222.24,
+            "end_ts": 226.64,
+            "duration": 4.4,
+            "keyframes": [
+                {
+                    "frame_idx": 5611,
+                    "timestamp": 224.44,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V301/L26_V301_S0079_F005611.jpg"
+                },
+                {
+                    "frame_idx": 5583,
+                    "timestamp": 223.32,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V301/L26_V301_S0079_F005583.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "We can mix the sauce twice, but we need to mix a little bit first so that the vegetables will absorb.",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "A person is pouring a white liquid from a small glass bowl onto a plate of mixed vegetables, including seaweed, carrots, and cucumbers.",
+                    "objects_and_counts": [
+                        "1 dining table, 3 person, 1 wine glass | 1 dining table, 1 book, 2 person, 1 bowl, 3 carrot"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V301_S0080",
+            "start_frame": 5667,
+            "end_frame": 5734,
+            "start_ts": 226.68,
+            "end_ts": 229.36,
+            "duration": 2.68,
+            "keyframes": [
+                {
+                    "frame_idx": 5700,
+                    "timestamp": 228.0,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V301/L26_V301_S0080_F005700.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Nó áo một cái lớp sốt trước Rồi bây giờ thì chúng ta",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "A person is using chopsticks to mix a salad of vegetables and seaweed with a dressing.",
+                    "objects_and_counts": [
+                        "9 carrot, 1 person, 1 spoon, 2 bowl, 1 dining table"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V301_S0081",
+            "start_frame": 5735,
+            "end_frame": 5774,
+            "start_ts": 229.4,
+            "end_ts": 230.96,
+            "duration": 1.56,
+            "keyframes": [
+                {
+                    "frame_idx": 5754,
+                    "timestamp": 230.16,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V301/L26_V301_S0081_F005754.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "sẽ cho ra dĩa đi ha",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "A hand is using chopsticks to pick up a piece of food from a plate of mixed vegetables.",
+                    "objects_and_counts": [
+                        "1 person, 1 spoon, 1 book, 1 bowl, 1 carrot"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V301_S0082",
+            "start_frame": 5775,
+            "end_frame": 5824,
+            "start_ts": 231.0,
+            "end_ts": 232.96,
+            "duration": 1.96,
+            "keyframes": [
+                {
+                    "frame_idx": 5799,
+                    "timestamp": 231.96,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V301/L26_V301_S0082_F005799.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "",
+                "ocr_text": "HTV Online N NGON mỗi ngày",
+                "vlm_caption": {
+                    "detailed_description": "The image features a red square logo with the text \"MON NGON MỖI NGÀY\" and the logo of HTV Online."
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V301_S0083",
+            "start_frame": 5825,
+            "end_frame": 5915,
+            "start_ts": 233.0,
+            "end_ts": 236.6,
+            "duration": 3.6,
+            "keyframes": [
+                {
+                    "frame_idx": 5870,
+                    "timestamp": 234.8,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V301/L26_V301_S0083_F005870.jpg"
+                },
+                {
+                    "frame_idx": 5847,
+                    "timestamp": 233.88,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V301/L26_V301_S0083_F005847.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Phần rau củ được áo một cái lớp sốt trộn",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "A person is using chopsticks to place a piece of food into a bowl filled with various vegetables.",
+                    "objects_and_counts": [
+                        "3 bowl, 2 person, 1 dining table | 3 bowl, 1 spoon, 2 person, 2 dining table, 1 carrot"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V301_S0084",
+            "start_frame": 5916,
+            "end_frame": 5993,
+            "start_ts": 236.64,
+            "end_ts": 239.72,
+            "duration": 3.08,
+            "keyframes": [
+                {
+                    "frame_idx": 5954,
+                    "timestamp": 238.16,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V301/L26_V301_S0084_F005954.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "thiệt là mỏng cho nên nhìn rất là bóng bậy, rất là hấp dẫn",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "A green bowl contains a salad of sliced vegetables, including cucumbers, carrots, and radishes, with a spoon and chopsticks resting on the edge.",
+                    "objects_and_counts": [
+                        "11 carrot, 1 bowl, 1 spoon"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V301_S0085",
+            "start_frame": 5994,
+            "end_frame": 6056,
+            "start_ts": 239.76,
+            "end_ts": 242.24,
+            "duration": 2.48,
+            "keyframes": [
+                {
+                    "frame_idx": 6025,
+                    "timestamp": 241.0,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V301/L26_V301_S0085_F006025.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Kể đến là mực nà.",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "A hand uses chopsticks to pick up a piece of food from a plate on a white countertop.",
+                    "objects_and_counts": [
+                        "2 bowl, 1 dining table, 1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V301_S0086",
+            "start_frame": 6057,
+            "end_frame": 6147,
+            "start_ts": 242.28,
+            "end_ts": 245.88,
+            "duration": 3.6,
+            "keyframes": [
+                {
+                    "frame_idx": 6102,
+                    "timestamp": 244.08,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V301/L26_V301_S0086_F006102.jpg"
+                },
+                {
+                    "frame_idx": 6079,
+                    "timestamp": 243.16,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V301/L26_V301_S0086_F006079.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Bây giờ mình sẽ thêm tí xíu mẹ",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A dish of cooked seafood, including squid and vegetables, is presented in a green bowl.",
+                    "objects_and_counts": [
+                        "1 bowl, 7 carrot | 3 bowl, 4 carrot, 1 cup"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V301_S0087",
+            "start_frame": 6148,
+            "end_frame": 6191,
+            "start_ts": 245.92,
+            "end_ts": 247.64,
+            "duration": 1.72,
+            "keyframes": [
+                {
+                    "frame_idx": 6169,
+                    "timestamp": 246.76,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V301/L26_V301_S0087_F006169.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Phần mề rang ở trên đúng không?",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "A hand is sprinkling seasoning onto a dish of stir-fried vegetables and seafood.",
+                    "objects_and_counts": [
+                        "1 person, 2 bowl, 1 fork, 1 cup, 1 spoon"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V301_S0088",
+            "start_frame": 6192,
+            "end_frame": 6279,
+            "start_ts": 247.68,
+            "end_ts": 251.16,
+            "duration": 3.48,
+            "keyframes": [
+                {
+                    "frame_idx": 6235,
+                    "timestamp": 249.4,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V301/L26_V301_S0088_F006235.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "1 ít nước sốt nữa",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "A hand is using a spoon to mix a salad in a green bowl placed on a beige cloth.",
+                    "objects_and_counts": [
+                        "1 person, 1 spoon, 3 carrot, 2 bowl, 1 dining table"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V301_S0089",
+            "start_frame": 6280,
+            "end_frame": 6360,
+            "start_ts": 251.2,
+            "end_ts": 254.4,
+            "duration": 3.2,
+            "keyframes": [
+                {
+                    "frame_idx": 6320,
+                    "timestamp": 252.8,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V301/L26_V301_S0089_F006320.jpg"
+                },
+                {
+                    "frame_idx": 6300,
+                    "timestamp": 252.0,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V301/L26_V301_S0089_F006300.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Cho một ít Ajinomoto ngọt dịu Tăng thêm",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "A sauce is being drizzled over a dish of seafood and vegetables on a green plate.",
+                    "objects_and_counts": [
+                        "2 bowl"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V301_S0090",
+            "start_frame": 6361,
+            "end_frame": 6411,
+            "start_ts": 254.44,
+            "end_ts": 256.44,
+            "duration": 2.0,
+            "keyframes": [
+                {
+                    "frame_idx": 6386,
+                    "timestamp": 255.44,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V301/L26_V301_S0090_F006386.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "một chút xíu cái độ béo trong món xe lăn này.",
+                "ocr_text": "online",
+                "vlm_caption": {
+                    "detailed_description": "A hand is drizzling a white sauce from a blue squeeze bottle onto a plate of food.",
+                    "objects_and_counts": [
+                        "1 person, 3 bowl, 1 dining table"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V301_S0091",
+            "start_frame": 6412,
+            "end_frame": 6455,
+            "start_ts": 256.48,
+            "end_ts": 258.2,
+            "duration": 1.72,
+            "keyframes": [
+                {
+                    "frame_idx": 6433,
+                    "timestamp": 257.32,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V301/L26_V301_S0091_F006433.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Này Một chút húng lũi",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "A plate of stir-fried seafood and vegetables is garnished with a drizzle of sauce and a sprig of mint, served on a white cloth with a small bowl of dipping sauce to the side.",
+                    "objects_and_counts": [
+                        "2 bowl"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V301_S0092",
+            "start_frame": 6456,
+            "end_frame": 6573,
+            "start_ts": 258.24,
+            "end_ts": 262.92,
+            "duration": 4.68,
+            "keyframes": [
+                {
+                    "frame_idx": 6514,
+                    "timestamp": 260.56,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V301/L26_V301_S0092_F006514.jpg"
+                },
+                {
+                    "frame_idx": 6485,
+                    "timestamp": 259.4,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V301/L26_V301_S0092_F006485.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Như vậy là chúng ta đã hoàn thành món salad rất là mới lạ đúng không?",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "A dish of seafood salad garnished with sesame seeds and herbs is presented on a green plate.",
+                    "objects_and_counts": [
+                        "2 bowl, 1 dining table | 1 bowl, 1 dining table, 1 carrot"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V301_S0093",
+            "start_frame": 6574,
+            "end_frame": 6709,
+            "start_ts": 262.96,
+            "end_ts": 268.36,
+            "duration": 5.4,
+            "keyframes": [
+                {
+                    "frame_idx": 6641,
+                    "timestamp": 265.64,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V301/L26_V301_S0093_F006641.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Chúng ta có salad rồi, thì Long Nghĩa sẽ kết hợp với món gà nướng, cỏ, xà hương cũng rất là thú vị.",
+                "ocr_text": "HT/V N NGON mỗi ngày Eat Well, Live Well. Aj BỮA ĂN ĐẦY ĐỦ DINH DƯỠNG VỚI GÀ NƯỚNG cỎ XẠ HƯƠNG",
+                "vlm_caption": {
+                    "detailed_description": "A chef and a woman stand in a modern kitchen, preparing a nutritious meal featuring chicken, bamboo shoots, and garlic.",
+                    "objects_and_counts": [
+                        "3 person, 1 refrigerator, 1 bottle, 2 potted plant, 2 bowl, 1 oven, 1 sink"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V301_S0094",
+            "start_frame": 6710,
+            "end_frame": 6805,
+            "start_ts": 268.4,
+            "end_ts": 272.2,
+            "duration": 3.8,
+            "keyframes": [
+                {
+                    "frame_idx": 6757,
+                    "timestamp": 270.28,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V301/L26_V301_S0094_F006757.jpg"
+                },
+                {
+                    "frame_idx": 6733,
+                    "timestamp": 269.32,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V301/L26_V301_S0094_F006733.jpg"
+                },
+                {
+                    "frame_idx": 6781,
+                    "timestamp": 271.24,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V301/L26_V301_S0094_F006781.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Miếng mực áp chảo xem xém, săn chắc, thơm lừng mùi sa tế",
+                "ocr_text": "HTV Online săn chắs | Online",
+                "vlm_caption": {
+                    "detailed_description": "The image shows a close-up of a dish with noodles, vegetables, and a mint leaf garnish, with a blurred background.",
+                    "objects_and_counts": [
+                        "1 broccoli | 1 carrot | 1 broccoli, 1 sandwich"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V301_S0095",
+            "start_frame": 6807,
+            "end_frame": 6927,
+            "start_ts": 272.28,
+            "end_ts": 277.08,
+            "duration": 4.8,
+            "keyframes": [
+                {
+                    "frame_idx": 6867,
+                    "timestamp": 274.68,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V301/L26_V301_S0095_F006867.jpg"
+                },
+                {
+                    "frame_idx": 6837,
+                    "timestamp": 273.48,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V301/L26_V301_S0095_F006837.jpg"
+                },
+                {
+                    "frame_idx": 6897,
+                    "timestamp": 275.88,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V301/L26_V301_S0095_F006897.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "quyện với sốt trộn beo béo, chua nhẹ, phổ tai và rau củ giòn giòn, tươi mát.",
+                "ocr_text": "HTV Online Chuc nhẹ | Online",
+                "vlm_caption": {
+                    "detailed_description": "The image shows a close-up of a dish with various vegetables and noodles, garnished with a creamy sauce and herbs, with the text \"Beo beo\" and \"HTV Online\" visible.",
+                    "objects_and_counts": [
+                        "1 bowl"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V301_S0096",
+            "start_frame": 6928,
+            "end_frame": 6994,
+            "start_ts": 277.12,
+            "end_ts": 279.76,
+            "duration": 2.64,
+            "keyframes": [
+                {
+                    "frame_idx": 6961,
+                    "timestamp": 278.44,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V301/L26_V301_S0096_F006961.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Ăn tới đâu là bừng tỉnh tới đó",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "A hand holds chopsticks over a plate of colorful salad, with a glass of water and a small bowl of dressing nearby.",
+                    "objects_and_counts": [
+                        "1 person, 1 cup, 1 dining table, 5 carrot, 1 bowl"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V301_S0097",
+            "start_frame": 6995,
+            "end_frame": 7121,
+            "start_ts": 279.8,
+            "end_ts": 284.84,
+            "duration": 5.04,
+            "keyframes": [
+                {
+                    "frame_idx": 7058,
+                    "timestamp": 282.32,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V301/L26_V301_S0097_F007058.jpg"
+                },
+                {
+                    "frame_idx": 7026,
+                    "timestamp": 281.04,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V301/L26_V301_S0097_F007026.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Bí quyết để thực hiện món salad mực phổ tai đã có rồi Chân chơi gì nữa, làm ngay thôi",
+                "ocr_text": "HTV Online N NGON mỗi ngày Eat Wel. Live Wet. Aj",
+                "vlm_caption": {
+                    "detailed_description": "A man and a woman stand in a modern kitchen, both wearing chef attire, with a backdrop featuring a logo and a display of various items.",
+                    "objects_and_counts": [
+                        "2 person, 2 oven, 1 refrigerator, 1 sink, 1 potted plant | 2 person, 1 refrigerator, 1 sink, 2 potted plant, 1 oven"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V301_S0098",
+            "start_frame": 7122,
+            "end_frame": 7185,
+            "start_ts": 284.88,
+            "end_ts": 287.4,
+            "duration": 2.52,
+            "keyframes": [
+                {
+                    "frame_idx": 7153,
+                    "timestamp": 286.12,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V301/L26_V301_S0098_F007153.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Để xem lại các công thức của chương trình Món Ngon Mỗi Ngày",
+                "ocr_text": "HTV Online NGON mỗi ngày Eat Well, Live Well. Ay",
+                "vlm_caption": {
+                    "detailed_description": "A man and a woman stand in a kitchen, both wearing aprons, with a Monin logo in the background.",
+                    "objects_and_counts": [
+                        "2 person, 1 potted plant, 3 bowl, 1 vase"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V301_S0099",
+            "start_frame": 7186,
+            "end_frame": 7335,
+            "start_ts": 287.44,
+            "end_ts": 293.4,
+            "duration": 5.96,
+            "keyframes": [
+                {
+                    "frame_idx": 7260,
+                    "timestamp": 290.4,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V301/L26_V301_S0099_F007260.jpg"
+                },
+                {
+                    "frame_idx": 7223,
+                    "timestamp": 288.92,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V301/L26_V301_S0099_F007223.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "thì các bạn có thể truy cập vào kênh Youtube, website và fanpage của chương trình. Xin chào và hẹn gặp lại!",
+                "ocr_text": "HTV Online XEM KỸ CẮC BƯỚC NẤU ẢN: N M Youtube Món Ngon Mỗi Ngày Aj Website Fanpage Facebook Món Ngon Mỗi Ngày N M NGON mỗi ngày Aj | HTV Online N M NGON mỗi ngày Aj N M NGON môi ngày Aj",
+                "vlm_caption": {
+                    "detailed_description": "A chef and a woman stand behind a kitchen counter, with the chef wearing a white chef's coat and the woman in a yellow and white apron, both facing the camera.",
+                    "objects_and_counts": [
+                        "3 person, 5 potted plant, 1 bowl, 1 bottle, 2 oven, 2 vase | 2 person, 5 potted plant, 4 vase, 1 bowl, 1 bottle, 1 oven, 1 sink"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V301_S0100",
+            "start_frame": 7336,
+            "end_frame": 7654,
+            "start_ts": 293.44,
+            "end_ts": 306.16,
+            "duration": 12.72,
+            "keyframes": [
+                {
+                    "frame_idx": 7495,
+                    "timestamp": 299.8,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V301/L26_V301_S0100_F007495.jpg"
+                },
+                {
+                    "frame_idx": 7415,
+                    "timestamp": 296.6,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V301/L26_V301_S0100_F007415.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "",
+                "ocr_text": "HTV Online Nguyên liệu Ớt sừng cắt sợi: 1 trá Mực lá: 200g Nước hành tỏi Phố tai khô ngâm nở: 30g Dưa leo: 2 trấi Tương ớt, sa te Bột ngọt AJI-NO-MOTO* Cần tây: 50g Giám gạo Ajinomoto Cà rốt: 50g Hạt nêm Aji-ngon\" Gà Mè tráng rang thơm: 1M Xốt Mayonnaise Aji-mayo® Ngot Dịu Thực hiện chương trình Tham gia thực hiện ĐÀI TRUYỀN HÌNH TP. HCM Bản quyền kịch bản và cấu trúc Công ty Ajinomoto Việt Nam Phối hợp thực hiện Công ty Golden Scale chương trình thuộc Công ty Hakuhodo Việt Nam Công ty HKFilm công ty Ajinomoto Việt Nam | HT Nguyên liệu Ớt sừng cắt sợi: 1 trái Mực lá: 200g Nước hành tỏi Phổ tai khô ngâm nở: 30g Tương ớt, sa tế Dưa leo: 2 trái Cần tây: 50g Bột ngọt AJI-NO-MOTO® Giấm gạo Ajinomoto Cà rốt: 50g Mè trắng rang thơm: 1M Hạt nêm Aji-ngon® Gà Xốt Mayonnaise Aji-mayo® Ngọt Dịu",
+                "vlm_caption": {
+                    "detailed_description": "The image displays a list of ingredients for a recipe, including vegetables, spices, and condiments, arranged on a black surface with various food items around it.",
+                    "objects_and_counts": [
+                        "1 book | 5 bowl"
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,967 @@
+{
+    "video_id": "L30_V018",
+    "fps": 25.0,
+    "total_shots": 38,
+    "total_keyframes": 43,
+    "shots": [
+        {
+            "shot_id": "L30_V018_S0001",
+            "start_frame": 0,
+            "end_frame": 74,
+            "start_ts": 0.0,
+            "end_ts": 2.96,
+            "duration": 2.96,
+            "keyframes": [],
+            "extracted_data": {
+                "transcript": "",
+                "ocr_text": ""
+            }
+        },
+        {
+            "shot_id": "L30_V018_S0002",
+            "start_frame": 75,
+            "end_frame": 169,
+            "start_ts": 3.0,
+            "end_ts": 6.76,
+            "duration": 3.76,
+            "keyframes": [
+                {
+                    "frame_idx": 122,
+                    "timestamp": 4.88,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V018/L30_V018_S0002_F000122.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Thank you.",
+                "ocr_text": "Herbalife' thương hiệu quản lý cân nặng # & sức khỏe trên thế giới",
+                "vlm_caption": {
+                    "detailed_description": "The image features the Herbalife logo with the text \"thương hiệu quản lý cân nặng & sức khỏe trên thế giới\" and a green number one symbol."
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V018_S0003",
+            "start_frame": 170,
+            "end_frame": 289,
+            "start_ts": 6.8,
+            "end_ts": 11.56,
+            "duration": 4.76,
+            "keyframes": [
+                {
+                    "frame_idx": 229,
+                    "timestamp": 9.16,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V018/L30_V018_S0003_F000229.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "you",
+                "ocr_text": "Clip bạn đọc dự thi cuộc thi: Lan tỏa năng lượng tích cực 2024",
+                "vlm_caption": {
+                    "detailed_description": "The image contains text in Vietnamese, with a green background and white text."
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V018_S0004",
+            "start_frame": 290,
+            "end_frame": 558,
+            "start_ts": 11.6,
+            "end_ts": 22.32,
+            "duration": 10.72,
+            "keyframes": [
+                {
+                    "frame_idx": 424,
+                    "timestamp": 16.96,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V018/L30_V018_S0004_F000424.jpg"
+                },
+                {
+                    "frame_idx": 491,
+                    "timestamp": 19.64,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V018/L30_V018_S0004_F000491.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Tôi là thầy thuốc ưu tú, phó giáo sư, tiến sĩ, bác sĩ cao cấp Đỗ Quang Hùng, quyên là trưởng khoa Tàu Năm Mỹ, Bệnh viện Trà Đẩy nhiều năm liền.",
+                "ocr_text": "3 8 4 tuoi trẻt 7 6 5 Cuộc thi Lan tỏa năng lượng tích cực 2024: thương tiêu Trái tim người thầy thuốc PGS. TS. BS ĐỖ QUANG HÙNG | 3 8 4 tuoi trẻv 7 65 PGS. TS. BS ĐỖ QUANG HÙNG",
+                "vlm_caption": {
+                    "detailed_description": "A man in a white lab coat stands in front of a shelf displaying certificates and awards.",
+                    "objects_and_counts": [
+                        "1 person, 1 tie, 1 clock"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V018_S0005",
+            "start_frame": 559,
+            "end_frame": 627,
+            "start_ts": 22.36,
+            "end_ts": 25.08,
+            "duration": 2.72,
+            "keyframes": [
+                {
+                    "frame_idx": 593,
+                    "timestamp": 23.72,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V018/L30_V018_S0005_F000593.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Thank you.",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A doctor in a white coat is speaking to a patient with long dark hair, who is facing away from the camera.",
+                    "objects_and_counts": [
+                        "2 person, 1 tie"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V018_S0006",
+            "start_frame": 628,
+            "end_frame": 693,
+            "start_ts": 25.12,
+            "end_ts": 27.72,
+            "duration": 2.6,
+            "keyframes": [
+                {
+                    "frame_idx": 660,
+                    "timestamp": 26.4,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V018/L30_V018_S0006_F000660.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Yeah, that's right.",
+                "ocr_text": "tuổi trẻTv PGS. TS. BS P ĐỖ QUANG HÙNG",
+                "vlm_caption": {
+                    "detailed_description": "A man in a white coat with a name tag reading \"PGS. TS. BS. Đỗ Quang Hùng\" is speaking to a woman with long brown hair.",
+                    "objects_and_counts": [
+                        "2 person, 1 tie, 1 chair"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V018_S0007",
+            "start_frame": 694,
+            "end_frame": 735,
+            "start_ts": 27.76,
+            "end_ts": 29.4,
+            "duration": 1.64,
+            "keyframes": [
+                {
+                    "frame_idx": 714,
+                    "timestamp": 28.56,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V018/L30_V018_S0007_F000714.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A person's hand rests on a red book with various mechanical tools, including a caliper and a micrometer, placed on top.",
+                    "objects_and_counts": [
+                        "1 bed, 1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V018_S0008",
+            "start_frame": 736,
+            "end_frame": 797,
+            "start_ts": 29.44,
+            "end_ts": 31.88,
+            "duration": 2.44,
+            "keyframes": [
+                {
+                    "frame_idx": 766,
+                    "timestamp": 30.64,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V018/L30_V018_S0008_F000766.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "",
+                "ocr_text": "tuoi trẻm CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM ập - Tự đo - Hạnh phúc BAN CHẤP HÀNH TRUNG ƯƠNG HỘI KHUYẾN HỌC VIỆT NAM Trặng BẰNG KHEN NHÓM TÁC GIẢ PGS.TS.BS DỒ QUANG HÙNG VÀ THS.BS LÊ HOÀNG VĨNH BỆNH VIỆN CHỢ RẤY, THÁNH PHỐ HỒ CHÍ MINH \"Nhân tài đất Việt \" Tỉnh vực Y. Dược năm 2023 với Công trình Đã đạt Giai Nhĩ Giải thương \"Tạo hình thầm mỹ mùi bằng sụn sườn tự thân hoàn toàn\" (sống mùi được tạo hình bằng sụn sườn dập mềm cắt mịn) Hà Nội, ngày 18 tháng 12 năm 2023 T/M BAN CHẤP HÀNH TRUNG ƯƠNG HOI KHUYEN HỌC VIỆT NAM CHU TICH VÀO SỐ KHÊN THƯỚNG 00-KHVN SỐ: 117 guyen Thi Doan",
+                "vlm_caption": {
+                    "detailed_description": "The image shows a framed certificate from the National Union of Vietnamese Physicians, awarded to a group of medical professionals for their outstanding performance in a medical program."
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V018_S0009",
+            "start_frame": 798,
+            "end_frame": 1232,
+            "start_ts": 31.92,
+            "end_ts": 49.28,
+            "duration": 17.36,
+            "keyframes": [
+                {
+                    "frame_idx": 1015,
+                    "timestamp": 40.6,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V018/L30_V018_S0009_F001015.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Thật ra thì có một tham gia một chiến trường thì lúc đó thì tôi bất lực với một người bạn đồng đội chết trên bàn tay của tôi. Và lúc đó thu hút tôi theo nghề y ở trong một chiến trường Campuchia như vậy.",
+                "ocr_text": "tuoi trèv 8 4 7 5 PGS. TS. BS ĐỒ QUANG HÙNG",
+                "vlm_caption": {
+                    "detailed_description": "A man in a white coat stands in front of a shelf displaying certificates and awards, with a clock and a trophy visible in the background.",
+                    "objects_and_counts": [
+                        "1 person, 1 tie, 1 clock"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V018_S0010",
+            "start_frame": 1233,
+            "end_frame": 1366,
+            "start_ts": 49.32,
+            "end_ts": 54.64,
+            "duration": 5.32,
+            "keyframes": [
+                {
+                    "frame_idx": 1299,
+                    "timestamp": 51.96,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V018/L30_V018_S0010_F001299.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Tôi học đọc y khoa Sài Gòn năm 1982 đến năm 19...",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A man and a woman are sitting together, with the woman wearing glasses and a blue shirt, and the man in a striped shirt.",
+                    "objects_and_counts": [
+                        "2 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V018_S0011",
+            "start_frame": 1367,
+            "end_frame": 1461,
+            "start_ts": 54.68,
+            "end_ts": 58.44,
+            "duration": 3.76,
+            "keyframes": [
+                {
+                    "frame_idx": 1414,
+                    "timestamp": 56.56,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V018/L30_V018_S0011_F001414.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "và sau tốt nghiệp xong tôi được về",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "An elderly person is flipping through a photo album, revealing various family photographs.",
+                    "objects_and_counts": [
+                        "2 person, 1 laptop, 1 potted plant"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V018_S0012",
+            "start_frame": 1462,
+            "end_frame": 1573,
+            "start_ts": 58.48,
+            "end_ts": 62.92,
+            "duration": 4.44,
+            "keyframes": [
+                {
+                    "frame_idx": 1517,
+                    "timestamp": 60.68,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V018/L30_V018_S0012_F001517.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Bệnh viện Gà Rẫy để làm công tác chuyên môn cho đến ngày hôm nay.",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "The image shows a close-up of an elderly person's face, focusing on the nose and mouth area, with a blurred background.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V018_S0013",
+            "start_frame": 1575,
+            "end_frame": 2100,
+            "start_ts": 63.0,
+            "end_ts": 84.0,
+            "duration": 21.0,
+            "keyframes": [
+                {
+                    "frame_idx": 1837,
+                    "timestamp": 73.48,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V018/L30_V018_S0013_F001837.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Mặc dù tuổi hưu rồi, tôi vẫn đăng ký trong Bệnh viện Trà Rẫy tôi vẫn làm. Và Bệnh viện Trà Rẫy vẫn kéo dài tuổi hưu của tôi cho đến giờ, ngay nay 64 tuổi rồi. Vậy để mà làm sao mình trả ơn được cho những người bệnh nhân đã từng trải qua mình, đã từng ở trong Bệnh viện Trà Rẫy. Đó là những bài học rất lớn mà cuộc đời bác sĩ cần phải lưu tâm, bằng phải tạnh tâm với họ, như vậy đó.",
+                "ocr_text": "5 PGS. TS. BS ĐỒ QUANG HÙNG",
+                "vlm_caption": {
+                    "detailed_description": "A man in a white lab coat stands in front of a shelf displaying various awards and certificates.",
+                    "objects_and_counts": [
+                        "1 person, 1 tie, 1 clock"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V018_S0014",
+            "start_frame": 2101,
+            "end_frame": 2348,
+            "start_ts": 84.04,
+            "end_ts": 93.92,
+            "duration": 9.88,
+            "keyframes": [
+                {
+                    "frame_idx": 2224,
+                    "timestamp": 88.96,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V018/L30_V018_S0014_F002224.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Và chính vì vậy mà tôi vẫn cố tâm làm cho đến khi nào bệnh viện nhà đẩy không còn chấp nhận tôi nữa thì tôi sẽ từ chối và tôi sẽ ra đi để làm việc khác.",
+                "ocr_text": "8 tuoi trẻty 7 6 5",
+                "vlm_caption": {
+                    "detailed_description": "A man in a white coat and glasses is standing in front of a shelf displaying certificates and a clock.",
+                    "objects_and_counts": [
+                        "1 person, 1 tie, 1 clock"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V018_S0015",
+            "start_frame": 2349,
+            "end_frame": 2538,
+            "start_ts": 93.96,
+            "end_ts": 101.52,
+            "duration": 7.56,
+            "keyframes": [
+                {
+                    "frame_idx": 2443,
+                    "timestamp": 97.72,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V018/L30_V018_S0015_F002443.jpg"
+                },
+                {
+                    "frame_idx": 2396,
+                    "timestamp": 95.84,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V018/L30_V018_S0015_F002396.jpg"
+                },
+                {
+                    "frame_idx": 2490,
+                    "timestamp": 99.6,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V018/L30_V018_S0015_F002490.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "",
+                "ocr_text": "PGS. TS. BS ĐỎ QUANG HÙNG",
+                "vlm_caption": {
+                    "detailed_description": "A woman hands a card to an elderly man in a medical setting, with various medical instruments on a table.",
+                    "objects_and_counts": [
+                        "2 person, 1 laptop, 1 chair, 1 cell phone | 1 laptop, 2 person, 1 chair | 2 person, 1 tie, 3 book"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V018_S0016",
+            "start_frame": 2539,
+            "end_frame": 2620,
+            "start_ts": 101.56,
+            "end_ts": 104.8,
+            "duration": 3.24,
+            "keyframes": [
+                {
+                    "frame_idx": 2579,
+                    "timestamp": 103.16,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V018/L30_V018_S0016_F002579.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "trên nền tảng của",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A person in a white lab coat is handling small metallic objects on a red book, with a laptop and books in the background.",
+                    "objects_and_counts": [
+                        "1 person, 1 laptop"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V018_S0017",
+            "start_frame": 2621,
+            "end_frame": 2755,
+            "start_ts": 104.84,
+            "end_ts": 110.2,
+            "duration": 5.36,
+            "keyframes": [
+                {
+                    "frame_idx": 2688,
+                    "timestamp": 107.52,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V018/L30_V018_S0017_F002688.jpg"
+                },
+                {
+                    "frame_idx": 2654,
+                    "timestamp": 106.16,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V018/L30_V018_S0017_F002654.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "làm chuyên ngành bóng tạo hình thì rất thuận lợi cho việc phân tự thẩm mỹ",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A person wearing glasses and a white shirt is looking downward.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V018_S0018",
+            "start_frame": 2757,
+            "end_frame": 3059,
+            "start_ts": 110.28,
+            "end_ts": 122.36,
+            "duration": 12.08,
+            "keyframes": [
+                {
+                    "frame_idx": 2908,
+                    "timestamp": 116.32,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V018/L30_V018_S0018_F002908.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Tất nhiên cần phải tùy theo khía cạnh con mắt của người đó nữa, khía cạnh bàn tay của họ nữa. Nhưng mà đa số là khéo tay, đa số là được luyện kỹ về kỹ năng. Nhưng mà tất nhiên còn cái tâm nhìn nữa.",
+                "ocr_text": "4 7 5 tuoi trẻv PGS. TS. BS R ĐỖ QUANG HÙNG",
+                "vlm_caption": {
+                    "detailed_description": "A man in a white lab coat stands in front of a shelf displaying various awards and certificates.",
+                    "objects_and_counts": [
+                        "1 person, 1 tie, 1 clock"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V018_S0019",
+            "start_frame": 3060,
+            "end_frame": 3581,
+            "start_ts": 122.4,
+            "end_ts": 143.24,
+            "duration": 20.84,
+            "keyframes": [
+                {
+                    "frame_idx": 3320,
+                    "timestamp": 132.8,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V018/L30_V018_S0019_F003320.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Đầu này tôi được giải thưởng nhân tài đặc biệt, giải cao nhất của lĩnh vực y dược trong năm nay. Thì là giải quyết biến chứng, giải quyết dịch vụ bấm sinh, giải quyết chuyện chấn thương, tai nạn giao thông, tai nạn giao thông, tai nạn gây xương, kính mũi, rồi nói nhiễm trùng biến chứng.",
+                "ocr_text": "8 4 tuoi trẻty 7 6 5",
+                "vlm_caption": {
+                    "detailed_description": "A man in a white coat and glasses is speaking in front of a shelf displaying certificates and a clock.",
+                    "objects_and_counts": [
+                        "1 person, 1 tie, 1 clock"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V018_S0020",
+            "start_frame": 3582,
+            "end_frame": 3756,
+            "start_ts": 143.28,
+            "end_ts": 150.24,
+            "duration": 6.96,
+            "keyframes": [
+                {
+                    "frame_idx": 3669,
+                    "timestamp": 146.76,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V018/L30_V018_S0020_F003669.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "trung đại quý một cách gì trước đây vẫn để cho nhân tàn phế gần như cả tâm trời mà",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A man in a white coat and green tie is speaking to a woman with long hair.",
+                    "objects_and_counts": [
+                        "1 person, 1 tie"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V018_S0021",
+            "start_frame": 3757,
+            "end_frame": 4785,
+            "start_ts": 150.28,
+            "end_ts": 191.4,
+            "duration": 41.12,
+            "keyframes": [
+                {
+                    "frame_idx": 4271,
+                    "timestamp": 170.84,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V018/L30_V018_S0021_F004271.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "hoặc thì biến dạng mũi thì gãy đi công hoạch đi một bên và thậm chí công tới 45 độ 60 độ quay đó cho mày có những cái mũi mà nó còn quay lại khi mà tôi dặn dạng những bệnh nhân như vậy thì chính pháp tôi sẽ bị phải bây giờ làm cách nào để đưa họ sớm offline trở lại sống bình thường và chính vì vì tôi đi học ở Hàn Quốc học ở sinh học ở các nước bạn thấy ra là họ hướng tới một chuyện là khi họ đi dùng cách liệu tự thân để mà tạo ra những sản phẩm của họ tạo ra cái hình hài về thẩm mỹ cho họ thì rất an toàn",
+                "ocr_text": "O 7 6 5 PGS. TS. BS ĐỖ QUANG HÙNG 190",
+                "vlm_caption": {
+                    "detailed_description": "A man in a white lab coat stands in front of a shelf displaying certificates and awards, with a clock and a trophy visible in the background.",
+                    "objects_and_counts": [
+                        "1 person, 1 tie, 1 clock"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V018_S0022",
+            "start_frame": 4786,
+            "end_frame": 4889,
+            "start_ts": 191.44,
+            "end_ts": 195.56,
+            "duration": 4.12,
+            "keyframes": [
+                {
+                    "frame_idx": 4837,
+                    "timestamp": 193.48,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V018/L30_V018_S0022_F004837.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "谢谢大家",
+                "ocr_text": "Ghu Hà",
+                "vlm_caption": {
+                    "detailed_description": "An elderly man and a woman in a blue uniform are sitting closely together, with the woman holding a bouquet of yellow flowers.",
+                    "objects_and_counts": [
+                        "2 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V018_S0023",
+            "start_frame": 4890,
+            "end_frame": 5038,
+            "start_ts": 195.6,
+            "end_ts": 201.52,
+            "duration": 5.92,
+            "keyframes": [
+                {
+                    "frame_idx": 4964,
+                    "timestamp": 198.56,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V018/L30_V018_S0023_F004964.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Tôi có 3 người con, vợ tôi là bác sĩ Chúa Sản, cũng một đồng nhành ở thành phố.",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A hand points to a photograph of a family gathered around a table, with a person in a blue dress holding a bouquet of flowers.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V018_S0024",
+            "start_frame": 5039,
+            "end_frame": 5183,
+            "start_ts": 201.56,
+            "end_ts": 207.32,
+            "duration": 5.76,
+            "keyframes": [
+                {
+                    "frame_idx": 5111,
+                    "timestamp": 204.44,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V018/L30_V018_S0024_F005111.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hồ Chí Minh, Tiến sĩ Lê Thị Tư Hà, trước đây là trưởng phòng sẵn của Bệnh viện.",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A person wearing a blue shirt and glasses is looking downward.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V018_S0025",
+            "start_frame": 5184,
+            "end_frame": 5314,
+            "start_ts": 207.36,
+            "end_ts": 212.56,
+            "duration": 5.2,
+            "keyframes": [
+                {
+                    "frame_idx": 5249,
+                    "timestamp": 209.96,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V018/L30_V018_S0025_F005249.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "là người tự vũ bây giờ thì tủ là tuổi thu gì cũng bị vui lúc 55 tuổi nhưng mà hiện tại thì",
+                "ocr_text": "6 PGS. TS. BS R ĐỒ QUANG HÙNG",
+                "vlm_caption": {
+                    "detailed_description": "A man in a white lab coat stands in front of a shelf displaying certificates and awards.",
+                    "objects_and_counts": [
+                        "1 person, 1 tie, 1 clock"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V018_S0026",
+            "start_frame": 5315,
+            "end_frame": 5417,
+            "start_ts": 212.6,
+            "end_ts": 216.68,
+            "duration": 4.08,
+            "keyframes": [
+                {
+                    "frame_idx": 5366,
+                    "timestamp": 214.64,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V018/L30_V018_S0026_F005366.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Cậu vẫn làm việc mặc dù cô ấy năm nay là Chuẩn bị bước sang tuổi 60",
+                "ocr_text": "BS. Chu Ha",
+                "vlm_caption": {
+                    "detailed_description": "A man and a woman are sitting closely together, with the woman holding a yellow flower.",
+                    "objects_and_counts": [
+                        "2 person, 1 chair"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V018_S0027",
+            "start_frame": 5418,
+            "end_frame": 5537,
+            "start_ts": 216.72,
+            "end_ts": 221.48,
+            "duration": 4.76,
+            "keyframes": [
+                {
+                    "frame_idx": 5477,
+                    "timestamp": 219.08,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V018/L30_V018_S0027_F005477.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "nhưng gần năm nay, cô vẫn làm việc ở tựu, giống như là bác sĩ bình thường",
+                "ocr_text": "7 tuoi tre™v PGS. TS. BS ĐỒ QUANG HÙNG",
+                "vlm_caption": {
+                    "detailed_description": "A man in a white lab coat stands in front of a shelf displaying various awards and certificates.",
+                    "objects_and_counts": [
+                        "1 person, 1 tie, 1 clock"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V018_S0028",
+            "start_frame": 5538,
+            "end_frame": 6462,
+            "start_ts": 221.52,
+            "end_ts": 258.48,
+            "duration": 36.96,
+            "keyframes": [
+                {
+                    "frame_idx": 6000,
+                    "timestamp": 240.0,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V018/L30_V018_S0028_F006000.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "con tôi có 3 người con đặc thù là hai vợ chồng tôi là ba người con một là cô gái lớn thì hai người con lớn học bác sĩ hết cô gái lớn học xong bác sĩ tốt như bác sĩ ở Đại học y pha phòng thạch rồi cũng học về chuyên ngành tàu năm Mỹ học vô hồ tàu năm Mỹ rồi vậy ra sau đó thì cũng ước mơ của lòng tung bay thì có lại lập nghiệp đi thử thời vận ở bên Mỹ và thế một thời gian thời gian một thời gian thì cả cậu ra thành một cái gì xuất sắc bên Mỹ hiện tại của nó bác sĩ đồ trú của Mỹ Tất nhiên là học xong thì cô ấy hứa sẽ về Việt Nam",
+                "ocr_text": "8 tuoi trẻtv 7 5 6",
+                "vlm_caption": {
+                    "detailed_description": "A man in a white coat and glasses is standing in front of a shelf displaying various certificates and a clock.",
+                    "objects_and_counts": [
+                        "1 person, 1 tie, 1 clock"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V018_S0029",
+            "start_frame": 6463,
+            "end_frame": 6771,
+            "start_ts": 258.52,
+            "end_ts": 270.84,
+            "duration": 12.32,
+            "keyframes": [
+                {
+                    "frame_idx": 6617,
+                    "timestamp": 264.68,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V018/L30_V018_S0029_F006617.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Rồi con trai tôi thì kế tiếp là con trai tôi cũng bác sĩ đó, học trường truyền đội khoa học tập và hiện tại cũng học với nền tảng Mỹ, hiện tại là trưởng nền tảng Mỹ của Bệnh viện quận 11.",
+                "ocr_text": "7 PGS. TS. BS ĐỖ QUANG HÙNG",
+                "vlm_caption": {
+                    "detailed_description": "A man in a white coat stands in front of a shelf displaying certificates and awards.",
+                    "objects_and_counts": [
+                        "1 person, 1 tie, 1 clock"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V018_S0030",
+            "start_frame": 6772,
+            "end_frame": 6989,
+            "start_ts": 270.88,
+            "end_ts": 279.56,
+            "duration": 8.68,
+            "keyframes": [
+                {
+                    "frame_idx": 6880,
+                    "timestamp": 275.2,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V018/L30_V018_S0030_F006880.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Cô gái Úc thì nhỏ hơn, cách anh đó 12 tuổi, tất cả con giáp. Cô gái Úc thì sinh năm 2004.",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "An elderly man with glasses is speaking in front of a wall with a framed photograph of a young girl.",
+                    "objects_and_counts": [
+                        "2 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V018_S0031",
+            "start_frame": 6990,
+            "end_frame": 7211,
+            "start_ts": 279.6,
+            "end_ts": 288.44,
+            "duration": 8.84,
+            "keyframes": [
+                {
+                    "frame_idx": 7100,
+                    "timestamp": 284.0,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V018/L30_V018_S0031_F007100.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Cô gái Úc của tôi lại thích đi IT, công nghệ, phần mềm. Vậy ra thì cô đang học và chuẩn bị đi học bên Úc.",
+                "ocr_text": "5 tuoi trẻTy PGS. TS. BS ĐỖ QUANG HÙNG",
+                "vlm_caption": {
+                    "detailed_description": "A man in a white lab coat stands in front of a shelf displaying certificates and awards, with a clock and a framed document in the background.",
+                    "objects_and_counts": [
+                        "1 person, 1 tie, 1 clock"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V018_S0032",
+            "start_frame": 7212,
+            "end_frame": 7918,
+            "start_ts": 288.48,
+            "end_ts": 316.72,
+            "duration": 28.24,
+            "keyframes": [
+                {
+                    "frame_idx": 7565,
+                    "timestamp": 302.6,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V018/L30_V018_S0032_F007565.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "mình không ép học xong có thể là chuyển qua băng bằng 2 chuyển qua một ngành nghề nào đó nhưng mà ra không có chống nào bỏ ngành nghề đã chọn cả như vậy đó thì nói chung là tôi nghĩ rằng là trong môi trường là cũng vậy nếu học mình đi dù sao tôi với vợ tôi vẫn là nghệ niên mà cho nên là sẵn sàng trước mắt là thầy của nó này thầy của hai con thầy và mẹ nói chung là trở thành cha mẹ là người thầy Costa",
+                "ocr_text": "8 7 tuoi trẻv 5 6",
+                "vlm_caption": {
+                    "detailed_description": "A man in a white coat and glasses is speaking in front of a shelf displaying certificates and a clock.",
+                    "objects_and_counts": [
+                        "1 person, 1 tie, 1 clock"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V018_S0033",
+            "start_frame": 7919,
+            "end_frame": 8459,
+            "start_ts": 316.76,
+            "end_ts": 338.36,
+            "duration": 21.6,
+            "keyframes": [
+                {
+                    "frame_idx": 8189,
+                    "timestamp": 327.56,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V018/L30_V018_S0033_F008189.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "ở cuộc đời tôi bây giờ đến giờ phút này gần như là dành cho nghệ y rất là nhiều thằng chứa liên quân của từng ngày tôi không có thật ra thì chắc lại cũng quen rồi cũng không không thích đi chơi hay bà chồng nó cũng có thể trong nhà đi chơi cũng gì tài nội gì đó trong gia đình ta à",
+                "ocr_text": "5 7 6 tuci tre™y R PGS. TS. BS 90° ĐỒ QUANG HÙNG",
+                "vlm_caption": {
+                    "detailed_description": "A man in a white lab coat stands in front of a shelf displaying certificates and awards, with a clock and a framed document in the background.",
+                    "objects_and_counts": [
+                        "1 person, 1 tie, 1 clock"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V018_S0034",
+            "start_frame": 8460,
+            "end_frame": 8509,
+            "start_ts": 338.4,
+            "end_ts": 340.36,
+            "duration": 1.96,
+            "keyframes": [
+                {
+                    "frame_idx": 8484,
+                    "timestamp": 339.36,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V018/L30_V018_S0034_F008484.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Thank you.",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "An elderly man and a woman in a blue scrub top are sitting together, possibly in a medical or healthcare setting, with a white curtain and a potted plant in the background.",
+                    "objects_and_counts": [
+                        "2 person, 1 chair, 1 potted plant"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V018_S0035",
+            "start_frame": 8511,
+            "end_frame": 8667,
+            "start_ts": 340.44,
+            "end_ts": 346.68,
+            "duration": 6.24,
+            "keyframes": [
+                {
+                    "frame_idx": 8589,
+                    "timestamp": 343.56,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V018/L30_V018_S0035_F008589.jpg"
+                },
+                {
+                    "frame_idx": 8550,
+                    "timestamp": 342.0,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V018/L30_V018_S0035_F008550.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "người ta cho rằng là túi hưu thì",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A person wearing glasses is speaking, with a blurred background.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V018_S0036",
+            "start_frame": 8668,
+            "end_frame": 8959,
+            "start_ts": 346.72,
+            "end_ts": 358.36,
+            "duration": 11.64,
+            "keyframes": [
+                {
+                    "frame_idx": 8813,
+                    "timestamp": 352.52,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V018/L30_V018_S0036_F008813.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "được nghỉ ngơi nhưng mà đến giờ này càng tuổi hưu càng tuổi về lớn tuổi thì tôi lại rất nhiều việc hơn là tuổi trước đây",
+                "ocr_text": "7 6 tuoi treTy PGS. TS. BS ĐỒ QUANG HÙNG R",
+                "vlm_caption": {
+                    "detailed_description": "A man in a white lab coat stands in front of a shelf displaying certificates and awards, with a clock and a framed document in the background.",
+                    "objects_and_counts": [
+                        "1 person, 1 tie, 1 clock"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V018_S0037",
+            "start_frame": 8960,
+            "end_frame": 9068,
+            "start_ts": 358.4,
+            "end_ts": 362.72,
+            "duration": 4.32,
+            "keyframes": [
+                {
+                    "frame_idx": 9014,
+                    "timestamp": 360.56,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V018/L30_V018_S0037_F009014.jpg"
+                },
+                {
+                    "frame_idx": 8987,
+                    "timestamp": 359.48,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V018/L30_V018_S0037_F008987.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hôm nay mình nghĩ, không đi làm, thì có nghĩ rằng là...",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A person's hand is holding a metal object while a machine with a red surface and various metal components is in the background.",
+                    "objects_and_counts": [
+                        "1 person, 1 keyboard"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V018_S0038",
+            "start_frame": 9069,
+            "end_frame": 9447,
+            "start_ts": 362.76,
+            "end_ts": 377.88,
+            "duration": 15.12,
+            "keyframes": [
+                {
+                    "frame_idx": 9258,
+                    "timestamp": 370.32,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V018/L30_V018_S0038_F009258.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Một khách hàng, một bệnh nhân nào đó đang cần mình, họ đến địa điểm mình khám và không có mình thì không. Mình phải đặt trường hợp như vậy. Và chính như vậy mà tự nhiên là tôi gây đam mê trong công việc.",
+                "ocr_text": "8 7 5 6 Tác giả: Thành Quang PGS. TS. BS ĐỖ QUANG HÙNG",
+                "vlm_caption": {
+                    "detailed_description": "A man in a white coat stands in front of a bookshelf adorned with certificates and a clock, with a green banner displaying \"Tác giả: Thành Quang\" at the bottom.",
+                    "objects_and_counts": [
+                        "1 person, 1 tie, 1 clock"
+                    ]
+                }
+            }
+        }
+    ]
+}

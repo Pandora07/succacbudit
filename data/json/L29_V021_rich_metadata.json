@@ -1,0 +1,4302 @@
+{
+    "video_id": "L29_V021",
+    "fps": 25.0,
+    "total_shots": 151,
+    "total_keyframes": 268,
+    "shots": [
+        {
+            "shot_id": "L29_V021_S0001",
+            "start_frame": 0,
+            "end_frame": 95,
+            "start_ts": 0.0,
+            "end_ts": 3.8,
+            "duration": 3.8,
+            "keyframes": [
+                {
+                    "frame_idx": 47,
+                    "timestamp": 1.88,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0001_F000047.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "🎵",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "The image depicts a stylized cityscape with various buildings, including tall skyscrapers and shorter structures, under a clear blue sky."
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V021_S0002",
+            "start_frame": 96,
+            "end_frame": 135,
+            "start_ts": 3.84,
+            "end_ts": 5.4,
+            "duration": 1.56,
+            "keyframes": [
+                {
+                    "frame_idx": 115,
+                    "timestamp": 4.6,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0002_F000115.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A person wearing a hat stands in front of a bright sun and palm trees, shielding their eyes from the sun.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V021_S0003",
+            "start_frame": 136,
+            "end_frame": 569,
+            "start_ts": 5.44,
+            "end_ts": 22.76,
+            "duration": 17.32,
+            "keyframes": [
+                {
+                    "frame_idx": 352,
+                    "timestamp": 14.08,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0003_F000352.jpg"
+                },
+                {
+                    "frame_idx": 460,
+                    "timestamp": 18.4,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0003_F000460.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Субтитры создавал DimaTorzok",
+                "ocr_text": "Online | HTV Online ĐÔI MÁT MEKONG",
+                "vlm_caption": {
+                    "detailed_description": "A cartoon boat with the text \"Đôi Mắt Mekong\" is floating on a beach with palm trees and clouds in the background.",
+                    "objects_and_counts": [
+                        "6 person, 1 umbrella"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V021_S0004",
+            "start_frame": 570,
+            "end_frame": 657,
+            "start_ts": 22.8,
+            "end_ts": 26.28,
+            "duration": 3.48,
+            "keyframes": [
+                {
+                    "frame_idx": 613,
+                    "timestamp": 24.52,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0004_F000613.jpg"
+                },
+                {
+                    "frame_idx": 591,
+                    "timestamp": 23.64,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0004_F000591.jpg"
+                },
+                {
+                    "frame_idx": 635,
+                    "timestamp": 25.4,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0004_F000635.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Nương theo dòng chảy sông Mekong, nhịp sóng không chỉ là một đường đường,",
+                "ocr_text": "Online | HTV Online SO HÔNG LÀ HỘT HOANH GIE",
+                "vlm_caption": {
+                    "detailed_description": "An aerial view of a bustling harbor scene with numerous boats, including traditional fishing vessels and larger passenger boats, anchored or moving in the water, with some people visible on the boats.",
+                    "objects_and_counts": [
+                        "13 boat | 17 boat | 16 boat"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V021_S0005",
+            "start_frame": 658,
+            "end_frame": 733,
+            "start_ts": 26.32,
+            "end_ts": 29.32,
+            "duration": 3.0,
+            "keyframes": [
+                {
+                    "frame_idx": 695,
+                    "timestamp": 27.8,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0005_F000695.jpg"
+                },
+                {
+                    "frame_idx": 676,
+                    "timestamp": 27.04,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0005_F000676.jpg"
+                },
+                {
+                    "frame_idx": 714,
+                    "timestamp": 28.56,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0005_F000714.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "là sự đan sen của những dòng nước mà còn là cơ thể",
+                "ocr_text": "Online | Online MÜI CÀ MAU | HTV MÙI CÀ MAU",
+                "vlm_caption": {
+                    "detailed_description": "An aerial view of a river with a large sailboat monument, surrounded by lush greenery and a few people standing nearby.",
+                    "objects_and_counts": [
+                        "3 person, 1 boat | 2 person, 1 boat | 1 boat, 2 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V021_S0006",
+            "start_frame": 734,
+            "end_frame": 754,
+            "start_ts": 29.36,
+            "end_ts": 30.16,
+            "duration": 0.8,
+            "keyframes": [
+                {
+                    "frame_idx": 744,
+                    "timestamp": 29.76,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0006_F000744.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "HTY Online ỦY BAN NHÂN DẪN TÍNH CẢ MAU VƯỜN QUỐC GIA U MINH HẠ U MINH HA NATIONAL PARK 2801 910 070 FAX: 1200) 916-040 ĐC: ẤP SỐ ĐOI, XÃ TRẦA HƠI, HUYỄN TRÁN VĂN THỚL TỈNH CÀ MAIL",
+                "vlm_caption": {
+                    "detailed_description": "The image shows the entrance to U Minh Ha National Park, with a sign in Vietnamese indicating the park's name and location, surrounded by a well-maintained landscape with buildings and greenery.",
+                    "objects_and_counts": [
+                        "1 car"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V021_S0007",
+            "start_frame": 755,
+            "end_frame": 789,
+            "start_ts": 30.2,
+            "end_ts": 31.56,
+            "duration": 1.36,
+            "keyframes": [
+                {
+                    "frame_idx": 772,
+                    "timestamp": 30.88,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0007_F000772.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "A large tree with a network of ropes and colorful objects hanging from its branches stands beside a dirt path near a body of water, with lush greenery and a partly cloudy sky in the background.",
+                    "objects_and_counts": [
+                        "1 train"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V021_S0008",
+            "start_frame": 790,
+            "end_frame": 839,
+            "start_ts": 31.6,
+            "end_ts": 33.56,
+            "duration": 1.96,
+            "keyframes": [
+                {
+                    "frame_idx": 814,
+                    "timestamp": 32.56,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0008_F000814.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "The image depicts a lush, green field with rows of crops or vegetation, flanked by dense foliage on either side, under a partly cloudy sky."
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V021_S0009",
+            "start_frame": 840,
+            "end_frame": 893,
+            "start_ts": 33.6,
+            "end_ts": 35.72,
+            "duration": 2.12,
+            "keyframes": [
+                {
+                    "frame_idx": 866,
+                    "timestamp": 34.64,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0009_F000866.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A person is rowing a boat on a calm river surrounded by lush greenery and trees."
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V021_S0010",
+            "start_frame": 894,
+            "end_frame": 944,
+            "start_ts": 35.76,
+            "end_ts": 37.76,
+            "duration": 2.0,
+            "keyframes": [
+                {
+                    "frame_idx": 919,
+                    "timestamp": 36.76,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0010_F000919.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy cùng chúng tôi hướng về Đồng Bắc",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "An aerial view of a vast agricultural field with rows of crops and a narrow path running through the center."
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V021_S0011",
+            "start_frame": 945,
+            "end_frame": 1035,
+            "start_ts": 37.8,
+            "end_ts": 41.4,
+            "duration": 3.6,
+            "keyframes": [
+                {
+                    "frame_idx": 990,
+                    "timestamp": 39.6,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0011_F000990.jpg"
+                },
+                {
+                    "frame_idx": 967,
+                    "timestamp": 38.68,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0011_F000967.jpg"
+                },
+                {
+                    "frame_idx": 1012,
+                    "timestamp": 40.48,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0011_F001012.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "A muddy stream flows through a lush, green landscape with dense vegetation and trees in the background.",
+                    "objects_and_counts": [
+                        "1 boat | 1 boat, 4 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V021_S0012",
+            "start_frame": 1036,
+            "end_frame": 1080,
+            "start_ts": 41.44,
+            "end_ts": 43.2,
+            "duration": 1.76,
+            "keyframes": [
+                {
+                    "frame_idx": 1058,
+                    "timestamp": 42.32,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0012_F001058.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Cảm ơn các bạn đã theo dõi và hẹn gặp lại.",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "An aerial view of a large, divided field with patches of green and brown, bordered by a road and trees."
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V021_S0013",
+            "start_frame": 1081,
+            "end_frame": 1144,
+            "start_ts": 43.24,
+            "end_ts": 45.76,
+            "duration": 2.52,
+            "keyframes": [
+                {
+                    "frame_idx": 1112,
+                    "timestamp": 44.48,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0013_F001112.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Làm chài bình dị Chúng ta sẽ cảm giác",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "A small boat is navigating through a calm river, with a bridge and docked boats in the background.",
+                    "objects_and_counts": [
+                        "7 boat"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V021_S0014",
+            "start_frame": 1145,
+            "end_frame": 1185,
+            "start_ts": 45.8,
+            "end_ts": 47.4,
+            "duration": 1.6,
+            "keyframes": [
+                {
+                    "frame_idx": 1165,
+                    "timestamp": 46.6,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0014_F001165.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Các bạn có thể nhận được hơi thở của nước.",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "A jet ski is speeding across a wide river, leaving a trail of white water, with a small village of houses and trees on the left bank.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V021_S0015",
+            "start_frame": 1186,
+            "end_frame": 1243,
+            "start_ts": 47.44,
+            "end_ts": 49.72,
+            "duration": 2.28,
+            "keyframes": [
+                {
+                    "frame_idx": 1214,
+                    "timestamp": 48.56,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0015_F001214.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Đa số các nền văn minh đều bắt nguồn.",
+                "ocr_text": "HTV Online LÊ PHÁT MỚT TÓC MAM",
+                "vlm_caption": {
+                    "detailed_description": "A group of people in colorful costumes and masks are waving and participating in a parade along a street lined with buildings and parked motorcycles.",
+                    "objects_and_counts": [
+                        "11 person, 2 motorcycle, 1 potted plant"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V021_S0016",
+            "start_frame": 1244,
+            "end_frame": 1315,
+            "start_ts": 49.76,
+            "end_ts": 52.6,
+            "duration": 2.84,
+            "keyframes": [
+                {
+                    "frame_idx": 1279,
+                    "timestamp": 51.16,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0016_F001279.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Các bạn hãy đăng ký kênh để ủng hộ kênh của mình nhé.",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "A person is fishing in a calm body of water surrounded by tall green reeds."
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V021_S0017",
+            "start_frame": 1316,
+            "end_frame": 1364,
+            "start_ts": 52.64,
+            "end_ts": 54.56,
+            "duration": 1.92,
+            "keyframes": [
+                {
+                    "frame_idx": 1340,
+                    "timestamp": 53.6,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0017_F001340.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hàng ngàn câu chuyện đã được ghi lại",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A construction site is shown with workers laying concrete blocks on a grid pattern."
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V021_S0018",
+            "start_frame": 1365,
+            "end_frame": 1439,
+            "start_ts": 54.6,
+            "end_ts": 57.56,
+            "duration": 2.96,
+            "keyframes": [
+                {
+                    "frame_idx": 1402,
+                    "timestamp": 56.08,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0018_F001402.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Từ thế hệ này sang thế hệ khác",
+                "ocr_text": "Online:",
+                "vlm_caption": {
+                    "detailed_description": "Aerial view of a dense forest with a river running through it, surrounded by lush greenery."
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V021_S0019",
+            "start_frame": 1440,
+            "end_frame": 1531,
+            "start_ts": 57.6,
+            "end_ts": 61.24,
+            "duration": 3.64,
+            "keyframes": [
+                {
+                    "frame_idx": 1485,
+                    "timestamp": 59.4,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0019_F001485.jpg"
+                },
+                {
+                    "frame_idx": 1508,
+                    "timestamp": 60.32,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0019_F001508.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy sẵn sàng cho một cuộc phiêu lưu đầy màu sắc",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "An aerial view shows a blue boat with a yellow cargo on a muddy river, emitting a white trail of smoke.",
+                    "objects_and_counts": [
+                        "1 skis"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V021_S0020",
+            "start_frame": 1532,
+            "end_frame": 1605,
+            "start_ts": 61.28,
+            "end_ts": 64.2,
+            "duration": 2.92,
+            "keyframes": [
+                {
+                    "frame_idx": 1568,
+                    "timestamp": 62.72,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0020_F001568.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "và sức sống mới. Chúng ta cùng nhau khám phá những biết",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "Two individuals wearing green hats are walking through a dense, lush forest with green foliage and underbrush.",
+                    "objects_and_counts": [
+                        "2 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V021_S0021",
+            "start_frame": 1606,
+            "end_frame": 1651,
+            "start_ts": 64.24,
+            "end_ts": 66.04,
+            "duration": 1.8,
+            "keyframes": [
+                {
+                    "frame_idx": 1628,
+                    "timestamp": 65.12,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0021_F001628.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "ẩn và vẻ đẹp của cuộc sống.",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "A young plant sprouts from a leaf among fallen leaves and twigs on the forest floor."
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V021_S0022",
+            "start_frame": 1652,
+            "end_frame": 1711,
+            "start_ts": 66.08,
+            "end_ts": 68.44,
+            "duration": 2.36,
+            "keyframes": [
+                {
+                    "frame_idx": 1681,
+                    "timestamp": 67.24,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0022_F001681.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "dọc theo sông Mekong nơi mà",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "A group of people are rowing a small boat on a calm river, with greenery and a stone embankment visible in the background.",
+                    "objects_and_counts": [
+                        "1 boat, 6 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V021_S0023",
+            "start_frame": 1712,
+            "end_frame": 2065,
+            "start_ts": 68.48,
+            "end_ts": 82.6,
+            "duration": 14.12,
+            "keyframes": [
+                {
+                    "frame_idx": 1888,
+                    "timestamp": 75.52,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0023_F001888.jpg"
+                },
+                {
+                    "frame_idx": 1800,
+                    "timestamp": 72.0,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0023_F001800.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "và tinh thần của con người và mạch sống của tự nhiên cộng sinh và giao thoa tạo nên môi trường sống tươi đẹp",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "A group of birds, including a white egret, are perched among dense green foliage in a lush, forested area.",
+                    "objects_and_counts": [
+                        "3 bird"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V021_S0024",
+            "start_frame": 2066,
+            "end_frame": 3501,
+            "start_ts": 82.64,
+            "end_ts": 140.04,
+            "duration": 57.4,
+            "keyframes": [
+                {
+                    "frame_idx": 2783,
+                    "timestamp": 111.32,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0024_F002783.jpg"
+                },
+                {
+                    "frame_idx": 2424,
+                    "timestamp": 96.96,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0024_F002424.jpg"
+                },
+                {
+                    "frame_idx": 3142,
+                    "timestamp": 125.68,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0024_F003142.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "HTV Online ĐỘI MÁT MĚKONG | Online | HTV Online ĐỎI MÁT MĚKONG",
+                "vlm_caption": {
+                    "detailed_description": "The image depicts a serene sunset over a body of water, with the sky transitioning from dark blue to vibrant hues of pink and purple, casting a tranquil glow over the calm water surface.",
+                    "objects_and_counts": [
+                        "1 boat"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V021_S0025",
+            "start_frame": 3502,
+            "end_frame": 3580,
+            "start_ts": 140.08,
+            "end_ts": 143.2,
+            "duration": 3.12,
+            "keyframes": [
+                {
+                    "frame_idx": 3541,
+                    "timestamp": 141.64,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0025_F003541.jpg"
+                },
+                {
+                    "frame_idx": 3521,
+                    "timestamp": 140.84,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0025_F003521.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Giữa bóng đêm bao trừng cả mặt đàm",
+                "ocr_text": "HTV Online ĐÔI MẠT MEKONG | Online EM",
+                "vlm_caption": {
+                    "detailed_description": "A yellow and black object, possibly a bomb, is attached to a wooden stick against a dark background.",
+                    "objects_and_counts": [
+                        "1 potted plant"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V021_S0026",
+            "start_frame": 3581,
+            "end_frame": 3720,
+            "start_ts": 143.24,
+            "end_ts": 148.8,
+            "duration": 5.56,
+            "keyframes": [
+                {
+                    "frame_idx": 3650,
+                    "timestamp": 146.0,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0026_F003650.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Từng đấm sáng nhỏ nhấp nháy thành cụm ở phía xa báo hiệu những vị trí đang có thể diễn ra",
+                "ocr_text": "Online ĐỜI MÁT MĚKONG",
+                "vlm_caption": {
+                    "detailed_description": "A person is paddling a stand-up paddleboard on a dark body of water at night.",
+                    "objects_and_counts": [
+                        "1 boat, 1 person, 1 surfboard"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V021_S0027",
+            "start_frame": 3721,
+            "end_frame": 3888,
+            "start_ts": 148.84,
+            "end_ts": 155.52,
+            "duration": 6.68,
+            "keyframes": [
+                {
+                    "frame_idx": 3804,
+                    "timestamp": 152.16,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0027_F003804.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "thuyền neo thả lứ và kéo chày trong đêm. Chiếc sùng nhỏ của chúng tôi bắt đầu chọn những điểm có bằng.",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "A person in a kayak at night, wearing a helmet and life jacket, is using a net to catch something in the water.",
+                    "objects_and_counts": [
+                        "1 boat, 1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V021_S0028",
+            "start_frame": 3889,
+            "end_frame": 4040,
+            "start_ts": 155.56,
+            "end_ts": 161.6,
+            "duration": 6.04,
+            "keyframes": [
+                {
+                    "frame_idx": 3964,
+                    "timestamp": 158.56,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0028_F003964.jpg"
+                },
+                {
+                    "frame_idx": 3926,
+                    "timestamp": 157.04,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0028_F003926.jpg"
+                },
+                {
+                    "frame_idx": 4002,
+                    "timestamp": 160.08,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0028_F004002.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "HT/V Online TAM NOC | Online",
+                "vlm_caption": {
+                    "detailed_description": "A red plastic crate is suspended from a net, with a blue and green background visible.",
+                    "objects_and_counts": [
+                        "1 person | 2 boat"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V021_S0029",
+            "start_frame": 4041,
+            "end_frame": 4303,
+            "start_ts": 161.64,
+            "end_ts": 172.12,
+            "duration": 10.48,
+            "keyframes": [
+                {
+                    "frame_idx": 4172,
+                    "timestamp": 166.88,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0029_F004172.jpg"
+                },
+                {
+                    "frame_idx": 4106,
+                    "timestamp": 164.24,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0029_F004106.jpg"
+                },
+                {
+                    "frame_idx": 4237,
+                    "timestamp": 169.48,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0029_F004237.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "hơn những câu chuyện về cuộc sống nơi này. Trên đầm của mình, anh khi bủa lưới là em đang thấy có ghẹ, tôm, rồi còn có loài vật nào khác nữa.",
+                "ocr_text": "Online XOX MAT | Online",
+                "vlm_caption": {
+                    "detailed_description": "A person holds a stick with a green rope tied around it, against a dark background.",
+                    "objects_and_counts": [
+                        "2 person | 1 person | 1 bird"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V021_S0030",
+            "start_frame": 4304,
+            "end_frame": 4474,
+            "start_ts": 172.16,
+            "end_ts": 178.96,
+            "duration": 6.8,
+            "keyframes": [
+                {
+                    "frame_idx": 4389,
+                    "timestamp": 175.56,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0030_F004389.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "có cua cá ngát cá dồ các loại cá nâu đủ thứ cá nhưng chính",
+                "ocr_text": "Online ĐÔI MÁT Người dân sinh sống trên đầm thị tường MĚKONG",
+                "vlm_caption": {
+                    "detailed_description": "A man wearing a red jacket and a cap with a headlamp is standing in a dark environment, possibly outdoors at night.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V021_S0031",
+            "start_frame": 4475,
+            "end_frame": 4711,
+            "start_ts": 179.0,
+            "end_ts": 188.44,
+            "duration": 9.44,
+            "keyframes": [
+                {
+                    "frame_idx": 4593,
+                    "timestamp": 183.72,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0031_F004593.jpg"
+                },
+                {
+                    "frame_idx": 4534,
+                    "timestamp": 181.36,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0031_F004534.jpg"
+                },
+                {
+                    "frame_idx": 4652,
+                    "timestamp": 186.08,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0031_F004652.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Em đang thấy cái mắt lưới này cũng khá lớn Rồi là Cái lưới này là mình chỉ bắt những cái lò như là ghẻ Bự nhất con to nhất chứ không có bắt con nhỏ",
+                "ocr_text": "HTV Online ĐỘI MÁT MĚKONG | Online | Online TAM IOG WEKOVG",
+                "vlm_caption": {
+                    "detailed_description": "A boat is illuminated by lights on a dark body of water at night.",
+                    "objects_and_counts": [
+                        "1 boat"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V021_S0032",
+            "start_frame": 4712,
+            "end_frame": 4775,
+            "start_ts": 188.48,
+            "end_ts": 191.0,
+            "duration": 2.52,
+            "keyframes": [
+                {
+                    "frame_idx": 4743,
+                    "timestamp": 189.72,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0032_F004743.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Lượt lên cái con nhỏ để mốt nó bự lên bắt nữa",
+                "ocr_text": "HTV Online ĐỘI MẤT MĚKONG",
+                "vlm_caption": {
+                    "detailed_description": "A man wearing a red jacket and a cap with a headlamp is standing near a pole with a green rope tied around it.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V021_S0033",
+            "start_frame": 4776,
+            "end_frame": 4856,
+            "start_ts": 191.04,
+            "end_ts": 194.24,
+            "duration": 3.2,
+            "keyframes": [
+                {
+                    "frame_idx": 4816,
+                    "timestamp": 192.64,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0033_F004816.jpg"
+                },
+                {
+                    "frame_idx": 4836,
+                    "timestamp": 193.44,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0033_F004836.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Thấy trên đầm mình nó rộng vầy rồi khi mà bổ lưới á mình...",
+                "ocr_text": "Online MĚKONG",
+                "vlm_caption": {
+                    "detailed_description": "A man sits on a boat at night, wearing a red jacket, gray pants, and a headlamp, with a palm tree logo and text in the background.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V021_S0034",
+            "start_frame": 4857,
+            "end_frame": 4942,
+            "start_ts": 194.28,
+            "end_ts": 197.68,
+            "duration": 3.4,
+            "keyframes": [
+                {
+                    "frame_idx": 4899,
+                    "timestamp": 195.96,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0034_F004899.jpg"
+                },
+                {
+                    "frame_idx": 4920,
+                    "timestamp": 196.8,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0034_F004920.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "có đánh dấu ký hiệu nào mình biết là khu vực đó là của mình không?",
+                "ocr_text": "Online VUITTON | HTV Online THIẾT BỊ",
+                "vlm_caption": {
+                    "detailed_description": "A person wearing a red jacket and a headlamp is pointing to the left in a dark environment.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V021_S0035",
+            "start_frame": 4943,
+            "end_frame": 5012,
+            "start_ts": 197.72,
+            "end_ts": 200.48,
+            "duration": 2.76,
+            "keyframes": [
+                {
+                    "frame_idx": 4977,
+                    "timestamp": 199.08,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0035_F004977.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "cộng cái hàng đèn này anh, hàng đèn chớp này dạ",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "A yellow and black microphone is attached to a stick with green tape against a dark background."
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V021_S0036",
+            "start_frame": 5013,
+            "end_frame": 5233,
+            "start_ts": 200.52,
+            "end_ts": 209.32,
+            "duration": 8.8,
+            "keyframes": [
+                {
+                    "frame_idx": 5123,
+                    "timestamp": 204.92,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0036_F005123.jpg"
+                },
+                {
+                    "frame_idx": 5068,
+                    "timestamp": 202.72,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0036_F005068.jpg"
+                },
+                {
+                    "frame_idx": 5178,
+                    "timestamp": 207.12,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0036_F005178.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Nên gai dại của nó là đèn lưới của mình đó, mình biết cái hiệu đó là đèn lưới của mình Một ngày bữa lưới như vậy thì thường thường mình thu được bao nhiêu ký hải sản?",
+                "ocr_text": "Online | Online MĚKONG",
+                "vlm_caption": {
+                    "detailed_description": "A bright light source is seen in the distance, casting a glow on the water's surface, with a line of birds flying in the sky above.",
+                    "objects_and_counts": [
+                        "1 boat | 1 airplane, 2 boat"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V021_S0037",
+            "start_frame": 5234,
+            "end_frame": 5357,
+            "start_ts": 209.36,
+            "end_ts": 214.28,
+            "duration": 4.92,
+            "keyframes": [
+                {
+                    "frame_idx": 5295,
+                    "timestamp": 211.8,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0037_F005295.jpg"
+                },
+                {
+                    "frame_idx": 5264,
+                    "timestamp": 210.56,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0037_F005264.jpg"
+                },
+                {
+                    "frame_idx": 5326,
+                    "timestamp": 213.04,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0037_F005326.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Tầm nếu mà lúc mà tới nước thì tầm có...",
+                "ocr_text": "HTV Online ĐỘI MAT MĚKONG | Online | HTV Online ĐỜI MÁT MEKONG",
+                "vlm_caption": {
+                    "detailed_description": "A close-up of a fishing net with a blue and green surfboard in the background.",
+                    "objects_and_counts": [
+                        "1 person | 1 surfboard | 1 person, 1 surfboard"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V021_S0038",
+            "start_frame": 5358,
+            "end_frame": 5547,
+            "start_ts": 214.32,
+            "end_ts": 221.88,
+            "duration": 7.56,
+            "keyframes": [
+                {
+                    "frame_idx": 5452,
+                    "timestamp": 218.08,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0038_F005452.jpg"
+                },
+                {
+                    "frame_idx": 5405,
+                    "timestamp": 216.2,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0038_F005405.jpg"
+                },
+                {
+                    "frame_idx": 5499,
+                    "timestamp": 219.96,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0038_F005499.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "từ 60 kg chục ký ghẹ nè các loại cá hay sản khác nữa chứ không phải là riêng ghẹ không nhưng mà",
+                "ocr_text": "Online ENG8 Đ THIÊT | HTV Online EN G8 THIẾT • ĐỘI MÁT MĚKONG vietel | Online - Đ EN G8 HIẾT",
+                "vlm_caption": {
+                    "detailed_description": "A man wearing a red jacket and a cap with a headlamp is looking down.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V021_S0039",
+            "start_frame": 5548,
+            "end_frame": 5645,
+            "start_ts": 221.92,
+            "end_ts": 225.8,
+            "duration": 3.88,
+            "keyframes": [
+                {
+                    "frame_idx": 5596,
+                    "timestamp": 223.84,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0039_F005596.jpg"
+                },
+                {
+                    "frame_idx": 5620,
+                    "timestamp": 224.8,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0039_F005620.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "thường nếu mà ngày nào mà được mùa thì khoảng chừng chục ký các loại.",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "A fish is trapped inside a fishing net, with its body partially visible through the mesh.",
+                    "objects_and_counts": [
+                        "1 person | 1 tennis racket"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V021_S0040",
+            "start_frame": 5646,
+            "end_frame": 5742,
+            "start_ts": 225.84,
+            "end_ts": 229.68,
+            "duration": 3.84,
+            "keyframes": [
+                {
+                    "frame_idx": 5694,
+                    "timestamp": 227.76,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0040_F005694.jpg"
+                },
+                {
+                    "frame_idx": 5670,
+                    "timestamp": 226.8,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0040_F005670.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Mưa nó trúng ngùa anh là cái nước mặn nó hạ lại cái độ mặn",
+                "ocr_text": "Online LOI MAU MEKONG | Online",
+                "vlm_caption": {
+                    "detailed_description": "A person wearing a red jacket and a headlamp sits on a blue mat at night, with a stick and a rope nearby.",
+                    "objects_and_counts": [
+                        "1 person, 1 boat"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V021_S0041",
+            "start_frame": 5743,
+            "end_frame": 5911,
+            "start_ts": 229.72,
+            "end_ts": 236.44,
+            "duration": 6.72,
+            "keyframes": [
+                {
+                    "frame_idx": 5827,
+                    "timestamp": 233.08,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0041_F005827.jpg"
+                },
+                {
+                    "frame_idx": 5785,
+                    "timestamp": 231.4,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0041_F005785.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "nó giảm đậu mặn nói chung là cái con hạ đậu mặn nếu mà tới mùa ngọt là nó không ngon bằng cái mùa này",
+                "ocr_text": "Online MEKONG viett | Online NG8 TÀM IÔG vipt",
+                "vlm_caption": {
+                    "detailed_description": "A man wearing a red jacket and a cap with a headlamp is sitting in front of a black background.",
+                    "objects_and_counts": [
+                        "1 person | 1 person, 1 frisbee"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V021_S0042",
+            "start_frame": 5912,
+            "end_frame": 5986,
+            "start_ts": 236.48,
+            "end_ts": 239.44,
+            "duration": 2.96,
+            "keyframes": [
+                {
+                    "frame_idx": 5949,
+                    "timestamp": 237.96,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0042_F005949.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Các bạn hãy đăng kí cho kênh lalaschool Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "HTV Online ĐỘI MẤT MĚKONG",
+                "vlm_caption": {
+                    "detailed_description": "A man sits on a boat at night, wearing a red jacket and a cap with a headlamp, with the Mekong River logo visible in the background.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V021_S0043",
+            "start_frame": 5987,
+            "end_frame": 6179,
+            "start_ts": 239.48,
+            "end_ts": 247.16,
+            "duration": 7.68,
+            "keyframes": [
+                {
+                    "frame_idx": 6083,
+                    "timestamp": 243.32,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0043_F006083.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Khi ánh bình minh bắt đầu len lõi qua màng sương, từng tia nắng yếu ớt, yếu sáng mặt nằm rộng lớn",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "The image depicts a serene sunset over a body of water, with the sky transitioning from deep blues to vibrant oranges and pinks, reflecting on the calm water surface, and a distant cityscape with illuminated buildings."
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V021_S0044",
+            "start_frame": 6180,
+            "end_frame": 6521,
+            "start_ts": 247.2,
+            "end_ts": 260.84,
+            "duration": 13.64,
+            "keyframes": [
+                {
+                    "frame_idx": 6350,
+                    "timestamp": 254.0,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0044_F006350.jpg"
+                },
+                {
+                    "frame_idx": 6265,
+                    "timestamp": 250.6,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0044_F006265.jpg"
+                },
+                {
+                    "frame_idx": 6435,
+                    "timestamp": 257.4,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0044_F006435.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Khung cảnh hoang sơ, tỉnh lặng và mênh mông của đầm thị tường dần dần hiện ra như một bức tranh thiên nhiên sóng động. Mặt nước phản lặng, phản chiếu ánh sáng rực rỡ của bình minh.",
+                "ocr_text": "HTV Online ĐỘI MÁT MĚKONG | Online | Online ĐÔI MÁT MĚKONG",
+                "vlm_caption": {
+                    "detailed_description": "A lone fisherman stands on a small boat in the middle of a calm, dark blue river at dusk, surrounded by floating buoys and trees in the background.",
+                    "objects_and_counts": [
+                        "1 person, 1 boat | 1 person | 2 person, 1 boat"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V021_S0045",
+            "start_frame": 6523,
+            "end_frame": 6846,
+            "start_ts": 260.92,
+            "end_ts": 273.84,
+            "duration": 12.92,
+            "keyframes": [
+                {
+                    "frame_idx": 6684,
+                    "timestamp": 267.36,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0045_F006684.jpg"
+                },
+                {
+                    "frame_idx": 6603,
+                    "timestamp": 264.12,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0045_F006603.jpg"
+                },
+                {
+                    "frame_idx": 6765,
+                    "timestamp": 270.6,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0045_F006765.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "tạo nên một dạy ánh sáng lấp lánh như những diên ngọc quý. Trên mặt đầm, những người dân đang miệt mài với công việc của mình, những dịp quăng chài, kéo lưới trở nên ngộn nhịp và sôi động hơn.",
+                "ocr_text": "Online ĐỜI MÁT MĚKONG | ATV Online TÀM LOG",
+                "vlm_caption": {
+                    "detailed_description": "Two individuals are rowing small boats on a calm body of water with a distant shoreline and a partly cloudy sky.",
+                    "objects_and_counts": [
+                        "4 boat, 3 person | 3 boat, 5 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V021_S0046",
+            "start_frame": 6847,
+            "end_frame": 6994,
+            "start_ts": 273.88,
+            "end_ts": 279.76,
+            "duration": 5.88,
+            "keyframes": [
+                {
+                    "frame_idx": 6920,
+                    "timestamp": 276.8,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0046_F006920.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Theo chân những ngư dân, chúng tôi không chỉ chứng kiến cảnh mưu sinh đầy chất giả",
+                "ocr_text": "Online OOI MAT MEKONG",
+                "vlm_caption": {
+                    "detailed_description": "A person sits in a small boat on a calm body of water at dusk, holding a fishing net.",
+                    "objects_and_counts": [
+                        "1 person, 1 boat"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V021_S0047",
+            "start_frame": 6995,
+            "end_frame": 7112,
+            "start_ts": 279.8,
+            "end_ts": 284.48,
+            "duration": 4.68,
+            "keyframes": [
+                {
+                    "frame_idx": 7053,
+                    "timestamp": 282.12,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0047_F007053.jpg"
+                },
+                {
+                    "frame_idx": 7024,
+                    "timestamp": 280.96,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0047_F007024.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "còn cảm nhận được cung thần kiên cường và lòng yêu nghề của họ.",
+                "ocr_text": "Supreme Online | Online",
+                "vlm_caption": {
+                    "detailed_description": "A person in a red jacket is holding a fishing net on a boat at dusk.",
+                    "objects_and_counts": [
+                        "1 person, 1 boat | 1 person, 2 boat"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V021_S0048",
+            "start_frame": 7113,
+            "end_frame": 7276,
+            "start_ts": 284.52,
+            "end_ts": 291.04,
+            "duration": 6.52,
+            "keyframes": [
+                {
+                    "frame_idx": 7194,
+                    "timestamp": 287.76,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0048_F007194.jpg"
+                },
+                {
+                    "frame_idx": 7153,
+                    "timestamp": 286.12,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0048_F007153.jpg"
+                },
+                {
+                    "frame_idx": 7235,
+                    "timestamp": 289.4,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0048_F007235.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Các doanh nghiệp quăng chài, mỗi lần kéo lưới là một minh chứng cho sự đáng bó giới viện với nghề đánh bác truyền thống.",
+                "ocr_text": "Online ĐỜI MÁT MĚKONG | Online | Online MEKONG",
+                "vlm_caption": {
+                    "detailed_description": "A person in a red and gray life jacket is fishing from a small boat on a calm body of water, with lush green vegetation in the background.",
+                    "objects_and_counts": [
+                        "1 person, 1 boat | 1 person, 3 boat"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V021_S0049",
+            "start_frame": 7277,
+            "end_frame": 7414,
+            "start_ts": 291.08,
+            "end_ts": 296.56,
+            "duration": 5.48,
+            "keyframes": [
+                {
+                    "frame_idx": 7345,
+                    "timestamp": 293.8,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0049_F007345.jpg"
+                },
+                {
+                    "frame_idx": 7311,
+                    "timestamp": 292.44,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0049_F007311.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "đã nuôi sống bao thế hệ người dân nơi đây. Những giọt mồ hôi lanh dài trên gương mặt,",
+                "ocr_text": "HTV Online Supreme ĐỎI MAT MEKONG | Online MEKONG",
+                "vlm_caption": {
+                    "detailed_description": "A man in a red jacket and black hat is fishing from a boat, reeling in a net.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V021_S0050",
+            "start_frame": 7415,
+            "end_frame": 7522,
+            "start_ts": 296.6,
+            "end_ts": 300.88,
+            "duration": 4.28,
+            "keyframes": [
+                {
+                    "frame_idx": 7468,
+                    "timestamp": 298.72,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0050_F007468.jpg"
+                },
+                {
+                    "frame_idx": 7441,
+                    "timestamp": 297.64,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0050_F007441.jpg"
+                },
+                {
+                    "frame_idx": 7495,
+                    "timestamp": 299.8,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0050_F007495.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Những đôi tay chai sạn nhưng luôn mạnh mẽ, kiên định",
+                "ocr_text": "Online ĐỜI MÁT MĚKONG | HTV Online Q0I MAU | HTV Online ĐỘI MÁT MĚKONG",
+                "vlm_caption": {
+                    "detailed_description": "A person is reeling in a fish from a net in the water, with a blurred background and a logo in the bottom left corner.",
+                    "objects_and_counts": [
+                        "1 person | 1 person, 1 snowboard"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V021_S0051",
+            "start_frame": 7523,
+            "end_frame": 7669,
+            "start_ts": 300.92,
+            "end_ts": 306.76,
+            "duration": 5.84,
+            "keyframes": [
+                {
+                    "frame_idx": 7596,
+                    "timestamp": 303.84,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0051_F007596.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Tất cả tạo nên vẻ đẹp chân thực của lào động. Nhìn thấy nhiệm sống của bà con.",
+                "ocr_text": "Online ........",
+                "vlm_caption": {
+                    "detailed_description": "A small boat with two individuals is floating on a calm body of water, surrounded by floating buoys and a distant shoreline with trees and power lines.",
+                    "objects_and_counts": [
+                        "1 boat, 5 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V021_S0052",
+            "start_frame": 7670,
+            "end_frame": 7716,
+            "start_ts": 306.8,
+            "end_ts": 308.64,
+            "duration": 1.84,
+            "keyframes": [
+                {
+                    "frame_idx": 7693,
+                    "timestamp": 307.72,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0052_F007693.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "của mình trên đàm khá là rộng nhịp",
+                "ocr_text": "Onlir e",
+                "vlm_caption": {
+                    "detailed_description": "Two men stand on a beach, one gesturing with a fishing net while the other listens attentively.",
+                    "objects_and_counts": [
+                        "2 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V021_S0053",
+            "start_frame": 7717,
+            "end_frame": 7873,
+            "start_ts": 308.68,
+            "end_ts": 314.92,
+            "duration": 6.24,
+            "keyframes": [
+                {
+                    "frame_idx": 7795,
+                    "timestamp": 311.8,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0053_F007795.jpg"
+                },
+                {
+                    "frame_idx": 7834,
+                    "timestamp": 313.36,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0053_F007834.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Những sinh kế của bà con được bắt đầu vào khoảng thời gian nào trong ngày và kết thúc vào khoảng thời gian nào trong ngày",
+                "ocr_text": "HTV Online ĐÔI MÁT Lê Mẫn MEKONG | Online",
+                "vlm_caption": {
+                    "detailed_description": "Two men stand on a wooden dock overlooking a calm body of water, with one wearing a green shirt and the other in a black shirt with white stripes, both wearing sandals.",
+                    "objects_and_counts": [
+                        "2 person | 2 person, 1 boat"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V021_S0054",
+            "start_frame": 7874,
+            "end_frame": 8230,
+            "start_ts": 314.96,
+            "end_ts": 329.2,
+            "duration": 14.24,
+            "keyframes": [
+                {
+                    "frame_idx": 8052,
+                    "timestamp": 322.08,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0054_F008052.jpg"
+                },
+                {
+                    "frame_idx": 7963,
+                    "timestamp": 318.52,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0054_F007963.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "ở đây thì những năm trước thì có bà con mình đặt lú để bắt tôm cá năm 2003 thì tỉnh có chủ trương giải tỏa đầm",
+                "ocr_text": "Online LI-NING | ATV Online ĐỜI MÁT Anh Phan Tấn Hùng MĚKONG Giám đốc HTX đầm Thị Tường-Cà Mau",
+                "vlm_caption": {
+                    "detailed_description": "A man wearing glasses and a black shirt stands in front of a backdrop featuring a traditional woven boat and a palm tree, with text identifying him as Phan Tuan Hung, the General Director of HTX Dam Thi Tuong, Cà Mau",
+                    "objects_and_counts": [
+                        "1 person | 1 person, 1 snowboard, 1 surfboard"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V021_S0055",
+            "start_frame": 8231,
+            "end_frame": 8363,
+            "start_ts": 329.24,
+            "end_ts": 334.52,
+            "duration": 5.28,
+            "keyframes": [
+                {
+                    "frame_idx": 8297,
+                    "timestamp": 331.88,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0055_F008297.jpg"
+                },
+                {
+                    "frame_idx": 8330,
+                    "timestamp": 333.2,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0055_F008330.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Cho nên là hiện nay thì bà con mình tủi hướng là cái khống nghề chạy với dòng lưới.",
+                "ocr_text": "Online | HTV Online ĐÔI MÁT MĚKONG",
+                "vlm_caption": {
+                    "detailed_description": "Two men stand on a wooden dock by a body of water, with one wearing a green jacket and the other in a black and white polo shirt, both looking towards the water.",
+                    "objects_and_counts": [
+                        "2 person, 1 boat"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V021_S0056",
+            "start_frame": 8364,
+            "end_frame": 8685,
+            "start_ts": 334.56,
+            "end_ts": 347.4,
+            "duration": 12.84,
+            "keyframes": [
+                {
+                    "frame_idx": 8524,
+                    "timestamp": 340.96,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0056_F008524.jpg"
+                },
+                {
+                    "frame_idx": 8444,
+                    "timestamp": 337.76,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0056_F008444.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Lưới thì bắt đầu vào khoảng 4 giờ chiều và kết thúc khoảng 6 giờ sáng hoặc ngày hôm sau. Thường là mình đặt lưới vào khoảng thời gian nào anh? Trời có 4 giờ chiều là mình bỏ.",
+                "ocr_text": "Online | HTV Online ĐÔI MẤT MĚKONG LI-NING",
+                "vlm_caption": {
+                    "detailed_description": "A man wearing glasses and a black and white polo shirt stands in front of a backdrop featuring a large fishing net and the text \"Đối Mặt Mekong.\"",
+                    "objects_and_counts": [
+                        "1 person | 2 person, 1 boat"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V021_S0057",
+            "start_frame": 8686,
+            "end_frame": 8767,
+            "start_ts": 347.44,
+            "end_ts": 350.68,
+            "duration": 3.24,
+            "keyframes": [
+                {
+                    "frame_idx": 8726,
+                    "timestamp": 349.04,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0057_F008726.jpg"
+                },
+                {
+                    "frame_idx": 8706,
+                    "timestamp": 348.24,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0057_F008706.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "tầm 1-2 tiếng mình đi thăm",
+                "ocr_text": "Online TON DOI MAT MEKONG | Online TON",
+                "vlm_caption": {
+                    "detailed_description": "A person wearing a red jacket and a checkered cap with a headlamp is holding a stick in a dark environment.",
+                    "objects_and_counts": [
+                        "1 person | 1 person, 1 baseball bat"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V021_S0058",
+            "start_frame": 8768,
+            "end_frame": 8843,
+            "start_ts": 350.72,
+            "end_ts": 353.72,
+            "duration": 3.0,
+            "keyframes": [
+                {
+                    "frame_idx": 8805,
+                    "timestamp": 352.2,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0058_F008805.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "4 giờ chiều là bộ lưới, xong rồi cứ cách 1 tiếng lên đi thăm lại.",
+                "ocr_text": "Online 45 69 00 89",
+                "vlm_caption": {
+                    "detailed_description": "Two individuals are sitting on kayaks at night, one with a headlamp and the other holding a device, both engaged in an activity on the water.",
+                    "objects_and_counts": [
+                        "2 person, 2 boat"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V021_S0059",
+            "start_frame": 8844,
+            "end_frame": 9179,
+            "start_ts": 353.76,
+            "end_ts": 367.16,
+            "duration": 13.4,
+            "keyframes": [
+                {
+                    "frame_idx": 9011,
+                    "timestamp": 360.44,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0059_F009011.jpg"
+                },
+                {
+                    "frame_idx": 9095,
+                    "timestamp": 363.8,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0059_F009095.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Để nó cắn, ghẹ nó cắn À, cứ đi thăm rồi là nếu mà ghẹ nó dính vô thì mình bắt bỏ vô một cái rổ vậy Mình cũng dẫn neo ở đây để cho nó có nước NEO bỏ đại vậy đó",
+                "ocr_text": "HT/V Online ĐỜI MÁT MĚKONG | Online",
+                "vlm_caption": {
+                    "detailed_description": "A lone fisherman stands on a small boat illuminated by a light, casting a shadow on the calm water at dusk.",
+                    "objects_and_counts": [
+                        "1 person, 1 boat"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V021_S0060",
+            "start_frame": 9180,
+            "end_frame": 9439,
+            "start_ts": 367.2,
+            "end_ts": 377.56,
+            "duration": 10.36,
+            "keyframes": [
+                {
+                    "frame_idx": 9309,
+                    "timestamp": 372.36,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0060_F009309.jpg"
+                },
+                {
+                    "frame_idx": 9244,
+                    "timestamp": 369.76,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0060_F009244.jpg"
+                },
+                {
+                    "frame_idx": 9374,
+                    "timestamp": 374.96,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0060_F009374.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Chắc này mình làm gì tới sáng cỡ 5-6 giờ là có thương lái ta lại tới tụi em mua. Em thấy cái hệ sinh thái của đầm thị tường chắc là khá đa dạng.",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "A person wearing a red jacket and a cap with a headlamp is sitting in the dark.",
+                    "objects_and_counts": [
+                        "2 person | 1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V021_S0061",
+            "start_frame": 9440,
+            "end_frame": 9504,
+            "start_ts": 377.6,
+            "end_ts": 380.16,
+            "duration": 2.56,
+            "keyframes": [
+                {
+                    "frame_idx": 9472,
+                    "timestamp": 378.88,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0061_F009472.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Bà con chài lưới như vậy thì thường thường thu về",
+                "ocr_text": "ATV Online ĐỜI MÁT MĚKONG",
+                "vlm_caption": {
+                    "detailed_description": "A man wearing glasses and a black and white polo shirt stands on a beach with a backdrop of a cloudy sky and a distant view of the ocean.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V021_S0062",
+            "start_frame": 9505,
+            "end_frame": 9568,
+            "start_ts": 380.2,
+            "end_ts": 382.72,
+            "duration": 2.52,
+            "keyframes": [
+                {
+                    "frame_idx": 9536,
+                    "timestamp": 381.44,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0062_F009536.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "những cái hải sản là những cái loại gì á",
+                "ocr_text": "HTV Online ĐÔI MÁT MĚKONG",
+                "vlm_caption": {
+                    "detailed_description": "Two men stand on a wooden platform by a body of water, engaged in conversation, with a backdrop of a calm river and distant trees.",
+                    "objects_and_counts": [
+                        "2 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V021_S0063",
+            "start_frame": 9569,
+            "end_frame": 9810,
+            "start_ts": 382.76,
+            "end_ts": 392.4,
+            "duration": 9.64,
+            "keyframes": [
+                {
+                    "frame_idx": 9689,
+                    "timestamp": 387.56,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0063_F009689.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "ở đây thì cá các loại cá như là cá chẻm cá mú cá dồ chó ở đây có tên đặc thù nó là cá dồ chó nhưng mà thật nó là họ cá út",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A man wearing glasses and a black and white striped shirt stands on a beach, with a fishing net and the ocean in the background.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V021_S0064",
+            "start_frame": 9811,
+            "end_frame": 9964,
+            "start_ts": 392.44,
+            "end_ts": 398.56,
+            "duration": 6.12,
+            "keyframes": [
+                {
+                    "frame_idx": 9887,
+                    "timestamp": 395.48,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0064_F009887.jpg"
+                },
+                {
+                    "frame_idx": 9849,
+                    "timestamp": 393.96,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0064_F009849.jpg"
+                },
+                {
+                    "frame_idx": 9925,
+                    "timestamp": 397.0,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0064_F009925.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "cái ốc biển cái ốc thì nó không ngon nhưng mà ở trong đầm này nằm nước lợi cho nên là cá rất ngon",
+                "ocr_text": "Online MEKONG | HTV Online ĐOI MÁT MÉKONG | Online TAM 100",
+                "vlm_caption": {
+                    "detailed_description": "A fish is being caught in a net, with water splashing around it.",
+                    "objects_and_counts": [
+                        "1 surfboard"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V021_S0065",
+            "start_frame": 9966,
+            "end_frame": 10216,
+            "start_ts": 398.64,
+            "end_ts": 408.64,
+            "duration": 10.0,
+            "keyframes": [
+                {
+                    "frame_idx": 10091,
+                    "timestamp": 403.64,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0065_F010091.jpg"
+                },
+                {
+                    "frame_idx": 10028,
+                    "timestamp": 401.12,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0065_F010028.jpg"
+                },
+                {
+                    "frame_idx": 10153,
+                    "timestamp": 406.12,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0065_F010153.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "trong đó có ghè nè, tôm tích ghè tôm tích thì nó có mua nhưng mùa này thì có ghè, có tôm tích các mùa khác thì những hải sản khác như cá nâu, cá đối",
+                "ocr_text": "HTV Online ĐỜI MẤT MĚKONG | HTV Online ĐỜI MÁT MEKONG | Online",
+                "vlm_caption": {
+                    "detailed_description": "A large fish is being pulled out of the water by a fishing net.",
+                    "objects_and_counts": [
+                        "2 surfboard"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V021_S0066",
+            "start_frame": 10217,
+            "end_frame": 10509,
+            "start_ts": 408.68,
+            "end_ts": 420.36,
+            "duration": 11.68,
+            "keyframes": [
+                {
+                    "frame_idx": 10363,
+                    "timestamp": 414.52,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0066_F010363.jpg"
+                },
+                {
+                    "frame_idx": 10436,
+                    "timestamp": 417.44,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0066_F010436.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "đó là những sinh vật nước lợi ha đúng rồi hay mặn lợi ờ mặn lợi thì vậy thì cái nguồn nước từ đâu đổ về đầm thị tường mình rồi từ đầm thị tường mình chảy ra đâu anh?",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "Two men stand on a wooden dock overlooking a calm body of water with distant trees and a cloudy sky.",
+                    "objects_and_counts": [
+                        "2 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V021_S0067",
+            "start_frame": 10510,
+            "end_frame": 10645,
+            "start_ts": 420.4,
+            "end_ts": 425.8,
+            "duration": 5.4,
+            "keyframes": [
+                {
+                    "frame_idx": 10577,
+                    "timestamp": 423.08,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0067_F010577.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Ở đây thì đậm thị tượng mình là thông ra Biển Tây, thông qua cửa sông Âm Đốc và cửa sông Mỹ Bình.",
+                "ocr_text": "HTV Online ĐỎI MẤT MEKONG LI-NING",
+                "vlm_caption": {
+                    "detailed_description": "A man wearing glasses and a black and white striped shirt stands in front of a backdrop featuring a fishing net and a logo for \"Đối Mặt Mekong.\"",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V021_S0068",
+            "start_frame": 10646,
+            "end_frame": 11126,
+            "start_ts": 425.84,
+            "end_ts": 445.04,
+            "duration": 19.2,
+            "keyframes": [
+                {
+                    "frame_idx": 10886,
+                    "timestamp": 435.44,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0068_F010886.jpg"
+                },
+                {
+                    "frame_idx": 11006,
+                    "timestamp": 440.24,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0068_F011006.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "đó là cái con nước đi ra thì cái con nước từ đâu đi vô đầm thị tường của mình nó cũng từ nguồn đó từ cửa sông ông Đốc vô hiện nay thì cửa sông Mỹ Bình đang bị bồi lắng cho nên là chủ yếu là cửa sông ông Đốc nước vô về ra cửa đầm thị tường đầm thị tường thì",
+                "ocr_text": "Online | HTV Online ĐÔI MÁT MĚKONG",
+                "vlm_caption": {
+                    "detailed_description": "The image shows an aerial view of a calm river with several small boats and floating markers, reflecting the sky and surrounding landscape."
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V021_S0069",
+            "start_frame": 11127,
+            "end_frame": 11303,
+            "start_ts": 445.08,
+            "end_ts": 452.12,
+            "duration": 7.04,
+            "keyframes": [
+                {
+                    "frame_idx": 11215,
+                    "timestamp": 448.6,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0069_F011215.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Viện tích gần 700 hectare, khoảng 701 hectare, giáp với 3 quyện Phú Tân, Trần Văn Thời và Cái Nước.",
+                "ocr_text": "ATV Online CT-NING ĐỜI MẮT MĚKONG",
+                "vlm_caption": {
+                    "detailed_description": "A man wearing glasses and a black and white polo shirt stands in front of a large fishing net on a body of water.",
+                    "objects_and_counts": [
+                        "1 person, 1 surfboard"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V021_S0070",
+            "start_frame": 11304,
+            "end_frame": 11562,
+            "start_ts": 452.16,
+            "end_ts": 462.48,
+            "duration": 10.32,
+            "keyframes": [
+                {
+                    "frame_idx": 11433,
+                    "timestamp": 457.32,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0070_F011433.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "À rất là thú vị là đầm thị tường của mình trải dài khắp 3 huyện Thì em đang thấy cái đầm thị tường mình có lẽ hình như là chia 3 phân khu hả anh?",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "Two men stand on a wooden platform by a body of water, with one wearing a green jacket and the other in a black and white polo shirt, both looking towards the water.",
+                    "objects_and_counts": [
+                        "2 person, 1 clock"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V021_S0071",
+            "start_frame": 11563,
+            "end_frame": 11619,
+            "start_ts": 462.52,
+            "end_ts": 464.76,
+            "duration": 2.24,
+            "keyframes": [
+                {
+                    "frame_idx": 11591,
+                    "timestamp": 463.64,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0071_F011591.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Đúng, nằm thị tượng thì...",
+                "ocr_text": "Online L-MING",
+                "vlm_caption": {
+                    "detailed_description": "A man wearing glasses and a black and white striped shirt stands in front of a fishing net on a body of water.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V021_S0072",
+            "start_frame": 11620,
+            "end_frame": 12080,
+            "start_ts": 464.8,
+            "end_ts": 483.2,
+            "duration": 18.4,
+            "keyframes": [
+                {
+                    "frame_idx": 11850,
+                    "timestamp": 474.0,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0072_F011850.jpg"
+                },
+                {
+                    "frame_idx": 11735,
+                    "timestamp": 469.4,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0072_F011735.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Nó có đầm trên, đầm giữa và đầm dưới. Đầm giữa là đầm lớn nhất, đầm trên thì cạn và đầm dưới thì nhỏ hơn. Dạ, nếu mà đầm trên thì cạn thì cái mực nước khoảng bao nhiêu, cách cái đáy đàm thì khoảng bao nhiêu anh? Nếu thì kỳ lên thì khoảng là 90 phân đến 1 mét.",
+                "ocr_text": "HTV Online ĐỜI MÁT MĚKONG | Online",
+                "vlm_caption": {
+                    "detailed_description": "A blue boat travels along a narrow river flanked by lush green mangrove forests, with a small sandy island visible in the distance.",
+                    "objects_and_counts": [
+                        "1 boat"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V021_S0073",
+            "start_frame": 12081,
+            "end_frame": 12173,
+            "start_ts": 483.24,
+            "end_ts": 486.92,
+            "duration": 3.68,
+            "keyframes": [
+                {
+                    "frame_idx": 12127,
+                    "timestamp": 485.08,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0073_F012127.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Thủy chịu xuống thì còn khoảng 20-30 phân mà thôi",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "A man wearing glasses and a black and white striped shirt stands in front of a large fishing net, with a cloudy sky and distant landforms in the background.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V021_S0074",
+            "start_frame": 12174,
+            "end_frame": 12442,
+            "start_ts": 486.96,
+            "end_ts": 497.68,
+            "duration": 10.72,
+            "keyframes": [
+                {
+                    "frame_idx": 12308,
+                    "timestamp": 492.32,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0074_F012308.jpg"
+                },
+                {
+                    "frame_idx": 12241,
+                    "timestamp": 489.64,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0074_F012241.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Vậy thì đầm sâu nhất là đầm nào? Đầm sâu nhất thì hiện giờ thì không có sâu nhất Chỉ có đầm giữa là còn một đoạn lạch cùng của bồi lắng ngày xưa thôi",
+                "ocr_text": "Online | HTV Online ĐÔI MÁT MÉKONG",
+                "vlm_caption": {
+                    "detailed_description": "Two men are standing on a wooden bridge over a body of water, engaged in conversation.",
+                    "objects_and_counts": [
+                        "2 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V021_S0075",
+            "start_frame": 12443,
+            "end_frame": 12573,
+            "start_ts": 497.72,
+            "end_ts": 502.92,
+            "duration": 5.2,
+            "keyframes": [
+                {
+                    "frame_idx": 12508,
+                    "timestamp": 500.32,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0075_F012508.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Còn hiện nay thì quân bình khoảng 1m đến 1m30 trở lại.",
+                "ocr_text": "ATV Online MING ĐỜI MÁT MĚKONG",
+                "vlm_caption": {
+                    "detailed_description": "A man wearing glasses and a black and white striped polo shirt stands in front of a backdrop featuring a fishing net and a logo for \"Đối Mặt Mekong.\"",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V021_S0076",
+            "start_frame": 12574,
+            "end_frame": 13021,
+            "start_ts": 502.96,
+            "end_ts": 520.84,
+            "duration": 17.88,
+            "keyframes": [
+                {
+                    "frame_idx": 12797,
+                    "timestamp": 511.88,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0076_F012797.jpg"
+                },
+                {
+                    "frame_idx": 12685,
+                    "timestamp": 507.4,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0076_F012685.jpg"
+                },
+                {
+                    "frame_idx": 12909,
+                    "timestamp": 516.36,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0076_F012909.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "1m đến 1m30 trở lại thì chắc là sẽ thích hợp với những cái xuồng nhỏ, những cái vỏ lãi thôi đúng không anh? Trong hành trình rong rủi trên đầm, chúng tôi được nghe kể về những câu chuyện dân gian một thời, về lịch sử hình thành và phát triển của đầm thị tường.",
+                "ocr_text": "Online | ĐỘI VVL",
+                "vlm_caption": {
+                    "detailed_description": "Two men are standing on a wooden dock by a body of water, with one gesturing and the other listening attentively.",
+                    "objects_and_counts": [
+                        "5 person, 5 boat | 2 person, 1 boat | 7 person, 1 boat"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V021_S0077",
+            "start_frame": 13022,
+            "end_frame": 13145,
+            "start_ts": 520.88,
+            "end_ts": 525.8,
+            "duration": 4.92,
+            "keyframes": [
+                {
+                    "frame_idx": 13083,
+                    "timestamp": 523.32,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0077_F013083.jpg"
+                },
+                {
+                    "frame_idx": 13114,
+                    "timestamp": 524.56,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0077_F013114.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Theo truyền thuyết, cái tên Thị Tường bắt nguồn từ một người phụ nữ tên Tường.",
+                "ocr_text": "HTV Online 0 THÀNH TÂ ĐỎI MẮT MĚKONG | HTV Online e 00-0901562061 • THÀNH TÂN GH ĐỎI MAT MEKONG",
+                "vlm_caption": {
+                    "detailed_description": "Two individuals are rowing a boat on a calm river, with a backdrop of dense greenery and a cloudy sky.",
+                    "objects_and_counts": [
+                        "2 person, 2 boat"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V021_S0078",
+            "start_frame": 13146,
+            "end_frame": 13306,
+            "start_ts": 525.84,
+            "end_ts": 532.24,
+            "duration": 6.4,
+            "keyframes": [
+                {
+                    "frame_idx": 13226,
+                    "timestamp": 529.04,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0078_F013226.jpg"
+                },
+                {
+                    "frame_idx": 13186,
+                    "timestamp": 527.44,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0078_F013186.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "người đã có công khai phá và bảo vệ dùng đất này trong những năm đầu khai hoang.",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "Two individuals are paddling small boats on a calm body of water with a distant shoreline and overcast sky.",
+                    "objects_and_counts": [
+                        "3 person | 5 person, 1 boat"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V021_S0079",
+            "start_frame": 13307,
+            "end_frame": 13398,
+            "start_ts": 532.28,
+            "end_ts": 535.92,
+            "duration": 3.64,
+            "keyframes": [
+                {
+                    "frame_idx": 13352,
+                    "timestamp": 534.08,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0079_F013352.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Đàm nước này không chỉ là nguồn sống của người dân,",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A person holds a large, round fishing net over a body of water, with a green metal structure and a plastic bag in the background.",
+                    "objects_and_counts": [
+                        "1 person, 1 umbrella"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V021_S0080",
+            "start_frame": 13399,
+            "end_frame": 13803,
+            "start_ts": 535.96,
+            "end_ts": 552.12,
+            "duration": 16.16,
+            "keyframes": [
+                {
+                    "frame_idx": 13601,
+                    "timestamp": 544.04,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0080_F013601.jpg"
+                },
+                {
+                    "frame_idx": 13500,
+                    "timestamp": 540.0,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0080_F013500.jpg"
+                },
+                {
+                    "frame_idx": 13702,
+                    "timestamp": 548.08,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0080_F013702.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "mà còn là biểu tượng của sự đoàn kết, bền bỉ của con người trước thiên nhiên khắc nghiệt. Không ai còn nhớ chính xác từ khi nào cái đàm nước lớn nhất miền Tây này bắt đầu đón những cư dân đầu tiên về đây sinh sống. Nhưng có những thời điểm trước đây,",
+                "ocr_text": "Online | HTV Online ĐỘI MÁT MĚKONG | HTV Online ĐÔI MÁT MĚKONG",
+                "vlm_caption": {
+                    "detailed_description": "A person is paddleboarding on a calm river at sunset, with the sun setting in the background and a logo for \"Đôi Mắt Mekong\" in the foreground.",
+                    "objects_and_counts": [
+                        "2 person, 1 boat | 2 person, 2 boat | 3 person, 1 boat, 1 surfboard"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V021_S0081",
+            "start_frame": 13804,
+            "end_frame": 14039,
+            "start_ts": 552.16,
+            "end_ts": 561.56,
+            "duration": 9.4,
+            "keyframes": [
+                {
+                    "frame_idx": 13921,
+                    "timestamp": 556.84,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0081_F013921.jpg"
+                },
+                {
+                    "frame_idx": 13862,
+                    "timestamp": 554.48,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0081_F013862.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "người dân về tụ lại sinh sống khắp trên mặt đầm. Rồi những năm gần đây, khi địa phương quy hoạch tổng thể mỹ quan và bảo tồn hệ sinh thái,",
+                "ocr_text": "Online | Online z 0780 3835542",
+                "vlm_caption": {
+                    "detailed_description": "Three individuals are engaged in fishing activities on a body of water, with one person casting a net from a boat while another stands nearby, and a third person rows another boat.",
+                    "objects_and_counts": [
+                        "2 person, 1 boat | 4 person, 1 boat, 1 umbrella"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V021_S0082",
+            "start_frame": 14040,
+            "end_frame": 14150,
+            "start_ts": 561.6,
+            "end_ts": 566.0,
+            "duration": 4.4,
+            "keyframes": [
+                {
+                    "frame_idx": 14095,
+                    "timestamp": 563.8,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0082_F014095.jpg"
+                },
+                {
+                    "frame_idx": 14067,
+                    "timestamp": 562.68,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0082_F014067.jpg"
+                },
+                {
+                    "frame_idx": 14122,
+                    "timestamp": 564.88,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0082_F014122.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "thì chỉ còn lại các hộ dân ở gian hai bờ.",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "A fish is being caught in a net, with water splashing around it.",
+                    "objects_and_counts": [
+                        "1 bird"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V021_S0083",
+            "start_frame": 14151,
+            "end_frame": 14237,
+            "start_ts": 566.04,
+            "end_ts": 569.48,
+            "duration": 3.44,
+            "keyframes": [
+                {
+                    "frame_idx": 14194,
+                    "timestamp": 567.76,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0083_F014194.jpg"
+                },
+                {
+                    "frame_idx": 14172,
+                    "timestamp": 566.88,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0083_F014172.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hệ sinh thái nơi đây rất đa dạng do ở dùng cả mắt.",
+                "ocr_text": "Online DOI MAU KONG",
+                "vlm_caption": {
+                    "detailed_description": "A net filled with various seafood, including crabs and possibly other shellfish, is shown in close-up."
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V021_S0084",
+            "start_frame": 14238,
+            "end_frame": 14369,
+            "start_ts": 569.52,
+            "end_ts": 574.76,
+            "duration": 5.24,
+            "keyframes": [
+                {
+                    "frame_idx": 14303,
+                    "timestamp": 572.12,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0084_F014303.jpg"
+                },
+                {
+                    "frame_idx": 14270,
+                    "timestamp": 570.8,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0084_F014270.jpg"
+                },
+                {
+                    "frame_idx": 14336,
+                    "timestamp": 573.44,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0084_F014336.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "lại chiếm một dụng trỏ dài. Vì thế, đầm thị tường có mùa nước mặn.",
+                "ocr_text": "Online | Online TAM LOG: | HTV Online ĐỜI MAT MÉKONC",
+                "vlm_caption": {
+                    "detailed_description": "Three individuals are engaged in fishing activities on a lake, with one person casting a net and another standing on a boat, while a third person is partially visible in the background.",
+                    "objects_and_counts": [
+                        "3 person, 1 boat | 4 person, 3 boat | 5 person, 1 boat"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V021_S0085",
+            "start_frame": 14370,
+            "end_frame": 14501,
+            "start_ts": 574.8,
+            "end_ts": 580.04,
+            "duration": 5.24,
+            "keyframes": [
+                {
+                    "frame_idx": 14435,
+                    "timestamp": 577.4,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0085_F014435.jpg"
+                },
+                {
+                    "frame_idx": 14402,
+                    "timestamp": 576.08,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0085_F014402.jpg"
+                },
+                {
+                    "frame_idx": 14468,
+                    "timestamp": 578.72,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0085_F014468.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "ngọt và cả nước lợn. Mùa nước ngọt là cá lót cá tre.",
+                "ocr_text": "HT/V Online ĐỜI MẤT MEKONG | Online ĐỎI MÁT MĚKONG | HTV Online ĐỘI MÁT MEKONG",
+                "vlm_caption": {
+                    "detailed_description": "A large fish is being pulled out of the water by a fishing net.",
+                    "objects_and_counts": [
+                        "1 surfboard"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V021_S0086",
+            "start_frame": 14502,
+            "end_frame": 14629,
+            "start_ts": 580.08,
+            "end_ts": 585.16,
+            "duration": 5.08,
+            "keyframes": [
+                {
+                    "frame_idx": 14565,
+                    "timestamp": 582.6,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0086_F014565.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Mùa nước mặn thì tôm cua chẳng thiếu, đặc biệt là nước lợ, cá ngát.",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "Two individuals are paddling a long wooden boat on a calm body of water under a cloudy sky.",
+                    "objects_and_counts": [
+                        "2 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V021_S0087",
+            "start_frame": 14630,
+            "end_frame": 14692,
+            "start_ts": 585.2,
+            "end_ts": 587.68,
+            "duration": 2.48,
+            "keyframes": [
+                {
+                    "frame_idx": 14661,
+                    "timestamp": 586.44,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0087_F014661.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Cái chẻm loại nào cũng có",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A net filled with numerous small, dark-colored fish, possibly catfish, with some having visible scales and fins."
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V021_S0088",
+            "start_frame": 14693,
+            "end_frame": 14797,
+            "start_ts": 587.72,
+            "end_ts": 591.88,
+            "duration": 4.16,
+            "keyframes": [
+                {
+                    "frame_idx": 14745,
+                    "timestamp": 589.8,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0088_F014745.jpg"
+                },
+                {
+                    "frame_idx": 14771,
+                    "timestamp": 590.84,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0088_F014771.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Nếu may mắn đi ngay lúc thủy triều xuống tháp, bạn có thể",
+                "ocr_text": "HTV Online ĐỘI MÁT MÉKONE | Online",
+                "vlm_caption": {
+                    "detailed_description": "Two individuals are standing on a small boat in a calm body of water during sunset, with the sun setting in the background and a forested shoreline visible.",
+                    "objects_and_counts": [
+                        "5 person, 2 boat | 2 boat, 3 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V021_S0089",
+            "start_frame": 14798,
+            "end_frame": 14956,
+            "start_ts": 591.92,
+            "end_ts": 598.24,
+            "duration": 6.32,
+            "keyframes": [
+                {
+                    "frame_idx": 14877,
+                    "timestamp": 595.08,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0089_F014877.jpg"
+                },
+                {
+                    "frame_idx": 14837,
+                    "timestamp": 593.48,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0089_F014837.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Sáng tay áo, mò tôm, bắt cá với người dân nơi đây. Đi lúc thủy triều lên cũng không sao.",
+                "ocr_text": "HTV Online ĐỎI MÁT MĚKONG | HTV Online ĐÔI MAU MEKONG",
+                "vlm_caption": {
+                    "detailed_description": "A person in a hat stands on a boat, holding a net, while another person paddles nearby, with a calm river and distant trees in the background.",
+                    "objects_and_counts": [
+                        "2 person, 2 boat | 2 person, 1 boat"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V021_S0090",
+            "start_frame": 14957,
+            "end_frame": 15139,
+            "start_ts": 598.28,
+            "end_ts": 605.56,
+            "duration": 7.28,
+            "keyframes": [
+                {
+                    "frame_idx": 15048,
+                    "timestamp": 601.92,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0090_F015048.jpg"
+                },
+                {
+                    "frame_idx": 15002,
+                    "timestamp": 600.08,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0090_F015002.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Người dân nơi đây sẵn sàng cho bạn mượn cần ngồi câu cá Thú nhất là đi câu cá, dăng lưới, đục hạ",
+                "ocr_text": "Online | Online ĐOI MAT MEKONG",
+                "vlm_caption": {
+                    "detailed_description": "Two individuals are rowing a small boat on a calm body of water, with one person holding a fishing net.",
+                    "objects_and_counts": [
+                        "2 person, 1 boat | 2 person, 2 dog, 1 boat"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V021_S0091",
+            "start_frame": 15140,
+            "end_frame": 15385,
+            "start_ts": 605.6,
+            "end_ts": 615.4,
+            "duration": 9.8,
+            "keyframes": [
+                {
+                    "frame_idx": 15262,
+                    "timestamp": 610.48,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0091_F015262.jpg"
+                },
+                {
+                    "frame_idx": 15201,
+                    "timestamp": 608.04,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0091_F015201.jpg"
+                },
+                {
+                    "frame_idx": 15323,
+                    "timestamp": 612.92,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0091_F015323.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Nếu ai đó muốn tắm sông cứ dịp nhảy ưng xuống đầm mà bơi cho thả thích Trước đây em từng được đến với đầm hịt tuần một lần thì lúc đó em đã đến với đầm hịt tuần một lần",
+                "ocr_text": "HTV Online ĐỘI MÁT MĚKONG | Online | HTV Online ĐOI MÁT. MEKONE",
+                "vlm_caption": {
+                    "detailed_description": "A person stands on a small boat in the middle of a calm body of water, with a fishing rod in hand.",
+                    "objects_and_counts": [
+                        "2 boat, 1 person | 2 person, 1 boat | 1 boat, 1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V021_S0092",
+            "start_frame": 15386,
+            "end_frame": 15476,
+            "start_ts": 615.44,
+            "end_ts": 619.04,
+            "duration": 3.6,
+            "keyframes": [
+                {
+                    "frame_idx": 15431,
+                    "timestamp": 617.24,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0092_F015431.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "những nhà bên sông thì nó cũng còn khá nhiều",
+                "ocr_text": "HTV line ĐỘI MÁT MĚKÖNG",
+                "vlm_caption": {
+                    "detailed_description": "Two men are standing outdoors by a body of water, with one gesturing towards a net in the water.",
+                    "objects_and_counts": [
+                        "2 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V021_S0093",
+            "start_frame": 15477,
+            "end_frame": 15558,
+            "start_ts": 619.08,
+            "end_ts": 622.32,
+            "duration": 3.24,
+            "keyframes": [
+                {
+                    "frame_idx": 15517,
+                    "timestamp": 620.68,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0093_F015517.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Nhưng mà hiện giờ thì em đang thấy cái mặt đầm ngày 1 và được rộng hơn",
+                "ocr_text": "Online MĚKONG",
+                "vlm_caption": {
+                    "detailed_description": "Two men stand on a wooden bridge over a body of water, with one gesturing and the other listening, under a cloudy sky.",
+                    "objects_and_counts": [
+                        "2 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V021_S0094",
+            "start_frame": 15559,
+            "end_frame": 15598,
+            "start_ts": 622.36,
+            "end_ts": 623.92,
+            "duration": 1.56,
+            "keyframes": [
+                {
+                    "frame_idx": 15578,
+                    "timestamp": 623.12,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0094_F015578.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Thì chắc có",
+                "ocr_text": "HTV Online ĐỘI MÁT MĚKONG",
+                "vlm_caption": {
+                    "detailed_description": "Two men are standing outdoors by a body of water, with one gesturing towards a fishing net while the other listens attentively.",
+                    "objects_and_counts": [
+                        "2 person, 1 surfboard"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V021_S0095",
+            "start_frame": 15599,
+            "end_frame": 15641,
+            "start_ts": 623.96,
+            "end_ts": 625.64,
+            "duration": 1.68,
+            "keyframes": [
+                {
+                    "frame_idx": 15620,
+                    "timestamp": 624.8,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0095_F015620.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "thay đổi về chính sách của tỉnh",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "Two men stand on a wooden dock by a body of water, with one holding a fishing rod and the other observing.",
+                    "objects_and_counts": [
+                        "2 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V021_S0096",
+            "start_frame": 15642,
+            "end_frame": 15794,
+            "start_ts": 625.68,
+            "end_ts": 631.76,
+            "duration": 6.08,
+            "keyframes": [
+                {
+                    "frame_idx": 15718,
+                    "timestamp": 628.72,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0096_F015718.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Năm 2023 tỉnh có chính khách là giải tòa.",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "A man wearing glasses and a black and white striped shirt stands in front of a large fishing net on a body of water.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V021_S0097",
+            "start_frame": 15795,
+            "end_frame": 16023,
+            "start_ts": 631.8,
+            "end_ts": 640.92,
+            "duration": 9.12,
+            "keyframes": [
+                {
+                    "frame_idx": 15909,
+                    "timestamp": 636.36,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0097_F015909.jpg"
+                },
+                {
+                    "frame_idx": 15852,
+                    "timestamp": 634.08,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0097_F015852.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Chủ trương giải tỏa để làm cho thông thoáng cái đầm, nhiều năm bà con cũng có tự lấn tế chiếm.",
+                "ocr_text": "HTV Online ĐỔI MÁT MEKONE | Online",
+                "vlm_caption": {
+                    "detailed_description": "Two men stand on a wooden dock by a body of water, with one wearing a green jacket and the other in a black polo shirt with white stripes, both facing each other.",
+                    "objects_and_counts": [
+                        "2 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V021_S0098",
+            "start_frame": 16024,
+            "end_frame": 16188,
+            "start_ts": 640.96,
+            "end_ts": 647.52,
+            "duration": 6.56,
+            "keyframes": [
+                {
+                    "frame_idx": 16106,
+                    "timestamp": 644.24,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0098_F016106.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "đánh chiếm thì làm cho cái đầm nó bồi lắng đi cái mực nước nó không sâu được rồi đánh bắt",
+                "ocr_text": "HTV Online ĐÔI MẤT MĚKONG",
+                "vlm_caption": {
+                    "detailed_description": "A man wearing glasses and a black and white polo shirt stands in front of a body of water with a fishing net in the background.",
+                    "objects_and_counts": [
+                        "1 person, 1 surfboard"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V021_S0099",
+            "start_frame": 16189,
+            "end_frame": 16312,
+            "start_ts": 647.56,
+            "end_ts": 652.48,
+            "duration": 4.92,
+            "keyframes": [
+                {
+                    "frame_idx": 16250,
+                    "timestamp": 650.0,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0099_F016250.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "càng kiệt những loại hải sản từ đó",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "Two men are standing on a wooden dock by a body of water, engaged in conversation.",
+                    "objects_and_counts": [
+                        "2 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V021_S0100",
+            "start_frame": 16313,
+            "end_frame": 16439,
+            "start_ts": 652.52,
+            "end_ts": 657.56,
+            "duration": 5.04,
+            "keyframes": [
+                {
+                    "frame_idx": 16376,
+                    "timestamp": 655.04,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0100_F016376.jpg"
+                },
+                {
+                    "frame_idx": 16344,
+                    "timestamp": 653.76,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0100_F016344.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "nhà nước có cái chính sách giải tỏa để mời gọi đầu tư nhà phát triển du lịch ở nơi đây.",
+                "ocr_text": "ATV Online ĐỎI MẤT MĚKONG | Online",
+                "vlm_caption": {
+                    "detailed_description": "A man wearing glasses and a black and white polo shirt stands near a large fishing net on a cloudy day.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V021_S0101",
+            "start_frame": 16440,
+            "end_frame": 16542,
+            "start_ts": 657.6,
+            "end_ts": 661.68,
+            "duration": 4.08,
+            "keyframes": [
+                {
+                    "frame_idx": 16491,
+                    "timestamp": 659.64,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0101_F016491.jpg"
+                },
+                {
+                    "frame_idx": 16465,
+                    "timestamp": 658.6,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0101_F016465.jpg"
+                },
+                {
+                    "frame_idx": 16516,
+                    "timestamp": 660.64,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0101_F016516.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Đang dự định sẽ phát triển du lịch sinh thái trên đầm thị tường",
+                "ocr_text": "Online | ĐỘI VMI WEKOV@ | HTV Online ĐỎI MẮT MĚKONG",
+                "vlm_caption": {
+                    "detailed_description": "Two men stand on a wooden pier by a body of water, with one giving a thumbs-up gesture.",
+                    "objects_and_counts": [
+                        "2 person | 2 person, 1 boat | 2 person, 1 clock"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V021_S0102",
+            "start_frame": 16543,
+            "end_frame": 16621,
+            "start_ts": 661.72,
+            "end_ts": 664.84,
+            "duration": 3.12,
+            "keyframes": [
+                {
+                    "frame_idx": 16582,
+                    "timestamp": 663.28,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0102_F016582.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Ngoài cái lượng thủy hải sản thuộc về thiên nhiên thì",
+                "ocr_text": "HTV Online ĐỜI MẤT L-NING MĚKONG",
+                "vlm_caption": {
+                    "detailed_description": "A man wearing glasses and a black and white shirt stands in front of a backdrop featuring a net and a logo for \"Đối Mặt Mekong.\"",
+                    "objects_and_counts": [
+                        "2 person, 1 hot dog"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V021_S0103",
+            "start_frame": 16622,
+            "end_frame": 16728,
+            "start_ts": 664.88,
+            "end_ts": 669.12,
+            "duration": 4.24,
+            "keyframes": [
+                {
+                    "frame_idx": 16675,
+                    "timestamp": 667.0,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0103_F016675.jpg"
+                },
+                {
+                    "frame_idx": 16701,
+                    "timestamp": 668.04,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0103_F016701.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Mọi người có nuôi trồng ở trên đầm này không anh? Dạ không",
+                "ocr_text": "HTV Online ĐÔI MÁT MĚKONG | Online",
+                "vlm_caption": {
+                    "detailed_description": "Two men stand on a wooden dock by a calm body of water, with one gesturing and the other listening attentively.",
+                    "objects_and_counts": [
+                        "2 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V021_S0104",
+            "start_frame": 16729,
+            "end_frame": 16773,
+            "start_ts": 669.16,
+            "end_ts": 670.92,
+            "duration": 1.76,
+            "keyframes": [
+                {
+                    "frame_idx": 16751,
+                    "timestamp": 670.04,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0104_F016751.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Ở đây là thiên nhiên hết",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "A man wearing glasses and a black and white polo shirt stands in front of a large fishing net on a beach.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V021_S0105",
+            "start_frame": 16774,
+            "end_frame": 17584,
+            "start_ts": 670.96,
+            "end_ts": 703.36,
+            "duration": 32.4,
+            "keyframes": [
+                {
+                    "frame_idx": 17179,
+                    "timestamp": 687.16,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0105_F017179.jpg"
+                },
+                {
+                    "frame_idx": 16976,
+                    "timestamp": 679.04,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0105_F016976.jpg"
+                },
+                {
+                    "frame_idx": 17381,
+                    "timestamp": 695.24,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0105_F017381.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "hoàn toàn là thiên nhiên lượng rau củ quả này anh lấy trên bờ từ chợ nào? chợ Đồng Hối ngoài cái nước anh sáng từ khuya mấy giờ mình đi lấy hàng? 1 giờ 1 giờ khuya bắt đầu dọa lại ra cái nước để lấy hàng rồi từ cái nước trở vô bắt đầu bán vòng đường luôn sáng về tới nhà chắc đồ xong rồi chắc đồ loại hết rồi mới đi bán anh 1 giờ đi lấy hàng rồi mấy giờ sáng đi bán? giờ...",
+                "ocr_text": "Online MĚKONG | Online | HTV Online ĐỘI MÁT Người dân sinh sống trên đầm thị tường MĚKONG",
+                "vlm_caption": {
+                    "detailed_description": "A blue boat filled with various fruits and vegetables, including red and green apples, pears, and bananas, is docked on a body of water.",
+                    "objects_and_counts": [
+                        "1 person, 1 boat | 3 carrot, 1 broccoli | 1 carrot"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V021_S0106",
+            "start_frame": 17585,
+            "end_frame": 18004,
+            "start_ts": 703.4,
+            "end_ts": 720.16,
+            "duration": 16.76,
+            "keyframes": [
+                {
+                    "frame_idx": 17794,
+                    "timestamp": 711.76,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0106_F017794.jpg"
+                },
+                {
+                    "frame_idx": 17689,
+                    "timestamp": 707.56,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0106_F017689.jpg"
+                },
+                {
+                    "frame_idx": 17899,
+                    "timestamp": 715.96,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0106_F017899.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "6 giờ. Thường là bán dọc, kế đập, bị tùy mình thì có nhiều người mua không anh? Quay nhẹ lên. Trước dọc một lần thì nhiều, mà giờ cũng như là dạy người ta vô, người ta giải tán bớt rồi, rồi nghĩ cho nuôi sổ, nên rất ít người mua lại.",
+                "ocr_text": "ĐÔI MÁT MEKONG | Online KONG | Online ĐOI MAT MEKONG",
+                "vlm_caption": {
+                    "detailed_description": "A person is unloading groceries from a blue boat onto a dock, with various items in plastic bags and containers visible.",
+                    "objects_and_counts": [
+                        "3 person, 2 boat | 1 person, 2 boat"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V021_S0107",
+            "start_frame": 18005,
+            "end_frame": 18441,
+            "start_ts": 720.2,
+            "end_ts": 737.64,
+            "duration": 17.44,
+            "keyframes": [
+                {
+                    "frame_idx": 18223,
+                    "timestamp": 728.92,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0107_F018223.jpg"
+                },
+                {
+                    "frame_idx": 18114,
+                    "timestamp": 724.56,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0107_F018114.jpg"
+                },
+                {
+                    "frame_idx": 18332,
+                    "timestamp": 733.28,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0107_F018332.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Chủ yếu là người ta ở ngoài này là anh bán cho những hộ mình còn được phép ở lại đầm. Còn ở đây là ở lại, không được phép ở lại. Những câu chuyện về đời, về người, về những kỷ niệm vui buồn gắn liền cho đầm thị tường.",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "A blue boat filled with various plastic bags containing fruits and vegetables is floating on a body of water.",
+                    "objects_and_counts": [
+                        "1 person, 2 boat, 1 handbag | 2 carrot"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V021_S0108",
+            "start_frame": 18442,
+            "end_frame": 18759,
+            "start_ts": 737.68,
+            "end_ts": 750.36,
+            "duration": 12.68,
+            "keyframes": [
+                {
+                    "frame_idx": 18600,
+                    "timestamp": 744.0,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0108_F018600.jpg"
+                },
+                {
+                    "frame_idx": 18521,
+                    "timestamp": 740.84,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0108_F018521.jpg"
+                },
+                {
+                    "frame_idx": 18679,
+                    "timestamp": 747.16,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0108_F018679.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Khiến chúng tôi hiểu thêm về tình cảm sâu nặng mà người dân nơi đây dành cho mảnh đất này Họ sống cùng đầm, ăn ngủ cùng đầm và yêu thương từng ngọn cỏ, từng con sống nơi đây",
+                "ocr_text": "Online | HTV Online ĐỜI MÁT MEKONG",
+                "vlm_caption": {
+                    "detailed_description": "The image shows a variety of fresh vegetables and fruits in transparent plastic bags, arranged on a table."
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V021_S0109",
+            "start_frame": 18760,
+            "end_frame": 18879,
+            "start_ts": 750.4,
+            "end_ts": 755.16,
+            "duration": 4.76,
+            "keyframes": [
+                {
+                    "frame_idx": 18819,
+                    "timestamp": 752.76,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0109_F018819.jpg"
+                },
+                {
+                    "frame_idx": 18849,
+                    "timestamp": 753.96,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0109_F018849.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Trong ánh nắng bình minh từng câu chuyện như những tia nắng ấm áp",
+                "ocr_text": "Online | HTV online ĐỜI MẤT MĚKONG",
+                "vlm_caption": {
+                    "detailed_description": "A man stands on a small boat, holding a bag, with fishing nets hanging on the side, and a calm body of water in the background.",
+                    "objects_and_counts": [
+                        "1 person, 2 boat, 1 handbag"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V021_S0110",
+            "start_frame": 18881,
+            "end_frame": 19028,
+            "start_ts": 755.24,
+            "end_ts": 761.12,
+            "duration": 5.88,
+            "keyframes": [
+                {
+                    "frame_idx": 18954,
+                    "timestamp": 758.16,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0110_F018954.jpg"
+                },
+                {
+                    "frame_idx": 18917,
+                    "timestamp": 756.68,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0110_F018917.jpg"
+                },
+                {
+                    "frame_idx": 18991,
+                    "timestamp": 759.64,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0110_F018991.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Chiếu rọi và lan tỏa vào lòng mỗi người Bình minh đã lên cao",
+                "ocr_text": "Online NEKONC | Online | HTV Online ĐỘI MÁT MĚKONG",
+                "vlm_caption": {
+                    "detailed_description": "An aerial view of a coastal area with a body of water, greenery, and a few boats, with a clear sky and distant horizon.",
+                    "objects_and_counts": [
+                        "1 boat"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V021_S0111",
+            "start_frame": 19029,
+            "end_frame": 19389,
+            "start_ts": 761.16,
+            "end_ts": 775.56,
+            "duration": 14.4,
+            "keyframes": [
+                {
+                    "frame_idx": 19209,
+                    "timestamp": 768.36,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0111_F019209.jpg"
+                },
+                {
+                    "frame_idx": 19119,
+                    "timestamp": 764.76,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0111_F019119.jpg"
+                },
+                {
+                    "frame_idx": 19299,
+                    "timestamp": 771.96,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0111_F019299.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Ánh nắng vàng ấm áp trải dài trên mặt đầm, làm bừng sáng cảnh giật xung quanh. Những chiếc ghe thuyền trở về sau một buổi sáng làm việc, mang theo những mẻ cá tươi ngon đầy ấp niềm vui và hy vọng. Tiếng cười nói rộn rã.",
+                "ocr_text": "Online | Online MĚKONG",
+                "vlm_caption": {
+                    "detailed_description": "A man stands on a small boat filled with various items, including vegetables and a motor, on a calm body of water.",
+                    "objects_and_counts": [
+                        "1 boat, 1 person, 1 bird | 1 person, 1 boat | 1 boat, 1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V021_S0112",
+            "start_frame": 19390,
+            "end_frame": 19472,
+            "start_ts": 775.6,
+            "end_ts": 778.88,
+            "duration": 3.28,
+            "keyframes": [
+                {
+                    "frame_idx": 19431,
+                    "timestamp": 777.24,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0112_F019431.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "âm thanh của sự sống, của sự mua sinh, dàn dạng.",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "The image shows a close-up of several fish, including a large fish with a spotted pattern and a smaller fish with a speckled body, all lying on a surface with water droplets visible."
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V021_S0113",
+            "start_frame": 19473,
+            "end_frame": 19539,
+            "start_ts": 778.92,
+            "end_ts": 781.56,
+            "duration": 2.64,
+            "keyframes": [
+                {
+                    "frame_idx": 19506,
+                    "timestamp": 780.24,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0113_F019506.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "HTV Online ĐỜI MÁT MEKONG",
+                "vlm_caption": {
+                    "detailed_description": "A person wearing a blue jacket and red gloves is holding a fishing rod, casting it into a calm body of water.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V021_S0114",
+            "start_frame": 19540,
+            "end_frame": 19607,
+            "start_ts": 781.6,
+            "end_ts": 784.28,
+            "duration": 2.68,
+            "keyframes": [
+                {
+                    "frame_idx": 19573,
+                    "timestamp": 782.92,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0114_F019573.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Khoảnh khắc giãn dị nhưng đông đầy hạnh phúc.",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "The image shows a green plastic container filled with various seafood, including fish, crabs, and possibly squid, with some items hanging from a net.",
+                    "objects_and_counts": [
+                        "4 bird, 1 baseball bat"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V021_S0115",
+            "start_frame": 19608,
+            "end_frame": 19708,
+            "start_ts": 784.32,
+            "end_ts": 788.32,
+            "duration": 4.0,
+            "keyframes": [
+                {
+                    "frame_idx": 19658,
+                    "timestamp": 786.32,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0115_F019658.jpg"
+                },
+                {
+                    "frame_idx": 19633,
+                    "timestamp": 785.32,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0115_F019633.jpg"
+                },
+                {
+                    "frame_idx": 19683,
+                    "timestamp": 787.32,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0115_F019683.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "như những nét chấm phá tươi sáng trên bức tranh thiên nhiên huỳnh dĩ.",
+                "ocr_text": "HTV Online ĐÔI MÁT MĚKONG | MEKONG | HTV Online ĐỜI MẤT MĚKONG",
+                "vlm_caption": {
+                    "detailed_description": "A hand holding a fishing line extends into the water, with a small object floating nearby, and a boat visible in the distance.",
+                    "objects_and_counts": [
+                        "2 person | 1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V021_S0116",
+            "start_frame": 19709,
+            "end_frame": 20010,
+            "start_ts": 788.36,
+            "end_ts": 800.4,
+            "duration": 12.04,
+            "keyframes": [
+                {
+                    "frame_idx": 19859,
+                    "timestamp": 794.36,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0116_F019859.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Đàm Thị Tường không chỉ là nơi cung cấp nguồn lợi thủy sản phong phú mà còn là một điểm du lịch sinh thái hấp dẫn Du khách đến đây không chỉ để thưởng ngoạn cảnh đẹp thiên nhiên",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "A person is rowing a small boat through a shallow body of water with a fenced area in the foreground and a forested shoreline in the background.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V021_S0117",
+            "start_frame": 20011,
+            "end_frame": 20087,
+            "start_ts": 800.44,
+            "end_ts": 803.48,
+            "duration": 3.04,
+            "keyframes": [
+                {
+                    "frame_idx": 20049,
+                    "timestamp": 801.96,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0117_F020049.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "mà còn để tìm hiểu về dân hóa, đời sống.",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "A person in traditional attire stands on a small boat on a calm body of water, while another individual sits nearby, both engaged in fishing activities.",
+                    "objects_and_counts": [
+                        "3 person, 1 boat"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V021_S0118",
+            "start_frame": 20088,
+            "end_frame": 20310,
+            "start_ts": 803.52,
+            "end_ts": 812.4,
+            "duration": 8.88,
+            "keyframes": [
+                {
+                    "frame_idx": 20199,
+                    "timestamp": 807.96,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0118_F020199.jpg"
+                },
+                {
+                    "frame_idx": 20143,
+                    "timestamp": 805.72,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0118_F020143.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "và những giá trị tinh thần của người dân địa phương. Thường thì mùa nào trong năm lượng du khách đổ về hợp tác xã của mình nhiều.",
+                "ocr_text": "ATV Online ĐỘI MÁT MĚKONG | Online MEKONG",
+                "vlm_caption": {
+                    "detailed_description": "A group of people are engaged in fishing activities on the Mekong River, with one person in a blue shirt and hat actively handling a net in a blue boat.",
+                    "objects_and_counts": [
+                        "2 person | 7 person, 2 boat, 1 cup"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V021_S0119",
+            "start_frame": 20311,
+            "end_frame": 20442,
+            "start_ts": 812.44,
+            "end_ts": 817.68,
+            "duration": 5.24,
+            "keyframes": [
+                {
+                    "frame_idx": 20376,
+                    "timestamp": 815.04,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0119_F020376.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "lượng khách về đây đông nhất là vào dịp Thết Nguyên Đáng là lễ 30 tháng 4 hàng năm",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A man wearing glasses and a black and white polo shirt stands in front of a large fishing net on a body of water.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V021_S0120",
+            "start_frame": 20443,
+            "end_frame": 20537,
+            "start_ts": 817.72,
+            "end_ts": 821.48,
+            "duration": 3.76,
+            "keyframes": [
+                {
+                    "frame_idx": 20490,
+                    "timestamp": 819.6,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0120_F020490.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Ở đây thì thường du khách đến đây là chỉ sáng đi chịu về.",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "Two men stand on a wooden bridge over a body of water, engaged in conversation.",
+                    "objects_and_counts": [
+                        "2 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V021_S0121",
+            "start_frame": 20538,
+            "end_frame": 20681,
+            "start_ts": 821.52,
+            "end_ts": 827.24,
+            "duration": 5.72,
+            "keyframes": [
+                {
+                    "frame_idx": 20609,
+                    "timestamp": 824.36,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0121_F020609.jpg"
+                },
+                {
+                    "frame_idx": 20573,
+                    "timestamp": 822.92,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0121_F020573.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Đến đây để trải nghiệm và thưởng thức hải sản tươi sống tại đầm thị trường của mình",
+                "ocr_text": "ATV Online L-NUNG ĐỜI MẤT MĚKONG | Online NING",
+                "vlm_caption": {
+                    "detailed_description": "A man wearing glasses and a black and white striped polo shirt stands in front of a body of water with a fishing net in the background.",
+                    "objects_and_counts": [
+                        "1 person | 1 person, 1 surfboard"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V021_S0122",
+            "start_frame": 20682,
+            "end_frame": 20803,
+            "start_ts": 827.28,
+            "end_ts": 832.12,
+            "duration": 4.84,
+            "keyframes": [
+                {
+                    "frame_idx": 20742,
+                    "timestamp": 829.68,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0122_F020742.jpg"
+                },
+                {
+                    "frame_idx": 20712,
+                    "timestamp": 828.48,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0122_F020712.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Dạ, nhưng mà nếu mà em chọn là em sẽ có 2 ngày ở trên đầm thị tường",
+                "ocr_text": "Online MĚKONG | Online",
+                "vlm_caption": {
+                    "detailed_description": "Two men are standing on a wooden dock by a body of water, engaged in conversation.",
+                    "objects_and_counts": [
+                        "2 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V021_S0123",
+            "start_frame": 20804,
+            "end_frame": 20868,
+            "start_ts": 832.16,
+            "end_ts": 834.72,
+            "duration": 2.56,
+            "keyframes": [
+                {
+                    "frame_idx": 20836,
+                    "timestamp": 833.44,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0123_F020836.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "ở hợp tác xã của anh thì em sẽ có",
+                "ocr_text": "HTV Online ĐÔI MẤT MEKONG",
+                "vlm_caption": {
+                    "detailed_description": "A man wearing glasses and a black and white polo shirt stands in front of a backdrop of a body of water and a net, with the logo \"Đối Mặt Mekong\" visible in the bottom left corner.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V021_S0124",
+            "start_frame": 20869,
+            "end_frame": 20955,
+            "start_ts": 834.76,
+            "end_ts": 838.2,
+            "duration": 3.44,
+            "keyframes": [
+                {
+                    "frame_idx": 20912,
+                    "timestamp": 836.48,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0124_F020912.jpg"
+                },
+                {
+                    "frame_idx": 20890,
+                    "timestamp": 835.6,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0124_F020890.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "được những hoạt động nào để trải nghiệm cuộc sống ở đầm thị tường ạ",
+                "ocr_text": "Online | HTV Online ĐỘI MÁT MEKONG",
+                "vlm_caption": {
+                    "detailed_description": "Two men are standing on a dock by a body of water, engaged in a conversation.",
+                    "objects_and_counts": [
+                        "2 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V021_S0125",
+            "start_frame": 20956,
+            "end_frame": 21159,
+            "start_ts": 838.24,
+            "end_ts": 846.36,
+            "duration": 8.12,
+            "keyframes": [
+                {
+                    "frame_idx": 21057,
+                    "timestamp": 842.28,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0125_F021057.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Ở đây thì tôi cũng có mô hình là home size cho khách nghỉ lại. Qua đêm thì một người 80 nghìn đối với người lớn.",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "A man wearing glasses and a black and white polo shirt stands in front of a large fishing net on a body of water.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V021_S0126",
+            "start_frame": 21160,
+            "end_frame": 21606,
+            "start_ts": 846.4,
+            "end_ts": 864.24,
+            "duration": 17.84,
+            "keyframes": [
+                {
+                    "frame_idx": 21383,
+                    "timestamp": 855.32,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0126_F021383.jpg"
+                },
+                {
+                    "frame_idx": 21271,
+                    "timestamp": 850.84,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0126_F021271.jpg"
+                },
+                {
+                    "frame_idx": 21494,
+                    "timestamp": 859.76,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0126_F021494.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Còn ban đêm thì mình có thể trải nghiệm cùng bà con, mình đi xuồng, đi bắt bà khía chẳng hạn, hoặc là đi lưới cá trên đầm. Là sẽ được hòa vào cuộc sống thực tế của bà con nông dân ở đây. Đúng rồi. Ở tại hợp tác xã Hà Nội, bà con sẽ có thể trải nghiệm cùng bà con.",
+                "ocr_text": "HTV Online TÀM NOC | Online | HTV Online MEKONG",
+                "vlm_caption": {
+                    "detailed_description": "The image depicts a nighttime aerial view of a coastal area with a river running through it, surrounded by urban development and greenery."
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V021_S0127",
+            "start_frame": 21607,
+            "end_frame": 21744,
+            "start_ts": 864.28,
+            "end_ts": 869.76,
+            "duration": 5.48,
+            "keyframes": [
+                {
+                    "frame_idx": 21675,
+                    "timestamp": 867.0,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0127_F021675.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "của mình những cái món ngon chế biến thì các đoàn du khách có thể hòa vào những cái",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "Two men are standing outdoors by a body of water, with one gesturing and the other listening attentively.",
+                    "objects_and_counts": [
+                        "2 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V021_S0128",
+            "start_frame": 21745,
+            "end_frame": 21863,
+            "start_ts": 869.8,
+            "end_ts": 874.52,
+            "duration": 4.72,
+            "keyframes": [
+                {
+                    "frame_idx": 21804,
+                    "timestamp": 872.16,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0128_F021804.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Thao tác như là nấu hay là chọn thủy hải sản luôn không anh? Dạ có",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "Two men are standing on a wooden platform by a body of water, engaged in a conversation.",
+                    "objects_and_counts": [
+                        "2 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V021_S0129",
+            "start_frame": 21864,
+            "end_frame": 22080,
+            "start_ts": 874.56,
+            "end_ts": 883.2,
+            "duration": 8.64,
+            "keyframes": [
+                {
+                    "frame_idx": 21972,
+                    "timestamp": 878.88,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0129_F021972.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Nó như là một bữa cơm gia đình Có thể tự chọn Mình hôm sai mà Nó là một cái Giống như bữa cơm gia đình",
+                "ocr_text": "Online LI-NING",
+                "vlm_caption": {
+                    "detailed_description": "A man wearing glasses and a black and white striped shirt stands on a beach with a fishing net in the background.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V021_S0130",
+            "start_frame": 22081,
+            "end_frame": 22272,
+            "start_ts": 883.24,
+            "end_ts": 890.88,
+            "duration": 7.64,
+            "keyframes": [
+                {
+                    "frame_idx": 22176,
+                    "timestamp": 887.04,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0130_F022176.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Mấy gọi là có từ hôm sai đó Tôi cũng học hỏi từ những nơi khác Mà về mình làm hôm sai Trong đó có combo luôn",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "Two men are standing on a wooden bridge over a calm body of water, engaged in conversation.",
+                    "objects_and_counts": [
+                        "2 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V021_S0131",
+            "start_frame": 22273,
+            "end_frame": 22462,
+            "start_ts": 890.92,
+            "end_ts": 898.48,
+            "duration": 7.56,
+            "keyframes": [
+                {
+                    "frame_idx": 22367,
+                    "timestamp": 894.68,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0131_F022367.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "là công bố lục vụ ví dụ như một người đến đây là đoàn từ 5 người dễ lên đó thì một người trăm",
+                "ocr_text": "ATV Online ĐỎI MÁT MĚKONG",
+                "vlm_caption": {
+                    "detailed_description": "A man wearing glasses and a black and white polo shirt stands in front of a backdrop of a body of water and a fishing net.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V021_S0132",
+            "start_frame": 22463,
+            "end_frame": 22762,
+            "start_ts": 898.52,
+            "end_ts": 910.48,
+            "duration": 11.96,
+            "keyframes": [
+                {
+                    "frame_idx": 22612,
+                    "timestamp": 904.48,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0132_F022612.jpg"
+                },
+                {
+                    "frame_idx": 22537,
+                    "timestamp": 901.48,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0132_F022537.jpg"
+                },
+                {
+                    "frame_idx": 22687,
+                    "timestamp": 907.48,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0132_F022687.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "4 món mà nếu 120.000 là 5 món Dạ anh ơi Cái hợp tác xã của mình em đang thấy nó ở giữa đầm 4 bề là nước như thế này Thì thuận lợi là mình có Nguồn tôm cá thủy hải sản rất là",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "Two boats are traveling in opposite directions on a dark body of water at night."
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V021_S0133",
+            "start_frame": 22763,
+            "end_frame": 22849,
+            "start_ts": 910.52,
+            "end_ts": 913.96,
+            "duration": 3.44,
+            "keyframes": [
+                {
+                    "frame_idx": 22806,
+                    "timestamp": 912.24,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0133_F022806.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "nhưng mà những nguồn nguyên liệu khác đã phục vụ cho du lịch.",
+                "ocr_text": "nine",
+                "vlm_caption": {
+                    "detailed_description": "Two men are standing outdoors by a body of water, with one gesturing towards a fishing net while the other listens attentively.",
+                    "objects_and_counts": [
+                        "2 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V021_S0134",
+            "start_frame": 22850,
+            "end_frame": 22914,
+            "start_ts": 914.0,
+            "end_ts": 916.56,
+            "duration": 2.56,
+            "keyframes": [
+                {
+                    "frame_idx": 22882,
+                    "timestamp": 915.28,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0134_F022882.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "như từ nước hay là điện",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "Two men are standing on a wooden platform overlooking a calm body of water, engaged in a conversation.",
+                    "objects_and_counts": [
+                        "2 person, 1 boat"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V021_S0135",
+            "start_frame": 22915,
+            "end_frame": 23158,
+            "start_ts": 916.6,
+            "end_ts": 926.32,
+            "duration": 9.72,
+            "keyframes": [
+                {
+                    "frame_idx": 23036,
+                    "timestamp": 921.44,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0135_F023036.jpg"
+                },
+                {
+                    "frame_idx": 22975,
+                    "timestamp": 919.0,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0135_F022975.jpg"
+                },
+                {
+                    "frame_idx": 23097,
+                    "timestamp": 923.88,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0135_F023097.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "mình có gặp khó khăn trở ngại gì về cái vấn đề đó không anh? dạ không, ở đây thì chúng tôi là khoan được 2 cái viếng nước",
+                "ocr_text": "Online | Online ĐOI MAT MEKONG | HTV Online ĐỘI MÁT MEKONE",
+                "vlm_caption": {
+                    "detailed_description": "An aerial view shows two boats moving across a wide, calm body of water, with one boat leaving a trail of white wake behind it."
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V021_S0136",
+            "start_frame": 23159,
+            "end_frame": 23334,
+            "start_ts": 926.36,
+            "end_ts": 933.36,
+            "duration": 7.0,
+            "keyframes": [
+                {
+                    "frame_idx": 23246,
+                    "timestamp": 929.84,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0136_F023246.jpg"
+                },
+                {
+                    "frame_idx": 23290,
+                    "timestamp": 931.6,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0136_F023290.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "nước nước đây rất ngọt khoảng 150 mét là có nước sinh hoạt rất là tốt",
+                "ocr_text": "HTV Online ĐÔI MÁT MĚKONG | Online",
+                "vlm_caption": {
+                    "detailed_description": "Two men stand on a wooden platform by a body of water, engaged in conversation.",
+                    "objects_and_counts": [
+                        "2 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V021_S0137",
+            "start_frame": 23335,
+            "end_frame": 23461,
+            "start_ts": 933.4,
+            "end_ts": 938.44,
+            "duration": 5.04,
+            "keyframes": [
+                {
+                    "frame_idx": 23398,
+                    "timestamp": 935.92,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0137_F023398.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "rất là sạch điện thì điện lưu quốc gia mình kéo đến nơi luôn",
+                "ocr_text": "Online -NING",
+                "vlm_caption": {
+                    "detailed_description": "A man wearing glasses and a black and white striped shirt stands in front of a fishing net on a body of water.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V021_S0138",
+            "start_frame": 23462,
+            "end_frame": 23565,
+            "start_ts": 938.48,
+            "end_ts": 942.6,
+            "duration": 4.12,
+            "keyframes": [
+                {
+                    "frame_idx": 23513,
+                    "timestamp": 940.52,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0138_F023513.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Dạ anh Hùng ơi Cái chia sẻ của anh Hùng rất là thú vị Có lẽ là",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "Two men are standing on a wooden dock by a body of water, engaged in a conversation.",
+                    "objects_and_counts": [
+                        "2 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V021_S0139",
+            "start_frame": 23566,
+            "end_frame": 23680,
+            "start_ts": 942.64,
+            "end_ts": 947.2,
+            "duration": 4.56,
+            "keyframes": [
+                {
+                    "frame_idx": 23623,
+                    "timestamp": 944.92,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0139_F023623.jpg"
+                },
+                {
+                    "frame_idx": 23594,
+                    "timestamp": 943.76,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0139_F023594.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Em sẽ nhờ anh Hùng đưa ekip của em đi tham quan xung quanh.",
+                "ocr_text": "ATV Online",
+                "vlm_caption": {
+                    "detailed_description": "A man wearing glasses and a black and white polo shirt stands near a large fishing net in a coastal area.",
+                    "objects_and_counts": [
+                        "2 person | 1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V021_S0140",
+            "start_frame": 23681,
+            "end_frame": 23814,
+            "start_ts": 947.24,
+            "end_ts": 952.56,
+            "duration": 5.32,
+            "keyframes": [
+                {
+                    "frame_idx": 23747,
+                    "timestamp": 949.88,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0140_F023747.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Cái đàm thị tường của mình Để nhìn thấy sự bao la của 700 hectare Ở đây được không anh? Dạ được",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "Two men are standing on a wooden platform by a body of water, with one gesturing while the other listens attentively.",
+                    "objects_and_counts": [
+                        "2 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V021_S0141",
+            "start_frame": 23815,
+            "end_frame": 23958,
+            "start_ts": 952.6,
+            "end_ts": 958.32,
+            "duration": 5.72,
+            "keyframes": [
+                {
+                    "frame_idx": 23886,
+                    "timestamp": 955.44,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0141_F023886.jpg"
+                },
+                {
+                    "frame_idx": 23850,
+                    "timestamp": 954.0,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0141_F023850.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Thank you.",
+                "ocr_text": "Online MĚKÖNG",
+                "vlm_caption": {
+                    "detailed_description": "An aerial view captures a speedboat leaving a trail of white foam on a calm body of water, surrounded by lush greenery and a rocky shoreline.",
+                    "objects_and_counts": [
+                        "1 boat"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V021_S0142",
+            "start_frame": 23959,
+            "end_frame": 24415,
+            "start_ts": 958.36,
+            "end_ts": 976.6,
+            "duration": 18.24,
+            "keyframes": [
+                {
+                    "frame_idx": 24187,
+                    "timestamp": 967.48,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0142_F024187.jpg"
+                },
+                {
+                    "frame_idx": 24073,
+                    "timestamp": 962.92,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0142_F024073.jpg"
+                },
+                {
+                    "frame_idx": 24301,
+                    "timestamp": 972.04,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0142_F024301.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Những con thuyền lặng lẽ trôi, những cánh chim bay lượng trên bầu trời xanh thẳm Tất cả tạo nên một bức tranh thiên nhiên sóng động, hài hòa và thanh bình Kết thúc hành trình, khi nắng đã lên cao và nhịp sóng nơi đầm nước vẫn tiếp tục",
+                "ocr_text": "Online MĚKONG | Online",
+                "vlm_caption": {
+                    "detailed_description": "A group of people paddle in kayaks on a calm body of water, with a lush green shoreline and scattered clouds in the sky.",
+                    "objects_and_counts": [
+                        "6 person | 5 person, 3 boat | 6 person, 3 boat"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V021_S0143",
+            "start_frame": 24416,
+            "end_frame": 24814,
+            "start_ts": 976.64,
+            "end_ts": 992.56,
+            "duration": 15.92,
+            "keyframes": [
+                {
+                    "frame_idx": 24615,
+                    "timestamp": 984.6,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0143_F024615.jpg"
+                },
+                {
+                    "frame_idx": 24515,
+                    "timestamp": 980.6,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0143_F024515.jpg"
+                },
+                {
+                    "frame_idx": 24714,
+                    "timestamp": 988.56,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0143_F024714.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "cảm nhận được tình yêu và lòng biết ơn đối với thiên nhiên, đối với cuộc sống. Đầm Thị Tường, một viên ngọc quý của miền Tây Nam Bộ, nơi lưu giữ những giá trị truyền thống và tinh thần kiên cường của con người Việt Nam. Mỗi gợn sống,",
+                "ocr_text": "ĐỌI VVI WEKO/O | HTV Online ĐÔI MẮT MĚKONG | Online MĚKONG",
+                "vlm_caption": {
+                    "detailed_description": "A person stands on a small boat near a house on stilts, with another person inside the house looking out.",
+                    "objects_and_counts": [
+                        "1 skis, 1 person | 1 boat, 2 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V021_S0144",
+            "start_frame": 24815,
+            "end_frame": 24977,
+            "start_ts": 992.6,
+            "end_ts": 999.08,
+            "duration": 6.48,
+            "keyframes": [
+                {
+                    "frame_idx": 24896,
+                    "timestamp": 995.84,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0144_F024896.jpg"
+                },
+                {
+                    "frame_idx": 24855,
+                    "timestamp": 994.2,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0144_F024855.jpg"
+                },
+                {
+                    "frame_idx": 24936,
+                    "timestamp": 997.44,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0144_F024936.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Mỗi tia nắng, mỗi câu chuyện đều mang theo hơi thở của cuộc sống, của tình người và của người.",
+                "ocr_text": "Online | Online Supre viette!",
+                "vlm_caption": {
+                    "detailed_description": "A man in a red vest and hat is kneeling in a small boat, sorting through a net filled with fish on a calm body of water.",
+                    "objects_and_counts": [
+                        "1 person, 1 boat"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V021_S0145",
+            "start_frame": 24978,
+            "end_frame": 25142,
+            "start_ts": 999.12,
+            "end_ts": 1005.68,
+            "duration": 6.56,
+            "keyframes": [
+                {
+                    "frame_idx": 25060,
+                    "timestamp": 1002.4,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0145_F025060.jpg"
+                },
+                {
+                    "frame_idx": 25019,
+                    "timestamp": 1000.76,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0145_F025019.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Của niềm tin vào ngày mai tươi sáng Khép lại hành trình Chúng tôi rời đầm thị tường Với những cảm xúc",
+                "ocr_text": "Online MĚKONG | Online",
+                "vlm_caption": {
+                    "detailed_description": "A person is fishing from a boat, with a fishing net partially submerged in the water.",
+                    "objects_and_counts": [
+                        "1 person, 1 surfboard"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V021_S0146",
+            "start_frame": 25143,
+            "end_frame": 25244,
+            "start_ts": 1005.72,
+            "end_ts": 1009.76,
+            "duration": 4.04,
+            "keyframes": [
+                {
+                    "frame_idx": 25193,
+                    "timestamp": 1007.72,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0146_F025193.jpg"
+                },
+                {
+                    "frame_idx": 25218,
+                    "timestamp": 1008.72,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0146_F025218.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "đông đầy, mang theo hình ảnh những con người cần mẫn.",
+                "ocr_text": "Online Suprel | HTV Online ĐÔI MÁT MĚKONG",
+                "vlm_caption": {
+                    "detailed_description": "A man wearing a red life jacket and a black bucket hat is sitting in a boat, holding a fishing net and looking out over a calm body of water with greenery in the background.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V021_S0147",
+            "start_frame": 25245,
+            "end_frame": 26330,
+            "start_ts": 1009.8,
+            "end_ts": 1053.2,
+            "duration": 43.4,
+            "keyframes": [
+                {
+                    "frame_idx": 25787,
+                    "timestamp": 1031.48,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0147_F025787.jpg"
+                },
+                {
+                    "frame_idx": 25516,
+                    "timestamp": 1020.64,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0147_F025516.jpg"
+                },
+                {
+                    "frame_idx": 26058,
+                    "timestamp": 1042.32,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0147_F026058.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Những cảnh sát thiên nhiên tươi đẹp, những giá trị nhân dân sâu sắc. Đầm thị tường, nơi khói bếp quê hương luôn lan tỏa, nơi tình người và thiên nhiên hòa quyện, mãi là một phần không thể thiếu trong tâm hồn mỗi người. Hình ảnh bình minh rực rỡ, những con thuyền nước nhẹ trên mặt nước, những con người đầy yêu thương, tất cả tạo nên một bức tranh đẹp đẻ, đậm chất thơ. Để thưởng thức nhiều hơn những cảnh đẹp của thiên nhiên và khoảnh khắc cuộc sống, cũng như con người dọc sông Mekong, mời quý khán giả đón xem những tập phát sóng tiếp theo của chương trình Đôi Mắt Mekong.",
+                "ocr_text": "HTV Online ĐÔI MÁT MĚKONG | Online",
+                "vlm_caption": {
+                    "detailed_description": "An aerial view of a large body of water with a few small boats scattered across its surface, reflecting the sky and surrounding landscape.",
+                    "objects_and_counts": [
+                        "6 kite | 2 kite"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V021_S0148",
+            "start_frame": 26331,
+            "end_frame": 26455,
+            "start_ts": 1053.24,
+            "end_ts": 1058.2,
+            "duration": 4.96,
+            "keyframes": [
+                {
+                    "frame_idx": 26393,
+                    "timestamp": 1055.72,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0148_F026393.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "",
+                "ocr_text": "HTV Onlin- ĐÔI MẮT MEKONG",
+                "vlm_caption": {
+                    "detailed_description": "A cartoon boat with the text \"Đôi mắt Mekong\" on a beach with palm trees and clouds in the background."
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V021_S0149",
+            "start_frame": 26456,
+            "end_frame": 26580,
+            "start_ts": 1058.24,
+            "end_ts": 1063.2,
+            "duration": 4.96,
+            "keyframes": [
+                {
+                    "frame_idx": 26518,
+                    "timestamp": 1060.72,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0149_F026518.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Thank you.",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "A blue speedboat is racing across a body of water, leaving a trail of white wake behind it, with a green boat trailing slightly behind."
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V021_S0150",
+            "start_frame": 26581,
+            "end_frame": 26874,
+            "start_ts": 1063.24,
+            "end_ts": 1074.96,
+            "duration": 11.72,
+            "keyframes": [
+                {
+                    "frame_idx": 26727,
+                    "timestamp": 1069.08,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0150_F026727.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Thank you.",
+                "ocr_text": "HTV Kịch bản Lê Mẫn Đạo điển Hoài Nam Quay phim Văn Cường Duy Khánh Dựng phim TMT Groud Thể hiện lời bình Nhật Lam",
+                "vlm_caption": {
+                    "detailed_description": "A boat is traveling on a river with a clear blue sky and white clouds in the background.",
+                    "objects_and_counts": [
+                        "1 book"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V021_S0151",
+            "start_frame": 26876,
+            "end_frame": 27005,
+            "start_ts": 1075.04,
+            "end_ts": 1080.2,
+            "duration": 5.16,
+            "keyframes": [
+                {
+                    "frame_idx": 26940,
+                    "timestamp": 1077.6,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V021/L29_V021_S0151_F026940.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Редактор субтитров А.Семкин Корректор А.Егорова",
+                "ocr_text": "HTV ĐÀI TRUYỀN HÌNH TP. HỒ CHÍ MINH Thực hiện",
+                "vlm_caption": {
+                    "detailed_description": "A cartoon boat with a fish on the front is floating on a blue sky with white clouds."
+                }
+            }
+        }
+    ]
+}

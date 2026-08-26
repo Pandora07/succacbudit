@@ -1,0 +1,2739 @@
+
+============================================================
+--- File: src/data_pipeline/ingestion_stage_b.py ---
+============================================================
+
+"""
+GIAI ĐOẠN B: VLM Dense Captioning (Nhồi sọ ngữ nghĩa).
+Mục tiêu: Đọc _stage_a.json -> VLM caption từng shot -> Lưu thành _rich_metadata.json
+
+Cải tiến:
+- Checkpoint trung gian mỗi VLM_CHECKPOINT_INTERVAL shots (chống mất data khi crash).
+- Resume tự động từ checkpoint: bỏ qua shot đã có vlm_caption.
+- 5-frame sampling cho shot dài (≥ VLM_LONG_SHOT_FRAME_THRESHOLD frames).
+- Prompt thêm temporal_event_tags và text_on_screen hỗ trợ TRAKE search.
+- Đường dẫn keyframe tái dựng qua KEYFRAMES_ROOT (không phụ thuộc path tuyệt đối).
+- FPS và toàn bộ metadata gốc được bảo toàn qua suốt quá trình.
+
+Vị trí: src/data_pipeline/ingestion_stage_b.py
+"""
+
+import os
+import json
+from pathlib import Path
+
+from src.config.common import get_logger
+from src.config.config import (
+    JSON_ROOT,
+    KEYFRAMES_ROOT,
+    VLM_CHECKPOINT_INTERVAL,
+    VLM_LONG_SHOT_FRAME_THRESHOLD,
+)
+from src.vlm_engine.engine import VLMEngine
+
+logger = get_logger(__name__)
+
+VLM_PROMPT = """You are a highly objective and meticulous visual analysis AI. Your task is to examine a temporal sequence of frames from a single video shot and extract precise metadata.
+
+CRITICAL RULES:
+1. ZERO HALLUCINATION: Describe ONLY what is explicitly visible in the frames. Never guess or infer context outside the image.
+2. SYSTEMATIC COUNTING (BOUNDED): For each DISTINCT object category, output EXACTLY ONE entry in "objects_and_counts" — never repeat the same category twice.
+   - If instances ≤ 10 and clearly distinguishable: list their positions (left-to-right, top-to-bottom), then give the Exact Count.
+   - If instances > 10, or they are small/repetitive/hard to individuate (crowd, rows of chairs, string of lights/speakers, decorative patterns): DO NOT enumerate each one. Instead give ONE aggregated entry with an approximate range (e.g. "~20-30") and a general area (e.g. "scattered across the stage").
+3. SPATIAL AWARENESS: Anchor salient objects to relative positions (foreground, background, top-left, center, behind X).
+4. TEMPORAL PROGRESSION: Analyze differences between frames to deduce the sequence of actions. If frames show no meaningful change, leave "action_sequence" as an empty array — do not invent motion.
+5. STRICT JSON FORMAT: Return ONLY a valid JSON object. No markdown fences, no preamble, no explanation. Start with '{' and end with '}'.
+6. HARD STOP / NO REPETITION: "objects_and_counts" and "micro_details" MUST have AT MOST 6 items each. The moment you are about to write an entry that repeats or closely resembles a previous one, STOP adding entries and close the JSON immediately. Repetition of similar strings is a critical failure.
+
+Output ONLY a valid JSON object strictly following this schema:
+{
+    "scene_type": "Broad category (e.g., News, Cooking, Wildlife, Traffic, Surveillance, Event).",
+    "detailed_description": "1-2 objective sentences summarizing the scene. MUST NOT BE EMPTY.",
+    "objects_and_counts": [
+        "Max 6 entries. Each entry = ONE distinct object category, never repeated.",
+        "For ≤10 distinguishable instances: '[Color/Texture] [Object] - Positions: [pos1, pos2...] - Exact Count: [int]'.",
+        "For >10 or hard-to-individuate instances: '[Object] - Area: [general location] - Approx Count: [range, e.g. ~20-30]'."
+    ],
+    "micro_details": [
+        "Max 5 entries. Distinct visual attributes, textures, materials, or exact text/numbers/symbols on surfaces.",
+        "Example: 'geometric star-shaped cuts on the orange objects'",
+        "Example: 'text reading [XYZ] on the top-left corner'"
+    ],
+    "action_sequence": [
+        "Chronological steps of movement/interaction across frames. Empty array if no meaningful change."
+    ],
+    "temporal_event_tags": [
+        "2-5 short action verb phrases (2-4 words) for temporal/event retrieval.",
+        "Example: 'person runs left', 'object falls', 'crowd applauds'"
+    ],
+    "text_on_screen": "Readable text/numbers/signs/captions visible in ANY frame. Empty string if none."
+}"""
+
+
+class StageBVLM:
+    def __init__(self):
+        logger.info("🚀 BẮT ĐẦU GIAI ĐOẠN B: VLM DENSE CAPTIONING")
+        self.vlm = VLMEngine(mode="ingest")
+
+    def _resolve_keyframe_path(self, kf_obj, video_name: str) -> str | None:
+        """
+        Tái dựng đường dẫn keyframe thực tế trên máy hiện tại.
+        Dùng basename để thoát khỏi path tuyệt đối từ máy khác.
+        """
+        raw_path = kf_obj.get("image_path") if isinstance(kf_obj, dict) else kf_obj
+        if not raw_path:
+            return None
+        filename = os.path.basename(raw_path)
+        resolved = KEYFRAMES_ROOT / video_name / filename
+        return str(resolved) if resolved.exists() else None
+
+    def _sample_keyframes(self, valid_images: list) -> list:
+        """
+        Lấy mẫu frames đại diện cho VLM.
+        - Shot ngắn (< VLM_LONG_SHOT_FRAME_THRESHOLD frames): 3 điểm (head/mid/tail)
+        - Shot dài (≥ VLM_LONG_SHOT_FRAME_THRESHOLD frames): 5 điểm (Q0/Q1/Q2/Q3/Q4)
+        để không bỏ qua hành động quan trọng ở giữa shot dài.
+        """
+        n = len(valid_images)
+        if n <= 1:
+            return valid_images
+        if n < VLM_LONG_SHOT_FRAME_THRESHOLD:
+            return [valid_images[0], valid_images[n // 2], valid_images[-1]]
+        else:
+            return [
+                valid_images[0],
+                valid_images[n // 4],
+                valid_images[n // 2],
+                valid_images[3 * n // 4],
+                valid_images[-1],
+            ]
+
+    def run(self):
+        # 1. Tìm file đầu vào (ưu tiên Stage A, fallback về _structure.json)
+        input_files = list(JSON_ROOT.rglob("*_stage_a.json"))
+        if not input_files:
+            logger.warning("Không tìm thấy *_stage_a.json. Thử fallback *_structure.json...")
+            input_files = list(JSON_ROOT.rglob("*_structure.json"))
+
+        if not input_files:
+            logger.error("❌ Không có file JSON nào để xử lý!")
+            return
+
+        logger.info(f"📁 Tìm thấy {len(input_files)} video cần Dense Captioning.")
+
+        for i, meta_file in enumerate(input_files):
+            video_name = meta_file.stem.replace("_stage_a", "").replace("_structure", "")
+            rich_path = JSON_ROOT / f"{video_name}_rich_metadata.json"
+            partial_path = JSON_ROOT / f"{video_name}_stage_b_partial.json"
+
+            # CHECKPOINT: Bỏ qua nếu đã hoàn thành
+            if rich_path.exists():
+                logger.info(f"⏭️ [{i+1}/{len(input_files)}] [CACHE] {video_name} đã có Rich Metadata. Bỏ qua.")
+                continue
+
+            # Resume từ checkpoint trung gian nếu có (tránh làm lại từ đầu khi crash)
+            if partial_path.exists():
+                logger.info(f"🔄 [{i+1}/{len(input_files)}] Tiếp tục từ checkpoint: {partial_path.name}")
+                with open(partial_path, 'r', encoding='utf-8') as f:
+                    data = json.load(f)
+            else:
+                logger.info(f"⏳ [{i+1}/{len(input_files)}] Bắt đầu mới: {video_name}")
+                with open(meta_file, 'r', encoding='utf-8') as f:
+                    data = json.load(f)
+
+            # Trích xuất fps để log (fps được bảo toàn trong data từ _structure.json)
+            video_fps = data.get("fps", "unknown")
+            shots = data.get("shots", [])
+            logger.info(f" 📹 FPS={video_fps} | {len(shots)} shots")
+
+            processed_count = 0
+
+            for shot in shots:
+                # Bỏ qua shot đã có VLM caption (từ lần resume trước)
+                if shot.get("extracted_data", {}).get("vlm_caption"):
+                    processed_count += 1
+                    continue
+
+                keyframes = shot.get("keyframes", [])
+
+                # Tái dựng đường dẫn thực tế từ KEYFRAMES_ROOT
+                valid_images = []
+                for kf in keyframes:
+                    img_path = self._resolve_keyframe_path(kf, video_name)
+                    if img_path:
+                        valid_images.append(img_path)
+
+                if not valid_images:
+                    logger.warning(f" ⚠️ Shot {shot['shot_id']}: Không có ảnh hợp lệ. Bỏ qua.")
+                    processed_count += 1
+                    continue
+
+                # Lấy mẫu frames đại diện (3 hoặc 5 tùy độ dài shot)
+                sampled_images = self._sample_keyframes(valid_images)
+
+                try:
+                    parsed_json = self.vlm.generate_json_robust(
+                        image_paths=sampled_images,
+                        prompt=VLM_PROMPT
+                    )
+                    if "extracted_data" not in shot:
+                        shot["extracted_data"] = {}
+                    shot["extracted_data"]["vlm_caption"] = parsed_json
+
+                except Exception as e:
+                    logger.error(f" ❌ Lỗi VLM tại Shot {shot.get('shot_id')}: {e}")
+                    # KHÔNG raise — bỏ qua shot lỗi, tiếp tục shot tiếp theo.
+                    # Nếu OOM: Python tự sập, script wrapper bắt lỗi và restart.
+
+                processed_count += 1
+
+                # CHECKPOINT TRUNG GIAN: Lưu sau mỗi VLM_CHECKPOINT_INTERVAL shots
+                if processed_count % VLM_CHECKPOINT_INTERVAL == 0:
+                    data["shots"] = shots
+                    with open(partial_path, 'w', encoding='utf-8') as f:
+                        json.dump(data, f, ensure_ascii=False, indent=4)
+                    logger.info(f" 💾 [Checkpoint] {processed_count}/{len(shots)} shots...")
+
+            # 4. Ghi file chính thức và xóa checkpoint tạm
+            data["shots"] = shots
+            with open(rich_path, 'w', encoding='utf-8') as f:
+                json.dump(data, f, ensure_ascii=False, indent=4)
+
+            if partial_path.exists():
+                partial_path.unlink()
+
+            logger.info(f"✅ {video_name}: {len(shots)} shots → {rich_path.name}\n")
+
+
+if __name__ == "__main__":
+    StageBVLM().run()
+
+============================================================
+--- File: src/data_pipeline/ingestion_stage_c.py ---
+============================================================
+
+"""
+GIAI ĐOẠN C: BƠM DỮ LIỆU LÊN QDRANT HYBRID (VECTORIZATION & INGESTION)
+Vị trí: src/data_pipeline/ingestion_stage_c.py
+
+Cải tiến:
+  - force_reset=False: Mặc định upsert thêm, không xóa DB cũ.
+  - Chọn frame đại diện ở VỊ TRÍ GIỮA (mid-index) thay vì frame đầu tiên.
+  - Bỏ qua upsert nếu vector image encode lỗi (toàn 0) — tránh nhiễu Qdrant.
+  - Lưu fps và frame_idx vào payload để UI (TRAKE) tính frame chính xác.
+  - _format_rich_text: Bỏ tag prefix [AUDIO]/[OCR] — SPLADE tập trung keyword thực.
+"""
+
+import os
+import json
+import uuid
+from pathlib import Path
+from qdrant_client.http import models
+
+from src.config.common import get_logger
+from src.config.config import JSON_ROOT, KEYFRAMES_ROOT
+from src.data_pipeline.vectorizers import HybridVectorizer
+from src.db.qdrant_manager import QdrantManager
+
+logger = get_logger(__name__)
+
+# Batch size khi upsert lên Qdrant (cân bằng RAM và latency)
+UPSERT_BATCH_SIZE = 32
+
+
+class StageC_Ingester:
+    def __init__(self, force_reset: bool = False):
+        """
+        Khởi tạo Stage C.
+
+        Args:
+            force_reset: Nếu True, xóa sạch và tạo lại collection Qdrant từ đầu.
+                         Nếu False (mặc định), chỉ upsert thêm dữ liệu mới vào DB hiện tại.
+                         Dùng force_reset=True khi muốn ingest lại toàn bộ từ đầu.
+        """
+        logger.info("🚀 BẮT ĐẦU GIAI ĐOẠN C: BƠM DỮ LIỆU VECTOR")
+        self.vectorizer = HybridVectorizer()
+        self.db = QdrantManager()
+
+        if force_reset:
+            logger.warning("⚠️  force_reset=True: Đang XÓA SẠCH và tạo lại Collection Qdrant...")
+            self.db.setup_new_database()
+        else:
+            logger.info("ℹ️  force_reset=False: Sẽ upsert thêm vào Collection hiện tại (incremental).")
+
+    def _format_rich_text(self, extracted_data: dict) -> str:
+        """
+        Gộp Audio, OCR và JSON của VLM thành một khối văn bản để encode.
+
+        Không dùng tag prefix [AUDIO]/[OCR]/[SCENE] vì các tag này ăn weight
+        của SPLADE nhưng không có ý nghĩa semantic → làm giảm chất lượng sparse retrieval.
+        Nội dung text thuần giúp SPLADE tập trung vào từ khóa thực sự.
+        """
+        parts = []
+
+        if extracted_data.get("transcript"):
+            parts.append(extracted_data["transcript"])
+
+        if extracted_data.get("ocr_text"):
+            parts.append(extracted_data["ocr_text"])
+
+        vlm_cap = extracted_data.get("vlm_caption", {})
+        if isinstance(vlm_cap, dict):
+            if vlm_cap.get("scene_type"):
+                parts.append(vlm_cap["scene_type"])
+            if vlm_cap.get("detailed_description"):
+                parts.append(vlm_cap["detailed_description"])
+            if vlm_cap.get("objects_and_counts"):
+                parts.append(" ".join(vlm_cap["objects_and_counts"]))
+            if vlm_cap.get("micro_details"):
+                parts.append(" ".join(vlm_cap["micro_details"]))
+            if vlm_cap.get("action_sequence"):
+                parts.append(" ".join(vlm_cap["action_sequence"]))
+            # [MỚI] temporal_event_tags và text_on_screen từ prompt cải tiến Stage B
+            if vlm_cap.get("temporal_event_tags"):
+                parts.append(" ".join(vlm_cap["temporal_event_tags"]))
+            if vlm_cap.get("text_on_screen"):
+                parts.append(vlm_cap["text_on_screen"])
+
+        return "\n".join(parts)
+
+    def _select_representative_frame(self, keyframes: list, video_name: str):
+        """
+        Chọn frame đại diện ở vị trí GIỮA danh sách keyframes hợp lệ.
+        Frame giữa đại diện hơn frame đầu vì nắm bắt trạng thái ổn định của shot.
+        Trả về (image_path, frame_idx) hoặc (None, None) nếu không có ảnh hợp lệ.
+        """
+        valid_frames = []
+        for kf in keyframes:
+            img_name = kf.get("image_path") if isinstance(kf, dict) else kf
+            img_name = os.path.basename(img_name)
+            real_img_path = KEYFRAMES_ROOT / video_name / img_name
+            if real_img_path.exists():
+                frame_idx = kf.get("frame_idx", 0) if isinstance(kf, dict) else 0
+                valid_frames.append((str(real_img_path), frame_idx))
+
+        if not valid_frames:
+            return None, None
+
+        # Lấy frame ở vị trí giữa
+        mid_idx = len(valid_frames) // 2
+        return valid_frames[mid_idx]
+
+    @staticmethod
+    def _is_zero_vector(vec: list) -> bool:
+        """Kiểm tra xem vector có phải toàn 0 không (dấu hiệu encode lỗi)."""
+        return all(v == 0.0 for v in vec)
+
+    def run(self):
+        rich_files = list(JSON_ROOT.rglob("*_rich_metadata.json"))
+        if not rich_files:
+            logger.error("❌ Không tìm thấy file *_rich_metadata.json nào! Hãy chạy Giai đoạn B trước.")
+            return
+
+        for i, meta_file in enumerate(rich_files):
+            video_name = meta_file.stem.replace("_rich_metadata", "")
+            logger.info(f"⏳ [{i+1}/{len(rich_files)}] Đang mã hóa và đẩy video {video_name} lên Qdrant...")
+
+            with open(meta_file, 'r', encoding='utf-8') as f:
+                data = json.load(f)
+
+            # Lấy fps từ metadata video (nếu có), fallback về 25.0
+            video_fps = data.get("fps", 25.0)
+
+            shots = data.get("shots", [])
+            points_batch = []
+            skipped = 0
+
+            for shot in shots:
+                extracted_data = shot.get("extracted_data", {})
+
+                # 1. Gom toàn bộ chữ (Text)
+                rich_text = self._format_rich_text(extracted_data)
+
+                # 2. Chọn ảnh đại diện ở vị trí GIỮA keyframes
+                keyframes = shot.get("keyframes", [])
+                target_image_path, representative_frame_idx = self._select_representative_frame(
+                    keyframes, video_name
+                )
+
+                if not target_image_path:
+                    logger.warning(f"Bỏ qua Shot {shot['shot_id']} vì không tìm thấy ảnh.")
+                    skipped += 1
+                    continue
+
+                # 3. GỌI BỘ MÃ HÓA LAI (Tạo 3 vectors cùng lúc)
+                vectors = self.vectorizer.encode_all(target_image_path, rich_text)
+
+                # QUALITY GATE: Bỏ qua điểm có image vector lỗi (toàn 0) — tránh noise Qdrant
+                if self._is_zero_vector(vectors["image_dense"]):
+                    logger.warning(
+                        f"⚠️ Shot {shot['shot_id']}: Image encode thất bại (zero vector). Bỏ qua."
+                    )
+                    skipped += 1
+                    continue
+
+                # 4. Đóng gói Point cho Qdrant
+                point_id = str(uuid.uuid5(uuid.NAMESPACE_DNS, f"{video_name}_{shot['shot_id']}"))
+
+                payload = {
+                    "video_id": video_name,
+                    "shot_id": shot["shot_id"],
+                    "start_ts": shot["start_ts"],
+                    "end_ts": shot["end_ts"],
+                    "fps": video_fps,                          # [MỚI] Lưu fps để UI tính frame
+                    "frame_idx": representative_frame_idx,    # [MỚI] Frame idx thực tế
+                    "rich_text": rich_text,
+                    "thumbnail": target_image_path
+                }
+
+                point = models.PointStruct(
+                    id=point_id,
+                    vector={
+                        "image_dense": vectors["image_dense"],
+                        "text_dense": vectors["text_dense"],
+                        "text_sparse": models.SparseVector(
+                            indices=vectors["text_sparse"]["indices"],
+                            values=vectors["text_sparse"]["values"]
+                        )
+                    },
+                    payload=payload
+                )
+                points_batch.append(point)
+
+                # Cứ UPSERT_BATCH_SIZE shots thì đẩy lên DB 1 lần để tránh tràn RAM
+                if len(points_batch) >= UPSERT_BATCH_SIZE:
+                    self.db.upsert_batch(points_batch)
+                    points_batch = []
+
+            # Đẩy nốt phần còn sót lại của video đó
+            if points_batch:
+                self.db.upsert_batch(points_batch)
+
+            logger.info(f"✅ Đã bơm xong {video_name}! ({len(shots) - skipped} shots, bỏ qua {skipped})")
+
+        logger.info("🎉 HOÀN TẤT GIAI ĐOẠN C! CƠ SỞ DỮ LIỆU ĐÃ SẴN SÀNG.")
+
+
+if __name__ == "__main__":
+    import argparse
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--force-reset", action="store_true",
+                        help="Xóa sạch và tạo lại Collection Qdrant từ đầu")
+    args = parser.parse_args()
+    StageC_Ingester(force_reset=args.force_reset).run()
+
+============================================================
+--- File: src/data_pipeline/vectorizers.py ---
+============================================================
+
+"""
+MODULE VECTORIZERS - ĐỘNG CƠ MÃ HÓA ĐỘC LẬP
+Vị trí: src/data_pipeline/vectorizers.py
+"""
+
+import torch
+from PIL import Image
+from fastembed import TextEmbedding, SparseTextEmbedding
+from transformers import AutoProcessor, AutoModel
+from src.config.common import get_logger
+from src.config.config import (
+    SIGLIP_MODEL_ID,
+    TEXT_DENSE_MODEL,
+    TEXT_SPARSE_MODEL,
+    DIM_IMAGE_DENSE,
+    DIM_TEXT_DENSE,
+)
+
+logger = get_logger(__name__)
+
+
+# ==========================================
+# 1. BỘ MÃ HÓA HÌNH ẢNH DENSE (SigLIP)
+# ==========================================
+class ImageDenseVectorizer:
+    def __init__(self, model_id: str = SIGLIP_MODEL_ID):
+        self.device = "mps" if torch.backends.mps.is_available() else "cpu"
+        logger.info(f"🟢 Khởi tạo Image Dense Vectorizer ({model_id}) trên {self.device.upper()}")
+
+        self.processor = AutoProcessor.from_pretrained(model_id)
+        self.model = AutoModel.from_pretrained(model_id).to(self.device)
+        self.model.eval()
+
+    def encode(self, image_path: str) -> list[float]:
+        try:
+            image = Image.open(image_path).convert("RGB")
+            inputs = self.processor(images=image, return_tensors="pt").to(self.device)
+
+            with torch.no_grad():
+                outputs = self.model.get_image_features(**inputs)
+
+            # L2 Normalization — cùng chuẩn với text features của SigLIP
+            image_features = outputs / outputs.norm(p=2, dim=-1, keepdim=True)
+            return image_features.squeeze().cpu().tolist()
+        except Exception as e:
+            logger.error(f"Lỗi encode hình ảnh {image_path}: {e}")
+            return [0.0] * DIM_IMAGE_DENSE
+
+
+# ==========================================
+# 2. BỘ MÃ HÓA VĂN BẢN DENSE (MiniLM Multilingual)
+# ==========================================
+class TextDenseVectorizer:
+    def __init__(self, model_name: str = TEXT_DENSE_MODEL):
+        logger.info(f"🔵 Khởi tạo Text Dense Vectorizer ({model_name}) qua FastEmbed")
+        self.model = TextEmbedding(model_name=model_name)
+
+    def encode(self, text: str) -> list[float]:
+        if not text or not text.strip():
+            return [0.0] * DIM_TEXT_DENSE
+        try:
+            return list(self.model.embed([text]))[0].tolist()
+        except Exception as e:
+            logger.error(f"Lỗi encode Text Dense: {e}")
+            return [0.0] * DIM_TEXT_DENSE
+
+
+# ==========================================
+# 3. BỘ MÃ HÓA VĂN BẢN SPARSE (SPLADE)
+# ==========================================
+class TextSparseVectorizer:
+    def __init__(self, model_name: str = TEXT_SPARSE_MODEL):
+        logger.info(f"🟠 Khởi tạo Text Sparse Vectorizer ({model_name}) qua FastEmbed")
+        self.model = SparseTextEmbedding(model_name=model_name)
+
+    def encode(self, text: str) -> dict:
+        if not text or not text.strip():
+            return {"indices": [], "values": []}
+        try:
+            sparse_vector = list(self.model.embed([text]))[0]
+            return {
+                "indices": sparse_vector.indices.tolist(),
+                "values": sparse_vector.values.tolist()
+            }
+        except Exception as e:
+            logger.error(f"Lỗi encode Text Sparse: {e}")
+            return {"indices": [], "values": []}
+
+
+# ==========================================
+# 4. TRÌNH ĐIỀU PHỐI LAI (HYBRID FACADE)
+# ==========================================
+class HybridVectorizer:
+    """Class bọc ngoài để Pipeline gọi một lần là lấy được cả 3 Vector."""
+    def __init__(self):
+        self.image_encoder = ImageDenseVectorizer()
+        self.text_dense_encoder = TextDenseVectorizer()
+        self.text_sparse_encoder = TextSparseVectorizer()
+        logger.info("✅ Hybrid Vectorizer đã tập hợp đủ 3 sức mạnh!")
+
+    def encode_all(self, image_path: str, text_content: str) -> dict:
+        return {
+            "image_dense": self.image_encoder.encode(image_path),
+            "text_dense": self.text_dense_encoder.encode(text_content),
+            "text_sparse": self.text_sparse_encoder.encode(text_content)
+        }
+
+============================================================
+--- File: src/data_pipeline/ingestion_stage_a.py ---
+============================================================
+
+"""
+GIAI ĐOẠN A: Khai thác Bề mặt (Audio & OCR).
+Mục tiêu: Đọc _structure.json -> Chạy ASR & OCR -> Lưu thành _stage_a.json
+
+Kiến trúc:
+  - Multi-threading: ASR (Metal GPU) + OCR (Apple Neural Engine) song song.
+  - ThreadPool tạo 1 lần duy nhất, tái dùng cho toàn bộ pipeline.
+  - Đường dẫn keyframe được TÁI DỰNG từ KEYFRAMES_ROOT + video_name + basename
+    để tránh phụ thuộc vào path tuyệt đối từ máy khác.
+  - FPS và video_id được bảo toàn từ _structure.json qua _stage_a.json.
+
+Vị trí: src/data_pipeline/ingestion_stage_a.py
+"""
+
+import os
+import sys
+import json
+import time
+import gc
+from pathlib import Path
+from concurrent.futures import ThreadPoolExecutor
+
+from src.config.common import get_logger
+from src.config.config import RAW_ROOT, JSON_ROOT, KEYFRAMES_ROOT, ASR_THREAD_WORKERS
+from src.data_pipeline.extractors.audio_asr import AudioTranscriber
+from src.data_pipeline.extractors.vision_ocr import TextExtractor
+
+logger = get_logger(__name__)
+
+class StageAExtractor:
+    def __init__(self):
+        logger.info("🚀 BẮT ĐẦU GIAI ĐOẠN A: KHAI THÁC AUDIO & OCR")
+        self.asr = AudioTranscriber()  
+        self.ocr = TextExtractor()     
+        self._executor = ThreadPoolExecutor(max_workers=ASR_THREAD_WORKERS)
+        logger.info(f"⚙️ ThreadPool đã sẵn sàng ({ASR_THREAD_WORKERS} workers: ASR + OCR)")
+
+    def __del__(self):
+        try:
+            self._executor.shutdown(wait=False)
+        except Exception:
+            pass
+
+    def _resolve_keyframe_path(self, kf_obj, video_name: str) -> str | None:
+        raw_path = kf_obj.get("image_path") if isinstance(kf_obj, dict) else kf_obj
+        if not raw_path:
+            return None
+        filename = os.path.basename(raw_path)
+        resolved = KEYFRAMES_ROOT / video_name / filename
+        return str(resolved) if resolved.exists() else None
+
+    def _extract_ocr_for_shot(self, keyframes: list, video_name: str) -> str:
+        combined_ocr = []
+        for kf_obj in keyframes:
+            img_path = self._resolve_keyframe_path(kf_obj, video_name)
+            if not img_path:
+                continue
+            text = self.ocr.extract_text(img_path)
+            if text:
+                combined_ocr.append(text)
+        return " | ".join(list(dict.fromkeys(combined_ocr)))
+
+    def run(self):
+        structure_files = list(JSON_ROOT.rglob("*_structure.json"))
+        if not structure_files:
+            logger.error("❌ Không tìm thấy file *_structure.json nào. Hãy chạy TransNetV2 trước.")
+            return
+
+        # ==========================================
+        # 1. LỌC RA DANH SÁCH VIDEO CHƯA LÀM
+        # ==========================================
+        pending_files = []
+        for f in structure_files:
+            video_name = f.stem.replace("_structure", "")
+            stage_a_path = JSON_ROOT / f"{video_name}_stage_a.json"
+            if not stage_a_path.exists():
+                pending_files.append((f, video_name, stage_a_path))
+
+        if not pending_files:
+            logger.info("✅ Toàn bộ Giai đoạn A đã được hoàn tất!")
+            return
+
+        logger.info(f"📁 Còn {len(pending_files)} video cần xử lý Stage A (trên tổng số {len(structure_files)}).")
+
+        # ==========================================
+        # 2. THIẾT LẬP NGƯỠNG TỰ XẢ RAM (Chống Swap)
+        # ==========================================
+        MAX_VIDEOS_PER_RUN = 15 # Cứ làm 20 video là trả lại RAM cho hệ điều hành
+        processed_count = 0
+
+        for i, (meta_file, video_name, stage_a_path) in enumerate(pending_files):
+            found_videos = (
+                list(RAW_ROOT.rglob(f"{video_name}.mp4")) +
+                list(RAW_ROOT.rglob(f"{video_name}.avi"))
+            )
+            if not found_videos:
+                logger.warning(f"⚠️ Không tìm thấy video gốc cho {video_name}. Bỏ qua.")
+                continue
+            video_path = str(found_videos[0])
+
+            with open(meta_file, 'r', encoding='utf-8') as f:
+                structure_data = json.load(f)
+
+            video_fps = structure_data.get("fps", "unknown")
+            shots_data = structure_data.get("shots", [])
+
+            logger.info(
+                f"⏳ [{i+1}/{len(pending_files)}] {video_name} | FPS={video_fps} | "
+                f"{len(shots_data)} shots | Đang cào Audio & OCR..."
+            )
+
+            start_time = time.time()
+            stage_a_shots = []
+
+            for shot in shots_data:
+                start_ts  = shot["start_ts"]
+                end_ts    = shot["end_ts"]
+                keyframes = shot.get("keyframes", [])
+
+                future_audio  = self._executor.submit(
+                    self.asr.transcribe_shot, video_path, start_ts, end_ts
+                )
+                future_vision = self._executor.submit(
+                    self._extract_ocr_for_shot, keyframes, video_name
+                )
+
+                audio_text = future_audio.result()
+                ocr_text   = future_vision.result()
+
+                shot["extracted_data"] = {
+                    "transcript": audio_text,
+                    "ocr_text":   ocr_text
+                }
+                stage_a_shots.append(shot)
+
+            # Lưu file xuống ổ cứng ngay lập tức
+            structure_data["shots"] = stage_a_shots
+            with open(stage_a_path, 'w', encoding='utf-8') as f:
+                json.dump(structure_data, f, ensure_ascii=False, indent=4)
+
+            process_time = time.time() - start_time
+            logger.info(f"✅ Xong {video_name} trong {process_time:.1f}s")
+
+            # ==========================================
+            # 3. KÍCH HOẠT DỌN RÁC CƯỠNG CHẾ
+            # ==========================================
+            del structure_data
+            del stage_a_shots
+            del shots_data
+            gc.collect()
+
+            processed_count += 1
+            if processed_count >= MAX_VIDEOS_PER_RUN:
+                logger.warning(f"🔄 Đạt giới hạn {MAX_VIDEOS_PER_RUN} video. Tiến hành 'Ve sầu thoát xác' để xả 100% RAM...")
+                self._executor.shutdown(wait=False) # Đóng threadpool an toàn
+                # Gọi hệ điều hành tạo process mới đè lên process cũ
+                os.execv(sys.executable, [sys.executable, "-m", "src.data_pipeline.ingestion_stage_a"])
+
+if __name__ == "__main__":
+    StageAExtractor().run()
+
+============================================================
+--- File: src/data_pipeline/extractors/audio_asr.py ---
+============================================================
+
+import os
+import tempfile
+import subprocess
+import mlx_whisper
+from src.config.common import get_logger
+from src.config.config import MIN_SHOT_DURATION_SEC, WHISPER_MODEL_PATH
+
+logger = get_logger(__name__)
+
+
+class AudioTranscriber:
+    def __init__(self, model_path: str = WHISPER_MODEL_PATH):
+        """Sử dụng MLX Whisper để tận dụng tối đa Metal GPU của Mac."""
+        self.model_path = model_path
+        logger.info(f"🎙️ Đã khởi tạo Audio Engine (Model: {self.model_path})")
+
+    def _extract_audio_slice(self, video_path: str, start_ts: float, end_ts: float) -> str:
+        """Dùng FFmpeg cắt audio siêu tốc, không cần render lại video."""
+        temp_audio = tempfile.NamedTemporaryFile(suffix=".wav", delete=False).name
+        duration = end_ts - start_ts
+
+        command = [
+            "ffmpeg", "-y",
+            "-i", video_path,
+            "-ss", str(start_ts),
+            "-t", str(duration),
+            "-vn",              # Bỏ hình, chỉ lấy tiếng
+            "-acodec", "pcm_s16le",
+            "-ar", "16000",
+            "-ac", "1",
+            temp_audio
+        ]
+        try:
+            subprocess.run(command, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL, check=True)
+            return temp_audio
+        except subprocess.CalledProcessError:
+            return None
+
+    def transcribe_shot(self, video_path: str, start_ts: float, end_ts: float) -> str:
+        """Cắt và transcribe một đoạn Shot ngắn."""
+        duration = end_ts - start_ts
+
+        # Guard: Bỏ qua shot quá ngắn → WAV rỗng → Whisper ra text rác
+        if duration < MIN_SHOT_DURATION_SEC:
+            return ""
+
+        temp_audio_path = self._extract_audio_slice(video_path, start_ts, end_ts)
+        if not temp_audio_path or not os.path.exists(temp_audio_path):
+            return ""
+
+        try:
+            # language=None: Whisper tự detect ngôn ngữ.
+            # KHÔNG ép "vi" cứng — video có thể đa ngữ hoặc tiếng Anh.
+            # Ép "vi" với audio tiếng Anh → transcript rác nhiễm vector nghiêm trọng.
+            result = mlx_whisper.transcribe(
+                temp_audio_path,
+                path_or_hf_repo=self.model_path,
+                language=None,  # Auto-detect
+                fp16=True
+            )
+            text = result.get("text", "").strip()
+            return text
+        except Exception as e:
+            logger.error(f"Lỗi Whisper ASR: {e}")
+            return ""
+        finally:
+            # Dọn rác ngay sau khi dùng xong
+            if os.path.exists(temp_audio_path):
+                os.remove(temp_audio_path)
+
+============================================================
+--- File: src/data_pipeline/extractors/vision_ocr.py ---
+============================================================
+
+import os
+from ocrmac import ocrmac
+from src.config.common import get_logger
+from src.config.config import OCR_CONFIDENCE_THRESHOLD
+
+logger = get_logger(__name__)
+
+
+class TextExtractor:
+    def __init__(self, confidence_threshold: float = OCR_CONFIDENCE_THRESHOLD):
+        """Khởi tạo Apple Native OCR chạy trên Neural Engine (0 tốn GPU)."""
+        self.conf_thresh = confidence_threshold
+        logger.info(f"👁️ Đã khởi tạo OCR Engine (Confidence ≥ {self.conf_thresh})")
+
+    def extract_text(self, image_path: str) -> str:
+        """Đọc chữ trên ảnh, lọc rác và sắp xếp theo chiều đọc của con người."""
+        if not os.path.exists(image_path):
+            return ""
+
+        try:
+            # Gọi API Native của Mac (Cực nhanh, chạy trên Apple Neural Engine)
+            annotations = ocrmac.OCR(image_path).recognize()
+            if not annotations:
+                return ""
+
+            valid_texts = []
+            for text, confidence, bbox in annotations:
+                # MÀNG LỌC: Bỏ qua chữ quá mờ hoặc rác
+                if confidence < self.conf_thresh:
+                    continue
+
+                # ocrmac bbox format: [x, y, w, h] (tọa độ gốc ở góc dưới bên trái)
+                x, y = bbox[0], bbox[1]
+                valid_texts.append({
+                    "text": text.strip(),
+                    "x": x,
+                    "y": y
+                })
+
+            if not valid_texts:
+                return ""
+
+            # SẮP XẾP KHÔNG GIAN: Đọc từ trên xuống dưới (y giảm dần), trái sang phải (x tăng dần)
+            # Lưu ý: Hệ tọa độ của Vision framework có trục y hướng lên.
+            valid_texts.sort(key=lambda item: (-item["y"], item["x"]))
+
+            # Nối các chữ lại thành câu hoàn chỉnh
+            return " ".join([item["text"] for item in valid_texts])
+
+        except Exception as e:
+            logger.error(f"Lỗi ocrmac tại ảnh {os.path.basename(image_path)}: {e}")
+            return ""
+
+============================================================
+--- File: src/ui/app.py ---
+============================================================
+
+"""
+Giao diện Người dùng (Frontend) - Phiên bản V7 (Modularized & Padded Edition)
+Tích hợp: Giỏ hàng 100 Frames (Padding), Module hóa UI, Auto-fill Rocchio.
+Vị trí: src/ui/app.py
+"""
+
+import os
+import time
+import streamlit as st
+import pandas as pd
+
+# 📦 Import Modules Tiện ích (UI Utils)
+from src.ui.utils.frame_utils import get_exact_frame_idx, generate_padded_frames
+from src.ui.utils.api_client import call_search_api, call_qa_api
+from src.ui.utils.video_utils import extract_single_frame, find_video_path, maybe_cleanup_temp_clips
+from src.ui.utils.submission_utils import parse_btc_uploaded_files, create_zip_in_memory
+
+# ==========================================
+# CẤU HÌNH TRANG & KHỞI TẠO BỘ NHỚ ẢO
+# ==========================================
+st.set_page_config(page_title="AI Video Search - Datathon", page_icon="🏆", layout="wide")
+
+# Khởi chạy dọn dẹp rác nền (Xóa bớt temp video/ảnh cũ)
+maybe_cleanup_temp_clips()
+
+if "btc_queries" not in st.session_state:
+    st.session_state.btc_queries = []
+if "cart" not in st.session_state:
+    st.session_state.cart = {}
+if "liked_shot_id" not in st.session_state:
+    st.session_state.liked_shot_id = None
+
+# ==========================================
+# THANH ĐIỀU HƯỚNG BÊN TRÁI (SIDEBAR)
+# ==========================================
+with st.sidebar:
+    st.header("📂 1. Quản lý Đề thi")
+    uploaded_files = st.file_uploader("Kéo thả các file đề của BTC (.txt)", type=["txt"], accept_multiple_files=True)
+
+    if uploaded_files:
+        if st.button("🔄 Xử lý danh sách đề thi"):
+            st.session_state.btc_queries = parse_btc_uploaded_files(uploaded_files)
+            st.success(f"Đã nạp thành công {len(st.session_state.btc_queries)} câu hỏi!")
+
+    if st.session_state.btc_queries:
+        st.markdown("---")
+        st.subheader("📊 Tiến độ làm bài")
+        total_q = len(st.session_state.btc_queries)
+        done_q = len(st.session_state.cart.keys())
+        progress = done_q / total_q if total_q > 0 else 0
+
+        st.progress(progress)
+        st.write(f"Đã chốt đáp án: **{done_q}/{total_q}** câu")
+
+        if st.button("🗑️ Xóa toàn bộ Giỏ hàng (Làm lại từ đầu)"):
+            st.session_state.cart = {}
+            st.session_state.liked_shot_id = None
+            st.rerun()
+
+# ==========================================
+# GIAO DIỆN CHÍNH: 4 TABS CHIẾN LƯỢC
+# ==========================================
+st.title("🏆 Trạm Chỉ Huy Datathon (AI Multimodal)")
+st.markdown("---")
+
+tab_kis, tab_qa, tab_trake, tab_submit = st.tabs([
+    "🔍 1. KIS (Truy vấn Hình ảnh)",
+    "💬 2. Q&A (Hỏi Đáp)",
+    "⏱️ 3. TRAKE (Truy Vết)",
+    "📦 4. QUẢN LÝ & XUẤT FILE"
+])
+
+# ==========================================
+# PHASE 2.1: KIS (TRẠM NỘI SOI & RẢI THẢM 100 FRAMES)
+# ==========================================
+with tab_kis:
+    st.header("🔍 Giải quyết KIS (Truy vấn Hình ảnh)")
+    kis_queries = [q for q in st.session_state.btc_queries if q["type"] == "kis"]
+
+    if not kis_queries:
+        st.warning("⚠️ Vui lòng Upload file đề thi của BTC ở thanh Sidebar bên trái trước!")
+    else:
+        query_options = {q["id"]: f"{q['id']}: {q['text']}" for q in kis_queries}
+        selected_q_id = st.selectbox("📌 Chọn câu hỏi KIS:", options=list(query_options.keys()), format_func=lambda x: query_options[x])
+        selected_q_text = [q["text"] for q in kis_queries if q["id"] == selected_q_id][0]
+
+        # Quản lý State cho KIS
+        if "kis_search_results" not in st.session_state:
+            st.session_state.kis_search_results = []
+        if "kis_active_shot" not in st.session_state:
+            st.session_state.kis_active_shot = None
+
+        col1, col2 = st.columns([1, 5])
+        with col1:
+            kis_fast_mode = st.checkbox("⚡ Siêu tốc (bỏ qua VLM)", key="kis_fast_mode")
+            if st.button("🚀 Tìm Top 20", use_container_width=True):
+                spinner_msg = "Quét nhanh từ Qdrant..." if kis_fast_mode else "VLM đang chấm điểm... (~15s)"
+                with st.spinner(spinner_msg):
+                    st.session_state.kis_search_results = call_search_api(
+                        query=selected_q_text, top_k=80, top_n=20, skip_vlm=kis_fast_mode
+                    )
+                st.session_state.kis_active_shot = None
+
+        if selected_q_id in st.session_state.cart:
+            st.success(f"🛒 Câu này đã chốt {len(st.session_state.cart[selected_q_id])} frames. Có thể chọn ảnh khác để đè lại.")
+
+        # ==========================================
+        # CHẶNG 1: LƯỚI TÌM KIẾM
+        # ==========================================
+        if st.session_state.kis_search_results and not st.session_state.kis_active_shot:
+            st.markdown("---")
+            st.markdown("### Lướt và Chọn 1 ảnh để Nội soi")
+            cols = st.columns(4)
+
+            for i, res in enumerate(st.session_state.kis_search_results):
+                with cols[i % 4]:
+                    meta = res["metadata"]
+                    vid_id = res["video_id"]
+                    est_frame_idx = get_exact_frame_idx(meta)
+
+                    img_url = res.get("thumbnail_url", "")
+                    if img_url and os.path.exists(img_url):
+                        st.image(img_url, use_container_width=True)
+                    else:
+                        st.warning("Ảnh không khả dụng")
+
+                    st.caption(f"**{vid_id}** | F: {est_frame_idx} | Điểm: {res['score']}")
+
+                    if st.button("🔬 Nội soi cảnh này", key=f"inspect_{res['shot_id']}_{i}", use_container_width=True):
+                        st.session_state.kis_active_shot = res
+                        st.rerun()
+
+        # ==========================================
+        # CHẶNG 2: TRẠM NỘI SOI KIS (Phát Video & Kéo Frame)
+        # ==========================================
+        if st.session_state.kis_active_shot:
+            active_res = st.session_state.kis_active_shot
+            vid_id = active_res["video_id"]
+            meta = active_res["metadata"]
+            fps = meta.get("fps", 25.0)
+
+            st.markdown("---")
+            st.subheader(f"🔬 Trạm Nội Soi: {vid_id}")
+            if st.button("⬅️ Quay lại danh sách tìm kiếm"):
+                st.session_state.kis_active_shot = None
+                st.rerun()
+
+            raw_video_path = find_video_path(vid_id)
+            total_duration = 1000.0
+            if raw_video_path and raw_video_path.exists():
+                try:
+                    import cv2
+                    cap = cv2.VideoCapture(str(raw_video_path))
+                    if cap.isOpened():
+                        total_duration = cap.get(cv2.CAP_PROP_FRAME_COUNT) / fps
+                    cap.release()
+                except Exception:
+                    pass
+
+            col_vid, col_ctrl = st.columns([2, 1])
+            with col_vid:
+                if raw_video_path and raw_video_path.exists():
+                    st.video(str(raw_video_path))
+                else:
+                    st.error("Không tìm thấy file video gốc.")
+                    if os.path.exists(active_res.get("thumbnail_url", "")):
+                        st.image(active_res.get("thumbnail_url"))
+
+            with col_ctrl:
+                st.info("Sử dụng thanh trượt và băng chuyền để chốt chính xác frame mỏ neo.")
+                
+                # Đồng bộ thời gian
+                default_ts = float(meta.get("start_ts", 0.0))
+                current_slider_val = st.session_state.get(f"kis_slider_{active_res['shot_id']}", default_ts)
+                
+                selected_ts = st.slider("Kéo nhanh (Định vị thô):", min_value=0.0, max_value=float(total_duration), value=float(current_slider_val), step=0.1)
+                fine_ts = st.number_input("Nhập số (giây):", min_value=0.0, max_value=float(total_duration), value=float(selected_ts), step=round(1.0/fps, 3), format="%.3f")
+
+                exact_frame = round(fine_ts * fps)
+                st.markdown(f"### Frame đang trỏ: **<span style='color:#ff4b4b'>{exact_frame}</span>**", unsafe_allow_html=True)
+
+                # Băng chuyền Frame
+                gap_sec_kis = st.slider("Độ giãn cách băng chuyền (giây):", min_value=0.1, max_value=2.0, value=0.5, step=0.1)
+                step_frames = max(1, int(fps * gap_sec_kis))
+                offsets = [-step_frames*2, -step_frames, 0, step_frames, step_frames*2]
+                carousel_cols = st.columns(5)
+                
+                final_selected_frame = exact_frame
+                
+                for i, offset in enumerate(offsets):
+                    target_f = max(0, exact_frame + offset)
+                    with carousel_cols[i]:
+                        img_path = extract_single_frame(vid_id, target_f, fps)
+                        if img_path and os.path.exists(img_path):
+                            st.image(img_path, use_container_width=True)
+                        st.caption(f"F: **{target_f}**")
+                        if st.button("📍 Chọn", key=f"kis_mark_{target_f}_{exact_frame}"):
+                            st.session_state[f"kis_final_frame_{vid_id}"] = target_f
+                            st.rerun()
+
+                # Ghi nhận frame được chọn từ băng chuyền (nếu có)
+                if f"kis_final_frame_{vid_id}" in st.session_state:
+                    final_selected_frame = st.session_state[f"kis_final_frame_{vid_id}"]
+                    st.success(f"Đã ghim mỏ neo tại Frame: {final_selected_frame}")
+
+                st.markdown("---")
+                if st.button("🛒 CHỐT RẢI THẢM ĐÁP ÁN NÀY", type="primary", use_container_width=True):
+                    with st.spinner("⚡ Đang vét 100 frames (Cận chiến + Lưới dự phòng)..."):
+                        # Lấy lưới dự phòng
+                        auto_fill_results = call_search_api(
+                            query=selected_q_text, top_k=100, 
+                            top_n=100,
+                            liked_shot_id=active_res["shot_id"], 
+                            skip_vlm=True
+                        )
+                        # Kích hoạt module cào
+                        padded_cart = generate_padded_frames(
+                            anchor_vid=vid_id,
+                            anchor_frame_idx=final_selected_frame,
+                            semantic_results=auto_fill_results,
+                            max_frames=100
+                        )
+                        
+                        st.session_state.cart[selected_q_id] = padded_cart
+                        st.success(f"🎉 Đã chốt {len(padded_cart)} Frames an toàn vào giỏ hàng!")
+                        time.sleep(1.5)
+                        st.session_state.kis_active_shot = None
+                        st.rerun()
+
+# ==========================================
+# PHASE 2.2: Q&A (CHẾ ĐỘ RẢI THẢM TEXT)
+# ==========================================
+with tab_qa:
+    st.header("💬 Giải quyết Q&A (Phủ Text 100 Frames)")
+    qa_queries = [q for q in st.session_state.btc_queries if q["type"] == "qa"]
+
+    if not qa_queries:
+        st.warning("⚠️ Vui lòng Upload file đề thi của BTC!")
+    else:
+        qa_options = {q["id"]: f"{q['id']}: {q['text']}" for q in qa_queries}
+        sel_qa_id = st.selectbox("📌 Chọn câu hỏi Q&A:", options=list(qa_options.keys()), format_func=lambda x: qa_options[x])
+        sel_qa_text = [q["text"] for q in qa_queries if q["id"] == sel_qa_id][0]
+
+        edited_search_query = st.text_area("🔑 Từ khóa tìm kiếm (Sửa gọn lại nếu cần):", value=sel_qa_text, height=100, key=f"search_input_{sel_qa_id}")
+
+        if f"qa_frames_{sel_qa_id}" not in st.session_state: st.session_state[f"qa_frames_{sel_qa_id}"] = []
+        if f"qa_active_shot_{sel_qa_id}" not in st.session_state: st.session_state[f"qa_active_shot_{sel_qa_id}"] = None
+        if f"qa_final_res_{sel_qa_id}" not in st.session_state: st.session_state[f"qa_final_res_{sel_qa_id}"] = None
+
+        # [CHẶNG 1] TÌM KIẾM MỎ NEO
+        qa_fast_mode = st.checkbox("⚡ Siêu tốc (bỏ qua VLM)", key=f"qa_fast_{sel_qa_id}")
+        if st.button("🔎 1. Tìm 10 khung hình ứng viên", key=f"btn_suggest_{sel_qa_id}", use_container_width=True):
+            with st.spinner("Đang quét..."):
+                st.session_state[f"qa_frames_{sel_qa_id}"] = call_search_api(
+                    query=edited_search_query.strip(), 
+                    top_k=60, 
+                    top_n=10, 
+                    skip_vlm=qa_fast_mode,
+                    task_type="qa"
+                )
+                st.session_state[f"qa_final_res_{sel_qa_id}"] = None 
+                st.session_state[f"qa_active_shot_{sel_qa_id}"] = None
+
+        suggested_frames = st.session_state.get(f"qa_frames_{sel_qa_id}", [])
+        
+        if suggested_frames and not st.session_state[f"qa_active_shot_{sel_qa_id}"] and not st.session_state[f"qa_final_res_{sel_qa_id}"]:
+            st.markdown("### 🎯 Chọn 1 cảnh chứa manh mối (Mỏ neo):")
+            q_cols = st.columns(5)
+            for idx, s_res in enumerate(suggested_frames):
+                with q_cols[idx % 5]:
+                    if os.path.exists(s_res.get("thumbnail_url", "")):
+                        st.image(s_res["thumbnail_url"], use_container_width=True)
+                    st.caption(f"**{s_res['video_id']}** | Score: {s_res['score']}")
+                    if st.button("📌 Chọn mỏ neo", key=f"sel_anchor_{sel_qa_id}_{idx}"):
+                        st.session_state[f"qa_active_shot_{sel_qa_id}"] = s_res
+                        st.rerun()
+
+        # [CHẶNG 2] BĂNG CHUYỀN VÀ QWEN-VL SOI ẢNH
+        if st.session_state[f"qa_active_shot_{sel_qa_id}"] and not st.session_state[f"qa_final_res_{sel_qa_id}"]:
+            active_shot = st.session_state[f"qa_active_shot_{sel_qa_id}"]
+            vid_id = active_shot["video_id"]
+            meta = active_shot["metadata"]
+            fps = meta.get("fps", 25.0)
+            anchor_frame = get_exact_frame_idx(meta)
+
+            st.markdown("---")
+            col_b1, col_b2, col_b3 = st.columns([2, 2, 1])
+            with col_b1: st.subheader("🎞️ Băng chuyền lân cận")
+            with col_b2: gap_sec = st.slider("Độ giãn cách (giây):", min_value=0.5, max_value=10.0, value=2.0, step=0.5)
+            with col_b3:
+                if st.button("⬅️ Quay lại", use_container_width=True):
+                    st.session_state[f"qa_active_shot_{sel_qa_id}"] = None
+                    st.rerun()
+
+            step_frames = max(1, int(fps * gap_sec))
+            offsets = [-step_frames*2, -step_frames, 0, step_frames, step_frames*2]
+            carousel_cols = st.columns(5)
+            
+            for i, offset in enumerate(offsets):
+                target_frame = max(0, anchor_frame + offset)
+                with carousel_cols[i]:
+                    img_path = extract_single_frame(vid_id, target_frame, fps)
+                    if img_path and os.path.exists(img_path): st.image(img_path, use_container_width=True)
+                    st.caption(f"F: {target_frame} ({(offset/fps):+.1f}s)")
+                    
+                    if st.button("🧠 Gửi VLM ảnh này", key=f"gen_{sel_qa_id}_{target_frame}", use_container_width=True):
+                        with st.spinner("Qwen-VL đang đọc ảnh..."):
+                            qa_result = call_qa_api(question=sel_qa_text, shot_id=active_shot["shot_id"], custom_image_path=img_path)
+                            if qa_result:
+                                qa_result["frame_idx"] = target_frame
+                                st.session_state[f"qa_final_res_{sel_qa_id}"] = qa_result
+                            st.rerun()
+
+        # [CHẶNG 3] DUYỆT VÀ CHỐT 100 FRAMES
+        if sel_qa_id in st.session_state.cart: st.success(f"🛒 Câu hỏi này đã chốt đáp án trong Giỏ hàng!")
+
+        final_res = st.session_state[f"qa_final_res_{sel_qa_id}"]
+        if final_res:
+            st.markdown("---")
+            col_img, col_txt = st.columns([1, 1])
+            with col_img:
+                if os.path.exists(final_res.get("thumbnail_url", "")): st.image(final_res["thumbnail_url"])
+            with col_txt:
+                user_edited_ans = st.text_area("Đáp án nộp BTC:", value=final_res.get("answer", ""), max_chars=100)
+                cc1, cc2 = st.columns(2)
+                with cc1:
+                    if st.button("🛒 Chốt nộp đáp án này", type="primary", use_container_width=True):
+                        padded_cart = generate_padded_frames(
+                            anchor_vid=final_res.get("video_id"),
+                            anchor_frame_idx=get_exact_frame_idx(final_res),
+                            semantic_results=st.session_state.get(f"qa_frames_{sel_qa_id}", []),
+                            answer=user_edited_ans.strip(),
+                            max_frames=100
+                        )
+                        st.session_state.cart[sel_qa_id] = padded_cart
+                        st.success(f"🎉 Đã chốt {len(padded_cart)} Frames! Câu trả lời đã phủ kín giỏ hàng.")
+                        time.sleep(1.5)
+                        st.rerun()
+                with cc2:
+                    if st.button("🔄 Chọn lại", use_container_width=True):
+                        st.session_state[f"qa_final_res_{sel_qa_id}"] = None
+                        st.rerun()
+
+# ==========================================
+# PHASE 2.3: TRAKE (TRUY VẾT BẰNG THANH TRƯỢT ĐỘNG)
+# ==========================================
+with tab_trake:
+    st.header("⏱️ Giải quyết TRAKE (Đồ thị Thời gian)")
+    trake_queries = [q for q in st.session_state.btc_queries if q["type"] == "trake"]
+
+    if not trake_queries:
+        st.warning("⚠️ Không có câu hỏi TRAKE nào trong bộ đề.")
+    else:
+        tr_options = {q["id"]: f"{q['id']}: {q['text']}" for q in trake_queries}
+        sel_tr_id = st.selectbox("📌 Chọn câu hỏi TRAKE:", options=list(tr_options.keys()), format_func=lambda x: tr_options[x])
+        sel_tr_text = [q["text"] for q in trake_queries if q["id"] == sel_tr_id][0]
+
+        if "trake_results" not in st.session_state: st.session_state.trake_results = []
+        if "trake_active_shot" not in st.session_state: st.session_state.trake_active_shot = None
+
+        trake_fast_mode = st.checkbox("⚡ Siêu tốc (bỏ qua VLM - Chỉ dùng để test)", key="trake_fast_mode")
+        if st.button("🔎 Phân tích & Dò chuỗi", use_container_width=True):
+            with st.spinner("VLM đang bóc tách hành động và dò đồ thị thời gian..."):
+                st.session_state.trake_results = call_search_api(
+                    query=sel_tr_text, top_k=60, top_n=12, skip_vlm=trake_fast_mode, task_type="trake"
+                )
+                st.session_state.trake_active_shot = None 
+
+        # HIỂN THỊ LƯỚI KẾT QUẢ ĐÃ LỌC
+        if st.session_state.trake_results and not st.session_state.trake_active_shot:
+            st.success(f"Đã tìm thấy {len(st.session_state.trake_results)} Video chứa đủ chuỗi sự kiện!")
+            tr_cols = st.columns(4)
+            for i, res in enumerate(st.session_state.trake_results):
+                with tr_cols[i % 4]:
+                    if os.path.exists(res.get("thumbnail_url", "")) : st.image(res.get("thumbnail_url"))
+                    
+                    # Trích xuất số lượng hành động AI tìm được
+                    seq_len = len(res.get("suggested_timestamps", []))
+                    st.caption(f"**{res['video_id']}** | Chứa {seq_len} Hành động")
+                    
+                    if st.button("🔬 Nội soi Video này", key=f"inspect_tr_{res['shot_id']}_{i}", use_container_width=True):
+                        st.session_state.trake_active_shot = res
+                        st.rerun()
+
+        # TRẠM NỘI SOI ĐA SỰ KIỆN
+        if st.session_state.trake_active_shot:
+            active_res = st.session_state.trake_active_shot
+            vid_id = active_res["video_id"]
+            fps = active_res["metadata"].get("fps", 25.0)
+            
+            # Lấy mảng thời gian đề xuất từ Backend
+            suggested_ts = active_res.get("suggested_timestamps", [float(active_res["metadata"].get("start_ts", 0.0))])
+            num_events = len(suggested_ts)
+
+            st.markdown("---")
+            st.subheader(f"🔬 Trạm Nội Soi Đa Sự Kiện: {vid_id}")
+            if st.button("⬅️ Quay lại danh sách tìm kiếm"):
+                st.session_state.trake_active_shot = None
+                st.rerun()
+
+            raw_video_path = find_video_path(vid_id)
+            total_duration = 1000.0
+            if raw_video_path and raw_video_path.exists():
+                try:
+                    import cv2
+                    cap = cv2.VideoCapture(str(raw_video_path))
+                    if cap.isOpened(): total_duration = cap.get(cv2.CAP_PROP_FRAME_COUNT) / fps
+                    cap.release()
+                except Exception: pass
+
+            col_vid, col_ctrl = st.columns([2, 1])
+            with col_vid:
+                if raw_video_path and raw_video_path.exists(): st.video(str(raw_video_path))
+                else: st.error("Lỗi Video")
+                
+                st.info(f"💡 AI đã tự động đặt sẵn **{num_events}** thanh trượt ở các mốc thời gian hợp lệ. Hãy kiểm tra băng chuyền bên phải và chốt Frame!")
+
+            with col_ctrl:
+                # Quản lý mảng Frame đã chốt cho từng hành động
+                state_key = f"trake_frames_{vid_id}"
+                if state_key not in st.session_state or len(st.session_state[state_key]) != num_events:
+                    st.session_state[state_key] = [None] * num_events
+
+                # ==========================================
+                # VÒNG LẶP SINH RA N KHỐI UI (Dựa theo số hành động)
+                # ==========================================
+                for ev_idx, base_ts in enumerate(suggested_ts):
+                    with st.expander(f"🎬 Sự kiện {ev_idx + 1} (AI Đề xuất: {base_ts:.1f}s)", expanded=True):
+                        current_slider_val = st.session_state.get(f"slider_{vid_id}_{ev_idx}", float(base_ts))
+                        
+                        # Thanh trượt và Ô nhập số liệu độc lập cho mỗi sự kiện
+                        selected_ts = st.slider(f"Định vị thô (giây):", min_value=0.0, max_value=float(total_duration), value=float(current_slider_val), step=0.1, key=f"sl_raw_{vid_id}_{ev_idx}")
+                        fine_ts = st.number_input(f"Nhập số (giây):", min_value=0.0, max_value=float(total_duration), value=float(selected_ts), step=round(1.0/fps, 3), format="%.3f", key=f"sl_fine_{vid_id}_{ev_idx}")
+
+                        exact_frame = round(fine_ts * fps)
+                        st.markdown(f"Frame đang trỏ: **<span style='color:#ff4b4b'>{exact_frame}</span>**", unsafe_allow_html=True)
+
+                        # Băng chuyền độc lập
+                        gap_sec_tr = st.slider("Độ giãn cách:", min_value=0.1, max_value=2.0, value=0.5, step=0.1, key=f"gap_{vid_id}_{ev_idx}")
+                        step_frames = max(1, int(fps * gap_sec_tr))
+                        offsets = [-step_frames*2, -step_frames, 0, step_frames, step_frames*2]
+                        carousel_cols = st.columns(5)
+                        
+                        for c_i, offset in enumerate(offsets):
+                            target_f = max(0, exact_frame + offset)
+                            with carousel_cols[c_i]:
+                                img_path = extract_single_frame(vid_id, target_f, fps)
+                                if img_path and os.path.exists(img_path): st.image(img_path)
+                                st.caption(f"F: **{target_f}**")
+                                if st.button("📍 Chốt", key=f"tr_mark_{vid_id}_{ev_idx}_{target_f}"):
+                                    st.session_state[state_key][ev_idx] = target_f
+                                    st.rerun()
+
+                st.markdown("---")
+                st.write("**Chuỗi sự kiện đang chọn:**")
+                
+                # Hiển thị trạng thái Array (VD: 1253 -> [...] -> [...])
+                seq_display = [str(f) if f is not None else "[...]" for f in st.session_state[state_key]]
+                st.code(" ➡️ ".join(seq_display))
+                
+                c1, c2 = st.columns(2)
+                with c1:
+                    if st.button("⏪ Xóa làm lại", use_container_width=True):
+                        st.session_state[state_key] = [None] * num_events
+                        st.rerun()
+                with c2:
+                    is_complete = all(f is not None for f in st.session_state[state_key])
+                    
+                    # LOGIC KIỂM ĐỊNH (Gatekeeper): Không cho nộp nếu Frame sau < Frame trước
+                    is_valid_order = True
+                    if is_complete:
+                        for i in range(num_events - 1):
+                            if st.session_state[state_key][i] > st.session_state[state_key][i+1]:
+                                is_valid_order = False
+                                break
+
+                    if not is_complete:
+                        st.button("🛒 Chốt (Chưa đủ)", disabled=True, use_container_width=True)
+                    elif not is_valid_order:
+                        st.error("Lỗi trình tự thời gian!")
+                    else:
+                        if st.button("🛒 Chốt Chuỗi Này", type="primary", use_container_width=True):
+                            st.session_state.cart[sel_tr_id] = [{"video_id": vid_id, "frames": list(st.session_state[state_key])}]
+                            st.success("Tuyệt vời! Đã nạp vào Giỏ hàng.")
+                            time.sleep(1)
+                            st.session_state.trake_active_shot = None
+                            st.rerun()
+
+# ==========================================
+# PHASE 3: SUBMISSION HUB (TRẠM NỘP BÀI)
+# ==========================================
+with tab_submit:
+    st.header("📦 Trạm Quản lý & Nộp Bài")
+
+    if not st.session_state.cart:
+        st.info("Giỏ hàng đang trống. Hãy làm bài ở các Tab trước nhé!")
+    else:
+        preview_data = []
+        is_valid = True
+
+        for q_id, items in st.session_state.cart.items():
+            row_count = len(items)
+            ans_preview = items[0].get("answer", "-") if items else "-"
+
+            status = "✅ Hợp lệ"
+            if row_count > 100:
+                status = "❌ Lỗi: > 100 dòng"
+                is_valid = False
+            elif ans_preview != "-" and len(ans_preview) > 100:
+                status = "❌ Lỗi: > 100 ký tự"
+                is_valid = False
+
+            preview_data.append({
+                "Mã Câu Hỏi": q_id, "Số Dòng": row_count,
+                "Đáp Án Kèm Theo": ans_preview, "Trạng Thái": status
+            })
+
+        st.table(pd.DataFrame(preview_data))
+
+        if is_valid:
+            st.success("Tất cả các file đều hợp lệ. Đã sẵn sàng đóng gói!")
+            zip_data = create_zip_in_memory(st.session_state.cart)
+
+            st.download_button(
+                label="📥 TẢI XUỐNG FILE ZIP", data=zip_data,
+                file_name="TEAM_SUBMISSION_ROUND1.zip", mime="application/zip",
+                type="primary", use_container_width=True
+            )
+        else:
+            st.error("Dữ liệu vi phạm quy định của BTC!")
+
+============================================================
+--- File: src/ui/utils/video_utils.py ---
+============================================================
+
+import subprocess
+from pathlib import Path
+import streamlit as st
+
+RAW_DIR = Path("data/raw")
+TEMP_DIR = Path("data/temp_clips")
+TEMP_DIR.mkdir(parents=True, exist_ok=True)
+
+def find_video_path(vid_id: str) -> Path:
+    mp4_files = list(RAW_DIR.rglob(f"{vid_id}.mp4"))
+    if mp4_files: return mp4_files[0]
+    avi_files = list(RAW_DIR.rglob(f"{vid_id}.avi"))
+    if avi_files: return avi_files[0]
+    return None
+
+def extract_short_clip(vid_id: str, start_ts: float, end_ts: float, buffer_sec: float = 2.0):
+    raw_path = find_video_path(vid_id)
+    if not raw_path or not raw_path.exists(): return None
+
+    clip_start = max(0, start_ts - buffer_sec)
+    duration = (end_ts - start_ts) + (2 * buffer_sec)
+    out_path = TEMP_DIR / f"clip_{vid_id}_{clip_start:.1f}_{duration:.1f}.mp4"
+    if out_path.exists(): return str(out_path)
+
+    cmd = [
+        "ffmpeg", "-y", "-ss", str(clip_start), "-i", str(raw_path),
+        "-t", str(duration), "-c:v", "libx264", "-preset", "ultrafast",
+        "-c:a", "aac", str(out_path)
+    ]
+    try:
+        subprocess.run(cmd, check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+        return str(out_path)
+    except Exception as e:
+        st.error(f"Lỗi FFmpeg: {e}")
+        return None
+
+def extract_single_frame(vid_id: str, frame_idx: int, fps: float) -> str:
+    raw_path = find_video_path(vid_id)
+    if not raw_path: return ""
+    
+    out_path = TEMP_DIR / f"frame_{vid_id}_{frame_idx}.jpg"
+    if out_path.exists(): return str(out_path)
+        
+    timestamp = frame_idx / fps
+    cmd = [
+        "ffmpeg", "-y", "-ss", str(timestamp), "-i", str(raw_path), 
+        "-frames:v", "1", "-q:v", "2", str(out_path)
+    ]
+    try:
+        subprocess.run(cmd, check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+        return str(out_path)
+    except Exception:
+        return ""
+
+def maybe_cleanup_temp_clips(max_files: int = 200):
+    clip_files = sorted(TEMP_DIR.glob("*.mp4"), key=lambda f: f.stat().st_mtime)
+    frame_files = sorted(TEMP_DIR.glob("*.jpg"), key=lambda f: f.stat().st_mtime)
+    all_files = clip_files + frame_files
+    if len(all_files) > max_files:
+        for old_file in all_files[:len(all_files) - max_files]:
+            try: old_file.unlink()
+            except Exception: pass
+
+============================================================
+--- File: src/ui/utils/__init__.py ---
+============================================================
+
+
+
+============================================================
+--- File: src/ui/utils/submission_utils.py ---
+============================================================
+
+import io
+import zipfile
+
+def parse_btc_uploaded_files(uploaded_files):
+    queries = []
+    for file in uploaded_files:
+        filename = file.name.lower()
+        q_text = file.getvalue().decode("utf-8").strip()
+        
+        q_type = "kis"
+        if "-qa" in filename: q_type = "qa"
+        elif "-trake" in filename: q_type = "trake"
+
+        q_id = file.name.rsplit('.', 1)[0]
+        queries.append({"id": q_id, "type": q_type, "text": q_text})
+    queries.sort(key=lambda x: x["id"])
+    return queries
+
+def create_zip_in_memory(cart_data):
+    zip_buffer = io.BytesIO()
+    with zipfile.ZipFile(zip_buffer, "a", zipfile.ZIP_DEFLATED, False) as zip_file:
+        for q_id, items in cart_data.items():
+            csv_buffer = io.StringIO()
+            for item in items:
+                vid = item["video_id"]
+                if "frames" in item: 
+                    clean_frames = [str(f).replace("~", "").strip() for f in item["frames"]]
+                    row_str = f"{vid}," + ",".join(clean_frames)
+                else:
+                    raw_frame = str(item["frame_idx"]).replace("~", "").strip()
+                    if "answer" in item:
+                        safe_ans = str(item["answer"]).replace('"', '""').strip()
+                        row_str = f'{vid},{raw_frame},"{safe_ans}"'
+                    else:
+                        row_str = f"{vid},{raw_frame}"
+                csv_buffer.write(row_str + "\n")
+            zip_file.writestr(f"submission/{q_id}.csv", csv_buffer.getvalue().encode('utf-8'))
+    return zip_buffer.getvalue()
+
+============================================================
+--- File: src/ui/utils/api_client.py ---
+============================================================
+
+import requests
+import streamlit as st
+
+API_URL = "http://localhost:8000/api/v1/search"
+QA_API_URL = "http://localhost:8000/api/v1/qa"
+
+def call_search_api(query: str, top_k: int = 20, top_n: int = 5, liked_shot_id: str = None, skip_vlm: bool = False, target_video_id: str = None, task_type: str = "kis"):
+    try:
+        payload = {
+            "query": query, "top_k": top_k, "top_n": top_n,
+            "skip_vlm": skip_vlm, "task_type": task_type
+        }
+        if target_video_id: payload["target_video_id"] = target_video_id
+        if liked_shot_id: payload["liked_shot_id"] = liked_shot_id
+        
+        # Thêm timeout 120s
+        response = requests.post(API_URL, json=payload, timeout=120)
+        return response.json().get("results", []) if response.status_code == 200 else []
+    except Exception as e:
+        st.error(f"Lỗi kết nối Backend (Timeout hoặc Server sập): {e}")
+        return []
+
+def call_qa_api(question: str, shot_id: str = None, custom_image_path: str = None):
+    try:
+        payload = {"question": question}
+        if shot_id: payload["shot_id"] = shot_id
+        if custom_image_path: payload["custom_image_path"] = custom_image_path
+            
+        response = requests.post(QA_API_URL, json=payload)
+        return response.json() if response.status_code == 200 else None
+    except Exception as e:
+        return None
+
+============================================================
+--- File: src/ui/utils/frame_utils.py ---
+============================================================
+
+"""
+MODULE TIỆN ÍCH FRAME (UI UTILS)
+Vị trí: src/ui/utils/frame_utils.py
+Chức năng: Quản lý logic tính toán frame_idx và thuật toán Padding 100 frames.
+"""
+
+def get_exact_frame_idx(meta: dict) -> int:
+    """Lấy frame_idx CHÍNH XÁC của một shot/kết quả từ Qdrant."""
+    if not meta:
+        return 0
+
+    if meta.get("frame_idx") is not None:
+        return int(meta["frame_idx"])
+
+    keyframes = meta.get("keyframes") or []
+    if keyframes:
+        return int(keyframes[0].get("frame_idx", 0))
+
+    fps = meta.get("fps", 25.0)
+    mid_ts = (meta.get("start_ts", 0.0) + meta.get("end_ts", 0.0)) / 2
+    return round(mid_ts * fps)
+
+
+def generate_padded_frames(anchor_vid: str, anchor_frame_idx: int, semantic_results: list, answer: str = None, max_frames: int = 100) -> list:
+    cart_items = []
+    added_signatures = set()
+
+    def add_to_cart(vid: str, f_idx: int):
+        # Chống frame âm
+        if f_idx < 0: return
+        
+        sig = f"{vid}_{f_idx}"
+        if sig not in added_signatures and len(cart_items) < max_frames:
+            item = {"video_id": vid, "frame_idx": int(f_idx)}
+            if answer is not None:
+                item["answer"] = answer
+                
+            cart_items.append(item)
+            added_signatures.add(sig)
+
+    # ====================================================
+    # CHIẾN LƯỢC 4 TIERS (FRONT-LOADING TỐI ƯU R@k)
+    # ====================================================
+    
+    # TIER 1 (1 slot): Anchor tuyệt đối chính xác
+    add_to_cart(anchor_vid, anchor_frame_idx)
+
+    # TIER 2 (50 slots): Dense Cận chiến (±25 frames, step=1)
+    # Bắt mọi cử động nhỏ xung quanh mỏ neo (±1 giây)
+    for offset in range(1, 26):
+        add_to_cart(anchor_vid, anchor_frame_idx - offset)
+        add_to_cart(anchor_vid, anchor_frame_idx + offset)
+
+    # TIER 3 (20 slots): Sparse Văng lưới xa (±26 đến 75 frames, step=5)
+    # Dành cho trường hợp AI cắt shot bị trễ nhịp (±3 giây)
+    for offset in range(26, 76, 5):
+        add_to_cart(anchor_vid, anchor_frame_idx - offset)
+        add_to_cart(anchor_vid, anchor_frame_idx + offset)
+
+    # TIER 4 (~29 slots + Slot dư từ Edge Case): Semantic Backup
+    # Lấy các góc máy khác, video khác từ Qdrant để tạo lưới an toàn chống sai bối cảnh
+    for res in semantic_results:
+        if len(cart_items) >= max_frames:
+            break 
+            
+        a_meta = res.get("metadata", {})
+        a_vid = res.get("video_id")
+        a_frame = get_exact_frame_idx(a_meta)
+        add_to_cart(a_vid, a_frame)
+
+    return cart_items
+
+============================================================
+--- File: src/config/config.py ---
+============================================================
+
+"""
+Trung tâm cấu hình toàn hệ thống (Demo 3 Architecture).
+Vị trí: src/config/config.py
+
+Nguyên tắc: Mọi hằng số có thể cần điều chỉnh đều phải nằm ở đây.
+Các stage file chỉ import từ đây, không được tự định nghĩa magic number.
+"""
+
+import os
+from pathlib import Path
+from src.config.common import PROJECT_ROOT
+
+# ==========================================
+# 1. CẤU HÌNH ĐƯỜNG DẪN DỮ LIỆU (DATA PATHS)
+# ==========================================
+DATA_ROOT = PROJECT_ROOT / "data"
+
+RAW_ROOT       = DATA_ROOT / "raw"             # File MP4/AVI gốc
+PROCESSED_ROOT = DATA_ROOT / "processed"       # Output của TransNetV2
+JSON_ROOT      = DATA_ROOT / "json"            # JSON metadata của từng stage
+KEYFRAMES_ROOT = PROCESSED_ROOT / "keyframes"  # Keyframe images
+
+# Khởi tạo sẵn các thư mục để tránh lỗi Not Found
+for _path in [RAW_ROOT, PROCESSED_ROOT, JSON_ROOT, KEYFRAMES_ROOT]:
+    _path.mkdir(parents=True, exist_ok=True)
+
+
+def dataset_path(dataset_name: str, kind: str = "raw") -> Path:
+    """Trả về đường dẫn dataset an toàn theo kiểu raw/processed."""
+    if kind == "raw":
+        return RAW_ROOT / dataset_name
+    if kind == "processed":
+        return PROCESSED_ROOT / dataset_name
+    raise ValueError(f"Unsupported dataset kind: {kind}")
+
+
+# ==========================================
+# 2. CẤU HÌNH CƠ SỞ DỮ LIỆU (QDRANT)
+# ==========================================
+QDRANT_HOST     = os.getenv("QDRANT_HOST", "localhost")
+QDRANT_PORT     = int(os.getenv("QDRANT_PORT", 6333))
+COLLECTION_NAME = "demo3_hybrid_v1"
+
+
+# ==========================================
+# 3. CẤU HÌNH CÁC MÔ HÌNH AI (AI ENCODERS)
+# ==========================================
+# Model IDs
+SIGLIP_MODEL_ID     = "google/siglip-base-patch16-224"
+TEXT_DENSE_MODEL    = "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
+TEXT_SPARSE_MODEL   = "prithivida/Splade_PP_en_v1"
+WHISPER_MODEL_PATH  = "mlx-community/whisper-large-v3-mlx"
+VLM_LOCAL_MODEL     = "mlx-community/Qwen2.5-VL-7B-Instruct-8bit"
+VLM_INGEST_MODEL    = "mlx-community/Qwen3-VL-4B-Instruct-8bit"
+# Để tăng tốc ingest (giảm chất lượng caption), đổi sang:
+# VLM_INGEST_MODEL = "mlx-community/Qwen2.5-VL-3B-Instruct-8bit"
+
+# Chiều vector
+DIM_IMAGE_DENSE = 1024  # SigLIP image/text features
+DIM_TEXT_DENSE  = 384   # MiniLM multilingual
+
+# FPS mặc định khi metadata không chứa thông tin fps
+DEFAULT_FPS = 25.0
+
+
+# ==========================================
+# 4. CẤU HÌNH INGEST PIPELINE (STAGE A)
+# ==========================================
+# ASR: Bỏ qua shot ngắn hơn ngưỡng này (WAV rỗng → Whisper ra text rác)
+MIN_SHOT_DURATION_SEC = 0.5
+
+# Số luồng song song ASR (Metal GPU) + OCR (Apple Neural Engine)
+ASR_THREAD_WORKERS = 2
+
+# OCR: Ngưỡng confidence tối thiểu để chấp nhận text
+OCR_CONFIDENCE_THRESHOLD = 0.8
+
+
+# ==========================================
+# 5. CẤU HÌNH INGEST PIPELINE (STAGE B — VLM)
+# ==========================================
+# Lưu checkpoint trung gian sau mỗi N shots (chống mất data khi crash)
+VLM_CHECKPOINT_INTERVAL = 10
+
+# Số frames ≥ ngưỡng này → dùng chế độ lấy mẫu 5 điểm (Q0/Q1/Q2/Q3/Q4)
+# Dưới ngưỡng → dùng 3 điểm (head/mid/tail)
+VLM_LONG_SHOT_FRAME_THRESHOLD = 8
+
+
+# ==========================================
+# 6. CẤU HÌNH INGEST PIPELINE (STAGE C — QDRANT)
+# ==========================================
+# Số điểm gom lại trước khi upsert một batch lên Qdrant (cân bằng RAM / latency)
+QDRANT_UPSERT_BATCH_SIZE = 32
+
+
+# ==========================================
+# 7. CẤU HÌNH RETRIEVER (HYBRID SEARCH)
+# ==========================================
+# Reciprocal Rank Fusion k-value
+# k nhỏ (20) → phạt nặng rank thấp → precision cao (tốt cho KIS)
+# k lớn (100) → dàn đều → recall cao (exploratory search)
+RRF_K = 60
+
+# Hệ số mở rộng lưới Prefetch trước khi Fusion
+PREFETCH_MULT_TEXT_DENSE  = 3   # Ngữ nghĩa câu → cần recall rộng
+PREFETCH_MULT_TEXT_SPARSE = 2   # Từ khóa chính xác → precision cao, không cần mở quá rộng
+PREFETCH_MULT_IMAGE_DENSE = 3   # Cross-modal (CLIP-style)
+
+
+# ==========================================
+# 8. CẤU HÌNH UI
+# ==========================================
+# Số file temp clip tối đa trước khi dọn dẹp
+TEMP_CLIPS_MAX_FILES = 200
+
+============================================================
+--- File: src/config/common.py ---
+============================================================
+
+"""
+Module tiện ích dùng chung (Đã sửa lỗi định tuyến đường dẫn gốc).
+Vị trí: src/config/common.py
+"""
+
+import logging
+import os
+from pathlib import Path
+
+try:
+    from dotenv import load_dotenv
+except ImportError:
+    def load_dotenv() -> bool:
+        return False
+
+load_dotenv()
+
+# 🎯 ĐỊNH TUYẾN CHUẨN XÁC: 
+# Vì file này nằm ở src/config/common.py, ta cần lùi 2 cấp (.parent.parent) 
+# để về đúng thư mục gốc của toàn bộ repo.
+PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
+
+# Thư mục lưu log sẽ nằm gọn gàng ở <repo>/logs
+LOG_DIR = PROJECT_ROOT / "logs"
+LOG_DIR.mkdir(exist_ok=True)
+
+
+def get_logger(name: str) -> logging.Logger:
+    """Tạo logger chuẩn với định dạng nhất quán cho toàn bộ dự án Demo 2."""
+    logger = logging.getLogger(name)
+    if not logger.handlers:
+        logger.setLevel(logging.INFO)
+        handler = logging.StreamHandler()
+        handler.setFormatter(logging.Formatter("[%(asctime)s] [%(levelname)s] %(name)s: %(message)s"))
+        logger.addHandler(handler)
+    return logger
+
+
+def get_env(name: str, default: str | None = None) -> str | None:
+    """Đọc biến môi trường với fallback mặc định."""
+    return os.getenv(name, default)
+
+============================================================
+--- File: src/search_engine/query_parser.py ---
+============================================================
+
+"""
+MODULE 1: BỘ PHÂN TÍCH VÀ ĐỊNH TUYẾN TRUY VẤN (UNIFIED QUERY PARSER)
+Vị trí: src/search_engine/query_parser.py
+Chức năng: "Bộ não" đầu vào, dùng VLM (Text) để thấu hiểu, dịch và phân tách
+           truy vấn thô thành các trường dữ liệu sạch cho KIS, QA, và TRAKE.
+"""
+from src.config.common import get_logger
+
+logger = get_logger(__name__)
+
+class QueryParser:
+    def __init__(self, vlm_engine):
+        self.vlm = vlm_engine
+
+    def parse(self, raw_query: str, task_type: str = "kis") -> dict:
+        """
+        Phân tách câu truy vấn thô (raw_query) dựa trên ngữ cảnh bài toán (task_type).
+        Trả về một Dictionary chuẩn hóa để các module phía sau dễ dàng xử lý.
+        """
+        logger.info(f"🧠 [Parser] Bắt đầu mổ xẻ truy vấn ({task_type.upper()})...")
+        
+        # Mặc định cấu trúc trả về an toàn nếu VLM lỗi
+        parsed_intent = {
+            "task_type": task_type,
+            "dense_query": raw_query,
+            "sparse_query": raw_query,
+            "qa_target": "",
+            "temporal_sequence": []
+        }
+
+        # Tạo prompt linh hoạt (Dynamic Prompting) dựa trên task_type
+        if task_type == "kis":
+            prompt = self._build_kis_prompt(raw_query)
+        elif task_type == "qa":
+            prompt = self._build_qa_prompt(raw_query)
+        elif task_type == "trake":
+            prompt = self._build_trake_prompt(raw_query)
+        else:
+            logger.warning(f"⚠️ [Parser] task_type không hợp lệ: {task_type}. Fallback về KIS.")
+            prompt = self._build_kis_prompt(raw_query)
+
+        try:
+            # Gọi VLM không truyền ảnh (hoạt động như LLM thuần)
+            # Nhiệt độ 0.0 để đảm bảo tính logic và độ chính xác tuyệt đối
+            extracted = self.vlm.generate_json_robust(
+                image_paths=[], 
+                prompt=prompt,
+                temperature=0.0,
+                is_text_only = True
+            )
+
+            # --- ÁNH XẠ DỮ LIỆU SẠCH (DATA MAPPING) ---
+            parsed_intent["dense_query"] = extracted.get("english_translation", raw_query)
+            
+            # Gom OCR và Từ khóa hình ảnh làm đạn cho luồng SPLADE (Sparse)
+            ocr = extracted.get("ocr_keywords", "")
+            visual = extracted.get("visual_keywords", "")
+            sparse = f"{ocr} {visual}".strip()
+            parsed_intent["sparse_query"] = sparse if sparse else parsed_intent["dense_query"]
+
+            # Đặc nhiệm QA
+            if task_type == "qa":
+                parsed_intent["qa_target"] = extracted.get("question_target", "")
+            
+            # Đặc nhiệm TRAKE (Đảm bảo luôn là mảng)
+            if task_type == "trake":
+                sequence = extracted.get("temporal_sequence", [])
+                parsed_intent["temporal_sequence"] = sequence if isinstance(sequence, list) else [sequence]
+
+            logger.info(f"   -> Dịch (Dense): {parsed_intent['dense_query']}")
+            logger.info(f"   -> Từ khóa (Sparse): {parsed_intent['sparse_query']}")
+            if task_type == 'trake':
+                logger.info(f"   -> Mảng Chuỗi Sự kiện: {parsed_intent['temporal_sequence']}")
+
+        except Exception as e:
+            logger.error(f"❌ [Parser] VLM phân tách lỗi: {e}. Dùng truy vấn thô gốc.")
+
+        return parsed_intent
+
+    # ==========================================
+    # CÁC HÀM XÂY DỰNG PROMPT CHUYÊN BIỆT
+    # ==========================================
+    def _build_kis_prompt(self, query: str) -> str:
+        return f"""You are a query analysis AI for a video search engine. 
+Analyze this user query (which may be in Vietnamese) and extract the exact details.
+
+User Query: "{query}"
+
+Return EXACTLY this JSON schema:
+{{
+    "english_translation": "Direct, highly accurate English translation of the core scene.",
+    "ocr_keywords": "Specific numbers, letters, names, or words that MUST appear on screen (e.g., '59X1', 'HTV'). Empty if none.",
+    "visual_keywords": "Key visual nouns or distinct colors extracted."
+}}"""
+
+    def _build_qa_prompt(self, query: str) -> str:
+        return f"""You are an AI preparing a query for a Visual Question Answering system.
+Analyze this user question (which may be in Vietnamese) and extract the details.
+
+User Question: "{query}"
+
+Return EXACTLY this JSON schema:
+{{
+    "english_translation": "Direct English translation of the question.",
+    "ocr_keywords": "Specific text or numbers mentioned in the question.",
+    "visual_keywords": "Key objects mentioned to help find the correct image.",
+    "question_target": "What exact detail is the question asking for? (e.g., 'color of the shirt', 'number of people', 'the text on the sign'). Keep it extremely brief."
+}}"""
+
+    def _build_trake_prompt(self, query: str) -> str:
+        return f"""You are an AI expert in video temporal event detection.
+Analyze this complex chronological query (which may be in Vietnamese) and break it down into sequential steps.
+
+User Query: "{query}"
+
+Return EXACTLY this JSON schema:
+{{
+    "english_translation": "Summary of the entire sequence in English.",
+    "ocr_keywords": "Any text/numbers that must appear.",
+    "visual_keywords": "Key actors/objects across the sequence.",
+    "temporal_sequence": [
+        "Event 1 in English (e.g., 'Lion starts spinning')",
+        "Event 2 in English (e.g., 'Lion lands on the pillar')",
+        "Event 3 in English (e.g., 'Person hits the cymbal')"
+    ]
+}}"""
+
+============================================================
+--- File: src/search_engine/trake_matcher.py ---
+============================================================
+
+"""
+MODULE 4: BỘ GHÉP NỐI CHUỖI SỰ KIỆN (TEMPORAL SEQUENCE MATCHER)
+Vị trí: src/search_engine/trake_matcher.py
+Chức năng: Nhận danh sách các hành động từ QueryParser, tìm kiếm song song
+           và giao cắt kết quả để đảm bảo chuỗi thời gian hợp lý (T1 < T2 < T3).
+"""
+import copy
+from typing import List, Dict, Any
+from src.config.common import get_logger
+
+logger = get_logger(__name__)
+
+class TrakeMatcher:
+    def __init__(self, retriever):
+        self.retriever = retriever
+
+    def match_sequence(self, temporal_sequence: List[str], top_k: int = 100) -> List[Dict[str, Any]]:
+        """
+        Tìm kiếm các video thỏa mãn MỘT CHUỖI CÁC SỰ KIỆN theo đúng trình tự thời gian.
+        """
+        if not temporal_sequence:
+            return []
+
+        logger.info(f"⏱️ [TrakeMatcher] Bắt đầu truy vết chuỗi {len(temporal_sequence)} hành động.")
+        
+        # 1. Tìm kiếm từng hành động độc lập
+        event_results = []
+        for i, event_query in enumerate(temporal_sequence):
+            logger.info(f"   -> Tìm kiếm sự kiện {i+1}: '{event_query}'")
+            # Sử dụng luồng lai Hybrid cho từng hành động lẻ (Mặc định dense = sparse = event_query)
+            raw_shots = self.retriever.search(
+                dense_query=event_query, 
+                sparse_query=event_query, 
+                top_k=top_k
+            )
+            # Gom nhóm kết quả theo video_id để dễ truy xuất
+            video_map = {}
+            for shot in raw_shots:
+                vid = shot["video_id"]
+                if vid not in video_map:
+                    video_map[vid] = []
+                video_map[vid].append(shot)
+            
+            event_results.append(video_map)
+
+        # 2. Lấy giao của các Video xuất hiện trong TẤT CẢ các hành động
+        # (Chỉ những video có chứa đủ cả N hành động mới được xét tiếp)
+        common_videos = set(event_results[0].keys())
+        for v_map in event_results[1:]:
+            common_videos.intersection_update(v_map.keys())
+
+        if not common_videos:
+            logger.warning("⚠️ Không tìm thấy Video nào chứa đủ toàn bộ chuỗi sự kiện.")
+            return []
+
+        logger.info(f"   -> Tìm thấy {len(common_videos)} Video tiềm năng. Đang nội soi mốc thời gian...")
+
+        # 3. Thuật toán Đồ thị (Dò tìm chuỗi thời gian hợp lệ: t1 < t2 < t3)
+        valid_sequences = []
+        
+        for vid in common_videos:
+            # Lấy list các shot chứa hành động 1, 2, 3... trong video này
+            shots_per_event = [event_results[i][vid] for i in range(len(temporal_sequence))]
+            
+            # Sắp xếp các shot của mỗi hành động theo thời gian (start_ts)
+            for shots in shots_per_event:
+                shots.sort(key=lambda x: x["metadata"]["start_ts"])
+
+            # Hàm đệ quy tìm mảng đường đi hợp lệ
+            def find_path(event_index: int, current_path: list, last_ts: float):
+                if event_index == len(temporal_sequence):
+                    return current_path
+                
+                for shot in shots_per_event[event_index]:
+                    shot_start = shot["metadata"]["start_ts"]
+                    # Điều kiện sinh tồn: Hành động sau phải xảy ra bằng hoặc sau hành động trước
+                    # (Lưu ý: Có những hành động diễn ra trong cùng 1 shot, nên dùng >=)
+                    if shot_start >= last_ts:
+                        new_path = current_path + [shot]
+                        result = find_path(event_index + 1, new_path, shot_start)
+                        if result:
+                            return result
+                return None
+
+            # Bắt đầu dò từ hành động đầu tiên
+            valid_path = find_path(0, [], -1.0)
+            
+            if valid_path:
+                # Đóng gói kết quả: Video này hợp lệ, lưu lại mảng các shot tương ứng
+                # Điểm số của video = Trung bình cộng điểm RRF của các shot tạo nên chuỗi
+                avg_score = sum(shot["score"] for shot in valid_path) / len(valid_path)
+                
+                # Trích xuất mảng thời gian đề xuất để trả về cho UI
+                suggested_ts = [(shot["metadata"]["start_ts"] + shot["metadata"]["end_ts"]) / 2 for shot in valid_path]
+                
+                # Tạo đối tượng đại diện (Lấy thông tin của hành động đầu tiên để làm thumbnail)
+                representative_obj = copy.deepcopy(valid_path[0])
+                representative_obj["score"] = round(avg_score, 4)
+                representative_obj["trake_sequence"] = valid_path
+                representative_obj["suggested_timestamps"] = suggested_ts
+                
+                valid_sequences.append(representative_obj)
+
+        # 4. Sắp xếp các Video thỏa mãn theo Điểm số tổng hợp (Giảm dần)
+        valid_sequences.sort(key=lambda x: x["score"], reverse=True)
+        
+        logger.info(f"✅ Đã chốt {len(valid_sequences)} Video thỏa mãn chuẩn thời gian.")
+        return valid_sequences
+
+============================================================
+--- File: src/search_engine/reranker.py ---
+============================================================
+
+"""
+MODULE 3: BỘ CHẤM ĐIỂM LẠI BẰNG THỊ GIÁC (POST-RETRIEVAL)
+Vị trí: src/search_engine/reranker.py
+"""
+import os
+from src.config.common import get_logger
+
+logger = get_logger(__name__)
+
+class VLMReranker:
+    def __init__(self, vlm_engine):
+        self.vlm = vlm_engine
+
+    def rerank(self, search_results: list, target_scenario: str) -> list:
+        if not search_results: return []
+        
+        logger.info(f"👁️ [Reranker] VLM đang soi lại Top {len(search_results)} khung hình...")
+        reranked_results = []
+        
+        # BẢN VÁ: Lấy điểm max của Qdrant để chuẩn hóa (vì search_results đã sort giảm dần)
+        max_qdrant_score = search_results[0]["score"] if search_results else 1.0
+        if max_qdrant_score == 0: max_qdrant_score = 1.0 
+
+        for i, res in enumerate(search_results):
+            img_path = res.get("thumbnail_url")
+            if not img_path or not os.path.exists(img_path):
+                reranked_results.append(res)
+                continue
+                
+            prompt = f"""Act as a strict video judge. Does this image clearly show the following scenario?
+Scenario: "{target_scenario}"
+
+Respond ONLY with a JSON object:
+{{
+    "match": true or false,
+    "confidence_score": 0 to 100,
+    "reason": "1 short sentence explaining why"
+}}"""
+            try:
+                evaluation = self.vlm.generate_json_robust(image_paths=[img_path], prompt=prompt)
+                
+                # BẢN VÁ: Chuẩn hóa Qdrant score
+                normalized_qdrant = res["score"] / max_qdrant_score
+                vlm_score = evaluation.get("confidence_score", 0) / 100.0
+                is_match = evaluation.get("match", False)
+                
+                penalty = 1.0 if is_match else 0.1
+                # Blend công bằng: 40% Qdrant (đã scale lên 1) + 60% VLM
+                res["score"] = round((normalized_qdrant * 0.4 + vlm_score * 0.6) * penalty, 4)
+                res["vlm_reason"] = evaluation.get("reason", "")
+                
+            except Exception as e:
+                logger.error(f"Lỗi VLM Re-rank tại ảnh {i}: {e}")
+                
+            reranked_results.append(res)
+
+        reranked_results.sort(key=lambda x: x["score"], reverse=True)
+        return reranked_results
+
+============================================================
+--- File: src/search_engine/retriever.py ---
+============================================================
+
+"""
+BỘ TRUY XUẤT HYBRID SEARCH (DENSE + SPARSE + CROSS-MODAL) + RRF
+Vị trí: src/search_engine/retriever.py
+
+Kiến trúc 3 luồng:
+  1. text_dense  (MiniLM 384D) — Ngữ nghĩa câu văn
+  2. text_sparse (SPLADE)      — Từ khóa chính xác, OCR, số lượng
+  3. image_dense (SigLIP 1024D) — Cross-modal: text query ↔ image embedding (CLIP-style)
+
+Luồng 3 là nâng cấp lớn nhất: tận dụng SigLIP text encoder để match trực tiếp
+vào không gian image_dense đã được ingest — hỗ trợ truy xuất visual concept.
+"""
+
+import torch
+from PIL import Image
+from qdrant_client import QdrantClient
+from qdrant_client.http import models
+from qdrant_client.models import Prefetch, FusionQuery, Fusion
+from transformers import AutoProcessor, AutoModel
+
+from src.config.common import get_logger
+from src.config.config import (
+    QDRANT_HOST, QDRANT_PORT, COLLECTION_NAME, 
+    RRF_K, PREFETCH_MULTIPLIER_DENSE, 
+    PREFETCH_MULTIPLIER_SPARSE, PREFETCH_MULTIPLIER_IMAGE
+)
+from src.data_pipeline.vectorizers import TextDenseVectorizer, TextSparseVectorizer
+
+logger = get_logger(__name__)
+
+class SigLIPTextEncoder:
+    """Encode text query bằng SigLIP text encoder để match vào image_dense space."""
+
+    def __init__(self, model_id: str = "google/siglip-base-patch16-224"):
+        self.device = "mps" if torch.backends.mps.is_available() else "cpu"
+        logger.info(f"🟣 Khởi tạo SigLIP Text Encoder ({model_id}) trên {self.device.upper()}")
+        self.processor = AutoProcessor.from_pretrained(model_id)
+        self.model = AutoModel.from_pretrained(model_id).to(self.device)
+        self.model.eval()
+
+    def encode(self, text: str) -> list[float]:
+        """Encode text thành vector 1024D trong cùng không gian với image_dense."""
+        try:
+            inputs = self.processor(text=[text], return_tensors="pt", padding=True, truncation=True).to(self.device)
+            with torch.no_grad():
+                text_features = self.model.get_text_features(**inputs)
+            # L2 Normalize — cùng chuẩn với image features đã ingest
+            text_features = text_features / text_features.norm(p=2, dim=-1, keepdim=True)
+            return text_features.squeeze().cpu().tolist()
+        except Exception as e:
+            logger.error(f"❌ Lỗi SigLIP text encode: {e}")
+            return [0.0] * 1024
+
+
+class HybridRetriever:
+    def __init__(self):
+        logger.info("🔍 Khởi động Bộ máy Tìm kiếm Hybrid (3-Stream)...")
+        self.client = QdrantClient(host=QDRANT_HOST, port=QDRANT_PORT)
+
+        # Luồng 1 & 2: Text encoders
+        self.text_dense_encoder = TextDenseVectorizer()
+        self.text_sparse_encoder = TextSparseVectorizer()
+
+        # Luồng 3: SigLIP text encoder — cross-modal search vào image_dense space
+        self.siglip_text_encoder = SigLIPTextEncoder()
+
+        logger.info("✅ Hybrid Retriever (3-Stream) đã sẵn sàng nhận lệnh!")
+
+    def search(self, dense_query: str, sparse_query: str, top_k: int = 20) -> list:
+        if not dense_query or not dense_query.strip():
+            return []
+
+        # 1. Trục Ngữ nghĩa & Hình ảnh (Dùng dense_query - Tiếng Anh chuẩn)
+        dense_vector = self.text_dense_encoder.encode(dense_query)
+        siglip_vector = self.siglip_text_encoder.encode(dense_query)
+
+        # 2. Trục Từ khóa (Dùng sparse_query - Bắt chính xác Text/OCR)
+        safe_sparse = sparse_query if sparse_query.strip() else dense_query
+        sparse_dict = self.text_sparse_encoder.encode(safe_sparse)
+
+        try:
+            response = self.client.query_points(
+                collection_name=COLLECTION_NAME,
+                prefetch=[
+                    Prefetch(
+                        query=dense_vector,
+                        using="text_dense",
+                        limit=top_k * PREFETCH_MULTIPLIER_DENSE,
+                    ),
+                    Prefetch(
+                        query=models.SparseVector(
+                            indices=sparse_dict["indices"],
+                            values=sparse_dict["values"]
+                        ),
+                        using="text_sparse",
+                        limit=top_k * PREFETCH_MULTIPLIER_SPARSE,
+                    ),
+                    Prefetch(
+                        query=siglip_vector,
+                        using="image_dense",
+                        limit=top_k * PREFETCH_MULTIPLIER_IMAGE,
+                    ),
+                ],
+                query=FusionQuery(fusion=Fusion.RRF),
+                limit=top_k,
+                with_payload=True
+            )
+            # ... (Phần map kết quả đóng gói giữ nguyên)
+            results = []
+            for point in response.points:
+                payload = point.payload
+                results.append({
+                    "shot_id": payload.get("shot_id"),
+                    "video_id": payload.get("video_id"),
+                    "score": round(point.score, 4),
+                    "thumbnail_url": payload.get("thumbnail"),
+                    "metadata": {
+                        "start_ts": payload.get("start_ts"),
+                        "end_ts": payload.get("end_ts"),
+                        "fps": payload.get("fps", 25.0),
+                        "frame_idx": payload.get("frame_idx", 0),
+                        "rich_text": payload.get("rich_text")
+                    }
+                })
+            return results
+
+        except Exception as e:
+            logger.error(f"❌ Lỗi truy vấn Qdrant: {e}")
+            return []
+        
+    def search_similar(self, shot_id: str, top_k: int = 100) -> list:
+        """Tìm các shot có hình ảnh tương đồng nhất với mỏ neo đã chọn."""
+        try:
+            response = self.client.recommend(
+                collection_name=COLLECTION_NAME,
+                positive=[shot_id],
+                using="image_dense",
+                limit=top_k,
+                with_payload=True
+            )
+            
+            results = []
+            for point in response:
+                payload = point.payload
+                results.append({
+                    "shot_id": payload.get("shot_id"),
+                    "video_id": payload.get("video_id"),
+                    "score": round(point.score, 4),
+                    "thumbnail_url": payload.get("thumbnail"),
+                    "metadata": {
+                        "start_ts": payload.get("start_ts"),
+                        "end_ts": payload.get("end_ts"),
+                        "fps": payload.get("fps", 25.0),
+                        "frame_idx": payload.get("frame_idx", 0)
+                    }
+                })
+            return results
+        except Exception as e:
+            logger.error(f"❌ Lỗi tìm kiếm tương đồng (Recommendation): {e}")
+            return []
+
+============================================================
+--- File: src/search_engine/pipeline.py ---
+============================================================
+
+"""
+TRẠM ĐIỀU PHỐI TÌM KIẾM (SEARCH PIPELINE)
+Vị trí: src/search_engine/pipeline.py
+"""
+from src.config.common import get_logger
+from src.search_engine.retriever import HybridRetriever
+from src.search_engine.query_parser import QueryParser
+from src.search_engine.reranker import VLMReranker
+from src.search_engine.trake_matcher import TrakeMatcher
+
+logger = get_logger(__name__)
+
+class SearchPipeline:
+    def __init__(self, vlm_engine):
+        self.retriever = HybridRetriever()
+        self.parser = QueryParser(vlm_engine)
+        self.reranker = VLMReranker(vlm_engine)
+        self.trake_matcher = TrakeMatcher(self.retriever)
+
+    def run(self, raw_query: str, top_k: int = 60, top_n: int = 20, skip_vlm: bool = False, target_video_id: str = None, task_type: str = "kis", liked_shot_id: str = None) -> list:
+        # Bước 1: Phân tách Query (Pre-retrieval)
+        # ==========================================
+        # ĐỊNH TUYẾN KHẨN CẤP: SEMANTIC BACKUP
+        # ==========================================
+        if liked_shot_id:
+            logger.info(f"🎯 Kích hoạt lưới dự phòng: Tìm ảnh giống với shot {liked_shot_id}")
+            return self.retriever.search_similar(liked_shot_id, top_k=top_k)
+        
+        if not skip_vlm:
+            parsed = self.parser.parse(raw_query, task_type=task_type)
+        else:
+            # Fallback nếu bypass VLM
+            parsed = {
+                "task_type": task_type,
+                "dense_query": raw_query,
+                "sparse_query": raw_query,
+                "qa_target": "",
+                "temporal_sequence": [raw_query] if task_type == "trake" else []
+            }
+
+        # ==========================================
+        # LUỒNG ĐẶC NHIỆM TRAKE
+        # ==========================================
+        if task_type == "trake" and parsed.get("temporal_sequence"):
+            logger.info("🛤️ Định tuyến sang nhánh xử lý TRAKE...")
+            
+            sequence = parsed["temporal_sequence"]
+            # Nếu bypass VLM (hoặc VLM gãy), nó chỉ có 1 phần tử là raw_query
+            if len(sequence) == 1:
+                # Nếu chỉ có 1 hành động, tìm kiếm bình thường
+                raw_results = self.retriever.search(parsed["dense_query"], parsed["sparse_query"], top_k=top_k)
+            else:
+                # Nếu có >= 2 hành động, kích hoạt Thuật toán Ghép Chuỗi
+                raw_results = self.trake_matcher.match_sequence(sequence, top_k=top_k)
+                
+        # ==========================================
+        # LUỒNG TIÊU CHUẨN (KIS & QA)
+        # ==========================================
+        else:
+            raw_results = self.retriever.search(
+                dense_query=parsed["dense_query"], 
+                sparse_query=parsed["sparse_query"], 
+                top_k=top_k
+            )
+        
+        # Bước 2.5: Lọc theo Video ID (Dành cho chức năng Mini-search trong UI)
+        if target_video_id:
+            raw_results = [r for r in raw_results if r["video_id"] == target_video_id]
+
+        candidates = raw_results[:top_n]
+
+        # Bước 3: Hậu xử lý Re-ranking
+        if not skip_vlm and candidates:
+            # Nếu là TRAKE, không cần Rerank lại nguyên video (vì TrakeMatcher đã chọn lọc rất kỹ rồi)
+            if task_type == "trake":
+                final_results = candidates
+            else:
+                # Nếu là QA, nhúng qa_target vào target_scenario để VLM soi đúng chỗ
+                target_scen = f"{parsed['dense_query']}. Focus on: {parsed['qa_target']}" if task_type == "qa" else parsed['dense_query']
+                final_results = self.reranker.rerank(candidates, target_scenario=target_scen)
+        else:
+            final_results = candidates
+
+        return final_results
+
+============================================================
+--- File: src/db/qdrant_manager.py ---
+============================================================
+
+"""
+QUẢN LÝ DATABASE QDRANT - HYBRID SEARCH (DEMO 3)
+Vị trí: src/db/qdrant_manager.py
+"""
+
+from qdrant_client import QdrantClient
+from qdrant_client.http import models
+from src.config.common import get_logger
+from src.config.config import QDRANT_HOST, QDRANT_PORT
+
+logger = get_logger(__name__)
+
+# TẠO DATABASE MỚI TOANH CHO DEMO 3
+DEMO3_COLLECTION = "demo3_hybrid_v1"
+
+class QdrantManager:
+    def __init__(self):
+        self.client = QdrantClient(host=QDRANT_HOST, port=QDRANT_PORT)
+        self.collection_name = DEMO3_COLLECTION
+        logger.info(f"🗄️ Đã kết nối tới Qdrant ({QDRANT_HOST}:{QDRANT_PORT})")
+
+    def setup_new_database(self):
+        """Khởi tạo cấu trúc Database Hybrid với 3 loại Vector."""
+        # Xóa collection cũ nếu tồn tại (để reset làm lại từ đầu)
+        if self.client.collection_exists(self.collection_name):
+            logger.warning(f"⚠️ Collection '{self.collection_name}' đã tồn tại. Đang xóa để khởi tạo lại...")
+            self.client.delete_collection(self.collection_name)
+
+        logger.info("🔨 Đang xây dựng cấu trúc Collection Hybrid mới...")
+        self.client.create_collection(
+            collection_name=self.collection_name,
+            # 1. Cấu hình 2 trục Dense Vector
+            vectors_config={
+                "image_dense": models.VectorParams(
+                    size=1024, # SigLIP size
+                    distance=models.Distance.COSINE
+                ),
+                "text_dense": models.VectorParams(
+                    size=384,  # MiniLM size
+                    distance=models.Distance.COSINE
+                )
+            },
+            # 2. Cấu hình trục Sparse Vector (BM25/Splade)
+            sparse_vectors_config={
+                "text_sparse": models.SparseVectorParams(
+                    modifier=models.Modifier.IDF # Áp dụng thuật toán Inverse Document Frequency
+                )
+            }
+        )
+        logger.info(f"✅ Đã tạo thành công Collection '{self.collection_name}'!")
+
+    def upsert_batch(self, points: list):
+        """Bơm một lô dữ liệu lên Qdrant."""
+        if not points:
+            return
+        self.client.upsert(
+            collection_name=self.collection_name,
+            points=points
+        )
+
+============================================================
+--- File: src/api/server.py ---
+============================================================
+
+"""
+TRẠM TRUNG CHUYỂN API (FASTAPI)
+Vị trí: src/api/server.py
+"""
+import os
+from fastapi import FastAPI
+from pydantic import BaseModel
+import uvicorn
+
+from src.config.common import get_logger
+from src.vlm_engine.engine import VLMEngine
+from src.search_engine.pipeline import SearchPipeline
+
+logger = get_logger(__name__)
+
+app = FastAPI(title="Datathon AI Search API", version="3.1")
+
+logger.info("⏳ Đang nạp các Động cơ AI vào bộ nhớ...")
+vlm_online = VLMEngine(mode="online")
+search_pipeline = SearchPipeline(vlm_online)
+logger.info("✅ Backend API đã sẵn sàng!")
+
+class SearchRequest(BaseModel):
+    query: str
+    top_k: int = 60
+    top_n: int = 20
+    skip_vlm: bool = False
+    task_type: str = "kis"
+    target_video_id: str | None = None
+    liked_shot_id: str | None = None
+
+class QARequest(BaseModel):
+    question: str
+    shot_id: str | None = None
+    custom_image_path: str | None = None
+
+@app.post("/api/v1/search")
+def api_search(req: SearchRequest):
+    logger.info(f"🔎 Nhận truy vấn: '{req.query}' (Task: {req.task_type}, Skip VLM: {req.skip_vlm})")
+    
+    results = search_pipeline.run(
+        raw_query=req.query,
+        top_k=req.top_k,
+        top_n=req.top_n,
+        skip_vlm=req.skip_vlm,
+        target_video_id=req.target_video_id,
+        task_type=req.task_type,
+        liked_shot_id=req.liked_shot_id 
+    )
+    return {"results": results}
+
+@app.post("/api/v1/qa")
+def api_qa(req: QARequest):
+    if not req.custom_image_path or not os.path.exists(req.custom_image_path):
+        return {"error": "Không tìm thấy ảnh."}
+        
+    prompt = f"Answer this question based on the image briefly and accurately. Question: {req.question}"
+    answer_text = vlm_online.generate(
+        image_paths=[req.custom_image_path], 
+        prompt=prompt, 
+        max_tokens=30, 
+        temperature=0.1
+    )
+    return {"answer": answer_text.strip(), "thumbnail_url": req.custom_image_path}
+
+if __name__ == "__main__":
+    uvicorn.run(app, host="0.0.0.0", port=8000, log_level="info")
+
+============================================================
+--- File: src/vlm_engine/gemini_engine.py ---
+============================================================
+
+"""
+ĐỘNG CƠ VLM DỰA TRÊN GOOGLE GEMINI CLOUD API
+Hỗ trợ: JSON Mode, Tự động bắt lỗi Rate Limit, Đa luồng
+"""
+import os
+import json
+import time
+import logging
+from typing import List, Dict, Any, Optional
+from PIL import Image
+import google.generativeai as genai
+from google.api_core import exceptions
+
+logger = logging.getLogger("gemini_engine")
+logging.basicConfig(level=logging.INFO)
+
+class GeminiVLMEngine:
+    def __init__(self, model_name: str = "gemini-1.5-flash", api_key: Optional[str] = None):
+        self.api_key = api_key or os.getenv("GEMINI_API_KEY")
+        if not self.api_key:
+            raise ValueError("❌ Không tìm thấy GEMINI_API_KEY. Vui lòng export GEMINI_API_KEY hoặc truyền trực tiếp.")
+            
+        genai.configure(api_key=self.api_key)
+        self.model_name = model_name
+        
+        # Cấu hình Ép kiểu JSON 100% từ Server của Google
+        self.generation_config = genai.GenerationConfig(
+            response_mime_type="application/json",
+            temperature=0.1
+        )
+        self.model = genai.GenerativeModel(
+            model_name=self.model_name,
+            generation_config=self.generation_config
+        )
+        logger.info(f"✅ Khởi tạo thành công Gemini VLM Engine: {self.model_name}")
+
+    def generate_json_robust(
+        self, 
+        image_paths: List[str], 
+        prompt: str, 
+        retries: int = 3, 
+        is_text_only: bool = False
+    ) -> Dict[str, Any]:
+        """
+        Gửi ảnh và Prompt lên Gemini API, tự động thử lại khi gặp nghẽn mạng hoặc Rate Limit.
+        """
+        # 1. Nạp và kiểm tra ảnh hợp lệ
+        pil_images = []
+        if not is_text_only and image_paths:
+            for path in image_paths:
+                try:
+                    if os.path.exists(path):
+                        img = Image.open(path)
+                        pil_images.append(img)
+                except Exception as e:
+                    logger.warning(f"⚠️ Không đọc được ảnh {path}: {e}")
+
+        if not is_text_only and not pil_images:
+            return {"error": "Không có ảnh hợp lệ để phân tích."}
+
+        # 2. Chuẩn bị Payload gửi lên API
+        contents = pil_images + [prompt] if pil_images else [prompt]
+
+        # 3. Vòng lặp gọi API với Exponential Backoff
+        for attempt in range(1, retries + 1):
+            try:
+                response = self.model.generate_content(contents)
+                raw_text = response.text.strip()
+                
+                # Parse JSON trực tiếp (Google đã đảm bảo chuẩn JSON)
+                parsed_data = json.loads(raw_text)
+                return parsed_data
+
+            except exceptions.ResourceExhausted:
+                wait_time = attempt * 5
+                logger.warning(f"⏳ Bị Rate Limit (HTTP 429). Tạm dừng {wait_time}s rồi thử lại (Lần {attempt}/{retries})...")
+                time.sleep(wait_time)
+
+            except json.JSONDecodeError as e:
+                logger.error(f"❌ Lỗi Parse JSON: {e} | Raw text: {raw_text[:100]}...")
+                if attempt == retries:
+                    return {"error": f"JSON decode failed: {str(e)}"}
+                time.sleep(1)
+
+            except Exception as e:
+                logger.error(f"❌ Lỗi Gemini API (Lần {attempt}/{retries}): {e}")
+                if attempt == retries:
+                    return {"error": str(e)}
+                time.sleep(2)
+
+        return {"error": "Thất bại sau nhiều lần thử kết nối."}
+
+============================================================
+--- File: src/vlm_engine/engine.py ---
+============================================================
+
+"""
+VLM Engine Local (MLX/Metal GPU)
+Vị trí: src/vlm_engine/engine.py
+"""
+
+import re
+import json
+from typing import List, Dict, Any
+
+# Yêu cầu thư viện: pip install mlx-vlm
+import mlx_vlm
+from mlx_vlm import load, generate
+
+from src.config.common import get_logger
+from src.config.config import VLM_INGEST_MODEL, VLM_LOCAL_MODEL
+
+logger = get_logger(__name__)
+
+class VLMEngine:
+    def __init__(self, mode: str = "ingest"):
+        """
+        Khởi tạo VLM Engine chạy hoàn toàn Local qua MLX.
+        - mode="ingest": Dùng bản 3B (nhẹ, cực nhanh) để quét dữ liệu hàng loạt.
+        - mode="online": Dùng bản 7B (thông minh) để trả lời Q&A hoặc Rerank.
+        """
+        self.mode = mode
+        # Lựa chọn model dựa trên config hệ thống
+        self.model_path = VLM_INGEST_MODEL if mode == "ingest" else VLM_LOCAL_MODEL
+        
+        logger.info(f"🧠 Đang nạp VLM ({self.model_path}) lên Metal GPU. Vui lòng đợi...")
+        try:
+            self.model, self.processor = load(self.model_path)
+            logger.info("✅ Khởi động VLM Engine thành công!")
+        except Exception as e:
+            logger.error(f"❌ Lỗi nạp mô hình VLM: {e}")
+            raise e
+
+    def _clean_json(self, text: str) -> dict:
+        import json
+        import re
+
+        if not text or not isinstance(text, str):
+            return {}
+
+        text = text.strip()
+
+        # 1. Rạch bỏ các thẻ markdown code block (Nếu AI có thói quen bọc code)
+        text = re.sub(r"^```(?:json)?\s*", "", text, flags=re.IGNORECASE | re.MULTILINE)
+        text = re.sub(r"```\s*$", "", text, flags=re.MULTILINE)
+
+        # 2. Tìm điểm bắt đầu của JSON
+        start_idx = text.find('{')
+        if start_idx == -1:
+            logger.error(f"❌ VLM không tạo ra JSON (Không có dấu {{): {text[:100]}...")
+            return {}
+
+        # Bỏ qua mọi câu chào hỏi đầu dòng, lấy từ dấu { trở đi
+        json_str = text[start_idx:]
+
+        # Tìm điểm kết thúc
+        end_idx = json_str.rfind('}')
+        
+        if end_idx != -1:
+            # Trường hợp hoàn hảo: Có ngoặc đóng. Cắt bỏ chữ rác ở đuôi (nếu có)
+            json_str = json_str[:end_idx + 1]
+        else:
+            # Trường hợp bị cụt đuôi (Do hết token hoặc AI dừng đột ngột)
+            logger.warning(f"⚠️ VLM bị ngắt cụt đuôi (Chiều dài: {len(text)}). Đang kích hoạt tự động vá lỗi...")
+            
+            # Vá 1: Nếu AI đang viết dở 1 chuỗi string (số lượng ngoặc kép bị lẻ), đóng chuỗi lại
+            if json_str.count('"') % 2 != 0:
+                json_str += '"'
+            
+            # Vá 2: Ép đóng JSON
+            json_str += '}'
+
+        # 3. Hàm nội bộ dùng để Cố gắng Parse và Xử lý lỗi cú pháp nhỏ
+        def attempt_parse(s: str) -> dict:
+            try:
+                return json.loads(s)
+            except json.JSONDecodeError:
+                # Chữa lỗi 1: Cắt dấu phẩy thừa ở phần tử cuối cùng (VD: {"a": 1,})
+                s_fixed = re.sub(r',\s*([\]}])', r'\1', s)
+                try:
+                    return json.loads(s_fixed)
+                except json.JSONDecodeError:
+                    # Chữa lỗi 2: Dùng AST của Python đọc như một Dictionary
+                    try:
+                        import ast
+                        py_dict_str = s_fixed.replace('true', 'True').replace('false', 'False').replace('null', 'None')
+                        return ast.literal_eval(py_dict_str)
+                    except Exception:
+                        return None
+
+        # 4. Thực thi Parse
+        result = attempt_parse(json_str)
+        if result is not None:
+            return result
+            
+        # 5. Cứu hộ cấp độ cao: Nếu bị ngắt ở giữa một Array, ngoặc } chưa đủ đô, phải vá bằng ]}
+        json_str_hard_fix = json_str.rstrip('}') + ']}' 
+        result_hard = attempt_parse(json_str_hard_fix)
+        if result_hard is not None:
+            return result_hard
+
+        # Nếu mọi nỗ lực đều thất bại, in ra phần đuôi để con người kiểm tra
+        tail_text = json_str[-150:] if len(json_str) > 150 else json_str
+        logger.error(f"❌ JSON hỏng nặng không thể cứu chữa. Đuôi text: ...{tail_text}")
+        return {}
+        
+    def generate(self, image_paths: List[str], prompt: str, temperature: float = 0.2, max_tokens: int = 2048) -> str:
+        """
+        Hàm generate cốt lõi hỗ trợ đa ảnh (Multi-image) và văn bản thuần (Text-only) cho Qwen-VL.
+        """
+        # ĐÃ XÓA KHỐI GUARD LỖI: `if not image_paths: return ""`
+
+        # 1. Định dạng cấu trúc hội thoại chuẩn cho Qwen-VL
+        content = []
+        
+        # Chỉ thêm tag ảnh nếu mảng image_paths thực sự có phần tử
+        if image_paths:
+            for _ in image_paths:
+                content.append({"type": "image"})
+        
+        content.append({"type": "text", "text": prompt})
+        messages = [{"role": "user", "content": content}]
+        
+        formatted_prompt = self.processor.apply_chat_template(
+            messages, tokenize=False, add_generation_prompt=True
+        )
+
+        try:
+            # 3. Kích hoạt suy luận trên GPU
+            # Truyền None cho tham số image nếu là text-only mode
+            response = generate(
+                self.model,
+                self.processor,
+                prompt=formatted_prompt,
+                image=image_paths if image_paths else None, 
+                max_tokens=max_tokens,
+                temperature=temperature,
+                verbose=False
+            )
+            
+            # ==========================================
+            # [BẢN VÁ] ÉP KIỂU TRẢ VỀ THÀNH STRING THUẦN
+            # ==========================================
+            if isinstance(response, str):
+                return response
+            elif hasattr(response, 'text'):
+                return response.text
+            elif isinstance(response, dict) and "text" in response:
+                return response["text"]
+            else:
+                return str(response)
+                
+        except Exception as e:
+            logger.error(f"❌ Lỗi sinh text từ MLX VLM: {e}")
+            return ""
+
+    def generate_json_robust(self, image_paths: List[str], prompt: str, retries: int = 2, temperature: float = 0.1, is_text_only: bool = False, max_tokens: int = 2048) -> dict:
+        for attempt in range(retries):
+            try:
+                # Truyền max_tokens xuống hàm sinh text
+                raw_response = self.generate(image_paths, prompt, temperature=temperature, max_tokens=max_tokens)
+                
+                parsed_dict = self._clean_json(raw_response)
+                
+                # Tách riêng Validation cho 2 Mode
+                if is_text_only:
+                    if parsed_dict.get("english_translation") or parsed_dict.get("temporal_sequence"):
+                        return parsed_dict
+                else:
+                    if parsed_dict.get("detailed_description") or parsed_dict.get("objects_and_counts") or parsed_dict.get("match") is not None:
+                        return parsed_dict
+                    
+                logger.warning(f"Thử nghiệm {attempt+1}: JSON thiếu trường trọng yếu, thử lại...")
+            except Exception as e:
+                logger.error(f"Lỗi Robust JSON: {e}")
+                
+        return {"error": "Phân tích thất bại sau nhiều lần thử."}

@@ -1,0 +1,2155 @@
+{
+    "video_id": "L25_V029",
+    "fps": 25.0,
+    "total_shots": 109,
+    "total_keyframes": 125,
+    "shots": [
+        {
+            "shot_id": "L25_V029_S0001",
+            "start_frame": 0,
+            "end_frame": 66,
+            "start_ts": 0.0,
+            "end_ts": 2.64,
+            "duration": 2.64,
+            "keyframes": [],
+            "extracted_data": {
+                "transcript": "",
+                "ocr_text": ""
+            }
+        },
+        {
+            "shot_id": "L25_V029_S0002",
+            "start_frame": 67,
+            "end_frame": 790,
+            "start_ts": 2.68,
+            "end_ts": 31.6,
+            "duration": 28.92,
+            "keyframes": [
+                {
+                    "frame_idx": 428,
+                    "timestamp": 17.12,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V029/L25_V029_S0002_F000428.jpg"
+                },
+                {
+                    "frame_idx": 247,
+                    "timestamp": 9.88,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V029/L25_V029_S0002_F000247.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Chào mừng các em đến với chương trình ôn tập chuẩn bị cho kỳ thi Trung học phổ thông năm 2024 do báo Hành niên tổ chức. Hôm nay thầy sẽ ôn tập mêm chuyên đề thứ 7, đó là bài tập di truyền quần thể. Đây là một dạng bài tập rất là thường hay gặp trong đề thi Trung học phổ thông. Và điều đặc biệt là thường có một câu trong tớp 10 câu cuối trong đề thi. Tức là một câu khó, đòi hỏi mà em phải hiểu và vận dụng được.",
+                "ocr_text": "THANH NIEN CHUYÊN ĐỀ 7 BÀI TẬP DI TRUYỀN QUẦN THẺ Thầy VÕ THANH BÌNH Trường THPT chuyên Lê Hồng Phong | THANH MIEN Thầy VÕ THANH BÌNH Trường THPT chuyên Lê Hồng Phong"
+            }
+        },
+        {
+            "shot_id": "L25_V029_S0003",
+            "start_frame": 791,
+            "end_frame": 5014,
+            "start_ts": 31.64,
+            "end_ts": 200.56,
+            "duration": 168.92,
+            "keyframes": [
+                {
+                    "frame_idx": 2902,
+                    "timestamp": 116.08,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V029/L25_V029_S0003_F002902.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Bây giờ thầy xét DP có cấu trúc di truyền như trên màn hình mà em thấy. Cấu trúc di truyền là tỷ lệ của các loài kiểu sen trong quần thể, cho nên tổng của các tỷ lệ X, Y, Z này sẽ bằng 1. Và quần thể thì có dựa vào hiện tượng di truyền thì có 2 nhóm, đó là tự trụ phấn và ngẫu phối. Ở quần thể tự trụ phấn thì sau N thế hệ tự trụ phấn kiểu sen dị hợp sẽ là Y nhân cho 1 phần 2 mũ N. Ban đầu dị hợp là Y thì sau N tự trụ phấn sẽ là Y nhân cho 1 phần 2 mũ N. Tức là sau mỗi thế hệ tự trụ kiểu sen dị hợp sẽ giảm đi 1 nửa tức là giảm đi 1 phần 2. Vì vậy N tự trụ kiểu sen dị hợp sẽ là Y nhân cho 1 phần 2 mũ N. Lúc này nếu các bạn có thể tự trụ phấn thì các bạn có thể tự trụ phấn. Trong bài này các bạn sẽ thấy kiểu sen dị hợp bị mất đi đó là Y trừ đi Y nhân cho 1 phần 2 mũ N. Và kiểu sen dị hợp mất đi này sẽ được chia đều cho đồng hợp lặn và đồng hợp trội. Cho nên mỗi bên sẽ nhận được là Y trừ cho Y nhân cho 1 phần 2 mũ N chia cho 2. Cho nên lúc đó kiểu sen A trội A trội chúng ta chỉ cần cộng thêm kết lượng dị hợp được chia vào. Cộng thêm kết lượng dị hợp được chia vào. Cộng thêm X. X là tỷ lệ của kiểu sen A trội A trội A lớn A lớn bằng đồng. Còn kiểu sen A nhỏ A nhỏ cũng tương tự như vậy. Sẽ bằng Z cộng cho Y trừ Y nhân 1 phần 2 mũ N chia 2. Và thường các em sẽ gặp là DP là 100% A lớn A nhỏ. Tức là lúc đó X sẽ bằng 0, Z sẽ bằng 0 và Y sẽ bằng 1. Và chúng ta sẽ ráp công thức vào. Vậy chúng ta sẽ được A lớn A nhỏ là 1 phần 2 mũ N. Và kiểu sen A lớn A lớn bằng A nhỏ A nhỏ bằng 1 trừ cho 1 phần 2 mũ N chia cho 2. Đối với quần thể ngẫu phối. Nếu như một quần thể có kích thước lớn hoàn toàn ngẫu phối và không có nhân tố tiến hóa tác động. Thì lúc đó cấu trúc di truyền của quần thể sẽ không đổi. Và trạng thái đó gọi là trạng thái cân bằng di truyền. Và sẽ có dạng là B bình A lớn A lớn. Với B là tần số của A lớn. Quy là tần số của A nhỏ. Tần số A lớn chính là tỷ lệ phần trong của dao tử A lớn trong quần thể. Còn tần số A nhỏ chính là tỷ lệ phần trong của dao tử A nhỏ trong quần thể. Và tổng 2 tần số này sẽ bằng 1. Bây giờ chúng ta cùng phân tích một số ví dụ trong đề thi của các đồng quang.",
+                "ocr_text": "THANH NIEN P: XAA : yAa : zaa (x + y + z = 1) QUẦN THỂ NGẪU PHỐI QUẦN THỂ TỰ THỤ PHẤN Fni Aa = y(1/2)\" y - y(1/2)\" AA = x+ Y - Y(1/2)\" 2 T.Bình - SinhLHP - SĐT: 093.241.9086 Thầy VÕ THANH BÌNH Trường THPT chuyên Lê Hồng Phong"
+            }
+        },
+        {
+            "shot_id": "L25_V029_S0004",
+            "start_frame": 5015,
+            "end_frame": 5016,
+            "start_ts": 200.6,
+            "end_ts": 200.64,
+            "duration": 0.04,
+            "keyframes": [
+                {
+                    "frame_idx": 5015,
+                    "timestamp": 200.6,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V029/L25_V029_S0004_F005015.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "",
+                "ocr_text": "SIU SAIGON INTERNATIONAL UNIVERSITY"
+            }
+        },
+        {
+            "shot_id": "L25_V029_S0005",
+            "start_frame": 5017,
+            "end_frame": 5043,
+            "start_ts": 200.68,
+            "end_ts": 201.72,
+            "duration": 1.04,
+            "keyframes": [
+                {
+                    "frame_idx": 5030,
+                    "timestamp": 201.2,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V029/L25_V029_S0005_F005030.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Trường Đại học Quốc tế",
+                "ocr_text": ""
+            }
+        },
+        {
+            "shot_id": "L25_V029_S0006",
+            "start_frame": 5044,
+            "end_frame": 5074,
+            "start_ts": 201.76,
+            "end_ts": 202.96,
+            "duration": 1.2,
+            "keyframes": [
+                {
+                    "frame_idx": 5059,
+                    "timestamp": 202.36,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V029/L25_V029_S0006_F005059.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Sài Gòn SIU",
+                "ocr_text": "HON INTERNATIONAL UNIVERSITY Lewis Halt VERSITY IGON INTERNATIONAL"
+            }
+        },
+        {
+            "shot_id": "L25_V029_S0007",
+            "start_frame": 5075,
+            "end_frame": 5119,
+            "start_ts": 203.0,
+            "end_ts": 204.76,
+            "duration": 1.76,
+            "keyframes": [
+                {
+                    "frame_idx": 5097,
+                    "timestamp": 203.88,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V029/L25_V029_S0007_F005097.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Không chỉ cung cấp chương trình đào tạo",
+                "ocr_text": "International Accreditation Council for Business Education THE BOARD OF COMMISSIONERS OF The International Accreditation Council for Business Education HEREBY AWARDS THIS Certificate of Accreditation TO BUSIN OGRAMS OFFERED BY The Saigun International University School of Business Administration This accreditation applies only to the programs approved by the Board of Commissioners and is contingent upon the accredited programs remaining in compliance with the principles and policies of the Council. Penod of Accreditation: March 30, 2020 through April 30, 2027 Phyllis Okeptie DR. PHYLLIS OKREPKIE PRESIDENT, LABE"
+            }
+        },
+        {
+            "shot_id": "L25_V029_S0008",
+            "start_frame": 5120,
+            "end_frame": 5137,
+            "start_ts": 204.8,
+            "end_ts": 205.48,
+            "duration": 0.68,
+            "keyframes": [
+                {
+                    "frame_idx": 5128,
+                    "timestamp": 205.12,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V029/L25_V029_S0008_F005128.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "of Israe RAK"
+            }
+        },
+        {
+            "shot_id": "L25_V029_S0009",
+            "start_frame": 5138,
+            "end_frame": 5154,
+            "start_ts": 205.52,
+            "end_ts": 206.16,
+            "duration": 0.64,
+            "keyframes": [
+                {
+                    "frame_idx": 5146,
+                    "timestamp": 205.84,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V029/L25_V029_S0009_F005146.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "S.I.",
+                "ocr_text": "Learning towards Creative Society Presented by Former Prime Minister of Israel EHUD BARAK August 05, 2022"
+            }
+        },
+        {
+            "shot_id": "L25_V029_S0010",
+            "start_frame": 5155,
+            "end_frame": 5172,
+            "start_ts": 206.2,
+            "end_ts": 206.88,
+            "duration": 0.68,
+            "keyframes": [
+                {
+                    "frame_idx": 5163,
+                    "timestamp": 206.52,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V029/L25_V029_S0010_F005163.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "நொல்லு!",
+                "ocr_text": ""
+            }
+        },
+        {
+            "shot_id": "L25_V029_S0011",
+            "start_frame": 5173,
+            "end_frame": 5196,
+            "start_ts": 206.92,
+            "end_ts": 207.84,
+            "duration": 0.92,
+            "keyframes": [
+                {
+                    "frame_idx": 5184,
+                    "timestamp": 207.36,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V029/L25_V029_S0011_F005184.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Tạo ra môi trường hóa",
+                "ocr_text": ""
+            }
+        },
+        {
+            "shot_id": "L25_V029_S0012",
+            "start_frame": 5197,
+            "end_frame": 5214,
+            "start_ts": 207.88,
+            "end_ts": 208.56,
+            "duration": 0.68,
+            "keyframes": [
+                {
+                    "frame_idx": 5205,
+                    "timestamp": 208.2,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V029/L25_V029_S0012_F005205.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "ROBOTICS NATURAL LANGUAGE ROCESSING MACHINE LEARNING INTERI OF THI BIG DATA"
+            }
+        },
+        {
+            "shot_id": "L25_V029_S0013",
+            "start_frame": 5215,
+            "end_frame": 5243,
+            "start_ts": 208.6,
+            "end_ts": 209.72,
+            "duration": 1.12,
+            "keyframes": [
+                {
+                    "frame_idx": 5229,
+                    "timestamp": 209.16,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V029/L25_V029_S0013_F005229.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Đa dạng",
+                "ocr_text": ""
+            }
+        },
+        {
+            "shot_id": "L25_V029_S0014",
+            "start_frame": 5244,
+            "end_frame": 5277,
+            "start_ts": 209.76,
+            "end_ts": 211.08,
+            "duration": 1.32,
+            "keyframes": [
+                {
+                    "frame_idx": 5260,
+                    "timestamp": 210.4,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V029/L25_V029_S0014_F005260.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "và tôn trọng sự khác biệt",
+                "ocr_text": "SIU ASIAN O. Tuệc chi SCHOOI SIU"
+            }
+        },
+        {
+            "shot_id": "L25_V029_S0015",
+            "start_frame": 5278,
+            "end_frame": 5306,
+            "start_ts": 211.12,
+            "end_ts": 212.24,
+            "duration": 1.12,
+            "keyframes": [
+                {
+                    "frame_idx": 5292,
+                    "timestamp": 211.68,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V029/L25_V029_S0015_F005292.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "SIU",
+                "ocr_text": ""
+            }
+        },
+        {
+            "shot_id": "L25_V029_S0016",
+            "start_frame": 5307,
+            "end_frame": 5371,
+            "start_ts": 212.28,
+            "end_ts": 214.84,
+            "duration": 2.56,
+            "keyframes": [
+                {
+                    "frame_idx": 5339,
+                    "timestamp": 213.56,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V029/L25_V029_S0016_F005339.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "mở rộng hợp tác quốc tế với các trường đại học",
+                "ocr_text": ""
+            }
+        },
+        {
+            "shot_id": "L25_V029_S0017",
+            "start_frame": 5372,
+            "end_frame": 5405,
+            "start_ts": 214.88,
+            "end_ts": 216.2,
+            "duration": 1.32,
+            "keyframes": [
+                {
+                    "frame_idx": 5388,
+                    "timestamp": 215.52,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V029/L25_V029_S0017_F005388.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "SIU University Interational College of Advanced Educatl onal College of Advanced Educal Australia Australla"
+            }
+        },
+        {
+            "shot_id": "L25_V029_S0018",
+            "start_frame": 5406,
+            "end_frame": 5436,
+            "start_ts": 216.24,
+            "end_ts": 217.44,
+            "duration": 1.2,
+            "keyframes": [
+                {
+                    "frame_idx": 5421,
+                    "timestamp": 216.84,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V029/L25_V029_S0018_F005421.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Các bạn hãy đăng ký kênh để ủng hộ kênh của mình nhé.",
+                "ocr_text": ""
+            }
+        },
+        {
+            "shot_id": "L25_V029_S0019",
+            "start_frame": 5437,
+            "end_frame": 5470,
+            "start_ts": 217.48,
+            "end_ts": 218.8,
+            "duration": 1.32,
+            "keyframes": [
+                {
+                    "frame_idx": 5453,
+                    "timestamp": 218.12,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V029/L25_V029_S0019_F005453.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "trên thế giới.",
+                "ocr_text": "THE SAIGON MICHAEL DUKAKIS INTERNATIONAL INSTITUTE FOR LEADERHIP AND INNOVATION UNIVERSIY MEMORANDUM OF UNDERSTANDING SIGNING CEREMONY between Saigon International University, Vietnam and Michael Dukakis Institute for Leadership & Innovation, USA Hoch City. January 6th. 2022"
+            }
+        },
+        {
+            "shot_id": "L25_V029_S0020",
+            "start_frame": 5471,
+            "end_frame": 5511,
+            "start_ts": 218.84,
+            "end_ts": 220.44,
+            "duration": 1.6,
+            "keyframes": [
+                {
+                    "frame_idx": 5491,
+                    "timestamp": 219.64,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V029/L25_V029_S0020_F005491.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "OUR THE WESTIN TRỌN 22 AM Marriott INTERNATIONAL MINE"
+            }
+        },
+        {
+            "shot_id": "L25_V029_S0021",
+            "start_frame": 5512,
+            "end_frame": 5528,
+            "start_ts": 220.48,
+            "end_ts": 221.12,
+            "duration": 0.64,
+            "keyframes": [
+                {
+                    "frame_idx": 5520,
+                    "timestamp": 220.8,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V029/L25_V029_S0021_F005520.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "ational Saigon IN COOPE REEMEN SIU University EREM 2023 CHANG DUNG UNIVERSITY HEING WU UNIVERSITY SIU • SIU jon International ® SIT"
+            }
+        },
+        {
+            "shot_id": "L25_V029_S0022",
+            "start_frame": 5529,
+            "end_frame": 5579,
+            "start_ts": 221.16,
+            "end_ts": 223.16,
+            "duration": 2.0,
+            "keyframes": [
+                {
+                    "frame_idx": 5554,
+                    "timestamp": 222.16,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V029/L25_V029_S0022_F005554.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": ""
+            }
+        },
+        {
+            "shot_id": "L25_V029_S0023",
+            "start_frame": 5580,
+            "end_frame": 5611,
+            "start_ts": 223.2,
+            "end_ts": 224.44,
+            "duration": 1.24,
+            "keyframes": [
+                {
+                    "frame_idx": 5595,
+                    "timestamp": 223.8,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V029/L25_V029_S0023_F005595.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Habibong S.I.",
+                "ocr_text": "THƯ KY HỘI THAM CHO TOA TIÊN 10% NHÀN DAN SIU Saigon International IU UNIVERSITY Sair du.vn UR"
+            }
+        },
+        {
+            "shot_id": "L25_V029_S0024",
+            "start_frame": 5612,
+            "end_frame": 5642,
+            "start_ts": 224.48,
+            "end_ts": 225.68,
+            "duration": 1.2,
+            "keyframes": [
+                {
+                    "frame_idx": 5627,
+                    "timestamp": 225.08,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V029/L25_V029_S0024_F005627.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "SIU UNIVERSITY"
+            }
+        },
+        {
+            "shot_id": "L25_V029_S0025",
+            "start_frame": 5643,
+            "end_frame": 5679,
+            "start_ts": 225.72,
+            "end_ts": 227.16,
+            "duration": 1.44,
+            "keyframes": [
+                {
+                    "frame_idx": 5661,
+                    "timestamp": 226.44,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V029/L25_V029_S0025_F005661.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": ""
+            }
+        },
+        {
+            "shot_id": "L25_V029_S0026",
+            "start_frame": 5680,
+            "end_frame": 5723,
+            "start_ts": 227.2,
+            "end_ts": 228.92,
+            "duration": 1.72,
+            "keyframes": [
+                {
+                    "frame_idx": 5701,
+                    "timestamp": 228.04,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V029/L25_V029_S0026_F005701.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "SIU University Tlành trinh den Phường Đòng"
+            }
+        },
+        {
+            "shot_id": "L25_V029_S0027",
+            "start_frame": 5725,
+            "end_frame": 5768,
+            "start_ts": 229.0,
+            "end_ts": 230.72,
+            "duration": 1.72,
+            "keyframes": [
+                {
+                    "frame_idx": 5746,
+                    "timestamp": 229.84,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V029/L25_V029_S0027_F005746.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "PHƯƠNG THỨC XÉT TUYỂN TẠI 4 SIU 1. Xét tuyển học bạ 3 học kỳ (2HK lớp 11 + HK1 lớp 12)' 2. Xét tuyển học bạ lớp 12 e conrkc 3. Xét tuyển kết quả kỳ thi THPT 4. Xét tuyển kết quả kỳ thi đánh giá năng lực của Đại học Quốc gia TPHCM"
+            }
+        },
+        {
+            "shot_id": "L25_V029_S0028",
+            "start_frame": 5769,
+            "end_frame": 5817,
+            "start_ts": 230.76,
+            "end_ts": 232.68,
+            "duration": 1.92,
+            "keyframes": [
+                {
+                    "frame_idx": 5793,
+                    "timestamp": 231.72,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V029/L25_V029_S0028_F005793.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "SIU cam kết hỗ trợ sinh viên",
+                "ocr_text": ""
+            }
+        },
+        {
+            "shot_id": "L25_V029_S0029",
+            "start_frame": 5818,
+            "end_frame": 5855,
+            "start_ts": 232.72,
+            "end_ts": 234.2,
+            "duration": 1.48,
+            "keyframes": [
+                {
+                    "frame_idx": 5836,
+                    "timestamp": 233.44,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V029/L25_V029_S0029_F005836.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Với nhiều chính sách học bổng",
+                "ocr_text": ""
+            }
+        },
+        {
+            "shot_id": "L25_V029_S0030",
+            "start_frame": 5856,
+            "end_frame": 5910,
+            "start_ts": 234.24,
+            "end_ts": 236.4,
+            "duration": 2.16,
+            "keyframes": [
+                {
+                    "frame_idx": 5883,
+                    "timestamp": 235.32,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V029/L25_V029_S0030_F005883.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "20 xuất học bổng chủ tình S.I.U",
+                "ocr_text": "Shine izons. New Pa"
+            }
+        },
+        {
+            "shot_id": "L25_V029_S0031",
+            "start_frame": 5911,
+            "end_frame": 5969,
+            "start_ts": 236.44,
+            "end_ts": 238.76,
+            "duration": 2.32,
+            "keyframes": [
+                {
+                    "frame_idx": 5940,
+                    "timestamp": 237.6,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V029/L25_V029_S0031_F005940.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "100 xuất học bổng tiếp bước hành trình",
+                "ocr_text": "The Saigon International -Universlty LỄ CÔNG BỐ"
+            }
+        },
+        {
+            "shot_id": "L25_V029_S0032",
+            "start_frame": 5970,
+            "end_frame": 5996,
+            "start_ts": 238.8,
+            "end_ts": 239.84,
+            "duration": 1.04,
+            "keyframes": [
+                {
+                    "frame_idx": 5983,
+                    "timestamp": 239.32,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V029/L25_V029_S0032_F005983.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Quỹ tài năng trẻ",
+                "ocr_text": "The Saigon CNTT TRƯỜNG ĐẠI HỌC QUỐC TẾ SÀI GÒN TRAO TẶNG QUÝ HỌC BỔNG TÀI NĂNG TRẺ 8898 40% - 60% - 100 HỌC PHÍ TOÀN KHOA (https://www.facebook.com/ www.siu.edu.vn"
+            }
+        },
+        {
+            "shot_id": "L25_V029_S0033",
+            "start_frame": 5997,
+            "end_frame": 6094,
+            "start_ts": 239.88,
+            "end_ts": 243.76,
+            "duration": 3.88,
+            "keyframes": [
+                {
+                    "frame_idx": 6045,
+                    "timestamp": 241.8,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V029/L25_V029_S0033_F006045.jpg"
+                },
+                {
+                    "frame_idx": 6021,
+                    "timestamp": 240.84,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V029/L25_V029_S0033_F006021.jpg"
+                },
+                {
+                    "frame_idx": 6069,
+                    "timestamp": 242.76,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V029/L25_V029_S0033_F006069.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Học bổng 50% học phí toàn hóa cho những học sinh có thành tích xuất sắc",
+                "ocr_text": ""
+            }
+        },
+        {
+            "shot_id": "L25_V029_S0034",
+            "start_frame": 6095,
+            "end_frame": 6124,
+            "start_ts": 243.8,
+            "end_ts": 244.96,
+            "duration": 1.16,
+            "keyframes": [
+                {
+                    "frame_idx": 6109,
+                    "timestamp": 244.36,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V029/L25_V029_S0034_F006109.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Trong các hoạt động văn hóa",
+                "ocr_text": ""
+            }
+        },
+        {
+            "shot_id": "L25_V029_S0035",
+            "start_frame": 6125,
+            "end_frame": 6155,
+            "start_ts": 245.0,
+            "end_ts": 246.2,
+            "duration": 1.2,
+            "keyframes": [
+                {
+                    "frame_idx": 6140,
+                    "timestamp": 245.6,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V029/L25_V029_S0035_F006140.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": ""
+            }
+        },
+        {
+            "shot_id": "L25_V029_S0036",
+            "start_frame": 6156,
+            "end_frame": 6186,
+            "start_ts": 246.24,
+            "end_ts": 247.44,
+            "duration": 1.2,
+            "keyframes": [
+                {
+                    "frame_idx": 6171,
+                    "timestamp": 246.84,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V029/L25_V029_S0036_F006171.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Học bổng đồng hành sẽ được tạo ra bởi các bạn.",
+                "ocr_text": "The Saigon International •University LỄ KÝ KẾT HỌC BỔNG ĐỒNG HÀNH XÂY DỰNG NHÂN LỰC CHẤT LƯỢNG CAO CHO THÀNH PHỐ THỦ ĐỨC Thành phố Hồ Chí Minh, ngày 22 tháng 12 năm 2023 SIU SIU Saigon Intarnational Salgon International 0. UNIVERSITY UNIVERSITY www.sku.edu.vn"
+            }
+        },
+        {
+            "shot_id": "L25_V029_S0037",
+            "start_frame": 6187,
+            "end_frame": 6224,
+            "start_ts": 247.48,
+            "end_ts": 248.96,
+            "duration": 1.48,
+            "keyframes": [
+                {
+                    "frame_idx": 6205,
+                    "timestamp": 248.2,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V029/L25_V029_S0037_F006205.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "xây dựng nhân lực chất lượng cao cho thông minh.",
+                "ocr_text": ""
+            }
+        },
+        {
+            "shot_id": "L25_V029_S0038",
+            "start_frame": 6225,
+            "end_frame": 6258,
+            "start_ts": 249.0,
+            "end_ts": 250.32,
+            "duration": 1.32,
+            "keyframes": [
+                {
+                    "frame_idx": 6241,
+                    "timestamp": 249.64,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V029/L25_V029_S0038_F006241.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Thành phố Thủ Đức, thành phố Hồ Chí Minh",
+                "ocr_text": "LÊ KÝ KẾT T NGUYỄN HỮU BIÊN BẢN HỞ HỢP TÁC GIỮA TRƯỜI ÁI GÒN TRƯỜNG ĐẠI HỌC QUÔ tp Hồ CN Minh, ngày 04 hội he saigoe TRƯỜNG ĐẠI HỌC QUỐC TẾ SÀI GÒN TRAO TẶNG HỌC BỒNG ĐÔNG HÀNH XÂY DỰNG NHAN LỰC CHẤT LƯỢNG CAO CHO THÀNH PHỐ THỦ ĐỨC ) HỌC PHÍ TOÀN KHOA HỌC 30% TRỊ GIÁ 00000 www.siu.edu.vn"
+            }
+        },
+        {
+            "shot_id": "L25_V029_S0039",
+            "start_frame": 6259,
+            "end_frame": 6297,
+            "start_ts": 250.36,
+            "end_ts": 251.88,
+            "duration": 1.52,
+            "keyframes": [
+                {
+                    "frame_idx": 6278,
+                    "timestamp": 251.12,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V029/L25_V029_S0039_F006278.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Học bổng doanh nghiệp tài trợ",
+                "ocr_text": "Internafional University MOU SIGNING CEREMONY with BUSINESS PARTNERS Ho Chi Minh City, December 20, 2023 SIU SIU SIU Saigon International Saigon International Saigon International UNIVERSITY UNIVERSITY UNIVERSITY"
+            }
+        },
+        {
+            "shot_id": "L25_V029_S0040",
+            "start_frame": 6298,
+            "end_frame": 6328,
+            "start_ts": 251.92,
+            "end_ts": 253.12,
+            "duration": 1.2,
+            "keyframes": [
+                {
+                    "frame_idx": 6313,
+                    "timestamp": 252.52,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V029/L25_V029_S0040_F006313.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hợp bổng 20%",
+                "ocr_text": ""
+            }
+        },
+        {
+            "shot_id": "L25_V029_S0041",
+            "start_frame": 6329,
+            "end_frame": 6356,
+            "start_ts": 253.16,
+            "end_ts": 254.24,
+            "duration": 1.08,
+            "keyframes": [
+                {
+                    "frame_idx": 6342,
+                    "timestamp": 253.68,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V029/L25_V029_S0041_F006342.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": ""
+            }
+        },
+        {
+            "shot_id": "L25_V029_S0042",
+            "start_frame": 6357,
+            "end_frame": 6392,
+            "start_ts": 254.28,
+            "end_ts": 255.68,
+            "duration": 1.4,
+            "keyframes": [
+                {
+                    "frame_idx": 6374,
+                    "timestamp": 254.96,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V029/L25_V029_S0042_F006374.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": ""
+            }
+        },
+        {
+            "shot_id": "L25_V029_S0043",
+            "start_frame": 6393,
+            "end_frame": 6423,
+            "start_ts": 255.72,
+            "end_ts": 256.92,
+            "duration": 1.2,
+            "keyframes": [
+                {
+                    "frame_idx": 6408,
+                    "timestamp": 256.32,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V029/L25_V029_S0043_F006408.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "Int ore rose ente (tota file name 2 GIVE YOU YOU WANT"
+            }
+        },
+        {
+            "shot_id": "L25_V029_S0044",
+            "start_frame": 6424,
+            "end_frame": 6452,
+            "start_ts": 256.96,
+            "end_ts": 258.08,
+            "duration": 1.12,
+            "keyframes": [
+                {
+                    "frame_idx": 6438,
+                    "timestamp": 257.52,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V029/L25_V029_S0044_F006438.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "S.I.U.",
+                "ocr_text": ""
+            }
+        },
+        {
+            "shot_id": "L25_V029_S0045",
+            "start_frame": 6453,
+            "end_frame": 6513,
+            "start_ts": 258.12,
+            "end_ts": 260.52,
+            "duration": 2.4,
+            "keyframes": [
+                {
+                    "frame_idx": 6483,
+                    "timestamp": 259.32,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V029/L25_V029_S0045_F006483.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Tâm hồn Việt Nam, Giáo dục Thế Giới",
+                "ocr_text": "THE SAIGON INTERNATIONAL UNIVERSITY Vietnam's spirit global education"
+            }
+        },
+        {
+            "shot_id": "L25_V029_S0046",
+            "start_frame": 6514,
+            "end_frame": 17884,
+            "start_ts": 260.56,
+            "end_ts": 715.36,
+            "duration": 454.8,
+            "keyframes": [
+                {
+                    "frame_idx": 12199,
+                    "timestamp": 487.96,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V029/L25_V029_S0046_F012199.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Câu số 1 trong đề thi năm 2022 Trong một quần thể chuột, alena lớn Trên nhiệm sắc thể thường, quy định lông đen là trội hoàn toàn so với alena nhỏ quy định lông xám Ở thế hệ P, số con lông xám bằng số con lông đen dị hợp và chiếm 20% Đây là thông tin rất là quan trọng, mấy em cần gạch dưới những thông tin này Lông xám sẽ có kiểu sen là A nhỏ A nhỏ Còn lông đen dị hợp sẽ có kiểu sen là A lớn A nhỏ Và đề đã cho chúng ta là 20% Như vậy chúng ta sẽ suy ra được kiểu sen A lớn A lớn còn lại Còn cái có tỷ lệ kiểu sen như thế này Trong mỗi thế hệ ngẫu phối, tỷ lệ phô bị chết là như thế này Biết tỷ lệ dí tính và yêu cầu mang tính tới F2 Rồi, bây giờ chúng ta cùng làm cụ thể Dp, như thầy đã phân tích A nhỏ A nhỏ là 0.2 A lớn A nhỏ là 0.2 Cho nên suy ra được A lớn A lớn là 0.6 Và mấy em thấy, cấu trúc di truyền của Dp khác với dây cái Như vậy trong trường hợp này là cấu trúc di truyền của dây cái và dây đực khác nhau Cho nên chúng ta cần phải xác định cấu trúc di truyền của Dp Bây giờ thầy gọi N là tổng số cá thể của quần thể này Thì ở số cá thể đực A lớn A lớn Mấy em chỉ cần lấy tỷ lệ của A lớn A lớn Tỷ lệ kiểu sen A lớn A lớn sẽ bằng Số cá thể mang kiểu sen A lớn A lớn Chi cho tổng số cá thể trong quần thể Và tỷ lệ kiểu sen A lớn A lớn Mấy em thấy trên bằng hình là 0.6 Đó là trong quần thể Cho nên mấy em chỉ cần lấy 0.6 Nhân cho tổng số cá thể là N Và để tính ở dây đực Thì mấy em trừ đi số cá thể cái Mấy em đã thấy là Ở con cái A lớn A lớn là 0.4 Cho nên mấy em chỉ cần lấy 0.4 Nhân với số lượng con cái là N chi cho 2 Bởi vì đề đã cho mình tỷ lệ dây tính là 1 1 Cho nên thầy gọi N là số cá thể Thì N chi 2 sẽ là số cá thể cái Từ đó mấy em sẽ tính cho 2 Cho nên mấy em sẽ lấy được A lớn A lớn ở dây đực sẽ là 0.4N Lọc luận tương tự Thì A lớn A nhỏ sẽ là 0 Và A nhỏ A nhỏ sẽ là 0.1N Và bây giờ mấy em lập tỷ lệ Của các loại kiểu sen này Thì mấy em sẽ được cấu trúc di truyền Của dây đực là 0.8A lớn A lớn Chi cho 0.2A nhỏ A nhỏ Mấy em lập tỷ lệ Tức là mấy em lấy 0.4N Chi cho 0.2A nhỏ A nhỏ Mấy em sẽ được Tỷ lệ kiểu sen của dây đực Dây cái cũng tương tự như vậy Và để cho mình là ngẫu phối Để cho mình ngẫu phối Cho nên dây đực sẽ ngẫu phối với dây cái Mấy em viết giao tự của dây đực ra Hay lúc đó Sẽ được A nhỏ A nhỏ sẽ được là 100% A nhỏ Nhân với 0.2A A ungefähr outstanding A ungefähr outstanding Chúng ta sẽ được là 0.2A nhỏ. Tương tự A lớn sẽ là 0.8. Với cái thì chúng ta cũng lọc luận tương tự thì sẽ được F1. Học tử là như vầy. Và để cho mình biết là tỷ lệ phôi bị chết ở A lớn A lớn là 25%. Tức là tỷ lệ phôi còn sống là 75%. Cho nên mình chỉ cần lấy 0.48 x 75%. A lớn A nhỏ tỷ lệ phôi bị chết là 50%. Cho nên tỷ lệ phôi còn sống là 50%. Mà tiếp tục lấy 0.44 x 50%. Còn ở A nhỏ A nhỏ tỷ lệ phôi bị chết là 0. Tức là 100% phôi A nhỏ nhỏ đều sống. Tức là vẫn là 0.08. Hệ mạng nhân lại tỷ lệ của phôi còn sống. Hệ mạng sẽ được cấu trúc di truyền lúc sau. Và lúc này mạng thấy là tổng tỷ lệ các loại cửu sen không còn bằng 1 nữa. Cho nên mạng chỉ cần cộng. Cộng lại các tỷ lệ này. Và mạng đặt mẫu là tổng mới đó. Để cho tổng tỷ lệ các loại cửu sen bằng 1. Tóm lại. Sau khi thầy nhân với tỷ lệ phôi còn sống. Thầy sẽ được tỷ lệ các loại cửu sen như trên màn hình. Và tổng tỷ lệ lúc này là 0.66. Cho nên thầy chia cho 0.66. Hãy lại tính tần số A lớn A nhỏ ra 1 lần nữa. Và lập luận tỷ lệ. Lập luận tương tự. Lập luận tương tự thì sẽ suy ra được F2. Bây giờ chúng ta cùng phân tích 4 phát biểu. Phát biểu thứ nhất. Tần số A lớn tăng dần từ DP tới F2. Ở đây mạng tính tần số A lớn như bình thường. Chúng ta đã xác định được cấu trúc di truyền của DP F1 và F2. Cho nên chúng ta tính tần số A lớn như bình thường. Thầy mạng thấy là tần số A lớn tăng dần. Từ P. Đến F2. Cho nên phát biểu số 1 là đúng. Phát biểu số 2. Ở F1. Số chuột lông đen chiếm tỷ lệ là 29 phần 33. Lông đen là do A lớn quy định. Và ở F1. Chuột lông đen. Bác thấy có kiểu xem là A lớn A lớn và A lớn A nhỏ. Bác cộng lại thì sẽ được là 29 phần 33. Cho nên phát biểu số 2 này là đúng. Ở phát biểu số 3. Tỷ lệ phôi bị chết ở F1 sinh sản lớn hơn tỷ lệ phôi bị chết khi DP sinh sản. Câu này đầy yêu cầu mình tính tỷ lệ phôi bị chết. Thầy mạng chỉ cần nhận xét mẫu số mà thôi. Bởi vì mẫu số là do tổng tỷ lệ các loại kiểu Gen. Tổng tỷ lệ của các loại phôi còn sống tạo ra. Thì từ đó mình sẽ suy ra được tỷ lệ phôi bị chết. Cụ thể. Tỷ lệ phôi bị chết khi F1 sinh sản. Tỷ lệ phôi bị chết khi F1 sinh sản. Khi F1 sinh sản thì tạo nên F2. Thì lúc này mấy anh thấy tỷ lệ phôi còn sống là 0,668. Cho nên tỷ lệ bị chết thì mấy anh chỉ cần lấy 1 trừ đi 0,668 là được 0,332. Tương tự. Tỷ lệ phôi bị chết khi DP sinh sản. DP sinh sản tạo ra được F1 thì tỷ lệ phôi còn sống là 0,66. Cho nên tỷ lệ phôi bị chết là 1 trừ đi 0,66 là 0,346. Cho nên từ đây mấy anh thấy là tỷ lệ phôi bị chết khi DP sinh sản lớn hơn so với khi F1 sinh sản. Cho nên phát biểu thứ 3 là chưa đúng. Và cuối cùng là ở phát biểu thứ 4. Ở F2 các cá thể có kiểu sen A nhỏ nhỏ chiếm tỷ lệ nhỏ nhất. Còn phát biểu này thì rất là đơn giản. Mấy anh nhìn thấy ở F2. Tỷ lệ kiểu sen A nhỏ nhỏ là 0,083 nhỏ hơn so với kiểu sen A lớn A lớn. Tỷ lệ kiểu sen A nhỏ nhỏ là 0,083 nhỏ hơn so với kiểu sen A lớn A lớn. Cho nên có tỷ lệ là nhỏ nhất. Đúng rồi. Cho nên phát biểu thứ 4 này là đúng. Cho nên trong câu này thì có 3 phát biểu đúng.",
+                "ocr_text": "THANH NIEN 1. Trong một quần thể chuột, alen A trên NST thường quy định lông đen trội hoàn toàn so với alen a quy định lông xám. Ở thế hệ (P), số con lông xám bằng số con lông đen dị hợp và chiếm 20%; các con cái có tỉ lệ kiểu gen: 0,4AA : 0,4 Aa : 0,2aa. Trong mỗi thế hệ ngẫu phối, tỉ lệ phôi bị chết ở các kiểu gen AA; Aa; aa lần lượt là 25%; 50%; 0%. Biết ti lệ giới tính là 1 : 1. Theo lí thuyết, có bao nhiêu phát biểu sau đây đúng? P: 0,6 AA : 0,2 Aa : 0,2 aa AA = 0,6 x n - 0,4 x n/2 = 0,4n Gọi n là số cá thể → Giới đực: Aa = 0,2 x n - 0,4 x n/2 = 0 aa = 0,2 x n - 0,2 x n/2 = 0,ln → Giới đực: 0,8 AA : 0,2 aa X Giới cái: 0,4 AA : 0,4 Aa : 0,2 aa G 0,8 A : 0,2 a 0,6 A : 0,4 a → Hợp tử F,: 0,48 AA : 0,44 Aa : 0,08 aa T.Bình - SinhLHP - SĐT: 093.241.9086 Thầy VÕ THANH BÌNH Trường THPT chuyên Lê Hồng Phong"
+            }
+        },
+        {
+            "shot_id": "L25_V029_S0047",
+            "start_frame": 17885,
+            "end_frame": 18053,
+            "start_ts": 715.4,
+            "end_ts": 722.12,
+            "duration": 6.72,
+            "keyframes": [
+                {
+                    "frame_idx": 17969,
+                    "timestamp": 718.76,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V029/L25_V029_S0047_F017969.jpg"
+                },
+                {
+                    "frame_idx": 17927,
+                    "timestamp": 717.08,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V029/L25_V029_S0047_F017927.jpg"
+                },
+                {
+                    "frame_idx": 18011,
+                    "timestamp": 720.44,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V029/L25_V029_S0047_F018011.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Trường Quốc tế Á Châu Tự hào là ngôi trường Mang đến nền giáo dục tiên tiến",
+                "ocr_text": "Trường Quốc Tế Á Châu madonal Schan"
+            }
+        },
+        {
+            "shot_id": "L25_V029_S0048",
+            "start_frame": 18054,
+            "end_frame": 18095,
+            "start_ts": 722.16,
+            "end_ts": 723.8,
+            "duration": 1.64,
+            "keyframes": [
+                {
+                    "frame_idx": 18074,
+                    "timestamp": 722.96,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V029/L25_V029_S0048_F018074.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": ""
+            }
+        },
+        {
+            "shot_id": "L25_V029_S0049",
+            "start_frame": 18096,
+            "end_frame": 18138,
+            "start_ts": 723.84,
+            "end_ts": 725.52,
+            "duration": 1.68,
+            "keyframes": [
+                {
+                    "frame_idx": 18117,
+                    "timestamp": 724.68,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V029/L25_V029_S0049_F018117.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": ""
+            }
+        },
+        {
+            "shot_id": "L25_V029_S0050",
+            "start_frame": 18139,
+            "end_frame": 18164,
+            "start_ts": 725.56,
+            "end_ts": 726.56,
+            "duration": 1.0,
+            "keyframes": [
+                {
+                    "frame_idx": 18151,
+                    "timestamp": 726.04,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V029/L25_V029_S0050_F018151.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": ""
+            }
+        },
+        {
+            "shot_id": "L25_V029_S0051",
+            "start_frame": 18165,
+            "end_frame": 18276,
+            "start_ts": 726.6,
+            "end_ts": 731.04,
+            "duration": 4.44,
+            "keyframes": [
+                {
+                    "frame_idx": 18220,
+                    "timestamp": 728.8,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V029/L25_V029_S0051_F018220.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "we are a team. Rounding To The We repect each other. i Nearest WE TAKE RISKS Ten and Hundred we learn from. eur mistakes. we try our brest. Greate."
+            }
+        },
+        {
+            "shot_id": "L25_V029_S0052",
+            "start_frame": 18277,
+            "end_frame": 18318,
+            "start_ts": 731.08,
+            "end_ts": 732.72,
+            "duration": 1.64,
+            "keyframes": [
+                {
+                    "frame_idx": 18297,
+                    "timestamp": 731.88,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V029/L25_V029_S0052_F018297.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": ""
+            }
+        },
+        {
+            "shot_id": "L25_V029_S0053",
+            "start_frame": 18319,
+            "end_frame": 18349,
+            "start_ts": 732.76,
+            "end_ts": 733.96,
+            "duration": 1.2,
+            "keyframes": [
+                {
+                    "frame_idx": 18334,
+                    "timestamp": 733.36,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V029/L25_V029_S0053_F018334.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "thuộc thể thao.",
+                "ocr_text": ""
+            }
+        },
+        {
+            "shot_id": "L25_V029_S0054",
+            "start_frame": 18350,
+            "end_frame": 18371,
+            "start_ts": 734.0,
+            "end_ts": 734.84,
+            "duration": 0.84,
+            "keyframes": [
+                {
+                    "frame_idx": 18360,
+                    "timestamp": 734.4,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V029/L25_V029_S0054_F018360.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "you",
+                "ocr_text": ""
+            }
+        },
+        {
+            "shot_id": "L25_V029_S0055",
+            "start_frame": 18372,
+            "end_frame": 18397,
+            "start_ts": 734.88,
+            "end_ts": 735.88,
+            "duration": 1.0,
+            "keyframes": [
+                {
+                    "frame_idx": 18384,
+                    "timestamp": 735.36,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V029/L25_V029_S0055_F018384.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hiểu rồi",
+                "ocr_text": ""
+            }
+        },
+        {
+            "shot_id": "L25_V029_S0056",
+            "start_frame": 18398,
+            "end_frame": 18542,
+            "start_ts": 735.92,
+            "end_ts": 741.68,
+            "duration": 5.76,
+            "keyframes": [
+                {
+                    "frame_idx": 18470,
+                    "timestamp": 738.8,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V029/L25_V029_S0056_F018470.jpg"
+                },
+                {
+                    "frame_idx": 18434,
+                    "timestamp": 737.36,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V029/L25_V029_S0056_F018434.jpg"
+                },
+                {
+                    "frame_idx": 18506,
+                    "timestamp": 740.24,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V029/L25_V029_S0056_F018506.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Mục đích giáo dục không chỉ là truyền thụ kiến thức, mà còn giúp học sinh sáng tạo, khơi nguồn cảm hứng, đồng hành.",
+                "ocr_text": ""
+            }
+        },
+        {
+            "shot_id": "L25_V029_S0057",
+            "start_frame": 18543,
+            "end_frame": 18594,
+            "start_ts": 741.72,
+            "end_ts": 743.76,
+            "duration": 2.04,
+            "keyframes": [
+                {
+                    "frame_idx": 18568,
+                    "timestamp": 742.72,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V029/L25_V029_S0057_F018568.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": ""
+            }
+        },
+        {
+            "shot_id": "L25_V029_S0058",
+            "start_frame": 18595,
+            "end_frame": 18642,
+            "start_ts": 743.8,
+            "end_ts": 745.68,
+            "duration": 1.88,
+            "keyframes": [
+                {
+                    "frame_idx": 18618,
+                    "timestamp": 744.72,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V029/L25_V029_S0058_F018618.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "nhân cách.",
+                "ocr_text": ""
+            }
+        },
+        {
+            "shot_id": "L25_V029_S0059",
+            "start_frame": 18643,
+            "end_frame": 18661,
+            "start_ts": 745.72,
+            "end_ts": 746.44,
+            "duration": 0.72,
+            "keyframes": [
+                {
+                    "frame_idx": 18652,
+                    "timestamp": 746.08,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V029/L25_V029_S0059_F018652.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hoài",
+                "ocr_text": "ISTAN"
+            }
+        },
+        {
+            "shot_id": "L25_V029_S0060",
+            "start_frame": 18662,
+            "end_frame": 18695,
+            "start_ts": 746.48,
+            "end_ts": 747.8,
+            "duration": 1.32,
+            "keyframes": [
+                {
+                    "frame_idx": 18678,
+                    "timestamp": 747.12,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V029/L25_V029_S0060_F018678.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "những giờ học trên lớp, học",
+                "ocr_text": "166 168 A Flag by Bonnie Me 171 Think it Over Reading Strategy O 172 Grammar and Writing Put It All Together Projects . Game - Listening and Speaking Workshop: Description Guessing Writing Workshop: Write a Descriptive Paragraph Fluency . . Picture Dictionary"
+            }
+        },
+        {
+            "shot_id": "L25_V029_S0061",
+            "start_frame": 18696,
+            "end_frame": 18750,
+            "start_ts": 747.84,
+            "end_ts": 750.0,
+            "duration": 2.16,
+            "keyframes": [
+                {
+                    "frame_idx": 18723,
+                    "timestamp": 748.92,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V029/L25_V029_S0061_F018723.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "sinh trường quốc tế Á Châu còn được trải nghiệm.",
+                "ocr_text": "3 MA BOOKFAR"
+            }
+        },
+        {
+            "shot_id": "L25_V029_S0062",
+            "start_frame": 18751,
+            "end_frame": 18897,
+            "start_ts": 750.04,
+            "end_ts": 755.88,
+            "duration": 5.84,
+            "keyframes": [
+                {
+                    "frame_idx": 18824,
+                    "timestamp": 752.96,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V029/L25_V029_S0062_F018824.jpg"
+                },
+                {
+                    "frame_idx": 18787,
+                    "timestamp": 751.48,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V029/L25_V029_S0062_F018787.jpg"
+                },
+                {
+                    "frame_idx": 18860,
+                    "timestamp": 754.4,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V029/L25_V029_S0062_F018860.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "thử thách bản thân và phản biện các vấn đề để tự mình học hỏi trưởng thành độc lập hơn.",
+                "ocr_text": "to am"
+            }
+        },
+        {
+            "shot_id": "L25_V029_S0063",
+            "start_frame": 18898,
+            "end_frame": 18933,
+            "start_ts": 755.92,
+            "end_ts": 757.32,
+            "duration": 1.4,
+            "keyframes": [
+                {
+                    "frame_idx": 18915,
+                    "timestamp": 756.6,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V029/L25_V029_S0063_F018915.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "by bwd6",
+                "ocr_text": ""
+            }
+        },
+        {
+            "shot_id": "L25_V029_S0064",
+            "start_frame": 18935,
+            "end_frame": 18998,
+            "start_ts": 757.4,
+            "end_ts": 759.92,
+            "duration": 2.52,
+            "keyframes": [
+                {
+                    "frame_idx": 18966,
+                    "timestamp": 758.64,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V029/L25_V029_S0064_F018966.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "优优独播剧场——YoYo Television Series Exclusive",
+                "ocr_text": ""
+            }
+        },
+        {
+            "shot_id": "L25_V029_S0065",
+            "start_frame": 19000,
+            "end_frame": 19043,
+            "start_ts": 760.0,
+            "end_ts": 761.72,
+            "duration": 1.72,
+            "keyframes": [
+                {
+                    "frame_idx": 19021,
+                    "timestamp": 760.84,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V029/L25_V029_S0065_F019021.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "by bwd6",
+                "ocr_text": "169"
+            }
+        },
+        {
+            "shot_id": "L25_V029_S0066",
+            "start_frame": 19044,
+            "end_frame": 19073,
+            "start_ts": 761.76,
+            "end_ts": 762.92,
+            "duration": 1.16,
+            "keyframes": [
+                {
+                    "frame_idx": 19058,
+                    "timestamp": 762.32,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V029/L25_V029_S0066_F019058.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "",
+                "ocr_text": ""
+            }
+        },
+        {
+            "shot_id": "L25_V029_S0067",
+            "start_frame": 19074,
+            "end_frame": 19098,
+            "start_ts": 762.96,
+            "end_ts": 763.92,
+            "duration": 0.96,
+            "keyframes": [
+                {
+                    "frame_idx": 19086,
+                    "timestamp": 763.44,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V029/L25_V029_S0067_F019086.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "you",
+                "ocr_text": ""
+            }
+        },
+        {
+            "shot_id": "L25_V029_S0068",
+            "start_frame": 19099,
+            "end_frame": 19333,
+            "start_ts": 763.96,
+            "end_ts": 773.32,
+            "duration": 9.36,
+            "keyframes": [
+                {
+                    "frame_idx": 19216,
+                    "timestamp": 768.64,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V029/L25_V029_S0068_F019216.jpg"
+                },
+                {
+                    "frame_idx": 19157,
+                    "timestamp": 766.28,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V029/L25_V029_S0068_F019157.jpg"
+                },
+                {
+                    "frame_idx": 19274,
+                    "timestamp": 770.96,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V029/L25_V029_S0068_F019274.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Nơi đây với tôi còn hơn cả một ngôi trường Nơi đây là nền tảng giúp đỡ",
+                "ocr_text": "slogan of GAlES GABE GROUP OF ASIAN INTERNATIONAL EDUCATION | The slogan of GAlt 95 ity"
+            }
+        },
+        {
+            "shot_id": "L25_V029_S0069",
+            "start_frame": 19334,
+            "end_frame": 19375,
+            "start_ts": 773.36,
+            "end_ts": 775.0,
+            "duration": 1.64,
+            "keyframes": [
+                {
+                    "frame_idx": 19354,
+                    "timestamp": 774.16,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V029/L25_V029_S0069_F019354.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Chúc tôi đặt những viên gạch đủ",
+                "ocr_text": ""
+            }
+        },
+        {
+            "shot_id": "L25_V029_S0070",
+            "start_frame": 19376,
+            "end_frame": 19416,
+            "start_ts": 775.04,
+            "end_ts": 776.64,
+            "duration": 1.6,
+            "keyframes": [
+                {
+                    "frame_idx": 19396,
+                    "timestamp": 775.84,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V029/L25_V029_S0070_F019396.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": ""
+            }
+        },
+        {
+            "shot_id": "L25_V029_S0071",
+            "start_frame": 19417,
+            "end_frame": 19490,
+            "start_ts": 776.68,
+            "end_ts": 779.6,
+            "duration": 2.92,
+            "keyframes": [
+                {
+                    "frame_idx": 19453,
+                    "timestamp": 778.12,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V029/L25_V029_S0071_F019453.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": ""
+            }
+        },
+        {
+            "shot_id": "L25_V029_S0072",
+            "start_frame": 19492,
+            "end_frame": 19527,
+            "start_ts": 779.68,
+            "end_ts": 781.08,
+            "duration": 1.4,
+            "keyframes": [
+                {
+                    "frame_idx": 19509,
+                    "timestamp": 780.36,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V029/L25_V029_S0072_F019509.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "by bwd6",
+                "ocr_text": ""
+            }
+        },
+        {
+            "shot_id": "L25_V029_S0073",
+            "start_frame": 19528,
+            "end_frame": 19594,
+            "start_ts": 781.12,
+            "end_ts": 783.76,
+            "duration": 2.64,
+            "keyframes": [
+                {
+                    "frame_idx": 19561,
+                    "timestamp": 782.44,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V029/L25_V029_S0073_F019561.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Giáo dục không phải là chuẩn bị cho cuộc sống",
+                "ocr_text": ""
+            }
+        },
+        {
+            "shot_id": "L25_V029_S0074",
+            "start_frame": 19595,
+            "end_frame": 19611,
+            "start_ts": 783.8,
+            "end_ts": 784.44,
+            "duration": 0.64,
+            "keyframes": [
+                {
+                    "frame_idx": 19603,
+                    "timestamp": 784.12,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V029/L25_V029_S0074_F019603.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "",
+                "ocr_text": ""
+            }
+        },
+        {
+            "shot_id": "L25_V029_S0075",
+            "start_frame": 19612,
+            "end_frame": 19638,
+            "start_ts": 784.48,
+            "end_ts": 785.52,
+            "duration": 1.04,
+            "keyframes": [
+                {
+                    "frame_idx": 19625,
+                    "timestamp": 785.0,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V029/L25_V029_S0075_F019625.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Nó chính là cuộc sống.",
+                "ocr_text": "100ml"
+            }
+        },
+        {
+            "shot_id": "L25_V029_S0076",
+            "start_frame": 19639,
+            "end_frame": 19659,
+            "start_ts": 785.56,
+            "end_ts": 786.36,
+            "duration": 0.8,
+            "keyframes": [
+                {
+                    "frame_idx": 19649,
+                    "timestamp": 785.96,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V029/L25_V029_S0076_F019649.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "",
+                "ocr_text": ""
+            }
+        },
+        {
+            "shot_id": "L25_V029_S0077",
+            "start_frame": 19660,
+            "end_frame": 19703,
+            "start_ts": 786.4,
+            "end_ts": 788.12,
+            "duration": 1.72,
+            "keyframes": [
+                {
+                    "frame_idx": 19681,
+                    "timestamp": 787.24,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V029/L25_V029_S0077_F019681.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Từ môi trường giáo dục này",
+                "ocr_text": ""
+            }
+        },
+        {
+            "shot_id": "L25_V029_S0078",
+            "start_frame": 19705,
+            "end_frame": 19728,
+            "start_ts": 788.2,
+            "end_ts": 789.12,
+            "duration": 0.92,
+            "keyframes": [
+                {
+                    "frame_idx": 19716,
+                    "timestamp": 788.64,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V029/L25_V029_S0078_F019716.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Chúng tôi đã từng",
+                "ocr_text": ""
+            }
+        },
+        {
+            "shot_id": "L25_V029_S0079",
+            "start_frame": 19729,
+            "end_frame": 19764,
+            "start_ts": 789.16,
+            "end_ts": 790.56,
+            "duration": 1.4,
+            "keyframes": [
+                {
+                    "frame_idx": 19746,
+                    "timestamp": 789.84,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V029/L25_V029_S0079_F019746.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": ""
+            }
+        },
+        {
+            "shot_id": "L25_V029_S0080",
+            "start_frame": 19765,
+            "end_frame": 19826,
+            "start_ts": 790.6,
+            "end_ts": 793.04,
+            "duration": 2.44,
+            "keyframes": [
+                {
+                    "frame_idx": 19795,
+                    "timestamp": 791.8,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V029/L25_V029_S0080_F019795.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": ""
+            }
+        },
+        {
+            "shot_id": "L25_V029_S0081",
+            "start_frame": 19827,
+            "end_frame": 19879,
+            "start_ts": 793.08,
+            "end_ts": 795.16,
+            "duration": 2.08,
+            "keyframes": [
+                {
+                    "frame_idx": 19853,
+                    "timestamp": 794.12,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V029/L25_V029_S0081_F019853.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Terima kasih.",
+                "ocr_text": ""
+            }
+        },
+        {
+            "shot_id": "L25_V029_S0082",
+            "start_frame": 19880,
+            "end_frame": 19993,
+            "start_ts": 795.2,
+            "end_ts": 799.72,
+            "duration": 4.52,
+            "keyframes": [
+                {
+                    "frame_idx": 19936,
+                    "timestamp": 797.44,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V029/L25_V029_S0082_F019936.jpg"
+                },
+                {
+                    "frame_idx": 19908,
+                    "timestamp": 796.32,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V029/L25_V029_S0082_F019908.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Thank you.",
+                "ocr_text": "1999 TRƯỜNG QUỐC TẾ Á CHÂU | \"ASIAN SIAN INTERN 1999 3H1"
+            }
+        },
+        {
+            "shot_id": "L25_V029_S0083",
+            "start_frame": 19994,
+            "end_frame": 32046,
+            "start_ts": 799.76,
+            "end_ts": 1281.84,
+            "duration": 482.08,
+            "keyframes": [
+                {
+                    "frame_idx": 26020,
+                    "timestamp": 1040.8,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V029/L25_V029_S0083_F026020.jpg"
+                },
+                {
+                    "frame_idx": 23007,
+                    "timestamp": 920.28,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V029/L25_V029_S0083_F023007.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Bây giờ chúng ta cùng phân tích một câu kế tiếp trong đề thi năm 2023 Một quần thể của một loài cá sống ở Hồ Châu Phi, A-Len A lớn quy định thân đỏ trội hoàn toàn so với A-Len, A nhỏ quy định thân xám Loài này có tập tính chỉ giao phối giữa các cá thể cùng màu thân Đây là thông tin quan trọng Những cá thể có cùng màu thân thì mới giao phối với nhau Và đề cho mình là quần thể ban đầu như vậy Cho mình biết là không chịu ảnh hưởng của nhân tố tiến hóa khác thì họ có bao nhiêu phát biểu là đúng Và mấy em nhận xét là đề ở đây yêu cầu mình tính tới đời F4 Nhưng mà ở đời F4 chỉ cần tính cá thể thân xám, tức là A nhỏ A nhỏ mà thôi Bây giờ chúng ta cùng làm A lớn là quy định thân đỏ, trội hoàn toàn A nhỏ Quy định là thân xám và những cá thể A lớn là quy định thân đỏ, trội hoàn toàn A nhỏ Trong quần thể này nó có tập tính là chỉ giao phối những cá thể cùng màu thân Cho nên những cá thể thân đỏ là A lớn A lớn và A lớn A nhỏ Chúng chỉ giao phối với nhau Tổng tỷ lệ những cá thể này là 0.4 còn 0.4 là 0.8 Còn những cá thể lông xám chỉ giao phối với nhau Cho nên thầy viết lại như trên bản hình Lúc này thầy làm lại cho tỷ lệ kiểu sen trong mỗi nhóm bằng 1 Tức là thầy chia cho 0.4 A lớn A lớn và 0.4 A lớn A nhỏ Thầy chia cho 1 tổng mới là 0.8 Lúc đó sẽ là 1 phần 2 Và bởi vì những cá thể trong màu thân này chúng giao phối ngẫu nhiên với nhau Cho nên đời sau chúng ta sẽ áp dụng công trức của trạng thái cân bằng vàng Tần số A nhỏ trong trường hợp Trong trường hợp của những cá thể thân đỏ này Tần số A nhỏ sẽ là 1 phần 2 Nhân với 1 phần 2 thì sẽ được là 1 phần 4 Còn tần số A lớn sẽ là 1 phần 2 Cho nên khi mà những cá thể thân đỏ này giao phối với nhau Hồi ở đời con Tỷ lệ kiểu sen A nhỏ A nhỏ sẽ là 1 phần 4 bình phương Sẽ là 1 phần 16 Kiểu sen A lớn A lớn sẽ là 3 phần 4 bình phương Sẽ là 9 phần 16 Và kiểu sen A lớn A nhỏ sẽ là 2 bia quy Tức là 6 phần 16 Còn A nhỏ A nhỏ lại với A nhỏ A nhỏ Thì đời con là 100% A nhỏ A nhỏ Và lúc này chúng ta viết lại các tỷ lệ Những câu như vầy để làm cho nó nhanh Thì các em nên viết Những con số dưới dạng là tỷ lệ Dưới dạng là phân số Mà đừng chuyển qua số rạp phân Để khỏi mất thời gian ghi những dạy số rạp phân này Và bây giờ những kiểu sen giống nhau Thì chúng ta sẽ cộng lại Ở đây kiểu sen A nhỏ nhỏ giống nhau Chúng ta cộng lại Và chúng ta nhân với hệ số 1 phần 5 4 phần 5 vào Thì lúc này F1 chúng ta sẽ được tỷ lệ Kiểu sen A nhỏ nhỏ giống nhau Như vậy Lọc luận tương tự cho F1 Thì chúng ta thấy là 15 phần 20 Những cái thể thân đỏ này Sẽ giao phố với nhau 15 phần 20 Thì đơn giản phân số sẽ là 3 phần 4 Cho nên chúng ta có 9A lớn A lớn 6A lớn A nhỏ Vì vậy mẫu mới sẽ là 15 9 phần 15 A lớn A lớn 6 phần 15 A lớn A nhỏ Và 5 phần 20 Tức là 5 phần 20 tức là 1 phần 4 A nhỏ A nhỏ này sẽ giao phố với nhau Và chúng ta cũng làm tương tự như vậy Để ra được F2 Và tính ra được F3 Bây giờ chúng ta Đã làm ra được tới F3 Chúng ta cùng phân tích 4 phát biểu Phát biểu thứ nhất Hiệu số giữa kiểu sen Đồng hợp tử trội Và đồng hợp tử trội Tử lặng là không thay đổi qua cái thế hệ Màm nhận xét nhanh qua các đời Thì ở đời P Hiệu số giữa đồng hợp tử trội là A lớn A lớn và A nhỏ A nhỏ là 0,2 Ở F1 Ở F1 Sẽ là 9 trừ 5 là 4 phần 20 4 phần 20 Thì tức là 1 phần 5 cũng là 0,2 Và ở F2 cũng như vậy 12 trừ cho 7 là 5 phần 25 5 phần 25 thì cũng là 1 phần 5 1 phần 5 cũng là 0,2 Cho nên Phát biểu thứ nhất là đúng Không đổi qua cái thế hệ đều là 0,2 Ở F2 Phát biểu thứ 2 ở F1 quần thể đạt trạng thái cân bằng di truyền Bởi vì Trong trường hợp này là có hiện tượng giao phối không ngẫu nhiên Cho nên Cho nên các thế hệ đều không đạt trạng thái cân bằng di truyền được Vì vậy phát biểu này các em khỏi cần phải nhận xét cho các bạn Tính toán gì cả Thì phát biểu này là sai Phát biểu thứ 3 Ở F2 Trong các cá thể có kiểu hình Thân đỏ Tỷ lệ cá thể thuần chủng là 2 phần 3 Phát biểu này các em dễ dàng nhận xét là đúng Ở F2 những cá thể có kiểu hình thân đỏ tức là có kiểu sen A lớn A lớn và A lớn A nhỏ Tỷ lệ thuần Chủng là A lớn A lớn Tỷ lệ thuần chủng là 22 phần 25 Trong khi đó Tổng tỷ lệ cá thể có kiểu hình thân đỏ là 18 phần 25 Cho nên tỷ lệ sẽ là 12 phần 18 12 phần 18 Hay mình đơn giản cho 6 Thì sẽ được là 2 phần 3 Cho nên phát biểu thứ 3 là đúng Phát biểu thứ 4 Ở F4 các cá thể có kiểu hình thân sám là 11 phần 35 Ở đây thì chỉ dừng tính tới F3 mà chưa tính tới F4 Bởi vì ở F4 này người ta chỉ cần yêu cầu mình tính thân sám Thân sám là A nhỏ A nhỏ Thì chúng ta chỉ cần tính Giao tử A nhỏ rồi chúng ta áp dụng công thức Để mà chúng ta tính tỷ lệ thân sám ở đề con Như vậy nó sẽ nhanh hơn Là chúng ta tính Cùng một lúc 3 loại kiểu sen ở F4 luôn Cụ thể Ở F5 Chúng ta đã có như vầy Và cũng câu chuyện cũ Những cá thể A lớn A lớn và A lớn A nhỏ Giao phối với nhau Thì chúng ta thấy rằng tỷ lệ của chúng là 7 phần 10 7 phần 10 Những cá thể thân màu đỏ Cho nên Xét trong thân đỏ Thì sẽ có 5 phần 7 A lớn A lớn và 2 phần 7 A lớn A nhỏ Còn những cá thể A nhỏ A nhỏ thì giao phối với nhau Lúc này bạn thấy A nhỏ Tỷ lệ của giao tử A nhỏ là 1 phần 2 1 phần 2 Mà nhân với 2 phần 7 Thì sẽ được là 1 phần 7 Và khi đề Những cá thể thân đỏ này ngẫu phối thì ở F4 Tỷ lệ A nhỏ A nhỏ Sẽ theo công thức Ở trạng thái cân bằng Thì A nhỏ A nhỏ sẽ là 1 phần 7 bình phương Tức là 1 phần 49 Còn A nhỏ A nhỏ ở đây là 3 phần 10 Cho nên chúng ta chỉ cần Cộng lại Và mấy em nhân Vào phần 7 Thì sẽ là 1 phần 49 Còn A nhỏ A nhỏ ở đây là 3 phần 10 Và mấy em nhớ nhân với hệ số 7 phần 10 Đó là tỷ lệ của kiểu sen A nhỏ A nhỏ Ở đời sau Ở đời F4 Mấy em nhân với hệ số 7 phần 10 vào Hệ lúc đó chúng ta sẽ Được là 11 phần 35 Tức là phát biểu thứ 4 này là đúng Cho nên trong câu này có 3 phát biểu là đúng Đây là một số vấn đề quan trọng trong đề thi trung học phổ thông liên quan tới phần di truyền học quần trễ Và mấy em thấy trong đề thi của 2 năm vừa qua đều có Mỗi năm đều có 1 câu rơi vào tớp 10 câu cuối Của dạng bài tập này Hy vọng là phần chia sẻ hôm nay sẽ giúp ích mấy em trong kỳ thi sắp tới Cảm ơn các bạn đã theo dõi và hẹn gặp lại",
+                "ocr_text": "THANH NIEN A: thân đỏ, alen a: thân xám (P) : 0,4 AA : 0,4 Aa : 0,2 aa (F,): 9/20 AA : 6/20 Aa : 5/20 aa (F2): 12/25 AA : 6/25 Aa : 7/25 aa (F3): 5/10 AA : 2/10 Aa : 3/10 aa I. Hiệu số giữa kiểu gen đồng hợp tử trội và đồng hợp tử lặn là không thay đổi qua các thế hệ. II. Ở F,, quần thể đạt trạng thái cân bằng di truyền. III. Ở F2, trong các cá thể có kiểu hình thân đỏ, ti lệ cá thể thuần chủng là 2/3. IV. Ở F4, tỉ lệ cá thể có kiểu hình thân xám là 11/35. T.Bình - SinhLHP - SĐT: 093.241.9086 Thầy VÕ THANH BÌNH Trường THPT chuyên Lê Hồng Phong | THANH NIEN alen A quy định thân đỏ trội hoàn toàn so với alen a quy định thân xám; loài này có tập tính chỉ giao phối giữa các cá thể cùng màu thân. (P) : 0,4 AA : 0,4 Aa : 0,2 aa. (P): 0,8 (0,4 AA : 0,4 Aa) : 0,2 (aa x aa) (P): 0,8 (1/2 AA : 1/2 Aa) : 0,2 (aa x aa) T.Bình - SinhLHP - SĐT: 093.241.9086 Thầy VÕ THANH BÌNH Trường THPT chuyên Lê Hồng Phong"
+            }
+        },
+        {
+            "shot_id": "L25_V029_S0084",
+            "start_frame": 32047,
+            "end_frame": 32257,
+            "start_ts": 1281.88,
+            "end_ts": 1290.28,
+            "duration": 8.4,
+            "keyframes": [
+                {
+                    "frame_idx": 32152,
+                    "timestamp": 1286.08,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V029/L25_V029_S0084_F032152.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Chúc các em đã dành thời gian theo dõi, chúc các em lúc nào cũng nhiều sức khỏe, ôn tập thật tốt và đạt kết quả cao trong kỳ thi sắp tới. Chào các em!",
+                "ocr_text": "THANH NIEN CẢM ƠN CÁ N ĐÃ DÀNH HEO DÕI THỜI GI Thầy VÕ THANH BÌNH Trường THPT chuyên Lê Hồng Phong"
+            }
+        },
+        {
+            "shot_id": "L25_V029_S0085",
+            "start_frame": 32258,
+            "end_frame": 32273,
+            "start_ts": 1290.32,
+            "end_ts": 1290.92,
+            "duration": 0.6,
+            "keyframes": [
+                {
+                    "frame_idx": 32265,
+                    "timestamp": 1290.6,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V029/L25_V029_S0085_F032265.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Thank you.",
+                "ocr_text": ""
+            }
+        },
+        {
+            "shot_id": "L25_V029_S0086",
+            "start_frame": 32275,
+            "end_frame": 32344,
+            "start_ts": 1291.0,
+            "end_ts": 1293.76,
+            "duration": 2.76,
+            "keyframes": [
+                {
+                    "frame_idx": 32309,
+                    "timestamp": 1292.36,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V029/L25_V029_S0086_F032309.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Để có được thành công như hôm nay,",
+                "ocr_text": ""
+            }
+        },
+        {
+            "shot_id": "L25_V029_S0087",
+            "start_frame": 32345,
+            "end_frame": 32413,
+            "start_ts": 1293.8,
+            "end_ts": 1296.52,
+            "duration": 2.72,
+            "keyframes": [
+                {
+                    "frame_idx": 32379,
+                    "timestamp": 1295.16,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V029/L25_V029_S0087_F032379.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Tôi đã có những ước mơ Và tôi đã có những ước mơ",
+                "ocr_text": ""
+            }
+        },
+        {
+            "shot_id": "L25_V029_S0088",
+            "start_frame": 32414,
+            "end_frame": 32578,
+            "start_ts": 1296.56,
+            "end_ts": 1303.12,
+            "duration": 6.56,
+            "keyframes": [
+                {
+                    "frame_idx": 32496,
+                    "timestamp": 1299.84,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V029/L25_V029_S0088_F032496.jpg"
+                },
+                {
+                    "frame_idx": 32537,
+                    "timestamp": 1301.48,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V029/L25_V029_S0088_F032537.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "đã hiện thực hóa ước mơ của mình bắt đầu từ Trường Đại học Quốc tế Sài Gòn SIU",
+                "ocr_text": ""
+            }
+        },
+        {
+            "shot_id": "L25_V029_S0089",
+            "start_frame": 32579,
+            "end_frame": 32623,
+            "start_ts": 1303.16,
+            "end_ts": 1304.92,
+            "duration": 1.76,
+            "keyframes": [
+                {
+                    "frame_idx": 32601,
+                    "timestamp": 1304.04,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V029/L25_V029_S0089_F032601.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "",
+                "ocr_text": "SOON INTERNATIONAL UNIVERSITY Lewis Campus #VERSITY THE SAISON INTERNATIONAL"
+            }
+        },
+        {
+            "shot_id": "L25_V029_S0090",
+            "start_frame": 32624,
+            "end_frame": 32662,
+            "start_ts": 1304.96,
+            "end_ts": 1306.48,
+            "duration": 1.52,
+            "keyframes": [
+                {
+                    "frame_idx": 32643,
+                    "timestamp": 1305.72,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V029/L25_V029_S0090_F032643.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Đào tạo đa dạng, đa lĩnh",
+                "ocr_text": "SIU 0 THE SAIGON INTERNATIONAL UNIVERSITY"
+            }
+        },
+        {
+            "shot_id": "L25_V029_S0091",
+            "start_frame": 32663,
+            "end_frame": 32700,
+            "start_ts": 1306.52,
+            "end_ts": 1308.0,
+            "duration": 1.48,
+            "keyframes": [
+                {
+                    "frame_idx": 32681,
+                    "timestamp": 1307.24,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V029/L25_V029_S0091_F032681.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "THE SAIGON INTERNATIONAL UNI (Ja) = a in"
+            }
+        },
+        {
+            "shot_id": "L25_V029_S0092",
+            "start_frame": 32701,
+            "end_frame": 32736,
+            "start_ts": 1308.04,
+            "end_ts": 1309.44,
+            "duration": 1.4,
+            "keyframes": [
+                {
+                    "frame_idx": 32718,
+                    "timestamp": 1308.72,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V029/L25_V029_S0092_F032718.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": ""
+            }
+        },
+        {
+            "shot_id": "L25_V029_S0093",
+            "start_frame": 32737,
+            "end_frame": 32771,
+            "start_ts": 1309.48,
+            "end_ts": 1310.84,
+            "duration": 1.36,
+            "keyframes": [
+                {
+                    "frame_idx": 32754,
+                    "timestamp": 1310.16,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V029/L25_V029_S0093_F032754.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy đăng ký kênh để nhận thêm nhiều video mới nhé.",
+                "ocr_text": ""
+            }
+        },
+        {
+            "shot_id": "L25_V029_S0094",
+            "start_frame": 32772,
+            "end_frame": 32806,
+            "start_ts": 1310.88,
+            "end_ts": 1312.24,
+            "duration": 1.36,
+            "keyframes": [
+                {
+                    "frame_idx": 32789,
+                    "timestamp": 1311.56,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V029/L25_V029_S0094_F032789.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Tất cả xin chào",
+                "ocr_text": ""
+            }
+        },
+        {
+            "shot_id": "L25_V029_S0095",
+            "start_frame": 32807,
+            "end_frame": 32874,
+            "start_ts": 1312.28,
+            "end_ts": 1314.96,
+            "duration": 2.68,
+            "keyframes": [],
+            "extracted_data": {
+                "transcript": "đều có cơ hội để thể hiện và phát triển năng lực.",
+                "ocr_text": ""
+            }
+        },
+        {
+            "shot_id": "L25_V029_S0096",
+            "start_frame": 32875,
+            "end_frame": 32908,
+            "start_ts": 1315.0,
+            "end_ts": 1316.32,
+            "duration": 1.32,
+            "keyframes": [
+                {
+                    "frame_idx": 32891,
+                    "timestamp": 1315.64,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V029/L25_V029_S0096_F032891.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Những ý tưởng",
+                "ocr_text": "Put the tr Whiat The disecte 3. Ông qam * Ngân háng chúg 1 nhân viên mới Bỏ sác vào thùng đi ! ngày thang"
+            }
+        },
+        {
+            "shot_id": "L25_V029_S0097",
+            "start_frame": 32909,
+            "end_frame": 32971,
+            "start_ts": 1316.36,
+            "end_ts": 1318.84,
+            "duration": 2.48,
+            "keyframes": [
+                {
+                    "frame_idx": 32940,
+                    "timestamp": 1317.6,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V029/L25_V029_S0097_F032940.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "không được khuyến khích và phát huy tối đa.",
+                "ocr_text": ""
+            }
+        },
+        {
+            "shot_id": "L25_V029_S0098",
+            "start_frame": 32973,
+            "end_frame": 33016,
+            "start_ts": 1318.92,
+            "end_ts": 1320.64,
+            "duration": 1.72,
+            "keyframes": [
+                {
+                    "frame_idx": 32994,
+                    "timestamp": 1319.76,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V029/L25_V029_S0098_F032994.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Chúng tôi đã được truyền cảm hứng.",
+                "ocr_text": ""
+            }
+        },
+        {
+            "shot_id": "L25_V029_S0099",
+            "start_frame": 33017,
+            "end_frame": 33052,
+            "start_ts": 1320.68,
+            "end_ts": 1322.08,
+            "duration": 1.4,
+            "keyframes": [
+                {
+                    "frame_idx": 33034,
+                    "timestamp": 1321.36,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V029/L25_V029_S0099_F033034.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy đăng ký kênh để ủng hộ kênh của mình nhé.",
+                "ocr_text": ""
+            }
+        },
+        {
+            "shot_id": "L25_V029_S0100",
+            "start_frame": 33053,
+            "end_frame": 33103,
+            "start_ts": 1322.12,
+            "end_ts": 1324.12,
+            "duration": 2.0,
+            "keyframes": [
+                {
+                    "frame_idx": 33078,
+                    "timestamp": 1323.12,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V029/L25_V029_S0100_F033078.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": ""
+            }
+        },
+        {
+            "shot_id": "L25_V029_S0101",
+            "start_frame": 33104,
+            "end_frame": 33143,
+            "start_ts": 1324.16,
+            "end_ts": 1325.72,
+            "duration": 1.56,
+            "keyframes": [
+                {
+                    "frame_idx": 33123,
+                    "timestamp": 1324.92,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V029/L25_V029_S0101_F033123.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": ""
+            }
+        },
+        {
+            "shot_id": "L25_V029_S0102",
+            "start_frame": 33144,
+            "end_frame": 33237,
+            "start_ts": 1325.76,
+            "end_ts": 1329.48,
+            "duration": 3.72,
+            "keyframes": [
+                {
+                    "frame_idx": 33190,
+                    "timestamp": 1327.6,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V029/L25_V029_S0102_F033190.jpg"
+                },
+                {
+                    "frame_idx": 33167,
+                    "timestamp": 1326.68,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V029/L25_V029_S0102_F033167.jpg"
+                },
+                {
+                    "frame_idx": 33213,
+                    "timestamp": 1328.52,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V029/L25_V029_S0102_F033213.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "tập về ý tưởng để sáng tạo để trải nghiệm để thử thách bản thân đã",
+                "ocr_text": "DE"
+            }
+        },
+        {
+            "shot_id": "L25_V029_S0103",
+            "start_frame": 33238,
+            "end_frame": 33420,
+            "start_ts": 1329.52,
+            "end_ts": 1336.8,
+            "duration": 7.28,
+            "keyframes": [
+                {
+                    "frame_idx": 33329,
+                    "timestamp": 1333.16,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V029/L25_V029_S0103_F033329.jpg"
+                },
+                {
+                    "frame_idx": 33283,
+                    "timestamp": 1331.32,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V029/L25_V029_S0103_F033283.jpg"
+                },
+                {
+                    "frame_idx": 33374,
+                    "timestamp": 1334.96,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V029/L25_V029_S0103_F033374.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": ""
+            }
+        },
+        {
+            "shot_id": "L25_V029_S0104",
+            "start_frame": 33421,
+            "end_frame": 33452,
+            "start_ts": 1336.84,
+            "end_ts": 1338.08,
+            "duration": 1.24,
+            "keyframes": [
+                {
+                    "frame_idx": 33436,
+                    "timestamp": 1337.44,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V029/L25_V029_S0104_F033436.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "đó là triết lý giáo dục.",
+                "ocr_text": ""
+            }
+        },
+        {
+            "shot_id": "L25_V029_S0105",
+            "start_frame": 33453,
+            "end_frame": 33490,
+            "start_ts": 1338.12,
+            "end_ts": 1339.6,
+            "duration": 1.48,
+            "keyframes": [
+                {
+                    "frame_idx": 33471,
+                    "timestamp": 1338.84,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V029/L25_V029_S0105_F033471.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "mà Đại học Quốc tế Sài Gòn",
+                "ocr_text": ""
+            }
+        },
+        {
+            "shot_id": "L25_V029_S0106",
+            "start_frame": 33492,
+            "end_frame": 33628,
+            "start_ts": 1339.68,
+            "end_ts": 1345.12,
+            "duration": 5.44,
+            "keyframes": [
+                {
+                    "frame_idx": 33560,
+                    "timestamp": 1342.4,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V029/L25_V029_S0106_F033560.jpg"
+                },
+                {
+                    "frame_idx": 33526,
+                    "timestamp": 1341.04,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V029/L25_V029_S0106_F033526.jpg"
+                },
+                {
+                    "frame_idx": 33594,
+                    "timestamp": 1343.76,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V029/L25_V029_S0106_F033594.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "S-I-U luôn hướng đến. Đã đến lúc vương xa hơn những gì.",
+                "ocr_text": "SU | SIU"
+            }
+        },
+        {
+            "shot_id": "L25_V029_S0107",
+            "start_frame": 33630,
+            "end_frame": 33757,
+            "start_ts": 1345.2,
+            "end_ts": 1350.28,
+            "duration": 5.08,
+            "keyframes": [
+                {
+                    "frame_idx": 33693,
+                    "timestamp": 1347.72,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V029/L25_V029_S0107_F033693.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Đã học",
+                "ocr_text": "R 2007 THE SAIGON INTERNATIONAL UNIVERSITY Tâm hôn Việt Nam, giáo dục thế giới Vietnam's spirit, global education"
+            }
+        },
+        {
+            "shot_id": "L25_V029_S0108",
+            "start_frame": 33758,
+            "end_frame": 33863,
+            "start_ts": 1350.32,
+            "end_ts": 1354.52,
+            "duration": 4.2,
+            "keyframes": [],
+            "extracted_data": {
+                "transcript": "",
+                "ocr_text": ""
+            }
+        },
+        {
+            "shot_id": "L25_V029_S0109",
+            "start_frame": 33864,
+            "end_frame": 33870,
+            "start_ts": 1354.56,
+            "end_ts": 1354.8,
+            "duration": 0.24,
+            "keyframes": [],
+            "extracted_data": {
+                "transcript": "",
+                "ocr_text": ""
+            }
+        }
+    ]
+}

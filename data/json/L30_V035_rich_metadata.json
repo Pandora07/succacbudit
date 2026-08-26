@@ -1,0 +1,573 @@
+{
+    "video_id": "L30_V035",
+    "fps": 25.0,
+    "total_shots": 23,
+    "total_keyframes": 26,
+    "shots": [
+        {
+            "shot_id": "L30_V035_S0001",
+            "start_frame": 0,
+            "end_frame": 74,
+            "start_ts": 0.0,
+            "end_ts": 2.96,
+            "duration": 2.96,
+            "keyframes": [],
+            "extracted_data": {
+                "transcript": "",
+                "ocr_text": ""
+            }
+        },
+        {
+            "shot_id": "L30_V035_S0002",
+            "start_frame": 75,
+            "end_frame": 169,
+            "start_ts": 3.0,
+            "end_ts": 6.76,
+            "duration": 3.76,
+            "keyframes": [
+                {
+                    "frame_idx": 122,
+                    "timestamp": 4.88,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V035/L30_V035_S0002_F000122.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Thank you.",
+                "ocr_text": "Herbalife' thương hiệu quản lý cân nặng # & sức khỏe trên thế giới",
+                "vlm_caption": {
+                    "detailed_description": "The image features a green circular logo with the Herbalife logo and Vietnamese text, indicating Herbalife as the world's number one in managing health and wellness."
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V035_S0003",
+            "start_frame": 170,
+            "end_frame": 289,
+            "start_ts": 6.8,
+            "end_ts": 11.56,
+            "duration": 4.76,
+            "keyframes": [
+                {
+                    "frame_idx": 229,
+                    "timestamp": 9.16,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V035/L30_V035_S0003_F000229.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "you",
+                "ocr_text": "Clip bạn đọc dự thi cuộc thi: Lan tỏa năng lượng tích cực 2024",
+                "vlm_caption": {
+                    "detailed_description": "The image contains text in Vietnamese, which translates to \"Clip you read for the competition: Spread positive energy 2024.\""
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V035_S0004",
+            "start_frame": 290,
+            "end_frame": 408,
+            "start_ts": 11.6,
+            "end_ts": 16.32,
+            "duration": 4.72,
+            "keyframes": [
+                {
+                    "frame_idx": 349,
+                    "timestamp": 13.96,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V035/L30_V035_S0004_F000349.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Nói đến chiếu, người dân Nam Bộ thường nghĩ đến chiếu Cà Mau với bài vọng cổ",
+                "ocr_text": "tuoi treTv LÀNG NGHỀ TRUYÊN THỐNG DỆT CHIÊU LONG ĐỊNH XÃ LONG ĐỊNH - CHÂU THÀNH - TIỀN GIANG KÍNH CHÀO QUÝ KHÁCH Cuộc thi Lan tỏa năng lượng tích cực 2024: Giữ cho làng chiếu mãi tươi màu",
+                "vlm_caption": {
+                    "detailed_description": "The image shows a signboard for the Traditional Dyeing Village in Long Định, Châu Thành, Tiền Giang, welcoming visitors."
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V035_S0005",
+            "start_frame": 409,
+            "end_frame": 493,
+            "start_ts": 16.36,
+            "end_ts": 19.72,
+            "duration": 3.36,
+            "keyframes": [
+                {
+                    "frame_idx": 451,
+                    "timestamp": 18.04,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V035/L30_V035_S0005_F000451.jpg"
+                },
+                {
+                    "frame_idx": 472,
+                    "timestamp": 18.88,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V035/L30_V035_S0005_F000472.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "vào lòng người nhiều thế hệ tình anh bán chiếu.",
+                "ocr_text": "Cuộc thi Lan tỏa năng lượng tích cực 2024: Giữ cho làng chiếu mãi tươi màu",
+                "vlm_caption": {
+                    "detailed_description": "The image depicts a textile production machine with multiple spools of thread arranged in a vertical array, set within an industrial environment."
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V035_S0006",
+            "start_frame": 494,
+            "end_frame": 602,
+            "start_ts": 19.76,
+            "end_ts": 24.08,
+            "duration": 4.32,
+            "keyframes": [
+                {
+                    "frame_idx": 548,
+                    "timestamp": 21.92,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V035/L30_V035_S0006_F000548.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Nhưng ở miền Tây, có một làng chiếu không thua kém gì chiếu Cà Mau.",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A woman sits at a table, weaving dried reeds into brooms, with a window and potted plants in the background.",
+                    "objects_and_counts": [
+                        "1 person, 3 potted plant"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V035_S0007",
+            "start_frame": 603,
+            "end_frame": 657,
+            "start_ts": 24.12,
+            "end_ts": 26.28,
+            "duration": 2.16,
+            "keyframes": [
+                {
+                    "frame_idx": 630,
+                    "timestamp": 25.2,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V035/L30_V035_S0007_F000630.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Làng Chiếu, Lâm Định, xã Lâm Định.",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "The image shows a machine with a circular component and spools of thread in a workshop setting.",
+                    "objects_and_counts": [
+                        "2 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V035_S0008",
+            "start_frame": 658,
+            "end_frame": 724,
+            "start_ts": 26.32,
+            "end_ts": 28.96,
+            "duration": 2.64,
+            "keyframes": [
+                {
+                    "frame_idx": 691,
+                    "timestamp": 27.64,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V035/L30_V035_S0008_F000691.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Nguyễn Châu Thành, tỉnh Tiền Giang.",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A woman in a purple shirt is working on weaving a mat in a workshop with various tools and materials around her.",
+                    "objects_and_counts": [
+                        "1 person, 2 bottle, 4 cup, 1 bowl"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V035_S0009",
+            "start_frame": 725,
+            "end_frame": 802,
+            "start_ts": 29.0,
+            "end_ts": 32.08,
+            "duration": 3.08,
+            "keyframes": [
+                {
+                    "frame_idx": 763,
+                    "timestamp": 30.52,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V035/L30_V035_S0009_F000763.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Trải qua hơn 60 năm hình hành và phát triển, những người dân",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A person in a purple shirt is sitting at a table with a glass and a spoon, looking down.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V035_S0010",
+            "start_frame": 803,
+            "end_frame": 869,
+            "start_ts": 32.12,
+            "end_ts": 34.76,
+            "duration": 2.64,
+            "keyframes": [
+                {
+                    "frame_idx": 836,
+                    "timestamp": 33.44,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V035/L30_V035_S0010_F000836.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "của làng đã sống và cống hiến với nghề để cho đời.",
+                "ocr_text": "ENg",
+                "vlm_caption": {
+                    "detailed_description": "A person is weaving a mat using bamboo strips on a woven surface.",
+                    "objects_and_counts": [
+                        "1 person, 1 bottle, 3 cup"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V035_S0011",
+            "start_frame": 870,
+            "end_frame": 938,
+            "start_ts": 34.8,
+            "end_ts": 37.52,
+            "duration": 2.72,
+            "keyframes": [
+                {
+                    "frame_idx": 904,
+                    "timestamp": 36.16,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V035/L30_V035_S0011_F000904.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "ra đời những đôi chiếu đẹp nhất cung cấp cho thị trường trong vòng cuộc.",
+                "ocr_text": "TO",
+                "vlm_caption": {
+                    "detailed_description": "A woman in a purple shirt is working on weaving a mat using a machine in a workshop.",
+                    "objects_and_counts": [
+                        "1 person, 1 bottle, 3 cup, 1 chair, 1 clock"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V035_S0012",
+            "start_frame": 939,
+            "end_frame": 1004,
+            "start_ts": 37.56,
+            "end_ts": 40.16,
+            "duration": 2.6,
+            "keyframes": [
+                {
+                    "frame_idx": 971,
+                    "timestamp": 38.84,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V035/L30_V035_S0012_F000971.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "tất cả các loại nước từ nguyên liều thiên nhiên bình dị",
+                "ocr_text": "/- tuoi rem",
+                "vlm_caption": {
+                    "detailed_description": "A woman sits at a machine in a workshop, surrounded by various tools and materials, including a large spool of thread and a pile of woven baskets.",
+                    "objects_and_counts": [
+                        "1 person, 1 chair, 1 cup, 2 bottle"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V035_S0013",
+            "start_frame": 1005,
+            "end_frame": 1070,
+            "start_ts": 40.2,
+            "end_ts": 42.8,
+            "duration": 2.6,
+            "keyframes": [
+                {
+                    "frame_idx": 1037,
+                    "timestamp": 41.48,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V035/L30_V035_S0013_F001037.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Những người thờ đã thủi hùng vào sản phẩm bằng sự tỉ mệnh.",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "The image shows a machine in operation, with a long, narrow fabric being woven, and a person partially visible on the right side."
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V035_S0014",
+            "start_frame": 1071,
+            "end_frame": 1140,
+            "start_ts": 42.84,
+            "end_ts": 45.6,
+            "duration": 2.76,
+            "keyframes": [
+                {
+                    "frame_idx": 1105,
+                    "timestamp": 44.2,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V035/L30_V035_S0014_F001105.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "và sáng tạo trong thời buổi hiện đại.",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A woman is weaving straw on a traditional loom in a cluttered workshop.",
+                    "objects_and_counts": [
+                        "1 person, 1 chair"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V035_S0015",
+            "start_frame": 1141,
+            "end_frame": 1210,
+            "start_ts": 45.64,
+            "end_ts": 48.4,
+            "duration": 2.76,
+            "keyframes": [
+                {
+                    "frame_idx": 1175,
+                    "timestamp": 47.0,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V035/L30_V035_S0015_F001175.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A woman operates a machine that processes colorful strings, likely for weaving or crafting.",
+                    "objects_and_counts": [
+                        "1 person, 1 chair"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V035_S0016",
+            "start_frame": 1211,
+            "end_frame": 1285,
+            "start_ts": 48.44,
+            "end_ts": 51.4,
+            "duration": 2.96,
+            "keyframes": [
+                {
+                    "frame_idx": 1248,
+                    "timestamp": 49.92,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V035/L30_V035_S0016_F001248.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "cho sự cạnh tranh của các sản phẩm công nghiệp và sự thay đổi thất bại.",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A person is working on making colorful brooms using various colored strings and sticks.",
+                    "objects_and_counts": [
+                        "3 person, 1 kite"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V035_S0017",
+            "start_frame": 1286,
+            "end_frame": 1348,
+            "start_ts": 51.44,
+            "end_ts": 53.92,
+            "duration": 2.48,
+            "keyframes": [
+                {
+                    "frame_idx": 1317,
+                    "timestamp": 52.68,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V035/L30_V035_S0017_F001317.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "quan tiêu dùng của người dân. Tuy nhiên,",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A woman in an orange dress is operating a weaving machine in a factory setting, with another person in the background.",
+                    "objects_and_counts": [
+                        "3 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V035_S0018",
+            "start_frame": 1349,
+            "end_frame": 1516,
+            "start_ts": 53.96,
+            "end_ts": 60.64,
+            "duration": 6.68,
+            "keyframes": [
+                {
+                    "frame_idx": 1432,
+                    "timestamp": 57.28,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V035/L30_V035_S0018_F001432.jpg"
+                },
+                {
+                    "frame_idx": 1390,
+                    "timestamp": 55.6,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V035/L30_V035_S0018_F001390.jpg"
+                },
+                {
+                    "frame_idx": 1474,
+                    "timestamp": 58.96,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V035/L30_V035_S0018_F001474.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "vẫn còn đó những người thờ dạy chiếu tâm huyết, giữ lửa nghề bằng nhìn đam mê và tình yêu với những giá trị truyền thống.",
+                "ocr_text": "Ensure origine",
+                "vlm_caption": {
+                    "detailed_description": "A person in a purple shirt and gloves is cutting a bottle of Ensure with scissors on a woven mat.",
+                    "objects_and_counts": [
+                        "1 person, 4 cup, 1 clock | 1 person, 2 cup, 1 clock | 1 person, 4 cup"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V035_S0019",
+            "start_frame": 1517,
+            "end_frame": 1632,
+            "start_ts": 60.68,
+            "end_ts": 65.28,
+            "duration": 4.6,
+            "keyframes": [
+                {
+                    "frame_idx": 1574,
+                    "timestamp": 62.96,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V035/L30_V035_S0019_F001574.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "được chiếu là một phần thiết yếu của di sản văn hóa dân tộc. Việc giữ gìn và phát triển",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A person in a red sweater is operating a machine that sorts and arranges colorful sticks, likely for crafting or decoration.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V035_S0020",
+            "start_frame": 1633,
+            "end_frame": 1737,
+            "start_ts": 65.32,
+            "end_ts": 69.48,
+            "duration": 4.16,
+            "keyframes": [
+                {
+                    "frame_idx": 1685,
+                    "timestamp": 67.4,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V035/L30_V035_S0020_F001685.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "là nghề cần có sự chung tay góp sức của cả cộng đồng, sự ủng hộ của người tiêu diệt.",
+                "ocr_text": "tuoi trety SENKO",
+                "vlm_caption": {
+                    "detailed_description": "A woman in a floral-patterned shirt is weaving straw into brooms in a cluttered workshop.",
+                    "objects_and_counts": [
+                        "1 person, 1 teddy bear"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V035_S0021",
+            "start_frame": 1738,
+            "end_frame": 1844,
+            "start_ts": 69.52,
+            "end_ts": 73.76,
+            "duration": 4.24,
+            "keyframes": [
+                {
+                    "frame_idx": 1791,
+                    "timestamp": 71.64,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V035/L30_V035_S0021_F001791.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "dùng và hỗ trợ của chính quyền địa phương để tạo động lực phát triển, giữ gìn,",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "The image shows a machine with a large wheel and multiple spools of thread, likely used for textile production."
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V035_S0022",
+            "start_frame": 1845,
+            "end_frame": 1902,
+            "start_ts": 73.8,
+            "end_ts": 76.08,
+            "duration": 2.28,
+            "keyframes": [
+                {
+                    "frame_idx": 1873,
+                    "timestamp": 74.92,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V035/L30_V035_S0022_F001873.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "và phát huy làng nghề truyền thống này.",
+                "ocr_text": "Tác giả: Ngọc Liễu",
+                "vlm_caption": {
+                    "detailed_description": "A woman is working at a broom-making machine in a workshop, surrounded by tools and materials.",
+                    "objects_and_counts": [
+                        "1 person, 3 chair"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V035_S0023",
+            "start_frame": 1903,
+            "end_frame": 2005,
+            "start_ts": 76.12,
+            "end_ts": 80.2,
+            "duration": 4.08,
+            "keyframes": [
+                {
+                    "frame_idx": 1954,
+                    "timestamp": 78.16,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V035/L30_V035_S0023_F001954.jpg"
+                },
+                {
+                    "frame_idx": 1979,
+                    "timestamp": 79.16,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V035/L30_V035_S0023_F001979.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Thank you.",
+                "ocr_text": "tuoi tre y Tác giả: Ngọc Liễu | tuoi trety",
+                "vlm_caption": {
+                    "detailed_description": "A person is weaving colorful straw into a basket, with a machine and various materials in the background.",
+                    "objects_and_counts": [
+                        "2 person, 1 kite"
+                    ]
+                }
+            }
+        }
+    ]
+}

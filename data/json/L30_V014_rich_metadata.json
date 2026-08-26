@@ -1,0 +1,842 @@
+{
+    "video_id": "L30_V014",
+    "fps": 25.0,
+    "total_shots": 32,
+    "total_keyframes": 42,
+    "shots": [
+        {
+            "shot_id": "L30_V014_S0001",
+            "start_frame": 0,
+            "end_frame": 74,
+            "start_ts": 0.0,
+            "end_ts": 2.96,
+            "duration": 2.96,
+            "keyframes": [],
+            "extracted_data": {
+                "transcript": "",
+                "ocr_text": ""
+            }
+        },
+        {
+            "shot_id": "L30_V014_S0002",
+            "start_frame": 75,
+            "end_frame": 169,
+            "start_ts": 3.0,
+            "end_ts": 6.76,
+            "duration": 3.76,
+            "keyframes": [
+                {
+                    "frame_idx": 122,
+                    "timestamp": 4.88,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V014/L30_V014_S0002_F000122.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Thank you.",
+                "ocr_text": "Herbalife* thương hiệu quản lý cân nặng # & sức khỏe trên thế giới",
+                "vlm_caption": {
+                    "detailed_description": "The image features the Herbalife logo with the text \"thương hiệu quản lý cân nặng & sức khỏe trên thế giới\" and a green circular badge."
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V014_S0003",
+            "start_frame": 170,
+            "end_frame": 289,
+            "start_ts": 6.8,
+            "end_ts": 11.56,
+            "duration": 4.76,
+            "keyframes": [
+                {
+                    "frame_idx": 229,
+                    "timestamp": 9.16,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V014/L30_V014_S0003_F000229.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "you",
+                "ocr_text": "Clip bạn đọc dự thi cuộc thi: Lan tỏa năng lượng tích cực 2024",
+                "vlm_caption": {
+                    "detailed_description": "The image contains text in Vietnamese, which translates to \"Clip you read for the contest: Spread positive energy 2024.\""
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V014_S0004",
+            "start_frame": 290,
+            "end_frame": 363,
+            "start_ts": 11.6,
+            "end_ts": 14.52,
+            "duration": 2.92,
+            "keyframes": [
+                {
+                    "frame_idx": 326,
+                    "timestamp": 13.04,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V014/L30_V014_S0004_F000326.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Thank you.",
+                "ocr_text": "tuoi trẻv thương hiệu Cuộc thi Lan tỏa năng lượng tích cực 2024: Tiệm sách miễn phí '3 không' ở Sài Gồn",
+                "vlm_caption": {
+                    "detailed_description": "An older man in a blue shirt is reading a book or document in an outdoor setting with a blurred background.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V014_S0005",
+            "start_frame": 364,
+            "end_frame": 425,
+            "start_ts": 14.56,
+            "end_ts": 17.0,
+            "duration": 2.44,
+            "keyframes": [
+                {
+                    "frame_idx": 394,
+                    "timestamp": 15.76,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V014/L30_V014_S0005_F000394.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Không đặt cọc, không biên nhận, không...",
+                "ocr_text": "tuoi trẻTv Shi -cậu bế bút chỉ Yoshito Unai Cuộc thi Lan tỏa năng lượng tích cực 2024: thương tiệu Tiệm sách miễn phí '3 không' ở Sài Gòn",
+                "vlm_caption": {
+                    "detailed_description": "A young boy wearing a face mask holds a book titled \"Shin-chan Be Bitter\" while standing outdoors.",
+                    "objects_and_counts": [
+                        "1 book, 1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V014_S0006",
+            "start_frame": 426,
+            "end_frame": 495,
+            "start_ts": 17.04,
+            "end_ts": 19.8,
+            "duration": 2.76,
+            "keyframes": [
+                {
+                    "frame_idx": 460,
+                    "timestamp": 18.4,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V014/L30_V014_S0006_F000460.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "bắt buộc trả lại, nhưng tiệm sách miễn phí của ông",
+                "ocr_text": "tuoi trẻtv Cuộc thi Lan tỏa năng lượng tích cực 2024: # Tiệm sách miễn phí '3 không' ở Sài Gòn",
+                "vlm_caption": {
+                    "detailed_description": "An elderly man wearing glasses is looking down, with a blurred background of a building and a green banner with text in Vietnamese.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V014_S0007",
+            "start_frame": 496,
+            "end_frame": 556,
+            "start_ts": 19.84,
+            "end_ts": 22.24,
+            "duration": 2.4,
+            "keyframes": [
+                {
+                    "frame_idx": 526,
+                    "timestamp": 21.04,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V014/L30_V014_S0007_F000526.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Nguyễn Ngọc Cần đã tồn tại hơn 10 năm.",
+                "ocr_text": "QUẤY SÁCH L.NG NG",
+                "vlm_caption": {
+                    "detailed_description": "A man wearing glasses and a light-colored shirt is looking down at a bookshelf filled with colorful books.",
+                    "objects_and_counts": [
+                        "1 person, 1 book"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V014_S0008",
+            "start_frame": 557,
+            "end_frame": 622,
+            "start_ts": 22.28,
+            "end_ts": 24.88,
+            "duration": 2.6,
+            "keyframes": [
+                {
+                    "frame_idx": 589,
+                    "timestamp": 23.56,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V014/L30_V014_S0008_F000589.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "với số đậu sách ngày vụt tăng 15.",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "Water is being poured into a blue and white mug with a green rim.",
+                    "objects_and_counts": [
+                        "4 cup"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V014_S0009",
+            "start_frame": 623,
+            "end_frame": 690,
+            "start_ts": 24.92,
+            "end_ts": 27.6,
+            "duration": 2.68,
+            "keyframes": [
+                {
+                    "frame_idx": 656,
+                    "timestamp": 26.24,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V014/L30_V014_S0009_F000656.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "Three men are sitting in a cafe, with one reading a book and the others engaged in conversation.",
+                    "objects_and_counts": [
+                        "4 person, 3 book, 2 cup, 2 chair"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V014_S0010",
+            "start_frame": 691,
+            "end_frame": 792,
+            "start_ts": 27.64,
+            "end_ts": 31.68,
+            "duration": 4.04,
+            "keyframes": [
+                {
+                    "frame_idx": 741,
+                    "timestamp": 29.64,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V014/L30_V014_S0010_F000741.jpg"
+                },
+                {
+                    "frame_idx": 716,
+                    "timestamp": 28.64,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V014/L30_V014_S0010_F000716.jpg"
+                },
+                {
+                    "frame_idx": 766,
+                    "timestamp": 30.64,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V014/L30_V014_S0010_F000766.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "72 tuổi ở đường Nguyễn Hữu Cảnh, quận Bình Thạnh bắt đầu mở cửa.",
+                "ocr_text": "tre Sac Tom",
+                "vlm_caption": {
+                    "detailed_description": "The image shows a bookshelf filled with a variety of colorful books arranged in rows."
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V014_S0011",
+            "start_frame": 793,
+            "end_frame": 853,
+            "start_ts": 31.72,
+            "end_ts": 34.12,
+            "duration": 2.4,
+            "keyframes": [
+                {
+                    "frame_idx": 823,
+                    "timestamp": 32.92,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V014/L30_V014_S0011_F000823.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Trang nhà chỉ rộng hơn 10m2, nhưng trang nhà không có nhiều đồ.",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "The image shows a stack of books on a shelf in a library or bookstore setting.",
+                    "objects_and_counts": [
+                        "3 book"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V014_S0012",
+            "start_frame": 854,
+            "end_frame": 924,
+            "start_ts": 34.16,
+            "end_ts": 36.96,
+            "duration": 2.8,
+            "keyframes": [
+                {
+                    "frame_idx": 889,
+                    "timestamp": 35.56,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V014/L30_V014_S0012_F000889.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "chứa gần 1.000 đồ sách đủ thế loại.",
+                "ocr_text": "an tur duy tuoi trẻtv Y KINH DICH HES THU VÌ NHUCS năng lực Lc kiên dịnh GIẢN DU ĐÊN BÌNH AN THÀNH CÔNG TỘT DÌNH DAI UAI TOAN THƯ ĐAI GẢI TOÁN THƯ 101= SÔNG VÌ CHÁN LP Hai mươi bôn giờ một phút | a5 KHÔ BAU THANH AN LAC LE: DÀNH THUC NÀNG LỰC VO HAN UNLIMITED POWER GIEO NHÂN GẤT QUẢ THOA THUẨN VỚI CHÍNH PINH Bút kiển Him. Dung TÔ TƯNG CANH CỦA HUYEN VI SONG MOI - Him. Dung",
+                "vlm_caption": {
+                    "detailed_description": "The image shows a stack of books on a shelf, with titles in Vietnamese, including \"Thành Công Tốt Định\" and \"Đánh Thức Năng Lực.\"",
+                    "objects_and_counts": [
+                        "17 book"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V014_S0013",
+            "start_frame": 925,
+            "end_frame": 1006,
+            "start_ts": 37.0,
+            "end_ts": 40.24,
+            "duration": 3.24,
+            "keyframes": [
+                {
+                    "frame_idx": 965,
+                    "timestamp": 38.6,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V014/L30_V014_S0013_F000965.jpg"
+                },
+                {
+                    "frame_idx": 945,
+                    "timestamp": 37.8,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V014/L30_V014_S0013_F000945.jpg"
+                },
+                {
+                    "frame_idx": 985,
+                    "timestamp": 39.4,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V014/L30_V014_S0013_F000985.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Người đến mượn sách không giới hạn số cuốn, không phải ghi sổ.",
+                "ocr_text": "tuổi trẻv HOtG HNIS KINH DICH tana. SIKY TU MATHIEN | tuoi trẻv KINH DICH | tuoi trẻTv TRẬN QUANG MANH NAM HOẠI GẦN KINHI DỊCH FE LUAN I IG THONG BAO GIAM KINH DÍCH XUA Nà ALAY LUÂN NGỮ XUA VÀ ALAY CẤM THAO VỐI KƯẾNG TỬ ĐAM BAO VỔI KHỐNG TỪ NHONG E KINH BỊCH TẠP THUYẾT SỔ TAY KINH DỊCH 5 KINH DỊCH TẠP THUYẾT HOIA HNIY = KINH DỊCH HỘG QUAN TỪ",
+                "vlm_caption": {
+                    "detailed_description": "The image shows a collection of books with colorful spines, including titles in Chinese and English, arranged on a shelf.",
+                    "objects_and_counts": [
+                        "14 book | 11 book"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V014_S0014",
+            "start_frame": 1007,
+            "end_frame": 1074,
+            "start_ts": 40.28,
+            "end_ts": 42.96,
+            "duration": 2.68,
+            "keyframes": [
+                {
+                    "frame_idx": 1040,
+                    "timestamp": 41.6,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V014/L30_V014_S0014_F001040.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "đặt cọc hay mất phí chỉ khi người nào muốn",
+                "ocr_text": "inc Loii Ảnh nắng ban mai hòa dịurọi trên hai cỉ ơi bàn ly, nước đục pại tợc Lần, gió sớm háy húy lướt qua một thầy, rên nửn choa có người qua lại, và sự tịch mịch còn tràn lu ch, thời khắc ấy, Ngọc Lâm có cảm tưởng như Ngoc Làm tổ về học đọc ta sắt một vật gi, song chỉ một phút sau, thầy nghĩ - Phải tim sư phụ đầu xấ tản quý và thanh sạch của cuộc đời còn nguyên vịn, Tôt chủ cũng thể. thy đác ý và mim cười một mình/Ngọc Lâm bước - Sư huynh cá gan thể kún 17 su la Gàn. Của tam quan chùa Sùng Ăn đã hiện ra trước : Hui con sự tử oai hũng ngồi trước cửa tam quan - Ăm thanh ngàn ngà ( aa cởi tiếp đòn thầy ca khúc khái hoàn, Ngọc Làm (hông có cả gan! tả điện đưa mắt nhìn chủng Trong lòng thấy tưởng hắt ca thy về sảm chắc cũng vui mừng.Ngọc Lâm - Xua tuy sr huynh không thích mấi Pệt nụng tiền vào cứa, thì từ sau pho tượng Bồ sịnh là người chỉ thích le, không) lu có chiếc bụng thật to, người sư huynh duy nhắt gi, không chịu tu, tại san bảm sửy cũ th ta chản thầy lại, - Nọc Lam một vị sư suốt ngày chí ân rồi ng. - Xin Bồ Tảt chỉ giảo! - Tôi đầu dầm! Vị chủỉ minh đã từ Cực Lạc thế giới trở về đầy hàt tràị th chỉ nói nhảm mà, tôi sẽ mách sư phụ cho coi! (húp muôn phương! - Tiền đồ của chủ xăn lạn vô cứng, thai La biết sư huynh vốn lưới biếng, nên xua nay tin, bịm chí còn chán ghét là khác. - Xin mời! - Tôi không thích nghe lời khen của va hay nh!",
+                "vlm_caption": {
+                    "detailed_description": "A person is holding an open book with text in Chinese, with a blurred background.",
+                    "objects_and_counts": [
+                        "3 book, 2 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V014_S0015",
+            "start_frame": 1075,
+            "end_frame": 1149,
+            "start_ts": 43.0,
+            "end_ts": 45.96,
+            "duration": 2.96,
+            "keyframes": [
+                {
+                    "frame_idx": 1112,
+                    "timestamp": 44.48,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V014/L30_V014_S0015_F001112.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "mua thì mới tính phí chỉ bằng 20-30%.",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A woman is reading a book in a library with colorful bookshelves in the background.",
+                    "objects_and_counts": [
+                        "1 person, 2 book"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V014_S0016",
+            "start_frame": 1150,
+            "end_frame": 1241,
+            "start_ts": 46.0,
+            "end_ts": 49.64,
+            "duration": 3.64,
+            "keyframes": [
+                {
+                    "frame_idx": 1195,
+                    "timestamp": 47.8,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V014/L30_V014_S0016_F001195.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "sau cái giáp bìa với xuất phát điểm là một người yêu sách",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "An elderly woman with short black hair is looking to the side, with a blurred background of colorful objects.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V014_S0017",
+            "start_frame": 1242,
+            "end_frame": 1318,
+            "start_ts": 49.68,
+            "end_ts": 52.72,
+            "duration": 3.04,
+            "keyframes": [
+                {
+                    "frame_idx": 1280,
+                    "timestamp": 51.2,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V014/L30_V014_S0017_F001280.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Mê đọc sách, ông cần muốn lan tỏa và chia sẻ niềm sức.",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A woman is reading a book in a library setting.",
+                    "objects_and_counts": [
+                        "2 person, 1 book"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V014_S0018",
+            "start_frame": 1319,
+            "end_frame": 1421,
+            "start_ts": 52.76,
+            "end_ts": 56.84,
+            "duration": 4.08,
+            "keyframes": [
+                {
+                    "frame_idx": 1370,
+                    "timestamp": 54.8,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V014/L30_V014_S0018_F001370.jpg"
+                },
+                {
+                    "frame_idx": 1344,
+                    "timestamp": 53.76,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V014/L30_V014_S0018_F001344.jpg"
+                },
+                {
+                    "frame_idx": 1395,
+                    "timestamp": 55.8,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V014/L30_V014_S0018_F001395.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "mê đọc sách cũng như những giá trị từ sách năng lại cho cộng đồng.",
+                "ocr_text": "rebes SONGROOK ofal ime THE CINS. IN THE PICTURE - Tiếng Anh Trong Vị Tinh P.G English Dictiona CẦN NANG TU DIEN KINH TE ANH VICT | THE CHU IN THA mania. | tuoi trẻv Linebesi SONGROOK ofallma C THE GIRL IN THE PICTURE Anh Trong Vi Tin Tiếng Telephon Giao tịch qua điên in Englid SONOS LOVE CẤM NANG TUDIEN KINH TE ANH-VIET BÁCH KHO-KINH TE",
+                "vlm_caption": {
+                    "detailed_description": "A person is browsing through a stack of books on a shelf.",
+                    "objects_and_counts": [
+                        "1 person, 17 book | 1 person, 11 book | 1 person, 9 book"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V014_S0019",
+            "start_frame": 1422,
+            "end_frame": 1567,
+            "start_ts": 56.88,
+            "end_ts": 62.68,
+            "duration": 5.8,
+            "keyframes": [
+                {
+                    "frame_idx": 1494,
+                    "timestamp": 59.76,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V014/L30_V014_S0019_F001494.jpg"
+                },
+                {
+                    "frame_idx": 1458,
+                    "timestamp": 58.32,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V014/L30_V014_S0019_F001458.jpg"
+                },
+                {
+                    "frame_idx": 1530,
+                    "timestamp": 61.2,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V014/L30_V014_S0019_F001530.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Dẫu bạn đọc có lấy trúng cuốn sách quý Rồi mang đi biệt tích Ông cần cũng không màn",
+                "ocr_text": "tuoi trẻv DAY CEO Microsoft AP Y TUONG CẤP Y TƯƠNG Panh cớng cảa lịp đượn | tuoitreTv MHỈ MUẾT BÚN TRÍ CEO Microsoft ES CHUNG Bỉ quyết thành cống của tịp đoản DAS CON RAN DẠY CON LÂM GIÁU Hinh tet ĐÁNH CÁP Ý TƯỜNG STEAL THE DANH CAP Y TƯONG STEAL THESE IDEAST NHOM STEPHEN - PALL ANDREN GL1 FINH | tuôi trẻv KINH TÊ ĐÂN CLASSIG 100 H CAP Y TUO Microsoft",
+                "vlm_caption": {
+                    "detailed_description": "A hand is holding a book titled \"Quyền Vương\" in front of a bookshelf filled with various colorful books.",
+                    "objects_and_counts": [
+                        "1 person, 8 book | 13 book | 2 person, 1 book"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V014_S0020",
+            "start_frame": 1568,
+            "end_frame": 1712,
+            "start_ts": 62.72,
+            "end_ts": 68.48,
+            "duration": 5.76,
+            "keyframes": [
+                {
+                    "frame_idx": 1640,
+                    "timestamp": 65.6,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V014/L30_V014_S0020_F001640.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "theo lý lẽ của ông, sách quý có mất đi thì sẽ có lại cuốn khác ông chỉ mong kiến thức trong những",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A man in a white shirt is browsing through a bookshelf filled with various books.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V014_S0021",
+            "start_frame": 1713,
+            "end_frame": 1838,
+            "start_ts": 68.52,
+            "end_ts": 73.52,
+            "duration": 5.0,
+            "keyframes": [
+                {
+                    "frame_idx": 1775,
+                    "timestamp": 71.0,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V014/L30_V014_S0021_F001775.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Các bạn hãy đăng ký kênh để ủng hộ kênh của mình nhé.",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A man with glasses is reaching for a book on a bookshelf filled with colorful books.",
+                    "objects_and_counts": [
+                        "1 person, 1 book"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V014_S0022",
+            "start_frame": 1839,
+            "end_frame": 1917,
+            "start_ts": 73.56,
+            "end_ts": 76.68,
+            "duration": 3.12,
+            "keyframes": [
+                {
+                    "frame_idx": 1878,
+                    "timestamp": 75.12,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V014/L30_V014_S0022_F001878.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "nhiều người khác ủng hộ, gửi biếu sách cho cửa tiệm.",
+                "ocr_text": "tuôi trẻv 1 hương lan thơm ngạt.",
+                "vlm_caption": {
+                    "detailed_description": "An elderly woman is browsing books in a library, with another person nearby.",
+                    "objects_and_counts": [
+                        "2 person, 1 laptop, 1 remote"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V014_S0023",
+            "start_frame": 1918,
+            "end_frame": 2018,
+            "start_ts": 76.72,
+            "end_ts": 80.72,
+            "duration": 4.0,
+            "keyframes": [
+                {
+                    "frame_idx": 1968,
+                    "timestamp": 78.72,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V014/L30_V014_S0023_F001968.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Thank you.",
+                "ocr_text": "tuoi trẻTv thơmne hướng",
+                "vlm_caption": {
+                    "detailed_description": "An elderly woman in a white coat is reading a book titled \"Thomson Hường\" in a library setting.",
+                    "objects_and_counts": [
+                        "1 person, 8 book"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V014_S0024",
+            "start_frame": 2019,
+            "end_frame": 2135,
+            "start_ts": 80.76,
+            "end_ts": 85.4,
+            "duration": 4.64,
+            "keyframes": [
+                {
+                    "frame_idx": 2077,
+                    "timestamp": 83.08,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V014/L30_V014_S0024_F002077.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Thank you.",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A man in a light-colored shirt is reaching into a bookshelf filled with colorful books.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V014_S0025",
+            "start_frame": 2136,
+            "end_frame": 2217,
+            "start_ts": 85.44,
+            "end_ts": 88.68,
+            "duration": 3.24,
+            "keyframes": [
+                {
+                    "frame_idx": 2176,
+                    "timestamp": 87.04,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V014/L30_V014_S0025_F002176.jpg"
+                },
+                {
+                    "frame_idx": 2156,
+                    "timestamp": 86.24,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V014/L30_V014_S0025_F002156.jpg"
+                },
+                {
+                    "frame_idx": 2196,
+                    "timestamp": 87.84,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V014/L30_V014_S0025_F002196.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Thank you.",
+                "ocr_text": "tuoi trẻtv EN SỐNG",
+                "vlm_caption": {
+                    "detailed_description": "A person is holding a stack of colorful books in a library setting.",
+                    "objects_and_counts": [
+                        "1 person, 4 book | 1 person, 2 book | 1 person, 1 cell phone, 2 book"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V014_S0026",
+            "start_frame": 2218,
+            "end_frame": 2313,
+            "start_ts": 88.72,
+            "end_ts": 92.52,
+            "duration": 3.8,
+            "keyframes": [
+                {
+                    "frame_idx": 2265,
+                    "timestamp": 90.6,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V014/L30_V014_S0026_F002265.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Thank you.",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A man with glasses and a white shirt is standing in front of a bookshelf filled with colorful books.",
+                    "objects_and_counts": [
+                        "1 person, 7 book"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V014_S0027",
+            "start_frame": 2314,
+            "end_frame": 2391,
+            "start_ts": 92.56,
+            "end_ts": 95.64,
+            "duration": 3.08,
+            "keyframes": [
+                {
+                    "frame_idx": 2352,
+                    "timestamp": 94.08,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V014/L30_V014_S0027_F002352.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Thank you.",
+                "ocr_text": "tuổi trẻTv CHỮ",
+                "vlm_caption": {
+                    "detailed_description": "A person in a uniform is browsing through books on a shelf in a library or bookstore.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V014_S0028",
+            "start_frame": 2392,
+            "end_frame": 2478,
+            "start_ts": 95.68,
+            "end_ts": 99.12,
+            "duration": 3.44,
+            "keyframes": [
+                {
+                    "frame_idx": 2435,
+                    "timestamp": 97.4,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V014/L30_V014_S0028_F002435.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "you",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "An elderly man wearing glasses and a suit is looking to the side in a room with shelves and books.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V014_S0029",
+            "start_frame": 2479,
+            "end_frame": 2568,
+            "start_ts": 99.16,
+            "end_ts": 102.72,
+            "duration": 3.56,
+            "keyframes": [
+                {
+                    "frame_idx": 2523,
+                    "timestamp": 100.92,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V014/L30_V014_S0029_F002523.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "you",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A person wearing glasses and a white shirt is looking down at a book in a library setting.",
+                    "objects_and_counts": [
+                        "2 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V014_S0030",
+            "start_frame": 2569,
+            "end_frame": 2650,
+            "start_ts": 102.76,
+            "end_ts": 106.0,
+            "duration": 3.24,
+            "keyframes": [
+                {
+                    "frame_idx": 2609,
+                    "timestamp": 104.36,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V014/L30_V014_S0030_F002609.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "you",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A person wearing a face mask is reading a book in a library filled with shelves of colorful books.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V014_S0031",
+            "start_frame": 2651,
+            "end_frame": 2741,
+            "start_ts": 106.04,
+            "end_ts": 109.64,
+            "duration": 3.6,
+            "keyframes": [
+                {
+                    "frame_idx": 2696,
+                    "timestamp": 107.84,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V014/L30_V014_S0031_F002696.jpg"
+                },
+                {
+                    "frame_idx": 2673,
+                    "timestamp": 106.92,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V014/L30_V014_S0031_F002673.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "you",
+                "ocr_text": "thoi treTv TOP Tác giả: Hồng Mơ | tuoitrerv 76 E STOP",
+                "vlm_caption": {
+                    "detailed_description": "A person in a yellow shirt is handing a piece of paper to another person wearing glasses and a light blue shirt in a library setting.",
+                    "objects_and_counts": [
+                        "3 person, 1 remote, 1 cell phone | 2 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V014_S0032",
+            "start_frame": 2742,
+            "end_frame": 2857,
+            "start_ts": 109.68,
+            "end_ts": 114.28,
+            "duration": 4.6,
+            "keyframes": [
+                {
+                    "frame_idx": 2799,
+                    "timestamp": 111.96,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V014/L30_V014_S0032_F002799.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Thank you.",
+                "ocr_text": "tuổi trẻTv anyt PINE PHEONE 11% thương hu Tác giả: Hồng Mơ",
+                "vlm_caption": {
+                    "detailed_description": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+                    "objects_and_counts": [
+                        "2 book, 2 person"
+                    ]
+                }
+            }
+        }
+    ]
+}

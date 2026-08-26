@@ -1,0 +1,845 @@
+{
+    "video_id": "L30_V050",
+    "fps": 25.0,
+    "total_shots": 33,
+    "total_keyframes": 38,
+    "shots": [
+        {
+            "shot_id": "L30_V050_S0001",
+            "start_frame": 0,
+            "end_frame": 74,
+            "start_ts": 0.0,
+            "end_ts": 2.96,
+            "duration": 2.96,
+            "keyframes": [],
+            "extracted_data": {
+                "transcript": "",
+                "ocr_text": ""
+            }
+        },
+        {
+            "shot_id": "L30_V050_S0002",
+            "start_frame": 75,
+            "end_frame": 289,
+            "start_ts": 3.0,
+            "end_ts": 11.56,
+            "duration": 8.56,
+            "keyframes": [
+                {
+                    "frame_idx": 182,
+                    "timestamp": 7.28,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V050/L30_V050_S0002_F000182.jpg"
+                },
+                {
+                    "frame_idx": 128,
+                    "timestamp": 5.12,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V050/L30_V050_S0002_F000128.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "",
+                "ocr_text": "Clip bạn đọc dự thi cuộc thi: Lan tỏa năng lượng tích cực 2024 | Herbalife",
+                "vlm_caption": {
+                    "detailed_description": "The image displays the Herbalife logo with a green leaf symbol next to the text."
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V050_S0003",
+            "start_frame": 290,
+            "end_frame": 419,
+            "start_ts": 11.6,
+            "end_ts": 16.76,
+            "duration": 5.16,
+            "keyframes": [
+                {
+                    "frame_idx": 354,
+                    "timestamp": 14.16,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V050/L30_V050_S0003_F000354.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Gần 2 năm qua, một lớp học xóm mùa chữ đặc biệt giữa rừng Đắc Sơn Mê",
+                "ocr_text": "tuoi trev Herbalife Lớp học đặc biệt giữa rừng",
+                "vlm_caption": {
+                    "detailed_description": "A man and a woman stand in front of a whiteboard, with a group of people seated at a table in the background.",
+                    "objects_and_counts": [
+                        "4 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V050_S0004",
+            "start_frame": 420,
+            "end_frame": 485,
+            "start_ts": 16.8,
+            "end_ts": 19.4,
+            "duration": 2.6,
+            "keyframes": [
+                {
+                    "frame_idx": 452,
+                    "timestamp": 18.08,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V050/L30_V050_S0004_F000452.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "tuổi trẻv Herbalife Lớp học đặc biệt giữa rừng",
+                "vlm_caption": {
+                    "detailed_description": "A group of people, including children and adults, are seated in a classroom setting, with some holding papers and others looking at the camera.",
+                    "objects_and_counts": [
+                        "16 person, 1 dining table"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V050_S0005",
+            "start_frame": 486,
+            "end_frame": 546,
+            "start_ts": 19.44,
+            "end_ts": 21.84,
+            "duration": 2.4,
+            "keyframes": [
+                {
+                    "frame_idx": 516,
+                    "timestamp": 20.64,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V050/L30_V050_S0005_F000516.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Người đứng lớp là các giáo viên trường tiểu học Daxi Mei.",
+                "ocr_text": "tuoi trẻv Herbalife Lớp học đặc biệt giữa rừng",
+                "vlm_caption": {
+                    "detailed_description": "A group of students and a teacher are gathered in front of a chalkboard outdoors, with a green banner reading \"Lớp học đặc biệt giữa rừng\" and a logo for Herbalife.",
+                    "objects_and_counts": [
+                        "4 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V050_S0006",
+            "start_frame": 547,
+            "end_frame": 620,
+            "start_ts": 21.88,
+            "end_ts": 24.8,
+            "duration": 2.92,
+            "keyframes": [
+                {
+                    "frame_idx": 583,
+                    "timestamp": 23.32,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V050/L30_V050_S0006_F000583.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Còn học viên là những phụ nữ Bana tuổi đã 40-60",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "Two women are seated outdoors at night, with a group of people in the background and a tent-like structure in the background.",
+                    "objects_and_counts": [
+                        "7 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V050_S0007",
+            "start_frame": 621,
+            "end_frame": 742,
+            "start_ts": 24.84,
+            "end_ts": 29.68,
+            "duration": 4.84,
+            "keyframes": [
+                {
+                    "frame_idx": 681,
+                    "timestamp": 27.24,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V050/L30_V050_S0007_F000681.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Nhiều chị còn điều cả con nhỏ sau lưng Lên lớp tìm con chữ",
+                "ocr_text": "tuoi trẻTv",
+                "vlm_caption": {
+                    "detailed_description": "A group of students is sitting at desks in a classroom, engaged in writing activities with books and notebooks.",
+                    "objects_and_counts": [
+                        "6 person, 2 backpack, 3 book"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V050_S0008",
+            "start_frame": 743,
+            "end_frame": 816,
+            "start_ts": 29.72,
+            "end_ts": 32.64,
+            "duration": 2.92,
+            "keyframes": [
+                {
+                    "frame_idx": 779,
+                    "timestamp": 31.16,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V050/L30_V050_S0008_F000779.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Trong lớp này học viên lớn tuổi nhất",
+                "ocr_text": "tuoitretv vust dốc dàm só chon gi no nh kh: thóc hạt gió lốc Xộc chim ch đồng i hương",
+                "vlm_caption": {
+                    "detailed_description": "A classroom scene with students seated at desks, a teacher standing at the front, and a chalkboard displaying Vietnamese text.",
+                    "objects_and_counts": [
+                        "13 person, 2 bicycle, 1 backpack, 2 tv, 2 book"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V050_S0009",
+            "start_frame": 817,
+            "end_frame": 908,
+            "start_ts": 32.68,
+            "end_ts": 36.32,
+            "duration": 3.64,
+            "keyframes": [
+                {
+                    "frame_idx": 862,
+                    "timestamp": 34.48,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V050/L30_V050_S0009_F000862.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "là cụ Hờ Nai 63 tuổi dưới mái đầu bạc trắng đôi mắt",
+                "ocr_text": "tuoi trẻTv",
+                "vlm_caption": {
+                    "detailed_description": "An elderly woman in a blue school uniform is writing on a piece of paper at a table with other individuals in the background.",
+                    "objects_and_counts": [
+                        "7 person, 1 book"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V050_S0010",
+            "start_frame": 909,
+            "end_frame": 967,
+            "start_ts": 36.36,
+            "end_ts": 38.68,
+            "duration": 2.32,
+            "keyframes": [
+                {
+                    "frame_idx": 938,
+                    "timestamp": 37.52,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V050/L30_V050_S0010_F000938.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Cụ chăm chú vào quyển sổ ô ly, tay cầm tay.",
+                "ocr_text": "tuổi trẻTv Chinh dúc tâu trang wi w/t ter Kòm tôi.",
+                "vlm_caption": {
+                    "detailed_description": "An elderly hand holds a pink pencil, poised to write on a lined notebook, with a wooden table and a blue chair in the background.",
+                    "objects_and_counts": [
+                        "3 person, 1 dining table, 2 book"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V050_S0011",
+            "start_frame": 968,
+            "end_frame": 1072,
+            "start_ts": 38.72,
+            "end_ts": 42.88,
+            "duration": 4.16,
+            "keyframes": [
+                {
+                    "frame_idx": 1020,
+                    "timestamp": 40.8,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V050/L30_V050_S0011_F001020.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Cụi gò từng nét chữ chưa tròn vành. Còn chị Đương 41 tuổi.",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "An elderly woman with gray hair and a blue sweater is looking down, with a blurred background suggesting an indoor setting.",
+                    "objects_and_counts": [
+                        "2 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V050_S0012",
+            "start_frame": 1073,
+            "end_frame": 1164,
+            "start_ts": 42.92,
+            "end_ts": 46.56,
+            "duration": 3.64,
+            "keyframes": [
+                {
+                    "frame_idx": 1118,
+                    "timestamp": 44.72,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V050/L30_V050_S0012_F001118.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Mặc cậu con trai nhỏ đang ngái ngủ trên chiếc điệu Chị luôn nhắc nhở",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A group of students, including a girl in a yellow sweater, are sitting at desks and writing in notebooks.",
+                    "objects_and_counts": [
+                        "5 person, 2 book"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V050_S0013",
+            "start_frame": 1165,
+            "end_frame": 1235,
+            "start_ts": 46.6,
+            "end_ts": 49.4,
+            "duration": 2.8,
+            "keyframes": [
+                {
+                    "frame_idx": 1200,
+                    "timestamp": 48.0,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V050/L30_V050_S0013_F001200.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Mình phải học lấy cây chữ để ra ngoài kiếm thêm việc.",
+                "ocr_text": "HOC XOA MU CHU Toon- TIẾNG VIỆT đin chó T° đàn Bóc vưột đắc gó tếc hạt thác oc ốc oi đo oc đa 00 ALENG",
+                "vlm_caption": {
+                    "detailed_description": "A child is writing in a Vietnamese workbook at a desk, with a backpack and other school supplies nearby.",
+                    "objects_and_counts": [
+                        "2 person, 1 book, 1 dining table"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V050_S0014",
+            "start_frame": 1236,
+            "end_frame": 1318,
+            "start_ts": 49.44,
+            "end_ts": 52.72,
+            "duration": 3.28,
+            "keyframes": [
+                {
+                    "frame_idx": 1277,
+                    "timestamp": 51.08,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V050/L30_V050_S0014_F001277.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Cơ may thay đổi số phận ngặt nghèo",
+                "ocr_text": "TẾNG VIỆT 29 20",
+                "vlm_caption": {
+                    "detailed_description": "A person's hand is holding a pen over a notebook with Vietnamese text, with a colorful book in the background.",
+                    "objects_and_counts": [
+                        "1 person, 1 book"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V050_S0015",
+            "start_frame": 1319,
+            "end_frame": 1500,
+            "start_ts": 52.76,
+            "end_ts": 60.0,
+            "duration": 7.24,
+            "keyframes": [
+                {
+                    "frame_idx": 1409,
+                    "timestamp": 56.36,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V050/L30_V050_S0015_F001409.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Họ đến đâu rồi, nhưng mà hiện tại thì biết tên chơi sơ thôi, nhưng mà biết nhiều.",
+                "ocr_text": "tuối trẻtv Chị THỐT Herbalife* Làng Pral Sơmei, xã Đăk Sơmei, huyện Đăk Đoa, tỉnh Gia Lai",
+                "vlm_caption": {
+                    "detailed_description": "A woman is smiling in front of a dark background with a green text overlay identifying her as \"Chị Thốt\" from Đăk Sơmei village in Gia Lai province.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V050_S0016",
+            "start_frame": 1501,
+            "end_frame": 1666,
+            "start_ts": 60.04,
+            "end_ts": 66.64,
+            "duration": 6.6,
+            "keyframes": [
+                {
+                    "frame_idx": 1583,
+                    "timestamp": 63.32,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V050/L30_V050_S0016_F001583.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Tại mình không biết chữ mà, thì mong muốn là mình muốn thành biết chữ Giống như ta nè",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A woman in a blue and yellow jacket holds a wooden board while standing in front of a chalkboard with students seated at desks in the background.",
+                    "objects_and_counts": [
+                        "10 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V050_S0017",
+            "start_frame": 1667,
+            "end_frame": 1791,
+            "start_ts": 66.68,
+            "end_ts": 71.64,
+            "duration": 4.96,
+            "keyframes": [
+                {
+                    "frame_idx": 1729,
+                    "timestamp": 69.16,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V050/L30_V050_S0017_F001729.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Chứ chứ là người đạo Bình Duyên phải dùng nó, người ta phải giúp đưa cơ sở.",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A young woman with dark hair tied back is speaking, with a crowd of people in the background.",
+                    "objects_and_counts": [
+                        "6 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V050_S0018",
+            "start_frame": 1792,
+            "end_frame": 1952,
+            "start_ts": 71.68,
+            "end_ts": 78.08,
+            "duration": 6.4,
+            "keyframes": [
+                {
+                    "frame_idx": 1872,
+                    "timestamp": 74.88,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V050/L30_V050_S0018_F001872.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Đừng sợ tên cho mình nó không biết mày làm gì, làm gì là mày đúng. Mày nhận gì tay người ta, mày chỉ cho mình á.",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A woman in a blue and yellow jacket stands in front of a chalkboard, holding a stick, with children and another person in the background.",
+                    "objects_and_counts": [
+                        "7 person, 1 bottle"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V050_S0019",
+            "start_frame": 1953,
+            "end_frame": 2316,
+            "start_ts": 78.12,
+            "end_ts": 92.64,
+            "duration": 14.52,
+            "keyframes": [
+                {
+                    "frame_idx": 2134,
+                    "timestamp": 85.36,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V050/L30_V050_S0019_F002134.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Ví dụ như có mình, có biết chữ đâu người ta có đưa tiền chứ. Ra ngoài kia mua cái gì mình cũng biết mà. Nhưng mà không biết chữ, mua cái gì cũng biết hết. Người ta nói mình chữ đúng ngôi là phải chịu thôi.",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A person with dark hair and a light complexion is standing in a dimly lit room with a green curtain in the background.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V050_S0020",
+            "start_frame": 2317,
+            "end_frame": 2405,
+            "start_ts": 92.68,
+            "end_ts": 96.2,
+            "duration": 3.52,
+            "keyframes": [
+                {
+                    "frame_idx": 2361,
+                    "timestamp": 94.44,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V050/L30_V050_S0020_F002361.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Lớp học nằm cách trung tâm xã Đắc Sơn Mây Cả chục cây sốt",
+                "ocr_text": "tuoi trẻTv",
+                "vlm_caption": {
+                    "detailed_description": "A group of students and a teacher are gathered in a classroom, with one student standing near a whiteboard.",
+                    "objects_and_counts": [
+                        "11 person, 1 tv, 1 book"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V050_S0021",
+            "start_frame": 2406,
+            "end_frame": 2477,
+            "start_ts": 96.24,
+            "end_ts": 99.08,
+            "duration": 2.84,
+            "keyframes": [
+                {
+                    "frame_idx": 2441,
+                    "timestamp": 97.64,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V050/L30_V050_S0021_F002441.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Dù đường xá cách trở nhưng khi trời vừa tắt nắng",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A woman in a gray hoodie holds a child while an older woman in a blue shirt stands nearby, all in front of a wooden structure with star decorations.",
+                    "objects_and_counts": [
+                        "5 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V050_S0022",
+            "start_frame": 2478,
+            "end_frame": 2556,
+            "start_ts": 99.12,
+            "end_ts": 102.24,
+            "duration": 3.12,
+            "keyframes": [
+                {
+                    "frame_idx": 2517,
+                    "timestamp": 100.68,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V050/L30_V050_S0022_F002517.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "vừa buông tay quốc, tay cày, bà con vẫn đều đang...",
+                "ocr_text": "lin dá Vượt thóc",
+                "vlm_caption": {
+                    "detailed_description": "A chalkboard with Vietnamese words written on it, including \"ốc\" (shell), \"dốc\" (slope), and \"thóc\" (grain), is displayed against a dark background."
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V050_S0023",
+            "start_frame": 2557,
+            "end_frame": 2620,
+            "start_ts": 102.28,
+            "end_ts": 104.8,
+            "duration": 2.52,
+            "keyframes": [
+                {
+                    "frame_idx": 2588,
+                    "timestamp": 103.52,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V050/L30_V050_S0023_F002588.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A woman in a blue shirt stands next to a woman in a gray hoodie, holding a baby, in a dimly lit, rustic indoor setting.",
+                    "objects_and_counts": [
+                        "6 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V050_S0024",
+            "start_frame": 2621,
+            "end_frame": 2774,
+            "start_ts": 104.84,
+            "end_ts": 110.96,
+            "duration": 6.12,
+            "keyframes": [
+                {
+                    "frame_idx": 2697,
+                    "timestamp": 107.88,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V050/L30_V050_S0024_F002697.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Ở làng Prasamai này còn rất nhiều bà con gần chữ với chữ và họ có lòng tham hiểu viết.",
+                "ocr_text": "tuoi trẻtv Thầy ĐỖ HỮU QUẢNG Herbalife Giáo viên Trường tiểu học Đắk Sơmei, xã Đăk Sơmei, huyện Đăk Đoa, tỉnh Gia Lai",
+                "vlm_caption": {
+                    "detailed_description": "A man in a white shirt is speaking in an indoor setting with other people in the background.",
+                    "objects_and_counts": [
+                        "11 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V050_S0025",
+            "start_frame": 2775,
+            "end_frame": 2862,
+            "start_ts": 111.0,
+            "end_ts": 114.48,
+            "duration": 3.48,
+            "keyframes": [
+                {
+                    "frame_idx": 2818,
+                    "timestamp": 112.72,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V050/L30_V050_S0025_F002818.jpg"
+                },
+                {
+                    "frame_idx": 2796,
+                    "timestamp": 111.84,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V050/L30_V050_S0025_F002796.jpg"
+                },
+                {
+                    "frame_idx": 2840,
+                    "timestamp": 113.6,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V050/L30_V050_S0025_F002840.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "và hàn biết chứa để vượt qua những khó khăn của sống ngày.",
+                "ocr_text": "tuoi trẻty",
+                "vlm_caption": {
+                    "detailed_description": "An elderly woman in a blue sweater stands next to a woman holding a child and a wooden stick, all under a covered outdoor area.",
+                    "objects_and_counts": [
+                        "5 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V050_S0026",
+            "start_frame": 2863,
+            "end_frame": 2926,
+            "start_ts": 114.52,
+            "end_ts": 117.04,
+            "duration": 2.52,
+            "keyframes": [
+                {
+                    "frame_idx": 2894,
+                    "timestamp": 115.76,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V050/L30_V050_S0026_F002894.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "và nhà trường cũng chưa đảm bảo.",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "An elderly woman with gray hair looks to the side, surrounded by a crowd of people in a dimly lit indoor setting.",
+                    "objects_and_counts": [
+                        "9 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V050_S0027",
+            "start_frame": 2927,
+            "end_frame": 3022,
+            "start_ts": 117.08,
+            "end_ts": 120.88,
+            "duration": 3.8,
+            "keyframes": [
+                {
+                    "frame_idx": 2974,
+                    "timestamp": 118.96,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V050/L30_V050_S0027_F002974.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Terima kasih kerana menonton!",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A man in a white shirt stands in front of a classroom with students seated at desks, all wearing yellow shirts.",
+                    "objects_and_counts": [
+                        "10 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V050_S0028",
+            "start_frame": 3023,
+            "end_frame": 3124,
+            "start_ts": 120.92,
+            "end_ts": 124.96,
+            "duration": 4.04,
+            "keyframes": [
+                {
+                    "frame_idx": 3073,
+                    "timestamp": 122.92,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V050/L30_V050_S0028_F003073.jpg"
+                },
+                {
+                    "frame_idx": 3048,
+                    "timestamp": 121.92,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V050/L30_V050_S0028_F003048.jpg"
+                },
+                {
+                    "frame_idx": 3098,
+                    "timestamp": 123.92,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V050/L30_V050_S0028_F003098.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Dù điều kiện giảng dạy khó khăn, đường xa xa xôi Nhưng các bạn vẫn có thể nhận được những bài hát",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A man in a white shirt and a woman in a striped sweater stand near a table, with another person seated in the background.",
+                    "objects_and_counts": [
+                        "2 person | 3 person, 1 dining table | 3 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V050_S0029",
+            "start_frame": 3125,
+            "end_frame": 3214,
+            "start_ts": 125.0,
+            "end_ts": 128.56,
+            "duration": 3.56,
+            "keyframes": [
+                {
+                    "frame_idx": 3169,
+                    "timestamp": 126.76,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V050/L30_V050_S0029_F003169.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Thầy cô rất nhiệt huyết giúp đỡ bà con trong hành trình xóa mù chữ.",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A woman in a floral-patterned shirt is looking down, possibly at a piece of paper or a device, with a dark background and another person partially visible behind her.",
+                    "objects_and_counts": [
+                        "3 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V050_S0030",
+            "start_frame": 3215,
+            "end_frame": 3265,
+            "start_ts": 128.6,
+            "end_ts": 130.6,
+            "duration": 2.0,
+            "keyframes": [
+                {
+                    "frame_idx": 3240,
+                    "timestamp": 129.6,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V050/L30_V050_S0030_F003240.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Sở Giáo dục và Đào tạo tỉnh Gia Lai cho biết",
+                "ocr_text": "tuoi trẻTv Herbalife Tác giả: TẤN LỰC",
+                "vlm_caption": {
+                    "detailed_description": "A group of women are sitting at desks, writing in notebooks under a large umbrella in an outdoor setting.",
+                    "objects_and_counts": [
+                        "8 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V050_S0031",
+            "start_frame": 3266,
+            "end_frame": 3336,
+            "start_ts": 130.64,
+            "end_ts": 133.44,
+            "duration": 2.8,
+            "keyframes": [
+                {
+                    "frame_idx": 3301,
+                    "timestamp": 132.04,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V050/L30_V050_S0031_F003301.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hiện toàn tỉnh đã mở được 225 lớp xóa mù chữ.",
+                "ocr_text": "tuoi trẻTv Herbalife Tác giả: TẤN LỰC",
+                "vlm_caption": {
+                    "detailed_description": "A group of people, including a woman in a blue sweater and another in a beige jacket, are sitting at a table with papers and pens, seemingly engaged in an activity or lesson.",
+                    "objects_and_counts": [
+                        "8 person, 1 laptop"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V050_S0032",
+            "start_frame": 3337,
+            "end_frame": 3382,
+            "start_ts": 133.48,
+            "end_ts": 135.28,
+            "duration": 1.8,
+            "keyframes": [
+                {
+                    "frame_idx": 3359,
+                    "timestamp": 134.36,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V050/L30_V050_S0032_F003359.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "với hơn 6.200 học viên.",
+                "ocr_text": "tuoi trẻTv Herbalife* Tác giả: TẤN LỰC",
+                "vlm_caption": {
+                    "detailed_description": "A group of people, including an elderly woman in a blue shirt, are sitting at desks in a classroom setting, with one person writing on a piece of paper.",
+                    "objects_and_counts": [
+                        "9 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V050_S0033",
+            "start_frame": 3383,
+            "end_frame": 3550,
+            "start_ts": 135.32,
+            "end_ts": 142.0,
+            "duration": 6.68,
+            "keyframes": [
+                {
+                    "frame_idx": 3466,
+                    "timestamp": 138.64,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V050/L30_V050_S0033_F003466.jpg"
+                },
+                {
+                    "frame_idx": 3424,
+                    "timestamp": 136.96,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V050/L30_V050_S0033_F003424.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Là đồng bào dân tộc thiểu số",
+                "ocr_text": "tuoi trẻv Herbalife Tác giả: TẤN LỰC",
+                "vlm_caption": {
+                    "detailed_description": "A group of students and teachers are sitting at desks under a makeshift tent, with the teacher in the foreground holding a book.",
+                    "objects_and_counts": [
+                        "14 person, 1 dining table | 13 person, 2 dining table"
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,2932 @@
+{
+    "video_id": "L25_V002",
+    "fps": 25.0,
+    "total_shots": 117,
+    "total_keyframes": 130,
+    "shots": [
+        {
+            "shot_id": "L25_V002_S0001",
+            "start_frame": 0,
+            "end_frame": 67,
+            "start_ts": 0.0,
+            "end_ts": 2.68,
+            "duration": 2.68,
+            "keyframes": [],
+            "extracted_data": {
+                "transcript": "",
+                "ocr_text": ""
+            }
+        },
+        {
+            "shot_id": "L25_V002_S0002",
+            "start_frame": 68,
+            "end_frame": 871,
+            "start_ts": 2.72,
+            "end_ts": 34.84,
+            "duration": 32.12,
+            "keyframes": [
+                {
+                    "frame_idx": 469,
+                    "timestamp": 18.76,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V002/L25_V002_S0002_F000469.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Chào mừng các em đã quay trở lại với chương trình ôn tập một môn lịch sử của Báo Thanh Niên cho kỳ thi tốt nghiệp Trung học Hổ thông năm 2024. Các em học sinh thân mến, chúng ta đã chuẩn bị như thế nào cho kỳ thi sắp tới rồi. Những kiến thức được ôn tập càng ngày càng nhiều lên và hy vọng rằng là thông qua việc ôn tập của Báo Thanh Niên chúng ta sẽ có kết quả tốt trong kỳ thi sắp tới. Ngày hôm nay chúng ta sẽ tiếp tục ôn tập một cái nội dung, một cái chuyên đề về lịch sử thế giới. Đó chính là sự phát triển của các nước tư bản chủ nghĩa sau chiến tranh thế giới lần thứ hai.",
+                "ocr_text": "THANH NIEN",
+                "vlm_caption": {
+                    "detailed_description": "A man in a white shirt and glasses is sitting at a desk with a laptop in front of him, against a background of a blue, starry night sky.",
+                    "objects_and_counts": [
+                        "1 person, 1 laptop"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V002_S0003",
+            "start_frame": 872,
+            "end_frame": 1028,
+            "start_ts": 34.88,
+            "end_ts": 41.12,
+            "duration": 6.24,
+            "keyframes": [
+                {
+                    "frame_idx": 950,
+                    "timestamp": 38.0,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V002/L25_V002_S0003_F000950.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Thì trong nội dung ôn tập ngày hôm nay chúng ta sẽ đề cập đến sự phát triển kinh tế hoặc kỹ thuật của các tổ chức.",
+                "ocr_text": "THANH NIỄN SỰ PHÁT TRIỂN CỦA CÁC NƯỚC TƯ BẢN CHỦ NGHĨA SAU CHIÊN TRANH THẾ GIỚI II",
+                "vlm_caption": {
+                    "detailed_description": "The image contains text in Vietnamese about the development of capitalist countries after World War II."
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V002_S0004",
+            "start_frame": 1029,
+            "end_frame": 1045,
+            "start_ts": 41.16,
+            "end_ts": 41.8,
+            "duration": 0.64,
+            "keyframes": [],
+            "extracted_data": {
+                "transcript": "quốc gia.",
+                "ocr_text": ""
+            }
+        },
+        {
+            "shot_id": "L25_V002_S0005",
+            "start_frame": 1046,
+            "end_frame": 1456,
+            "start_ts": 41.84,
+            "end_ts": 58.24,
+            "duration": 16.4,
+            "keyframes": [],
+            "extracted_data": {
+                "transcript": "đó là Hoa Kỳ, Nhật Bản và Tây Âu. Và thông qua những thành tựu về mặt kinh tế cũng như là khoa học kỹ thuật của 3 quốc gia và khu vực này chúng ta sẽ phân tích được những nguyên nhân dẫn đến những thành tựu về mặt kinh tế như trên.",
+                "ocr_text": ""
+            }
+        },
+        {
+            "shot_id": "L25_V002_S0006",
+            "start_frame": 1457,
+            "end_frame": 1754,
+            "start_ts": 58.28,
+            "end_ts": 70.16,
+            "duration": 11.88,
+            "keyframes": [
+                {
+                    "frame_idx": 1605,
+                    "timestamp": 64.2,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V002/L25_V002_S0006_F001605.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Và lưu ý là khi chúng ta phân tích được những nguyên nhân này Chúng ta có thể giải đáp được những câu hỏi khó trong đề thi sắp tới liên quan đến nội dung của chuyên đề ngày hôm nay",
+                "ocr_text": "THANH NIEN HOA KÌ NHẬT BẢN TÂY ÂU",
+                "vlm_caption": {
+                    "detailed_description": "A man stands in front of a blue screen displaying three options: \"HOA KÌ,\" \"NHẬT BẢN,\" and \"TÂY ÂU,\" with \"HOA KÌ\" highlighted.",
+                    "objects_and_counts": [
+                        "1 laptop, 1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V002_S0007",
+            "start_frame": 1755,
+            "end_frame": 1770,
+            "start_ts": 70.2,
+            "end_ts": 70.8,
+            "duration": 0.6,
+            "keyframes": [
+                {
+                    "frame_idx": 1762,
+                    "timestamp": 70.48,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V002/L25_V002_S0007_F001762.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Thank you.",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A man in a light-colored shirt is reaching for a book on a shelf in a dimly lit room.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V002_S0008",
+            "start_frame": 1771,
+            "end_frame": 1841,
+            "start_ts": 70.84,
+            "end_ts": 73.64,
+            "duration": 2.8,
+            "keyframes": [
+                {
+                    "frame_idx": 1806,
+                    "timestamp": 72.24,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V002/L25_V002_S0008_F001806.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Để có được thành công như hôm nay",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A man in a white shirt is browsing through books on a library shelf.",
+                    "objects_and_counts": [
+                        "1 person, 1 book"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V002_S0009",
+            "start_frame": 1842,
+            "end_frame": 1910,
+            "start_ts": 73.68,
+            "end_ts": 76.4,
+            "duration": 2.72,
+            "keyframes": [
+                {
+                    "frame_idx": 1876,
+                    "timestamp": 75.04,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V002/L25_V002_S0009_F001876.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Tôi đã có những ước mơ Và tôi đã có những ước mơ",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A man walks through a library aisle, holding a book, with shelves filled with books on either side.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V002_S0010",
+            "start_frame": 1911,
+            "end_frame": 2075,
+            "start_ts": 76.44,
+            "end_ts": 83.0,
+            "duration": 6.56,
+            "keyframes": [
+                {
+                    "frame_idx": 1993,
+                    "timestamp": 79.72,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V002/L25_V002_S0010_F001993.jpg"
+                },
+                {
+                    "frame_idx": 2034,
+                    "timestamp": 81.36,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V002/L25_V002_S0010_F002034.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "đã hiện thực hóa ước mơ của mình bắt đầu từ Trường Đại học Quốc tế Sài Gòn SIU",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A man is standing in a library, holding a book and looking at it.",
+                    "objects_and_counts": [
+                        "1 person | 1 person, 1 potted plant"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V002_S0011",
+            "start_frame": 2076,
+            "end_frame": 2120,
+            "start_ts": 83.04,
+            "end_ts": 84.8,
+            "duration": 1.76,
+            "keyframes": [
+                {
+                    "frame_idx": 2098,
+                    "timestamp": 83.92,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V002/L25_V002_S0011_F002098.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "",
+                "ocr_text": "SOON INTERNATIONAL UNIVERSITY ewis Campus #VERSITY THE SAIGON INTERNATION",
+                "vlm_caption": {
+                    "detailed_description": "The image shows the exterior of SIIU (Saigon International University) with a clear blue sky, white clouds, and several flags flying in front of the building."
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V002_S0012",
+            "start_frame": 2121,
+            "end_frame": 2159,
+            "start_ts": 84.84,
+            "end_ts": 86.36,
+            "duration": 1.52,
+            "keyframes": [
+                {
+                    "frame_idx": 2140,
+                    "timestamp": 85.6,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V002/L25_V002_S0012_F002140.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Đào tạo đa dạng, đa lĩnh",
+                "ocr_text": "SIU THE SAIGON INTERNATIONAL UNIVERSITY (Ja)\" = ) A •- www.slu.edu vn",
+                "vlm_caption": {
+                    "detailed_description": "A classroom at The Saigon International University features a teacher presenting at a whiteboard while students raise their hands.",
+                    "objects_and_counts": [
+                        "12 person, 7 chair"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V002_S0013",
+            "start_frame": 2160,
+            "end_frame": 2197,
+            "start_ts": 86.4,
+            "end_ts": 87.88,
+            "duration": 1.48,
+            "keyframes": [
+                {
+                    "frame_idx": 2178,
+                    "timestamp": 87.12,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V002/L25_V002_S0013_F002178.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "THE SAIGON INTERNATIONAL UNI (Ja) = a in",
+                "vlm_caption": {
+                    "detailed_description": "A man in a suit stands in front of a whiteboard filled with mathematical equations and diagrams, presenting a lesson at The Saigon International University.",
+                    "objects_and_counts": [
+                        "1 person, 1 tie"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V002_S0014",
+            "start_frame": 2198,
+            "end_frame": 2233,
+            "start_ts": 87.92,
+            "end_ts": 89.32,
+            "duration": 1.4,
+            "keyframes": [
+                {
+                    "frame_idx": 2215,
+                    "timestamp": 88.6,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V002/L25_V002_S0014_F002215.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A group of individuals wearing headsets are seated at desks with computers, engaged in a call center or customer service environment.",
+                    "objects_and_counts": [
+                        "3 keyboard, 6 person, 3 tv, 3 chair"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V002_S0015",
+            "start_frame": 2234,
+            "end_frame": 2268,
+            "start_ts": 89.36,
+            "end_ts": 90.72,
+            "duration": 1.36,
+            "keyframes": [
+                {
+                    "frame_idx": 2251,
+                    "timestamp": 90.04,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V002/L25_V002_S0015_F002251.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy đăng ký kênh để nhận thêm nhiều video mới nhé.",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A classroom full of students with raised hands, seated in red chairs, facing a whiteboard with a teacher at the front.",
+                    "objects_and_counts": [
+                        "12 person, 12 chair"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V002_S0016",
+            "start_frame": 2269,
+            "end_frame": 2303,
+            "start_ts": 90.76,
+            "end_ts": 92.12,
+            "duration": 1.36,
+            "keyframes": [
+                {
+                    "frame_idx": 2286,
+                    "timestamp": 91.44,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V002/L25_V002_S0016_F002286.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Tất cả xin chào",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A teacher stands in front of a classroom full of students, addressing them with a microphone.",
+                    "objects_and_counts": [
+                        "12 person, 2 chair"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V002_S0017",
+            "start_frame": 2304,
+            "end_frame": 2371,
+            "start_ts": 92.16,
+            "end_ts": 94.84,
+            "duration": 2.68,
+            "keyframes": [
+                {
+                    "frame_idx": 2337,
+                    "timestamp": 93.48,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V002/L25_V002_S0017_F002337.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "đều có cơ hội để thể hiện và phát triển năng lực.",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "The image is overexposed, making it difficult to discern specific details, but it appears to depict a bright, possibly outdoor scene with a person holding a camera or similar object."
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V002_S0018",
+            "start_frame": 2372,
+            "end_frame": 2405,
+            "start_ts": 94.88,
+            "end_ts": 96.2,
+            "duration": 1.32,
+            "keyframes": [
+                {
+                    "frame_idx": 2388,
+                    "timestamp": 95.52,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V002/L25_V002_S0018_F002388.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Những ý tưởng",
+                "ocr_text": "điển tên Put the tr 9. ngày 3. Ông qam The disecte. in * Ngân hàng chug Bỏ sác vào thùng đi 1 nhân viên mới trang",
+                "vlm_caption": {
+                    "detailed_description": "A hand holding an orange and black pencil writes on a lined notebook page.",
+                    "objects_and_counts": [
+                        "1 person, 1 book"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V002_S0019",
+            "start_frame": 2406,
+            "end_frame": 2468,
+            "start_ts": 96.24,
+            "end_ts": 98.72,
+            "duration": 2.48,
+            "keyframes": [
+                {
+                    "frame_idx": 2437,
+                    "timestamp": 97.48,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V002/L25_V002_S0019_F002437.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "không được khuyến khích và phát huy tối đa.",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A person with glasses and a white shirt is smiling, with another person in the background.",
+                    "objects_and_counts": [
+                        "2 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V002_S0020",
+            "start_frame": 2470,
+            "end_frame": 2513,
+            "start_ts": 98.8,
+            "end_ts": 100.52,
+            "duration": 1.72,
+            "keyframes": [
+                {
+                    "frame_idx": 2491,
+                    "timestamp": 99.64,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V002/L25_V002_S0020_F002491.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Chúng tôi đã được truyền cảm hứng.",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A scientist in a lab coat and gloves examines a red liquid in a test tube while another person points at it.",
+                    "objects_and_counts": [
+                        "2 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V002_S0021",
+            "start_frame": 2514,
+            "end_frame": 2549,
+            "start_ts": 100.56,
+            "end_ts": 101.96,
+            "duration": 1.4,
+            "keyframes": [
+                {
+                    "frame_idx": 2531,
+                    "timestamp": 101.24,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V002/L25_V002_S0021_F002531.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Cảm ơn các bạn đã theo dõi và ủng hộ cho kênh lalaschool Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "In a classroom setting, a young woman with shoulder-length hair and a man with short hair are seated at a table, engaged in a conversation while holding notebooks and a pen.",
+                    "objects_and_counts": [
+                        "3 person, 1 book, 3 chair, 1 dining table"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V002_S0022",
+            "start_frame": 2550,
+            "end_frame": 2600,
+            "start_ts": 102.0,
+            "end_ts": 104.0,
+            "duration": 2.0,
+            "keyframes": [
+                {
+                    "frame_idx": 2575,
+                    "timestamp": 103.0,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V002/L25_V002_S0022_F002575.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A young girl in a red and yellow polo shirt is using a laptop with an Apple logo on it.",
+                    "objects_and_counts": [
+                        "1 laptop, 2 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V002_S0023",
+            "start_frame": 2601,
+            "end_frame": 2640,
+            "start_ts": 104.04,
+            "end_ts": 105.6,
+            "duration": 1.56,
+            "keyframes": [
+                {
+                    "frame_idx": 2620,
+                    "timestamp": 104.8,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V002/L25_V002_S0023_F002620.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A person is swimming in a pool, performing the butterfly stroke with arms extended and body arched.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V002_S0024",
+            "start_frame": 2641,
+            "end_frame": 2734,
+            "start_ts": 105.64,
+            "end_ts": 109.36,
+            "duration": 3.72,
+            "keyframes": [
+                {
+                    "frame_idx": 2687,
+                    "timestamp": 107.48,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V002/L25_V002_S0024_F002687.jpg"
+                },
+                {
+                    "frame_idx": 2664,
+                    "timestamp": 106.56,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V002/L25_V002_S0024_F002664.jpg"
+                },
+                {
+                    "frame_idx": 2710,
+                    "timestamp": 108.4,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V002/L25_V002_S0024_F002710.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "tập về ý tưởng để sáng tạo để trải nghiệm để thử thách bản thân đã",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A basketball player in a green jersey is falling to the ground while another player in a red jersey attempts to block him, with a basketball nearby on a green court.",
+                    "objects_and_counts": [
+                        "2 person, 1 chair | 4 person, 1 sports ball, 1 tennis racket | 1 person, 4 chair, 1 laptop"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V002_S0025",
+            "start_frame": 2735,
+            "end_frame": 2804,
+            "start_ts": 109.4,
+            "end_ts": 112.16,
+            "duration": 2.76,
+            "keyframes": [
+                {
+                    "frame_idx": 2769,
+                    "timestamp": 110.76,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V002/L25_V002_S0025_F002769.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A person is playing an acoustic guitar in a brightly lit room with a warm, yellowish light.",
+                    "objects_and_counts": [
+                        "2 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V002_S0026",
+            "start_frame": 2805,
+            "end_frame": 2917,
+            "start_ts": 112.2,
+            "end_ts": 116.68,
+            "duration": 4.48,
+            "keyframes": [
+                {
+                    "frame_idx": 2861,
+                    "timestamp": 114.44,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V002/L25_V002_S0026_F002861.jpg"
+                },
+                {
+                    "frame_idx": 2833,
+                    "timestamp": 113.32,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V002/L25_V002_S0026_F002833.jpg"
+                },
+                {
+                    "frame_idx": 2889,
+                    "timestamp": 115.56,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V002/L25_V002_S0026_F002889.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "năng động và hòa nhập quốc tế nhưng vẫn giữ được bản sắc dân tộc.",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "Three individuals are making a bed in a modern hotel room with a flat-screen TV, wooden floor, and a large window.",
+                    "objects_and_counts": [
+                        "4 person, 1 tv, 1 bed, 1 chair | 1 person, 21 bottle, 2 wine glass"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V002_S0027",
+            "start_frame": 2918,
+            "end_frame": 2949,
+            "start_ts": 116.72,
+            "end_ts": 117.96,
+            "duration": 1.24,
+            "keyframes": [
+                {
+                    "frame_idx": 2933,
+                    "timestamp": 117.32,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V002/L25_V002_S0027_F002933.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "đó là triết lý giáo dục.",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A group of graduates in black gowns and caps stand in a line, facing forward, with a colorful banner reading \"敬\" in the background.",
+                    "objects_and_counts": [
+                        "20 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V002_S0028",
+            "start_frame": 2950,
+            "end_frame": 2987,
+            "start_ts": 118.0,
+            "end_ts": 119.48,
+            "duration": 1.48,
+            "keyframes": [
+                {
+                    "frame_idx": 2968,
+                    "timestamp": 118.72,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V002/L25_V002_S0028_F002968.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "mà Đại học Quốc tế Sài Gòn",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A large group of graduates in black gowns and caps are posing for a photo in front of a traditional building with a red roof and a green gate.",
+                    "objects_and_counts": [
+                        "20 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V002_S0029",
+            "start_frame": 2989,
+            "end_frame": 3125,
+            "start_ts": 119.56,
+            "end_ts": 125.0,
+            "duration": 5.44,
+            "keyframes": [
+                {
+                    "frame_idx": 3057,
+                    "timestamp": 122.28,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V002/L25_V002_S0029_F003057.jpg"
+                },
+                {
+                    "frame_idx": 3023,
+                    "timestamp": 120.92,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V002/L25_V002_S0029_F003023.jpg"
+                },
+                {
+                    "frame_idx": 3091,
+                    "timestamp": 123.64,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V002/L25_V002_S0029_F003091.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "S.I.U. luôn hướng đến. Đã đến lúc vương xa hơn những gì.",
+                "ocr_text": "SIU",
+                "vlm_caption": {
+                    "detailed_description": "A woman in a graduation gown stands next to a clock displaying the SIU logo.",
+                    "objects_and_counts": [
+                        "1 person | 1 person, 1 clock"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V002_S0030",
+            "start_frame": 3127,
+            "end_frame": 3254,
+            "start_ts": 125.08,
+            "end_ts": 130.16,
+            "duration": 5.08,
+            "keyframes": [
+                {
+                    "frame_idx": 3190,
+                    "timestamp": 127.6,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V002/L25_V002_S0030_F003190.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Đã học",
+                "ocr_text": "R TIO S. U SAL UNIVERSY 2007 *THE SAIGON INTERNATIONAL UNIVERSITY Tâm hồn Việt Nam, giáo dục thế giới Vietnam 's spirit global education",
+                "vlm_caption": {
+                    "detailed_description": "The image features the logo and name of The Saigon International University, set against a backdrop of a bright sun and blue sky with scattered clouds.",
+                    "objects_and_counts": [
+                        "1 frisbee"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V002_S0031",
+            "start_frame": 3255,
+            "end_frame": 3420,
+            "start_ts": 130.2,
+            "end_ts": 136.8,
+            "duration": 6.6,
+            "keyframes": [],
+            "extracted_data": {
+                "transcript": "Đầu tiên chúng ta sẽ điểm qua những cái thành tục về mặt kinh tế và khoa học kỹ thuật của Hoa Kỳ.",
+                "ocr_text": ""
+            }
+        },
+        {
+            "shot_id": "L25_V002_S0032",
+            "start_frame": 3421,
+            "end_frame": 8702,
+            "start_ts": 136.84,
+            "end_ts": 348.08,
+            "duration": 211.24,
+            "keyframes": [
+                {
+                    "frame_idx": 6061,
+                    "timestamp": 242.44,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V002/L25_V002_S0032_F006061.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Vào thập niên 60, Hoa Kỳ được xem như là trung tâm kinh tế, tài chánh lớn nhất của cả thế giới Thì bây giờ chúng ta sẽ điểm qua những giai đoạn phát triển của Hoa Kỳ sau Chiến tranh Thế giới lần thứ 2 Như vậy, sau Chiến tranh Thế giới lần thứ 2, kinh tế của Hoa Kỳ trải qua 3 giai đoạn phát triển như sau Từ năm 1945 đến năm 1973 Từ năm 1973 đến năm 1991 Và từ năm 1991 cho đến năm 2000 Chúng ta lưu ý rằng trong các giai đoạn này thì kinh tế Hoa Kỳ sẽ có những đặc điểm quan trọng mà chúng ta cần phải lưu ý Từ năm 1945 đến năm 1973, kinh tế Mỹ phát triển vô cùng mạnh mẽ Và đến thập niên 60, Mỹ đã trở thành trung tâm kinh tế tài chánh lớn nhất thế giới Từ năm 1973 đến năm 1991 Do tác động của khủng quản năng lượng thế giới Kinh tế Mỹ khủng hoảng và suy thái kéo dài Từ năm 1991 cho đến năm 2000 Tuy có những đợt suy thái Nhưng kinh tế Mỹ vẫn đứng đầu thế giới Bây giờ chúng ta sẽ điểm sơ qua những thành tụ mà Hoa Kỳ đạt được trong quá trình phát triển kinh tế Trong lĩnh vực công nghiệp Sản lượng công nghiệp của Mỹ chiếm hơn một nửa sản lượng công nghiệp của toàn bộ thế giới Và với con số ấn tượng này Chúng ta sẽ đạt được một nửa sản lượng công nghiệp của toàn bộ thế giới Thì Mỹ là quốc gia đứng hạng nhất trong lĩnh vực công nghiệp Về lĩnh vực nông nghiệp Sản lượng nông nghiệp của Mỹ gấp đôi tổng sản lượng của Anh, Pháp, Tây Đức, Ý, Nhật Về tài chánh Mỹ nắm giữ 3 phần 4 triệu đường vàng của thế giới Về trạng thông vận tải Mỹ nắm giữ một nửa số tàu bè đi lại trên biển của thế giới Về khoa học kỹ thuật Thì Mỹ là quốc gia khởi đầu cho cuộc cách mạng khoa học kỹ thuật hiện đại Và nếu Mỹ không có nửa số tàu bè đi lại trên biển của thế giới Mỹ sẽ không có nửa số tàu bè đi lại trên biển của thế giới Nguyên nhân thứ ba đó là áp dụng các thành tựu khoa học kỹ thuật hiện đại để nâng cao năng suất, hạ giáo thành sản phẩm. Nguyên nhân thứ tư là các tổ hợp công nghiệp quân sự, các công ty, tập đoàn tư bản có sức sản xuất và cạnh tranh lớn. Và nguyên nhân thứ năm đó là nhà nước có chính sách và biện pháp điều tiết hiệu quả. Nguyên nhân thứ ba là các tổ hợp công nghiệp quân sự, các công ty, tập đoàn tư bản có sức sản xuất và cạnh tranh lớn. Để tìm hiểu sự phát triển của kinh tế Hoa Kỳ, chúng ta nên lưu ý đến chính sách đối ngoại của Hoa Kỳ.",
+                "ocr_text": "Đặc điểm Thời gian THANH NIEN 1945 - Kinh tế Mĩ phát triển mạnh mẽ. Thập niên 1973 60: Mĩ trở thành trung tâm kinh tế tài chánh lớn nhất thế giới. 1973 - Do tác động của khủng hoảng năng lượng thế 1991 giới, kinh tế Mĩ khủng hoảng và suy thoái kéo 1.CÁC GIAI ĐOẠN PHÁT dài. TRIỂN KINH 1991 - Tuy có những đợt suy thoái nhưng vẫn đứng 2000 đầu thế giới. Thành tưu Lãnh vực Công Chiếm hơn một nửa sản lượng thế giới. HOA nghiệp Gấp đôi tổng sản lượng của Anh, Pháp, Nông nghiệp Tây Đức, Ý, Nhật. Tài Nắm giữ ¾ trữ lượng vàng của thế giới. NHÂN KINH TỰU TẾ PHÁT chánh TRIỂN GTVT Nắm giữ một nửa số tàu bè đi lại trên biển của thế giới. Là nước khởi đầu cuộc cách mạng KHKT hiện đại sau thế chiến I! Thầy NGUYỄN VIẾT ĐĂNG DU CHƯƠNG TRÌNH ÔN THI THPT 2024: MÔN LỊCH SỬ - CĐ10: SỰ PHÁT TRIỂN Tổ trưởng tổ lịch sử Trường THPT Lê Quý Đôn, TP.HCM CỦA CÁC NƯỚC TƯ BẢN CHỦ NGHĨA SAU CHIẾN TRANH THẾ GIỚI II",
+                "vlm_caption": {
+                    "detailed_description": "The image is a screenshot of a presentation slide from a Vietnamese educational program, discussing the development of various countries after World War II, focusing on the period from 1945 to 2000.",
+                    "objects_and_counts": [
+                        "1 laptop, 1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V002_S0033",
+            "start_frame": 8703,
+            "end_frame": 14403,
+            "start_ts": 348.12,
+            "end_ts": 576.12,
+            "duration": 228.0,
+            "keyframes": [
+                {
+                    "frame_idx": 11553,
+                    "timestamp": 462.12,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V002/L25_V002_S0033_F011553.jpg"
+                },
+                {
+                    "frame_idx": 12978,
+                    "timestamp": 519.12,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V002/L25_V002_S0033_F012978.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Tại sao chúng ta lại phải quan tâm đến chính sách đối ngoại của Hoa Kỳ? Bởi vì lưu ý rằng là chính sách đối ngoại của Hoa Kỳ nó sẽ liên quan mật thiết với lại một số những sự kiện lịch sử thế giới mà chúng ta đã học. Ví dụ như là chiến tranh lạnh, ví dụ như là phong trào chống phóng dân tộc sau chiến tranh thế giới lần thứ hai. Về chính sách đối ngoại hay còn gọi là chiến lược đối ngoại của Hoa Kỳ sau chiến tranh thế giới lần thứ hai, chúng ta có thể chia làm hai thời điểm. Đó là sau chiến tranh thế giới lần thứ hai và sau khi chiến tranh lạnh kết thúc năm 1989. Ở hai thời điểm này, Mỹ thực hiện hai chiến lược đối ngoại khác nhau. Sau chiến tranh thế giới lần thứ hai, Mỹ thực hiện chiến lược toàn cầu. Với mục tiêu đó là ngăn chặn và tiến tới xóa bỏ chủ nghĩa xã hội, đàn áp phong trào chống phóng dân tộc, phong trào công nhân, phong trào hòa bình dân chủ, sẽ được gọi tắt là phong trào cách mạng thế giới, khống chế và chi phối các nước đồng minh. Như vậy, những sự kiện diễn ra trong cái thời điểm từ năm 1947 đến năm 1990. Trong năm 1989, chúng ta có thể hiểu được nó là một trong những cái biện pháp để thực hiện chiến lược toàn cầu. Ví dụ như kế hoạch Maksan hay là việc thành lập khối quân sự NATO v.v. Sau khi chiến tranh lạnh kết thúc, thì Mỹ chuyển sang thực hiện chiến lược đối ngoại cam kết và mở rộng. Với mục tiêu đó là bảo đảm an ninh của Mỹ bằng lực lượng quân sự mạnh, khôi phục tính năng động và sức mạnh của nền kinh tế Mỹ. Sử dụng khẩu hiệu thúc đẩy dân chủ để can thiệp vào công việc nội bộ của nước khác. Như vậy, chúng ta vừa tìm hiểu những điểm cơ bản nhất của lịch sử Hoa Kỳ nói chung và lịch sử kinh tế của Hoa Kỳ nói riêng. Bây giờ chúng ta sẽ chuyển sang tìm hiểu những nét cơ bản về sự phát triển kinh tế của Nhật Bản. Đầu tiên, chúng ta sẽ tìm hiểu các giai đoạn phát triển kinh tế của Nhật Bản. Sự phát triển kinh tế của Nhật Bản sau chiến tranh thế giới lần thứ hai sẽ được chia làm 4 mốc thời gian cơ bản như sau. Từ năm 1945 đến năm 1952, từ năm 1952 đến năm 1973, từ năm 1973 đến năm 1991 và từ năm 1991 cho đến năm 2000. Trong 4 giai đoạn này, chúng ta cần lưu ý những đặc điểm như sau. Trong khoảng thời gian từ năm 1945, Trong khoảng thời gian từ năm 1952, đó là khoảng thời gian sau chiến tranh thế giới lần thứ hai kết thúc, Nhật chịu hậu quả vô cùng nặng nề. Và nhờ các chính sách cải cách của Mỹ về kinh tế, về chính trị, nên đến năm 1950, có nghĩa là chỉ cần 5 năm sau khi cuộc chiến kết thúc, kinh tế Nhật Bản đã cơ bản phục hồi. Từ năm 1952 đến năm 1973, kinh tế của Nhật Bản phát triển nhanh. Và chúng ta cần phải lưu ý rằng là giai đoạn này, giai đoạn kinh tế Nhật Bản được dùng một cụm từ để mô tả, đó là thần kỳ. Kinh tế Nhật Bản phát triển thần kỳ. Và Nhật Bản đã vươn lên, trở thành một trong ba trung tâm kinh tế tài chánh của cả thế giới. Từ năm 1973 cho đến năm 1991, cùng với lại sự suy thoái chung của hệ thống tư bản chủ nghĩa do ảnh hưởng của khủng hoảng năng lượng, thì Nhật Bản cũng bị khủng hoảng. Tuy nhiên, Nhật Bản nhanh chóng vượt qua, và từ thập niên 80 trở đi, thì Nhật Bản đã vươn lên trở thành siêu cường tài chánh số một thế giới. Từ năm 1991 cho đến năm 2000, tuy có suy thoái, nhưng Nhật Bản vẫn là một trong ba trung tâm kinh tế tài chánh lớn của cả thế giới.",
+                "ocr_text": "THANH NIÊN THỜI GIAN MỤC TIẾU CHIẾN LƯỢC ĐỐI NGOẠI TOÀN CẦU Sau Thế chiến II -Ngăn chận và tiến tới xóa bỏ CNXH. - Đàn áp phong trào giải phóng dân tộc, phong trào công nhân, phong trào hòa bình dân chủ. -Khống chế và chi phối các nước đồng minh. CAM KẾT VÀ Sau Chiến tranh lạnh -Bảo đảm an ninh của Mĩ bằng lực lượng quân sự mạnh. MỞ RỘNG -Khôi phục tính năng động và sức mạnh của kinh tế Mĩ. - Sử dụng khẩu hiệu \"Thúc đẩy dân chủ\" để can thiệp vào công việc nội bộ nước khác. Thầy NGUYỄN VIẾT ĐĂNG DU CHƯƠNG TRÌNH ÔN THI THPT 2024: MÔN LỊCH SỬ - CĐ10: SỰ PHÁT TRIỂN Tổ trưởng tổ lịch sử Trường THPT Lê Quý Đôn, TP.HCM CỦA CÁC NƯỚC TƯ BẢN CHỦ NGHĨA SAU CHIẾN TRANH THẾ GIỚI II | Đặc điểm Thời gian THANH NIEN 1945-1952 Sau thế chiến II, Nhật chịu hậu quả nặng nề. Nhờ các chính sách cải cách của Mĩ về kinh tế, chính trị nên đến 1950, kinh tế Nhật Bản phục hồi. 1952-1973 Kinh tế có bước phát triển nhanh • giai đoạn phát triển «thần kì » • Nhật Bản trở thành một trong ba trung tâm kinh tế tài chánh lớn của thế giới. 1973-1991 Từ thập niên 80, Nhật Bản trở thành siêu cường tài chánh số một thế giới. 1991-2000 Tuy có suy thoái, nhưng Nhật Bản vẫn là một trong 3 trung tâm kinh tế tài chánh lớn của thế giới. 1.CÁC GIAI ĐOẠN PHÁT TRIỂN KINH TẾ NHÂN PHÁT NHẬT TRIỀN KINH TẾ BẢN HỌC KĨ THUẬT Thầy NGUYỄN VIẾT ĐĂNG DU CHƯƠNG TRÌNH ÔN THI THPT 2024: MÔN LỊCH SỬ - CĐ10: SỰ PHÁT TRIỂN Tổ trưởng tổ lịch sử Trường THPT Lê Quý Đôn, TP.HCM CỦA CÁC NƯỚC TƯ BẢN CHỦ NGHĨA SAU CHIẾN TRANH THẾ GIỚI II",
+                "vlm_caption": {
+                    "detailed_description": "The image shows a presentation slide about the economic development of Japan, including its stages from 1945 to 2000, with a focus on the \"thân kì\" period and its significance in the global economy.",
+                    "objects_and_counts": [
+                        "1 laptop, 1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V002_S0034",
+            "start_frame": 14404,
+            "end_frame": 14572,
+            "start_ts": 576.16,
+            "end_ts": 582.88,
+            "duration": 6.72,
+            "keyframes": [
+                {
+                    "frame_idx": 14488,
+                    "timestamp": 579.52,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V002/L25_V002_S0034_F014488.jpg"
+                },
+                {
+                    "frame_idx": 14446,
+                    "timestamp": 577.84,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V002/L25_V002_S0034_F014446.jpg"
+                },
+                {
+                    "frame_idx": 14530,
+                    "timestamp": 581.2,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V002/L25_V002_S0034_F014530.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Trường Quốc tế Á Châu Tự hào là ngôi trường Mang đến nền giáo dục tiên tiến",
+                "ocr_text": "Trường Quốc Tố Á Châu matonal Schon",
+                "vlm_caption": {
+                    "detailed_description": "The image shows a modern building with green and white striped patterns, featuring a large sign with Vietnamese text and an illustration of children, set against a clear blue sky with some trees in the foreground.",
+                    "objects_and_counts": [
+                        "2 person | 11 person, 3 bench, 1 pizza, 1 dining table | 3 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V002_S0035",
+            "start_frame": 14573,
+            "end_frame": 14614,
+            "start_ts": 582.92,
+            "end_ts": 584.56,
+            "duration": 1.64,
+            "keyframes": [
+                {
+                    "frame_idx": 14593,
+                    "timestamp": 583.72,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V002/L25_V002_S0035_F014593.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A young boy wearing a school uniform and a purple cap is smiling and looking to his left, while another child is reading a book in the background.",
+                    "objects_and_counts": [
+                        "2 person, 2 backpack, 1 book"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V002_S0036",
+            "start_frame": 14615,
+            "end_frame": 14657,
+            "start_ts": 584.6,
+            "end_ts": 586.28,
+            "duration": 1.68,
+            "keyframes": [
+                {
+                    "frame_idx": 14636,
+                    "timestamp": 585.44,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V002/L25_V002_S0036_F014636.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A woman in a pink shirt smiles at the camera with a lush green background.",
+                    "objects_and_counts": [
+                        "2 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V002_S0037",
+            "start_frame": 14658,
+            "end_frame": 14683,
+            "start_ts": 586.32,
+            "end_ts": 587.32,
+            "duration": 1.0,
+            "keyframes": [
+                {
+                    "frame_idx": 14670,
+                    "timestamp": 586.8,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V002/L25_V002_S0037_F014670.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A young boy in a white shirt and pink hat stands in a classroom, holding a book, with another child in the background.",
+                    "objects_and_counts": [
+                        "2 person, 1 backpack, 1 chair, 1 handbag"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V002_S0038",
+            "start_frame": 14684,
+            "end_frame": 14795,
+            "start_ts": 587.36,
+            "end_ts": 591.8,
+            "duration": 4.44,
+            "keyframes": [
+                {
+                    "frame_idx": 14739,
+                    "timestamp": 589.56,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V002/L25_V002_S0038_F014739.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Trường Quốc tế Á Châu xây dựng chương trình học tập toàn diện cân cấp",
+                "ocr_text": "o our class we are a team. Rounding To The We respect each other. s Nearest WE TAKE RISKS Ten and Hundred we learn from our mistakes. Le try as treat. create.",
+                "vlm_caption": {
+                    "detailed_description": "A classroom scene with students seated at desks, facing a teacher at the front, and a whiteboard displaying educational content.",
+                    "objects_and_counts": [
+                        "13 person, 7 chair, 2 laptop, 1 tv, 1 book"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V002_S0039",
+            "start_frame": 14796,
+            "end_frame": 14837,
+            "start_ts": 591.84,
+            "end_ts": 593.48,
+            "duration": 1.64,
+            "keyframes": [
+                {
+                    "frame_idx": 14816,
+                    "timestamp": 592.64,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V002/L25_V002_S0039_F014816.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A man in a white shirt and red tie is gesturing with his right hand while holding a remote control, standing in front of a green chalkboard.",
+                    "objects_and_counts": [
+                        "1 person, 2 tie, 1 cell phone"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V002_S0040",
+            "start_frame": 14838,
+            "end_frame": 14868,
+            "start_ts": 593.52,
+            "end_ts": 594.72,
+            "duration": 1.2,
+            "keyframes": [
+                {
+                    "frame_idx": 14853,
+                    "timestamp": 594.12,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V002/L25_V002_S0040_F014853.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A hand is holding a green colored pencil above a collection of colored pencils.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V002_S0041",
+            "start_frame": 14869,
+            "end_frame": 14890,
+            "start_ts": 594.76,
+            "end_ts": 595.6,
+            "duration": 0.84,
+            "keyframes": [
+                {
+                    "frame_idx": 14879,
+                    "timestamp": 595.16,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V002/L25_V002_S0041_F014879.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A young girl wearing glasses and a red and white uniform is sitting at a desk, smiling and working on a craft project with a blue straw in her hand.",
+                    "objects_and_counts": [
+                        "2 person, 3 chair, 1 vase, 1 potted plant"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V002_S0042",
+            "start_frame": 14891,
+            "end_frame": 14916,
+            "start_ts": 595.64,
+            "end_ts": 596.64,
+            "duration": 1.0,
+            "keyframes": [
+                {
+                    "frame_idx": 14903,
+                    "timestamp": 596.12,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V002/L25_V002_S0042_F014903.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hiểu rồi",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A child's drawing depicts a colorful garden scene with flowers, a butterfly, and a character wearing a red hat.",
+                    "objects_and_counts": [
+                        "1 cake"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V002_S0043",
+            "start_frame": 14917,
+            "end_frame": 15061,
+            "start_ts": 596.68,
+            "end_ts": 602.44,
+            "duration": 5.76,
+            "keyframes": [
+                {
+                    "frame_idx": 14989,
+                    "timestamp": 599.56,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V002/L25_V002_S0043_F014989.jpg"
+                },
+                {
+                    "frame_idx": 14953,
+                    "timestamp": 598.12,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V002/L25_V002_S0043_F014953.jpg"
+                },
+                {
+                    "frame_idx": 15025,
+                    "timestamp": 601.0,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V002/L25_V002_S0043_F015025.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Mục đích giáo dục không chỉ là truyền thụ kiến thức, mà còn giúp học sinh sáng tạo, khơi nguồn cảm hứng, đồng hành.",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A red and white ball is flying through a cloudy sky.",
+                    "objects_and_counts": [
+                        "1 kite | 6 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V002_S0044",
+            "start_frame": 15062,
+            "end_frame": 15113,
+            "start_ts": 602.48,
+            "end_ts": 604.52,
+            "duration": 2.04,
+            "keyframes": [
+                {
+                    "frame_idx": 15087,
+                    "timestamp": 603.48,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V002/L25_V002_S0044_F015087.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "Two individuals in red uniforms are engaged in a conversation outdoors, with one holding a book.",
+                    "objects_and_counts": [
+                        "2 person, 1 cell phone, 1 book"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V002_S0045",
+            "start_frame": 15114,
+            "end_frame": 15161,
+            "start_ts": 604.56,
+            "end_ts": 606.44,
+            "duration": 1.88,
+            "keyframes": [
+                {
+                    "frame_idx": 15137,
+                    "timestamp": 605.48,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V002/L25_V002_S0045_F015137.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "nhân cách.",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+                    "objects_and_counts": [
+                        "6 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V002_S0046",
+            "start_frame": 15162,
+            "end_frame": 15180,
+            "start_ts": 606.48,
+            "end_ts": 607.2,
+            "duration": 0.72,
+            "keyframes": [
+                {
+                    "frame_idx": 15171,
+                    "timestamp": 606.84,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V002/L25_V002_S0046_F015171.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Ngoài",
+                "ocr_text": "SIAN SCHOOL",
+                "vlm_caption": {
+                    "detailed_description": "Two individuals in red shirts are engaged in a conversation outdoors, with one wearing glasses and the other with a hand on their chin.",
+                    "objects_and_counts": [
+                        "2 person, 1 cell phone"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V002_S0047",
+            "start_frame": 15181,
+            "end_frame": 15214,
+            "start_ts": 607.24,
+            "end_ts": 608.56,
+            "duration": 1.32,
+            "keyframes": [
+                {
+                    "frame_idx": 15197,
+                    "timestamp": 607.88,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V002/L25_V002_S0047_F015197.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "những giờ học trên lớp, học",
+                "ocr_text": "16% 168 A Flag try Some 172 Think it trees Reading Strategy C 172 Grammar and Writing Put ll All Togetter Projects Listening and Speaking Workshop: Description Guerns Game - Writing Workshop: Write a Descriptive Paragraph Fluency. • Picture Dictionary -",
+                "vlm_caption": {
+                    "detailed_description": "A book page displays a section titled \"Reading 3\" with various activities and projects, including a flag, an astronaut, and a picture dictionary.",
+                    "objects_and_counts": [
+                        "1 book"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V002_S0048",
+            "start_frame": 15215,
+            "end_frame": 15269,
+            "start_ts": 608.6,
+            "end_ts": 610.76,
+            "duration": 2.16,
+            "keyframes": [
+                {
+                    "frame_idx": 15242,
+                    "timestamp": 609.68,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V002/L25_V002_S0048_F015242.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "sinh trường quốc tế Á Châu còn được trải nghiệm.",
+                "ocr_text": "BOOK FAR",
+                "vlm_caption": {
+                    "detailed_description": "Children in red uniforms are seated at tables in a classroom decorated with colorful banners, participating in a book fair event at The Asian International School.",
+                    "objects_and_counts": [
+                        "9 person, 6 chair"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V002_S0049",
+            "start_frame": 15270,
+            "end_frame": 15416,
+            "start_ts": 610.8,
+            "end_ts": 616.64,
+            "duration": 5.84,
+            "keyframes": [
+                {
+                    "frame_idx": 15343,
+                    "timestamp": 613.72,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V002/L25_V002_S0049_F015343.jpg"
+                },
+                {
+                    "frame_idx": 15306,
+                    "timestamp": 612.24,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V002/L25_V002_S0049_F015306.jpg"
+                },
+                {
+                    "frame_idx": 15379,
+                    "timestamp": 615.16,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V002/L25_V002_S0049_F015379.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "thử thách bản thân và phản biện các vấn đề để tự mình học hỏi trưởng thành độc lập hơn.",
+                "ocr_text": "INT to am",
+                "vlm_caption": {
+                    "detailed_description": "A young girl in a red graduation cap and gown stands in front of a whiteboard with colorful letters, while other children in similar attire peek around the corner, holding books.",
+                    "objects_and_counts": [
+                        "4 person, 1 tie | 3 person, 4 book | 4 person, 3 book"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V002_S0050",
+            "start_frame": 15417,
+            "end_frame": 15452,
+            "start_ts": 616.68,
+            "end_ts": 618.08,
+            "duration": 1.4,
+            "keyframes": [
+                {
+                    "frame_idx": 15434,
+                    "timestamp": 617.36,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V002/L25_V002_S0050_F015434.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "by bwd6",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "The image depicts a serene sunset scene with sunlight filtering through dense foliage, creating a tranquil and natural environment."
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V002_S0051",
+            "start_frame": 15454,
+            "end_frame": 15517,
+            "start_ts": 618.16,
+            "end_ts": 620.68,
+            "duration": 2.52,
+            "keyframes": [
+                {
+                    "frame_idx": 15485,
+                    "timestamp": 619.4,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V002/L25_V002_S0051_F015485.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "The image shows skewers of assorted vegetables and meat arranged on a white plate.",
+                    "objects_and_counts": [
+                        "5 broccoli, 3 carrot, 1 bowl"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V002_S0052",
+            "start_frame": 15520,
+            "end_frame": 15562,
+            "start_ts": 620.8,
+            "end_ts": 622.48,
+            "duration": 1.68,
+            "keyframes": [
+                {
+                    "frame_idx": 15541,
+                    "timestamp": 621.64,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V002/L25_V002_S0052_F015541.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "by bwd6",
+                "ocr_text": "169",
+                "vlm_caption": {
+                    "detailed_description": "Children in school uniforms are serving themselves food at a table with plates of various dishes.",
+                    "objects_and_counts": [
+                        "13 person, 3 bowl, 1 dining table"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V002_S0053",
+            "start_frame": 15563,
+            "end_frame": 15592,
+            "start_ts": 622.52,
+            "end_ts": 623.68,
+            "duration": 1.16,
+            "keyframes": [
+                {
+                    "frame_idx": 15577,
+                    "timestamp": 623.08,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V002/L25_V002_S0053_F015577.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A young girl with braided hair is eating a piece of food, while another person in a red shirt is partially visible in the foreground.",
+                    "objects_and_counts": [
+                        "2 person, 1 donut"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V002_S0054",
+            "start_frame": 15593,
+            "end_frame": 15617,
+            "start_ts": 623.72,
+            "end_ts": 624.68,
+            "duration": 0.96,
+            "keyframes": [
+                {
+                    "frame_idx": 15605,
+                    "timestamp": 624.2,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V002/L25_V002_S0054_F015605.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "by bwd6",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A young girl in a red and white uniform is eating a piece of fried food with her hands.",
+                    "objects_and_counts": [
+                        "2 person, 1 donut"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V002_S0055",
+            "start_frame": 15618,
+            "end_frame": 15852,
+            "start_ts": 624.72,
+            "end_ts": 634.08,
+            "duration": 9.36,
+            "keyframes": [
+                {
+                    "frame_idx": 15735,
+                    "timestamp": 629.4,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V002/L25_V002_S0055_F015735.jpg"
+                },
+                {
+                    "frame_idx": 15676,
+                    "timestamp": 627.04,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V002/L25_V002_S0055_F015676.jpg"
+                },
+                {
+                    "frame_idx": 15793,
+                    "timestamp": 631.72,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V002/L25_V002_S0055_F015793.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Nơi đây với tôi còn hơn cả một ngôi trường Nơi đây là nền tảng giúp đỡ",
+                "ocr_text": "GADE GROUP OF ASIAN INTERNATIONAL EDUCATION | The slogan of GAILyS lional ity",
+                "vlm_caption": {
+                    "detailed_description": "A person in a pink shirt stands in front of a modern building with colorful windows, with sunlight creating a bright, almost overexposed effect.",
+                    "objects_and_counts": [
+                        "4 person | 1 person, 1 kite | 3 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V002_S0056",
+            "start_frame": 15853,
+            "end_frame": 15894,
+            "start_ts": 634.12,
+            "end_ts": 635.76,
+            "duration": 1.64,
+            "keyframes": [
+                {
+                    "frame_idx": 15873,
+                    "timestamp": 634.92,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V002/L25_V002_S0056_F015873.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Chúc tôi đặt những viên gạch đủ.",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A girl in a school uniform stands behind a wooden door, looking out with a concerned expression.",
+                    "objects_and_counts": [
+                        "1 person, 1 tie"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V002_S0057",
+            "start_frame": 15895,
+            "end_frame": 15935,
+            "start_ts": 635.8,
+            "end_ts": 637.4,
+            "duration": 1.6,
+            "keyframes": [
+                {
+                    "frame_idx": 15915,
+                    "timestamp": 636.6,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V002/L25_V002_S0057_F015915.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A group of young girls wearing headphones are engaged in a computer class, with one girl pointing at a monitor.",
+                    "objects_and_counts": [
+                        "4 person, 2 keyboard, 3 tv, 1 mouse, 1 backpack"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V002_S0058",
+            "start_frame": 15936,
+            "end_frame": 16009,
+            "start_ts": 637.44,
+            "end_ts": 640.36,
+            "duration": 2.92,
+            "keyframes": [
+                {
+                    "frame_idx": 15972,
+                    "timestamp": 638.88,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V002/L25_V002_S0058_F015972.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A hand is typing on a green and black keyboard with a blurred background.",
+                    "objects_and_counts": [
+                        "1 keyboard, 1 laptop, 1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V002_S0059",
+            "start_frame": 16011,
+            "end_frame": 16046,
+            "start_ts": 640.44,
+            "end_ts": 641.84,
+            "duration": 1.4,
+            "keyframes": [
+                {
+                    "frame_idx": 16028,
+                    "timestamp": 641.12,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V002/L25_V002_S0059_F016028.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "by bwd6",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "Two individuals, one wearing glasses and the other with red lipstick, are closely examining something through a microscope.",
+                    "objects_and_counts": [
+                        "2 person, 1 scissors"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V002_S0060",
+            "start_frame": 16047,
+            "end_frame": 16113,
+            "start_ts": 641.88,
+            "end_ts": 644.52,
+            "duration": 2.64,
+            "keyframes": [
+                {
+                    "frame_idx": 16080,
+                    "timestamp": 643.2,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V002/L25_V002_S0060_F016080.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Giáo dục không phải là chuẩn bị cho cuộc sống",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "Students in a laboratory setting are engaged in various activities, including using microscopes and working with laboratory equipment.",
+                    "objects_and_counts": [
+                        "11 person, 2 bottle"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V002_S0061",
+            "start_frame": 16114,
+            "end_frame": 16130,
+            "start_ts": 644.56,
+            "end_ts": 645.2,
+            "duration": 0.64,
+            "keyframes": [
+                {
+                    "frame_idx": 16122,
+                    "timestamp": 644.88,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V002/L25_V002_S0061_F016122.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A lit match is placed on top of a clear glass bottle containing a yellow liquid, with a blurred background featuring a red object and a yellow object.",
+                    "objects_and_counts": [
+                        "1 vase, 1 bottle, 1 wine glass"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V002_S0062",
+            "start_frame": 16131,
+            "end_frame": 16157,
+            "start_ts": 645.24,
+            "end_ts": 646.28,
+            "duration": 1.04,
+            "keyframes": [
+                {
+                    "frame_idx": 16144,
+                    "timestamp": 645.76,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V002/L25_V002_S0062_F016144.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Nó chính là cuộc sống.",
+                "ocr_text": "00ml",
+                "vlm_caption": {
+                    "detailed_description": "Scientists in a laboratory are conducting experiments with various colored liquids in test tubes and flasks.",
+                    "objects_and_counts": [
+                        "2 person, 3 bottle, 1 wine glass, 1 vase"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V002_S0063",
+            "start_frame": 16158,
+            "end_frame": 16178,
+            "start_ts": 646.32,
+            "end_ts": 647.12,
+            "duration": 0.8,
+            "keyframes": [
+                {
+                    "frame_idx": 16168,
+                    "timestamp": 646.72,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V002/L25_V002_S0063_F016168.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A group of students, including a pianist and violinists, perform on stage with colorful balloons and an American flag in the background.",
+                    "objects_and_counts": [
+                        "8 person, 26 sports ball, 8 chair, 1 bench"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V002_S0064",
+            "start_frame": 16179,
+            "end_frame": 16222,
+            "start_ts": 647.16,
+            "end_ts": 648.88,
+            "duration": 1.72,
+            "keyframes": [
+                {
+                    "frame_idx": 16200,
+                    "timestamp": 648.0,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V002/L25_V002_S0064_F016200.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Từ môi trường giáo dục này",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A person in a dark room is holding a smartphone with a blurred background.",
+                    "objects_and_counts": [
+                        "3 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V002_S0065",
+            "start_frame": 16224,
+            "end_frame": 16247,
+            "start_ts": 648.96,
+            "end_ts": 649.88,
+            "duration": 0.92,
+            "keyframes": [
+                {
+                    "frame_idx": 16235,
+                    "timestamp": 649.4,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V002/L25_V002_S0065_F016235.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Chúng tôi đã từng",
+                "ocr_text": "*",
+                "vlm_caption": {
+                    "detailed_description": "A young man in a white shirt is playing a black piano with sheet music in front of him, with an American flag and a Vietnamese flag in the background.",
+                    "objects_and_counts": [
+                        "1 person, 1 oven"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V002_S0066",
+            "start_frame": 16248,
+            "end_frame": 16282,
+            "start_ts": 649.92,
+            "end_ts": 651.28,
+            "duration": 1.36,
+            "keyframes": [
+                {
+                    "frame_idx": 16265,
+                    "timestamp": 650.6,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V002/L25_V002_S0066_F016265.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A person is playing a violin, with their face partially visible and another individual in the background.",
+                    "objects_and_counts": [
+                        "2 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V002_S0067",
+            "start_frame": 16284,
+            "end_frame": 16345,
+            "start_ts": 651.36,
+            "end_ts": 653.8,
+            "duration": 2.44,
+            "keyframes": [
+                {
+                    "frame_idx": 16314,
+                    "timestamp": 652.56,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V002/L25_V002_S0067_F016314.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Bạn viết ngân câu chuyện tương lai của chính mình.",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A person in a graduation gown and cap is ascending a staircase in a well-lit, elegant interior space.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V002_S0068",
+            "start_frame": 16346,
+            "end_frame": 16398,
+            "start_ts": 653.84,
+            "end_ts": 655.92,
+            "duration": 2.08,
+            "keyframes": [
+                {
+                    "frame_idx": 16372,
+                    "timestamp": 654.88,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V002/L25_V002_S0068_F016372.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Terima kasih.",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A young woman in a graduation cap and gown gazes upward with a thoughtful expression.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V002_S0069",
+            "start_frame": 16399,
+            "end_frame": 16512,
+            "start_ts": 655.96,
+            "end_ts": 660.48,
+            "duration": 4.52,
+            "keyframes": [
+                {
+                    "frame_idx": 16455,
+                    "timestamp": 658.2,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V002/L25_V002_S0069_F016455.jpg"
+                },
+                {
+                    "frame_idx": 16427,
+                    "timestamp": 657.08,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V002/L25_V002_S0069_F016427.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "you",
+                "ocr_text": "SCHOOLC• 1999 TRƯỞNG QUỐC TẾ Á CHÂU | ATIONAL ASIAN SIAN INTERN THI 1999",
+                "vlm_caption": {
+                    "detailed_description": "The image features the logo of The Asian International School, established in 1999, with a blue and white globe design against a gradient background."
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V002_S0070",
+            "start_frame": 16513,
+            "end_frame": 20292,
+            "start_ts": 660.52,
+            "end_ts": 811.68,
+            "duration": 151.16,
+            "keyframes": [
+                {
+                    "frame_idx": 18402,
+                    "timestamp": 736.08,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V002/L25_V002_S0070_F018402.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Từ năm 1991 cho đến năm 2000, tuy có siêu thái, nhưng Nhật Bản vẫn là một trong ba trung tâm kinh tế tài chánh lớn của thế giới. Như vậy, Nhật Bản đã có sự phát triển rất là ấn tượng. Về lãnh vực khoa học kỹ thuật, thì Nhật Bản chú trọng khoa học kỹ thuật, nhưng mà khác với Mỹ là trong lãnh vực quân sự, thì Nhật Bản lại chú trọng lãnh vực dân dụng, với hàng loạt những phát minh sáng tạo trong lãnh vực dân dụng. Và một trong những điểm đặc biệt trong việc phát triển khoa học kỹ thuật của Nhật Bản, mang màu sắc Nhật Bản, đó là Nhật Bản chú trọng việc mua bằng phát minh của nước ngoài. Bây giờ chúng ta lại tiếp tục đi vào phân tích những nguyên nhân dẫn đến sự thành công của kinh tế Nhật Bản trong 4 giai đoạn phát triển vừa qua. Chúng ta lưu ý những nguyên nhân sau đây. Đầu tiên, đó là Nhật Bản coi trọng yếu tố con người. Thứ hai, đó là tài lãnh đạo quản lý của nhà nước. Thứ ba, đó là sự năng động của giới doanh nhân Nhật Bản. Thứ tư, đó là áp dụng các thành tựu khoa học kỹ thuật để nâng cao năng sức, hạ giá thành sản phẩm. Thứ năm, đó là chi phí cho quốc phòng thấp. Và thứ sáu, là Nhật Bản đã biết tận dụng tốt các yếu tố bên ngoài, như là viện trợ của Mỹ, các đơn đặt hàng quân sự của Mỹ cho những cuộc chiến tranh Việt Nam và Triều Tiên. Như vậy, khi mà chúng ta tìm ra những nguyên nhân, khi mà chúng ta tìm hiểu về các nguyên nhân phát triển của nền kinh tế Nhật Bản, cũng giống như là Mỹ, chúng ta nên phân tích và nhìn nhận những yếu tố nào, những nguyên nhân nào là nguyên nhân khách quan và nguyên nhân nào là nguyên nhân chủ quan. Thì qua đó, chúng ta cũng thể thấy rất là rõ là giữa những nguyên nhân phát triển kinh tế của Mỹ và nguyên nhân phát triển kinh tế của Nhật sẽ có một số điểm tương đồng. Ví dụ như là cả hai quốc gia đều áp dụng các thành tựu khoa học kỹ thuật để nâng cao năng sức, hạ giá thành sản phẩm. Cả hai quốc gia đều có sự quản lý tốt của nhà nước. Tuy nhiên, do những đặc điểm về lãnh thổ, về điều kiện địa lý, lịch sử khác nhau, cho nên là sẽ có một số những nguyên nhân khác nhau. Và chúng ta cũng nên nắm bắt những nguyên nhân khác nhau đó. Và cuối cùng, thầy mời tất cả chúng ta cùng sang khu vực Tây Âu để tìm hiểu về quá trình phát triển kinh tế của khu vực Tây Âu, cũng như là phân tích được những nguyên nhân khác nhau. Và những nguyên nhân thành công của nền kinh tế Tây Âu sau chiến tranh thế giới lần thứ hai.",
+                "ocr_text": "Đặc điểm THANH NIEN Thời gian 1945-1952 Sau thế chiến II, Nhật chịu hậu quả nặng nề. Nhờ các chính sách cải cách của Mĩ về kinh tế, chính trị nên đến 1950, kinh tế Nhật Bản phục hồi. 1952-1973 Kinh tế có bước phát triển nhanh • giai đoạn phát triển «thần kì » • Nhật Bản trở thành một trong ba trung tâm kinh tế tài chánh lớn của thế giới. 1973-1991 Từ thập niên 80, Nhật Bản trở thành siêu cường tài chánh số một thế giới. 1991-2000 Tuy có suy thoái, nhưng Nhật Bản vẫn là một trong 3 trung tâm kinh tế tài chánh lớn của thế giới. 1. CÁC GIAI - Coi trọng yếu tố con người ĐOẠN PHÁT TRIỂN KINH - Tài lãnh đạo, quản lý của nhà nước TẾ - Sự năng động của giới doanh nhân Nhật Bản - Áp dụng các thành tựu khoa học kĩ NGUYÊN thuật để nâng cao năng suất, hạ giá NHÂN PHÁT Chú trọng khoa học kĩ thuật NHẬT RIỀN KINH thành sản phâm trong lãnh vực dân dụng, TẾ - Chi phí cho quốc phòng thấp BẢN mua băng phát minh của - Tận dụng tốt các yếu tố bên ngoài : nước ngoài. Viện trợ của Mỹ, các đơn đặt hàng HỌC KĨ guân sự của Mỹ cho chiến tranh Việt THUẬT N°-m. Triêu Tiên... Thầy NGUYỄN VIẾT ĐĂNG DU CHƯƠNG TRÌNH ÔN THI THPT 2024: MÔN LỊCH SỬ - CĐ10: SỰ PHÁT TRIỂN Tổ trưởng tổ lịch sử Trường THPT Lê Quý Đôn, TP.HCM CỦA CÁC NƯỚC TƯ BẢN CHỦ NGHĨA SAU CHIẾN TRANH THẾ GIỚI II",
+                "vlm_caption": {
+                    "detailed_description": "The image is a screenshot of a Vietnamese educational video lecture about Japan's economic development after World War II, presented by Teacher Nguyen Viet Dang Du, focusing on the period from 1945 to 2000.",
+                    "objects_and_counts": [
+                        "1 laptop, 1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V002_S0071",
+            "start_frame": 20293,
+            "end_frame": 25894,
+            "start_ts": 811.72,
+            "end_ts": 1035.76,
+            "duration": 224.04,
+            "keyframes": [
+                {
+                    "frame_idx": 23093,
+                    "timestamp": 923.72,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V002/L25_V002_S0071_F023093.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Đầu tiên chúng ta sẽ tìm hiểu sau chiến tranh thế giới lần thứ hai thì các nước Tây Âu đã trải qua những giai đoạn phát triển kinh tế như thế nào Có tất cả là 4 giai đoạn Từ năm 1945 đến năm 1950 Từ năm 1950 đến năm 1973 Từ năm 1973 đến năm 1991 Và từ năm 1991 cho đến năm 2000 Từ năm 1945 đến năm 1950 Nhờ viện trợ của Mỹ trong kế hoạch Maxall Nên đến năm 1950, 5 năm sau khi cuộc chiến kết thúc Thì kinh tế Tây Âu đã cơ bản phục hồi Từ năm 1950 đến năm 1973 Kinh tế của khu vực Tây Âu có sự phát triển nhanh Và Tây Âu đã vươn lên trở thành một trong 3 trung tâm Kinh tế tài chánh lớn của cả thế giới Từ năm 1973 đến năm 1991 Do tác động của khủng hoảng năng lượng thế giới Kinh tế Tây Âu suy thoái khủng hoảng Như vậy là nó cũng nằm trong tình hình chung Của hệ thống tư bản chủ nghĩa khi bị tác động Bởi khủng hoảng năng lượng của thế giới Từ năm 1991 cho đến năm 2000 Sau khi trải qua một đợt suy thoái ngắn Kinh tế Tây Âu đã phục hồi Và phát triển Và cho đến hiện nay Cùng với sự tồn tại và phát triển của Liên minh châu Âu Thì Tây Âu vẫn là một trong 3 trung tâm kinh tế hàng đầu của cả thế giới Bây giờ chúng ta sẽ đi vào phân tích những nguyên nhân Dẫn đến sự nhanh chóng phục hồi và phát triển của kinh tế Tây Âu Có 3 nguyên nhân cơ bản sau đây Đầu tiên đó là các quốc gia tại khu vực Tây Âu Đã áp dụng các hành tụ khoa học kỹ thuật Để tăng năng suất và hạ cho thành sản phẩm Thứ 2 Đó là nhà nước làm tốt vai trò điều tiết và quản lý kinh tế Và thứ 3 Là các nước Tây Âu đã tận dụng tốt các cơ hội bên ngoài Viện trợ của Mỹ Nguyên liệu giá rẻ Vân vân Và cũng giống như là việc tìm hiểu những nguyên nhân thành công của kinh tế Hoa Kỳ và Nhật Bản Chúng ta sẽ tìm hiểu xem Trong những nguyên nhân thành công của kinh tế Tây Âu Thì nguyên nhân nào là Nguyên nhân chủ quan Và nguyên nhân nào là nguyên nhân khách quan Các em học sinh thân mến Sau khi chúng ta tìm hiểu những nguyên nhân thành công Của 3 khu vực Hoa Kỳ, Nhật Bản và Tây Âu Chúng ta rất là dễ dàng nhận ra Là các quốc gia này có sự phát triển rất là nhanh Về mặt kinh tế Khi hầu hết những nguyên nhân thành công của họ Đó là nguyên nhân chủ quan Đó là do chính bản thân con người Chính bản thân quốc gia đã tạo ra Chứ không phải là dựa vào những cái tài nguyên thiên nhiên Hay là những nguyên nhân khách quan từ bên ngoài Trong những cái nguyên nhân chủ quan đó Thì chúng ta thấy rằng là Cả 3 quốc gia và khu vực Tây Âu Đều có chú trọng đến lãnh vực khoa học kỹ thuật Từ đó mình có thể nhận ra rằng Là nguyên nhân chung dẫn đến sự phát triển kinh tế Của Hoa Kỳ, của Nhật Bản và của khu vực Tây Âu Đó là do chú trọng đến lãnh vực khoa học kỹ thuật Và sự điều tiết, sự quản lý của nhà nước Từ đó mình có thể suy ra được Để có thể trả lời cho những cái câu hỏi Liên quan là Việt Nam chúng ta có thể rút ra được những bài học gì Từ sự phát triển của 3 khu vực này Thì có thể thấy rằng là khoa học kỹ thuật Sẽ là cái câu trả lời đúng nhất",
+                "ocr_text": "THANHNIEN Thời Tình hình gian 1945 - Nhờ viện trợ của Mĩ trong kế 1950 hoạch Mac-san đên 1950 kinh - Áp dụng các thành tựu tế Tây Âu cơ bản phục hồi. khoa học kĩ thuật để tăng 1950 - Kinh tế có sự phát triển nhanh. CÁC GIAI 1973 Tây Âu trở thành một trong ba năng xuất và hạ giá thành ĐOẠN PHÁT TRIỂN KINH trung tâm kinh tế tài chánh lớn TẾ TÂY sản phẩm của thế giới. ÂU - Nhà nước làm tốt vai trò 1973 - Do tác động của khủng hoảng NGUYÊN điều tiết và quản lý kinh tế NHÂN PHÁT 1991 năng lượng thế giới, kinh tế TRIỂN Tây Âu suy thoái, khủng - Tận dụng tốt các cơ hội hoảng. bên ngoài : viện trợ của Mỹ, 1991 - Sau khi trải qua một đợt suy nguyên liệu giá rẻ 2000 thoái ngắn, kinh tế Tây Âu phục hồi và phát triển. Thầy NGUYỄN VIẾT ĐĂNG DU CHƯƠNG TRÌNH ÔN THI THPT 2024: MÔN LỊCH SỬ - CĐ10: SỰ PHÁT TRIỂN Tổ trưởng tổ lịch sử Trường THPT Lê Quý Đôn, TP.HCM CỦA CÁC NƯỚC TƯ BẢN CHỦ NGHĨA SAU CHIẾN TRANH THẾ GIỚI II",
+                "vlm_caption": {
+                    "detailed_description": "The image is a screenshot of a presentation slide from a Vietnamese educational program, discussing the development of various countries after World War II, with a focus on Western Europe.",
+                    "objects_and_counts": [
+                        "1 person, 1 laptop"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V002_S0072",
+            "start_frame": 25895,
+            "end_frame": 25896,
+            "start_ts": 1035.8,
+            "end_ts": 1035.84,
+            "duration": 0.04,
+            "keyframes": [
+                {
+                    "frame_idx": 25895,
+                    "timestamp": 1035.8,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V002/L25_V002_S0072_F025895.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "",
+                "ocr_text": "SIU SIU IACBE SIU NAL UNVERSITY SAIGON INTERNATIU",
+                "vlm_caption": {
+                    "detailed_description": "The image shows a modern building with the signage \"SIU\" and \"Saigon International University\" on its facade, surrounded by other buildings and greenery."
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V002_S0073",
+            "start_frame": 25897,
+            "end_frame": 25923,
+            "start_ts": 1035.88,
+            "end_ts": 1036.92,
+            "duration": 1.04,
+            "keyframes": [
+                {
+                    "frame_idx": 25910,
+                    "timestamp": 1036.4,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V002/L25_V002_S0073_F025910.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Trường Đại học Quốc tế",
+                "ocr_text": "STU",
+                "vlm_caption": {
+                    "detailed_description": "The image shows a modern building with signage for \"The Saigon International University\" and \"IACBE\" on its facade, set against a backdrop of urban buildings and greenery.",
+                    "objects_and_counts": [
+                        "1 potted plant, 1 clock"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V002_S0074",
+            "start_frame": 25924,
+            "end_frame": 25954,
+            "start_ts": 1036.96,
+            "end_ts": 1038.16,
+            "duration": 1.2,
+            "keyframes": [
+                {
+                    "frame_idx": 25939,
+                    "timestamp": 1037.56,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V002/L25_V002_S0074_F025939.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Sài Gòn SIU",
+                "ocr_text": "LOON INTERNATIOMAL UNIVERSITY Lewis Hall IVERSITY THE SWIGON INTERNATION",
+                "vlm_caption": {
+                    "detailed_description": "The image shows the exterior of Saigon International University with a modern building, multiple flags, and a cloudy sky."
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V002_S0075",
+            "start_frame": 25955,
+            "end_frame": 25999,
+            "start_ts": 1038.2,
+            "end_ts": 1039.96,
+            "duration": 1.76,
+            "keyframes": [
+                {
+                    "frame_idx": 25977,
+                    "timestamp": 1039.08,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V002/L25_V002_S0075_F025977.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Không chỉ cung cấp chương trình đào tạo",
+                "ocr_text": "International Accreditation Council for Business Education THE BOARD OF COMMISSIONERS OF The International Accreditation Council for Business Education HEREBY AWARDS THIS Certificate of Accreditation GRAMS OFFERED BY • BUSIN The Saigen International University School of Business Administration This accreditation applies only to the programs approved by the Board of Commissioners and is contingent upon the accredited programs remaining in compliance with the principles and policies of the Council. Period of Accreditation: March 30, 2020 through April 30, 2027 Phyllis Okrepkie DR. PHYLLIS OKREPKIE PRESIDENT, lACE",
+                "vlm_caption": {
+                    "detailed_description": "The image shows a certificate of accreditation from the International Accreditation Council for Business Education (IACBE) awarded by the Singapore International University School of Business Administration."
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V002_S0076",
+            "start_frame": 26000,
+            "end_frame": 26017,
+            "start_ts": 1040.0,
+            "end_ts": 1040.68,
+            "duration": 0.68,
+            "keyframes": [
+                {
+                    "frame_idx": 26008,
+                    "timestamp": 1040.32,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V002/L25_V002_S0076_F026008.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "of Israe RAK",
+                "vlm_caption": {
+                    "detailed_description": "A man in a blue suit is speaking at a podium with a floral arrangement in front of him, with a large screen displaying the text \"Israel\" and \"RAK\" in the background.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V002_S0077",
+            "start_frame": 26018,
+            "end_frame": 26034,
+            "start_ts": 1040.72,
+            "end_ts": 1041.36,
+            "duration": 0.64,
+            "keyframes": [
+                {
+                    "frame_idx": 26026,
+                    "timestamp": 1041.04,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V002/L25_V002_S0077_F026026.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "S.I.",
+                "ocr_text": "Learning towards Creative Society Presented by Former Prime Minister of Israel EHUD BARAK August 05, 2022",
+                "vlm_caption": {
+                    "detailed_description": "A speaker stands at a podium in front of an audience, presenting a lecture titled \"Learning towards Creative Society\" by Ehud Barak, the former Prime Minister of Israel, on August 05, 2022.",
+                    "objects_and_counts": [
+                        "1 tv, 9 person, 1 potted plant"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V002_S0078",
+            "start_frame": 26035,
+            "end_frame": 26052,
+            "start_ts": 1041.4,
+            "end_ts": 1042.08,
+            "duration": 0.68,
+            "keyframes": [
+                {
+                    "frame_idx": 26043,
+                    "timestamp": 1041.72,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V002/L25_V002_S0078_F026043.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "நுலு!",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A woman with braided hair is sitting in a conference room, wearing a leopard print top.",
+                    "objects_and_counts": [
+                        "1 person, 2 chair"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V002_S0079",
+            "start_frame": 26053,
+            "end_frame": 26076,
+            "start_ts": 1042.12,
+            "end_ts": 1043.04,
+            "duration": 0.92,
+            "keyframes": [
+                {
+                    "frame_idx": 26064,
+                    "timestamp": 1042.56,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V002/L25_V002_S0079_F026064.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Tạo ra môi trường hóa",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A young woman and a man are interacting with a humanoid robot in a modern office setting.",
+                    "objects_and_counts": [
+                        "3 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V002_S0080",
+            "start_frame": 26077,
+            "end_frame": 26094,
+            "start_ts": 1043.08,
+            "end_ts": 1043.76,
+            "duration": 0.68,
+            "keyframes": [
+                {
+                    "frame_idx": 26085,
+                    "timestamp": 1043.4,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V002/L25_V002_S0080_F026085.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "ROBOTICS NATURAL LANGUAGE PROCESSING MACHINE LEARNING INTERI OF THI BIG DATA",
+                "vlm_caption": {
+                    "detailed_description": "A woman stands next to a humanoid robot in a modern office setting, using a smartphone.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V002_S0081",
+            "start_frame": 26095,
+            "end_frame": 26123,
+            "start_ts": 1043.8,
+            "end_ts": 1044.92,
+            "duration": 1.12,
+            "keyframes": [
+                {
+                    "frame_idx": 26109,
+                    "timestamp": 1044.36,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V002/L25_V002_S0081_F026109.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "đa dạng",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "The image depicts an empty auditorium with blue and green stage lights illuminating the seats and a piano on stage.",
+                    "objects_and_counts": [
+                        "2 chair"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V002_S0082",
+            "start_frame": 26124,
+            "end_frame": 26157,
+            "start_ts": 1044.96,
+            "end_ts": 1046.28,
+            "duration": 1.32,
+            "keyframes": [
+                {
+                    "frame_idx": 26140,
+                    "timestamp": 1045.6,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V002/L25_V002_S0082_F026140.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "và tôn trọng sự khác biệt",
+                "ocr_text": "SIU ASIAN SIU",
+                "vlm_caption": {
+                    "detailed_description": "A symphony orchestra performs on stage with a conductor at the piano, surrounded by musicians playing various instruments.",
+                    "objects_and_counts": [
+                        "10 person, 3 chair"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V002_S0083",
+            "start_frame": 26158,
+            "end_frame": 26186,
+            "start_ts": 1046.32,
+            "end_ts": 1047.44,
+            "duration": 1.12,
+            "keyframes": [
+                {
+                    "frame_idx": 26172,
+                    "timestamp": 1046.88,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V002/L25_V002_S0083_F026172.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "SIU",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A man in a blue blazer and a woman in a beige blazer are seated at a table with a flag, engaged in a conversation in a formal setting.",
+                    "objects_and_counts": [
+                        "3 person, 1 bottle, 2 cup, 3 chair"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V002_S0084",
+            "start_frame": 26187,
+            "end_frame": 26251,
+            "start_ts": 1047.48,
+            "end_ts": 1050.04,
+            "duration": 2.56,
+            "keyframes": [
+                {
+                    "frame_idx": 26219,
+                    "timestamp": 1048.76,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V002/L25_V002_S0084_F026219.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "mở rộng hợp tác quốc tế với các trường đại học",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A man and a woman are seated at a conference table, with the man holding a document and the woman looking at papers in front of her.",
+                    "objects_and_counts": [
+                        "3 person, 2 chair, 2 bottle, 2 cup, 2 book, 1 dining table"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V002_S0085",
+            "start_frame": 26252,
+            "end_frame": 26285,
+            "start_ts": 1050.08,
+            "end_ts": 1051.4,
+            "duration": 1.32,
+            "keyframes": [
+                {
+                    "frame_idx": 26268,
+                    "timestamp": 1050.72,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V002/L25_V002_S0085_F026268.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "SIU en Univerally onal College of Advanced Educat onal College of Advanced Education (ICAE), Australli Australla",
+                "vlm_caption": {
+                    "detailed_description": "A group of professionals is gathered in a conference room for a meeting, with two large screens displaying the logo of the International College of Advanced Education (ICAE) and a table set with laptops, water bottles, and a floral arrangement.",
+                    "objects_and_counts": [
+                        "8 person, 2 laptop, 2 chair, 2 tv, 3 cup, 7 bottle, 1 potted plant, 1 dining table"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V002_S0086",
+            "start_frame": 26286,
+            "end_frame": 26316,
+            "start_ts": 1051.44,
+            "end_ts": 1052.64,
+            "duration": 1.2,
+            "keyframes": [
+                {
+                    "frame_idx": 26301,
+                    "timestamp": 1052.04,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V002/L25_V002_S0086_F026301.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Các bạn hãy đăng ký kênh để ủng hộ kênh của mình nhé.",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "Two men stand at a table, each holding a document, with flags of Romania and Vietnam in the background.",
+                    "objects_and_counts": [
+                        "5 person, 4 tie, 1 book, 1 potted plant, 1 chair"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V002_S0087",
+            "start_frame": 26317,
+            "end_frame": 26350,
+            "start_ts": 1052.68,
+            "end_ts": 1054.0,
+            "duration": 1.32,
+            "keyframes": [
+                {
+                    "frame_idx": 26333,
+                    "timestamp": 1053.32,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V002/L25_V002_S0087_F026333.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "trên thế giới.",
+                "ocr_text": "THE SAIGON MICHAEL DUKAKIS INTERNATIONAL INSTITUTE FOR LEADERHIP AND INNOVATION UNIVERSITY MEMORANDUM OF UNDERSTANDING SIGNING CEREMONY between Saigon International University, Vietnam and Michael Dukakis Institute for Leadership & Innovation, USA Hoch City. January 6th, 2022",
+                "vlm_caption": {
+                    "detailed_description": "Two individuals are seated at a table, signing a Memorandum of Understanding at a formal ceremony between Saigon International University, Vietnam, and the Michael Dukakis Institute for Leadership & Innovation, USA.",
+                    "objects_and_counts": [
+                        "5 person, 2 cup, 1 bottle, 2 tie, 1 chair, 1 dining table, 1 tv"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V002_S0088",
+            "start_frame": 26351,
+            "end_frame": 26391,
+            "start_ts": 1054.04,
+            "end_ts": 1055.64,
+            "duration": 1.6,
+            "keyframes": [
+                {
+                    "frame_idx": 26371,
+                    "timestamp": 1054.84,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V002/L25_V002_S0088_F026371.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "OUR THE WESTIN TRON 22 AM Marriott INTERNATIONAL MINI",
+                "vlm_caption": {
+                    "detailed_description": "A man in a suit is handing a document to another man at a table with a Marriott sign, with a backdrop featuring various hotel brands and the text \"Live Fully.\"",
+                    "objects_and_counts": [
+                        "6 person, 2 tie"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V002_S0089",
+            "start_frame": 26392,
+            "end_frame": 26408,
+            "start_ts": 1055.68,
+            "end_ts": 1056.32,
+            "duration": 0.64,
+            "keyframes": [
+                {
+                    "frame_idx": 26400,
+                    "timestamp": 1056.0,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V002/L25_V002_S0089_F026400.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "",
+                "ocr_text": "tional Saigon IN COOPE REEMEN University SIU Univarsity EREM 2023 CHANG GUNG UNIVERSITY HSING WU UNIVERSITY SIU on international ® SIT",
+                "vlm_caption": {
+                    "detailed_description": "Five individuals stand behind a table adorned with red and white banners, holding red folders, with a backdrop displaying the logos of SIU and Chang Gung University.",
+                    "objects_and_counts": [
+                        "5 person, 2 tie, 2 potted plant, 1 laptop"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V002_S0090",
+            "start_frame": 26409,
+            "end_frame": 26459,
+            "start_ts": 1056.36,
+            "end_ts": 1058.36,
+            "duration": 2.0,
+            "keyframes": [
+                {
+                    "frame_idx": 26434,
+                    "timestamp": 1057.36,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V002/L25_V002_S0090_F026434.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A group of students is studying in a library with bookshelves filled with books.",
+                    "objects_and_counts": [
+                        "8 chair, 5 person, 7 book"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V002_S0091",
+            "start_frame": 26460,
+            "end_frame": 26491,
+            "start_ts": 1058.4,
+            "end_ts": 1059.64,
+            "duration": 1.24,
+            "keyframes": [
+                {
+                    "frame_idx": 26475,
+                    "timestamp": 1059.0,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V002/L25_V002_S0091_F026475.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Habibong S.I.",
+                "ocr_text": "CHE TOS PHIES 10S HỌI THAM NHAN DAN SIU Saigon International IU UNIVERSITY Saig du.vn UN",
+                "vlm_caption": {
+                    "detailed_description": "A person is speaking into a microphone at a table with a Vietnamese flag backdrop, while another person sits at a table with a Vietnamese flag and a red and white tablecloth.",
+                    "objects_and_counts": [
+                        "9 person, 2 tie, 1 chair, 1 laptop"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V002_S0092",
+            "start_frame": 26492,
+            "end_frame": 26522,
+            "start_ts": 1059.68,
+            "end_ts": 1060.88,
+            "duration": 1.2,
+            "keyframes": [
+                {
+                    "frame_idx": 26507,
+                    "timestamp": 1060.28,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V002/L25_V002_S0092_F026507.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "UNIVERSITY SIU",
+                "vlm_caption": {
+                    "detailed_description": "A classroom setting with students seated at desks, facing a presenter standing in front of a large screen displaying a presentation slide, with various educational posters and equipment visible on the walls.",
+                    "objects_and_counts": [
+                        "21 person, 6 chair, 1 tv"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V002_S0093",
+            "start_frame": 26523,
+            "end_frame": 26559,
+            "start_ts": 1060.92,
+            "end_ts": 1062.36,
+            "duration": 1.44,
+            "keyframes": [
+                {
+                    "frame_idx": 26541,
+                    "timestamp": 1061.64,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V002/L25_V002_S0093_F026541.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A group of chefs in white uniforms and hats are preparing food in a professional kitchen, with one chef stirring a pot while others assist.",
+                    "objects_and_counts": [
+                        "5 person, 3 bowl, 2 bottle"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V002_S0094",
+            "start_frame": 26560,
+            "end_frame": 26603,
+            "start_ts": 1062.4,
+            "end_ts": 1064.12,
+            "duration": 1.72,
+            "keyframes": [
+                {
+                    "frame_idx": 26581,
+                    "timestamp": 1063.24,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V002/L25_V002_S0094_F026581.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "SIU University Tlành trinh den Phường Đòng",
+                "vlm_caption": {
+                    "detailed_description": "A group of people, including children in traditional attire, are seated on a red carpet in front of a large blue banner with a Japanese castle design and the text \"Nghành Trình đến Phương Đông.\"",
+                    "objects_and_counts": [
+                        "1 potted plant, 17 person, 3 chair, 3 bottle, 2 tv, 1 vase"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V002_S0095",
+            "start_frame": 26605,
+            "end_frame": 26648,
+            "start_ts": 1064.2,
+            "end_ts": 1065.92,
+            "duration": 1.72,
+            "keyframes": [
+                {
+                    "frame_idx": 26626,
+                    "timestamp": 1065.04,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V002/L25_V002_S0095_F026626.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "PHƯƠNG THỨC XÉT TUYỂN TẠI 4 SIU 1. Xét tuyển học bạ 3 học kỳ (2HK lớp 11 + HKi lớp 12)' 2. Xét tuyển học bạ lớp 12 e conre 3. Xét tuyển kết quả kỳ thi THPT 4. Xét tuyển kết quả kỳ thi đánh giá năng lực của Đại học Quốc gia TPHCM",
+                "vlm_caption": {
+                    "detailed_description": "A man and woman in white shirts are holding a book, with a blue background and text in Vietnamese describing four examination methods.",
+                    "objects_and_counts": [
+                        "2 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V002_S0096",
+            "start_frame": 26649,
+            "end_frame": 26697,
+            "start_ts": 1065.96,
+            "end_ts": 1067.88,
+            "duration": 1.92,
+            "keyframes": [
+                {
+                    "frame_idx": 26673,
+                    "timestamp": 1066.92,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V002/L25_V002_S0096_F026673.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "SIU cam kết hỗ trợ sinh viên",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A person in academic regalia stands at a podium with a bouquet of flowers, addressing an audience in front of flags.",
+                    "objects_and_counts": [
+                        "1 person, 1 potted plant"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V002_S0097",
+            "start_frame": 26698,
+            "end_frame": 26735,
+            "start_ts": 1067.92,
+            "end_ts": 1069.4,
+            "duration": 1.48,
+            "keyframes": [
+                {
+                    "frame_idx": 26716,
+                    "timestamp": 1068.64,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V002/L25_V002_S0097_F026716.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Với nhiều chính sách học bổng",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A man in academic regalia stands at a podium with a microphone, delivering a speech in front of a backdrop of red and white flags.",
+                    "objects_and_counts": [
+                        "1 person, 1 potted plant, 1 tie"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V002_S0098",
+            "start_frame": 26736,
+            "end_frame": 26790,
+            "start_ts": 1069.44,
+            "end_ts": 1071.6,
+            "duration": 2.16,
+            "keyframes": [
+                {
+                    "frame_idx": 26763,
+                    "timestamp": 1070.52,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V002/L25_V002_S0098_F026763.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "20 xuất học bổng chủ tình S.I.U",
+                "ocr_text": "Shine zens, New Pa. SHU",
+                "vlm_caption": {
+                    "detailed_description": "A woman in a black dress is receiving a bouquet of flowers from another woman while a third woman in a brown dress holds a certificate.",
+                    "objects_and_counts": [
+                        "4 person, 1 teddy bear, 1 tv"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V002_S0099",
+            "start_frame": 26791,
+            "end_frame": 26849,
+            "start_ts": 1071.64,
+            "end_ts": 1073.96,
+            "duration": 2.32,
+            "keyframes": [
+                {
+                    "frame_idx": 26820,
+                    "timestamp": 1072.8,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V002/L25_V002_S0099_F026820.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "100 xuất học bổng tiếp bước hành trình",
+                "ocr_text": "The Saigon International -University LỄ CÔNG BỐ",
+                "vlm_caption": {
+                    "detailed_description": "A group of students in blue uniforms stand on a stage, holding a flag and clapping, with a large screen behind them displaying \"LỄ CÔNG BỐ Journey Scholarship.\"",
+                    "objects_and_counts": [
+                        "19 person, 7 chair, 1 tv"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V002_S0100",
+            "start_frame": 26850,
+            "end_frame": 26876,
+            "start_ts": 1074.0,
+            "end_ts": 1075.04,
+            "duration": 1.04,
+            "keyframes": [
+                {
+                    "frame_idx": 26863,
+                    "timestamp": 1074.52,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V002/L25_V002_S0100_F026863.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Quỹ tài năng trẻ",
+                "ocr_text": "The Saigon International -Universil TRƯỜNG ĐẠI HỌC QUÓC TẾ SÀI GÒN TRAO TẶNG QUÝ HỌC BỔNG TÁI NĂNG TRẺ -8895 40% - 60% -100 HỌC PHÍ TOÀN KHOA https://www.facebook.com www.siu.edu.vn",
+                "vlm_caption": {
+                    "detailed_description": "Two individuals are holding a sign that reads \"TRAO TẶNG QUÝ HỌC BỔNG TÀI NĂNG TRẺ 40%-60%-100% HỌC PHÍ TOÀN K",
+                    "objects_and_counts": [
+                        "2 person, 1 tie"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V002_S0101",
+            "start_frame": 26877,
+            "end_frame": 26974,
+            "start_ts": 1075.08,
+            "end_ts": 1078.96,
+            "duration": 3.88,
+            "keyframes": [
+                {
+                    "frame_idx": 26925,
+                    "timestamp": 1077.0,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V002/L25_V002_S0101_F026925.jpg"
+                },
+                {
+                    "frame_idx": 26901,
+                    "timestamp": 1076.04,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V002/L25_V002_S0101_F026901.jpg"
+                },
+                {
+                    "frame_idx": 26949,
+                    "timestamp": 1077.96,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V002/L25_V002_S0101_F026949.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Học bổng 50% học phí toàn hóa cho những học sinh có thành tích xuất sắc",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A woman in a white shirt and black skirt is opening a door with her right hand while holding the door frame with her left hand.",
+                    "objects_and_counts": [
+                        "11 person | 2 person | 12 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V002_S0102",
+            "start_frame": 26975,
+            "end_frame": 27004,
+            "start_ts": 1079.0,
+            "end_ts": 1080.16,
+            "duration": 1.16,
+            "keyframes": [
+                {
+                    "frame_idx": 26989,
+                    "timestamp": 1079.56,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V002/L25_V002_S0102_F026989.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Trong các hoạt động văn hóa",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A group of players in green uniforms are lined up on a basketball court, preparing for a free throw.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V002_S0103",
+            "start_frame": 27005,
+            "end_frame": 27035,
+            "start_ts": 1080.2,
+            "end_ts": 1081.4,
+            "duration": 1.2,
+            "keyframes": [
+                {
+                    "frame_idx": 27020,
+                    "timestamp": 1080.8,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V002/L25_V002_S0103_F027020.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A group of swimmers in a pool, wearing caps and swimsuits, are practicing freestyle strokes with green kickboards.",
+                    "objects_and_counts": [
+                        "5 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V002_S0104",
+            "start_frame": 27036,
+            "end_frame": 27066,
+            "start_ts": 1081.44,
+            "end_ts": 1082.64,
+            "duration": 1.2,
+            "keyframes": [
+                {
+                    "frame_idx": 27051,
+                    "timestamp": 1082.04,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V002/L25_V002_S0104_F027051.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Học bổng đồng hành sẽ được phát triển bởi Công ty Đồng hành.",
+                "ocr_text": "The Saigon International •University LỄ KÝ KẾT HỌC BỔNG ĐỒNG HÀNH XÂY DỰNG NHÂN LỰC CHẤT LƯỢNG CAO CHO THÀNH PHỐ THỦ ĐỨC Thánh phố Hồ Chí Minh, ngáy 22 tháng 12 năm 2023 SIU SIU algon Internationi Salgon Internatione 0. UNIVERSITY UNIVERSITI www.siu.edu.vn",
+                "vlm_caption": {
+                    "detailed_description": "A group of individuals stands behind a table with red and white banners, signing documents at a formal event.",
+                    "objects_and_counts": [
+                        "5 person, 4 laptop, 1 tv, 1 potted plant"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V002_S0105",
+            "start_frame": 27067,
+            "end_frame": 27104,
+            "start_ts": 1082.68,
+            "end_ts": 1084.16,
+            "duration": 1.48,
+            "keyframes": [
+                {
+                    "frame_idx": 27085,
+                    "timestamp": 1083.4,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V002/L25_V002_S0105_F027085.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A woman in a blue dress stands at a podium with a microphone and a floral arrangement, delivering a speech.",
+                    "objects_and_counts": [
+                        "1 person, 1 potted plant"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V002_S0106",
+            "start_frame": 27105,
+            "end_frame": 27138,
+            "start_ts": 1084.2,
+            "end_ts": 1085.52,
+            "duration": 1.32,
+            "keyframes": [
+                {
+                    "frame_idx": 27121,
+                    "timestamp": 1084.84,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V002/L25_V002_S0106_F027121.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Thành phố Thủ Đức, thành phố Hồ Chí Minh",
+                "ocr_text": "LÊ KÝ KẾT T NGUYỄN HỮU BIÊN BẢN HỞ HỢP TÁC GIỮA TRƯỜI ÁI GÒN TRƯỜNG ĐẠI HỌC QUÔ Ip Hồ CN Minh, ngày 04 hộ TRƯỜNG ĐẠI HỌC QUỐC TẾ SÀI GÒN TRAO TẶNG HỌC BỔNG ĐÔNG HÀNH XÂY DỰNG NHÂN LỰC CHẤT LƯỢNG CAO CHO THÀNH PHÔ THỪ ĐỨC HỌC PHÍ TOÀN KHOA HỌC 30% TRỊ GIÁ 00000 www.siu.edu.vn",
+                "vlm_caption": {
+                    "detailed_description": "Two men stand holding a large check, with one presenting it to the other, against a backdrop of a blue screen with text in Vietnamese.",
+                    "objects_and_counts": [
+                        "2 person, 1 tie"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V002_S0107",
+            "start_frame": 27139,
+            "end_frame": 27177,
+            "start_ts": 1085.56,
+            "end_ts": 1087.08,
+            "duration": 1.52,
+            "keyframes": [
+                {
+                    "frame_idx": 27158,
+                    "timestamp": 1086.32,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V002/L25_V002_S0107_F027158.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Học bổng doanh nghiệp tài trợ",
+                "ocr_text": "International • University MOU SIGNING CEREMONY with BUSINESS PARTNERS Ho Chi Minh City, December 20, 2023 SIU SIU SIU Saigon International Saigon International Saigon International UNIVERSITY UNIVERSITY UNIVERSITY",
+                "vlm_caption": {
+                    "detailed_description": "A group of individuals is seated at a table with red banners displaying \"SIU\" and \"International University\" logos, participating in a MOU signing ceremony with business partners in Ho Chi Minh City on December 20, 2023",
+                    "objects_and_counts": [
+                        "7 person, 7 laptop, 2 tie"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V002_S0108",
+            "start_frame": 27178,
+            "end_frame": 27208,
+            "start_ts": 1087.12,
+            "end_ts": 1088.32,
+            "duration": 1.2,
+            "keyframes": [
+                {
+                    "frame_idx": 27193,
+                    "timestamp": 1087.72,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V002/L25_V002_S0108_F027193.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hợp bổng 20%",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A man in a suit is giving a presentation to a group of students in a classroom setting.",
+                    "objects_and_counts": [
+                        "5 chair, 14 person, 1 tv, 1 laptop"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V002_S0109",
+            "start_frame": 27209,
+            "end_frame": 27236,
+            "start_ts": 1088.36,
+            "end_ts": 1089.44,
+            "duration": 1.08,
+            "keyframes": [
+                {
+                    "frame_idx": 27222,
+                    "timestamp": 1088.88,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V002/L25_V002_S0109_F027222.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "Three individuals in white shirts and ties are gathered around a table, with one person pointing at a document, in an indoor setting with fluorescent lighting and a modern design.",
+                    "objects_and_counts": [
+                        "6 person, 1 tie, 1 book"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V002_S0110",
+            "start_frame": 27237,
+            "end_frame": 27272,
+            "start_ts": 1089.48,
+            "end_ts": 1090.88,
+            "duration": 1.4,
+            "keyframes": [
+                {
+                    "frame_idx": 27254,
+                    "timestamp": 1090.16,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V002/L25_V002_S0110_F027254.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "Four men in white shirts and red ties are gathered around a table in a modern office, engaged in a discussion with papers and laptops.",
+                    "objects_and_counts": [
+                        "4 person, 2 laptop, 3 tie, 7 chair, 7 book, 1 dining table, 1 keyboard"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V002_S0111",
+            "start_frame": 27273,
+            "end_frame": 27303,
+            "start_ts": 1090.92,
+            "end_ts": 1092.12,
+            "duration": 1.2,
+            "keyframes": [
+                {
+                    "frame_idx": 27288,
+                    "timestamp": 1091.52,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V002/L25_V002_S0111_F027288.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "core; int 1959 ente Tot -GIVE YOU",
+                "vlm_caption": {
+                    "detailed_description": "A man in a floral shirt is speaking into a microphone in front of a projection of computer code and text that reads \"GIVE YOU YOU WANT.\"",
+                    "objects_and_counts": [
+                        "1 person, 1 tv"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V002_S0112",
+            "start_frame": 27304,
+            "end_frame": 27332,
+            "start_ts": 1092.16,
+            "end_ts": 1093.28,
+            "duration": 1.12,
+            "keyframes": [
+                {
+                    "frame_idx": 27318,
+                    "timestamp": 1092.72,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V002/L25_V002_S0112_F027318.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "S.I.U.",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "Graduates in black gowns and blue robes are throwing their caps into the air outdoors, with a traditional building and clear sky in the background.",
+                    "objects_and_counts": [
+                        "8 person, 1 kite"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V002_S0113",
+            "start_frame": 27333,
+            "end_frame": 27393,
+            "start_ts": 1093.32,
+            "end_ts": 1095.72,
+            "duration": 2.4,
+            "keyframes": [
+                {
+                    "frame_idx": 27363,
+                    "timestamp": 1094.52,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V002/L25_V002_S0113_F027363.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Tâm hồn Việt Nam, Giáo dục Thế Giới",
+                "ocr_text": "THE SAIGON INTERNATIONAL UNIVERSITY Tâm hôn Việt Nam, giáo dục thế giới Vietnam's spirit global education",
+                "vlm_caption": {
+                    "detailed_description": "The image features the logo and name of The Saigon International University, set against a backdrop of a bright blue sky with clouds and a rainbow.",
+                    "objects_and_counts": [
+                        "1 frisbee"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V002_S0114",
+            "start_frame": 27394,
+            "end_frame": 28187,
+            "start_ts": 1095.76,
+            "end_ts": 1127.48,
+            "duration": 31.72,
+            "keyframes": [
+                {
+                    "frame_idx": 27790,
+                    "timestamp": 1111.6,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V002/L25_V002_S0114_F027790.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Các học sinh thân mến, như vậy chúng ta vừa mới điểm qua những kiến thức cơ bản nhất của sự phát triển kinh tế của 3 khu vực đó là Hoa Kỳ, Nhật Bản và Tây Âu. Trong quá trình ôn tạp chúng ta cũng đã cố gắng so sánh để tìm ra điểm giống nhau, điểm chung trong cái nguyên nhân phát triển của Hoa Kỳ, Nhật Bản và khu vực Tây Âu. Thầy hy vọng kiên đề ôn tạp ngày hôm nay sẽ giúp chúng ta giải đáp được tất cả những câu hỏi liên quan trong đề thi sắp tới.",
+                "ocr_text": "THANH NIEN Thời Tình hình gian 1945 - Nhờ viện trợ của Mĩ trong kế 1950 hoạch Mac-san đên 1950 kinh - Áp dụng các thành tựu tế Tây Âu cơ bản phục hồi. khoa học kĩ thuật để tăng 1950 - Kinh tế có sự phát triển nhanh. CÁC GIAI 1973 Tây Âu trở thành một trong ba năng xuất và hạ giá thành ĐOẠN PHÁT TRIỂN KINH trung tâm kinh tế tài chánh lớn TẾ TÂY sản phẩm của thế giới. ÂU - Nhà nước làm tốt vai trò 1973 - Do tác động của khủng hoảng NGUYÊN điều tiết và quản lý kinh tế NHÂN PHÁT 1991 năng lượng thế giới, kinh tế TRIỂN Tây Âu suy thoái, khủng - Tận dụng tốt các cơ hội hoảng. bên ngoài : viện trợ của Mỹ, 1991 - Sau khi trải qua một đợt suy nguyên liệu giá rẻ 2000 thoái ngắn, kinh tế Tây Âu phục hồi và phát triển. Thầy NGUYỄN VIẾT ĐĂNG DU CHƯƠNG TRÌNH ÔN THI THPT 2024: MÔN LỊCH SỬ - CĐ10: SỰ PHÁT TRIỂN Tổ trưởng tổ lịch sử Trường THPT Lê Quý Đôn, TP.HCM CỦA CÁC NƯỚC TƯ BẢN CHỦ NGHĨA SAU CHIẾN TRANH THẾ GIỚI II",
+                "vlm_caption": {
+                    "detailed_description": "The image is a screenshot from a presentation slide about the development of various countries after World War II, focusing on the period from 1945 to 2000, with a particular emphasis on Western Europe.",
+                    "objects_and_counts": [
+                        "1 laptop, 1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V002_S0115",
+            "start_frame": 28188,
+            "end_frame": 28382,
+            "start_ts": 1127.52,
+            "end_ts": 1135.28,
+            "duration": 7.76,
+            "keyframes": [
+                {
+                    "frame_idx": 28285,
+                    "timestamp": 1131.4,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V002/L25_V002_S0115_F028285.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy chào tất cả các em và chúc các em đạt được nhiều kết quả tốt trong kỳ thi sắp tới",
+                "ocr_text": "THANH NIEN Thây NGUYEN VIET ĐANG DU Tổ trưởng tổ lịch sử Trường THPT Lê Quý Đôn, Thành phố Hồ Chí Minh",
+                "vlm_caption": {
+                    "detailed_description": "A man is sitting at a desk with a laptop in front of him, with a blue, digital background featuring a starry effect.",
+                    "objects_and_counts": [
+                        "1 laptop, 1 person, 1 baseball bat"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V002_S0116",
+            "start_frame": 28383,
+            "end_frame": 28488,
+            "start_ts": 1135.32,
+            "end_ts": 1139.52,
+            "duration": 4.2,
+            "keyframes": [],
+            "extracted_data": {
+                "transcript": "",
+                "ocr_text": ""
+            }
+        },
+        {
+            "shot_id": "L25_V002_S0117",
+            "start_frame": 28489,
+            "end_frame": 28495,
+            "start_ts": 1139.56,
+            "end_ts": 1139.8,
+            "duration": 0.24,
+            "keyframes": [],
+            "extracted_data": {
+                "transcript": "",
+                "ocr_text": ""
+            }
+        }
+    ]
+}

@@ -1,0 +1,3148 @@
+{
+    "video_id": "L25_V030",
+    "fps": 29.97002997002997,
+    "total_shots": 124,
+    "total_keyframes": 143,
+    "shots": [
+        {
+            "shot_id": "L25_V030_S0001",
+            "start_frame": 0,
+            "end_frame": 80,
+            "start_ts": 0.0,
+            "end_ts": 2.669,
+            "duration": 2.669,
+            "keyframes": [],
+            "extracted_data": {
+                "transcript": "Thank you.",
+                "ocr_text": ""
+            }
+        },
+        {
+            "shot_id": "L25_V030_S0002",
+            "start_frame": 82,
+            "end_frame": 231,
+            "start_ts": 2.736,
+            "end_ts": 7.708,
+            "duration": 4.972,
+            "keyframes": [
+                {
+                    "frame_idx": 156,
+                    "timestamp": 5.205,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V030/L25_V030_S0002_F000156.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Thank you.",
+                "ocr_text": "ÔN TẬP MÔN HÓA HỌU CHUYÊN ĐẾ 7 AMIN - AMNOAXIT PEPTIT - PROTEIN Giáo viên hướng dẫn: Thể, THAM LỄ THANH Giáo viên món Hea học",
+                "vlm_caption": {
+                    "detailed_description": "The image is an educational poster for a Vietnamese language class, focusing on the topic of amino acids, amine oxides, peptides, and proteins, with instructions for students to review these subjects under the guidance of teacher ThS. Pham Le Th"
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V030_S0003",
+            "start_frame": 232,
+            "end_frame": 861,
+            "start_ts": 7.741,
+            "end_ts": 28.729,
+            "duration": 20.988,
+            "keyframes": [
+                {
+                    "frame_idx": 546,
+                    "timestamp": 18.218,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V030/L25_V030_S0003_F000546.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Xin chào tất cả các em, rất vui được đồng hành cùng các em trong chương trình ôn luyện trực tuyến hàng năm do Bác Thanh Niên tổ chức. Đến với chuyên đề số 7 lần này, thầy trò của chúng ta sẽ cùng nhau tìm hiểu về nội dung kiến thức trọng tâm của amin, amino acid, peptide và protein. Chúng ta cùng nhau đi vào bài giảng các em nhé.",
+                "ocr_text": "Chuyên đề 7 T THAEN AMIN - AMNOAXIT - PEPTIT - PROTEIN ThS. Phạm Lê Thanh ff ThS. PHẠM LÊ THANH Giáo viên môn Hóa học Trường THPT Nguyễn Hiền",
+                "vlm_caption": {
+                    "detailed_description": "A man in a white shirt and purple tie is speaking in front of a laptop, with a green screen displaying text about amino acids, peptides, and proteins.",
+                    "objects_and_counts": [
+                        "1 person, 1 tie"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V030_S0004",
+            "start_frame": 862,
+            "end_frame": 863,
+            "start_ts": 28.762,
+            "end_ts": 28.795,
+            "duration": 0.033,
+            "keyframes": [
+                {
+                    "frame_idx": 862,
+                    "timestamp": 28.762,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V030/L25_V030_S0004_F000862.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "The image shows a modern building with a red sign and a logo, surrounded by other residential and commercial structures, under a partly cloudy sky.",
+                    "objects_and_counts": [
+                        "1 train"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V030_S0005",
+            "start_frame": 864,
+            "end_frame": 895,
+            "start_ts": 28.829,
+            "end_ts": 29.863,
+            "duration": 1.034,
+            "keyframes": [
+                {
+                    "frame_idx": 879,
+                    "timestamp": 29.329,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V030/L25_V030_S0005_F000879.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Trường Đại học Quốc tế",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "The image shows a modern building with the signage \"The Saigon International University\" and \"ACADE\" on its facade, surrounded by other buildings and greenery in an urban setting.",
+                    "objects_and_counts": [
+                        "1 train, 1 potted plant"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V030_S0006",
+            "start_frame": 896,
+            "end_frame": 933,
+            "start_ts": 29.897,
+            "end_ts": 31.131,
+            "duration": 1.235,
+            "keyframes": [
+                {
+                    "frame_idx": 914,
+                    "timestamp": 30.497,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V030/L25_V030_S0006_F000914.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Sài Gòn SIU",
+                "ocr_text": "HOON WTERNATIONAL UNIVERSITY Lewis Hall IVERSITY THE SAIGON INTERNATION",
+                "vlm_caption": {
+                    "detailed_description": "The image shows the exterior of the Saigon International University, with a prominent white building featuring the university's name and a flagpole with multiple flags in the foreground."
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V030_S0007",
+            "start_frame": 934,
+            "end_frame": 987,
+            "start_ts": 31.164,
+            "end_ts": 32.933,
+            "duration": 1.768,
+            "keyframes": [
+                {
+                    "frame_idx": 960,
+                    "timestamp": 32.032,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V030/L25_V030_S0007_F000960.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Không chỉ cung cấp chương trình đào tạo",
+                "ocr_text": "International Accreditation Council for Business Education THE BOARD OF COMMISSIONERS OF The International Accreditation Council for Business Education HEREBY AWARDS THIS Certificate of Accreditation • BUSIN GRAMS OFFERED BY The Saigun International University School of Business Administration This accreditation applies only to the programs approved by the Board of Commissioners and is contingent upon the accredited programs remaining in compliance with the principles and policies of the Council. Penod of Accreditation: March 30, 2020 through April 30, 2027 Phyllis Okeptie DR. PHYLLIS OKREPKIE PRESIDENT, JACE",
+                "vlm_caption": {
+                    "detailed_description": "The image shows a Certificate of Accreditation from the International Accreditation Council for Business Education (IACBE) awarded to the Singapore International University School of Business Administration."
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V030_S0008",
+            "start_frame": 988,
+            "end_frame": 1008,
+            "start_ts": 32.966,
+            "end_ts": 33.634,
+            "duration": 0.667,
+            "keyframes": [
+                {
+                    "frame_idx": 998,
+                    "timestamp": 33.3,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V030/L25_V030_S0008_F000998.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "of Israel RAK",
+                "vlm_caption": {
+                    "detailed_description": "A man in a blue suit and glasses is speaking at a podium with a floral arrangement in front of him, with a large screen displaying \"Israel\" and \"RAK\" in the background.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V030_S0009",
+            "start_frame": 1009,
+            "end_frame": 1029,
+            "start_ts": 33.667,
+            "end_ts": 34.334,
+            "duration": 0.667,
+            "keyframes": [
+                {
+                    "frame_idx": 1019,
+                    "timestamp": 34.001,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V030/L25_V030_S0009_F001019.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "S.I.",
+                "ocr_text": "Learning towards Creative Society Presented by Former Prime Minister of Israel EHUD BARAK August 05, 2022",
+                "vlm_caption": {
+                    "detailed_description": "A speaker, identified as Ehud Barak, the former Prime Minister of Israel, is presenting a lecture titled \"Learning towards Creative Society\" at a university event on August 05, 2022.",
+                    "objects_and_counts": [
+                        "1 tv, 8 person, 1 potted plant"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V030_S0010",
+            "start_frame": 1030,
+            "end_frame": 1050,
+            "start_ts": 34.368,
+            "end_ts": 35.035,
+            "duration": 0.667,
+            "keyframes": [
+                {
+                    "frame_idx": 1040,
+                    "timestamp": 34.701,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V030/L25_V030_S0010_F001040.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "నూలో",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A woman with braided hair is seated in an office setting, wearing a leopard print top.",
+                    "objects_and_counts": [
+                        "1 person, 1 chair"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V030_S0011",
+            "start_frame": 1051,
+            "end_frame": 1079,
+            "start_ts": 35.068,
+            "end_ts": 36.003,
+            "duration": 0.934,
+            "keyframes": [
+                {
+                    "frame_idx": 1065,
+                    "timestamp": 35.535,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V030/L25_V030_S0011_F001065.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Tạo ra bố trường hợp",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A person in a white shirt interacts with a robot in an office setting.",
+                    "objects_and_counts": [
+                        "3 person, 1 tie"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V030_S0012",
+            "start_frame": 1080,
+            "end_frame": 1101,
+            "start_ts": 36.036,
+            "end_ts": 36.737,
+            "duration": 0.701,
+            "keyframes": [
+                {
+                    "frame_idx": 1090,
+                    "timestamp": 36.37,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V030/L25_V030_S0012_F001090.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "ROBOTICS NATURAL LANGUAGE PROCESSING MACHINE LEARNING INTERI OF THIS BIG DATA",
+                "vlm_caption": {
+                    "detailed_description": "A woman stands next to a humanoid robot in a modern office setting, interacting with a smartphone.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V030_S0013",
+            "start_frame": 1102,
+            "end_frame": 1135,
+            "start_ts": 36.77,
+            "end_ts": 37.871,
+            "duration": 1.101,
+            "keyframes": [
+                {
+                    "frame_idx": 1118,
+                    "timestamp": 37.304,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V030/L25_V030_S0013_F001118.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Đa dạng",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "The image depicts an empty theater with blue and green spotlights illuminating the stage and rows of seats.",
+                    "objects_and_counts": [
+                        "4 chair"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V030_S0014",
+            "start_frame": 1136,
+            "end_frame": 1176,
+            "start_ts": 37.905,
+            "end_ts": 39.239,
+            "duration": 1.335,
+            "keyframes": [
+                {
+                    "frame_idx": 1156,
+                    "timestamp": 38.572,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V030/L25_V030_S0014_F001156.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "và tôn trọng sự khác biệt",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A symphony orchestra performs on a stage with a conductor at the piano, surrounded by musicians playing various instruments.",
+                    "objects_and_counts": [
+                        "7 person, 3 chair"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V030_S0015",
+            "start_frame": 1177,
+            "end_frame": 1211,
+            "start_ts": 39.273,
+            "end_ts": 40.407,
+            "duration": 1.134,
+            "keyframes": [
+                {
+                    "frame_idx": 1194,
+                    "timestamp": 39.84,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V030/L25_V030_S0015_F001194.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "S.I.U.",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A man in a blue blazer is speaking at a conference table with a woman in a green jacket and a flag in the background.",
+                    "objects_and_counts": [
+                        "3 person, 1 bottle, 2 cup, 3 chair"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V030_S0016",
+            "start_frame": 1212,
+            "end_frame": 1245,
+            "start_ts": 40.44,
+            "end_ts": 41.542,
+            "duration": 1.101,
+            "keyframes": [
+                {
+                    "frame_idx": 1228,
+                    "timestamp": 40.974,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V030/L25_V030_S0016_F001228.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Mở rộng hợp tác quốc tế",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A man in a suit and tie is gesturing with his hands while speaking in an office setting with framed portraits on the wall.",
+                    "objects_and_counts": [
+                        "4 person, 1 tie, 3 chair"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V030_S0017",
+            "start_frame": 1246,
+            "end_frame": 1289,
+            "start_ts": 41.575,
+            "end_ts": 43.01,
+            "duration": 1.435,
+            "keyframes": [
+                {
+                    "frame_idx": 1267,
+                    "timestamp": 42.276,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V030/L25_V030_S0017_F001267.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "với các trường đại học",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A man and a woman are seated at a conference table, with the man holding a document and the woman looking at papers.",
+                    "objects_and_counts": [
+                        "3 person, 1 chair, 2 bottle, 2 cup, 1 book, 1 dining table"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V030_S0018",
+            "start_frame": 1290,
+            "end_frame": 1329,
+            "start_ts": 43.043,
+            "end_ts": 44.344,
+            "duration": 1.301,
+            "keyframes": [
+                {
+                    "frame_idx": 1309,
+                    "timestamp": 43.677,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V030/L25_V030_S0018_F001309.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "SIU en onal College of Advanced Education (ICAE), Australia",
+                "vlm_caption": {
+                    "detailed_description": "A group of individuals is seated around a conference table in a meeting room, with two large screens displaying images of buildings and a flag in the background.",
+                    "objects_and_counts": [
+                        "8 person, 1 laptop, 2 chair, 2 tv, 2 cup, 6 bottle, 1 potted plant, 1 dining table"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V030_S0019",
+            "start_frame": 1330,
+            "end_frame": 1366,
+            "start_ts": 44.378,
+            "end_ts": 45.579,
+            "duration": 1.201,
+            "keyframes": [
+                {
+                    "frame_idx": 1348,
+                    "timestamp": 44.978,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V030/L25_V030_S0019_F001348.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Chốt nghiệp từ khắp đất",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "Two men stand at a table, each holding a document, with flags of Vietnam and Romania in the background.",
+                    "objects_and_counts": [
+                        "4 person, 4 tie, 1 book, 1 potted plant"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V030_S0020",
+            "start_frame": 1367,
+            "end_frame": 1407,
+            "start_ts": 45.612,
+            "end_ts": 46.947,
+            "duration": 1.335,
+            "keyframes": [
+                {
+                    "frame_idx": 1387,
+                    "timestamp": 46.28,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V030/L25_V030_S0020_F001387.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "trên thế giới.",
+                "ocr_text": "THE SAIGON MICHAEL DUKAKIS INTERNATIONAL INSTITUTE FOR LEADERHIP AND INNOVATION UNIVERSITY MEMORANDUM OF UNDERSTANDING SIGNING CEREMONY between Saigon International University, Vietnam and Michael Dukakis Institute for Leadership & Innovation, USA City. January 6th, 2022",
+                "vlm_caption": {
+                    "detailed_description": "Two individuals are seated at a table, signing a document during a Memorandum of Understanding ceremony between Saigon International University, Vietnam, and the Michael Dukakis Institute for Leadership & Innovation, USA, in Hochiminh City on January 6th",
+                    "objects_and_counts": [
+                        "4 person, 2 cup, 1 bottle, 2 tie, 1 chair, 1 dining table, 1 tv"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V030_S0021",
+            "start_frame": 1408,
+            "end_frame": 1456,
+            "start_ts": 46.98,
+            "end_ts": 48.582,
+            "duration": 1.602,
+            "keyframes": [
+                {
+                    "frame_idx": 1432,
+                    "timestamp": 47.781,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V030/L25_V030_S0021_F001432.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "FOUR\" POINTS L MERIDIEN THE WESTIN S STRỌN 22 AM Marrioff INTERNATIONAL MINK",
+                "vlm_caption": {
+                    "detailed_description": "A group of individuals, including a man in a suit holding a tablet, are gathered at a table with laptops and a floral arrangement, with a backdrop featuring logos and the text \"Live Fully\" and \"Marriott International.\"",
+                    "objects_and_counts": [
+                        "6 person, 3 tie, 1 bottle"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V030_S0022",
+            "start_frame": 1457,
+            "end_frame": 1477,
+            "start_ts": 48.615,
+            "end_ts": 49.283,
+            "duration": 0.667,
+            "keyframes": [
+                {
+                    "frame_idx": 1467,
+                    "timestamp": 48.949,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V030/L25_V030_S0022_F001467.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "",
+                "ocr_text": "¡lional Salgon IN COOPE REEMEN University EREM 2023 CHANG GUNG UNIVERSITY HSING WU UNIVERSITY SIU • SIU on International SIT",
+                "vlm_caption": {
+                    "detailed_description": "A group of individuals are holding red folders with the letters \"SIU\" on them, standing in front of a blue backdrop with the text \"DEEPEMM COOPERATION\" and \"SIU 2023.\"",
+                    "objects_and_counts": [
+                        "5 person, 2 tie, 2 potted plant, 3 laptop"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V030_S0023",
+            "start_frame": 1478,
+            "end_frame": 1538,
+            "start_ts": 49.316,
+            "end_ts": 51.318,
+            "duration": 2.002,
+            "keyframes": [
+                {
+                    "frame_idx": 1508,
+                    "timestamp": 50.317,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V030/L25_V030_S0023_F001508.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "Four individuals are seated at a table in a library, engaged in a discussion with one standing behind them.",
+                    "objects_and_counts": [
+                        "6 person, 8 chair, 7 book"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V030_S0024",
+            "start_frame": 1539,
+            "end_frame": 1576,
+            "start_ts": 51.351,
+            "end_ts": 52.586,
+            "duration": 1.235,
+            "keyframes": [
+                {
+                    "frame_idx": 1557,
+                    "timestamp": 51.952,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V030/L25_V030_S0024_F001557.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "24",
+                "ocr_text": "THE KT HỘI THAN NHÀN DAN SIU Saigon International U UNIVERSITY Sai du.vn",
+                "vlm_caption": {
+                    "detailed_description": "A person is speaking into a microphone at a podium with a Vietnamese flag and university logo in the background, while another person sits at a table with a Vietnamese flag and university logo.",
+                    "objects_and_counts": [
+                        "10 person, 2 tie, 2 chair, 1 laptop"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V030_S0025",
+            "start_frame": 1577,
+            "end_frame": 1614,
+            "start_ts": 52.619,
+            "end_ts": 53.854,
+            "duration": 1.235,
+            "keyframes": [
+                {
+                    "frame_idx": 1595,
+                    "timestamp": 53.22,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V030/L25_V030_S0025_F001595.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "UNIVERSITY SIU",
+                "vlm_caption": {
+                    "detailed_description": "A classroom setting with students seated at desks, facing a presenter standing in front of a large screen displaying a presentation slide, with a \"SIU UNIVERSITY\" sign visible in the background.",
+                    "objects_and_counts": [
+                        "22 person, 8 chair, 1 tv, 1 tie"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V030_S0026",
+            "start_frame": 1615,
+            "end_frame": 1658,
+            "start_ts": 53.887,
+            "end_ts": 55.322,
+            "duration": 1.435,
+            "keyframes": [
+                {
+                    "frame_idx": 1636,
+                    "timestamp": 54.588,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V030/L25_V030_S0026_F001636.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A group of chefs in white uniforms and red aprons are preparing food in a professional kitchen, with one chef adding ingredients to a bowl.",
+                    "objects_and_counts": [
+                        "5 person, 3 bowl, 1 bottle"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V030_S0027",
+            "start_frame": 1659,
+            "end_frame": 1711,
+            "start_ts": 55.355,
+            "end_ts": 57.09,
+            "duration": 1.735,
+            "keyframes": [
+                {
+                    "frame_idx": 1685,
+                    "timestamp": 56.223,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V030/L25_V030_S0027_F001685.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "SIU Universily Tlành trinh de\" Phường Đòng",
+                "vlm_caption": {
+                    "detailed_description": "A group of performers in traditional attire are seated on a red carpet, with a large blue banner in the background displaying Vietnamese text.",
+                    "objects_and_counts": [
+                        "17 person, 1 potted plant, 1 tv, 2 bottle, 1 laptop, 1 chair"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V030_S0028",
+            "start_frame": 1712,
+            "end_frame": 1765,
+            "start_ts": 57.124,
+            "end_ts": 58.892,
+            "duration": 1.768,
+            "keyframes": [
+                {
+                    "frame_idx": 1738,
+                    "timestamp": 57.991,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V030/L25_V030_S0028_F001738.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "PHƯƠNG THỨC XÉT TUYỂN TẠI 4 SIU 1. Xét tuyển học bạ 3 học kỳ (2HK lớp 11 + HKi lớp 12)' 2. Xét tuyển học bạ lớp 12 3. Xét tuyển kết quả kỳ thi THPT 4. Xét tuyển kết quả kỳ thi đánh giá năng lực của Đại học Quốc gia TPHCM",
+                "vlm_caption": {
+                    "detailed_description": "A man and a woman are holding a book, with a blue background and text in Vietnamese describing four methods of admission at SIU.",
+                    "objects_and_counts": [
+                        "2 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V030_S0029",
+            "start_frame": 1766,
+            "end_frame": 1823,
+            "start_ts": 58.926,
+            "end_ts": 60.827,
+            "duration": 1.902,
+            "keyframes": [
+                {
+                    "frame_idx": 1794,
+                    "timestamp": 59.86,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V030/L25_V030_S0029_F001794.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "SIU cam kết hỗ trợ sinh viên",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A man in academic regalia stands at a podium, holding a bouquet of yellow flowers, with red and yellow flags in the background.",
+                    "objects_and_counts": [
+                        "1 person, 1 potted plant"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V030_S0030",
+            "start_frame": 1824,
+            "end_frame": 1869,
+            "start_ts": 60.861,
+            "end_ts": 62.362,
+            "duration": 1.502,
+            "keyframes": [
+                {
+                    "frame_idx": 1846,
+                    "timestamp": 61.595,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V030/L25_V030_S0030_F001846.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Với nhiều chính sách học bổng",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A man in academic regalia stands at a podium with a microphone, addressing an audience in front of flags.",
+                    "objects_and_counts": [
+                        "1 person, 1 potted plant, 1 tie"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V030_S0031",
+            "start_frame": 1870,
+            "end_frame": 1935,
+            "start_ts": 62.396,
+            "end_ts": 64.564,
+            "duration": 2.169,
+            "keyframes": [
+                {
+                    "frame_idx": 1902,
+                    "timestamp": 63.463,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V030/L25_V030_S0031_F001902.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "20 suất học bổng chủ tình S.I.U",
+                "ocr_text": "SIU Shine rons. New Path",
+                "vlm_caption": {
+                    "detailed_description": "A woman in a black suit is receiving a bouquet from another woman in a white shirt, while a third woman in a black dress stands nearby, holding a certificate.",
+                    "objects_and_counts": [
+                        "4 person, 1 tv, 1 teddy bear"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V030_S0032",
+            "start_frame": 1936,
+            "end_frame": 2006,
+            "start_ts": 64.598,
+            "end_ts": 66.934,
+            "duration": 2.336,
+            "keyframes": [
+                {
+                    "frame_idx": 1971,
+                    "timestamp": 65.766,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V030/L25_V030_S0032_F001971.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "100 suất học bổng tiếp bước hành trình",
+                "ocr_text": "The Saigon International -UnIversity LỄ CÔNG BỐ surney",
+                "vlm_caption": {
+                    "detailed_description": "A group of students in blue uniforms stand on a stage, clapping and holding a flag, while a man in a suit stands in front of them, with a large screen displaying \"LỄ CÔNG BỐ Journey Scholarship\" in the background",
+                    "objects_and_counts": [
+                        "17 person, 5 chair"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V030_S0033",
+            "start_frame": 2007,
+            "end_frame": 2038,
+            "start_ts": 66.967,
+            "end_ts": 68.001,
+            "duration": 1.034,
+            "keyframes": [
+                {
+                    "frame_idx": 2022,
+                    "timestamp": 67.467,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V030/L25_V030_S0033_F002022.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Quỹ tài năng trẻ",
+                "ocr_text": "The Saigon Internationa TRƯỜNG ĐẠI HỌC QUỐC TẾ SÀI GÒN TRAO TẶNG QUÝ HỌC BỔNG TÁI NĂNG TRẺ 8899 40% - 60% 8 HỌC PHÍ TOÀN KHOÁ 506 thttps://www.lacebook.com www.siu.edu.vn",
+                "vlm_caption": {
+                    "detailed_description": "Two men are holding a sign that reads \"TRAO TẶNG QUÝ HỌC BỔNG TÀI NĂNG TRẺ 40% - 60% - 100% HỌC PHÍ",
+                    "objects_and_counts": [
+                        "2 person, 1 tie"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V030_S0034",
+            "start_frame": 2039,
+            "end_frame": 2120,
+            "start_ts": 68.035,
+            "end_ts": 70.737,
+            "duration": 2.703,
+            "keyframes": [
+                {
+                    "frame_idx": 2079,
+                    "timestamp": 69.369,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V030/L25_V030_S0034_F002079.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Học bổng 50% học phí toàn hóa",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "Two women in white shirts are standing in front of a door with a digital display showing a sports event.",
+                    "objects_and_counts": [
+                        "2 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V030_S0035",
+            "start_frame": 2121,
+            "end_frame": 2155,
+            "start_ts": 70.771,
+            "end_ts": 71.905,
+            "duration": 1.134,
+            "keyframes": [
+                {
+                    "frame_idx": 2138,
+                    "timestamp": 71.338,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V030/L25_V030_S0035_F002138.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A group of dancers in white outfits perform on stage with a backdrop of Van Gogh's \"Starry Night.\"",
+                    "objects_and_counts": [
+                        "16 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V030_S0036",
+            "start_frame": 2156,
+            "end_frame": 2191,
+            "start_ts": 71.939,
+            "end_ts": 73.106,
+            "duration": 1.168,
+            "keyframes": [
+                {
+                    "frame_idx": 2173,
+                    "timestamp": 72.506,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V030/L25_V030_S0036_F002173.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Trong các hoạt động văn hóa",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "In a split-screen image, a player in green is dribbling the ball while being guarded by a player in black, with another player in black approaching from the right side of the court.",
+                    "objects_and_counts": [
+                        "6 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V030_S0037",
+            "start_frame": 2192,
+            "end_frame": 2229,
+            "start_ts": 73.14,
+            "end_ts": 74.374,
+            "duration": 1.235,
+            "keyframes": [
+                {
+                    "frame_idx": 2210,
+                    "timestamp": 73.74,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V030/L25_V030_S0037_F002210.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A group of swimmers in a pool, wearing caps and swimsuits, are practicing freestyle strokes with kickboards.",
+                    "objects_and_counts": [
+                        "4 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V030_S0038",
+            "start_frame": 2230,
+            "end_frame": 2266,
+            "start_ts": 74.408,
+            "end_ts": 75.609,
+            "duration": 1.201,
+            "keyframes": [
+                {
+                    "frame_idx": 2248,
+                    "timestamp": 75.008,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V030/L25_V030_S0038_F002248.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Học bổng đồng hành sẽ được tạo ra bởi các bạn.",
+                "ocr_text": "The Saigon International -University LỄ KÝ KẾT HỌC BỔNG ĐỒNG HÀNH XÂY DỰNG NHÂN LỰC CHẤT LƯỢNG CAO CHO THÀNH PHỐ THỦ ĐỨC SIU SIU Balgon Interationi algon Interationi UNIVERSITY UNIVERSIT) www.skuedu.vn",
+                "vlm_caption": {
+                    "detailed_description": "A group of four individuals stand behind a table with red and white banners, signing documents at a formal event titled \"The Saigon International University\" in a room with red curtains and a large screen displaying the event's title.",
+                    "objects_and_counts": [
+                        "5 person, 4 laptop, 1 tv, 1 potted plant"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V030_S0039",
+            "start_frame": 2267,
+            "end_frame": 2311,
+            "start_ts": 75.642,
+            "end_ts": 77.11,
+            "duration": 1.468,
+            "keyframes": [
+                {
+                    "frame_idx": 2289,
+                    "timestamp": 76.376,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V030/L25_V030_S0039_F002289.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "xây dựng nhân lực chất lượng cao",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A woman in a blue dress stands at a podium with a microphone, delivering a speech in front of a floral arrangement.",
+                    "objects_and_counts": [
+                        "1 person, 1 potted plant"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V030_S0040",
+            "start_frame": 2312,
+            "end_frame": 2352,
+            "start_ts": 77.144,
+            "end_ts": 78.478,
+            "duration": 1.335,
+            "keyframes": [
+                {
+                    "frame_idx": 2332,
+                    "timestamp": 77.811,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V030/L25_V030_S0040_F002332.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "thành phố Thủ Đức, thành phố Hồ Chí Minh.",
+                "ocr_text": "LÊ KÝ KẾT T NGUYỄN HỮU BIÊN BẢN HƠ HỢP TÁC GIỮA TRƯỜI ẢI GÒN TRƯỜNG ĐẠI HỌC QUÔ Ip nồ Chí Men ngày Di P TRƯỜNG ĐẠI HỌC QUỐC TẾ SÀI GÓN TRAO TẶNG HỌC BỒNG ĐỒNG HÀNH XÂY DỰNG NHÂN LỰC CHẤT LƯỢNG CAO CHO THÀNH PHỐ THỦ ĐƯC ) HỌC PHÍ TOÀN KHOA HỌC 30% TRỊ GIÁ 00000",
+                "vlm_caption": {
+                    "detailed_description": "Two men are holding a large check for 30% of the tuition fee, with a backdrop indicating a university partnership event.",
+                    "objects_and_counts": [
+                        "2 person, 1 tie"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V030_S0041",
+            "start_frame": 2353,
+            "end_frame": 2399,
+            "start_ts": 78.512,
+            "end_ts": 80.047,
+            "duration": 1.535,
+            "keyframes": [
+                {
+                    "frame_idx": 2376,
+                    "timestamp": 79.279,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V030/L25_V030_S0041_F002376.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Học bổng doanh nghiệp tài trợ",
+                "ocr_text": "International University MOU SIGNING CEREMONY With BUSINESS PARTNERS Ho Chi Minh City, December 20, 2023 SIU SIU SIU Saigon International Saigon International Saigon International UNIVERSITY UNIVERSITY UNIVERSITY",
+                "vlm_caption": {
+                    "detailed_description": "A group of individuals stands behind a table at a signing ceremony for a Memorandum of Understanding (MOU) with business partners, with a backdrop displaying the event details and the university's logo.",
+                    "objects_and_counts": [
+                        "7 person, 7 laptop, 2 tie"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V030_S0042",
+            "start_frame": 2400,
+            "end_frame": 2436,
+            "start_ts": 80.08,
+            "end_ts": 81.281,
+            "duration": 1.201,
+            "keyframes": [
+                {
+                    "frame_idx": 2418,
+                    "timestamp": 80.681,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V030/L25_V030_S0042_F002418.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hợp bổng 20%",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A man is giving a presentation to a class of students in a modern classroom setting.",
+                    "objects_and_counts": [
+                        "5 chair, 13 person, 1 laptop"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V030_S0043",
+            "start_frame": 2437,
+            "end_frame": 2469,
+            "start_ts": 81.315,
+            "end_ts": 82.382,
+            "duration": 1.068,
+            "keyframes": [
+                {
+                    "frame_idx": 2453,
+                    "timestamp": 81.848,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V030/L25_V030_S0043_F002453.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "Three students in school uniforms are gathered around a desk, with one of them writing while the others observe.",
+                    "objects_and_counts": [
+                        "6 person, 1 tie, 1 book"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V030_S0044",
+            "start_frame": 2470,
+            "end_frame": 2513,
+            "start_ts": 82.416,
+            "end_ts": 83.85,
+            "duration": 1.435,
+            "keyframes": [
+                {
+                    "frame_idx": 2491,
+                    "timestamp": 83.116,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V030/L25_V030_S0044_F002491.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "Four men in white shirts and red ties are seated around a table, engaged in a discussion with papers and laptops in front of them.",
+                    "objects_and_counts": [
+                        "2 laptop, 4 person, 3 tie, 7 chair, 6 book, 1 keyboard, 1 dining table, 1 potted plant"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V030_S0045",
+            "start_frame": 2514,
+            "end_frame": 2550,
+            "start_ts": 83.884,
+            "end_ts": 85.085,
+            "duration": 1.201,
+            "keyframes": [
+                {
+                    "frame_idx": 2532,
+                    "timestamp": 84.484,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V030/L25_V030_S0045_F002532.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "core; int rasp ente GIVE YOU",
+                "vlm_caption": {
+                    "detailed_description": "A man in a floral shirt is speaking into a microphone with a projection of code behind him, with the text \"GIVE YOU YOU WANT\" prominently displayed.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V030_S0046",
+            "start_frame": 2551,
+            "end_frame": 2585,
+            "start_ts": 85.118,
+            "end_ts": 86.253,
+            "duration": 1.134,
+            "keyframes": [
+                {
+                    "frame_idx": 2568,
+                    "timestamp": 85.686,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V030/L25_V030_S0046_F002568.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "S.I.U",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "Graduates in black gowns and blue robes are throwing their caps into the air outdoors.",
+                    "objects_and_counts": [
+                        "7 person, 1 kite"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V030_S0047",
+            "start_frame": 2586,
+            "end_frame": 2659,
+            "start_ts": 86.286,
+            "end_ts": 88.722,
+            "duration": 2.436,
+            "keyframes": [
+                {
+                    "frame_idx": 2622,
+                    "timestamp": 87.487,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V030/L25_V030_S0047_F002622.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Tâm hồn Việt Nam, Giáo dục Thế Giới",
+                "ocr_text": "2007 THE SAIGON INTERNATIONAL UNIVERSITY Tâm hòn Việt Nam, giáo dục thể giải Vietnam's spirit global edutation",
+                "vlm_caption": {
+                    "detailed_description": "The image features the logo and name of The Saigon International University against a backdrop of a bright blue sky with clouds and a rainbow.",
+                    "objects_and_counts": [
+                        "1 frisbee"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V030_S0048",
+            "start_frame": 2660,
+            "end_frame": 2872,
+            "start_ts": 88.755,
+            "end_ts": 95.829,
+            "duration": 7.074,
+            "keyframes": [
+                {
+                    "frame_idx": 2766,
+                    "timestamp": 92.292,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V030/L25_V030_S0048_F002766.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Về kiến thức phần này, chúng ta sẽ có những nội dung trọng tâm về amin, amino acid và protein.",
+                "ocr_text": "A. Kiến thức cần nhớ TH TIHMEN 1. Amin 2. Amino axit 000880•-",
+                "vlm_caption": {
+                    "detailed_description": "A man in a white shirt and purple tie is standing in front of a green screen displaying a quiz with options 1. Amin and 2. Amino acid.",
+                    "objects_and_counts": [
+                        "1 person, 1 tie, 1 laptop"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V030_S0049",
+            "start_frame": 2873,
+            "end_frame": 9882,
+            "start_ts": 95.862,
+            "end_ts": 329.729,
+            "duration": 233.867,
+            "keyframes": [
+                {
+                    "frame_idx": 6377,
+                    "timestamp": 212.779,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V030/L25_V030_S0049_F006377.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Ta đi vào phần đầu tiên, amine. Amine là hợp chất hữu cơ mà khi thay các nguyên tử hero trong phân tử ammonia NH3, chúng ta sẽ thu được các cái amine. Chẳng hạn như khi em thay 1 hero bằng 1 gốc R, thì chúng ta được amine, đó là amine bật 1. Khi thay 2 gốc, thì chúng ta được amine bật 2. Khi thay 3 gốc, chúng ta được amine bật 3. Và đó chính là nội dung về bật của amine. Bật của amine chính là số gốc gắn vào nguyên tử N. Về tên gọi gốc chức và tên thay thế, thì các em nhớ tên gốc chức của chúng ta sẽ gọi tên của gốc R kết hợp với chữ amine. Chẳng hạn CH3CH2 là gốc etin, kết hợp với amine, chúng ta được etin amine. CH3 2 gốc thì gọi là dimetin, và có nhóm NH thì gọi là amine, vậy dimetin amine. Hoặc CH6H5NH2, chúng ta gọi nó là phenylamine, hay còn gọi tên riêng đó là aniline. Và đây là một hộp chất lỏng không màu, hầu như không tan trong nước. Những cái amine có 1C CH3NH2, 2C CH2H5NH2, hoặc CH3NHCH3, 3C CH3 3NN, đó là những chất khí có mùi khai và dễ tan trong nước vì tạo được liên kết hero với nước. Về tính chất hóa học, thì amine của chúng ta là chất khí có mùi khai và dễ tan trong nước vì tạo được liên kết hero với nước. Chúng ta được làm ra từ việc mà chúng ta thay cái nguyên tử hero trong phân tử NH3 bằng các gốc hydrocarbon, để chúng ta thu được amine. Vậy chúng ta truy xuất lại tính chất hóa học của NH3, đó là tính 3G. Thì amine của chúng ta sẽ sở hữu tính chất đó, nó cũng sẽ có tính 3G. Và tính 3G này được gây ra bởi cặp electron tự do trên nguyên tử nitro. Amine sẽ làm quỳ tím hóa xanh. Trừ aniline, đó là một bazar rất yếu. Do nó gắn cái nhóm C6H5, đó là một nhóm mà nó gây ra một cái hiệu ứng làm giảm tính 3G của phân tử aniline. Nên aniline sẽ không làm quỳ tím hóa xanh. Tất cả các chất amine còn lại thì đều làm được quỳ tím hóa xanh do thể hiện tính 3G. Đã là 3G thì amine sẽ có phản ứng với acid và tạo ra những cái muối aniline. Đó là tính chất quả học của amine. Và riêng aniline, nó cũng là một chất có tính chất đặc biệt phân tử trước vòng benzene. Thì nó phản ứng được với 3 monoprom và định hướng thế ở vị trí 246 trường ứng với octo và para. Tạo ra sản phẩm kết tủa màu trắng C6H2Br3NH2. Đó là về amine. Chúng ta nhớ thêm một ứng dụng của amine nữa. Đó là các hợp chất amine như là trimethylamine thường có trong mùi tanh của cá. Vậy để chế biến thực phẩm có liên quan đến cá thì người ta sẽ khử mùi tanh này. Chúng ta vừa thông qua tính chất quả học đó là amine có tính 3G. Vậy chúng ta sử dụng một chất có tính acid và thân thiện với lĩnh vực thực phẩm đó là giấm ăn. Trong giấm ăn chứa acid acetic. Nên chúng ta sẽ dùng giấm ăn để khử mùi tanh của cá. Đó là nội dung kiến thức. Nên chúng ta sẽ dùng giấm ăn để khử mùi tanh của cá. Đó là nội dung kiến thức quan trọng về ứng dụng. Về công thức tổng quát của amine thì chúng ta có thể liệt kê một số những amine mà chúng ta thường gặp. Như là CH3NH2, CH2H5NH2. Thì quan sát em thấy đây là những amine no đơn chức nên nó có công thức chung. Gọi N là số nguyên tử carbon thì hydro sẽ là 2N cộng 3. Và đương nhiên đơn chức thì có 1 nguyên tử nitro. Nên công thức của nó là CH2NH2N cộng 3 nitro.",
+                "ocr_text": "Tên IUPAC Tên gốc chức (tên thay thế) Tên gốc R + amin AMIN Tên bydrocacbon + amin CH3-CH2-NH2: etylamin Danh pháp CH3-CH2-NH-CH3: N-metyletanamin chứa N CH3-NH-CH3 : dimetylamin - CoHsNH2 : anilin (phenylamin) chất lỏng không màu, hóa đen ngoài không khí,hầu Gây mùi tanh của cá-dùng axit để khử (giấm, như không tan trong nước, nặng hơn nước chanh) (dựa vào tính chất hóa học) hoặc dùng bia CHSNH2, CHSNH:, CHNHCH3, (CH3).N: chất khí mùi khai, tan trong nước, độ (vì 5% ancol bốc hơi sẽ kèm theo mùi tanh) CTTQ: - amin đơn chức (RN) Tính bazơ (do cặp e tự do trên N) - no, đơn chức : C.H2n+3N (n ≥ 1) + làm quỳ hóa xanh (trì anilin) (R-NH: ) RNH2 + HNO3 → RNH3NO3 RNH2 + HCI → RNH3C1 + tác dụng axit : Tính chất Amin bậc I *amin có tính chất giống NH3 : tạo hydroxit kết tủa khi tác dụng muối của kim loại. nhóm amin Thay thể R vào các (R-NH-R) * phân ứng riêng của anilin (giống phenol C6HsOH) Amin bac II vị tri (), (C), (3) C6H:NH2 + 3Brz → C6H:Br3NH2 -+ 3HBr (kết tủa trắng) (R-N-R) ----- Amin bậc III Số vị trí-amino + tên axit + Nếu dùng a. B.y... thì tên axit đọc theo tên thường Tên thay thể + Nếu dùng 1, 2, 3... thì tên axit đọc theo tên thay thế NH2-CH2-COOH: a - amino axetic (2-amino etanoic) Glyxin (: H2N-CH2-COOH Alanin : H2N-CH(CH3)-CОOH AMINO AXIT Valin (M=117): NH2-C4Hs-COOH Lysin (M=146): (NH2)2-C:H9-COOH (NH2).-R-(COOH)m Tên amino axit Axit glutamic : HaN-CHs-(COOH)2 C ampha (dl) R (muỗi mono Na glutamat: làm bột ngọt, axit glutamic làm thuốc bổ thần kinh, methionin: thường gặp bổ gan) nhóm cacboxy! * a-amino axit (aminoaxit tự nhiên, cấu tạo tế bào) : NH2 và COOH cùng gắn trên một C nhóm amino 1.Tính lưỡng tính: tác dụng axit, bazơ là chất rắn kết tinh không màu, tan H2N-R-COOH + HCI → CIE3N-R-COOH H.N-R-COOH + HNO3 → HOOC-R-NH3NO3 trong nước (do tổn tại dạng ion lưỡng H2N-R-COOH + NaOH → HoN-RCOONa + H20 cực), nhiệt độ sôi, nóng chảy cao. 2. Tính chất nhóm COOH : tác dụng ancol (R'OH) tạo este của amino axit: CTTQ : - amino axit no 1 nhóm NH2, Tính chất H2N-R-COOH + R'OH → HN-R-COOR' + H2O 1 nhóm COOH HAN-R-COOH (C.H.O.N) 2 Phản ứna hàng nomo.",
+                "vlm_caption": {
+                    "detailed_description": "The image is a detailed educational diagram about amino acids, including their chemical structures, functional groups, and various classifications, presented in Vietnamese."
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V030_S0050",
+            "start_frame": 9883,
+            "end_frame": 10219,
+            "start_ts": 329.763,
+            "end_ts": 340.974,
+            "duration": 11.211,
+            "keyframes": [
+                {
+                    "frame_idx": 10051,
+                    "timestamp": 335.368,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V030/L25_V030_S0050_F010051.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Về amino acid thì chúng ta thấy cái tên amino acid thì trong phân tử sẽ chứa nhóm amine và nhóm amino acid COOH",
+                "ocr_text": "Tên IUPAC Tèn gôc chức (tên thay thể) Ten goc k e amin AMIN Ten hydrocacbon + amin CHJ-CH:-NH:: etylamin Đanh pháp chứa N CHs-CH:-NH-CHs: N-metyletanamin CH›-NH-CHs : dimetylamin Gây mùi tanh của cá-dùng axit để khic (giấm, CHeNH: : anilin (phenylamin) chất lỏng không màu, hỏa đen ngoài không khi, hầu như không tan trong nước, nặng hơn nước chanh) (đựa vào tinh chất hóa học) hoặc dùng bia (vì 5% ancol bốc hơi sẽ kèm theo mùi tanh) - CHINH: , C:H NH:, CH NHCH›, (CH)):N : chất khí mùi khai, tan trong nước, độc - amin đơn chức (RN) • LInD bazo (0o cal - no, đơn chức : C,H2a+3N (n 2 1) + làm quý hóa xanh (trừ anilin) + tác dụng axit : RNH: + HCI → RNH C1 RNH: + HNOS → RNH NOS Tính chất *amin có tỉnh chất giống NH, : tạo hydroxit kết tủa khi tác dụng muối của kim loại. nhóm amin * phản ứng riêng của anilin (gióng phenol C&HsOH) Amin bac lE CHsNH: + 3Br: → C&H:BrgNH: 1+ 3HBr (kết tủa tráng) Amin bac II vị tri-amino + tên axit + Nếu dùng a. B.y... thì tên axít đọc theo tên thường Tèn thay thể + Nếu dùng 1, 2, 3... thì tên axit đọc theo tên thay thế NH:-CH:-COOH: a - amino axetic (2-amino etanoic) Alanin : HEN-CH(CH))-COOH Glyxin (: H:N-CH:-COOH AMINO AXIT Valin (M-117): NH:-Cas-COOH Lysin (M-146): (NH:):-CsHs-COOH (NH:).-R-(COOH)- Ten amino axit Axit glutamic : HoN-C:Hs-(COOH): C apta (Q)) (muối mono Na glutamat: làm bột ngọt, axit glutamic làm thuốc bổ thần kinh, methionin: thương gặp bỗ gan) * a-amino axit (aminoaxit tực nhiên, cầu tạo tế bào) : NH) và COOH cùng gắn trên một C 1.Tính lưỡng tính: tác dụng axit, bazo -là chất răn kết tính không màu, tan HEN-R-COOH + HNO, - HOOC-R-NH.NO: HEN-R-COOH + HCI → CIFIN-R-COOH trong nước (do tồn tại dạng ion lưởng HEN-R-COOH + NaOH → H:N-RCOONa + H:O cực), nhiệt độ sôi, nóng chây cao. 2. Tính chất nhóm COOH : tác dụng ancol (R'OH) tạo este của amino axit: CTTQ: - amino axit no 1 nhỏm NH3, Tinh chất H:N-R-COOH + R'OH → H:N-R-COOR' + H:O 1 nhóm COOH H:N-R-COOH C.HuO:N)",
+                "vlm_caption": {
+                    "detailed_description": "A man in glasses and a purple tie is holding a black object in front of a white background with text and images.",
+                    "objects_and_counts": [
+                        "1 person, 2 tie"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V030_S0051",
+            "start_frame": 10220,
+            "end_frame": 14386,
+            "start_ts": 341.007,
+            "end_ts": 480.013,
+            "duration": 139.006,
+            "keyframes": [
+                {
+                    "frame_idx": 12303,
+                    "timestamp": 410.51,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V030/L25_V030_S0051_F012303.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "COH này là nhóm carbosin Còn NH2 là nhóm amino Nên gọi lại chúng ta sẽ được là amino acid Amino acid là những chất rắn kết tinh Không màu, tan trong nước Và tồn tại dạng ion lưỡng cực Nhiệt độ soi và nhiệt độ nóng chảy cao Tính chất hóa học của nó Nhìn vào thành phần chúng ta thấy đây là một hợp chất tạp chất Vừa chứa nhóm amin Thể hiện tính 3G Vừa chứa nhóm carbosin Thể hiện tính acid Cho nên nó sẽ thể hiện đầy đủ tính chất của 3G và của acid Và vừa có tính 3G vừa có tính acid Thì nó có tính chất lưỡng tính Một số hợp chất amino acid quan trọng Chúng ta cần phải nhớ về công thức Và nhớ phân tự khối luôn thì càng tốt Nó sẽ giúp cho chúng ta rút ngắn được quá trình giải toán Ví dụ glycine của chúng ta có công thức là H2NCH2COH H2NCH2COH Valine của chúng ta là H2C4H8COH Alanine H2NCH Có nhánh CH3COOH Học glycine có công thức là H2NCH2COH Ở đây các em nhìn vào những hợp chất amino acid Thì nó có một điều là Acid glutamate có 2 nhóm COOH Còn glycine có 2 nhóm NH2 Và 2 chất này sẽ có tính chất đặc biệt là Acid glutamate sẽ làm quỳ tím hóa đỏ Vì chứa nhóm COOH có số lượng là 2 Nhiều hơn nhóm NH2 Còn glycine của chúng ta thì chứa nhóm NH2 Số lượng là 2 Nhiều hơn nhóm COOH Cho nên nó sẽ làm quỳ tím hóa thành màu xanh Còn các amino acid còn lại thì sao các em Nó đều thấy là 1 nhóm NH2 và 1 nhóm COOH Cho nên nó không làm quỳ tím đổi màu Và tính chất này Cũng cần phải nhớ là Đó là tính chất của nhóm COOH Với nhóm NH2 Có thể phản ứng nội phân tử với nhau Và gây ra 1 phản ứng trùm ngưng Đó là nhóm COOH Phản ứng với nhóm NH2 Và loại ra 1 phân tử nước Khi đó chúng ta sẽ thu được 1 hợp chất amide",
+                "ocr_text": "Tên IUPAC Têu gốc chức (tên thay thế) Tên gốc R + amin AMIN Tên hydrocacbon + amin CH3-CH2-NH2: etylamin Danh pháp CH3-CH2-NH-CH3: N-metyletanamin chứa N CH3-NH-CH3 : dimetylamin - CoHsNH≥ : anilin (phenylamin) chất lỏng không màu, hóa đen ngoài không khí,hầu Gây mùi tanh của cá-dùng axit để khử (giấm, như không tan trong nước, nặng hơn nước chanh) (dựa vào tính chất hỏa học) hoặc dùng bia CHSNH3, C.HSNH:, CHSNHCH3, (CH3).N: chất khí mùi khai, tan trong nước, độ (vì 5% ancol bốc hơi sẽ kèm theo mùi tanh) CTTQ: - amin đơn chức (RN) -Tính bazơ (do cặp e tự do trên N) - no, đơn chức : CnH2n+3N (n ≥ 1) + làm quỳ hóa xanh (tri anilin) (R-NH: ) RNH2 + HCI → RNH CI + tác dụng axit : RNH2 + HNO3 → RNH3NO3 Tính chất Amin bac I *amin có tính chất giống NH3 : tạo hydroxit kết tủa khi tác dụng muối của kim loại. nhóm amin Thay thẻ R vào các (R-NH-R) * phân ứng riêng của anilin (giống phenol C6HsOH) vị tri (1), (C), (3) Amin bác II (R-N-R ) (kết tủa trắng) R Amin bác III Số vị trí-amino + tên axit + Nếu dùng a,B.y... thì tên axit đọc theo tên thường Tên thay thê + Nếu dùng 1, 2, 3... thì tên axit đọc theo tên thay thể NH:-CH2-COOH: a - amino asetic (2-amino etanoic) Glyxin (: H2N-CH2-COOH Alanin : H:N-CH(CH3)-COOH AMINO AXIT Valin (M=117): NH2-C.Hs-COOH (NH2).-R-(COOH)m Tèn amino axit Axit glutamic : H2N-C3H5-(COOH)2 C ampha (O) (muỗi mono Na glutamat: làm bột ngọt, axit glutamic làm thuốc bổ thần kinh, methionin: thường gặp bổ gan) nhóm cacboxy! * a-amino axit (aminoaxit tự nhiên, cấu tạo tế bào) : NH, và COOH cùng gắn trên một C nhóm amino 1. Tính lưỡng tính: tác dụng axit, bazơ là chất rắn kết tinh không màu, tan HEN-R-COOH + HCI → CIH3N-R-COOH H.N-R-COOH + HNO3 → HOOC-R-NH3NO3 trong nước (do tổn tại dạng ion lưỡng H2N-R-COOH + NaOH → HIN-RCOONa + H2O cực), nhiệt độ sôi, nóng chảy cao. 2. Tính chất nhóm COOH : tác dụng ancol (R'OH) tạo este của amino axit: CTTQ : - amino axit no 1 nhóm NH2, Tính chất H2N-R-COOH + R'OH → H¿N-R-COOR' + H2O 1 nhóm COOH HENR-COOH (C.H.",
+                "vlm_caption": {
+                    "detailed_description": "The image is a detailed educational diagram in Vietnamese, explaining amino acids, including their structure, classification, and properties, with a focus on the chemical composition and functional groups."
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V030_S0052",
+            "start_frame": 14387,
+            "end_frame": 14768,
+            "start_ts": 480.046,
+            "end_ts": 492.759,
+            "duration": 12.713,
+            "keyframes": [
+                {
+                    "frame_idx": 14577,
+                    "timestamp": 486.386,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V030/L25_V030_S0052_F014577.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Về peptide và protein Thầy tinh dạng kiến thức ở đây Chúng ta nhớ nó có tính chất lý tính Đó là không tan nếu như ở dạng sợi",
+                "ocr_text": "dạng sợi: dạng cầu : - Do a-amino axit tạo thành qua liên kết peptit (CO-NH) tóc, lông, móng hồng cầu... - Trong peptit: Aminoaxit đầu (Đầu N : chứa NH2), aminoaxit đuôi (đâu C: chứa COOH) tan TH NHOEN không tan - Tên : tên gốc axyl (đầu N) + tên aminoaxit đuôi C (giữ nguyên) Ví dụ: NH:-CH,-CONH-CH,-COOH : GlyxylGlyxin (Gly-Gly) PROTEIN 1. Phản ứng thủy phân H* ›a-amino axit + mt axit : peptit + H20 - + mt bazơ : peptit + NaOH → muối a-amino axit + H,O 2. Phân ứng màu biure Peptit + Cu(OH): tạo sản phâm màu tim (trừ đipeptit) + HNO3 tạo sản phâm màu vàng bazo, muối nhiệt độ, axit, Oligopeptit: từ 2-10 gốc a - amino axit Có n gốc a - amino Polypeptit: từ 11- 50 gốc a - amino axit axit thì có (n-1) liên kết đông tụ Protein: từ trên 50 gốc a - amino axit",
+                "vlm_caption": {
+                    "detailed_description": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+                    "objects_and_counts": [
+                        "1 person, 1 tie"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V030_S0053",
+            "start_frame": 14769,
+            "end_frame": 17251,
+            "start_ts": 492.792,
+            "end_ts": 575.608,
+            "duration": 82.816,
+            "keyframes": [
+                {
+                    "frame_idx": 16010,
+                    "timestamp": 534.2,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V030/L25_V030_S0053_F016010.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Protein dạng cầu thì tan Vậy nếu như chúng ta nói chung chung là protein thì không tan trong nước Đó là một phát biểu sai các em nhé Vì dạng sợi ví dụ như tóc, lông, móng sẽ không tan Nhưng nếu dạng cầu ví dụ như là hemoglobin hồng cầu máu Chúng ta thấy nó tan trong nước Về tính chất quá học thì chúng ta nhớ nó có phận thủy phân Thủy phân trong môi trường acid sẽ thu được các alpha amino acid Thủy phân trong môi trường 3G tạo ra các muối và nước Phản ứng màu biurê Các em nhớ rằng peptide sẽ có phản ứng biurê khi nó là dipeptide Thì không có mà là tripeptide trở lên Thì nó sẽ có phản ứng và tạo ra được màu tím Khi phản ứng với HNO3 thì tạo ra được màu vàng Vậy chúng ta nhớ rằng peptide của chúng ta Từ tripeptide trở lên sẽ có phản ứng màu biurê Nghĩa là từ 2 nhóm CONH trở lên các em nhé Các em nhớ rằng peptide của chúng ta Và peptide với protein thì còn có tính chất đông tụ Đông tụ này là tính chất mà khi chúng ta nấu Những cái món như là bún riêu Có gắn gạch cua Thì gạch cua này khi gặp môi trường có nhiệt độ Hoặc là có acid có 3G Trong đó nó sẽ có xảy ra hiện tượng đông tụ protein Và một trong những điều đó chúng ta cũng có thể ứng dụng nó Trong lĩnh vực làm sữa chua",
+                "ocr_text": "dạng cầu : dạng sợi: - Do a-amino axit tạo thành qua liên kết peptit (CO-NH) tóc, lông, móng hồng cầu.... - Trong peptit: Aminoaxit đầu (Đầu N : chứa NH2), aminoaxit đuôi (đầu C: chứa COOH) tan không tan - Tên : tên gốc axyl (đầu N) + tên aminoaxit đuôi C (giữ nguyên) Ví dụ: NH,-CH2-CONH-CH2-COOH : GlyxylGlyxin (Gly-Gly) PROTEIN 1. Phản ứng thủy phân + mt axit : peptit + H,O _H ›a-amino axit + mt bazơ : peptit + NaOH → muối a-amino axit + H,O 2. Phản ứng màu biure Peptit + Cu(OH)2 tạo sản phâm màu tím (trừ đipeptit) + HNO3 tạo sản phẩm màu vàng kazo, muối nhiệt độ, axit, Oligopeptit: từ 2-10 gốc a - amino axit Có n gốc a - amino Polypeptit: từ 11- 50 gốc a - amino axit axit thì có (n-1) liên kết đông tụ Protein: từ trên 50 gốc a - amino axit",
+                "vlm_caption": {
+                    "detailed_description": "The image describes the structure and properties of peptides and proteins, including their formation from amino acids, classification into oligopeptides, polypeptides, and proteins, and their reactions with water and copper hydroxide."
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V030_S0054",
+            "start_frame": 17252,
+            "end_frame": 17571,
+            "start_ts": 575.642,
+            "end_ts": 586.286,
+            "duration": 10.644,
+            "keyframes": [
+                {
+                    "frame_idx": 17411,
+                    "timestamp": 580.947,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V030/L25_V030_S0054_F017411.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Đây là công thức của những cái amin và amino acid peptide phổ biến kem cần nhớ.",
+                "ocr_text": "Công thức cấu tạo một số chất Loại hợp chất Tên gọi Phenylamin (anilin) NH2 Amin bậc 1 CH3- NH-CH2-CH3 Amin bậc 2 CH3 N-NH3 Amin bậc 3 CH3 H2N- CH2-COOH Glixin (Gly) CH3-CH-COOH Alanin (Ala) NH2 CH3-CH- CH2 - COOH Valin (Val) Amino axit CH3 NH, HOOC-CH-CH.-CH2-COOH Axit glutamic (Glu) NH2 H2N - CH2- CH2- CH2-CH2- CH-COOH Lysin (Lys) NH2 -NH-CH-COOH H2N -CH2-C-NH-CH2 Gly - Gly - Ala CH3 Peptit -C- NH-CH2-COOH H2N - CH-C- NH-CH2 Ala - Gly - Gly CH3 O",
+                "vlm_caption": {
+                    "detailed_description": "The image displays a table listing various organic compounds, including amines, amino acids, and peptides, with their chemical structures and names in Vietnamese."
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V030_S0055",
+            "start_frame": 17572,
+            "end_frame": 17774,
+            "start_ts": 586.319,
+            "end_ts": 593.059,
+            "duration": 6.74,
+            "keyframes": [
+                {
+                    "frame_idx": 17673,
+                    "timestamp": 589.689,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V030/L25_V030_S0055_F017673.jpg"
+                },
+                {
+                    "frame_idx": 17622,
+                    "timestamp": 587.987,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V030/L25_V030_S0055_F017622.jpg"
+                },
+                {
+                    "frame_idx": 17723,
+                    "timestamp": 591.357,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V030/L25_V030_S0055_F017723.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "Trường Quốc Tố Á Châu madonal Schan",
+                "vlm_caption": {
+                    "detailed_description": "The image shows a building with a green and white striped facade and a sign in Vietnamese, indicating it is an international school.",
+                    "objects_and_counts": [
+                        "2 person | 3 person | 11 person, 1 dining table, 3 bench"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V030_S0056",
+            "start_frame": 17775,
+            "end_frame": 17824,
+            "start_ts": 593.092,
+            "end_ts": 594.727,
+            "duration": 1.635,
+            "keyframes": [
+                {
+                    "frame_idx": 17799,
+                    "timestamp": 593.893,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V030/L25_V030_S0056_F017799.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A young boy wearing a school uniform and a backpack smiles while another child sits in the background holding a book.",
+                    "objects_and_counts": [
+                        "2 person, 2 backpack, 1 book"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V030_S0057",
+            "start_frame": 17825,
+            "end_frame": 17876,
+            "start_ts": 594.761,
+            "end_ts": 596.463,
+            "duration": 1.702,
+            "keyframes": [
+                {
+                    "frame_idx": 17850,
+                    "timestamp": 595.595,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V030/L25_V030_S0057_F017850.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A person in a pink shirt smiles at the camera with a green, leafy background.",
+                    "objects_and_counts": [
+                        "2 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V030_S0058",
+            "start_frame": 17877,
+            "end_frame": 17906,
+            "start_ts": 596.496,
+            "end_ts": 597.464,
+            "duration": 0.968,
+            "keyframes": [
+                {
+                    "frame_idx": 17891,
+                    "timestamp": 596.963,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V030/L25_V030_S0058_F017891.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A young boy in a white polo shirt and pink hat smiles while holding a book, with another child in the background.",
+                    "objects_and_counts": [
+                        "2 person, 1 backpack, 1 handbag, 1 chair"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V030_S0059",
+            "start_frame": 17907,
+            "end_frame": 18041,
+            "start_ts": 597.497,
+            "end_ts": 601.968,
+            "duration": 4.471,
+            "keyframes": [
+                {
+                    "frame_idx": 17974,
+                    "timestamp": 599.732,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V030/L25_V030_S0059_F017974.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "i ouR class we are a team. We respect each other. WE TAKE ROCKS create.",
+                "vlm_caption": {
+                    "detailed_description": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+                    "objects_and_counts": [
+                        "14 person, 5 chair, 1 tv, 1 dining table, 1 book"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V030_S0060",
+            "start_frame": 18042,
+            "end_frame": 18091,
+            "start_ts": 602.001,
+            "end_ts": 603.636,
+            "duration": 1.635,
+            "keyframes": [
+                {
+                    "frame_idx": 18066,
+                    "timestamp": 602.802,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V030/L25_V030_S0060_F018066.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A man in a white shirt and red tie is gesturing with his right hand while holding a remote control, standing in front of a green chalkboard and a white wall.",
+                    "objects_and_counts": [
+                        "1 person, 1 tie, 1 cell phone"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V030_S0061",
+            "start_frame": 18092,
+            "end_frame": 18128,
+            "start_ts": 603.67,
+            "end_ts": 604.871,
+            "duration": 1.201,
+            "keyframes": [
+                {
+                    "frame_idx": 18110,
+                    "timestamp": 604.27,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V030/L25_V030_S0061_F018110.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "thuộc thể thao.",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A hand is holding a row of colored pencils, with the tips of the pencils showing various colors.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V030_S0062",
+            "start_frame": 18129,
+            "end_frame": 18155,
+            "start_ts": 604.904,
+            "end_ts": 605.772,
+            "duration": 0.868,
+            "keyframes": [
+                {
+                    "frame_idx": 18142,
+                    "timestamp": 605.338,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V030/L25_V030_S0062_F018142.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "감사합니다.",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "Two young girls, one wearing glasses, are engaged in an activity at a table in a classroom setting.",
+                    "objects_and_counts": [
+                        "2 person, 2 chair, 1 potted plant, 1 vase, 1 cake"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V030_S0063",
+            "start_frame": 18156,
+            "end_frame": 18186,
+            "start_ts": 605.805,
+            "end_ts": 606.806,
+            "duration": 1.001,
+            "keyframes": [
+                {
+                    "frame_idx": 18171,
+                    "timestamp": 606.306,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V030/L25_V030_S0063_F018171.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "调整",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A child's drawing depicts a vibrant garden scene with colorful flowers, a butterfly, and a red hat.",
+                    "objects_and_counts": [
+                        "1 dining table, 1 cake"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V030_S0064",
+            "start_frame": 18187,
+            "end_frame": 18422,
+            "start_ts": 606.84,
+            "end_ts": 614.681,
+            "duration": 7.841,
+            "keyframes": [
+                {
+                    "frame_idx": 18304,
+                    "timestamp": 610.743,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V030/L25_V030_S0064_F018304.jpg"
+                },
+                {
+                    "frame_idx": 18245,
+                    "timestamp": 608.775,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V030/L25_V030_S0064_F018245.jpg"
+                },
+                {
+                    "frame_idx": 18363,
+                    "timestamp": 612.712,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V030/L25_V030_S0064_F018363.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Mục đích giáo dục không chỉ là truyền thụ kiến thức, mà còn giúp học sinh sáng tạo, khơi nguồn cảm hứng, độc lập để phát triển và hoàn thiện.",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "The image shows a clear blue sky with scattered white clouds and some green foliage in the foreground.",
+                    "objects_and_counts": [
+                        "2 person, 1 book"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V030_S0065",
+            "start_frame": 18423,
+            "end_frame": 18479,
+            "start_ts": 614.714,
+            "end_ts": 616.583,
+            "duration": 1.869,
+            "keyframes": [
+                {
+                    "frame_idx": 18451,
+                    "timestamp": 615.648,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V030/L25_V030_S0065_F018451.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Nhân cách",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A group of people in red uniforms are sitting on the grass in a park, surrounded by greenery and flowers.",
+                    "objects_and_counts": [
+                        "6 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V030_S0066",
+            "start_frame": 18480,
+            "end_frame": 18502,
+            "start_ts": 616.616,
+            "end_ts": 617.35,
+            "duration": 0.734,
+            "keyframes": [
+                {
+                    "frame_idx": 18491,
+                    "timestamp": 616.983,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V030/L25_V030_S0066_F018491.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Ngoài",
+                "ocr_text": "LAN 199%",
+                "vlm_caption": {
+                    "detailed_description": "Two individuals in red shirts are engaged in a conversation outdoors, with one wearing glasses and the other gesturing with their hand.",
+                    "objects_and_counts": [
+                        "2 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V030_S0067",
+            "start_frame": 18503,
+            "end_frame": 18543,
+            "start_ts": 617.383,
+            "end_ts": 618.718,
+            "duration": 1.335,
+            "keyframes": [
+                {
+                    "frame_idx": 18523,
+                    "timestamp": 618.051,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V030/L25_V030_S0067_F018523.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "những giờ học trên lớp, học",
+                "ocr_text": "A Flag 13% 112 Grammat and Witnes Pull All Together Projects Listening and Speaking Wotkshop: Dechpline Cra Game - Writing Workshop: Write a Descriptive Paragraph Fluency • Picture Dictionary •",
+                "vlm_caption": {
+                    "detailed_description": "A hand holding a book with a page displaying a reading lesson and an illustration of an astronaut on the moon.",
+                    "objects_and_counts": [
+                        "1 book"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V030_S0068",
+            "start_frame": 18544,
+            "end_frame": 18609,
+            "start_ts": 618.751,
+            "end_ts": 620.92,
+            "duration": 2.169,
+            "keyframes": [
+                {
+                    "frame_idx": 18576,
+                    "timestamp": 619.819,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V030/L25_V030_S0068_F018576.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "sinh trường quốc tế Á Châu còn được trải ngay",
+                "ocr_text": "PHAÁ TH ANS BOOK FAIR",
+                "vlm_caption": {
+                    "detailed_description": "Children in red and white uniforms are participating in a book fair at The Asian International School.",
+                    "objects_and_counts": [
+                        "10 person, 6 chair, 1 dining table"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V030_S0069",
+            "start_frame": 18610,
+            "end_frame": 18785,
+            "start_ts": 620.954,
+            "end_ts": 626.793,
+            "duration": 5.839,
+            "keyframes": [
+                {
+                    "frame_idx": 18697,
+                    "timestamp": 623.857,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V030/L25_V030_S0069_F018697.jpg"
+                },
+                {
+                    "frame_idx": 18653,
+                    "timestamp": 622.388,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V030/L25_V030_S0069_F018653.jpg"
+                },
+                {
+                    "frame_idx": 18741,
+                    "timestamp": 625.325,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V030/L25_V030_S0069_F018741.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "thử thách bản thân và phản biện các vấn đề để tự mình học hỏi trưởng thành độc lập hơn.",
+                "ocr_text": "to am",
+                "vlm_caption": {
+                    "detailed_description": "A young girl in a red graduation cap and gown stands in front of a wall with colorful letters, holding a book, while another child in a similar cap and gown stands behind her, also holding a book.",
+                    "objects_and_counts": [
+                        "3 person, 3 book | 5 person, 2 tie | 3 person, 2 book"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V030_S0070",
+            "start_frame": 18786,
+            "end_frame": 18829,
+            "start_ts": 626.826,
+            "end_ts": 628.261,
+            "duration": 1.435,
+            "keyframes": [
+                {
+                    "frame_idx": 18807,
+                    "timestamp": 627.527,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V030/L25_V030_S0070_F018807.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "优优独播剧场——YoYo Television Series Exclusive",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "The image depicts a serene sunset scene with the sun partially obscured by trees, casting a warm glow over the foliage and water below."
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V030_S0071",
+            "start_frame": 18830,
+            "end_frame": 18960,
+            "start_ts": 628.294,
+            "end_ts": 632.632,
+            "duration": 4.338,
+            "keyframes": [
+                {
+                    "frame_idx": 18895,
+                    "timestamp": 630.463,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V030/L25_V030_S0071_F018895.jpg"
+                },
+                {
+                    "frame_idx": 18862,
+                    "timestamp": 629.362,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V030/L25_V030_S0071_F018862.jpg"
+                },
+                {
+                    "frame_idx": 18927,
+                    "timestamp": 631.531,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V030/L25_V030_S0071_F018927.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "优优独播剧场——YoYo Television Series Exclusive",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "The image shows skewers of assorted vegetables and meat, including carrots, broccoli, bell peppers, and mushrooms, arranged on a white plate.",
+                    "objects_and_counts": [
+                        "11 person, 3 bowl, 1 dining table | 2 broccoli, 1 bowl, 3 carrot | 5 broccoli, 2 carrot"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V030_S0072",
+            "start_frame": 18961,
+            "end_frame": 18996,
+            "start_ts": 632.665,
+            "end_ts": 633.833,
+            "duration": 1.168,
+            "keyframes": [
+                {
+                    "frame_idx": 18978,
+                    "timestamp": 633.233,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V030/L25_V030_S0072_F018978.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A young girl in a red and white uniform is eating a piece of fruit, with another person partially visible in the background.",
+                    "objects_and_counts": [
+                        "2 person, 1 donut"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V030_S0073",
+            "start_frame": 18997,
+            "end_frame": 19026,
+            "start_ts": 633.867,
+            "end_ts": 634.834,
+            "duration": 0.968,
+            "keyframes": [
+                {
+                    "frame_idx": 19011,
+                    "timestamp": 634.334,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V030/L25_V030_S0073_F019011.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "you",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A young girl in a red and white uniform is eating a piece of food with her hands.",
+                    "objects_and_counts": [
+                        "2 person, 1 donut"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V030_S0074",
+            "start_frame": 19027,
+            "end_frame": 19308,
+            "start_ts": 634.868,
+            "end_ts": 644.244,
+            "duration": 9.376,
+            "keyframes": [
+                {
+                    "frame_idx": 19167,
+                    "timestamp": 639.539,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V030/L25_V030_S0074_F019167.jpg"
+                },
+                {
+                    "frame_idx": 19097,
+                    "timestamp": 637.203,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V030/L25_V030_S0074_F019097.jpg"
+                },
+                {
+                    "frame_idx": 19237,
+                    "timestamp": 641.875,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V030/L25_V030_S0074_F019237.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Nơi đây với tôi còn hơn cả một ngôi trường Nơi đây là nền tảng giúp đỡ",
+                "ocr_text": "GABE GROUP OF ASIAN INTERNATIONAL EDUCATION | The Hogan of GAlE 99 WW",
+                "vlm_caption": {
+                    "detailed_description": "A person in a pink shirt stands in front of a modern building with colorful windows, with a bright light source behind them.",
+                    "objects_and_counts": [
+                        "2 person | 1 person, 1 kite | 3 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V030_S0075",
+            "start_frame": 19310,
+            "end_frame": 19358,
+            "start_ts": 644.31,
+            "end_ts": 645.912,
+            "duration": 1.602,
+            "keyframes": [
+                {
+                    "frame_idx": 19334,
+                    "timestamp": 645.111,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V030/L25_V030_S0075_F019334.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Chúng tôi đặt những viên gạch đủ.",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A young girl in a school uniform stands in front of a colorful, wooden cabinet.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V030_S0076",
+            "start_frame": 19359,
+            "end_frame": 19407,
+            "start_ts": 645.945,
+            "end_ts": 647.547,
+            "duration": 1.602,
+            "keyframes": [
+                {
+                    "frame_idx": 19383,
+                    "timestamp": 646.746,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V030/L25_V030_S0076_F019383.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A group of students wearing red shirts and headphones are seated at desks with computer monitors and keyboards, engaged in an activity that appears to be a computer-based learning or gaming session.",
+                    "objects_and_counts": [
+                        "4 person, 2 keyboard, 3 tv, 1 mouse"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V030_S0077",
+            "start_frame": 19408,
+            "end_frame": 19496,
+            "start_ts": 647.58,
+            "end_ts": 650.517,
+            "duration": 2.936,
+            "keyframes": [
+                {
+                    "frame_idx": 19452,
+                    "timestamp": 649.048,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V030/L25_V030_S0077_F019452.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A person's hand is typing on a laptop keyboard with a blurred background.",
+                    "objects_and_counts": [
+                        "1 keyboard"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V030_S0078",
+            "start_frame": 19498,
+            "end_frame": 19540,
+            "start_ts": 650.583,
+            "end_ts": 651.985,
+            "duration": 1.401,
+            "keyframes": [
+                {
+                    "frame_idx": 19519,
+                    "timestamp": 651.284,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V030/L25_V030_S0078_F019519.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "Two individuals are closely examining a specimen through a microscope in a laboratory setting.",
+                    "objects_and_counts": [
+                        "3 person, 1 scissors"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V030_S0079",
+            "start_frame": 19541,
+            "end_frame": 19621,
+            "start_ts": 652.018,
+            "end_ts": 654.687,
+            "duration": 2.669,
+            "keyframes": [
+                {
+                    "frame_idx": 19581,
+                    "timestamp": 653.353,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V030/L25_V030_S0079_F019581.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Giáo dục không phải là chuẩn bị cho cuộc sống",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "Students in a laboratory setting are engaged in various activities, including examining specimens through microscopes and working with laboratory equipment.",
+                    "objects_and_counts": [
+                        "11 person, 1 chair, 1 bottle"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V030_S0080",
+            "start_frame": 19622,
+            "end_frame": 19641,
+            "start_ts": 654.721,
+            "end_ts": 655.355,
+            "duration": 0.634,
+            "keyframes": [
+                {
+                    "frame_idx": 19631,
+                    "timestamp": 655.021,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V030/L25_V030_S0080_F019631.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "中",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A small flame burns atop a clear glass bottle with a yellow paper collar, set against a blurred background.",
+                    "objects_and_counts": [
+                        "1 vase"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V030_S0081",
+            "start_frame": 19642,
+            "end_frame": 19673,
+            "start_ts": 655.388,
+            "end_ts": 656.422,
+            "duration": 1.034,
+            "keyframes": [
+                {
+                    "frame_idx": 19657,
+                    "timestamp": 655.889,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V030/L25_V030_S0081_F019657.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Nó chính là cuộc sống.",
+                "ocr_text": "80",
+                "vlm_caption": {
+                    "detailed_description": "Scientists in a laboratory are conducting an experiment with various colored liquids in test tubes and flasks.",
+                    "objects_and_counts": [
+                        "2 person, 3 bottle"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V030_S0082",
+            "start_frame": 19674,
+            "end_frame": 19699,
+            "start_ts": 656.456,
+            "end_ts": 657.29,
+            "duration": 0.834,
+            "keyframes": [
+                {
+                    "frame_idx": 19686,
+                    "timestamp": 656.856,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V030/L25_V030_S0082_F019686.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Thank you.",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A group of students, including a pianist and violinists, perform on stage with colorful balloons and an American flag in the background.",
+                    "objects_and_counts": [
+                        "11 person, 27 sports ball, 5 chair, 1 laptop, 1 bench"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V030_S0083",
+            "start_frame": 19700,
+            "end_frame": 19752,
+            "start_ts": 657.323,
+            "end_ts": 659.058,
+            "duration": 1.735,
+            "keyframes": [
+                {
+                    "frame_idx": 19726,
+                    "timestamp": 658.191,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V030/L25_V030_S0083_F019726.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Từ môi trường giáo dục này",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A person in a white shirt with a red bow tie is holding a white object in a dimly lit room.",
+                    "objects_and_counts": [
+                        "2 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V030_S0084",
+            "start_frame": 19754,
+            "end_frame": 19781,
+            "start_ts": 659.125,
+            "end_ts": 660.026,
+            "duration": 0.901,
+            "keyframes": [
+                {
+                    "frame_idx": 19767,
+                    "timestamp": 659.559,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V030/L25_V030_S0084_F019767.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Chúng tôi đã từng",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A young man plays the piano in front of an American flag and a Vietnamese flag.",
+                    "objects_and_counts": [
+                        "1 person, 1 oven"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V030_S0085",
+            "start_frame": 19783,
+            "end_frame": 19824,
+            "start_ts": 660.093,
+            "end_ts": 661.461,
+            "duration": 1.368,
+            "keyframes": [
+                {
+                    "frame_idx": 19803,
+                    "timestamp": 660.76,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V030/L25_V030_S0085_F019803.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A young person is playing a violin, with a blurred background suggesting a formal or concert setting.",
+                    "objects_and_counts": [
+                        "2 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V030_S0086",
+            "start_frame": 19826,
+            "end_frame": 19898,
+            "start_ts": 661.528,
+            "end_ts": 663.93,
+            "duration": 2.402,
+            "keyframes": [
+                {
+                    "frame_idx": 19862,
+                    "timestamp": 662.729,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V030/L25_V030_S0086_F019862.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A person in a graduation gown and cap is ascending a spiral staircase in a well-lit, spacious interior.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V030_S0087",
+            "start_frame": 19900,
+            "end_frame": 19962,
+            "start_ts": 663.997,
+            "end_ts": 666.065,
+            "duration": 2.069,
+            "keyframes": [
+                {
+                    "frame_idx": 19931,
+                    "timestamp": 665.031,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V030/L25_V030_S0087_F019931.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Thank you.",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A person wearing a graduation cap and gown is looking to the side.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V030_S0088",
+            "start_frame": 19963,
+            "end_frame": 20099,
+            "start_ts": 666.099,
+            "end_ts": 670.637,
+            "duration": 4.538,
+            "keyframes": [
+                {
+                    "frame_idx": 20031,
+                    "timestamp": 668.368,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V030/L25_V030_S0088_F020031.jpg"
+                },
+                {
+                    "frame_idx": 19997,
+                    "timestamp": 667.233,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V030/L25_V030_S0088_F019997.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "",
+                "ocr_text": "ASIAN SCHOOLL• 1999 TRƯỜNG QUỐC TỂ Á CHÂU | ASIAN STAN INTERA 1999",
+                "vlm_caption": {
+                    "detailed_description": "The image features the logo of The Asian International School, with a blue globe design and the text \"The Asian International School\" in white and blue, set against a gradient background.",
+                    "objects_and_counts": [
+                        "1 clock"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V030_S0089",
+            "start_frame": 20100,
+            "end_frame": 20296,
+            "start_ts": 670.67,
+            "end_ts": 677.21,
+            "duration": 6.54,
+            "keyframes": [
+                {
+                    "frame_idx": 20149,
+                    "timestamp": 672.305,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V030/L25_V030_S0089_F020149.jpg"
+                },
+                {
+                    "frame_idx": 20247,
+                    "timestamp": 675.575,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V030/L25_V030_S0089_F020247.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Chúng ta đi vào áp dụng phần bài tập lý thuyết. Câu hỏi số 1.",
+                "ocr_text": "Phần 1- BÀI TẬP LÝ THUYẾT ThS. PHẠM LÊ THANH Giáo viên môn Hoa học Trường THPT Nguyễn Hiền | Phần 1- BÀI TẬP LÝ THUYẾT Câu 1: Dung dịch nào sau đây có phản ứng màu biure? A. Alanin. C. Glixerol. D. Lòng trắng trứng. B. Gly-Ala.",
+                "vlm_caption": {
+                    "detailed_description": "A man in a white shirt and purple tie sits at a desk with a laptop, with a green screen displaying a Vietnamese language question about amino acids.",
+                    "objects_and_counts": [
+                        "1 person, 1 tie, 1 laptop"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V030_S0090",
+            "start_frame": 20297,
+            "end_frame": 22319,
+            "start_ts": 677.243,
+            "end_ts": 744.711,
+            "duration": 67.467,
+            "keyframes": [
+                {
+                    "frame_idx": 21308,
+                    "timestamp": 710.977,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V030/L25_V030_S0090_F021308.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Dung dịch nào sau đây có phở màu biurê? Chúng ta dễ dàng chọn ngay lòng trắng trứng vì nó là polypeptide. Câu hỏi số 2. Dung dịch nào sau đây không làm đổi màu quỳ tím? Chúng ta thấy hồi nãy thầy lưu ý cho chúng ta rằng lithium thì quỳ tím hóa thành màu xanh. Còn acid glutamate quỳ tím hóa thành màu đỏ. Vậy thì methamine đó là 1 bazar thì chắc chắn quỳ tím sẽ hóa xanh. Nên chúng ta chọn đáp án là alanine. Câu C. Câu số 3. Chất nào sau đây có tính chất lượng tính thì đó chắc chắn sẽ là amino acid glycine. Câu 3A. Câu 4. Trong peptide mạch hở ala, gly, vla, gly có số liên kết peptide là? Chúng ta dễ dàng chọn đáp án là gì các em? Đó là câu B. 3 cái gạch chính là 3 liên kết peptide. Và chúng ta thấy rằng có 4 gốc ala, gly, vla, gly. Nếu có N gốc alpha amino acid. Sẽ có N. N trừ 1 liên kết peptide. Đó là phần rút ra tổng quát để chúng ta nhớ. Vậy nếu có 4 gốc thì sẽ có 3 liên kết peptide.",
+                "ocr_text": "Phần 1- BÀI TẬP LÝ THUYẾT Câu 1: Dung dịch nào sau đây có phản ứng màu biure? D A. Alanin. C. Glixerol. B. Gly-Ala. Lòng trắng trứng. Câu 2: Dung dịch nào sau đây không làm đối màu quỳ tím? Alanin. D. Axit glutamic. B. Lysin. A. Metylamin Câu 3: Chất nào sau đây có tính lưỡng tính? A. Glixin. D. Anilin. B. Etylamin. C. Triolein.",
+                "vlm_caption": {
+                    "detailed_description": "The image is a Vietnamese language educational slide with multiple-choice questions about chemical reactions and properties, including questions about biuret reactions, color changes, and the basic chemical properties of various substances."
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V030_S0091",
+            "start_frame": 22320,
+            "end_frame": 24838,
+            "start_ts": 744.744,
+            "end_ts": 828.761,
+            "duration": 84.017,
+            "keyframes": [
+                {
+                    "frame_idx": 23579,
+                    "timestamp": 786.753,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V030/L25_V030_S0091_F023579.jpg"
+                },
+                {
+                    "frame_idx": 22949,
+                    "timestamp": 765.732,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V030/L25_V030_S0091_F022949.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Câu hỏi số 5 là một câu lý thuyết Nhỏ vài giọt nước Brom và anilin thấy xuất hiện cho tủa trắng Đó là một phát biểu Đúng Methylamine là chất khí tăng nhiều trong nước Đúng Protein đơn giản chứ có gốc alpha-minoxid Đúng luôn Trong phân tử peptide Ala, glu có 3 nguyên tử oxy Đây là một phát biểu sai Vì sao các em Ala có 2 oxy Nhưng glu có 4 oxy Và khi chúng ta kết hợp lại Để tạo ra được một peptide Thì nó loại ra một phân tử nước Loại ra một phân tử nước Thì nó mất hết một oxy Vậy chúng ta thấy ở đây 42 là 6 Mất 1 oxy Thì còn 5 chứ không phải là 3 Câu số 6 Cho các phát biểu sau Múi mononatriclotamate Dùng làm gia vị thức ăn Đây là một phát biểu Đúng Dùng giấm ăn hoặc chanh Có thể khử mùi tanh của cá Đây là một phát biểu Đúng luôn Lá, cây thuốc lá chữa nicotine Rất đậu Đây là một phát biểu đúng Đúng Dùng HCL để rửa sạch anilin Anilin là môi trường 3G Thì dùng acid để rửa Tạo ra muối ammoni nó tan Và khi đó chúng ta dội nước Thì nó sẽ sạch Vậy câu này đúng luôn Acid exilone amino caproic Là nguyên liệu để sản xuất tơ nilon 6 Chứ không phải nilon 66 Nên đây là một câu sai Và chúng ta dễ dàng chọn đáp án B Có 4 phát biểu đúng Cho câu hỏi số 6 này",
+                "ocr_text": "Phần 1- BÀI TẬP LÝ THUYẾT Câu 5: Phát biểu nào sau đây sai? A. Nhỏ vài giọt nước brom vào anilin, thấy xuất hiện kết tủa trắng. B. Metyl amin là chất khí tan nhiều trong nước. C. Protein đơn giản chứa các gốc a- amino axit. D Trong phân tử peptit mạch hở Ala - Glu có ba nguyên tử oxi. Câu 6: Cho các phát biểu sau: (a). Muối mononatri glutamat được dùng làm gia vị thức ăn. (b). Dùng giấm ăn hoặc chanh có thể khử mùi tanh của cá (do amin gây ra). (c). Lá cây thuốc lá chứa amin (nicotin) rất độc. (d). Dùng dung dịch HC1 để rửa sạch anilin dính trong ống nghiệm. (e). Axit &-aminocaproic là nguyên liệu để sản xuất tơ nilon -6,6. Số phát biểu đúng là C. 3. D. 5. B. 4. A. 2. | Phần 1- BÀI TẬP LÝ THUYẾT Câu 5: Phát biểu nào sau đây sai? A. Nhỏ vài giọt nước brom vào anilin, thấy xuất hiện kết tủa trắng. B. Metyl amin là chất khí tan nhiều trong nước. C. Protein đơn giản chứa các gốc a- amino axit. D. Trong phân tử peptit mạch hở Ala - Glu có ba nguyên tử oxi.",
+                "vlm_caption": {
+                    "detailed_description": "The image is a screenshot of a Vietnamese language educational slide, specifically a question from a chemistry lesson, with options A, B, C, and D listed, and option D circled in red."
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V030_S0092",
+            "start_frame": 24839,
+            "end_frame": 25280,
+            "start_ts": 828.795,
+            "end_ts": 843.509,
+            "duration": 14.715,
+            "keyframes": [
+                {
+                    "frame_idx": 25059,
+                    "timestamp": 836.135,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V030/L25_V030_S0092_F025059.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Chúng ta sang bài tập dạng toán khi cho amine hoặc amino acid tác dụng với acid sẽ tạo ra được muối ammonia Khi đó mol của nguyên tử nitro sẽ bằng mol của acid HCl",
+                "ocr_text": "Phần 2- MỘT SỐ DẠNG BÀI TOÁN I- Amin, amino axit tác dụng với axit Amin, amino axit + axit → muối (VD: - NH, + HCI → - NH, CI).",
+                "vlm_caption": {
+                    "detailed_description": "A man in a white shirt and purple tie is presenting a lecture on a laptop, with a green slide in the background displaying chemical reactions involving amines and acids.",
+                    "objects_and_counts": [
+                        "1 person, 1 tie, 1 laptop"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V030_S0093",
+            "start_frame": 25281,
+            "end_frame": 27243,
+            "start_ts": 843.543,
+            "end_ts": 909.008,
+            "duration": 65.465,
+            "keyframes": [
+                {
+                    "frame_idx": 26262,
+                    "timestamp": 876.275,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V030/L25_V030_S0093_F026262.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Và chúng ta dùng bảo tàng khối lượng để tính khối lượng của muối bằng khối lượng của amine cộng với khối lượng của acid phản ứng. Câu hỏi số 1. Cho 4,5 gam amine đơn chất X tác dụng HCl thu được 8,15 gam muối tìm số công thức cấu tạo thỏa mạng X. Chúng ta cùng xử lý như sau. Đầu tiên các em thấy có khối lượng của amine, có khối lượng của muối. Các em dùng bảo tàng khối lượng tính được khối lượng của HCl. Có HCl 3,65 thì có mon của nó là 0,1. Lấy 3,65 chia cho m lớn HCl là 36,5. Chúng ta thu được mon là 0,1. Mon của HCl thì bằng mon của amine đơn chất. Vậy nó cũng là 0,1. Chúng ta có khối lượng là 4,5 chia 0,1. Chúng ta sẽ được là bao nhiêu các em? 45. 45 thì công thức amine là C2H7N. Khi đó nó sẽ có 2 đồng phân. Đó là ethyl amine. Đó là amine bật. 1. Và dimethylamine. Đó là amine bật 2. Câu hỏi này sẽ có đáp án là câu A. Câu hỏi này sẽ có đáp án là câu B.",
+                "ocr_text": "Phần 2- MỘT SỐ DẠNG BÀI TOÁN I-Amin, amino axit tác dụng với axit → - NH, CI). Amin, amino axit + axit → muối (VD: - NH, + HCI- axit (p.u) và m muối = M amin, amino axit + m Ta có: n N = N Ha hay NN = n H* (pu) Câu 1: Cho 4,5 gam amin đơn chức X tác dụng với dung dịch HCI dư, thu được 8,15 gam muối. Số CTCT thỏa mãn của X là B. 1. C. 4. A. 2. D. 3. Hướng dẫn: Ta có: X + HCI → Muối BTKL→ MHCI = M muối - Mamin = 3,65 gam → nHCI = 0,1 mol",
+                "vlm_caption": {
+                    "detailed_description": "The image is a slide from a chemistry lesson, discussing the reaction of amines with acids, specifically focusing on the stoichiometry of the reaction and a sample problem involving the reaction of amines with hydrochloric acid."
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V030_S0094",
+            "start_frame": 27244,
+            "end_frame": 27822,
+            "start_ts": 909.041,
+            "end_ts": 928.327,
+            "duration": 19.286,
+            "keyframes": [
+                {
+                    "frame_idx": 27533,
+                    "timestamp": 918.684,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V030/L25_V030_S0094_F027533.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Câu hỏi số 2 Amino acid X có dạng H2N, CXHI, COOH Cho Mg X phản ứng vừa đủ với dung dịch trước 0.1mHCl Thu được 12.55g muối Tên gọi của X là Chúng ta cùng suy nghĩ 1 phút",
+                "ocr_text": "Phần 2- MỘT SỐ DẠNG BÀI TOÁN I- Amin, amino axit tác dụng với axit Amin, amino axit + axit → muối (VD: - NH, + HC → - NH, CI). Câu 2: Amino axit X có dạng H,N-C,H,-COOH. Cho m gam X phản ứng vừa đủ với dung dịch chứa 0,1 mol HCl, thu được 12,55 gam muôi. Tên gọi của X là B. valin. C. alanin. A. glyxin. D. phenylalanin.",
+                "vlm_caption": {
+                    "detailed_description": "A man in a white shirt and purple tie stands in front of a green screen displaying a chemistry lesson, with a laptop on a table in front of him.",
+                    "objects_and_counts": [
+                        "1 person, 1 tie, 1 laptop"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V030_S0095",
+            "start_frame": 27823,
+            "end_frame": 29287,
+            "start_ts": 928.361,
+            "end_ts": 977.21,
+            "duration": 48.849,
+            "keyframes": [
+                {
+                    "frame_idx": 28555,
+                    "timestamp": 952.785,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V030/L25_V030_S0095_F028555.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Các em thấy được rằng ở câu số 2 này Chúng ta đang có khối lượng của muối Chúng ta có amino acid đề cho rất tường minh Có 1 nhóm NH2 Vậy 1 nhóm NH2 phải ứng với 1 mon HCl Cho nên mon HCl 0.1 Thì mon amino acid là 0.1 Muối tạo ra của chúng ta Sẽ là muối NH3Cl CHI COOH khối lượng là 12.55 Chia cho mon 0.1 Rồi chúng ta ra được phân tử khối Từ đó các em tìm ra được gốc CXI Thì chúng ta ra được chất này là alanine Có khối lượng phân tử là 89 Đáp án chúng ta sẽ là câu C",
+                "ocr_text": "Phần 2- MỘT SỐ DẠNG BÀI TOÁN I- Amin, amino axit tác dụng với axit > - NH, CI). Amin, amino axit + axit → muối (VD: - NH, + HCI- Ta có: n N = nHa hay nN =M #(pu) Và m muơi = M amin, amino axi + M axi() Câu 2: Amino axit X có dạng H2N-C,Hy-COOH. Cho m gam X phản ứng vừa đủ với dung dịch chứa 0,1 mol HCI, thu được 12,55 gam muối. Tên gọi của X là C. alanin. D. phenylalanin. A. glyxin. B. valin.",
+                "vlm_caption": {
+                    "detailed_description": "The image is a slide from a chemistry lesson, discussing the reaction of amines and amino acids with acids, and provides a problem involving the identification of an amino acid based on its reaction with hydrochloric acid."
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V030_S0096",
+            "start_frame": 29288,
+            "end_frame": 29607,
+            "start_ts": 977.243,
+            "end_ts": 987.887,
+            "duration": 10.644,
+            "keyframes": [
+                {
+                    "frame_idx": 29447,
+                    "timestamp": 982.548,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V030/L25_V030_S0096_F029447.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Câu hỏi số 3 liên quan đến bài toán về amino acid tác dụng với kim Thì khi đó nhóm COH sẽ phản ứng",
+                "ocr_text": "Phần 2- MỘT SỐ DẠNG BÀI TOÁN II. Bài toán phản ứng với kiềm TH THHEN + Amino axit + kiềm → muối + H,O (- COOH + MOH → - COOM + H,O) ThS. PHẠM LÊ THANH Giáo viên môn Hóa học Trường THPT Nguyễn Hiền",
+                "vlm_caption": {
+                    "detailed_description": "A man in a white shirt and purple tie is sitting at a desk with a laptop, with a green and blue background displaying text about chemical reactions.",
+                    "objects_and_counts": [
+                        "1 person, 1 tie, 1 laptop"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V030_S0097",
+            "start_frame": 29608,
+            "end_frame": 31530,
+            "start_ts": 987.92,
+            "end_ts": 1052.051,
+            "duration": 64.131,
+            "keyframes": [
+                {
+                    "frame_idx": 30569,
+                    "timestamp": 1019.986,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V030/L25_V030_S0097_F030569.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Và chúng ta nhớ rằng mol của COH sẽ bằng mol của OH trừ và bằng mol của nước Chúng ta cũng bảo toàn khói lượng Khi peptide phả ứng với 3G thì tạo ra được muối và nước Ví dụ cho 0.1 mol Glyala đã dụng NaOH dư đun nóng Sau khi các phần xe hoàn toàn hỏi số mol NaOH là Thì các em thấy rằng cái mol của Glyala là 0.1 Thì khi phả ứng NaOH thì Gly sẽ phả ứng với 1 mol NaOH Ala cũng phả ứng 1 mol NaOH và cần 2 mol 2 mol nhân cho 0.1 thì được 0.2 Chúng ta nhậm rất nhanh đúng không nào Cũng cẩn thận rằng Gly của chúng ta có 1 nhóm COH nên phả ứng được với 1 mol NaOH Ala cũng có 1 nhóm COH nên phả ứng với 1 mol NaOH Nhưng nếu có Glu thì sao các em Acid glutamate có 2 nhóm COH thì khi đó nó phả ứng với 2 mol NaOH Chúng ta chú ý lại và xoát lại những cấu trúc của amino acid Xem nó có Chỉ đặc biệt chỗ Glu glutamate thôi Nó có 2 nhóm COH thì nó phả ứng được với 2 mol NaOH",
+                "ocr_text": "Phần 2- MỘT SỐ DẠNG BÀI TOÁN II. Bài toán phản ứng với kiểm + Amino axit + kiềm → muối + H, O (- COOH + MOH → - cOOM + H,O) = n H,o Và mamino axit + mkiêm = M muới + MH,0 + Peptit(n - gốc), mạch hở + n MOH -X:It P > n. muối (của a - AA)+ 1.H,0 tạo từ a- amino axit có 1 nhóm COOH và 1 nhóm NH2 Câu 3 : Cho 0,1 mol Gly-Ala tác dụng với dung dịch NaOH dư, đun nóng. Sau khi các phản ứng xảy ra hoàn toàn, số mol NaOH đã phản ứng là • B. 0,1. D. 0,4. A. 0,2. C. 0,3.",
+                "vlm_caption": {
+                    "detailed_description": "The image is a slide from a Vietnamese educational presentation, discussing chemical reactions involving amino acids and peptides with alkali, including stoichiometric calculations for a specific reaction involving glycine and alanine with sodium hydroxide."
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V030_S0098",
+            "start_frame": 31531,
+            "end_frame": 31550,
+            "start_ts": 1052.084,
+            "end_ts": 1052.718,
+            "duration": 0.634,
+            "keyframes": [
+                {
+                    "frame_idx": 31540,
+                    "timestamp": 1052.385,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V030/L25_V030_S0098_F031540.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Thank you.",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A man in a light-colored shirt is standing in a dimly lit room, reaching for a book on a shelf.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V030_S0099",
+            "start_frame": 31551,
+            "end_frame": 31635,
+            "start_ts": 1052.752,
+            "end_ts": 1055.554,
+            "duration": 2.803,
+            "keyframes": [
+                {
+                    "frame_idx": 31593,
+                    "timestamp": 1054.153,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V030/L25_V030_S0099_F031593.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Để có được thành công như hôm nay,",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A man in a white shirt is browsing through books on a library shelf.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V030_S0100",
+            "start_frame": 31636,
+            "end_frame": 31717,
+            "start_ts": 1055.588,
+            "end_ts": 1058.291,
+            "duration": 2.703,
+            "keyframes": [
+                {
+                    "frame_idx": 31676,
+                    "timestamp": 1056.923,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V030/L25_V030_S0100_F031676.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Tôi đã có những ước mơ Và tôi đã có những ước mơ",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A man walks through a library aisle, holding a book, with shelves filled with books on either side.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V030_S0101",
+            "start_frame": 31718,
+            "end_frame": 31871,
+            "start_ts": 1058.324,
+            "end_ts": 1063.429,
+            "duration": 5.105,
+            "keyframes": [
+                {
+                    "frame_idx": 31794,
+                    "timestamp": 1060.86,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V030/L25_V030_S0101_F031794.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "đã hiện thực hóa ước mơ của mình bắt đầu từ Trường Đại học Quốc tế Sài Gòn SIU.",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A young man in a light blue shirt is standing in a modern library, examining a stack of books on a table.",
+                    "objects_and_counts": [
+                        "1 person, 1 potted plant, 1 chair"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V030_S0102",
+            "start_frame": 31872,
+            "end_frame": 31914,
+            "start_ts": 1063.462,
+            "end_ts": 1064.864,
+            "duration": 1.401,
+            "keyframes": [
+                {
+                    "frame_idx": 31893,
+                    "timestamp": 1064.163,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V030/L25_V030_S0102_F031893.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "you",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "The image shows the exterior of The Saigon International University, with a sign displaying the institution's name and a building in the background."
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V030_S0103",
+            "start_frame": 31916,
+            "end_frame": 31969,
+            "start_ts": 1064.931,
+            "end_ts": 1066.699,
+            "duration": 1.768,
+            "keyframes": [
+                {
+                    "frame_idx": 31942,
+                    "timestamp": 1065.798,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V030/L25_V030_S0103_F031942.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "ご視聴ありがとうございました",
+                "ocr_text": "BOON INTERNATIONAL UNIVERSITY Lewis Campus IVERSITY THE SAIGON INTERNATION",
+                "vlm_caption": {
+                    "detailed_description": "The image shows the exterior of SJI International University, with a clear blue sky, flags, and a bus in front of the building."
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V030_S0104",
+            "start_frame": 31970,
+            "end_frame": 32016,
+            "start_ts": 1066.732,
+            "end_ts": 1068.267,
+            "duration": 1.535,
+            "keyframes": [
+                {
+                    "frame_idx": 31993,
+                    "timestamp": 1067.5,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V030/L25_V030_S0104_F031993.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Đào tạo đa dạng, đa lĩnh",
+                "ocr_text": "SIU • THE SAIGON INTERNATIONAL UNIVERSITY ww sit edu vn",
+                "vlm_caption": {
+                    "detailed_description": "A classroom at The Saigon International University features a teacher presenting at a whiteboard while students raise their hands.",
+                    "objects_and_counts": [
+                        "9 chair, 11 person, 1 laptop, 1 tie"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V030_S0105",
+            "start_frame": 32017,
+            "end_frame": 32061,
+            "start_ts": 1068.301,
+            "end_ts": 1069.769,
+            "duration": 1.468,
+            "keyframes": [
+                {
+                    "frame_idx": 32039,
+                    "timestamp": 1069.035,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V030/L25_V030_S0105_F032039.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "THE SAIGON INTERNATIONAL UNI (Ja) = ą x- A",
+                "vlm_caption": {
+                    "detailed_description": "A man in a suit stands in front of a whiteboard filled with mathematical equations and diagrams, likely teaching or presenting at The Saigon International University.",
+                    "objects_and_counts": [
+                        "1 person, 1 tie"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V030_S0106",
+            "start_frame": 32062,
+            "end_frame": 32105,
+            "start_ts": 1069.802,
+            "end_ts": 1071.237,
+            "duration": 1.435,
+            "keyframes": [
+                {
+                    "frame_idx": 32083,
+                    "timestamp": 1070.503,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V030/L25_V030_S0106_F032083.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A group of individuals, including a woman in the foreground, are seated at desks with computer monitors and keyboards, engaged in an activity that appears to be a call center or online support scenario.",
+                    "objects_and_counts": [
+                        "3 keyboard, 5 person, 4 tv, 4 chair"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V030_S0107",
+            "start_frame": 32106,
+            "end_frame": 32188,
+            "start_ts": 1071.27,
+            "end_ts": 1074.006,
+            "duration": 2.736,
+            "keyframes": [
+                {
+                    "frame_idx": 32147,
+                    "timestamp": 1072.638,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V030/L25_V030_S0107_F032147.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Cảm ơn các bạn đã theo dõi và hẹn gặp lại.",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A humanoid robot is giving a lecture to a seated audience in a classroom setting.",
+                    "objects_and_counts": [
+                        "11 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V030_S0108",
+            "start_frame": 32189,
+            "end_frame": 32221,
+            "start_ts": 1074.04,
+            "end_ts": 1075.107,
+            "duration": 1.068,
+            "keyframes": [
+                {
+                    "frame_idx": 32205,
+                    "timestamp": 1074.573,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V030/L25_V030_S0108_F032205.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A group of students in white uniforms are seated in a classroom, attentively listening to a lecture.",
+                    "objects_and_counts": [
+                        "9 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V030_S0109",
+            "start_frame": 32222,
+            "end_frame": 32270,
+            "start_ts": 1075.141,
+            "end_ts": 1076.742,
+            "duration": 1.602,
+            "keyframes": [
+                {
+                    "frame_idx": 32246,
+                    "timestamp": 1075.942,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V030/L25_V030_S0109_F032246.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "để thể hiện và phát triển năng lực.",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "Students in uniforms are seated at desks, writing with pens and pencils in a classroom setting.",
+                    "objects_and_counts": [
+                        "6 person, 1 chair"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V030_S0110",
+            "start_frame": 32271,
+            "end_frame": 32311,
+            "start_ts": 1076.776,
+            "end_ts": 1078.11,
+            "duration": 1.335,
+            "keyframes": [
+                {
+                    "frame_idx": 32291,
+                    "timestamp": 1077.443,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V030/L25_V030_S0110_F032291.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Những ý tưởng luôn đều có thể tạo ra",
+                "ocr_text": "tên Pet the tr 9- ngàuy The diecte. Bỏ sác vào thùng 3 Ông qam 4. Ngân hàng chu Marg 1 nhân viên mới",
+                "vlm_caption": {
+                    "detailed_description": "A hand holding an orange and black pencil is poised above a lined notebook filled with handwritten notes.",
+                    "objects_and_counts": [
+                        "1 person, 1 book"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V030_S0111",
+            "start_frame": 32312,
+            "end_frame": 32386,
+            "start_ts": 1078.144,
+            "end_ts": 1080.613,
+            "duration": 2.469,
+            "keyframes": [
+                {
+                    "frame_idx": 32349,
+                    "timestamp": 1079.378,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V030/L25_V030_S0111_F032349.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "được khuyến khích và phát huy tối đa.",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A woman with glasses and a white shirt is smiling, with a blurred background featuring another person.",
+                    "objects_and_counts": [
+                        "2 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V030_S0112",
+            "start_frame": 32388,
+            "end_frame": 32440,
+            "start_ts": 1080.68,
+            "end_ts": 1082.415,
+            "duration": 1.735,
+            "keyframes": [
+                {
+                    "frame_idx": 32414,
+                    "timestamp": 1081.547,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V030/L25_V030_S0112_F032414.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Chúng tôi đã được truyền cảm hứng.",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A man and a woman in lab coats are examining a red liquid in a test tube.",
+                    "objects_and_counts": [
+                        "2 person, 1 donut"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V030_S0113",
+            "start_frame": 32441,
+            "end_frame": 32483,
+            "start_ts": 1082.448,
+            "end_ts": 1083.849,
+            "duration": 1.401,
+            "keyframes": [
+                {
+                    "frame_idx": 32462,
+                    "timestamp": 1083.149,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V030/L25_V030_S0113_F032462.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Cảm ơn các bạn đã theo dõi và ủng hộ cho kênh lalaschool Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "In a classroom setting, a young woman in a white shirt is smiling and holding a pink pen, while a young man in a white shirt is looking at a notebook.",
+                    "objects_and_counts": [
+                        "3 person, 3 chair, 1 dining table, 1 fork"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V030_S0114",
+            "start_frame": 32484,
+            "end_frame": 32544,
+            "start_ts": 1083.883,
+            "end_ts": 1085.885,
+            "duration": 2.002,
+            "keyframes": [
+                {
+                    "frame_idx": 32514,
+                    "timestamp": 1084.884,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V030/L25_V030_S0114_F032514.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A young person in a red and yellow polo shirt is using a laptop with an Apple logo, seated against a dark background with colorful dots.",
+                    "objects_and_counts": [
+                        "1 laptop, 2 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V030_S0115",
+            "start_frame": 32546,
+            "end_frame": 32592,
+            "start_ts": 1085.952,
+            "end_ts": 1087.486,
+            "duration": 1.535,
+            "keyframes": [
+                {
+                    "frame_idx": 32569,
+                    "timestamp": 1086.719,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V030/L25_V030_S0115_F032569.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A person is swimming in a pool, with their arms extended outwards and their head visible above the water.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V030_S0116",
+            "start_frame": 32593,
+            "end_frame": 32705,
+            "start_ts": 1087.52,
+            "end_ts": 1091.257,
+            "duration": 3.737,
+            "keyframes": [
+                {
+                    "frame_idx": 32649,
+                    "timestamp": 1089.388,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V030/L25_V030_S0116_F032649.jpg"
+                },
+                {
+                    "frame_idx": 32621,
+                    "timestamp": 1088.454,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V030/L25_V030_S0116_F032621.jpg"
+                },
+                {
+                    "frame_idx": 32677,
+                    "timestamp": 1090.323,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V030/L25_V030_S0116_F032677.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "DE",
+                "vlm_caption": {
+                    "detailed_description": "A basketball player in a green jersey is dribbling the ball while being guarded by a player in a red jersey on a basketball court.",
+                    "objects_and_counts": [
+                        "1 person | 4 person, 1 sports ball | 1 person, 3 chair, 1 oven, 1 tv"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V030_S0117",
+            "start_frame": 32706,
+            "end_frame": 32925,
+            "start_ts": 1091.29,
+            "end_ts": 1098.598,
+            "duration": 7.307,
+            "keyframes": [
+                {
+                    "frame_idx": 32815,
+                    "timestamp": 1094.927,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V030/L25_V030_S0117_F032815.jpg"
+                },
+                {
+                    "frame_idx": 32760,
+                    "timestamp": 1093.092,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V030/L25_V030_S0117_F032760.jpg"
+                },
+                {
+                    "frame_idx": 32870,
+                    "timestamp": 1096.762,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V030/L25_V030_S0117_F032870.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A person in a white shirt and black pants is playing a drum set with a shiny, colorful drum head, while a large screen behind them displays two individuals in suits.",
+                    "objects_and_counts": [
+                        "1 person, 13 bottle, 1 cup, 1 wine glass | 1 bed, 4 person, 1 tv, 1 chair | 4 person, 4 tie, 2 car"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V030_S0118",
+            "start_frame": 32926,
+            "end_frame": 32962,
+            "start_ts": 1098.631,
+            "end_ts": 1099.832,
+            "duration": 1.201,
+            "keyframes": [
+                {
+                    "frame_idx": 32944,
+                    "timestamp": 1099.231,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V030/L25_V030_S0118_F032944.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Đó là triết lý giáo dục.",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A group of graduates in black gowns and caps stand in a line, facing forward, with a colorful banner hanging above them.",
+                    "objects_and_counts": [
+                        "20 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V030_S0119",
+            "start_frame": 32963,
+            "end_frame": 33008,
+            "start_ts": 1099.865,
+            "end_ts": 1101.367,
+            "duration": 1.502,
+            "keyframes": [
+                {
+                    "frame_idx": 32985,
+                    "timestamp": 1100.6,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V030/L25_V030_S0119_F032985.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "mà Đại học Quốc tế Sài Gòn",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A group of graduates in black gowns and caps are raising their caps in front of a traditional Chinese architectural structure.",
+                    "objects_and_counts": [
+                        "19 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V030_S0120",
+            "start_frame": 33009,
+            "end_frame": 33173,
+            "start_ts": 1101.4,
+            "end_ts": 1106.872,
+            "duration": 5.472,
+            "keyframes": [
+                {
+                    "frame_idx": 33091,
+                    "timestamp": 1104.136,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V030/L25_V030_S0120_F033091.jpg"
+                },
+                {
+                    "frame_idx": 33050,
+                    "timestamp": 1102.768,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V030/L25_V030_S0120_F033050.jpg"
+                },
+                {
+                    "frame_idx": 33132,
+                    "timestamp": 1105.504,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V030/L25_V030_S0120_F033132.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "AIS | SIU",
+                "vlm_caption": {
+                    "detailed_description": "The image shows a person in a graduation gown with a red sash, standing next to a sign with the letters \"SIU\" on it.",
+                    "objects_and_counts": [
+                        "1 person | 1 person, 1 tie | 1 person, 1 clock"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V030_S0121",
+            "start_frame": 33175,
+            "end_frame": 33328,
+            "start_ts": 1106.939,
+            "end_ts": 1112.044,
+            "duration": 5.105,
+            "keyframes": [
+                {
+                    "frame_idx": 33251,
+                    "timestamp": 1109.475,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V030/L25_V030_S0121_F033251.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Đã học",
+                "ocr_text": "R 10 2007 THE SAIGON INTERNATIONAL UNIVERSITY Tâm hòn Việt Nam, giáo dục thể giới Vietnams spirit, głobat educațio",
+                "vlm_caption": {
+                    "detailed_description": "The image features the logo of The Saigon International University, set against a backdrop of a bright blue sky with scattered clouds and a rainbow.",
+                    "objects_and_counts": [
+                        "1 frisbee"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V030_S0122",
+            "start_frame": 33329,
+            "end_frame": 34176,
+            "start_ts": 1112.078,
+            "end_ts": 1140.339,
+            "duration": 28.262,
+            "keyframes": [
+                {
+                    "frame_idx": 33752,
+                    "timestamp": 1126.192,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V030/L25_V030_S0122_F033752.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Câu số 4 Cho 0.1 mon amino acid X tác dụng 0.1 mon NaOH thu 9.7 găm muối hỏi tên của X là Câu này cũng rất đơn giản vì chúng ta đã có được mon amino acid Có được mon NaOH mà có thêm từ khóa vừa đủ Vậy thì tỷ lệ 1-1 mà 1-1 khi tác dụng NaOH nghĩa là có 1 nhóm COH trong cấu trúc của amino acid Vậy chúng ta đặt công thức ở dạng như sau",
+                "ocr_text": "II. Bài toán phản ứng với kiềm Câu 4: Cho 0,1 mol amino axit X tác dụng vừa đủ với 0,1 mol NaOH, THITHMEN thu được 9,7 gam muối. Tên gọi của X là B. alanin. A. valin. D. lysin. C. glixin. 00C",
+                "vlm_caption": {
+                    "detailed_description": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+                    "objects_and_counts": [
+                        "1 person, 1 tie"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V030_S0123",
+            "start_frame": 34177,
+            "end_frame": 38167,
+            "start_ts": 1140.373,
+            "end_ts": 1273.506,
+            "duration": 133.133,
+            "keyframes": [
+                {
+                    "frame_idx": 36172,
+                    "timestamp": 1206.939,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V030/L25_V030_S0123_F036172.jpg"
+                },
+                {
+                    "frame_idx": 35174,
+                    "timestamp": 1173.639,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V030/L25_V030_S0123_F035174.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "chúng ta sẽ không biết nó có bao nhiêu nhóm nhờ h2 cho nên chúng ta có thể đặt lại nạ 2 x lần rco h mặt khác chúng ta có 9,7 gam muối vậy chúng ta sẽ dùng biện pháp bảo toàn khối lượng đó là chúng ta lấy 9,7 chúng ta đem cộng với mol của nước là 0,1 nhân cho m lớn nước 18 thì ra được khối lượng nước trừ khối lượng nào hát ở đây là không phải một nhân 40 em ra được khối lượng của x có khối lượng phân tự rồi thì chúng ta đem chia cho mol 0,1 ra được 75 đó là khối lượng phân tự rất quen thuộc của glicin đáp án chọn câu c à à ở câu số 5 tương tự câu số 4 khen tự giải và chúng ta cũng thu được kết quả rất đơn giản đó là đáp án 250ml đặt ăn đê anh ở câu số 5 này thì lưu ý cho chúng ta rằng đầu tiên người ta đã cho mình chất này có một nhóm nợ 2 A và một nhóm co h Ừ nhưng ở đây người ta nói là sau khi phản ứng thu được y và cho nào hát tác dụng với y A và các em lưu ý rằng khi cho tác dụng hcl thì aminoacid nó đã biến thành muối amoni và muối amoni cái gốc nhờ h3cl cũng phản ứng được với nào hát rồi nhóm co h cũng phản ứng được với nào hát cho nên nếu các em quy về hỗn hợp , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , 1 mol nào hát nữa Vậy chúng ta cộng lại Vậy chúng ta được 0,1 Còn 0,15 Là 0,25 mol nào hát Nồng độ là 1m Thì 0,25 chia 1 Chúng ta được 0,25 lít Tương ứng 250ml Đáp án của chúng ta sẽ là cấu D",
+                "ocr_text": "II. Bài toán phản ứng với kiểm Câu 4: Cho 0,1 mol amino axit X tác dụng vừa đủ với 0,1 mol NaOH, thu được 9,7 gam muối. Tên gọi của X là A. valin. B. alanin. D. lysin. glixin. Hướng dân: BTKL: mx = mmuới + m H,o - M NaOH = 7,5 gam → Mx = 7,5:0,1= 75 → X là glixin Ta có sơ đồ: X + NaOH → muối + H,O Câu 5: Cho 0,1 mol X (H,NC, H, COOH) vào 100 ml dung dịch HCI 1,5M, thu được dung dịch Y. Thể tích dung dịch NaOH 1M để phản ứng ứng vừa đủ với Y là A. 100 ml. B. 150 ml. C. 200 ml. D. 250 ml. Hướng dẫn: HC! + NaOH → NaC1 + H,O 0,15 mol → 0,15 mol HCI = 0,15 Coi Y= H,NC, H, COOH + NaOH → H,NC, H, COONa + H,O X = 0,1 0,1 mol 0,1 mol → n NaoH= 0,1 + 0,15 = 0,25 → V= 0,25 : 1 = 0,25 lít = 250 ml. | II. Bài toán phản ứng với kiềm Câu 4: Cho 0,1 mol amino axit X tác dụng vừa đủ với 0,1 mol NaOH, thu được 9,7 gam muối. Tên gọi của X là A. valin. B. alanin. C. glixin. D. lysin. Hướng dân: BTKL: mx = mmuới + mH,o-MNaOH=7,5 gam → Mx = 7,= 0,1 =* →X là glixin Ta có sơ đồ: X + NaOH → muối + H,O",
+                "vlm_caption": {
+                    "detailed_description": "The image is a Vietnamese educational slide about chemical reactions, specifically focusing on the reaction between an amino acid and sodium hydroxide."
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V030_S0124",
+            "start_frame": 38168,
+            "end_frame": 38559,
+            "start_ts": 1273.539,
+            "end_ts": 1286.585,
+            "duration": 13.046,
+            "keyframes": [
+                {
+                    "frame_idx": 38363,
+                    "timestamp": 1280.045,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V030/L25_V030_S0124_F038363.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Nội dung của câu số 5 vừa rồi cũng đã kết thúc chuyên đề về amin, amino acid, peptide và protein Cảm ơn các em đã chú ý lắng nghe Thân ái chào tạm biệt, hẹn gặp lại các em ở những chuyên đề lần sau",
+                "ocr_text": "II. Bài toán phản ứng với kiềm Câu 4: Cho 0,1 mol amino axit X tác dụng vừa đủ với 0,1 mol NaOH, thu được 9,7 gam muối. Tên gọi của X là A. valin. B. alanin. glixin. D. lysin. Hướng dẫn: BTKL: mx = muơi + mH.o - M NaOH = 7,5 gam Ta có sơ đồ : X + NaOH → muối + H,O → Mx = 7,5:0,1 = 75 → X là glixin Câu 5: Cho 0,1 mol X (H,NC, H,COOH) vào 100 ml dung dịch HCI 1,5M, thu được dung dịch Y. Thế tích dung dịch NaOH 1M đề phản ứng ứng vừa đủ với Y là B. 150 ml. D. 250 ml. A. 100 ml. C. 200 ml. Hướng dẫn: HCI + NaOH → NaCl + H,O 0,15 mol HCI =0,15 Coi Y=1x=0,1 → H,NC, H, COOH + NaOH → H,NC H, COONa + H,O 0,1 mol → → 2 n NaoH = 0,1 + 0,15 = 0,25 → V= 0,25 : 1 = 0,25 lít = 250 ml",
+                "vlm_caption": {
+                    "detailed_description": "A man in a white shirt and purple tie is sitting at a desk with a laptop, explaining a chemistry problem on a green screen.",
+                    "objects_and_counts": [
+                        "1 person, 1 tie, 1 laptop"
+                    ]
+                }
+            }
+        }
+    ]
+}

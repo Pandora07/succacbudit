@@ -1,0 +1,1352 @@
+{
+    "video_id": "L24_V009",
+    "fps": 25.0,
+    "total_shots": 54,
+    "total_keyframes": 60,
+    "shots": [
+        {
+            "shot_id": "L24_V009_S0001",
+            "start_frame": 0,
+            "end_frame": 562,
+            "start_ts": 0.0,
+            "end_ts": 22.48,
+            "duration": 22.48,
+            "keyframes": [
+                {
+                    "frame_idx": 281,
+                    "timestamp": 11.24,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V009/L24_V009_S0001_F000281.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "",
+                "ocr_text": "HTV THẺ THAO 3",
+                "vlm_caption": {
+                    "detailed_description": "A colorful lion dance performance is taking place on a stage with various decorations and a backdrop featuring a dragon and other festive elements."
+                }
+            }
+        },
+        {
+            "shot_id": "L24_V009_S0002",
+            "start_frame": 563,
+            "end_frame": 686,
+            "start_ts": 22.52,
+            "end_ts": 27.44,
+            "duration": 4.92,
+            "keyframes": [
+                {
+                    "frame_idx": 624,
+                    "timestamp": 24.96,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V009/L24_V009_S0002_F000624.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Thank you.",
+                "ocr_text": "quins HTV HỂ THAO *",
+                "vlm_caption": {
+                    "detailed_description": "A group of individuals in yellow uniforms are playing drums on a stage decorated with festive elements, including red lanterns and a large inflatable structure.",
+                    "objects_and_counts": [
+                        "10 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L24_V009_S0003",
+            "start_frame": 687,
+            "end_frame": 779,
+            "start_ts": 27.48,
+            "end_ts": 31.16,
+            "duration": 3.68,
+            "keyframes": [
+                {
+                    "frame_idx": 733,
+                    "timestamp": 29.32,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V009/L24_V009_S0003_F000733.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Thank you.",
+                "ocr_text": "HTV HẾ THAO",
+                "vlm_caption": {
+                    "detailed_description": "A colorful lion dance costume is displayed on a table, with intricate patterns and vibrant colors.",
+                    "objects_and_counts": [
+                        "1 teddy bear"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L24_V009_S0004",
+            "start_frame": 780,
+            "end_frame": 1354,
+            "start_ts": 31.2,
+            "end_ts": 54.16,
+            "duration": 22.96,
+            "keyframes": [
+                {
+                    "frame_idx": 1067,
+                    "timestamp": 42.68,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V009/L24_V009_S0004_F001067.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Thank you.",
+                "ocr_text": "HTV HỂ THAO",
+                "vlm_caption": {
+                    "detailed_description": "A colorful lion dance performance is taking place on a stage with various props and decorations, including a large dragon and a fan.",
+                    "objects_and_counts": [
+                        "2 person, 1 horse"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L24_V009_S0005",
+            "start_frame": 1355,
+            "end_frame": 1455,
+            "start_ts": 54.2,
+            "end_ts": 58.2,
+            "duration": 4.0,
+            "keyframes": [
+                {
+                    "frame_idx": 1405,
+                    "timestamp": 56.2,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V009/L24_V009_S0005_F001405.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "All right.",
+                "ocr_text": "HTV Y HỂ THẠO",
+                "vlm_caption": {
+                    "detailed_description": "A colorful lion dance performance is taking place on a stage with a blue backdrop, featuring a large, vibrant lion puppet adorned with traditional decorations and a pink mask."
+                }
+            }
+        },
+        {
+            "shot_id": "L24_V009_S0006",
+            "start_frame": 1456,
+            "end_frame": 1997,
+            "start_ts": 58.24,
+            "end_ts": 79.88,
+            "duration": 21.64,
+            "keyframes": [
+                {
+                    "frame_idx": 1726,
+                    "timestamp": 69.04,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V009/L24_V009_S0006_F001726.jpg"
+                },
+                {
+                    "frame_idx": 1861,
+                    "timestamp": 74.44,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V009/L24_V009_S0006_F001861.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Thank you.",
+                "ocr_text": "HTV HẾ THAO",
+                "vlm_caption": {
+                    "detailed_description": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+                    "objects_and_counts": [
+                        "1 person | 3 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L24_V009_S0007",
+            "start_frame": 1998,
+            "end_frame": 2043,
+            "start_ts": 79.92,
+            "end_ts": 81.72,
+            "duration": 1.8,
+            "keyframes": [
+                {
+                    "frame_idx": 2020,
+                    "timestamp": 80.8,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V009/L24_V009_S0007_F002020.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Thank you.",
+                "ocr_text": "quAnS HẾ THAO",
+                "vlm_caption": {
+                    "detailed_description": "A performer in a vibrant red and yellow lion costume is dancing on a stage with a colorful backdrop."
+                }
+            }
+        },
+        {
+            "shot_id": "L24_V009_S0008",
+            "start_frame": 2044,
+            "end_frame": 3226,
+            "start_ts": 81.76,
+            "end_ts": 129.04,
+            "duration": 47.28,
+            "keyframes": [
+                {
+                    "frame_idx": 2635,
+                    "timestamp": 105.4,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V009/L24_V009_S0008_F002635.jpg"
+                },
+                {
+                    "frame_idx": 2339,
+                    "timestamp": 93.56,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V009/L24_V009_S0008_F002339.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "JR東日本E233系電車JR東日本E233系電車",
+                "ocr_text": "HTV HẾ THAO *H BIN IV PHONG DIL LI DO | HTV HẺ THAO EN PRONG ?",
+                "vlm_caption": {
+                    "detailed_description": "A colorful lion dance performance is taking place in an outdoor setting with a crowd of spectators watching.",
+                    "objects_and_counts": [
+                        "8 person, 1 kite | 5 chair, 7 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L24_V009_S0009",
+            "start_frame": 3227,
+            "end_frame": 3373,
+            "start_ts": 129.08,
+            "end_ts": 134.92,
+            "duration": 5.84,
+            "keyframes": [
+                {
+                    "frame_idx": 3300,
+                    "timestamp": 132.0,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V009/L24_V009_S0009_F003300.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Thank you.",
+                "ocr_text": "HTV HẾ THAC",
+                "vlm_caption": {
+                    "detailed_description": "A lion dance performance is taking place on a stage with a crowd of spectators watching.",
+                    "objects_and_counts": [
+                        "10 person, 1 dog"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L24_V009_S0010",
+            "start_frame": 3374,
+            "end_frame": 3526,
+            "start_ts": 134.96,
+            "end_ts": 141.04,
+            "duration": 6.08,
+            "keyframes": [
+                {
+                    "frame_idx": 3450,
+                    "timestamp": 138.0,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V009/L24_V009_S0010_F003450.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A group of performers in yellow outfits are participating in a traditional event, with a stage featuring colorful decorations and a large audience watching from the sides.",
+                    "objects_and_counts": [
+                        "7 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L24_V009_S0011",
+            "start_frame": 3527,
+            "end_frame": 3738,
+            "start_ts": 141.08,
+            "end_ts": 149.52,
+            "duration": 8.44,
+            "keyframes": [
+                {
+                    "frame_idx": 3632,
+                    "timestamp": 145.28,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V009/L24_V009_S0011_F003632.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Thank you.",
+                "ocr_text": "HTV HỂ THAO S PHONG DILLY DI",
+                "vlm_caption": {
+                    "detailed_description": "A traditional lion dance performance is taking place on a stage with spectators watching, while a red and white flag with Chinese characters is prominently displayed.",
+                    "objects_and_counts": [
+                        "6 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L24_V009_S0012",
+            "start_frame": 3739,
+            "end_frame": 3797,
+            "start_ts": 149.56,
+            "end_ts": 151.88,
+            "duration": 2.32,
+            "keyframes": [
+                {
+                    "frame_idx": 3768,
+                    "timestamp": 150.72,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V009/L24_V009_S0012_F003768.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A vibrant lion dance performance is taking place, with a large, colorful lion costume in the foreground and a bright, blue sky in the background."
+                }
+            }
+        },
+        {
+            "shot_id": "L24_V009_S0013",
+            "start_frame": 3798,
+            "end_frame": 4326,
+            "start_ts": 151.92,
+            "end_ts": 173.04,
+            "duration": 21.12,
+            "keyframes": [
+                {
+                    "frame_idx": 4062,
+                    "timestamp": 162.48,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V009/L24_V009_S0013_F004062.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "",
+                "ocr_text": "qüAn- HTV HẾ THAO",
+                "vlm_caption": {
+                    "detailed_description": "A lion dance performance is taking place on a stage with a crowd of spectators watching.",
+                    "objects_and_counts": [
+                        "1 kite, 6 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L24_V009_S0014",
+            "start_frame": 4327,
+            "end_frame": 4450,
+            "start_ts": 173.08,
+            "end_ts": 178.0,
+            "duration": 4.92,
+            "keyframes": [
+                {
+                    "frame_idx": 4388,
+                    "timestamp": 175.52,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V009/L24_V009_S0014_F004388.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "We'll be right back.",
+                "ocr_text": "TV",
+                "vlm_caption": {
+                    "detailed_description": "A person wearing a red outfit is holding a large, colorful lion dance costume with intricate designs and bright colors.",
+                    "objects_and_counts": [
+                        "1 cake"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L24_V009_S0015",
+            "start_frame": 4451,
+            "end_frame": 4992,
+            "start_ts": 178.04,
+            "end_ts": 199.68,
+            "duration": 21.64,
+            "keyframes": [
+                {
+                    "frame_idx": 4721,
+                    "timestamp": 188.84,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V009/L24_V009_S0015_F004721.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Thank you.",
+                "ocr_text": "HTV Chợ lén HỆ THAO BOIN PHONG DIT LY DE",
+                "vlm_caption": {
+                    "detailed_description": "A traditional lion dance performance is taking place in an outdoor urban setting, with performers in yellow costumes and a large, colorful lion puppet in the foreground, while spectators and other performers are visible in the background.",
+                    "objects_and_counts": [
+                        "1 kite, 8 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L24_V009_S0016",
+            "start_frame": 4993,
+            "end_frame": 5059,
+            "start_ts": 199.72,
+            "end_ts": 202.36,
+            "duration": 2.64,
+            "keyframes": [
+                {
+                    "frame_idx": 5026,
+                    "timestamp": 201.04,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V009/L24_V009_S0016_F005026.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "© BF-WATCH TV 2021",
+                "ocr_text": "HTV HỂ THAO",
+                "vlm_caption": {
+                    "detailed_description": "A traditional lion dance costume is displayed on a stand outdoors, with a crowd of people gathered around.",
+                    "objects_and_counts": [
+                        "3 person, 1 frisbee"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L24_V009_S0017",
+            "start_frame": 5060,
+            "end_frame": 5165,
+            "start_ts": 202.4,
+            "end_ts": 206.6,
+            "duration": 4.2,
+            "keyframes": [
+                {
+                    "frame_idx": 5112,
+                    "timestamp": 204.48,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V009/L24_V009_S0017_F005112.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "© transcript Emily Beynon",
+                "ocr_text": "HTV Chơ lên HỂ THAO",
+                "vlm_caption": {
+                    "detailed_description": "A performer in a yellow shirt is playing a large drum on a stage with a traditional lion dance backdrop.",
+                    "objects_and_counts": [
+                        "3 person, 1 teddy bear"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L24_V009_S0018",
+            "start_frame": 5166,
+            "end_frame": 5347,
+            "start_ts": 206.64,
+            "end_ts": 213.88,
+            "duration": 7.24,
+            "keyframes": [
+                {
+                    "frame_idx": 5256,
+                    "timestamp": 210.24,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V009/L24_V009_S0018_F005256.jpg"
+                },
+                {
+                    "frame_idx": 5211,
+                    "timestamp": 208.44,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V009/L24_V009_S0018_F005211.jpg"
+                },
+                {
+                    "frame_idx": 5301,
+                    "timestamp": 212.04,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V009/L24_V009_S0018_F005301.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "",
+                "ocr_text": "ATV HỂ THAO DI 5 - ĐÂI TRUYỀN NÌNI TR. HỖ CHỈ NINH GI8 NG QUẬNS MÔ RỘNG NAM 2024 No Lên Mai Hoa Thung ngày 19 thông 00 nâm 2026 | ỦY ĐAN NHIÊN DÂN QUẬN 5 - ĐÁI TRUYỀN HÌNH TR. NỒ CHÍ NINH Qu ATV HẾ THAO GIẢI LÂN - SU- RỒNG QUẬN 5 MÔ RỘNG LẦN VI - NĂM 2024 CỦP CHỌ LỚN - ĐA il Hoa Thung Nội dung thi Lân Lên! Quận 6, ngày 18 | ATV HỂ THAO",
+                "vlm_caption": {
+                    "detailed_description": "A colorful lion dance performance is taking place on a stage with a large screen displaying the event details, while spectators watch from the sidelines.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L24_V009_S0019",
+            "start_frame": 5348,
+            "end_frame": 5555,
+            "start_ts": 213.92,
+            "end_ts": 222.2,
+            "duration": 8.28,
+            "keyframes": [
+                {
+                    "frame_idx": 5451,
+                    "timestamp": 218.04,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V009/L24_V009_S0019_F005451.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Thank you.",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A group of performers in traditional attire are performing a lion dance on a stage with colorful decorations and an audience watching.",
+                    "objects_and_counts": [
+                        "5 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L24_V009_S0020",
+            "start_frame": 5556,
+            "end_frame": 6009,
+            "start_ts": 222.24,
+            "end_ts": 240.36,
+            "duration": 18.12,
+            "keyframes": [
+                {
+                    "frame_idx": 5782,
+                    "timestamp": 231.28,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V009/L24_V009_S0020_F005782.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Thank you.",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A vibrant dragon dance performance takes place on a street adorned with colorful decorations and banners, with participants in yellow uniforms performing the traditional Chinese dance.",
+                    "objects_and_counts": [
+                        "6 person, 1 kite"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L24_V009_S0021",
+            "start_frame": 6010,
+            "end_frame": 6151,
+            "start_ts": 240.4,
+            "end_ts": 246.04,
+            "duration": 5.64,
+            "keyframes": [
+                {
+                    "frame_idx": 6080,
+                    "timestamp": 243.2,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V009/L24_V009_S0021_F006080.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Thank you.",
+                "ocr_text": "quAn HTV HẾ THAO DAN",
+                "vlm_caption": {
+                    "detailed_description": "A vibrant lion dance costume with yellow and red fur and pink accents is displayed on a stage, with a tree and a building in the background.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L24_V009_S0022",
+            "start_frame": 6152,
+            "end_frame": 6303,
+            "start_ts": 246.08,
+            "end_ts": 252.12,
+            "duration": 6.04,
+            "keyframes": [
+                {
+                    "frame_idx": 6227,
+                    "timestamp": 249.08,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V009/L24_V009_S0022_F006227.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Thank you.",
+                "ocr_text": "HTV HẾ THAO",
+                "vlm_caption": {
+                    "detailed_description": "A colorful lion dance costume is displayed on a pole, with a backdrop of trees and a tent-like structure.",
+                    "objects_and_counts": [
+                        "1 person, 1 kite"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L24_V009_S0023",
+            "start_frame": 6304,
+            "end_frame": 6515,
+            "start_ts": 252.16,
+            "end_ts": 260.6,
+            "duration": 8.44,
+            "keyframes": [
+                {
+                    "frame_idx": 6409,
+                    "timestamp": 256.36,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V009/L24_V009_S0023_F006409.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "おやすみなさい",
+                "ocr_text": "HTV T HỂ THAO HÁ THD ĐỨC",
+                "vlm_caption": {
+                    "detailed_description": "A group of individuals in yellow and white uniforms are performing a traditional lion dance on a stage with a crowd of spectators in the background.",
+                    "objects_and_counts": [
+                        "7 person, 1 handbag, 1 chair"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L24_V009_S0024",
+            "start_frame": 6516,
+            "end_frame": 7024,
+            "start_ts": 260.64,
+            "end_ts": 280.96,
+            "duration": 20.32,
+            "keyframes": [
+                {
+                    "frame_idx": 6770,
+                    "timestamp": 270.8,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V009/L24_V009_S0024_F006770.jpg"
+                },
+                {
+                    "frame_idx": 6643,
+                    "timestamp": 265.72,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V009/L24_V009_S0024_F006643.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Thank you.",
+                "ocr_text": "HTV | HTV HỂ THAO BAN PHONG ĐẠI LY DU LỊCH BINH 1!",
+                "vlm_caption": {
+                    "detailed_description": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+                    "objects_and_counts": [
+                        "12 person, 1 kite | 11 person, 1 dog"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L24_V009_S0025",
+            "start_frame": 7025,
+            "end_frame": 7053,
+            "start_ts": 281.0,
+            "end_ts": 282.12,
+            "duration": 1.12,
+            "keyframes": [
+                {
+                    "frame_idx": 7039,
+                    "timestamp": 281.56,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V009/L24_V009_S0025_F007039.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "",
+                "ocr_text": "quAns HTV /HẾ THAO",
+                "vlm_caption": {
+                    "detailed_description": "The image depicts a vibrant and colorful dragon dance performance, with intricate dragon head and body adorned with yellow and red decorations, set against a backdrop of a red and white striped banner.",
+                    "objects_and_counts": [
+                        "1 cake, 1 dining table"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L24_V009_S0026",
+            "start_frame": 7054,
+            "end_frame": 7243,
+            "start_ts": 282.16,
+            "end_ts": 289.72,
+            "duration": 7.56,
+            "keyframes": [
+                {
+                    "frame_idx": 7148,
+                    "timestamp": 285.92,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V009/L24_V009_S0026_F007148.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Thank you.",
+                "ocr_text": "TV tho loi HẺ THAO",
+                "vlm_caption": {
+                    "detailed_description": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+                    "objects_and_counts": [
+                        "7 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L24_V009_S0027",
+            "start_frame": 7244,
+            "end_frame": 7312,
+            "start_ts": 289.76,
+            "end_ts": 292.48,
+            "duration": 2.72,
+            "keyframes": [
+                {
+                    "frame_idx": 7278,
+                    "timestamp": 291.12,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V009/L24_V009_S0027_F007278.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Thank you.",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A vibrant lion dance costume with yellow fur and colorful patterns is being performed.",
+                    "objects_and_counts": [
+                        "1 vase"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L24_V009_S0028",
+            "start_frame": 7313,
+            "end_frame": 7455,
+            "start_ts": 292.52,
+            "end_ts": 298.2,
+            "duration": 5.68,
+            "keyframes": [
+                {
+                    "frame_idx": 7384,
+                    "timestamp": 295.36,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V009/L24_V009_S0028_F007384.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Thank you.",
+                "ocr_text": "HTV HẾ THAO THỐỔ NỞ BÚC",
+                "vlm_caption": {
+                    "detailed_description": "A performer in a yellow shirt is playing a drum on a stage with a lion dance puppet in the background.",
+                    "objects_and_counts": [
+                        "4 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L24_V009_S0029",
+            "start_frame": 7456,
+            "end_frame": 7666,
+            "start_ts": 298.24,
+            "end_ts": 306.64,
+            "duration": 8.4,
+            "keyframes": [
+                {
+                    "frame_idx": 7561,
+                    "timestamp": 302.44,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V009/L24_V009_S0029_F007561.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "",
+                "ocr_text": "HTV HẾ THAO RE",
+                "vlm_caption": {
+                    "detailed_description": "A lion dance performance is taking place on a stage with a crowd of spectators in the background.",
+                    "objects_and_counts": [
+                        "10 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L24_V009_S0030",
+            "start_frame": 7667,
+            "end_frame": 7792,
+            "start_ts": 306.68,
+            "end_ts": 311.68,
+            "duration": 5.0,
+            "keyframes": [
+                {
+                    "frame_idx": 7729,
+                    "timestamp": 309.16,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V009/L24_V009_S0030_F007729.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Thank you.",
+                "ocr_text": "HTV HỂ THAO",
+                "vlm_caption": {
+                    "detailed_description": "A red flower arrangement is placed in a yellow and red striped vase attached to a metal structure with a decorative pattern.",
+                    "objects_and_counts": [
+                        "1 potted plant"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L24_V009_S0031",
+            "start_frame": 7793,
+            "end_frame": 8144,
+            "start_ts": 311.72,
+            "end_ts": 325.76,
+            "duration": 14.04,
+            "keyframes": [
+                {
+                    "frame_idx": 7968,
+                    "timestamp": 318.72,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V009/L24_V009_S0031_F007968.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "© transcript Emily Beynon",
+                "ocr_text": "ATV HỂ THẠO",
+                "vlm_caption": {
+                    "detailed_description": "A vibrant lion dance performance is taking place on a stage with a crowd of spectators watching attentively.",
+                    "objects_and_counts": [
+                        "7 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L24_V009_S0032",
+            "start_frame": 8145,
+            "end_frame": 8208,
+            "start_ts": 325.8,
+            "end_ts": 328.32,
+            "duration": 2.52,
+            "keyframes": [
+                {
+                    "frame_idx": 8176,
+                    "timestamp": 327.04,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V009/L24_V009_S0032_F008176.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Thank you.",
+                "ocr_text": "D HTV HẾ THAO",
+                "vlm_caption": {
+                    "detailed_description": "A vibrant lion dance performance is taking place, with performers in traditional yellow costumes and colorful headdresses moving energetically."
+                }
+            }
+        },
+        {
+            "shot_id": "L24_V009_S0033",
+            "start_frame": 8209,
+            "end_frame": 8633,
+            "start_ts": 328.36,
+            "end_ts": 345.32,
+            "duration": 16.96,
+            "keyframes": [
+                {
+                    "frame_idx": 8421,
+                    "timestamp": 336.84,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V009/L24_V009_S0033_F008421.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "",
+                "ocr_text": "H TV HỂ THAO H BINH AN PHONG DAI LY DU",
+                "vlm_caption": {
+                    "detailed_description": "A colorful lion dance performance is taking place on a stage with a crowd of spectators in the background.",
+                    "objects_and_counts": [
+                        "1 kite, 3 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L24_V009_S0034",
+            "start_frame": 8634,
+            "end_frame": 8713,
+            "start_ts": 345.36,
+            "end_ts": 348.52,
+            "duration": 3.16,
+            "keyframes": [
+                {
+                    "frame_idx": 8673,
+                    "timestamp": 346.92,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V009/L24_V009_S0034_F008673.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Thank you.",
+                "ocr_text": "H HỂ THAO",
+                "vlm_caption": {
+                    "detailed_description": "A colorful dragon puppet with a yellow and red head is being manipulated by a person, with a bright orange background and a logo in the top right corner."
+                }
+            }
+        },
+        {
+            "shot_id": "L24_V009_S0035",
+            "start_frame": 8714,
+            "end_frame": 9101,
+            "start_ts": 348.56,
+            "end_ts": 364.04,
+            "duration": 15.48,
+            "keyframes": [
+                {
+                    "frame_idx": 8907,
+                    "timestamp": 356.28,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V009/L24_V009_S0035_F008907.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Thank you.",
+                "ocr_text": "HTV qU AnSı HẾ THAO",
+                "vlm_caption": {
+                    "detailed_description": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+                    "objects_and_counts": [
+                        "9 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L24_V009_S0036",
+            "start_frame": 9102,
+            "end_frame": 9221,
+            "start_ts": 364.08,
+            "end_ts": 368.84,
+            "duration": 4.76,
+            "keyframes": [
+                {
+                    "frame_idx": 9161,
+                    "timestamp": 366.44,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V009/L24_V009_S0036_F009161.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "© BF-WATCH TV 2021",
+                "ocr_text": "HTV HẾ THAO",
+                "vlm_caption": {
+                    "detailed_description": "A colorful dragon dance costume with a yellow head and red eyes is performing in front of a vibrant, festive background."
+                }
+            }
+        },
+        {
+            "shot_id": "L24_V009_S0037",
+            "start_frame": 9222,
+            "end_frame": 9377,
+            "start_ts": 368.88,
+            "end_ts": 375.08,
+            "duration": 6.2,
+            "keyframes": [
+                {
+                    "frame_idx": 9299,
+                    "timestamp": 371.96,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V009/L24_V009_S0037_F009299.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "We'll be right back.",
+                "ocr_text": "HTV quAn5ı HẾ THAO MENIL",
+                "vlm_caption": {
+                    "detailed_description": "A vibrant dragon dance performance is taking place on a stage adorned with colorful decorations, with participants in yellow costumes and a large dragon puppet in the foreground.",
+                    "objects_and_counts": [
+                        "5 person, 1 kite"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L24_V009_S0038",
+            "start_frame": 9378,
+            "end_frame": 9479,
+            "start_ts": 375.12,
+            "end_ts": 379.16,
+            "duration": 4.04,
+            "keyframes": [
+                {
+                    "frame_idx": 9428,
+                    "timestamp": 377.12,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V009/L24_V009_S0038_F009428.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "© BF-WATCH TV 2021",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A colorful dragon puppet with vibrant yellow and red hues is performing in a festive environment."
+                }
+            }
+        },
+        {
+            "shot_id": "L24_V009_S0039",
+            "start_frame": 9480,
+            "end_frame": 10159,
+            "start_ts": 379.2,
+            "end_ts": 406.36,
+            "duration": 27.16,
+            "keyframes": [
+                {
+                    "frame_idx": 9819,
+                    "timestamp": 392.76,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V009/L24_V009_S0039_F009819.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Thank you.",
+                "ocr_text": "HTV T HẾ THAO",
+                "vlm_caption": {
+                    "detailed_description": "The image depicts a festive outdoor event with colorful decorations, including a lion dance performance and a decorated stage with cartoon characters.",
+                    "objects_and_counts": [
+                        "5 person, 1 teddy bear"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L24_V009_S0040",
+            "start_frame": 10160,
+            "end_frame": 10294,
+            "start_ts": 406.4,
+            "end_ts": 411.76,
+            "duration": 5.36,
+            "keyframes": [
+                {
+                    "frame_idx": 10227,
+                    "timestamp": 409.08,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V009/L24_V009_S0040_F010227.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Thank you.",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A colorful lion dance costume is suspended in mid-air above a crowd of spectators at an outdoor event.",
+                    "objects_and_counts": [
+                        "7 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L24_V009_S0041",
+            "start_frame": 10295,
+            "end_frame": 10632,
+            "start_ts": 411.8,
+            "end_ts": 425.28,
+            "duration": 13.48,
+            "keyframes": [
+                {
+                    "frame_idx": 10463,
+                    "timestamp": 418.52,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V009/L24_V009_S0041_F010463.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Thank you.",
+                "ocr_text": "HTV Chơ lén HẾ THAO DEN PHONG ĐẠI LY DU LỊCH BINH",
+                "vlm_caption": {
+                    "detailed_description": "A colorful lion dance performance is taking place in an urban setting with a crowd of spectators and a decorated street.",
+                    "objects_and_counts": [
+                        "9 person, 1 kite"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L24_V009_S0042",
+            "start_frame": 10633,
+            "end_frame": 10672,
+            "start_ts": 425.32,
+            "end_ts": 426.88,
+            "duration": 1.56,
+            "keyframes": [
+                {
+                    "frame_idx": 10652,
+                    "timestamp": 426.08,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V009/L24_V009_S0042_F010652.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Thank you.",
+                "ocr_text": "HTV HẾ THAO",
+                "vlm_caption": {
+                    "detailed_description": "A group of performers in yellow outfits are performing a traditional lion dance on a stage with various props and banners in a festive outdoor setting.",
+                    "objects_and_counts": [
+                        "5 person, 1 umbrella"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L24_V009_S0043",
+            "start_frame": 10673,
+            "end_frame": 11083,
+            "start_ts": 426.92,
+            "end_ts": 443.32,
+            "duration": 16.4,
+            "keyframes": [
+                {
+                    "frame_idx": 10878,
+                    "timestamp": 435.12,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V009/L24_V009_S0043_F010878.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "",
+                "ocr_text": "quAns HTV HẾ THAO",
+                "vlm_caption": {
+                    "detailed_description": "A large, colorful lion dance costume stands on a platform, with a camera crew and a backdrop featuring a logo and text in the background.",
+                    "objects_and_counts": [
+                        "3 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L24_V009_S0044",
+            "start_frame": 11084,
+            "end_frame": 11094,
+            "start_ts": 443.36,
+            "end_ts": 443.76,
+            "duration": 0.4,
+            "keyframes": [
+                {
+                    "frame_idx": 11089,
+                    "timestamp": 443.56,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V009/L24_V009_S0044_F011089.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A colorful dragon costume is partially visible on the right side of the image, with a bouquet of red flowers placed on a table in the foreground."
+                }
+            }
+        },
+        {
+            "shot_id": "L24_V009_S0045",
+            "start_frame": 11095,
+            "end_frame": 11149,
+            "start_ts": 443.8,
+            "end_ts": 445.96,
+            "duration": 2.16,
+            "keyframes": [
+                {
+                    "frame_idx": 11122,
+                    "timestamp": 444.88,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V009/L24_V009_S0045_F011122.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Thank you.",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A vibrant lion dance costume with yellow and red colors and golden embellishments is displayed on a stage with a red background.",
+                    "objects_and_counts": [
+                        "1 teddy bear"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L24_V009_S0046",
+            "start_frame": 11150,
+            "end_frame": 11382,
+            "start_ts": 446.0,
+            "end_ts": 455.28,
+            "duration": 9.28,
+            "keyframes": [
+                {
+                    "frame_idx": 11266,
+                    "timestamp": 450.64,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V009/L24_V009_S0046_F011266.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Thank you.",
+                "ocr_text": "ALH",
+                "vlm_caption": {
+                    "detailed_description": "A colorful lion dance costume stands on a platform with a backdrop of trees and a tent.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L24_V009_S0047",
+            "start_frame": 11383,
+            "end_frame": 11449,
+            "start_ts": 455.32,
+            "end_ts": 457.96,
+            "duration": 2.64,
+            "keyframes": [
+                {
+                    "frame_idx": 11416,
+                    "timestamp": 456.64,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V009/L24_V009_S0047_F011416.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Thank you.",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A vibrant yellow and red lion dance costume is displayed on a stage with a colorful backdrop.",
+                    "objects_and_counts": [
+                        "1 teddy bear"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L24_V009_S0048",
+            "start_frame": 11450,
+            "end_frame": 11796,
+            "start_ts": 458.0,
+            "end_ts": 471.84,
+            "duration": 13.84,
+            "keyframes": [
+                {
+                    "frame_idx": 11623,
+                    "timestamp": 464.92,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V009/L24_V009_S0048_F011623.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Thank you.",
+                "ocr_text": "HTV HẾ THAO",
+                "vlm_caption": {
+                    "detailed_description": "A traditional lion dance costume is being displayed on a metal structure, with palm trees and a white tent in the background.",
+                    "objects_and_counts": [
+                        "4 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L24_V009_S0049",
+            "start_frame": 11797,
+            "end_frame": 11875,
+            "start_ts": 471.88,
+            "end_ts": 475.0,
+            "duration": 3.12,
+            "keyframes": [
+                {
+                    "frame_idx": 11836,
+                    "timestamp": 473.44,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V009/L24_V009_S0049_F011836.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Thank you.",
+                "ocr_text": "HTV HẾ THAO DAN PHONG ĐẠI LY DƯ LỊCH BINH MÊN GOÀN",
+                "vlm_caption": {
+                    "detailed_description": "A vibrant lion dance performance is taking place in an outdoor setting with a crowd of spectators, colorful banners, and traditional decorations.",
+                    "objects_and_counts": [
+                        "5 person, 1 kite"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L24_V009_S0050",
+            "start_frame": 11876,
+            "end_frame": 11979,
+            "start_ts": 475.04,
+            "end_ts": 479.16,
+            "duration": 4.12,
+            "keyframes": [
+                {
+                    "frame_idx": 11927,
+                    "timestamp": 477.08,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V009/L24_V009_S0050_F011927.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Thank you.",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A group of performers in traditional attire are participating in a cultural event, with a large stage featuring colorful decorations and a crowd of spectators in the background.",
+                    "objects_and_counts": [
+                        "6 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L24_V009_S0051",
+            "start_frame": 11980,
+            "end_frame": 12044,
+            "start_ts": 479.2,
+            "end_ts": 481.76,
+            "duration": 2.56,
+            "keyframes": [
+                {
+                    "frame_idx": 12012,
+                    "timestamp": 480.48,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V009/L24_V009_S0051_F012012.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "",
+                "ocr_text": "HTV HỂ THAO",
+                "vlm_caption": {
+                    "detailed_description": "A bouquet of red flowers lies on a blue tarp, with a white stick inserted into the ground, against a backdrop of a gray, reflective surface."
+                }
+            }
+        },
+        {
+            "shot_id": "L24_V009_S0052",
+            "start_frame": 12045,
+            "end_frame": 12601,
+            "start_ts": 481.8,
+            "end_ts": 504.04,
+            "duration": 22.24,
+            "keyframes": [
+                {
+                    "frame_idx": 12323,
+                    "timestamp": 492.92,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V009/L24_V009_S0052_F012323.jpg"
+                },
+                {
+                    "frame_idx": 12184,
+                    "timestamp": 487.36,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V009/L24_V009_S0052_F012184.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Thank you.",
+                "ocr_text": "HTV HỂ THAO | T quAns H V Chợ Len HẾ THAO",
+                "vlm_caption": {
+                    "detailed_description": "A vibrant lion dance performance takes place in an outdoor setting with a crowd of spectators, colorful flags, and a stage structure in the background.",
+                    "objects_and_counts": [
+                        "4 person, 1 kite | 4 chair, 6 person, 3 dining table"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L24_V009_S0053",
+            "start_frame": 12602,
+            "end_frame": 12742,
+            "start_ts": 504.08,
+            "end_ts": 509.68,
+            "duration": 5.6,
+            "keyframes": [
+                {
+                    "frame_idx": 12672,
+                    "timestamp": 506.88,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V009/L24_V009_S0053_F012672.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Thank you.",
+                "ocr_text": "HTV T HẾ THẠO",
+                "vlm_caption": {
+                    "detailed_description": "A colorful lion dance performance is taking place on a stage with various props and decorations, including a panda mascot and a fan."
+                }
+            }
+        },
+        {
+            "shot_id": "L24_V009_S0054",
+            "start_frame": 12743,
+            "end_frame": 12934,
+            "start_ts": 509.72,
+            "end_ts": 517.36,
+            "duration": 7.64,
+            "keyframes": [
+                {
+                    "frame_idx": 12790,
+                    "timestamp": 511.6,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V009/L24_V009_S0054_F012790.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A glowing, futuristic blue cube rotates against a dark background."
+                }
+            }
+        }
+    ]
+}

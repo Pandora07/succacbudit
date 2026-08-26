@@ -1,0 +1,562 @@
+{
+    "video_id": "L30_V016",
+    "fps": 25.0,
+    "total_shots": 23,
+    "total_keyframes": 22,
+    "shots": [
+        {
+            "shot_id": "L30_V016_S0001",
+            "start_frame": 0,
+            "end_frame": 74,
+            "start_ts": 0.0,
+            "end_ts": 2.96,
+            "duration": 2.96,
+            "keyframes": [],
+            "extracted_data": {
+                "transcript": "",
+                "ocr_text": ""
+            }
+        },
+        {
+            "shot_id": "L30_V016_S0002",
+            "start_frame": 75,
+            "end_frame": 169,
+            "start_ts": 3.0,
+            "end_ts": 6.76,
+            "duration": 3.76,
+            "keyframes": [
+                {
+                    "frame_idx": 122,
+                    "timestamp": 4.88,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V016/L30_V016_S0002_F000122.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Thank you.",
+                "ocr_text": "Herbalife' thương hiệu quản lý cân nặng # & sức khỏe trên thế giới",
+                "vlm_caption": {
+                    "detailed_description": "The image features a green circular logo with the Herbalife logo at the top, indicating it is the world's number one health and wellness brand."
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V016_S0003",
+            "start_frame": 170,
+            "end_frame": 289,
+            "start_ts": 6.8,
+            "end_ts": 11.56,
+            "duration": 4.76,
+            "keyframes": [
+                {
+                    "frame_idx": 229,
+                    "timestamp": 9.16,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V016/L30_V016_S0003_F000229.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "you",
+                "ocr_text": "Clip bạn đọc dự thi cuộc thi: Lan tỏa năng lượng tích cực 2024",
+                "vlm_caption": {
+                    "detailed_description": "The image contains text in Vietnamese, which translates to \"Clip you read for the competition: Spread positive energy 2024.\""
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V016_S0004",
+            "start_frame": 290,
+            "end_frame": 391,
+            "start_ts": 11.6,
+            "end_ts": 15.64,
+            "duration": 4.04,
+            "keyframes": [
+                {
+                    "frame_idx": 340,
+                    "timestamp": 13.6,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V016/L30_V016_S0004_F000340.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Bão Sô Ba đi qua, để lại nhiều đau thương mất mát với bà con các tỉnh",
+                "ocr_text": "CHÀO MỪNG NĂM HỌC MỚI 2024 - 2025 Cuộc thi Lan tỏa năng lượng tích cực 2024: Cùng nhau lan tỏa yêu thương",
+                "vlm_caption": {
+                    "detailed_description": "A school entrance with a sign welcoming the 2024-2025 academic year, surrounded by greenery and a few people walking or riding bicycles.",
+                    "objects_and_counts": [
+                        "4 person, 1 bicycle, 1 bench"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V016_S0005",
+            "start_frame": 392,
+            "end_frame": 482,
+            "start_ts": 15.68,
+            "end_ts": 19.28,
+            "duration": 3.6,
+            "keyframes": [
+                {
+                    "frame_idx": 437,
+                    "timestamp": 17.48,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V016/L30_V016_S0005_F000437.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "khi xem những hình ảnh của bể mưa lũ ở các bình niệm Bắc.",
+                "ocr_text": "UBND HUYÊN HÒNG NGU HONG GIÁO DỨC VÀ ĐÀO TÁO TRƯỞNG TIỂU HỌC PHÚ THUẬN A1 (ĐIỂM ĐÌNH SỐ 12) XÀ PHU THUAN A H. HONG NGỰ, ĐÔNG THAP LẠTAA NĂN HIAA MẢI AAA CHAO Cuộc thi Lan tỏa năng lượng tích cực 2024: Cùng nhau lan tỏa yêu thương",
+                "vlm_caption": {
+                    "detailed_description": "The image shows a school sign for Trường Tiểu Học Phú Thuận A1 (Point 12) with a banner below it welcoming the new year 2024-2025."
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V016_S0006",
+            "start_frame": 483,
+            "end_frame": 553,
+            "start_ts": 19.32,
+            "end_ts": 22.12,
+            "duration": 2.8,
+            "keyframes": [
+                {
+                    "frame_idx": 518,
+                    "timestamp": 20.72,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V016/L30_V016_S0006_F000518.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Không chỉ người lớn mà đến các anh nhỏ cũng thấy thương những người khác",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "Students are walking in a courtyard with trees and a building in the background.",
+                    "objects_and_counts": [
+                        "11 person, 2 motorcycle, 1 potted plant, 1 bench, 1 umbrella"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V016_S0007",
+            "start_frame": 554,
+            "end_frame": 618,
+            "start_ts": 22.16,
+            "end_ts": 24.72,
+            "duration": 2.56,
+            "keyframes": [
+                {
+                    "frame_idx": 586,
+                    "timestamp": 23.44,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V016/L30_V016_S0007_F000586.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "tuoi trev",
+                "vlm_caption": {
+                    "detailed_description": "Children in school uniforms are gathered around a large, white, cylindrical structure in a schoolyard, with a decorated tree in the background.",
+                    "objects_and_counts": [
+                        "15 person, 1 handbag, 1 motorcycle, 1 potted plant"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V016_S0008",
+            "start_frame": 619,
+            "end_frame": 687,
+            "start_ts": 24.76,
+            "end_ts": 27.48,
+            "duration": 2.72,
+            "keyframes": [
+                {
+                    "frame_idx": 653,
+                    "timestamp": 26.12,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V016/L30_V016_S0008_F000653.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Với cô bé Lê Ngô Tiên Ân Học sinh nhất mục đích",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A man rides a motorcycle in front of a building with people walking around.",
+                    "objects_and_counts": [
+                        "2 motorcycle, 8 person, 5 potted plant"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V016_S0009",
+            "start_frame": 688,
+            "end_frame": 753,
+            "start_ts": 27.52,
+            "end_ts": 30.12,
+            "duration": 2.6,
+            "keyframes": [
+                {
+                    "frame_idx": 720,
+                    "timestamp": 28.8,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V016/L30_V016_S0009_F000720.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Trường Tiểu học Phú Thuận A1, huyện Hồng Ngự, tỉnh Đồng.",
+                "ocr_text": "Bọ sách KẾ HOẠCH cho trè em -d các em nhỏ có DO SAN PHAM EM CUA và phát triển Tiếng Anh thạt dơn gu ngủ Thệt Anh Thơng q GÓC VIẾT VẼ dễ thương của những lò gu vói cuộc sống dễ các chát lơi, cư xu than thiện",
+                "vlm_caption": {
+                    "detailed_description": "A man and a woman are sitting at a colorful table in a classroom setting, with a child seated between them, and various educational materials and decorations visible in the background.",
+                    "objects_and_counts": [
+                        "4 person, 3 chair, 1 dining table, 1 vase"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V016_S0010",
+            "start_frame": 754,
+            "end_frame": 837,
+            "start_ts": 30.16,
+            "end_ts": 33.48,
+            "duration": 3.32,
+            "keyframes": [
+                {
+                    "frame_idx": 795,
+                    "timestamp": 31.8,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V016/L30_V016_S0010_F000795.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "tuoi trẻv",
+                "vlm_caption": {
+                    "detailed_description": "A young girl in a classroom setting is sitting at a desk with her hands clasped, wearing a white shirt and a bracelet, with a colorful flower arrangement in the foreground and educational posters on the wall behind her.",
+                    "objects_and_counts": [
+                        "1 person, 1 potted plant"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V016_S0011",
+            "start_frame": 838,
+            "end_frame": 892,
+            "start_ts": 33.52,
+            "end_ts": 35.68,
+            "duration": 2.16,
+            "keyframes": [
+                {
+                    "frame_idx": 865,
+                    "timestamp": 34.6,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V016/L30_V016_S0011_F000865.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A young girl with braided hair and earrings is looking to the side in a classroom setting.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V016_S0012",
+            "start_frame": 893,
+            "end_frame": 958,
+            "start_ts": 35.72,
+            "end_ts": 38.32,
+            "duration": 2.6,
+            "keyframes": [
+                {
+                    "frame_idx": 925,
+                    "timestamp": 37.0,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V016/L30_V016_S0012_F000925.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Cảm ơn các bạn đã theo dõi và hẹn gặp lại.",
+                "ocr_text": "Nộ sách tranh / ho tre rít em nhỏ có những riên loàn di giản, dễ k ng qua nhữn g loài vật o để các em học ch ơi các",
+                "vlm_caption": {
+                    "detailed_description": "A young girl sits at a table with a teacher, both facing the camera, in a classroom setting with educational posters on the wall.",
+                    "objects_and_counts": [
+                        "2 person, 1 potted plant, 1 dining table"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V016_S0013",
+            "start_frame": 959,
+            "end_frame": 1026,
+            "start_ts": 38.36,
+            "end_ts": 41.04,
+            "duration": 2.68,
+            "keyframes": [
+                {
+                    "frame_idx": 992,
+                    "timestamp": 39.68,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V016/L30_V016_S0013_F000992.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "tuoi trẻtv ul triên l TÀI LIEU in gia ng qu ùng loà g dể các e m.",
+                "vlm_caption": {
+                    "detailed_description": "An elderly woman with glasses and a black and white striped shirt is standing in front of a green chalkboard with various papers pinned to it.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V016_S0014",
+            "start_frame": 1027,
+            "end_frame": 1133,
+            "start_ts": 41.08,
+            "end_ts": 45.32,
+            "duration": 4.24,
+            "keyframes": [
+                {
+                    "frame_idx": 1080,
+                    "timestamp": 43.2,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V016/L30_V016_S0014_F001080.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "gom hết số tiền mà em đã dành dụng trong 2 năm để ủng hộ các bạn thiếu nhi miền Bắc.",
+                "ocr_text": "cho bre em- coc học nóc toc tui các em nhỏ có tuối trẻTY> ĐO và phát triển toàn diện. Học du Giống Anh thạt đơn giản, dễ hieu, dễ nhớ ngủ Vịụ- Anh Chong qua những câu chuy dể thương của nhưng loài vạt dược nhan c gui với cuộc sốn ọc theo như tr chát tớt, cu xù bạn cùng do",
+                "vlm_caption": {
+                    "detailed_description": "A man and a woman are sitting at a table with a young girl, all engaged in an activity involving sunflowers and other decorative items.",
+                    "objects_and_counts": [
+                        "3 person, 1 potted plant, 1 vase, 1 book"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V016_S0015",
+            "start_frame": 1134,
+            "end_frame": 1248,
+            "start_ts": 45.36,
+            "end_ts": 49.92,
+            "duration": 4.56,
+            "keyframes": [
+                {
+                    "frame_idx": 1191,
+                    "timestamp": 47.64,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V016/L30_V016_S0015_F001191.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hơn 200 ngàn đồng là tấm lòng sẻ chia của cô bé Vũng Biên chỉ mới 6 tuổi.",
+                "ocr_text": "ĐỐN NĂM NG 500 552 VIỆT NA 0009 іВ HOA XÃ HOT C 7 3 7",
+                "vlm_caption": {
+                    "detailed_description": "A hand is holding a bundle of Vietnamese 5000 Dong banknotes tied with a rubber band on a blue and orange surface.",
+                    "objects_and_counts": [
+                        "1 book, 1 person, 1 dining table"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V016_S0016",
+            "start_frame": 1249,
+            "end_frame": 1979,
+            "start_ts": 49.96,
+            "end_ts": 79.16,
+            "duration": 29.2,
+            "keyframes": [
+                {
+                    "frame_idx": 1614,
+                    "timestamp": 64.56,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V016/L30_V016_S0016_F001614.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Tại vì mấy bạn ở miền Bắc không có tiền, bị sập nhà, lũ cuốn trôi, nên con ủng hộ. Và cũng mấy anh chị, mấy cô bác không có tiền để anh nhận đồ mấy ngày, phải nhờ đến hỗ trợ đồ ăn. Con muốn cho bạn có đồ ăn ở nhà, có đồ bạc. Con muốn mấy bạn được học như con.",
+                "ocr_text": "YI ISA Khuyến GUƠNG học • ca SÔNG NHƯ KIỆN NHẪN NHỮNG CÁI CÂY Người • tu Mưc 49 BÍ QUYẾT 13 nĂ VU THI SAC GIÚP TRẺ I SQ HIỂI gd LẮNG NGHE TI CG VÀ TRUYỀN ĐẠT KÍ NĂNG GIAO TIỆP TÂM HỒN",
+                "vlm_caption": {
+                    "detailed_description": "A young girl in a white school uniform with blue trim is standing in front of a bookshelf filled with various books and educational materials.",
+                    "objects_and_counts": [
+                        "1 person, 1 book"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V016_S0017",
+            "start_frame": 1980,
+            "end_frame": 3078,
+            "start_ts": 79.2,
+            "end_ts": 123.12,
+            "duration": 43.92,
+            "keyframes": [
+                {
+                    "frame_idx": 2529,
+                    "timestamp": 101.16,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V016/L30_V016_S0017_F002529.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Thư kêu gọi của tỉnh đoàn Đồng Tháp thì tôi có quyên góp trực tiếp ở lớp và ở sân cờ. Trong buổi quyên góp thì đã rất là xúc động khi nhận được số tiền lên đến hơn 4 triệu đồng trên buổi sinh hoạt châu cờ. Trong đó có một trường hợp rất là đặc biệt là bé Thiên Anh. Vào buổi sáng bé đã quyên góp được cùng với các bạn. Nhưng chiều đó thì bé về xin ba mẹ mình để đập ống heo để ủng hộ hết số tiền mà mình tiết kiệm được để cho ủng hộ đến những bạn ở miền Bắc gặp khó khăn. Thì tôi nghĩ đây là một tấm gương để cho các bạn cũng như là các học sinh ở trong lớp để nôi theo với tinh thần của bé.",
+                "ocr_text": "tuơi trẻTv THƯ VIẸN ƯỚC MƠ TRƯỜNG TIỂU HỌC PHÚ THUẬN A1 Được tôi trợ bải im sách màu DE Unilever Việt Nam LONG VỊ THA LINCOLR who?",
+                "vlm_caption": {
+                    "detailed_description": "A man in a red polo shirt stands in front of a bookshelf filled with colorful children's books, with a sign reading \"THƯ VIỆN ƯỚC MƠ\" and \"TRƯỜNG TIỂU HỌC",
+                    "objects_and_counts": [
+                        "1 person, 8 book"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V016_S0018",
+            "start_frame": 3079,
+            "end_frame": 3142,
+            "start_ts": 123.16,
+            "end_ts": 125.68,
+            "duration": 2.52,
+            "keyframes": [
+                {
+                    "frame_idx": 3110,
+                    "timestamp": 124.4,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V016/L30_V016_S0018_F003110.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Được biết thông qua hình thức đăng ký ủng hộ",
+                "ocr_text": "ngủ Vhệt Anh Chông qua nhưng câu chuyên nh mát dược nhân cách hưc dế thương của nh Seo nhui hau do gũi với cuộc Ban cùng dọc m chat lốt, cui xi",
+                "vlm_caption": {
+                    "detailed_description": "A young girl sits at a table with two adults, one pointing at a pink book while the other looks on.",
+                    "objects_and_counts": [
+                        "4 person, 1 potted plant"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V016_S0019",
+            "start_frame": 3143,
+            "end_frame": 3201,
+            "start_ts": 125.72,
+            "end_ts": 128.04,
+            "duration": 2.32,
+            "keyframes": [
+                {
+                    "frame_idx": 3172,
+                    "timestamp": 126.88,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V016/L30_V016_S0019_F003172.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "n, dễ hiều, dễ nhớ từ phá a những câu chuyện nhẹ . i vật dược nhân cách ho m học Nời cái",
+                "vlm_caption": {
+                    "detailed_description": "A woman and a young girl are sitting at a table, with the woman smiling and the girl engaged in an activity, possibly reading or coloring, in a classroom setting with a chalkboard and sunflowers in the background.",
+                    "objects_and_counts": [
+                        "2 person, 1 potted plant"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V016_S0020",
+            "start_frame": 3202,
+            "end_frame": 3251,
+            "start_ts": 128.08,
+            "end_ts": 130.04,
+            "duration": 1.96,
+            "keyframes": [
+                {
+                    "frame_idx": 3226,
+                    "timestamp": 129.04,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V016/L30_V016_S0020_F003226.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A young girl is counting money at a table in a colorful classroom setting, with an adult and another person present.",
+                    "objects_and_counts": [
+                        "3 person, 4 chair, 3 dining table, 2 potted plant, 1 dog"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V016_S0021",
+            "start_frame": 3252,
+            "end_frame": 3313,
+            "start_ts": 130.08,
+            "end_ts": 132.52,
+            "duration": 2.44,
+            "keyframes": [
+                {
+                    "frame_idx": 3282,
+                    "timestamp": 131.28,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V016/L30_V016_S0021_F003282.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A hand gently touches another hand against a blue background.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V016_S0022",
+            "start_frame": 3314,
+            "end_frame": 3393,
+            "start_ts": 132.56,
+            "end_ts": 135.72,
+            "duration": 3.16,
+            "keyframes": [
+                {
+                    "frame_idx": 3353,
+                    "timestamp": 134.12,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V016/L30_V016_S0022_F003353.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "KẾ HOẠCH em EM nh 00 Tác giả: Nguyễn Bửu",
+                "vlm_caption": {
+                    "detailed_description": "A teacher in a red shirt interacts with a young student in a classroom setting, with a green board displaying a lesson plan and various educational materials in the background.",
+                    "objects_and_counts": [
+                        "3 person, 1 potted plant"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V016_S0023",
+            "start_frame": 3394,
+            "end_frame": 3454,
+            "start_ts": 135.76,
+            "end_ts": 138.16,
+            "duration": 2.4,
+            "keyframes": [
+                {
+                    "frame_idx": 3424,
+                    "timestamp": 136.96,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V016/L30_V016_S0023_F003424.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "拜拜",
+                "ocr_text": "tuoi trẻTv 5000 NHỚC VIỆTNA Tác giả: Nguyễn Bửu",
+                "vlm_caption": {
+                    "detailed_description": "A person is counting Vietnamese Dong banknotes in a brightly lit indoor setting.",
+                    "objects_and_counts": [
+                        "1 person, 1 bottle"
+                    ]
+                }
+            }
+        }
+    ]
+}

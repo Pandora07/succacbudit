@@ -1,0 +1,829 @@
+{
+    "video_id": "L30_V065",
+    "fps": 25.0,
+    "total_shots": 32,
+    "total_keyframes": 40,
+    "shots": [
+        {
+            "shot_id": "L30_V065_S0001",
+            "start_frame": 0,
+            "end_frame": 74,
+            "start_ts": 0.0,
+            "end_ts": 2.96,
+            "duration": 2.96,
+            "keyframes": [],
+            "extracted_data": {
+                "transcript": "",
+                "ocr_text": ""
+            }
+        },
+        {
+            "shot_id": "L30_V065_S0002",
+            "start_frame": 75,
+            "end_frame": 288,
+            "start_ts": 3.0,
+            "end_ts": 11.52,
+            "duration": 8.52,
+            "keyframes": [
+                {
+                    "frame_idx": 181,
+                    "timestamp": 7.24,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V065/L30_V065_S0002_F000181.jpg"
+                },
+                {
+                    "frame_idx": 128,
+                    "timestamp": 5.12,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V065/L30_V065_S0002_F000128.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "",
+                "ocr_text": "Clip bạn đọc dự thi cuộc thi: Lan tỏa năng lượng tích cực 2024 | Herbalife'",
+                "vlm_caption": {
+                    "detailed_description": "The image features the Herbalife logo with the word \"Herbalife\" in green letters and a leaf symbol to the right."
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V065_S0003",
+            "start_frame": 289,
+            "end_frame": 418,
+            "start_ts": 11.56,
+            "end_ts": 16.72,
+            "duration": 5.16,
+            "keyframes": [
+                {
+                    "frame_idx": 353,
+                    "timestamp": 14.12,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V065/L30_V065_S0003_F000353.jpg"
+                },
+                {
+                    "frame_idx": 321,
+                    "timestamp": 12.84,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V065/L30_V065_S0003_F000321.jpg"
+                },
+                {
+                    "frame_idx": 385,
+                    "timestamp": 15.4,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V065/L30_V065_S0003_F000385.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Đều đặn mỗi tuần một ngày, hơn 30 em học",
+                "ocr_text": "Herbalife* | tucitre Cuộc thi Lan tỏa năng lượng tích cực 2024: Herbalife' Thanh âm đại ngàn",
+                "vlm_caption": {
+                    "detailed_description": "Two children in school uniforms are holding wooden tools, with one child holding a long stick and the other a smaller wooden object, in an outdoor setting with a fence and greenery in the background.",
+                    "objects_and_counts": [
+                        "2 person | 4 person | 3 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V065_S0004",
+            "start_frame": 419,
+            "end_frame": 462,
+            "start_ts": 16.76,
+            "end_ts": 18.48,
+            "duration": 1.72,
+            "keyframes": [
+                {
+                    "frame_idx": 440,
+                    "timestamp": 17.6,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V065/L30_V065_S0004_F000440.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "sinh đồng bào AD ở xã",
+                "ocr_text": "tuôi trẻtv Cuộc thi Lan tỏa năng lượng tích cực 2024: Herbalife Thanh âm đại ngàn",
+                "vlm_caption": {
+                    "detailed_description": "A young girl is holding a colorful object, possibly a kite, with a blurred background of greenery and a building.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V065_S0005",
+            "start_frame": 463,
+            "end_frame": 571,
+            "start_ts": 18.52,
+            "end_ts": 22.84,
+            "duration": 4.32,
+            "keyframes": [
+                {
+                    "frame_idx": 517,
+                    "timestamp": 20.68,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V065/L30_V065_S0005_F000517.jpg"
+                },
+                {
+                    "frame_idx": 490,
+                    "timestamp": 19.6,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V065/L30_V065_S0005_F000490.jpg"
+                },
+                {
+                    "frame_idx": 544,
+                    "timestamp": 21.76,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V065/L30_V065_S0005_F000544.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "tuoi trẻv Cuộc thi Lan tỏa năng lượng tích cực 2024: Herbalife Thanh âm đại ngàn | Cuộc thi Lan tỏa năng lượng tích cực 2024: Herbalife Thanh âm đại ngàn | tuoi trẻ Cuộc thi Lan tỏa năng lượng tích cực 2024: Herbalife Thanh âm đại ngàn",
+                "vlm_caption": {
+                    "detailed_description": "A person wearing glasses and a red and black vest is standing outdoors, holding a wooden object, with a tiled roof and trees in the background.",
+                    "objects_and_counts": [
+                        "2 person | 3 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V065_S0006",
+            "start_frame": 572,
+            "end_frame": 622,
+            "start_ts": 22.88,
+            "end_ts": 24.88,
+            "duration": 2.0,
+            "keyframes": [
+                {
+                    "frame_idx": 597,
+                    "timestamp": 23.88,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V065/L30_V065_S0006_F000597.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "ngập âm nhạc dân dân truyền thống của dân tộc.",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A group of people, including children, are gathered in a rural setting, with one person holding a bow and arrow, preparing to shoot at a target.",
+                    "objects_and_counts": [
+                        "8 person, 1 banana"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V065_S0007",
+            "start_frame": 623,
+            "end_frame": 688,
+            "start_ts": 24.92,
+            "end_ts": 27.52,
+            "duration": 2.6,
+            "keyframes": [
+                {
+                    "frame_idx": 655,
+                    "timestamp": 26.2,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V065/L30_V065_S0007_F000655.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hôm nay, nghệ sĩ",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A group of children are playing traditional bamboo flutes outdoors in front of a wooden structure.",
+                    "objects_and_counts": [
+                        "7 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V065_S0008",
+            "start_frame": 690,
+            "end_frame": 748,
+            "start_ts": 27.6,
+            "end_ts": 29.92,
+            "duration": 2.32,
+            "keyframes": [
+                {
+                    "frame_idx": 719,
+                    "timestamp": 28.76,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V065/L30_V065_S0008_F000719.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A young boy in traditional attire holds two black objects, possibly musical instruments, against a clear blue sky.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V065_S0009",
+            "start_frame": 749,
+            "end_frame": 779,
+            "start_ts": 29.96,
+            "end_ts": 31.16,
+            "duration": 1.2,
+            "keyframes": [
+                {
+                    "frame_idx": 764,
+                    "timestamp": 30.56,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V065/L30_V065_S0009_F000764.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A person wearing glasses and a black jacket stands outdoors, with green foliage and a red building in the background.",
+                    "objects_and_counts": [
+                        "2 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V065_S0010",
+            "start_frame": 780,
+            "end_frame": 813,
+            "start_ts": 31.2,
+            "end_ts": 32.52,
+            "duration": 1.32,
+            "keyframes": [
+                {
+                    "frame_idx": 796,
+                    "timestamp": 31.84,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V065/L30_V065_S0010_F000796.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Nghĩa là bộ trí",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A group of people, including a woman in a black dress and a man in a red vest, are participating in a traditional activity involving large wooden gears and bamboo sticks.",
+                    "objects_and_counts": [
+                        "3 person, 1 bowl"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V065_S0011",
+            "start_frame": 814,
+            "end_frame": 842,
+            "start_ts": 32.56,
+            "end_ts": 33.68,
+            "duration": 1.12,
+            "keyframes": [
+                {
+                    "frame_idx": 828,
+                    "timestamp": 33.12,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V065/L30_V065_S0011_F000828.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A group of students, some in traditional attire, are carrying wooden frames adorned with yellow flowers, possibly for a cultural or festive event.",
+                    "objects_and_counts": [
+                        "6 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V065_S0012",
+            "start_frame": 843,
+            "end_frame": 874,
+            "start_ts": 33.72,
+            "end_ts": 34.96,
+            "duration": 1.24,
+            "keyframes": [
+                {
+                    "frame_idx": 858,
+                    "timestamp": 34.32,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V065/L30_V065_S0012_F000858.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Thank you.",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A group of people, including a person playing a xylophone and others holding musical instruments, are gathered outdoors in front of a traditional wooden structure.",
+                    "objects_and_counts": [
+                        "6 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V065_S0013",
+            "start_frame": 875,
+            "end_frame": 919,
+            "start_ts": 35.0,
+            "end_ts": 36.76,
+            "duration": 1.76,
+            "keyframes": [
+                {
+                    "frame_idx": 897,
+                    "timestamp": 35.88,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V065/L30_V065_S0013_F000897.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hân chụp nhà cụ",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A group of children in traditional attire are playing bamboo flutes in a rural setting.",
+                    "objects_and_counts": [
+                        "10 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V065_S0014",
+            "start_frame": 920,
+            "end_frame": 982,
+            "start_ts": 36.8,
+            "end_ts": 39.28,
+            "duration": 2.48,
+            "keyframes": [
+                {
+                    "frame_idx": 951,
+                    "timestamp": 38.04,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V065/L30_V065_S0014_F000951.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A person is holding two long, thin, light-colored sticks, possibly musical instruments, in an outdoor setting with trees and sunlight filtering through the leaves.",
+                    "objects_and_counts": [
+                        "1 person, 1 banana"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V065_S0015",
+            "start_frame": 983,
+            "end_frame": 1024,
+            "start_ts": 39.32,
+            "end_ts": 40.96,
+            "duration": 1.64,
+            "keyframes": [
+                {
+                    "frame_idx": 1003,
+                    "timestamp": 40.12,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V065/L30_V065_S0015_F001003.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "The image shows a close-up of a person's legs wrapped in yellow tape, with a blurred background of trees and sunlight."
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V065_S0016",
+            "start_frame": 1025,
+            "end_frame": 1067,
+            "start_ts": 41.0,
+            "end_ts": 42.68,
+            "duration": 1.68,
+            "keyframes": [
+                {
+                    "frame_idx": 1046,
+                    "timestamp": 41.84,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V065/L30_V065_S0016_F001046.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "sự kết hợp hài hòa giữa",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A young girl wearing traditional attire is playing a stringed instrument outdoors.",
+                    "objects_and_counts": [
+                        "2 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V065_S0017",
+            "start_frame": 1068,
+            "end_frame": 1123,
+            "start_ts": 42.72,
+            "end_ts": 44.92,
+            "duration": 2.2,
+            "keyframes": [
+                {
+                    "frame_idx": 1095,
+                    "timestamp": 43.8,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V065/L30_V065_S0017_F001095.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "truyền thống và hiện đại.",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A red pipe is positioned horizontally on a concrete surface, with a metal bracket attached to it."
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V065_S0018",
+            "start_frame": 1124,
+            "end_frame": 1204,
+            "start_ts": 44.96,
+            "end_ts": 48.16,
+            "duration": 3.2,
+            "keyframes": [
+                {
+                    "frame_idx": 1164,
+                    "timestamp": 46.56,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V065/L30_V065_S0018_F001164.jpg"
+                },
+                {
+                    "frame_idx": 1184,
+                    "timestamp": 47.36,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V065/L30_V065_S0018_F001184.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "sáng tạo của nghệ sĩ. Đến với lớp học, các em có thể",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A person is playing a traditional wooden flute outdoors with a clear blue sky in the background.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V065_S0019",
+            "start_frame": 1205,
+            "end_frame": 1268,
+            "start_ts": 48.2,
+            "end_ts": 50.72,
+            "duration": 2.52,
+            "keyframes": [
+                {
+                    "frame_idx": 1236,
+                    "timestamp": 49.44,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V065/L30_V065_S0019_F001236.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "không chỉ được truyền dạy sử dụng các loại nhạc.",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A group of children in school uniforms are sitting on the ground, playing bamboo flutes under a tree.",
+                    "objects_and_counts": [
+                        "8 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V065_S0020",
+            "start_frame": 1269,
+            "end_frame": 1313,
+            "start_ts": 50.76,
+            "end_ts": 52.52,
+            "duration": 1.76,
+            "keyframes": [
+                {
+                    "frame_idx": 1291,
+                    "timestamp": 51.64,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V065/L30_V065_S0020_F001291.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "mà còn được hướng dẫn.",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A group of people are assembling bamboo sticks, with one person holding a piece of bamboo vertically while others assist with the assembly.",
+                    "objects_and_counts": [
+                        "2 person, 1 hot dog"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V065_S0021",
+            "start_frame": 1314,
+            "end_frame": 1359,
+            "start_ts": 52.56,
+            "end_ts": 54.36,
+            "duration": 1.8,
+            "keyframes": [
+                {
+                    "frame_idx": 1336,
+                    "timestamp": 53.44,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V065/L30_V065_S0021_F001336.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "giấy tác một số loại nhạc cụ bằng",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "Four young girls in school uniforms are playing bamboo flutes outdoors near a wooden structure.",
+                    "objects_and_counts": [
+                        "4 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V065_S0022",
+            "start_frame": 1360,
+            "end_frame": 1428,
+            "start_ts": 54.4,
+            "end_ts": 57.12,
+            "duration": 2.72,
+            "keyframes": [
+                {
+                    "frame_idx": 1394,
+                    "timestamp": 55.76,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V065/L30_V065_S0022_F001394.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Các bạn có thể nhìn thấy các bài hát này trong các bài hát của các bạn.",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A person is playing a bamboo instrument while sitting on the ground, with a smartphone placed nearby.",
+                    "objects_and_counts": [
+                        "5 person, 2 hot dog"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V065_S0023",
+            "start_frame": 1429,
+            "end_frame": 1703,
+            "start_ts": 57.16,
+            "end_ts": 68.12,
+            "duration": 10.96,
+            "keyframes": [
+                {
+                    "frame_idx": 1566,
+                    "timestamp": 62.64,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V065/L30_V065_S0023_F001566.jpg"
+                },
+                {
+                    "frame_idx": 1497,
+                    "timestamp": 59.88,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V065/L30_V065_S0023_F001497.jpg"
+                },
+                {
+                    "frame_idx": 1634,
+                    "timestamp": 65.36,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V065/L30_V065_S0023_F001634.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Con đã biết chế tác được nhạc cụ Đinh Pân, Đinh Cát Thú. Đinh Pân là nó xài cái dùi để gõ trên đầu.",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A young person in a school uniform is speaking into a microphone, with colorful paper lanterns and a gazebo in the background.",
+                    "objects_and_counts": [
+                        "1 person, 1 banana, 1 dog | 1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V065_S0024",
+            "start_frame": 1704,
+            "end_frame": 1735,
+            "start_ts": 68.16,
+            "end_ts": 69.4,
+            "duration": 1.24,
+            "keyframes": [
+                {
+                    "frame_idx": 1719,
+                    "timestamp": 68.76,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V065/L30_V065_S0024_F001719.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Thú là nó rộng xuống đất ạ",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A person is bending over, partially obscured by a black garment, with a yellow object in their hand.",
+                    "objects_and_counts": [
+                        "1 person, 1 orange"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V065_S0025",
+            "start_frame": 1736,
+            "end_frame": 1923,
+            "start_ts": 69.44,
+            "end_ts": 76.92,
+            "duration": 7.48,
+            "keyframes": [
+                {
+                    "frame_idx": 1829,
+                    "timestamp": 73.16,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V065/L30_V065_S0025_F001829.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Cơ hỗ trợ của công cụ kỹ thuật rất là mạnh. Ví dụ như chúng ta chỉ cần sử dụng một cái smartphone thông minh nó tải được những phân mê miễn phí về.",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A woman with long dark hair is standing outdoors, wearing a black top, with a colorful floral arrangement in the background.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V065_S0026",
+            "start_frame": 1924,
+            "end_frame": 2075,
+            "start_ts": 76.96,
+            "end_ts": 83.0,
+            "duration": 6.04,
+            "keyframes": [
+                {
+                    "frame_idx": 1999,
+                    "timestamp": 79.96,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V065/L30_V065_S0026_F001999.jpg"
+                },
+                {
+                    "frame_idx": 1961,
+                    "timestamp": 78.44,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V065/L30_V065_S0026_F001961.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Và có thể đo được tân sổ hay là cáo đồ của các nỗ rất là chính xác. Nếu dừa vào đó học sinh sẽ bình dung được, nó dễ dàng hơn.",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A woman in a black turtleneck stands outdoors, smiling, with a colorful, sunlit garden in the background.",
+                    "objects_and_counts": [
+                        "2 person | 1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V065_S0027",
+            "start_frame": 2076,
+            "end_frame": 2262,
+            "start_ts": 83.04,
+            "end_ts": 90.48,
+            "duration": 7.44,
+            "keyframes": [
+                {
+                    "frame_idx": 2169,
+                    "timestamp": 86.76,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V065/L30_V065_S0027_F002169.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Cảm ơn các bạn đã theo dõi và hẹn gặp lại.",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A person wearing glasses and a black and red shirt is gesturing with their hands in front of a wooden fence.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V065_S0028",
+            "start_frame": 2263,
+            "end_frame": 2431,
+            "start_ts": 90.52,
+            "end_ts": 97.24,
+            "duration": 6.72,
+            "keyframes": [
+                {
+                    "frame_idx": 2347,
+                    "timestamp": 93.88,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V065/L30_V065_S0028_F002347.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "được kích hoạt niềm đam mê âm nhạc của mình ngày càng lớn hơn để duy trì nó.",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A man wearing glasses and a traditional outfit is speaking in front of a wooden fence.",
+                    "objects_and_counts": [
+                        "2 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V065_S0029",
+            "start_frame": 2432,
+            "end_frame": 2499,
+            "start_ts": 97.28,
+            "end_ts": 99.96,
+            "duration": 2.68,
+            "keyframes": [
+                {
+                    "frame_idx": 2465,
+                    "timestamp": 98.6,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V065/L30_V065_S0029_F002465.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Thông qua lớp học",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A person is tying a knot with a string around a bundle of bamboo sticks."
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V065_S0030",
+            "start_frame": 2500,
+            "end_frame": 2572,
+            "start_ts": 100.0,
+            "end_ts": 102.88,
+            "duration": 2.88,
+            "keyframes": [
+                {
+                    "frame_idx": 2536,
+                    "timestamp": 101.44,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V065/L30_V065_S0030_F002536.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Các em hiểu thêm nhiều lét đẹp văn hóa truyền thống của dân.",
+                "ocr_text": "Herbalife Tác giả: Nguyễn Đức",
+                "vlm_caption": {
+                    "detailed_description": "Two boys in school uniforms are playing with a wooden stick and a yellow ball in a schoolyard.",
+                    "objects_and_counts": [
+                        "2 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V065_S0031",
+            "start_frame": 2573,
+            "end_frame": 2632,
+            "start_ts": 102.92,
+            "end_ts": 105.28,
+            "duration": 2.36,
+            "keyframes": [
+                {
+                    "frame_idx": 2602,
+                    "timestamp": 104.08,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V065/L30_V065_S0031_F002602.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "tuôi trẻt Tác giả: Nguyễn Đức Herbalife",
+                "vlm_caption": {
+                    "detailed_description": "A person wearing a red headband is holding a tablet outdoors, with greenery and a building in the background.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V065_S0032",
+            "start_frame": 2633,
+            "end_frame": 2690,
+            "start_ts": 105.32,
+            "end_ts": 107.6,
+            "duration": 2.28,
+            "keyframes": [
+                {
+                    "frame_idx": 2661,
+                    "timestamp": 106.44,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V065/L30_V065_S0032_F002661.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Thank you.",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A man in a white shirt and black vest is holding a funnel and a bucket, standing in front of a group of children in a rural setting with wooden structures and greenery.",
+                    "objects_and_counts": [
+                        "6 person, 2 backpack"
+                    ]
+                }
+            }
+        }
+    ]
+}

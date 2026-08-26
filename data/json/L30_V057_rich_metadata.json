@@ -1,0 +1,560 @@
+{
+    "video_id": "L30_V057",
+    "fps": 25.0,
+    "total_shots": 20,
+    "total_keyframes": 33,
+    "shots": [
+        {
+            "shot_id": "L30_V057_S0001",
+            "start_frame": 0,
+            "end_frame": 74,
+            "start_ts": 0.0,
+            "end_ts": 2.96,
+            "duration": 2.96,
+            "keyframes": [],
+            "extracted_data": {
+                "transcript": "",
+                "ocr_text": ""
+            }
+        },
+        {
+            "shot_id": "L30_V057_S0002",
+            "start_frame": 75,
+            "end_frame": 288,
+            "start_ts": 3.0,
+            "end_ts": 11.52,
+            "duration": 8.52,
+            "keyframes": [
+                {
+                    "frame_idx": 181,
+                    "timestamp": 7.24,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V057/L30_V057_S0002_F000181.jpg"
+                },
+                {
+                    "frame_idx": 128,
+                    "timestamp": 5.12,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V057/L30_V057_S0002_F000128.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "",
+                "ocr_text": "Clip bạn đọc dự thi cuộc thi: Lan tỏa năng lượng tích cực 2024 | Herbalife'",
+                "vlm_caption": {
+                    "detailed_description": "The image features the Herbalife logo, which consists of the brand name in green letters with a leaf graphic to the right."
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V057_S0003",
+            "start_frame": 289,
+            "end_frame": 500,
+            "start_ts": 11.56,
+            "end_ts": 20.0,
+            "duration": 8.44,
+            "keyframes": [
+                {
+                    "frame_idx": 394,
+                    "timestamp": 15.76,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V057/L30_V057_S0003_F000394.jpg"
+                },
+                {
+                    "frame_idx": 341,
+                    "timestamp": 13.64,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V057/L30_V057_S0003_F000341.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Đây là bộ môn nghệ thuật gọi là Điêu khắc ánh sáng Minh Hưng cho biết chúng xuất phát từ Nhật Bản Ban đầu khi vừa học sinh",
+                "ocr_text": "16:00 !!!! = 37 tuöi trẻv Q hào khí việt nam Tìm kiếm 3.147 Cuộc thi Lan tỏa năng lượng tích cực 2024: Herbalife Hãy làm cuộc sống trở nên thú vị hung Siêu quá | 16:00 37 Q hào khí việt nam tuổi trẻTv Tim kiếm 3.147 7- quê tui sóc Trắng t Cuộc thi Lan tỏa năng lượng tích cực 2024 Herbalife Hãy làm cuộc sống trở nên thú vị",
+                "vlm_caption": {
+                    "detailed_description": "A person is holding a smartphone displaying a video of a dog wearing a hat, with a green banner at the bottom of the screen.",
+                    "objects_and_counts": [
+                        "1 cell phone, 1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V057_S0004",
+            "start_frame": 501,
+            "end_frame": 568,
+            "start_ts": 20.04,
+            "end_ts": 22.72,
+            "duration": 2.68,
+            "keyframes": [
+                {
+                    "frame_idx": 534,
+                    "timestamp": 21.36,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V057/L30_V057_S0004_F000534.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "sau ngành marketing tại một trường đại học ở Cần Thơ.",
+                "ocr_text": "Cuộc thi Lan tỏa năng lượng tích cực 2024: Herbalife Hãy làm cuộc sống trở nên thú vị",
+                "vlm_caption": {
+                    "detailed_description": "A young man in a white shirt is sitting at a desk in a classroom, looking down at a piece of paper.",
+                    "objects_and_counts": [
+                        "1 person, 1 chair"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V057_S0005",
+            "start_frame": 569,
+            "end_frame": 691,
+            "start_ts": 22.76,
+            "end_ts": 27.64,
+            "duration": 4.88,
+            "keyframes": [
+                {
+                    "frame_idx": 630,
+                    "timestamp": 25.2,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V057/L30_V057_S0005_F000630.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Trong lúc rảnh rỗi, Hưng tình cờ xem được các clip giới thiệu về bộ môn.",
+                "ocr_text": "tuổi trẻTv 15:56 Q vó ngưyễn giáp Tim siểm Chữ s. Phải hình Bắc Hồ chứ bạn",
+                "vlm_caption": {
+                    "detailed_description": "A person is holding a smartphone displaying a live stream of a person speaking at a podium.",
+                    "objects_and_counts": [
+                        "1 cell phone, 3 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V057_S0006",
+            "start_frame": 692,
+            "end_frame": 803,
+            "start_ts": 27.68,
+            "end_ts": 32.12,
+            "duration": 4.44,
+            "keyframes": [
+                {
+                    "frame_idx": 747,
+                    "timestamp": 29.88,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V057/L30_V057_S0006_F000747.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A person's hand is holding a tool near a collection of tools and materials on a glass surface.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V057_S0007",
+            "start_frame": 804,
+            "end_frame": 953,
+            "start_ts": 32.16,
+            "end_ts": 38.12,
+            "duration": 5.96,
+            "keyframes": [
+                {
+                    "frame_idx": 878,
+                    "timestamp": 35.12,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V057/L30_V057_S0007_F000878.jpg"
+                },
+                {
+                    "frame_idx": 841,
+                    "timestamp": 33.64,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V057/L30_V057_S0007_F000841.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "bìa các tôn, loay hoay các tạo hình chân dung các nhân vật nổi tiếng.",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A person in a white shirt is tying a brown cardboard box with a string.",
+                    "objects_and_counts": [
+                        "1 person, 1 cup | 1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V057_S0008",
+            "start_frame": 954,
+            "end_frame": 1356,
+            "start_ts": 38.16,
+            "end_ts": 54.24,
+            "duration": 16.08,
+            "keyframes": [
+                {
+                    "frame_idx": 1155,
+                    "timestamp": 46.2,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V057/L30_V057_S0008_F001155.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Bộ mông này có tên là điêu khắc ánh sáng tại vì chủ yếu là chúng ta sẽ điêu khắc một cái mô hình tác phẩm mà cho nó thật tỉ mỉ, nó ra nét Để mà khi chúng ta dưới ánh sáng vào nó sẽ ra một hình chân dung, hình chân dung người hay là hình phong cảnh theo ý chúng ta muốn",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A person in a white shirt is standing against a plain background, with a shadow cast on the wall.",
+                    "objects_and_counts": [
+                        "2 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V057_S0009",
+            "start_frame": 1357,
+            "end_frame": 1451,
+            "start_ts": 54.28,
+            "end_ts": 58.04,
+            "duration": 3.76,
+            "keyframes": [
+                {
+                    "frame_idx": 1404,
+                    "timestamp": 56.16,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V057/L30_V057_S0009_F001404.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Bộ môn điều khắc ánh sáng này thì cũng có nhiều lựa chọn để mình sử dụng chất lượng",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A person in a white shirt is cutting a piece of cardboard with scissors on a glass table.",
+                    "objects_and_counts": [
+                        "1 person, 1 cell phone"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V057_S0010",
+            "start_frame": 1452,
+            "end_frame": 1901,
+            "start_ts": 58.08,
+            "end_ts": 76.04,
+            "duration": 17.96,
+            "keyframes": [
+                {
+                    "frame_idx": 1676,
+                    "timestamp": 67.04,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V057/L30_V057_S0010_F001676.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "giống như là chúng ta sử dụng chất liệu giấy thùng cài tông hay là vỏ nhựa, vỏ gỗ hay là ván ép. Còn riêng bản thân em thì em chọn giấy bia cài tông tại vì giấy bia cài tông em sẽ tạo ra một cái tác phẩm rất là dễ và có thể nói là đưa ra một cái hình ảnh đẹp nhất có thể.",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A person in a white shirt stands against a plain background, with a shadow cast on the wall.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V057_S0011",
+            "start_frame": 1902,
+            "end_frame": 2026,
+            "start_ts": 76.08,
+            "end_ts": 81.04,
+            "duration": 4.96,
+            "keyframes": [
+                {
+                    "frame_idx": 1964,
+                    "timestamp": 78.56,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V057/L30_V057_S0011_F001964.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Theo Hương, muốn có một bức chân dung bằng nghệ thuật điều khiển",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A person in a white shirt is using a hot glue gun to apply glue to a piece of wood on a glass table.",
+                    "objects_and_counts": [
+                        "1 person, 2 cell phone"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V057_S0012",
+            "start_frame": 2027,
+            "end_frame": 2241,
+            "start_ts": 81.08,
+            "end_ts": 89.64,
+            "duration": 8.56,
+            "keyframes": [
+                {
+                    "frame_idx": 2134,
+                    "timestamp": 85.36,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V057/L30_V057_S0012_F002134.jpg"
+                },
+                {
+                    "frame_idx": 2080,
+                    "timestamp": 83.2,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V057/L30_V057_S0012_F002080.jpg"
+                },
+                {
+                    "frame_idx": 2187,
+                    "timestamp": 87.48,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V057/L30_V057_S0012_F002187.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Các ánh sáng phải qua nhiều bước. Đầu tiên phải hình dung trong đầu các đường nét cơ bản của gương mặt qua hai màu trắng đen. Những đường nét chính tạo ra những đường nét đẹp.",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A person is holding a small object between their fingers, with a pair of pliers and a stack of wooden sticks in the foreground.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V057_S0013",
+            "start_frame": 2242,
+            "end_frame": 2440,
+            "start_ts": 89.68,
+            "end_ts": 97.6,
+            "duration": 7.92,
+            "keyframes": [
+                {
+                    "frame_idx": 2341,
+                    "timestamp": 93.64,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V057/L30_V057_S0013_F002341.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "gương mặt trên ảnh chân dung. Sau đó chúng ta vẽ lại và xé giấy làm thẳng lên mô hình.",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A cardboard cutout of a person is standing on top of a box in a room with a glass wall and metal railings."
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V057_S0014",
+            "start_frame": 2441,
+            "end_frame": 2913,
+            "start_ts": 97.64,
+            "end_ts": 116.52,
+            "duration": 18.88,
+            "keyframes": [
+                {
+                    "frame_idx": 2677,
+                    "timestamp": 107.08,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V057/L30_V057_S0014_F002677.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Cái khâu khó nhất có lẽ là cái khâu dựng hình ảnh từ trên những cái thùng như thế này Tại vì chúng ta sẽ phải xé giấy cho nó ra nét rất là khó Và sự tỉ mỉ đòi hỏi tính tỉ mỉ và cận trọng rất là cao Bởi vì chỉ cần một nét mà chúng ta xê dịch một tí thôi Thì cái hình ảnh chúng ta cho ra sẽ hoàn toàn khác như là dự tính ban đầu",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A person in a white shirt is standing against a plain background with a shadow cast on the wall.",
+                    "objects_and_counts": [
+                        "1 person, 1 cake"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V057_S0015",
+            "start_frame": 2914,
+            "end_frame": 3106,
+            "start_ts": 116.56,
+            "end_ts": 124.24,
+            "duration": 7.68,
+            "keyframes": [
+                {
+                    "frame_idx": 3010,
+                    "timestamp": 120.4,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V057/L30_V057_S0015_F003010.jpg"
+                },
+                {
+                    "frame_idx": 2962,
+                    "timestamp": 118.48,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V057/L30_V057_S0015_F002962.jpg"
+                },
+                {
+                    "frame_idx": 3058,
+                    "timestamp": 122.32,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V057/L30_V057_S0015_F003058.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Quá trình chế tác các bức hình chân dung Được Minh Hưng quay lại và chia sẻ lên TikTok Dựng được rất nhiều lực sử",
+                "ocr_text": "KENT STATE NIVERS A | STATE \"NIVES al | STATE",
+                "vlm_caption": {
+                    "detailed_description": "A person is sitting in front of a screen displaying a shadow puppet show featuring a character holding a staff and a bird.",
+                    "objects_and_counts": [
+                        "2 person | 3 person, 1 suitcase"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V057_S0016",
+            "start_frame": 3107,
+            "end_frame": 3360,
+            "start_ts": 124.28,
+            "end_ts": 134.4,
+            "duration": 10.12,
+            "keyframes": [
+                {
+                    "frame_idx": 3233,
+                    "timestamp": 129.32,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V057/L30_V057_S0016_F003233.jpg"
+                },
+                {
+                    "frame_idx": 3170,
+                    "timestamp": 126.8,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V057/L30_V057_S0016_F003170.jpg"
+                },
+                {
+                    "frame_idx": 3296,
+                    "timestamp": 131.84,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V057/L30_V057_S0016_F003296.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A person is holding a green apple near a small sculpture of a skeleton with a phone, with a silhouette of a man in the background.",
+                    "objects_and_counts": [
+                        "1 apple"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V057_S0017",
+            "start_frame": 3361,
+            "end_frame": 3919,
+            "start_ts": 134.44,
+            "end_ts": 156.76,
+            "duration": 22.32,
+            "keyframes": [
+                {
+                    "frame_idx": 3640,
+                    "timestamp": 145.6,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V057/L30_V057_S0017_F003640.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Bởi vì ấn tượng của bộ môn nghệ thuật chiếu bóng này đối với em nó thật sự rất thu hút. Điểm thu hút nhiều nhất mà em thích đó chính là mình có thể tạo ra một cái hình ảnh, một con người hoàn chỉnh thông qua một cái bóng được chiếu trên tường. Mà khi nhìn vào tác phẩm chúng ta không thể nào hình dung ra được là nó là cái gì. Nhưng mà khi chúng ta chiếu bóng lên, nó sẽ hiện một bức tranh hoàn chỉnh.",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A person in a white shirt stands against a plain background, with a shadow cast on the wall.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V057_S0018",
+            "start_frame": 3920,
+            "end_frame": 4073,
+            "start_ts": 156.8,
+            "end_ts": 162.92,
+            "duration": 6.12,
+            "keyframes": [
+                {
+                    "frame_idx": 3996,
+                    "timestamp": 159.84,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V057/L30_V057_S0018_F003996.jpg"
+                },
+                {
+                    "frame_idx": 3958,
+                    "timestamp": 158.32,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V057/L30_V057_S0018_F003958.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Các mô hình thường được Hưng dành thời gian từ 1 đến 2 ngày",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A person is holding a model of a cityscape with buildings and a clock tower, standing on a box in a dark room.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V057_S0019",
+            "start_frame": 4074,
+            "end_frame": 4343,
+            "start_ts": 162.96,
+            "end_ts": 173.72,
+            "duration": 10.76,
+            "keyframes": [
+                {
+                    "frame_idx": 4208,
+                    "timestamp": 168.32,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V057/L30_V057_S0019_F004208.jpg"
+                },
+                {
+                    "frame_idx": 4141,
+                    "timestamp": 165.64,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V057/L30_V057_S0019_F004141.jpg"
+                },
+                {
+                    "frame_idx": 4275,
+                    "timestamp": 171.0,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V057/L30_V057_S0019_F004275.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "để hoàn thiện. Theo chàng trai này, việc này đòi hỏi sự tỉ mỉ, kiên nhẫn và chính xác đến từng chi tiết. Về lâu dài, Minh Hưng cho biết đang dự định làm thêm các loại",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A puppet with a green apple and a piece of paper is sitting on a table in front of a projection of a man's face.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V057_S0020",
+            "start_frame": 4344,
+            "end_frame": 4664,
+            "start_ts": 173.76,
+            "end_ts": 186.56,
+            "duration": 12.8,
+            "keyframes": [
+                {
+                    "frame_idx": 4504,
+                    "timestamp": 180.16,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V057/L30_V057_S0020_F004504.jpg"
+                },
+                {
+                    "frame_idx": 4424,
+                    "timestamp": 176.96,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V057/L30_V057_S0020_F004424.jpg"
+                },
+                {
+                    "frame_idx": 4584,
+                    "timestamp": 183.36,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V057/L30_V057_S0020_F004584.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Ngoại hình tranh phong cảnh là mô hình bằng các thanh vỗ lũa nguyên khối. Nếu làm thành công, sản phẩm sẽ có giá trị cao hơn, bảo quản được lâu hơn.",
+                "ocr_text": "Tác giả: Minh Hưng Herbalife | STATE | tuoi trẻTv TENT STATE Tác giả: Minh Hưng Herbalife",
+                "vlm_caption": {
+                    "detailed_description": "A person wearing a \"Kent State University\" t-shirt stands in front of a table with a lamp and a small sculpture, casting a shadow on the wall.",
+                    "objects_and_counts": [
+                        "1 person | 1 person, 1 potted plant"
+                    ]
+                }
+            }
+        }
+    ]
+}

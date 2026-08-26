@@ -1,0 +1,290 @@
+{
+    "video_id": "L30_V021",
+    "fps": 25.0,
+    "total_shots": 10,
+    "total_keyframes": 19,
+    "shots": [
+        {
+            "shot_id": "L30_V021_S0001",
+            "start_frame": 0,
+            "end_frame": 74,
+            "start_ts": 0.0,
+            "end_ts": 2.96,
+            "duration": 2.96,
+            "keyframes": [],
+            "extracted_data": {
+                "transcript": "",
+                "ocr_text": ""
+            }
+        },
+        {
+            "shot_id": "L30_V021_S0002",
+            "start_frame": 75,
+            "end_frame": 169,
+            "start_ts": 3.0,
+            "end_ts": 6.76,
+            "duration": 3.76,
+            "keyframes": [
+                {
+                    "frame_idx": 122,
+                    "timestamp": 4.88,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V021/L30_V021_S0002_F000122.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Thank you.",
+                "ocr_text": "Herbalife' thương hiệu quản lý cân nặng # & sức khỏe trên thế giới",
+                "vlm_caption": {
+                    "detailed_description": "The image features a green circular logo with the Herbalife logo at the top, followed by Vietnamese text that translates to \"World's No. 1 health and wellness management brand.\""
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V021_S0003",
+            "start_frame": 170,
+            "end_frame": 289,
+            "start_ts": 6.8,
+            "end_ts": 11.56,
+            "duration": 4.76,
+            "keyframes": [
+                {
+                    "frame_idx": 229,
+                    "timestamp": 9.16,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V021/L30_V021_S0003_F000229.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "you",
+                "ocr_text": "Clip bạn đọc dự thi cuộc thi: Lan tỏa năng lượng tích cực 2024",
+                "vlm_caption": {
+                    "detailed_description": "The image contains text in Vietnamese, which translates to \"Clip you read for the competition: Spread positive energy 2024.\""
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V021_S0004",
+            "start_frame": 290,
+            "end_frame": 365,
+            "start_ts": 11.6,
+            "end_ts": 14.6,
+            "duration": 3.0,
+            "keyframes": [
+                {
+                    "frame_idx": 327,
+                    "timestamp": 13.08,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V021/L30_V021_S0004_F000327.jpg"
+                },
+                {
+                    "frame_idx": 346,
+                    "timestamp": 13.84,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V021/L30_V021_S0004_F000346.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hello mọi người, mình là thành viên trong nhóm...",
+                "ocr_text": "tuoi trẻTv VIP< ĐOAN TỪ THIỆN PHƯỚC DUYÊN MỸ PHƯỐC, BEN CÁT, BÌNH DƯỠNG 50F 011.17 | tuoi trẻTv > VIP< ĐOÀN TỪ THIỆN PHƯỚC DUYÊN MỸ PHƯỚC, BEN CÁT, BÌNH DƯỠNG Cuộc thi Lan tỏa năng lượng tích cực 2024: Chung tay chia sẻ yêu thương",
+                "vlm_caption": {
+                    "detailed_description": "A man in a green shirt stands next to a bus with a sign reading \"Phước Duyên\" and \"Cuộc thi Lan tỏa năng lượng tích cực 2024: Chung tay chia sẻ yêu thương.\"",
+                    "objects_and_counts": [
+                        "1 bus, 2 person | 1 bus, 3 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V021_S0005",
+            "start_frame": 366,
+            "end_frame": 557,
+            "start_ts": 14.64,
+            "end_ts": 22.28,
+            "duration": 7.64,
+            "keyframes": [
+                {
+                    "frame_idx": 461,
+                    "timestamp": 18.44,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V021/L30_V021_S0005_F000461.jpg"
+                },
+                {
+                    "frame_idx": 413,
+                    "timestamp": 16.52,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V021/L30_V021_S0005_F000413.jpg"
+                },
+                {
+                    "frame_idx": 509,
+                    "timestamp": 20.36,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V021/L30_V021_S0005_F000509.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "đoàn khám phước riêng đây là những anh em trong nhóm đang chuẩn bị những bằng quà để trao cho các bé màu côi ở mấy ám mê",
+                "ocr_text": "Cuộc thi Lan tỏa năng lượng tích cực 2024: Chung tay chia sẻ yêu thương | tuoi trẻv Cuộc thi Lan tỏa năng lượng tích cực 2024: Chung tay chia sẻ yêu thương",
+                "vlm_caption": {
+                    "detailed_description": "A group of people is sitting on the floor, surrounded by various snacks and gifts, with a banner in the background indicating a charity event.",
+                    "objects_and_counts": [
+                        "5 person | 3 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V021_S0006",
+            "start_frame": 558,
+            "end_frame": 625,
+            "start_ts": 22.32,
+            "end_ts": 25.0,
+            "duration": 2.68,
+            "keyframes": [
+                {
+                    "frame_idx": 591,
+                    "timestamp": 23.64,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V021/L30_V021_S0006_F000591.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "có 2 ngàn ở Tây Ninh phần quà thì có",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A group of people are gathered around a table in a room, with one person holding a pink object and another reaching out towards the table.",
+                    "objects_and_counts": [
+                        "5 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V021_S0007",
+            "start_frame": 627,
+            "end_frame": 1103,
+            "start_ts": 25.08,
+            "end_ts": 44.12,
+            "duration": 19.04,
+            "keyframes": [
+                {
+                    "frame_idx": 865,
+                    "timestamp": 34.6,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V021/L30_V021_S0007_F000865.jpg"
+                },
+                {
+                    "frame_idx": 746,
+                    "timestamp": 29.84,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V021/L30_V021_S0007_F000746.jpg"
+                },
+                {
+                    "frame_idx": 984,
+                    "timestamp": 39.36,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V021/L30_V021_S0007_F000984.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "sữa, đường, dầu ăn, bim bim và vân vân những thực phẩm thiết yếu để cho các bé và người già neo đơn có thể sử dụng được hằng ngày Nhóm chúng em có chuẩn bị khoảng 70 phần quà để cho cho máy ấm Trong đó thì không thể nào thiếu lồng đèn chống thu vì nhân dịp",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A young boy in a yellow shirt sits on a chair while a woman in a black shirt holds a child's hand, both in a room with a white wall and a red brick wall in the background.",
+                    "objects_and_counts": [
+                        "5 person | 4 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V021_S0008",
+            "start_frame": 1104,
+            "end_frame": 2736,
+            "start_ts": 44.16,
+            "end_ts": 109.44,
+            "duration": 65.28,
+            "keyframes": [
+                {
+                    "frame_idx": 1920,
+                    "timestamp": 76.8,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V021/L30_V021_S0008_F001920.jpg"
+                },
+                {
+                    "frame_idx": 1512,
+                    "timestamp": 60.48,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V021/L30_V021_S0008_F001512.jpg"
+                },
+                {
+                    "frame_idx": 2328,
+                    "timestamp": 93.12,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V021/L30_V021_S0008_F002328.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Mà Tết Trung Thu sắp đến Nhìn rất đẹp đúng không ạ Và đây là chiến công tác Ngày 15 tháng 9 Mọi người đang chung tay Để sắp xếp những phần quà lên xe Những anh em thiện nguyện trong nhóm Và những người bên ngoài Để tham gia tình nguyện Những khuôn mặt rất là rạng rỡ Ai cũng nhiệt huyết Vui tươi Và đồng lòng cùng với nhau Hợp tác trong ngày hôm nay Ngày 15 tháng 9 Chủ nhật Mỗi tháng thì nhóm chúng em Có chuẩn bị hoặc là lên lịch trình Đến những nơi mái ấm Hoặc là trung tâm Nuôi dưỡng những người già neo đơn Những bé mù côi Những người khuyết tập những vấn đề bất hạnh Để sẽ chia những phần quà nhỏ Để mọi người có thể sử dụng được hằng ngày Mong là những phần quà nhỏ này Những tinh thần tích cực này Có thể lan tỏa đến mọi người Và mọi người sẽ chung tay Cùng nhóm chúng em Đây là chúng em đang Tới mái ấm 2000 Và trao những phần quà đã chuẩn bị Cho các bé ở đây Các bé rất là ngoan",
+                "ocr_text": "tuoi trẻtv BIN | tuổi trẻTv | ĐOÀN TỪ THIỆN LƯỚC DUYÊ PHƯỚC, BẾN CÁT, BÌNH DƯƠI 50F 011.17",
+                "vlm_caption": {
+                    "detailed_description": "A person in a bright green shirt is standing next to a red vehicle, with another individual partially visible inside the vehicle.",
+                    "objects_and_counts": [
+                        "1 truck | 5 person, 1 handbag | 2 person, 1 truck"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V021_S0009",
+            "start_frame": 2738,
+            "end_frame": 3064,
+            "start_ts": 109.52,
+            "end_ts": 122.56,
+            "duration": 13.04,
+            "keyframes": [
+                {
+                    "frame_idx": 2901,
+                    "timestamp": 116.04,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V021/L30_V021_S0009_F002901.jpg"
+                },
+                {
+                    "frame_idx": 2819,
+                    "timestamp": 112.76,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V021/L30_V021_S0009_F002819.jpg"
+                },
+                {
+                    "frame_idx": 2982,
+                    "timestamp": 119.28,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V021/L30_V021_S0009_F002982.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "và ship hàng để nhận những phần quà và lồng đèn chung thu. Các bé nhận phần quà rất là vui và rất là hấu hức và mọi người cũng đang rất là vui vì trao những phần quà ý nghĩa.",
+                "ocr_text": "7 ÂL). tuoi trẻtv",
+                "vlm_caption": {
+                    "detailed_description": "A woman in a green shirt and black pants is feeding a young child in a white robe, while another child in a brown outfit stands nearby.",
+                    "objects_and_counts": [
+                        "6 person | 5 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V021_S0010",
+            "start_frame": 3065,
+            "end_frame": 3152,
+            "start_ts": 122.6,
+            "end_ts": 126.08,
+            "duration": 3.48,
+            "keyframes": [
+                {
+                    "frame_idx": 3108,
+                    "timestamp": 124.32,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V021/L30_V021_S0010_F003108.jpg"
+                },
+                {
+                    "frame_idx": 3130,
+                    "timestamp": 125.2,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V021/L30_V021_S0010_F003130.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Và đây là kết quả của nhóm chúng em",
+                "ocr_text": "tuoi trẻtv XỸ HIỆ MN 30 NAM THÀNH LỢT TENAG MIẶN NGAM THÀNH DÒNG TỐN CEP Tác giả: Hoàng Kim Phượng | #",
+                "vlm_caption": {
+                    "detailed_description": "The image shows a group of people performing on stage with bright lights and a banner in the background.",
+                    "objects_and_counts": [
+                        "14 person"
+                    ]
+                }
+            }
+        }
+    ]
+}

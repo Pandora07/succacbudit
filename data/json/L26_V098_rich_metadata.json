@@ -1,0 +1,2046 @@
+{
+    "video_id": "L26_V098",
+    "fps": 25.0,
+    "total_shots": 76,
+    "total_keyframes": 106,
+    "shots": [
+        {
+            "shot_id": "L26_V098_S0001",
+            "start_frame": 0,
+            "end_frame": 20,
+            "start_ts": 0.0,
+            "end_ts": 0.8,
+            "duration": 0.8,
+            "keyframes": [
+                {
+                    "frame_idx": 10,
+                    "timestamp": 0.4,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V098/L26_V098_S0001_F000010.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "The image features a variety of vegetables, including broccoli, tomatoes, and peppers, arranged in a circular pattern against a white background.",
+                    "objects_and_counts": [
+                        "5 broccoli"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V098_S0002",
+            "start_frame": 21,
+            "end_frame": 32,
+            "start_ts": 0.84,
+            "end_ts": 1.28,
+            "duration": 0.44,
+            "keyframes": [
+                {
+                    "frame_idx": 26,
+                    "timestamp": 1.04,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V098/L26_V098_S0002_F000026.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "A frying pan contains a colorful assortment of vegetables, including broccoli, cauliflower, and carrots, being cooked on a stovetop.",
+                    "objects_and_counts": [
+                        "6 carrot, 7 broccoli, 2 dining table, 2 bowl"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V098_S0003",
+            "start_frame": 33,
+            "end_frame": 77,
+            "start_ts": 1.32,
+            "end_ts": 3.08,
+            "duration": 1.76,
+            "keyframes": [
+                {
+                    "frame_idx": 55,
+                    "timestamp": 2.2,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V098/L26_V098_S0003_F000055.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "A person is scrubbing a surface with a yellow sponge, with water droplets visible on the glass."
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V098_S0004",
+            "start_frame": 78,
+            "end_frame": 99,
+            "start_ts": 3.12,
+            "end_ts": 3.96,
+            "duration": 0.84,
+            "keyframes": [
+                {
+                    "frame_idx": 88,
+                    "timestamp": 3.52,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V098/L26_V098_S0004_F000088.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Bye.",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "The image shows a close-up view of white, elongated objects, likely bacteria, arranged in a cluster against a blurred background."
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V098_S0005",
+            "start_frame": 101,
+            "end_frame": 144,
+            "start_ts": 4.04,
+            "end_ts": 5.76,
+            "duration": 1.72,
+            "keyframes": [
+                {
+                    "frame_idx": 122,
+                    "timestamp": 4.88,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V098/L26_V098_S0005_F000122.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "A hand sprinkles black pepper onto a piece of salmon on a wooden cutting board, surrounded by fresh tomatoes, basil, and herbs.",
+                    "objects_and_counts": [
+                        "1 person, 1 bowl, 1 carrot"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V098_S0006",
+            "start_frame": 146,
+            "end_frame": 164,
+            "start_ts": 5.84,
+            "end_ts": 6.56,
+            "duration": 0.72,
+            "keyframes": [
+                {
+                    "frame_idx": 155,
+                    "timestamp": 6.2,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V098/L26_V098_S0006_F000155.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "you",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "The image shows a variety of fresh vegetables arranged on a dark surface, including lettuce, broccoli, green beans, a carrot, a tomato, and an onion.",
+                    "objects_and_counts": [
+                        "2 broccoli, 1 carrot"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V098_S0007",
+            "start_frame": 165,
+            "end_frame": 299,
+            "start_ts": 6.6,
+            "end_ts": 11.96,
+            "duration": 5.36,
+            "keyframes": [
+                {
+                    "frame_idx": 232,
+                    "timestamp": 9.28,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V098/L26_V098_S0007_F000232.jpg"
+                },
+                {
+                    "frame_idx": 198,
+                    "timestamp": 7.92,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V098/L26_V098_S0007_F000198.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Món ngon mỗi ngày",
+                "ocr_text": "ine",
+                "vlm_caption": {
+                    "detailed_description": "The image is a creative arrangement of vegetables and fruits forming a face, with broccoli, bell pepper, tomato, and other vegetables positioned to resemble facial features.",
+                    "objects_and_counts": [
+                        "1 broccoli | 2 broccoli"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V098_S0008",
+            "start_frame": 300,
+            "end_frame": 400,
+            "start_ts": 12.0,
+            "end_ts": 16.0,
+            "duration": 4.0,
+            "keyframes": [
+                {
+                    "frame_idx": 350,
+                    "timestamp": 14.0,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V098/L26_V098_S0008_F000350.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Matcha cà phê vị mát lạnh, thơm lừng matcha",
+                "ocr_text": "HTV Online I MATCHA CÀ PHÊ #Nấu ChuẩnĂnLành",
+                "vlm_caption": {
+                    "detailed_description": "The image shows a matcha coffee dessert with a green tea base, topped with whipped cream, chocolate shavings, and nuts, served on a white plate with a small bowl of matcha powder and a glass of coffee.",
+                    "objects_and_counts": [
+                        "3 bowl, 2 cake, 1 cup, 1 dining table"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V098_S0009",
+            "start_frame": 401,
+            "end_frame": 539,
+            "start_ts": 16.04,
+            "end_ts": 21.56,
+            "duration": 5.52,
+            "keyframes": [
+                {
+                    "frame_idx": 470,
+                    "timestamp": 18.8,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V098/L26_V098_S0009_F000470.jpg"
+                },
+                {
+                    "frame_idx": 435,
+                    "timestamp": 17.4,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V098/L26_V098_S0009_F000435.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Thank you.",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "Chocolate rolls and cocoa powder are displayed on a woven placemat with a blurred background.",
+                    "objects_and_counts": [
+                        "2 bowl, 1 cake, 1 spoon | 4 bowl, 1 cake"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V098_S0010",
+            "start_frame": 541,
+            "end_frame": 646,
+            "start_ts": 21.64,
+            "end_ts": 25.84,
+            "duration": 4.2,
+            "keyframes": [
+                {
+                    "frame_idx": 593,
+                    "timestamp": 23.72,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V098/L26_V098_S0010_F000593.jpg"
+                },
+                {
+                    "frame_idx": 567,
+                    "timestamp": 22.68,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V098/L26_V098_S0010_F000567.jpg"
+                },
+                {
+                    "frame_idx": 619,
+                    "timestamp": 24.76,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V098/L26_V098_S0010_F000619.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Thank you.",
+                "ocr_text": "HTV Online Blendy MATCHA GAO KANG : | Online @ Blendy | HTV Online 10 GOL Aj Blendy IT ĐUỒNG\") TRÀ MATCHA GẠO RANG Matcha và Gao",
+                "vlm_caption": {
+                    "detailed_description": "The image features a display of ingredients for making a Blendy dessert, including chocolate bars, a container of powder, raisins, and a glass of milk, arranged on a table with a woven placemat.",
+                    "objects_and_counts": [
+                        "1 cup, 2 hot dog, 2 bowl, 1 dining table | 1 cup, 1 hot dog, 2 bowl | 1 cup, 2 bowl, 1 spoon, 2 hot dog, 2 dining table"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V098_S0011",
+            "start_frame": 647,
+            "end_frame": 827,
+            "start_ts": 25.88,
+            "end_ts": 33.08,
+            "duration": 7.2,
+            "keyframes": [
+                {
+                    "frame_idx": 737,
+                    "timestamp": 29.48,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V098/L26_V098_S0011_F000737.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Thank you.",
+                "ocr_text": "HTV Online NGUYÊN LIỆU 10 GỐI Aj2 Blendy 4g DUỜNG\" . Bột cà phê TRA: MATCHA • • Sữa tươi không đường 80ml GẠO RANG : HuSinO và Oạo rang 10g . Nho khô Thơm trà quyện sữa . Bánh quế sô-cô-la 2 cây 120g • Nước đá bi • Trà Matcha Gạo Rang 2 gói Quét mã QR để xem công thức chi tiết",
+                "vlm_caption": {
+                    "detailed_description": "The image displays a recipe for a beverage, featuring ingredients such as coffee powder, sugar-free milk, dried fruit, cola-flavored wafers, ice, and matcha green tea powder, arranged on a woven placemat with a glass of milk",
+                    "objects_and_counts": [
+                        "2 cup, 1 bowl, 1 book"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V098_S0012",
+            "start_frame": 828,
+            "end_frame": 1071,
+            "start_ts": 33.12,
+            "end_ts": 42.84,
+            "duration": 9.72,
+            "keyframes": [
+                {
+                    "frame_idx": 949,
+                    "timestamp": 37.96,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V098/L26_V098_S0012_F000949.jpg"
+                },
+                {
+                    "frame_idx": 888,
+                    "timestamp": 35.52,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V098/L26_V098_S0012_F000888.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Mình chào quý vị khán giả đang theo dõi chương trình Món Ngon Mỗi Ngày Nấu chuẩn, ăn lành Chương trình được tài trợ bởi công ty Ajinomoto Việt Nam Chào Minh Chào Minh Tuấn",
+                "ocr_text": "HTV N M NGON mỗi ngày Aj 2 Blendy | HT/V Onlin N M NEON mỗi ngày Aj : Blend) N M NGON mỗi ngày",
+                "vlm_caption": {
+                    "detailed_description": "Two individuals stand in a modern kitchen, one in a white chef's coat and the other in a striped shirt, both wearing aprons with logos, with a kitchen counter and various cooking utensils in the background.",
+                    "objects_and_counts": [
+                        "2 person, 2 potted plant, 1 oven, 2 microwave, 2 bottle, 3 cup, 1 sink, 1 spoon | 2 person, 1 microwave, 2 bottle, 4 spoon, 1 cup"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V098_S0013",
+            "start_frame": 1072,
+            "end_frame": 1138,
+            "start_ts": 42.88,
+            "end_ts": 45.52,
+            "duration": 2.64,
+            "keyframes": [
+                {
+                    "frame_idx": 1105,
+                    "timestamp": 44.2,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V098/L26_V098_S0013_F001105.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hôm nay là Tuấn thấy là mình có đầy đủ",
+                "ocr_text": "HTV Online N M NGÔN mỗi ngày Ay",
+                "vlm_caption": {
+                    "detailed_description": "A man in a striped shirt and apron is standing in a kitchen, holding a piece of paper.",
+                    "objects_and_counts": [
+                        "1 person, 2 vase, 1 potted plant, 1 cup, 1 bottle"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V098_S0014",
+            "start_frame": 1139,
+            "end_frame": 1199,
+            "start_ts": 45.56,
+            "end_ts": 47.96,
+            "duration": 2.4,
+            "keyframes": [
+                {
+                    "frame_idx": 1169,
+                    "timestamp": 46.76,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V098/L26_V098_S0014_F001169.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "các nguyên liệu để làm món thức uống",
+                "ocr_text": "Online ĐƯỜNG zuuon sữa g tính chất mình h ons uófnb VH:",
+                "vlm_caption": {
+                    "detailed_description": "The image shows a close-up of several packages of Blandy tea sticks on a white surface, with a glass and a white device with a red logo in the background.",
+                    "objects_and_counts": [
+                        "3 cup"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V098_S0015",
+            "start_frame": 1200,
+            "end_frame": 1309,
+            "start_ts": 48.0,
+            "end_ts": 52.36,
+            "duration": 4.36,
+            "keyframes": [
+                {
+                    "frame_idx": 1254,
+                    "timestamp": 50.16,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V098/L26_V098_S0015_F001254.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Mà không biết là Minh đang âm mưu mang đến một cái món gì vào ngày hôm nay đây",
+                "ocr_text": "HTY Online N NGON mỗi ngày Ear wel, Lhe Wee Aj",
+                "vlm_caption": {
+                    "detailed_description": "A man in a striped shirt and apron is speaking and gesturing with his right hand in a kitchen setting.",
+                    "objects_and_counts": [
+                        "1 person, 2 vase, 1 potted plant, 1 cup, 1 bowl, 3 bottle"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V098_S0016",
+            "start_frame": 1310,
+            "end_frame": 1376,
+            "start_ts": 52.4,
+            "end_ts": 55.04,
+            "duration": 2.64,
+            "keyframes": [
+                {
+                    "frame_idx": 1343,
+                    "timestamp": 53.72,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V098/L26_V098_S0016_F001343.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Mình sẽ hướng dẫn cho Minh Tuấn và các bạn khán giả Một",
+                "ocr_text": "HTV N NGON mỗi ngày Eat Well, Live Well Aj 3 Blendy",
+                "vlm_caption": {
+                    "detailed_description": "Two individuals, one in a chef's uniform and the other in a casual outfit, are standing in a modern kitchen with various cooking utensils and ingredients around them.",
+                    "objects_and_counts": [
+                        "2 person, 1 microwave, 2 cup, 2 bottle, 6 spoon, 1 handbag"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V098_S0017",
+            "start_frame": 1377,
+            "end_frame": 1412,
+            "start_ts": 55.08,
+            "end_ts": 56.48,
+            "duration": 1.4,
+            "keyframes": [
+                {
+                    "frame_idx": 1394,
+                    "timestamp": 55.76,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V098/L26_V098_S0017_F001394.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Cái món thức uống đó là",
+                "ocr_text": "HTV Online N MI NGON mối ngày Ear wot, Live Wed",
+                "vlm_caption": {
+                    "detailed_description": "A man wearing a striped shirt and an apron with \"MONNONG\" written on it is standing in a kitchen, looking to the side.",
+                    "objects_and_counts": [
+                        "1 person, 1 potted plant, 2 cup, 1 backpack"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V098_S0018",
+            "start_frame": 1413,
+            "end_frame": 1445,
+            "start_ts": 56.52,
+            "end_ts": 57.8,
+            "duration": 1.28,
+            "keyframes": [
+                {
+                    "frame_idx": 1429,
+                    "timestamp": 57.16,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V098/L26_V098_S0018_F001429.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Matcha Cà Phê",
+                "ocr_text": "HTY N M NEON mỗi ngày Aj n Blendy",
+                "vlm_caption": {
+                    "detailed_description": "A chef and a young man stand in a modern kitchen, with the chef holding a red object and the young man wearing a colorful shirt and apron.",
+                    "objects_and_counts": [
+                        "2 person, 1 microwave, 2 bottle, 2 cup, 6 spoon, 1 handbag"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V098_S0019",
+            "start_frame": 1446,
+            "end_frame": 1490,
+            "start_ts": 57.84,
+            "end_ts": 59.6,
+            "duration": 1.76,
+            "keyframes": [
+                {
+                    "frame_idx": 1468,
+                    "timestamp": 58.72,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V098/L26_V098_S0019_F001468.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Trong cà phê thì nó có caffeine",
+                "ocr_text": "HTV Online NGC mỗi ni",
+                "vlm_caption": {
+                    "detailed_description": "A man in a striped shirt and apron is holding a piece of food in a kitchen setting.",
+                    "objects_and_counts": [
+                        "1 person, 1 potted plant, 1 refrigerator, 1 vase, 2 bottle, 1 bowl"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V098_S0020",
+            "start_frame": 1491,
+            "end_frame": 1594,
+            "start_ts": 59.64,
+            "end_ts": 63.76,
+            "duration": 4.12,
+            "keyframes": [
+                {
+                    "frame_idx": 1542,
+                    "timestamp": 61.68,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V098/L26_V098_S0020_F001542.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Giúp cho chúng ta tỉnh táo nè, có năng lượng nè Ngoài ra là trong trà",
+                "ocr_text": "HTV N M NGON môi ngày Eat Well, Live Well. Aj a. Blendy",
+                "vlm_caption": {
+                    "detailed_description": "A chef and a young man are standing in a modern kitchen, with the chef wearing a white uniform and the young man in a striped shirt, both engaged in conversation.",
+                    "objects_and_counts": [
+                        "2 person, 1 microwave, 2 bottle, 2 cup, 6 spoon, 1 handbag"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V098_S0021",
+            "start_frame": 1595,
+            "end_frame": 1640,
+            "start_ts": 63.8,
+            "end_ts": 65.6,
+            "duration": 1.8,
+            "keyframes": [
+                {
+                    "frame_idx": 1617,
+                    "timestamp": 64.68,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V098/L26_V098_S0021_F001617.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "thì cũng có cà phê luôn",
+                "ocr_text": "Online N M NGON mol ngay Eat Wet, Lhe Wed",
+                "vlm_caption": {
+                    "detailed_description": "A man wearing a striped shirt and apron stands in a kitchen, looking to his left.",
+                    "objects_and_counts": [
+                        "1 person, 1 potted plant, 2 refrigerator, 5 bowl"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V098_S0022",
+            "start_frame": 1641,
+            "end_frame": 1731,
+            "start_ts": 65.64,
+            "end_ts": 69.24,
+            "duration": 3.6,
+            "keyframes": [
+                {
+                    "frame_idx": 1686,
+                    "timestamp": 67.44,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V098/L26_V098_S0022_F001686.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Bên cạnh đó, trà còn có một hợp chất là thê nin giúp cho chúng ta sạch.",
+                "ocr_text": "HTV N NOON mối ngày Eat Well, Live Well. Aj 2 Blendy",
+                "vlm_caption": {
+                    "detailed_description": "Two individuals stand in a modern kitchen, one in a chef's coat and the other in an apron, with a cooking station and various kitchen items in the background.",
+                    "objects_and_counts": [
+                        "2 person, 1 microwave, 2 bottle, 2 cup, 6 spoon, 1 handbag"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V098_S0023",
+            "start_frame": 1732,
+            "end_frame": 1795,
+            "start_ts": 69.28,
+            "end_ts": 71.8,
+            "duration": 2.52,
+            "keyframes": [
+                {
+                    "frame_idx": 1763,
+                    "timestamp": 70.52,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V098/L26_V098_S0023_F001763.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "mạnh khoái, thư giãn tinh thần, không bị lo âu.",
+                "ocr_text": "HTV Online N MI NGON moi ngày",
+                "vlm_caption": {
+                    "detailed_description": "A man in a striped shirt and apron stands in a kitchen, holding a tablet with a logo on it.",
+                    "objects_and_counts": [
+                        "1 person, 1 potted plant, 1 refrigerator, 3 bowl, 1 backpack, 1 cup"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V098_S0024",
+            "start_frame": 1796,
+            "end_frame": 1991,
+            "start_ts": 71.84,
+            "end_ts": 79.64,
+            "duration": 7.8,
+            "keyframes": [
+                {
+                    "frame_idx": 1893,
+                    "timestamp": 75.72,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V098/L26_V098_S0024_F001893.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Cho nên là buổi sáng mà mình có một cái ly mình vừa có trà vừa có cà phê như thế này Chắc chắn sẽ làm cho mọi người tỉnh táo để bắt đầu một ngày mới thật là rực rỡ",
+                "ocr_text": "HT/V N NGON mỗi ngày Est Well, Live Well Aj",
+                "vlm_caption": {
+                    "detailed_description": "Two individuals stand in a modern kitchen, one in a chef's uniform and the other in an apron, with a cooking station and various kitchen items visible.",
+                    "objects_and_counts": [
+                        "2 person, 1 microwave, 2 bottle, 6 spoon, 2 cup, 1 handbag"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V098_S0025",
+            "start_frame": 1992,
+            "end_frame": 2043,
+            "start_ts": 79.68,
+            "end_ts": 81.72,
+            "duration": 2.04,
+            "keyframes": [
+                {
+                    "frame_idx": 2017,
+                    "timestamp": 80.68,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V098/L26_V098_S0025_F002017.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Rồi bây giờ mình bắt đầu mình làm thôi Rồi",
+                "ocr_text": "HTV Online N M NGON mỗi ngày",
+                "vlm_caption": {
+                    "detailed_description": "A man wearing a striped shirt and an apron stands in a kitchen, speaking to the camera.",
+                    "objects_and_counts": [
+                        "1 person, 3 vase, 1 potted plant, 2 bowl"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V098_S0026",
+            "start_frame": 2044,
+            "end_frame": 2108,
+            "start_ts": 81.76,
+            "end_ts": 84.32,
+            "duration": 2.56,
+            "keyframes": [
+                {
+                    "frame_idx": 2076,
+                    "timestamp": 83.04,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V098/L26_V098_S0026_F002076.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "mình sẽ pha lên đi trà matcha gạo rang",
+                "ocr_text": "HTV N M NGON môi ngày Est Well. Live Well Aj",
+                "vlm_caption": {
+                    "detailed_description": "Two individuals stand in a kitchen, one holding a bottle, the other with a white apron, with a stove and various kitchen items in the background.",
+                    "objects_and_counts": [
+                        "2 person, 3 cup, 1 microwave, 3 bottle, 6 spoon, 1 handbag"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V098_S0027",
+            "start_frame": 2109,
+            "end_frame": 2204,
+            "start_ts": 84.36,
+            "end_ts": 88.16,
+            "duration": 3.8,
+            "keyframes": [
+                {
+                    "frame_idx": 2156,
+                    "timestamp": 86.24,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V098/L26_V098_S0027_F002156.jpg"
+                },
+                {
+                    "frame_idx": 2132,
+                    "timestamp": 85.28,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V098/L26_V098_S0027_F002132.jpg"
+                },
+                {
+                    "frame_idx": 2180,
+                    "timestamp": 87.2,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V098/L26_V098_S0027_F002180.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Chúng ta sẽ cho 2 gói vào trong đây Như vậy là 1 ly",
+                "ocr_text": "HTV TRA : MATCHA : GẠO RANG | Blendy GAO RANG | HTV Ay TRÀ: MATCHA GẠO RANG Tham trờ",
+                "vlm_caption": {
+                    "detailed_description": "A person is pouring a green liquid from a Blendy packet into a glass.",
+                    "objects_and_counts": [
+                        "1 cup, 1 person, 1 toothbrush, 1 dining table | 1 cup, 1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V098_S0028",
+            "start_frame": 2205,
+            "end_frame": 2257,
+            "start_ts": 88.2,
+            "end_ts": 90.28,
+            "duration": 2.08,
+            "keyframes": [
+                {
+                    "frame_idx": 2231,
+                    "timestamp": 89.24,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V098/L26_V098_S0028_F002231.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Mình sẽ có 2 gói Đúng rồi",
+                "ocr_text": "HTV N NGÓN mỗi ngày Ay * Blendy",
+                "vlm_caption": {
+                    "detailed_description": "A chef in a white uniform is preparing a dish while a young man in a colorful apron observes in a modern kitchen.",
+                    "objects_and_counts": [
+                        "2 person, 2 cup, 1 microwave, 1 bottle, 6 spoon, 1 handbag"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V098_S0029",
+            "start_frame": 2258,
+            "end_frame": 2368,
+            "start_ts": 90.32,
+            "end_ts": 94.72,
+            "duration": 4.4,
+            "keyframes": [
+                {
+                    "frame_idx": 2313,
+                    "timestamp": 92.52,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V098/L26_V098_S0029_F002313.jpg"
+                },
+                {
+                    "frame_idx": 2340,
+                    "timestamp": 93.6,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V098/L26_V098_S0029_F002340.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Tuấn sẽ lấy 2 gói Cũng tương tự như vậy Tuấn sẽ đổ vào",
+                "ocr_text": "Online Blendy CAO RANG | Online Blendy",
+                "vlm_caption": {
+                    "detailed_description": "A hand is pouring a green liquid from a Blendy into a glass, with a wooden crate of fruits and vegetables in the background.",
+                    "objects_and_counts": [
+                        "1 cup, 1 person, 1 orange, 1 dining table, 1 apple | 1 cup, 1 orange, 1 person, 1 dining table, 2 apple"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V098_S0030",
+            "start_frame": 2369,
+            "end_frame": 2466,
+            "start_ts": 94.76,
+            "end_ts": 98.64,
+            "duration": 3.88,
+            "keyframes": [
+                {
+                    "frame_idx": 2417,
+                    "timestamp": 96.68,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V098/L26_V098_S0030_F002417.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Cho vào đây 50ml nước Cho 2 gói",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "A hand pours milk into a glass containing matcha powder.",
+                    "objects_and_counts": [
+                        "1 person, 1 cup, 1 dining table, 1 vase"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V098_S0031",
+            "start_frame": 2467,
+            "end_frame": 2540,
+            "start_ts": 98.68,
+            "end_ts": 101.6,
+            "duration": 2.92,
+            "keyframes": [
+                {
+                    "frame_idx": 2503,
+                    "timestamp": 100.12,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V098/L26_V098_S0031_F002503.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Chờ thêm 50ml nước sôi nha các bạn",
+                "ocr_text": "HTV N M NGON mỗi ngày Aj a. Blendy",
+                "vlm_caption": {
+                    "detailed_description": "Two individuals are preparing a beverage in a modern kitchen setting, with one pouring a liquid into a glass while the other holds a similar glass.",
+                    "objects_and_counts": [
+                        "2 person, 1 microwave, 2 bottle, 3 cup, 6 spoon, 1 handbag"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V098_S0032",
+            "start_frame": 2541,
+            "end_frame": 2632,
+            "start_ts": 101.64,
+            "end_ts": 105.28,
+            "duration": 3.64,
+            "keyframes": [
+                {
+                    "frame_idx": 2586,
+                    "timestamp": 103.44,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V098/L26_V098_S0032_F002586.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Mình sẽ khuấy cho nó tan đều hết ra luôn nha Minh Tuấn Đúng rồi",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "A person in a white coat is stirring a green liquid in a glass with a spoon.",
+                    "objects_and_counts": [
+                        "1 cup, 1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V098_S0033",
+            "start_frame": 2633,
+            "end_frame": 2734,
+            "start_ts": 105.32,
+            "end_ts": 109.36,
+            "duration": 4.04,
+            "keyframes": [
+                {
+                    "frame_idx": 2683,
+                    "timestamp": 107.32,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V098/L26_V098_S0033_F002683.jpg"
+                },
+                {
+                    "frame_idx": 2708,
+                    "timestamp": 108.32,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V098/L26_V098_S0033_F002708.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Mình giống như là cái cách pha cà phê của mình á Mình đánh đánh cho nó có bọt, nhìn cho nó hấp dẫn",
+                "ocr_text": "HTV E Blendy N M NGON mỗi ngày | HTV Blendy M NGON mỗi ngày",
+                "vlm_caption": {
+                    "detailed_description": "A person in a striped shirt holds a white envelope with a red logo, standing in a kitchen with a refrigerator and a cutting board in the background.",
+                    "objects_and_counts": [
+                        "1 person, 1 refrigerator, 1 potted plant | 1 person, 1 potted plant, 1 refrigerator, 1 oven"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V098_S0034",
+            "start_frame": 2735,
+            "end_frame": 2834,
+            "start_ts": 109.4,
+            "end_ts": 113.36,
+            "duration": 3.96,
+            "keyframes": [
+                {
+                    "frame_idx": 2784,
+                    "timestamp": 111.36,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V098/L26_V098_S0034_F002784.jpg"
+                },
+                {
+                    "frame_idx": 2809,
+                    "timestamp": 112.36,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V098/L26_V098_S0034_F002809.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Tiếp theo mình sẽ cho mỗi ly cà phê này là 4 gram nha",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A hand pours a brown powder from a green container into a clear glass container.",
+                    "objects_and_counts": [
+                        "1 person, 1 dining table | 1 person, 1 cake, 1 dining table, 1 cup"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V098_S0035",
+            "start_frame": 2835,
+            "end_frame": 2987,
+            "start_ts": 113.4,
+            "end_ts": 119.48,
+            "duration": 6.08,
+            "keyframes": [
+                {
+                    "frame_idx": 2911,
+                    "timestamp": 116.44,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V098/L26_V098_S0035_F002911.jpg"
+                },
+                {
+                    "frame_idx": 2873,
+                    "timestamp": 114.92,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V098/L26_V098_S0035_F002873.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Mỗi ly chúng ta sẽ cần 4g bột cà phê hòa tan. Như vậy thì với 2 ly mình sẽ dùng 8g.",
+                "ocr_text": "Onlin 22 Blendy | HTY IN M NGÓN",
+                "vlm_caption": {
+                    "detailed_description": "A person wearing a colorful striped shirt and an apron stands in a kitchen, holding a white paper with a logo on it.",
+                    "objects_and_counts": [
+                        "1 person, 1 refrigerator, 1 potted plant | 2 person, 1 refrigerator, 1 potted plant"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V098_S0036",
+            "start_frame": 2988,
+            "end_frame": 3119,
+            "start_ts": 119.52,
+            "end_ts": 124.76,
+            "duration": 5.24,
+            "keyframes": [
+                {
+                    "frame_idx": 3053,
+                    "timestamp": 122.12,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V098/L26_V098_S0036_F003053.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Với mỗi ly Matcha này chúng ta sẽ cho 1 muỗng cà phê đường vào trong đây.",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "A clear glass container filled with a mixture of white and brown granules is placed on a white surface.",
+                    "objects_and_counts": [
+                        "1 wine glass, 2 dining table"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V098_S0037",
+            "start_frame": 3120,
+            "end_frame": 3198,
+            "start_ts": 124.8,
+            "end_ts": 127.92,
+            "duration": 3.12,
+            "keyframes": [
+                {
+                    "frame_idx": 3159,
+                    "timestamp": 126.36,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V098/L26_V098_S0037_F003159.jpg"
+                },
+                {
+                    "frame_idx": 3139,
+                    "timestamp": 125.56,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V098/L26_V098_S0037_F003139.jpg"
+                },
+                {
+                    "frame_idx": 3178,
+                    "timestamp": 127.12,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V098/L26_V098_S0037_F003178.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Cho vào đây một tí xíu muối Tùy khẩu vị ha Đúng rồi",
+                "ocr_text": "ATV MUỐI LÍT MUỐI | HTV IÍT MUỐI",
+                "vlm_caption": {
+                    "detailed_description": "A person in a white coat is holding a white container with a red logo and a spoon, possibly in a medical or laboratory setting.",
+                    "objects_and_counts": [
+                        "1 person | 1 person, 2 cup, 1 spoon, 1 wine glass | 2 cup, 1 person, 1 spoon, 1 dining table"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V098_S0038",
+            "start_frame": 3199,
+            "end_frame": 3289,
+            "start_ts": 127.96,
+            "end_ts": 131.56,
+            "duration": 3.6,
+            "keyframes": [
+                {
+                    "frame_idx": 3244,
+                    "timestamp": 129.76,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V098/L26_V098_S0038_F003244.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Thêm một ít muối vào cà phê giúp tăng vị đậm đà cho thức uống của chúng ta nha",
+                "ocr_text": "HTV N M NGÓN môi ngày Eat Well, Live Well. Aj THÊM ÍT MUÔI VÀO CÀ PHÊ GIÚP TĂNG VỊ ĐẬM ĐÀ MẸO CHO THỨC UỐNG",
+                "vlm_caption": {
+                    "detailed_description": "A man in a white chef's coat is speaking in front of a backdrop with a red Ajinomoto logo and Vietnamese text.",
+                    "objects_and_counts": [
+                        "1 person, 1 stop sign"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V098_S0039",
+            "start_frame": 3290,
+            "end_frame": 3433,
+            "start_ts": 131.6,
+            "end_ts": 137.32,
+            "duration": 5.72,
+            "keyframes": [
+                {
+                    "frame_idx": 3361,
+                    "timestamp": 134.44,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V098/L26_V098_S0039_F003361.jpg"
+                },
+                {
+                    "frame_idx": 3325,
+                    "timestamp": 133.0,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V098/L26_V098_S0039_F003325.jpg"
+                },
+                {
+                    "frame_idx": 3397,
+                    "timestamp": 135.88,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V098/L26_V098_S0039_F003397.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Sau đó chúng ta sẽ cho 20ml nước sôi này vào nha Ở đây chúng ta sẽ cho là 40ml",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "A hand pours a liquid into a glass containing a mixture of brown and white granules.",
+                    "objects_and_counts": [
+                        "1 person, 1 wine glass, 1 dining table | 1 person, 1 wine glass, 1 cup, 2 dining table | 1 person, 1 wine glass, 1 dining table, 1 vase, 1 cup"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V098_S0040",
+            "start_frame": 3434,
+            "end_frame": 3657,
+            "start_ts": 137.36,
+            "end_ts": 146.28,
+            "duration": 8.92,
+            "keyframes": [
+                {
+                    "frame_idx": 3545,
+                    "timestamp": 141.8,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V098/L26_V098_S0040_F003545.jpg"
+                },
+                {
+                    "frame_idx": 3489,
+                    "timestamp": 139.56,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V098/L26_V098_S0040_F003489.jpg"
+                },
+                {
+                    "frame_idx": 3601,
+                    "timestamp": 144.04,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V098/L26_V098_S0040_F003601.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Như vậy là mỗi 1 ly chúng ta sẽ có là 4 gam cà phê hòa tan, 1 muỗng đường và 20ml nước sôi. Đó, mình muốn mấy ly thì mình cứ nhân lên thôi. Rất đơn giản. Rồi.",
+                "ocr_text": "HTV Online E Blendy NGON mỗi ngày Cat Wel, Live Wee | Online a Blendy | HTV Onlil A Blendy NGON mối ngày",
+                "vlm_caption": {
+                    "detailed_description": "A person wearing a striped shirt and apron stands in a kitchen, holding a white rectangular object with a red square on it.",
+                    "objects_and_counts": [
+                        "1 person, 1 potted plant, 1 refrigerator | 2 person, 1 potted plant | 1 person, 1 refrigerator, 1 potted plant"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V098_S0041",
+            "start_frame": 3658,
+            "end_frame": 3764,
+            "start_ts": 146.32,
+            "end_ts": 150.56,
+            "duration": 4.24,
+            "keyframes": [
+                {
+                    "frame_idx": 3711,
+                    "timestamp": 148.44,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V098/L26_V098_S0041_F003711.jpg"
+                },
+                {
+                    "frame_idx": 3737,
+                    "timestamp": 149.48,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V098/L26_V098_S0041_F003737.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Mình sẽ dùng cái máy đánh bọt này nè Đánh bông cái cà phê này lên Đây nè",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "A hand is using a spoon to stir a liquid in a glass container.",
+                    "objects_and_counts": [
+                        "1 person, 1 cup | 1 person, 1 spoon, 1 cup, 1 dining table"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V098_S0042",
+            "start_frame": 3765,
+            "end_frame": 3851,
+            "start_ts": 150.6,
+            "end_ts": 154.04,
+            "duration": 3.44,
+            "keyframes": [
+                {
+                    "frame_idx": 3808,
+                    "timestamp": 152.32,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V098/L26_V098_S0042_F003808.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Cái này tôi nhớ là ý tưởng từ cà phê muối nè đúng không? Đúng rồi",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "A hand is holding a glass filled with a creamy, light brown liquid, while a syringe injects a clear liquid into the glass.",
+                    "objects_and_counts": [
+                        "1 person, 1 cup, 1 dining table"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V098_S0043",
+            "start_frame": 3852,
+            "end_frame": 3966,
+            "start_ts": 154.08,
+            "end_ts": 158.64,
+            "duration": 4.56,
+            "keyframes": [
+                {
+                    "frame_idx": 3909,
+                    "timestamp": 156.36,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V098/L26_V098_S0043_F003909.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Và bây giờ chúng ta sẽ cho phần nước đá này vào trong",
+                "ocr_text": "HTV N M NEON mỗi ngày Eat Well, Live Welt. Aj",
+                "vlm_caption": {
+                    "detailed_description": "Two individuals are preparing food in a modern kitchen with various cooking utensils and ingredients visible.",
+                    "objects_and_counts": [
+                        "2 person, 1 microwave, 4 cup, 2 bottle, 6 spoon"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V098_S0044",
+            "start_frame": 3967,
+            "end_frame": 4043,
+            "start_ts": 158.68,
+            "end_ts": 161.72,
+            "duration": 3.04,
+            "keyframes": [
+                {
+                    "frame_idx": 4005,
+                    "timestamp": 160.2,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V098/L26_V098_S0044_F004005.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Cái Blendy trà matcha gạo rang sau khi mà mình...",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "A spoon is being used to stir a green liquid in a glass on a white surface.",
+                    "objects_and_counts": [
+                        "1 cup, 1 spoon, 1 person, 1 bottle"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V098_S0045",
+            "start_frame": 4044,
+            "end_frame": 4162,
+            "start_ts": 161.76,
+            "end_ts": 166.48,
+            "duration": 4.72,
+            "keyframes": [
+                {
+                    "frame_idx": 4103,
+                    "timestamp": 164.12,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V098/L26_V098_S0045_F004103.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Khoáy xong thì mình phải để cho nguội thật là nguội nha Để tránh làm cho nước đá nó bị tan ra và thức uống",
+                "ocr_text": "HTV N NOON mỗi ngày Eat Well, Live Welt. Aj",
+                "vlm_caption": {
+                    "detailed_description": "Two individuals are preparing a dish in a modern kitchen, with one wearing a chef's coat and the other in a colorful shirt, surrounded by cooking utensils and ingredients.",
+                    "objects_and_counts": [
+                        "2 person, 1 microwave, 4 cup, 2 bottle, 4 spoon"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V098_S0046",
+            "start_frame": 4163,
+            "end_frame": 4237,
+            "start_ts": 166.52,
+            "end_ts": 169.48,
+            "duration": 2.96,
+            "keyframes": [
+                {
+                    "frame_idx": 4200,
+                    "timestamp": 168.0,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V098/L26_V098_S0046_F004200.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Chúng mình nó thiếu đậm đà đi Đúng Đó, chờ nguội",
+                "ocr_text": "HTV Online #Nấu ChuẩnĂn Lành",
+                "vlm_caption": {
+                    "detailed_description": "A hand is using a spoon to stir a green beverage in a glass filled with ice cubes.",
+                    "objects_and_counts": [
+                        "1 person, 1 cup, 1 dining table, 2 spoon"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V098_S0047",
+            "start_frame": 4238,
+            "end_frame": 4295,
+            "start_ts": 169.52,
+            "end_ts": 171.8,
+            "duration": 2.28,
+            "keyframes": [
+                {
+                    "frame_idx": 4266,
+                    "timestamp": 170.64,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V098/L26_V098_S0047_F004266.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Cho vào đây là 80ml",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "A person is pouring a white liquid from a white pitcher into a glass filled with ice and a green beverage.",
+                    "objects_and_counts": [
+                        "2 cup, 1 spoon, 1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V098_S0048",
+            "start_frame": 4296,
+            "end_frame": 4376,
+            "start_ts": 171.84,
+            "end_ts": 175.04,
+            "duration": 3.2,
+            "keyframes": [
+                {
+                    "frame_idx": 4336,
+                    "timestamp": 173.44,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V098/L26_V098_S0048_F004336.jpg"
+                },
+                {
+                    "frame_idx": 4316,
+                    "timestamp": 172.64,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V098/L26_V098_S0048_F004316.jpg"
+                },
+                {
+                    "frame_idx": 4356,
+                    "timestamp": 174.24,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V098/L26_V098_S0048_F004356.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "sữa tươi không đường ha chúng ta sẽ sử dụng sữa tươi không đường",
+                "ocr_text": "Online | HTV Online DÙNG SỮA TƯƠI KHÔNG ĐƯỜNG GIÚP KIỂM SOÁT ĐỘ NGỌT MẸO CỦA THỨC UỐNG",
+                "vlm_caption": {
+                    "detailed_description": "A hand is adding a spoonful of a green substance into a glass filled with a green liquid and ice cubes.",
+                    "objects_and_counts": [
+                        "1 person, 1 cup, 1 stop sign | 1 person, 1 cup, 1 dining table"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V098_S0049",
+            "start_frame": 4377,
+            "end_frame": 4440,
+            "start_ts": 175.08,
+            "end_ts": 177.6,
+            "duration": 2.52,
+            "keyframes": [
+                {
+                    "frame_idx": 4408,
+                    "timestamp": 176.32,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V098/L26_V098_S0049_F004408.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "giúp kiểm soát được độ ngọt của thức uống của chúng ta nha",
+                "ocr_text": "HTV N M NGÓN mỗi ngày Eat Well, Live Well. Aj DÙNG SỮA TƯƠI KHÔNG ĐƯỜNG GIÚP KIỂM SOÁT ĐỘ NGỌT MẸO CỦA THỨC UÔNG",
+                "vlm_caption": {
+                    "detailed_description": "A man in a white chef's uniform stands in front of a red and white Ajinomoto logo, speaking on a television show.",
+                    "objects_and_counts": [
+                        "1 person, 1 stop sign"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V098_S0050",
+            "start_frame": 4441,
+            "end_frame": 4539,
+            "start_ts": 177.64,
+            "end_ts": 181.56,
+            "duration": 3.92,
+            "keyframes": [
+                {
+                    "frame_idx": 4490,
+                    "timestamp": 179.6,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V098/L26_V098_S0050_F004490.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "จะเอาแกะผลันกับเฟย์โย่",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "A hand is pouring a creamy liquid from a small container into a glass filled with a green beverage, likely matcha latte, on a kitchen counter.",
+                    "objects_and_counts": [
+                        "1 cup, 2 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V098_S0051",
+            "start_frame": 4540,
+            "end_frame": 4624,
+            "start_ts": 181.6,
+            "end_ts": 184.96,
+            "duration": 3.36,
+            "keyframes": [
+                {
+                    "frame_idx": 4582,
+                    "timestamp": 183.28,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V098/L26_V098_S0051_F004582.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "mình sẽ cho hết cái phần bọt cà phê lên trên ha",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "A person is pouring a frothy beverage from a small container into a glass filled with a creamy, foamy substance.",
+                    "objects_and_counts": [
+                        "2 cup, 2 person, 1 dining table, 1 spoon"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V098_S0052",
+            "start_frame": 4625,
+            "end_frame": 4753,
+            "start_ts": 185.0,
+            "end_ts": 190.12,
+            "duration": 5.12,
+            "keyframes": [
+                {
+                    "frame_idx": 4689,
+                    "timestamp": 187.56,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V098/L26_V098_S0052_F004689.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Với Matcha gạo rang, chúng ta sẽ kết hợp với cà phê giúp tạo hương vị mới lạ cho món thức uống của chúng ta nha.",
+                "ocr_text": "HTV N M NEON môi ngày Eat Well, Live Well. Aj MATCHA GẠO RANG KẾT HỢP VỚI CÀ PHÊ MẸO GIÚP TẠO HƯƠNG VỊ MỚI LẠ",
+                "vlm_caption": {
+                    "detailed_description": "A man in a white chef's uniform stands in front of a wooden backdrop with a red Ajinomoto logo, speaking in Vietnamese.",
+                    "objects_and_counts": [
+                        "1 person, 1 stop sign"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V098_S0053",
+            "start_frame": 4754,
+            "end_frame": 4844,
+            "start_ts": 190.16,
+            "end_ts": 193.76,
+            "duration": 3.6,
+            "keyframes": [
+                {
+                    "frame_idx": 4799,
+                    "timestamp": 191.96,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V098/L26_V098_S0053_F004799.jpg"
+                },
+                {
+                    "frame_idx": 4821,
+                    "timestamp": 192.84,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V098/L26_V098_S0053_F004821.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Rồi, đầu tiên mình cũng sẽ cho cà phê vô.",
+                "ocr_text": "aline | Onli",
+                "vlm_caption": {
+                    "detailed_description": "A hand is stirring a layered drink in a glass with ice cubes and a wooden spoon.",
+                    "objects_and_counts": [
+                        "1 person, 1 cup | 1 cup, 1 person, 1 vase, 1 dining table"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V098_S0054",
+            "start_frame": 4845,
+            "end_frame": 4949,
+            "start_ts": 193.8,
+            "end_ts": 197.96,
+            "duration": 4.16,
+            "keyframes": [
+                {
+                    "frame_idx": 4897,
+                    "timestamp": 195.88,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V098/L26_V098_S0054_F004897.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Thank you.",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "A spoon is being used to stir a frothy, light brown liquid into a glass containing a green, creamy substance.",
+                    "objects_and_counts": [
+                        "1 cup, 2 cake, 1 dining table"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V098_S0055",
+            "start_frame": 4950,
+            "end_frame": 5038,
+            "start_ts": 198.0,
+            "end_ts": 201.52,
+            "duration": 3.52,
+            "keyframes": [
+                {
+                    "frame_idx": 4994,
+                    "timestamp": 199.76,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V098/L26_V098_S0055_F004994.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "ស្ស្ស្ស្ស្ស្ស្ស្ស្ស្ស្ស្ស្ស្ស្ស្ស្ស្ស្ស្ស្ស្ស្ស្ស្ស្ស្ស្ស្ស្ស្ស្ស្ស្ស្ស្ស្ស្ស្ស្ស្ស្ស្ស្ស",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "A person is adding chocolate chips from a yellow measuring spoon into a layered dessert in a glass.",
+                    "objects_and_counts": [
+                        "1 bowl, 2 cup, 1 spoon, 1 person, 1 dining table"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V098_S0056",
+            "start_frame": 5039,
+            "end_frame": 5093,
+            "start_ts": 201.56,
+            "end_ts": 203.72,
+            "duration": 2.16,
+            "keyframes": [
+                {
+                    "frame_idx": 5066,
+                    "timestamp": 202.64,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V098/L26_V098_S0056_F005066.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "cho 2 cái bánh huế này vào đây ha",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "A hand is holding a spoon over a glass filled with a layered dessert, with a green liquid at the bottom and a brown foam layer on top.",
+                    "objects_and_counts": [
+                        "1 person, 1 spoon, 1 cup"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V098_S0057",
+            "start_frame": 5094,
+            "end_frame": 5202,
+            "start_ts": 203.76,
+            "end_ts": 208.08,
+            "duration": 4.32,
+            "keyframes": [
+                {
+                    "frame_idx": 5148,
+                    "timestamp": 205.92,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V098/L26_V098_S0057_F005148.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "để trang trí luôn, vừa trang trí mà vừa chúng ta có thể ăn được",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "A person is garnishing a layered drink with wafer cookies.",
+                    "objects_and_counts": [
+                        "1 cup, 1 donut, 1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V098_S0058",
+            "start_frame": 5203,
+            "end_frame": 5256,
+            "start_ts": 208.12,
+            "end_ts": 210.24,
+            "duration": 2.12,
+            "keyframes": [
+                {
+                    "frame_idx": 5229,
+                    "timestamp": 209.16,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V098/L26_V098_S0058_F005229.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hà đẹp tuấn cũng sẽ cần",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "A person is scooping ice cream into a glass with a spoon, with a bowl and a wooden crate in the background.",
+                    "objects_and_counts": [
+                        "1 person, 2 spoon, 2 bowl, 2 cup, 1 apple, 1 dining table"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V098_S0059",
+            "start_frame": 5257,
+            "end_frame": 5321,
+            "start_ts": 210.28,
+            "end_ts": 212.84,
+            "duration": 2.56,
+            "keyframes": [
+                {
+                    "frame_idx": 5289,
+                    "timestamp": 211.56,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V098/L26_V098_S0059_F005289.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "2 cái như vậy",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "A frothy beverage with chocolate chips and a spiraled chocolate stick is served in a glass."
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V098_S0060",
+            "start_frame": 5322,
+            "end_frame": 5551,
+            "start_ts": 212.88,
+            "end_ts": 222.04,
+            "duration": 9.16,
+            "keyframes": [
+                {
+                    "frame_idx": 5436,
+                    "timestamp": 217.44,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V098/L26_V098_S0060_F005436.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hấp dẫn luôn, một cái ly có rất là nhiều tầng Như vậy là món uống của mình ngày hôm nay đã xong rồi đúng không Minh? Đúng rồi, rất là nhanh và đơn giản Rồi, và mình đã làm một cái món uống như vậy rồi",
+                "ocr_text": "HTV N M NGON môi ngày Eat Well, Live Well. Aj",
+                "vlm_caption": {
+                    "detailed_description": "A chef in a white uniform is demonstrating cooking techniques to a young man in a kitchen with various cooking utensils and ingredients visible.",
+                    "objects_and_counts": [
+                        "2 person, 2 cup, 1 microwave, 2 bottle, 1 bowl, 4 spoon"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V098_S0061",
+            "start_frame": 5552,
+            "end_frame": 5621,
+            "start_ts": 222.08,
+            "end_ts": 224.84,
+            "duration": 2.76,
+            "keyframes": [
+                {
+                    "frame_idx": 5586,
+                    "timestamp": 223.44,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V098/L26_V098_S0061_F005586.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "rồi để cho nó hấp dẫn hơn thì mình phải trình bày nó xíu ha",
+                "ocr_text": "HTV Online N MI IGON ngày",
+                "vlm_caption": {
+                    "detailed_description": "A person wearing a striped shirt and an apron is gesturing with their hands in a kitchen setting.",
+                    "objects_and_counts": [
+                        "1 person, 1 potted plant, 1 refrigerator"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V098_S0062",
+            "start_frame": 5622,
+            "end_frame": 5863,
+            "start_ts": 224.88,
+            "end_ts": 234.52,
+            "duration": 9.64,
+            "keyframes": [
+                {
+                    "frame_idx": 5742,
+                    "timestamp": 229.68,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V098/L26_V098_S0062_F005742.jpg"
+                },
+                {
+                    "frame_idx": 5682,
+                    "timestamp": 227.28,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V098/L26_V098_S0062_F005682.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Rồi và ngay bây giờ trên bàn hình của chúng ta bên cạnh một ly thức uống rất là hấp dẫn này thì cũng có một mã QR các bạn có thể quét mã để chúng ta sẽ ngay lập tức có được công thức để làm món thức uống này tại nhà nha.",
+                "ocr_text": "HTY N M NOON mỗi ngày Eat Well, Live Welt Aj • Blendy QUÉT MÃ QR ĐẾ XEM CÔNG THỨC | HTV N M NGON môi ngày Eat Well, Live Welt Aj * Blendy",
+                "vlm_caption": {
+                    "detailed_description": "Two individuals stand in a kitchen, one in a chef's uniform and the other in a colorful shirt, with various kitchen items and appliances visible in the background.",
+                    "objects_and_counts": [
+                        "2 person, 1 cup, 1 microwave, 2 bottle, 5 spoon | 2 person, 2 cup, 1 microwave, 2 bottle, 5 spoon, 1 bowl"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V098_S0063",
+            "start_frame": 5864,
+            "end_frame": 5913,
+            "start_ts": 234.56,
+            "end_ts": 236.52,
+            "duration": 1.96,
+            "keyframes": [
+                {
+                    "frame_idx": 5888,
+                    "timestamp": 235.52,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V098/L26_V098_S0063_F005888.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "",
+                "ocr_text": "HTV Online M NGON mỗi ngày",
+                "vlm_caption": {
+                    "detailed_description": "The image features a red square with the text \"MON NGON MỖI NGÀY\" and the logo of HTV Online."
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V098_S0064",
+            "start_frame": 5914,
+            "end_frame": 6005,
+            "start_ts": 236.56,
+            "end_ts": 240.2,
+            "duration": 3.64,
+            "keyframes": [
+                {
+                    "frame_idx": 5959,
+                    "timestamp": 238.36,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V098/L26_V098_S0064_F005959.jpg"
+                },
+                {
+                    "frame_idx": 5936,
+                    "timestamp": 237.44,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V098/L26_V098_S0064_F005936.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Chúng ta sẽ trình bày ở đây Đó Và thường thường",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A visually appealing dessert, resembling a small, whimsical creature, is presented on a wooden tray with a white plate, accompanied by a small bowl of green powder and a single green leaf.",
+                    "objects_and_counts": [
+                        "1 cup | 1 person, 2 cup, 1 dining table"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V098_S0065",
+            "start_frame": 6006,
+            "end_frame": 6064,
+            "start_ts": 240.24,
+            "end_ts": 242.56,
+            "duration": 2.32,
+            "keyframes": [
+                {
+                    "frame_idx": 6035,
+                    "timestamp": 241.4,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V098/L26_V098_S0065_F006035.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Mình uống cà phê mình sẽ ăn kèm với bánh Đúng",
+                "ocr_text": "On NEON mối ngày Eat Well, Live Well. Aj",
+                "vlm_caption": {
+                    "detailed_description": "Two individuals are engaged in a conversation in a kitchen setting, with one holding a tablet and the other gesturing with his hands.",
+                    "objects_and_counts": [
+                        "2 person, 1 potted plant, 2 refrigerator, 2 bowl, 2 vase, 1 sink, 1 orange"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V098_S0066",
+            "start_frame": 6065,
+            "end_frame": 6156,
+            "start_ts": 242.6,
+            "end_ts": 246.24,
+            "duration": 3.64,
+            "keyframes": [
+                {
+                    "frame_idx": 6110,
+                    "timestamp": 244.4,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V098/L26_V098_S0066_F006110.jpg"
+                },
+                {
+                    "frame_idx": 6087,
+                    "timestamp": 243.48,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V098/L26_V098_S0066_F006087.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Minh có đề xuất với món này mình sẽ ăn bánh gì ngon không?",
+                "ocr_text": "NGON mỗi ngày 04",
+                "vlm_caption": {
+                    "detailed_description": "A person in a striped shirt is holding a white paper in a kitchen setting.",
+                    "objects_and_counts": [
+                        "1 person, 1 vase, 1 potted plant, 1 refrigerator"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V098_S0067",
+            "start_frame": 6157,
+            "end_frame": 6339,
+            "start_ts": 246.28,
+            "end_ts": 253.56,
+            "duration": 7.28,
+            "keyframes": [
+                {
+                    "frame_idx": 6248,
+                    "timestamp": 249.92,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V098/L26_V098_S0067_F006248.jpg"
+                },
+                {
+                    "frame_idx": 6293,
+                    "timestamp": 251.72,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V098/L26_V098_S0067_F006293.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Với món cà phê này thì chúng ta sẽ kết hợp với món pancake xoài kem tươi thì nó sẽ rất là hấp dẫn luôn đó Minh Tuấn.",
+                "ocr_text": "HT On NEON môi ngày Eat Well. Live Well. Aj | HT On NEON mối ngày Eat Well, Live Well. Aj NGON HƠN KHI THƯỞNG THỨC CÙNG PANCAKE XOÀI KEM TƯƠI",
+                "vlm_caption": {
+                    "detailed_description": "In a modern kitchen setting, two individuals stand facing each other, with one wearing a chef's coat and the other in a colorful striped shirt, preparing a dish featuring a pancake with fruit and cream.",
+                    "objects_and_counts": [
+                        "2 person, 1 potted plant, 2 refrigerator, 1 vase, 1 sink | 2 person, 1 potted plant, 2 refrigerator, 1 cake, 2 bowl, 1 vase, 1 sink, 1 backpack"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V098_S0068",
+            "start_frame": 6340,
+            "end_frame": 6391,
+            "start_ts": 253.6,
+            "end_ts": 255.64,
+            "duration": 2.04,
+            "keyframes": [
+                {
+                    "frame_idx": 6365,
+                    "timestamp": 254.6,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V098/L26_V098_S0068_F006365.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Như vậy là bây giờ với một...",
+                "ocr_text": "HTV M NGON mỗi ngày Eat Well, Live Wol Aj",
+                "vlm_caption": {
+                    "detailed_description": "A man in a colorful striped shirt and apron stands in a kitchen, holding a white paper with a logo on it.",
+                    "objects_and_counts": [
+                        "1 person, 1 refrigerator, 1 potted plant"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V098_S0069",
+            "start_frame": 6392,
+            "end_frame": 6780,
+            "start_ts": 255.68,
+            "end_ts": 271.2,
+            "duration": 15.52,
+            "keyframes": [
+                {
+                    "frame_idx": 6586,
+                    "timestamp": 263.44,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V098/L26_V098_S0069_F006586.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Một công thức mới, mỗi một ly cà phê buổi sáng sẽ làm cho chúng ta cảm thấy thú vị hơn rất là nhiều. Nên là các bạn hãy thử trải nghiệm món này vào buổi sáng nha. Chắc chắn nó sẽ làm cho chúng ta có một ngày còn hứng khởi hơn bình thường rất nhiều. Cảm ơn Minh đã giới thiệu món uống của ngày hôm nay. Cảm ơn Minh Tuấn.",
+                "ocr_text": "HT On NEON môi ngày Eat Well, Live Well. Aj 7 75",
+                "vlm_caption": {
+                    "detailed_description": "Two individuals stand in a kitchen, one in a chef's uniform and the other in an apron, with a modern setup including a stove, sink, and various kitchen items.",
+                    "objects_and_counts": [
+                        "2 person, 1 potted plant, 3 refrigerator, 2 bowl, 3 vase, 1 sink"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V098_S0070",
+            "start_frame": 6781,
+            "end_frame": 6869,
+            "start_ts": 271.24,
+            "end_ts": 274.76,
+            "duration": 3.52,
+            "keyframes": [
+                {
+                    "frame_idx": 6825,
+                    "timestamp": 273.0,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V098/L26_V098_S0070_F006825.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Lớp bọt cà phê đánh bông lên có vị",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "A close-up of a frothy, creamy beverage in a glass with chocolate pieces and a straw, with a blurred background.",
+                    "objects_and_counts": [
+                        "1 cake"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V098_S0071",
+            "start_frame": 6870,
+            "end_frame": 6967,
+            "start_ts": 274.8,
+            "end_ts": 278.68,
+            "duration": 3.88,
+            "keyframes": [
+                {
+                    "frame_idx": 6918,
+                    "timestamp": 276.72,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V098/L26_V098_S0071_F006918.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Đắng nhẹ, béo ngọt của sữa Mặn mặn của muối",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "A close-up of a dessert with ice cream, raisins, and a cinnamon stick in a glass bowl.",
+                    "objects_and_counts": [
+                        "1 cake"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V098_S0072",
+            "start_frame": 6968,
+            "end_frame": 7118,
+            "start_ts": 278.72,
+            "end_ts": 284.72,
+            "duration": 6.0,
+            "keyframes": [
+                {
+                    "frame_idx": 7043,
+                    "timestamp": 281.72,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V098/L26_V098_S0072_F007043.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Vô cùng thú vị Động lại hậu ngọt mê đắm Khó tả",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "A hand is adding a nut to a layered dessert in a glass, with a bowl of chocolate cookies, a brush, and a small bowl of green powder in the background.",
+                    "objects_and_counts": [
+                        "1 person, 3 cup, 2 bowl, 1 dining table, 1 spoon"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V098_S0073",
+            "start_frame": 7119,
+            "end_frame": 7301,
+            "start_ts": 284.76,
+            "end_ts": 292.04,
+            "duration": 7.28,
+            "keyframes": [
+                {
+                    "frame_idx": 7210,
+                    "timestamp": 288.4,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V098/L26_V098_S0073_F007210.jpg"
+                },
+                {
+                    "frame_idx": 7164,
+                    "timestamp": 286.56,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V098/L26_V098_S0073_F007164.jpg"
+                },
+                {
+                    "frame_idx": 7255,
+                    "timestamp": 290.2,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V098/L26_V098_S0073_F007255.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Ngày nay thưởng thức cà phê đã được nâng lên một tầm mới. Người ta không chỉ thưởng thức ly cà phê, mà người ta còn thưởng thức cả cái cách để pha ra ly cà phê đó.",
+                "ocr_text": "HTV Online M NGO Eat Wes | HTV Online N M NGON mỗi ngày Eat Well. Live Weil Aj Ay | ON Online gay & Blendy N M",
+                "vlm_caption": {
+                    "detailed_description": "Two individuals, one in a chef's coat and the other in an apron, stand in a modern kitchen with a \"Mon Ngon Mới Ngày\" sign in the background.",
+                    "objects_and_counts": [
+                        "2 person, 1 potted plant, 1 oven, 3 spoon, 1 cup, 1 vase | 2 person, 1 potted plant, 1 oven, 1 sink, 1 bowl | 2 person, 1 potted plant, 1 sink, 1 refrigerator, 3 bowl, 1 vase, 1 backpack"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V098_S0074",
+            "start_frame": 7302,
+            "end_frame": 7414,
+            "start_ts": 292.08,
+            "end_ts": 296.56,
+            "duration": 4.48,
+            "keyframes": [
+                {
+                    "frame_idx": 7358,
+                    "timestamp": 294.32,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V098/L26_V098_S0074_F007358.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Từng công đoạn đều giúp cho mình có thể thư giãn, dành thời gian cho riêng mình.",
+                "ocr_text": "HTV Online N M NGON mới ngày Eat Well, Live Well. Aj",
+                "vlm_caption": {
+                    "detailed_description": "Two individuals stand in a kitchen, one wearing a chef's coat and the other in an apron, with a cooking demonstration setup in front of them.",
+                    "objects_and_counts": [
+                        "3 person, 1 sink, 1 oven"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V098_S0075",
+            "start_frame": 7415,
+            "end_frame": 7807,
+            "start_ts": 296.6,
+            "end_ts": 312.28,
+            "duration": 15.68,
+            "keyframes": [
+                {
+                    "frame_idx": 7611,
+                    "timestamp": 304.44,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V098/L26_V098_S0075_F007611.jpg"
+                },
+                {
+                    "frame_idx": 7513,
+                    "timestamp": 300.52,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V098/L26_V098_S0075_F007513.jpg"
+                },
+                {
+                    "frame_idx": 7709,
+                    "timestamp": 308.36,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V098/L26_V098_S0075_F007709.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Và có một ly cà phê đầy năng lượng mà đặc biệt thơm ngon vào buổi sáng nữa Công thức của món thức uống ngày hôm nay luôn có trên Youtube, website và fanpage của chương trình Món Ngon Mỗi Ngày Các bạn hãy truy cập vào, tìm công thức và thực hiện ngay vào mỗi buổi sáng nha Chúc các bạn sẽ luôn có một ngày tốt lành với thức uống của ngày hôm nay",
+                "ocr_text": "HTV Online N M NGON mỗi ngày Aj Món Ngon Mỗi Ngày If7 Món Ngon Mỗi Ngày N NGON mỗi ngày | HTV nine N M NOON mỗi ngày Ear Well, Live Well Ay * Blendy | HTV Online NGON mỗi ngày Ai Món Ngon Mỗi Ngày E F7 Món Ngon Mỗi Ngày N M NGON mới ngày Aj",
+                "vlm_caption": {
+                    "detailed_description": "Two individuals stand in a modern kitchen, one in a chef's uniform and the other in a striped shirt, preparing to cook.",
+                    "objects_and_counts": [
+                        "2 person, 2 potted plant, 2 bottle, 1 oven, 1 refrigerator, 1 microwave, 2 spoon, 2 sink | 2 person, 2 bottle, 1 microwave, 4 spoon, 1 oven, 1 sink | 2 person, 1 potted plant, 2 bottle, 1 oven, 1 microwave, 1 orange"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L26_V098_S0076",
+            "start_frame": 7808,
+            "end_frame": 8126,
+            "start_ts": 312.32,
+            "end_ts": 325.04,
+            "duration": 12.72,
+            "keyframes": [
+                {
+                    "frame_idx": 7967,
+                    "timestamp": 318.68,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V098/L26_V098_S0076_F007967.jpg"
+                },
+                {
+                    "frame_idx": 7887,
+                    "timestamp": 315.48,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L26_V098/L26_V098_S0076_F007887.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "",
+                "ocr_text": "HTV Online NGUYÊN LIỆU • BỘT CÀ PHÊ 49 • SỮA TƯƠI KHÔNG ĐƯỠNG 80ml • NHO KHỎ 10g • BÁNH QUÊ SÒ-CÔ-LA 2 cày 120g • NƯỚC ĐÁ BI 2 gói • TRÀ MATCHA GẠO RANG Thực hiện chương trình Tham gia thực hiện ĐÀI TRUYỀN HÌNH Bản quyền kịch bản và cấu trúc THÀNH PHÔ HỒ CHÍ MINH Công ty Ajinomoto Việt Nam Công ty Golden Scale chương trình thuộc Phối hợp thực hiện Công ty Hakuhodo Việt Nam Công ty HKFilm công ty Ajinomoto Việt Nam | V NGUYÊN LIỆU • BỘT CÀ PHÊ 4g • SỮA TƯƠI KHÔNG ĐƯỜNG 80ml • NHO KHÔ 10g • BÁNH QUẾ SÔ-CÔ-LA 2 cây • NƯỚC ĐÁ BI 120g 2 gói • TRÀ MATCHA GẠO RANG",
+                "vlm_caption": {
+                    "detailed_description": "The image displays a list of ingredients for a recipe, including coffee powder, unsweetened milk, dry oil, chocolate wafer cookies, ice water, and matcha rice powder.",
+                    "objects_and_counts": [
+                        "1 snowboard | 1 bowl, 1 person, 1 dining table, 3 cup"
+                    ]
+                }
+            }
+        }
+    ]
+}

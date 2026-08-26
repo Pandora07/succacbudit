@@ -1,0 +1,1091 @@
+{
+    "video_id": "L30_V063",
+    "fps": 25.0,
+    "total_shots": 42,
+    "total_keyframes": 53,
+    "shots": [
+        {
+            "shot_id": "L30_V063_S0001",
+            "start_frame": 0,
+            "end_frame": 74,
+            "start_ts": 0.0,
+            "end_ts": 2.96,
+            "duration": 2.96,
+            "keyframes": [],
+            "extracted_data": {
+                "transcript": "",
+                "ocr_text": ""
+            }
+        },
+        {
+            "shot_id": "L30_V063_S0002",
+            "start_frame": 75,
+            "end_frame": 289,
+            "start_ts": 3.0,
+            "end_ts": 11.56,
+            "duration": 8.56,
+            "keyframes": [
+                {
+                    "frame_idx": 182,
+                    "timestamp": 7.28,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V063/L30_V063_S0002_F000182.jpg"
+                },
+                {
+                    "frame_idx": 128,
+                    "timestamp": 5.12,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V063/L30_V063_S0002_F000128.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "",
+                "ocr_text": "Clip bạn đọc dự thi cuộc thi: Lan tỏa năng lượng tích cực 2024",
+                "vlm_caption": {
+                    "detailed_description": "The image features the Herbalife logo with a green leaf symbol next to the text."
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V063_S0003",
+            "start_frame": 290,
+            "end_frame": 355,
+            "start_ts": 11.6,
+            "end_ts": 14.2,
+            "duration": 2.6,
+            "keyframes": [
+                {
+                    "frame_idx": 322,
+                    "timestamp": 12.88,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V063/L30_V063_S0003_F000322.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "",
+                "ocr_text": "on you Herbalife* Yêu và mạnh dạn theo đuổi đam mê",
+                "vlm_caption": {
+                    "detailed_description": "A handcrafted embroidery piece depicting a sunset landscape with the words \"on you\" embroidered on it, placed on a table surrounded by various crafting materials and plants."
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V063_S0004",
+            "start_frame": 356,
+            "end_frame": 427,
+            "start_ts": 14.24,
+            "end_ts": 17.08,
+            "duration": 2.84,
+            "keyframes": [
+                {
+                    "frame_idx": 391,
+                    "timestamp": 15.64,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V063/L30_V063_S0004_F000391.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "you",
+                "ocr_text": "tuöitrery Herbalife* Yêu và mạnh dạn theo đuổi đam mê",
+                "vlm_caption": {
+                    "detailed_description": "A hand is holding an embroidery hoop with a detailed embroidery of a cat surrounded by flowers.",
+                    "objects_and_counts": [
+                        "1 person, 1 cat"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V063_S0005",
+            "start_frame": 428,
+            "end_frame": 516,
+            "start_ts": 17.12,
+            "end_ts": 20.64,
+            "duration": 3.52,
+            "keyframes": [
+                {
+                    "frame_idx": 472,
+                    "timestamp": 18.88,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V063/L30_V063_S0005_F000472.jpg"
+                },
+                {
+                    "frame_idx": 494,
+                    "timestamp": 19.76,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V063/L30_V063_S0005_F000494.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Продолжение следует...",
+                "ocr_text": "tuöitrery Herbalife' Yêu và mạnh dạn theo đuối đam mê | Herbalife' Yêu và mạnh dạn theo đuối đam mê",
+                "vlm_caption": {
+                    "detailed_description": "A person is holding a piece of fabric with an embroidered design, surrounded by green foliage.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V063_S0006",
+            "start_frame": 517,
+            "end_frame": 630,
+            "start_ts": 20.68,
+            "end_ts": 25.2,
+            "duration": 4.52,
+            "keyframes": [
+                {
+                    "frame_idx": 573,
+                    "timestamp": 22.92,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V063/L30_V063_S0006_F000573.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Mình là Thạch Ngọc Phúc Yên và năm nay mình 26 tuổi, hiện tại mình đang ở thành phố Hồ Chí Minh.",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A man in a white shirt with a floral pattern stands in front of a lush green background, smiling.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V063_S0007",
+            "start_frame": 631,
+            "end_frame": 709,
+            "start_ts": 25.24,
+            "end_ts": 28.36,
+            "duration": 3.12,
+            "keyframes": [
+                {
+                    "frame_idx": 670,
+                    "timestamp": 26.8,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V063/L30_V063_S0007_F000670.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Lúc mà sinh viên á, thì mình là...",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A bird feeder hangs from a tree branch amidst a backdrop of green foliage.",
+                    "objects_and_counts": [
+                        "1 bird"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V063_S0008",
+            "start_frame": 710,
+            "end_frame": 777,
+            "start_ts": 28.4,
+            "end_ts": 31.08,
+            "duration": 2.68,
+            "keyframes": [
+                {
+                    "frame_idx": 743,
+                    "timestamp": 29.72,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V063/L30_V063_S0008_F000743.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "sinh viên của ngành du lịch tuy nhiên là",
+                "ocr_text": "G00",
+                "vlm_caption": {
+                    "detailed_description": "A person is writing in a notebook while seated at a table surrounded by lush green plants.",
+                    "objects_and_counts": [
+                        "1 person, 1 frisbee, 1 chair"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V063_S0009",
+            "start_frame": 778,
+            "end_frame": 864,
+            "start_ts": 31.12,
+            "end_ts": 34.56,
+            "duration": 3.44,
+            "keyframes": [
+                {
+                    "frame_idx": 821,
+                    "timestamp": 32.84,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V063/L30_V063_S0009_F000821.jpg"
+                },
+                {
+                    "frame_idx": 799,
+                    "timestamp": 31.96,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V063/L30_V063_S0009_F000799.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Dòng đời đưa đẩy thì mình đã chuyển sang làm việc giáo dục",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A person in a white shirt with colorful patterns is sitting outdoors, holding a piece of paper and looking down.",
+                    "objects_and_counts": [
+                        "1 person | 1 person, 1 chair"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V063_S0010",
+            "start_frame": 865,
+            "end_frame": 1050,
+            "start_ts": 34.6,
+            "end_ts": 42.0,
+            "duration": 7.4,
+            "keyframes": [
+                {
+                    "frame_idx": 957,
+                    "timestamp": 38.28,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V063/L30_V063_S0010_F000957.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Nhưng được một thời gian thì mình đã từ bỏ công việc văn phòng để mình chuyển sang mình tập trung hẳn vào cái công việc theo này",
+                "ocr_text": "Herbalife THẠCH NGỌC PHÚC YÊN Quận Gò Vấp, TP.HCM",
+                "vlm_caption": {
+                    "detailed_description": "A man in a white shirt stands in front of green foliage, with a green banner displaying his name and location.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V063_S0011",
+            "start_frame": 1051,
+            "end_frame": 1119,
+            "start_ts": 42.04,
+            "end_ts": 44.76,
+            "duration": 2.72,
+            "keyframes": [
+                {
+                    "frame_idx": 1085,
+                    "timestamp": 43.4,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V063/L30_V063_S0011_F001085.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Thanks for watching!",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A person's hands are holding a small object near a glass table with a decorated coaster in the background.",
+                    "objects_and_counts": [
+                        "1 person, 3 dining table, 1 potted plant, 1 cake"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V063_S0012",
+            "start_frame": 1120,
+            "end_frame": 1181,
+            "start_ts": 44.8,
+            "end_ts": 47.24,
+            "duration": 2.44,
+            "keyframes": [
+                {
+                    "frame_idx": 1150,
+                    "timestamp": 46.0,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V063/L30_V063_S0012_F001150.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Thank you.",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A young man in a white shirt is sitting at a table in an outdoor setting, surrounded by greenery and plants, and appears to be engaged in an activity involving a string or thread.",
+                    "objects_and_counts": [
+                        "1 person, 1 chair"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V063_S0013",
+            "start_frame": 1182,
+            "end_frame": 1238,
+            "start_ts": 47.28,
+            "end_ts": 49.52,
+            "duration": 2.24,
+            "keyframes": [
+                {
+                    "frame_idx": 1210,
+                    "timestamp": 48.4,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V063/L30_V063_S0013_F001210.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Về bản thân mình á, thì khi mà theo đuổi",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A person is sewing a colorful embroidery design on a glass table outdoors.",
+                    "objects_and_counts": [
+                        "2 person, 1 pizza"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V063_S0014",
+            "start_frame": 1239,
+            "end_frame": 1317,
+            "start_ts": 49.56,
+            "end_ts": 52.68,
+            "duration": 3.12,
+            "keyframes": [
+                {
+                    "frame_idx": 1278,
+                    "timestamp": 51.12,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V063/L30_V063_S0014_F001278.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Môn theo tay này thì ban đầu mình cũng gặp",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A man in a white shirt with colorful patterns is holding a baby wrapped in a white blanket, surrounded by lush green foliage.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V063_S0015",
+            "start_frame": 1318,
+            "end_frame": 1760,
+            "start_ts": 52.72,
+            "end_ts": 70.4,
+            "duration": 17.68,
+            "keyframes": [
+                {
+                    "frame_idx": 1539,
+                    "timestamp": 61.56,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V063/L30_V063_S0015_F001539.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "khá khó khăn. Đầu tiên là mình làm tất cả mọi thứ bằng cái trực giác của mình thôi. Mình không có học qua trường lớp nào hết. Tất cả mọi thứ là mình đều tự học. Nhưng mà mình càng làm thì mình càng hứng thú. Cho nên là mình bỏ qua những cái khó khăn là",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A man in a white shirt with floral patterns stands outdoors, surrounded by lush green foliage.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V063_S0016",
+            "start_frame": 1761,
+            "end_frame": 1870,
+            "start_ts": 70.44,
+            "end_ts": 74.8,
+            "duration": 4.36,
+            "keyframes": [
+                {
+                    "frame_idx": 1815,
+                    "timestamp": 72.6,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V063/L30_V063_S0016_F001815.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Mình không biết phải làm như thế nào Mình không biết phải bắt đầu từ đâu Mà mình",
+                "ocr_text": "tuoi trẻTv",
+                "vlm_caption": {
+                    "detailed_description": "The image shows a hand embroidery hoop with a detailed illustration of a cat surrounded by flowers, with a person's hand holding the thread."
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V063_S0017",
+            "start_frame": 1871,
+            "end_frame": 1966,
+            "start_ts": 74.84,
+            "end_ts": 78.64,
+            "duration": 3.8,
+            "keyframes": [
+                {
+                    "frame_idx": 1918,
+                    "timestamp": 76.72,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V063/L30_V063_S0017_F001918.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Bắt đầu từng chút một Mình kiên trì, mình tỉ mỉ",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A person is stitching a piece of fabric with a floral design on a wooden hoop.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V063_S0018",
+            "start_frame": 1967,
+            "end_frame": 2092,
+            "start_ts": 78.68,
+            "end_ts": 83.68,
+            "duration": 5.0,
+            "keyframes": [
+                {
+                    "frame_idx": 2029,
+                    "timestamp": 81.16,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V063/L30_V063_S0018_F002029.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "từng chút một, từng ngày, từng ngày. Sau đó thì thời gian sẽ trả lời tất cả thôi.",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A man in a white shirt with colorful patterns is holding a plate with a green design, standing in a lush, green outdoor setting with blurred bokeh lights in the background.",
+                    "objects_and_counts": [
+                        "3 person, 1 chair"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V063_S0019",
+            "start_frame": 2093,
+            "end_frame": 2386,
+            "start_ts": 83.72,
+            "end_ts": 95.44,
+            "duration": 11.72,
+            "keyframes": [
+                {
+                    "frame_idx": 2239,
+                    "timestamp": 89.56,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V063/L30_V063_S0019_F002239.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Cho nên là mình nghĩ rằng các bạn trẻ cũng như là tất cả mọi người trong cuộc sống này nếu như mà gặp những khó khăn thì đừng nản lòng, ý chí và thời gian sẽ đưa bạn đến thành công thôi",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A man in a white shirt with colorful patterns is sitting outdoors, surrounded by green foliage.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V063_S0020",
+            "start_frame": 2387,
+            "end_frame": 2445,
+            "start_ts": 95.48,
+            "end_ts": 97.8,
+            "duration": 2.32,
+            "keyframes": [
+                {
+                    "frame_idx": 2416,
+                    "timestamp": 96.64,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V063/L30_V063_S0020_F002416.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Продолжение следует...",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A person with glasses and a red jacket stands on a winding path near a body of water, with houses and greenery in the background.",
+                    "objects_and_counts": [
+                        "1 person, 2 chair"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V063_S0021",
+            "start_frame": 2446,
+            "end_frame": 2712,
+            "start_ts": 97.84,
+            "end_ts": 108.48,
+            "duration": 10.64,
+            "keyframes": [
+                {
+                    "frame_idx": 2579,
+                    "timestamp": 103.16,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V063/L30_V063_S0021_F002579.jpg"
+                },
+                {
+                    "frame_idx": 2512,
+                    "timestamp": 100.48,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V063/L30_V063_S0021_F002512.jpg"
+                },
+                {
+                    "frame_idx": 2645,
+                    "timestamp": 105.8,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V063/L30_V063_S0021_F002645.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Mình thường thích theo những hình ảnh về phong cảnh Tại vì mình thật sự rất thích hoàng hôn Cho nên là mình thường hay theo những bức tranh về hoàng hôn",
+                "ocr_text": "tuoi trẻv TV - Vũng Tâu 09.12.2023",
+                "vlm_caption": {
+                    "detailed_description": "A person stands on a grassy hill overlooking a body of water with buildings in the background, under a cloudy sky.",
+                    "objects_and_counts": [
+                        "2 person | 1 person | 3 person, 1 potted plant"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V063_S0022",
+            "start_frame": 2715,
+            "end_frame": 2777,
+            "start_ts": 108.6,
+            "end_ts": 111.08,
+            "duration": 2.48,
+            "keyframes": [
+                {
+                    "frame_idx": 2746,
+                    "timestamp": 109.84,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V063/L30_V063_S0022_F002746.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Một bức tranh của mình thì",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "The image shows a close-up of a green garment with a colorful embroidered design featuring a mountain landscape.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V063_S0023",
+            "start_frame": 2779,
+            "end_frame": 2843,
+            "start_ts": 111.16,
+            "end_ts": 113.72,
+            "duration": 2.56,
+            "keyframes": [
+                {
+                    "frame_idx": 2811,
+                    "timestamp": 112.44,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V063/L30_V063_S0023_F002811.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Sau đó mất từ 30 cho tới 60 giờ để hỗn hợp.",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A hand holds a circular embroidered patch depicting a mountainous landscape with vibrant flowers and a winding path.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V063_S0024",
+            "start_frame": 2845,
+            "end_frame": 3101,
+            "start_ts": 113.8,
+            "end_ts": 124.04,
+            "duration": 10.24,
+            "keyframes": [
+                {
+                    "frame_idx": 2973,
+                    "timestamp": 118.92,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V063/L30_V063_S0024_F002973.jpg"
+                },
+                {
+                    "frame_idx": 2909,
+                    "timestamp": 116.36,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V063/L30_V063_S0024_F002909.jpg"
+                },
+                {
+                    "frame_idx": 3037,
+                    "timestamp": 121.48,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V063/L30_V063_S0024_F003037.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "có một bức tranh mình rất thích là tranh hoàng hôn ở sau lưng nhà mình thì bức tranh đó mình rất là tâm niệm",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "The image shows a close-up of a colorful embroidered landscape featuring a sunset over a field of red flowers, with a blue sky and sun rays."
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V063_S0025",
+            "start_frame": 3102,
+            "end_frame": 3254,
+            "start_ts": 124.08,
+            "end_ts": 130.16,
+            "duration": 6.08,
+            "keyframes": [
+                {
+                    "frame_idx": 3178,
+                    "timestamp": 127.12,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V063/L30_V063_S0025_F003178.jpg"
+                },
+                {
+                    "frame_idx": 3140,
+                    "timestamp": 125.6,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V063/L30_V063_S0025_F003140.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Để cho một bức tranh có hồn thì mình nghĩ là lúc theo mình sẽ",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A man in a white shirt with floral embroidery stands outdoors, surrounded by green foliage and a tree with fruit.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V063_S0026",
+            "start_frame": 3255,
+            "end_frame": 3406,
+            "start_ts": 130.2,
+            "end_ts": 136.24,
+            "duration": 6.04,
+            "keyframes": [
+                {
+                    "frame_idx": 3330,
+                    "timestamp": 133.2,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V063/L30_V063_S0026_F003330.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Thật sự đặt tình cảm của mình vào đó Và một phần nữa như mình có nói",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A person is holding an embroidery hoop with a cat and flowers design, outdoors.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V063_S0027",
+            "start_frame": 3407,
+            "end_frame": 4050,
+            "start_ts": 136.28,
+            "end_ts": 162.0,
+            "duration": 25.72,
+            "keyframes": [
+                {
+                    "frame_idx": 3728,
+                    "timestamp": 149.12,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V063/L30_V063_S0027_F003728.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Mình rất là thích tranh hoàng hôn, cho nên là khi mà theo về những bức tranh về hoàng hôn, mình đều nhắm mắt lại, mình liên tưởng đến cảnh hoàng hôn ngay trước mắt mình. Từ đó mà mình có thể chuyển đổi nó vào trong những đường theo của mình. Và chắc có thể là trong quá trình mà mình theo, mình đã nghĩ rất nhiều vào cái cảnh vật đó. Cho nên là khi mà tác phẩm hoàn thiện thì nó đều có hồn.",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A man in a white shirt with colorful patterns is standing outdoors, surrounded by green foliage and trees.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V063_S0028",
+            "start_frame": 4051,
+            "end_frame": 4160,
+            "start_ts": 162.04,
+            "end_ts": 166.4,
+            "duration": 4.36,
+            "keyframes": [
+                {
+                    "frame_idx": 4105,
+                    "timestamp": 164.2,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V063/L30_V063_S0028_F004105.jpg"
+                },
+                {
+                    "frame_idx": 4078,
+                    "timestamp": 163.12,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V063/L30_V063_S0028_F004078.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Thanks for watching!",
+                "ocr_text": "GOT | tuoi trẻTv GOT",
+                "vlm_caption": {
+                    "detailed_description": "A hand is stitching the word \"GOT\" onto a piece of fabric featuring an embroidered image of a character's face.",
+                    "objects_and_counts": [
+                        "3 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V063_S0029",
+            "start_frame": 4161,
+            "end_frame": 4216,
+            "start_ts": 166.44,
+            "end_ts": 168.64,
+            "duration": 2.2,
+            "keyframes": [
+                {
+                    "frame_idx": 4188,
+                    "timestamp": 167.52,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V063/L30_V063_S0029_F004188.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Thank you.",
+                "ocr_text": "tuoi trẻ v GOT -on you",
+                "vlm_caption": {
+                    "detailed_description": "A person in a white shirt with colorful patterns is examining a book or magazine with a cartoon character on the cover.",
+                    "objects_and_counts": [
+                        "1 person, 1 cup, 1 chair, 1 dining table"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V063_S0030",
+            "start_frame": 4217,
+            "end_frame": 4276,
+            "start_ts": 168.68,
+            "end_ts": 171.04,
+            "duration": 2.36,
+            "keyframes": [
+                {
+                    "frame_idx": 4246,
+                    "timestamp": 169.84,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V063/L30_V063_S0030_F004246.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Đối với những tác phẩm mà khi mà Phúc Yên làm á Thì",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A young man in a white shirt with floral embroidery is looking down at a plate of food in an outdoor café setting.",
+                    "objects_and_counts": [
+                        "1 person, 4 chair, 1 bowl"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V063_S0031",
+            "start_frame": 4277,
+            "end_frame": 4352,
+            "start_ts": 171.08,
+            "end_ts": 174.08,
+            "duration": 3.0,
+            "keyframes": [
+                {
+                    "frame_idx": 4314,
+                    "timestamp": 172.56,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V063/L30_V063_S0031_F004314.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Thì Phúc Yên luôn đề cao cái tính đọc bản mỗi bức.",
+                "ocr_text": "I'VE GOT on you",
+                "vlm_caption": {
+                    "detailed_description": "The image features a handcrafted patch with the text \"I've got on you\" and an embroidered eye, alongside a colorful landscape patch, set against a backdrop of green foliage."
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V063_S0032",
+            "start_frame": 4353,
+            "end_frame": 4780,
+            "start_ts": 174.12,
+            "end_ts": 191.2,
+            "duration": 17.08,
+            "keyframes": [
+                {
+                    "frame_idx": 4566,
+                    "timestamp": 182.64,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V063/L30_V063_S0032_F004566.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "một sản phẩm mà khi Phúc Yên làm ra thì Phúc Yên sẽ không làm cái thứ hai cho nên là về giá trị, về thẩm mỹ ra thì mọi người cũng sẽ nhìn thấy về giá trị riêng của mỗi bức tranh của mình, mỗi tác phẩm của mình",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A man in a white shirt with a floral pattern sits outdoors, surrounded by green foliage and a tree with fruit.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V063_S0033",
+            "start_frame": 4781,
+            "end_frame": 4831,
+            "start_ts": 191.24,
+            "end_ts": 193.24,
+            "duration": 2.0,
+            "keyframes": [
+                {
+                    "frame_idx": 4806,
+                    "timestamp": 192.24,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V063/L30_V063_S0033_F004806.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Thanks for watching!",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A man in a white shirt is holding an embroidery hoop with a floral design, surrounded by lush greenery and a blurred background.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V063_S0034",
+            "start_frame": 4832,
+            "end_frame": 4927,
+            "start_ts": 193.28,
+            "end_ts": 197.08,
+            "duration": 3.8,
+            "keyframes": [
+                {
+                    "frame_idx": 4879,
+                    "timestamp": 195.16,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V063/L30_V063_S0034_F004879.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Thật sự mà nói thì...",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A man in a white shirt is sitting at a table outdoors, eating food from a plate.",
+                    "objects_and_counts": [
+                        "3 person, 2 chair, 1 sports ball, 1 dining table"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V063_S0035",
+            "start_frame": 4928,
+            "end_frame": 5559,
+            "start_ts": 197.12,
+            "end_ts": 222.36,
+            "duration": 25.24,
+            "keyframes": [
+                {
+                    "frame_idx": 5243,
+                    "timestamp": 209.72,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V063/L30_V063_S0035_F005243.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Mình rất là may mắn bởi vì khi mà theo đuổi cái bộ môn này thì ba mẹ mình cảm thấy rất là vui và họ ủng hộ rất nhiều. Ba mẹ của mình thì đều là nông dân thôi, ở một vùng quê nhỏ của miền Tây. Tuy nhiên là khi mình nói với ba mẹ là mình thích bộ môn này và mình cho họ xem những cái bức tranh của mình, thì mình cũng rất là vui.",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A man in a white shirt with colorful patterns is sitting outdoors in a lush green environment.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V063_S0036",
+            "start_frame": 5560,
+            "end_frame": 5682,
+            "start_ts": 222.4,
+            "end_ts": 227.28,
+            "duration": 4.88,
+            "keyframes": [
+                {
+                    "frame_idx": 5621,
+                    "timestamp": 224.84,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V063/L30_V063_S0036_F005621.jpg"
+                },
+                {
+                    "frame_idx": 5651,
+                    "timestamp": 226.04,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V063/L30_V063_S0036_F005651.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Ba mẹ không thể hiện nhiều đâu Nhưng mà mình biết là ba mẹ cảm thấy rất là vui và tự hào",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A person is sitting outdoors, holding a small, round object with a floral design, surrounded by lush green foliage and a wooden structure in the background.",
+                    "objects_and_counts": [
+                        "1 person | 1 person, 1 apple"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V063_S0037",
+            "start_frame": 5683,
+            "end_frame": 5775,
+            "start_ts": 227.32,
+            "end_ts": 231.0,
+            "duration": 3.68,
+            "keyframes": [
+                {
+                    "frame_idx": 5729,
+                    "timestamp": 229.16,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V063/L30_V063_S0037_F005729.jpg"
+                },
+                {
+                    "frame_idx": 5752,
+                    "timestamp": 230.08,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V063/L30_V063_S0037_F005752.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Vì ba mẹ thấy được những nỗ lực của mình",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A man in a white shirt with colorful patterns sits at an outdoor table, reading a menu.",
+                    "objects_and_counts": [
+                        "1 person, 3 chair, 1 dining table | 1 person, 1 dining table, 2 chair"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V063_S0038",
+            "start_frame": 5776,
+            "end_frame": 6114,
+            "start_ts": 231.04,
+            "end_ts": 244.56,
+            "duration": 13.52,
+            "keyframes": [
+                {
+                    "frame_idx": 5945,
+                    "timestamp": 237.8,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V063/L30_V063_S0038_F005945.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Những đường chỉ theo của mình, ba mẹ cũng cứ mỗi lần mà khi hoàn thành một bức tranh mới, mình đều sẽ gọi điện thoại về để khoe cho ba mẹ. Thì lúc đó ba mẹ chỉ cười thôi, nhưng mà như vậy là mình cũng đã hạnh phúc lắm rồi.",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A man in a white shirt with colorful patterns is smiling and sitting outdoors amidst green foliage.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V063_S0039",
+            "start_frame": 6115,
+            "end_frame": 6213,
+            "start_ts": 244.6,
+            "end_ts": 248.52,
+            "duration": 3.92,
+            "keyframes": [
+                {
+                    "frame_idx": 6164,
+                    "timestamp": 246.56,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V063/L30_V063_S0039_F006164.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Thank you.",
+                "ocr_text": "tuoi trẻTv + Herbalife Tác giả: MINH PHÚC",
+                "vlm_caption": {
+                    "detailed_description": "A man in a white shirt with a floral pattern is eating a sandwich outdoors, with greenery and a table with a drink in the background.",
+                    "objects_and_counts": [
+                        "1 person, 1 cup, 1 hot dog, 2 chair"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V063_S0040",
+            "start_frame": 6214,
+            "end_frame": 6270,
+            "start_ts": 248.56,
+            "end_ts": 250.8,
+            "duration": 2.24,
+            "keyframes": [
+                {
+                    "frame_idx": 6242,
+                    "timestamp": 249.68,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V063/L30_V063_S0040_F006242.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Thank you.",
+                "ocr_text": "tuoi trẻtv HUC YÊN PHÚC Herbalife Tác giả: MINH PHÚC",
+                "vlm_caption": {
+                    "detailed_description": "A person is writing on a small brown card with red and white text, with a blurred background and a green banner at the bottom.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V063_S0041",
+            "start_frame": 6271,
+            "end_frame": 6350,
+            "start_ts": 250.84,
+            "end_ts": 254.0,
+            "duration": 3.16,
+            "keyframes": [
+                {
+                    "frame_idx": 6310,
+                    "timestamp": 252.4,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V063/L30_V063_S0041_F006310.jpg"
+                },
+                {
+                    "frame_idx": 6330,
+                    "timestamp": 253.2,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V063/L30_V063_S0041_F006330.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Thank you.",
+                "ocr_text": "PHÚC YÊN thêu LAu @f & phucyentheutay Herbalife Tác giả: MINH PHÚC | Herbalife* Tác giả: MINH PHÚC",
+                "vlm_caption": {
+                    "detailed_description": "A hand holds a small, rectangular card with a floral design and text, with a blurred background featuring a colorful book and a green banner with text.",
+                    "objects_and_counts": [
+                        "2 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V063_S0042",
+            "start_frame": 6351,
+            "end_frame": 6461,
+            "start_ts": 254.04,
+            "end_ts": 258.44,
+            "duration": 4.4,
+            "keyframes": [
+                {
+                    "frame_idx": 6378,
+                    "timestamp": 255.12,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V063/L30_V063_S0042_F006378.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Thank you.",
+                "ocr_text": "HAUL YEN Accesso Accessories accessories",
+                "vlm_caption": {
+                    "detailed_description": "Three colorful hair clips with floral designs are displayed on a glass table, with a background featuring a colorful fabric and a blurred outdoor setting.",
+                    "objects_and_counts": [
+                        "1 person, 1 dining table"
+                    ]
+                }
+            }
+        }
+    ]
+}

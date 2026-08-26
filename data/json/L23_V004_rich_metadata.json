@@ -1,0 +1,959 @@
+{
+    "video_id": "L23_V004",
+    "fps": 25.0,
+    "total_shots": 35,
+    "total_keyframes": 53,
+    "shots": [
+        {
+            "shot_id": "L23_V004_S0001",
+            "start_frame": 0,
+            "end_frame": 6,
+            "start_ts": 0.0,
+            "end_ts": 0.24,
+            "duration": 0.24,
+            "keyframes": [
+                {
+                    "frame_idx": 3,
+                    "timestamp": 0.12,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L23_V004/L23_V004_S0001_F000003.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "",
+                "ocr_text": "2 T 2.0 Km 1 +130\" H V CHẶNG 4 02:36:43 HẾ THAO",
+                "vlm_caption": {
+                    "detailed_description": "A group of cyclists is racing on a paved road, with one cyclist in a red jersey leading the pack, while others follow closely behind.",
+                    "objects_and_counts": [
+                        "9 person, 1 motorcycle"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L23_V004_S0002",
+            "start_frame": 7,
+            "end_frame": 228,
+            "start_ts": 0.28,
+            "end_ts": 9.12,
+            "duration": 8.84,
+            "keyframes": [
+                {
+                    "frame_idx": 117,
+                    "timestamp": 4.68,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L23_V004/L23_V004_S0002_F000117.jpg"
+                },
+                {
+                    "frame_idx": 172,
+                    "timestamp": 6.88,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L23_V004/L23_V004_S0002_F000172.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Thật sự rất khó đoán Nếu như cả tay đua của Vĩnh Long cũng lùi lại phía sau thì",
+                "ocr_text": "+1'32\" 1.9 Km 1 2 HT/V CHĂNG 4 02:36:48 | 1.9 Km +1'32\" 1 2 HTV CHÁNG 4 02:36:50",
+                "vlm_caption": {
+                    "detailed_description": "A group of cyclists is racing on a paved road, with one cyclist in a green jersey leading the pack.",
+                    "objects_and_counts": [
+                        "6 bicycle, 5 person | 5 bicycle, 7 person, 1 skateboard, 1 traffic light"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L23_V004_S0003",
+            "start_frame": 229,
+            "end_frame": 317,
+            "start_ts": 9.16,
+            "end_ts": 12.68,
+            "duration": 3.52,
+            "keyframes": [
+                {
+                    "frame_idx": 273,
+                    "timestamp": 10.92,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L23_V004/L23_V004_S0003_F000273.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "nhiệm vụ làm việc sẽ giao lại cho Bộ Đồng hành",
+                "ocr_text": "+1'34\" 2 V 1.9 Km (1 H CHẶNG 4 02:36:54 HỂ THAO TO ONDO JON DONGA TOND",
+                "vlm_caption": {
+                    "detailed_description": "A group of people in red shirts and hats are waving flags and banners at a sporting event.",
+                    "objects_and_counts": [
+                        "8 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L23_V004_S0004",
+            "start_frame": 318,
+            "end_frame": 1395,
+            "start_ts": 12.72,
+            "end_ts": 55.8,
+            "duration": 43.08,
+            "keyframes": [
+                {
+                    "frame_idx": 856,
+                    "timestamp": 34.24,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L23_V004/L23_V004_S0004_F000856.jpg"
+                },
+                {
+                    "frame_idx": 1125,
+                    "timestamp": 45.0,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L23_V004/L23_V004_S0004_F001125.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "của TP.HCM, Igor Prolov và Ivanov Timofey. Nhưng điều đó cũng sẽ không làm khó hai tay đua này bởi vì đích đến chỉ còn có khoảng 1,7 km nữa trong khi cách biệt vẫn duy trì trên 1 phút 30 giây. Một km cuối cùng. Lúc này thì nhóm 7 tay đua đi đầu đã vượt qua mốc 1 km cuối cùng. Và đây là thời điểm mà tất cả đều đang rất sẵn sàng cho những cuộc tấn công cuối cùng để tạo ra lợi thế và đích.",
+                "ocr_text": "1.4 Km +1'38\" 2 H 1 CHÁNG 4 02:37:17 HỂ THAO 51 | 1.3 Km +1'26\" HTV 2 CHẶNG 4 02:37:28 HỂ THAO 50",
+                "vlm_caption": {
+                    "detailed_description": "A group of cyclists is racing on a road with a greenery-lined side, with one cyclist in a yellow jersey leading the pack.",
+                    "objects_and_counts": [
+                        "6 person, 2 car | 6 person, 1 motorcycle, 2 car"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L23_V004_S0005",
+            "start_frame": 1396,
+            "end_frame": 1772,
+            "start_ts": 55.84,
+            "end_ts": 70.88,
+            "duration": 15.04,
+            "keyframes": [
+                {
+                    "frame_idx": 1584,
+                    "timestamp": 63.36,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L23_V004/L23_V004_S0005_F001584.jpg"
+                },
+                {
+                    "frame_idx": 1490,
+                    "timestamp": 59.6,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L23_V004/L23_V004_S0005_F001490.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Sapa Novicorp đang là người đi đầu Sapa Novicorp đang đeo bám các tay đua ở phía sau để chờ tung nước rút nhưng có lẽ là hơi khó cho tay đua của nhựa bình minh Bình Dương",
+                "ocr_text": "2 +1\"16\" 1.1 Km - 1 CHẶNG 4 02:37:46 HẾ THAO | 2024 1.1 Km +1'16\" 2 ·1 H V CHẶNG 4 HỂ THAO 02:37:43",
+                "vlm_caption": {
+                    "detailed_description": "A group of cyclists is racing on a road, with a motorcycle following closely behind, and spectators watching from the side.",
+                    "objects_and_counts": [
+                        "13 person, 1 motorcycle, 2 bicycle | 3 truck, 13 person, 1 traffic light, 1 car, 1 motorcycle, 3 bicycle"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L23_V004_S0006",
+            "start_frame": 1773,
+            "end_frame": 2608,
+            "start_ts": 70.92,
+            "end_ts": 104.32,
+            "duration": 33.4,
+            "keyframes": [
+                {
+                    "frame_idx": 2190,
+                    "timestamp": 87.6,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L23_V004/L23_V004_S0006_F002190.jpg"
+                },
+                {
+                    "frame_idx": 1981,
+                    "timestamp": 79.24,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L23_V004/L23_V004_S0006_F001981.jpg"
+                },
+                {
+                    "frame_idx": 2399,
+                    "timestamp": 95.96,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L23_V004/L23_V004_S0006_F002399.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Tất cả các bạn hãy đăng kí cho kênh lalaschool Để không bỏ lỡ những video hấp dẫn Các bạn hãy đăng kí cho kênh lalaschool Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "1.0 Km +1'14\" 2 HTV 1 CHẶNG 4 02:38:11 )HỂ THẠO | +1'13\" 1.0 Km 2 HTV CHẶNG 4 02:38:02 HỂ THAO O I | GNT 037 R.Maikin H V CHÁNG 4 34 Km/h 02:38:19 HỂ THAO",
+                "vlm_caption": {
+                    "detailed_description": "A group of cyclists is racing on a city street, with the lead cyclist in the yellow jersey and the pack of riders closely following.",
+                    "objects_and_counts": [
+                        "8 person | 9 person, 4 car, 1 bicycle | 7 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L23_V004_S0007",
+            "start_frame": 2609,
+            "end_frame": 2680,
+            "start_ts": 104.36,
+            "end_ts": 107.2,
+            "duration": 2.84,
+            "keyframes": [
+                {
+                    "frame_idx": 2644,
+                    "timestamp": 105.76,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L23_V004/L23_V004_S0007_F002644.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "ご視聴ありがとうございました",
+                "ocr_text": "HTV CHẶNG 4 02:38:29 HỂ THAO",
+                "vlm_caption": {
+                    "detailed_description": "A group of cyclists is racing down a city street, with one cyclist in a white and blue jersey leading the pack.",
+                    "objects_and_counts": [
+                        "5 bicycle, 7 person, 2 car, 2 motorcycle"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L23_V004_S0008",
+            "start_frame": 2681,
+            "end_frame": 2738,
+            "start_ts": 107.24,
+            "end_ts": 109.52,
+            "duration": 2.28,
+            "keyframes": [
+                {
+                    "frame_idx": 2709,
+                    "timestamp": 108.36,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L23_V004/L23_V004_S0008_F002709.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Đồ ăn nước rút",
+                "ocr_text": "H CHẶNG 4 02:38:31 T HÉ GAO TON DONG A",
+                "vlm_caption": {
+                    "detailed_description": "A group of cyclists is racing down a city street, with spectators lining the sides.",
+                    "objects_and_counts": [
+                        "9 person, 2 bicycle"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L23_V004_S0009",
+            "start_frame": 2739,
+            "end_frame": 2797,
+            "start_ts": 109.56,
+            "end_ts": 111.88,
+            "duration": 2.32,
+            "keyframes": [
+                {
+                    "frame_idx": 2768,
+                    "timestamp": 110.72,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L23_V004/L23_V004_S0009_F002768.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Và một chiếc áo của Vinh Lâm đã mắc",
+                "ocr_text": "HT/V CHẶNG 4 02:38:34 HẾ THAO • 510 696.° KEO",
+                "vlm_caption": {
+                    "detailed_description": "A group of cyclists in a race are leaning forward on their bicycles, with one cyclist in a white and red jersey leading the pack.",
+                    "objects_and_counts": [
+                        "11 person, 7 bicycle, 2 car"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L23_V004_S0010",
+            "start_frame": 2798,
+            "end_frame": 2996,
+            "start_ts": 111.92,
+            "end_ts": 119.84,
+            "duration": 7.92,
+            "keyframes": [
+                {
+                    "frame_idx": 2897,
+                    "timestamp": 115.88,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L23_V004/L23_V004_S0010_F002897.jpg"
+                },
+                {
+                    "frame_idx": 2847,
+                    "timestamp": 113.88,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L23_V004/L23_V004_S0010_F002847.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Mác Tí Lás, Mác Tí Lás là người đã vượt lên Roman McKinnon viết thép chữ nhì Và như vậy là chúc mừng vợ đồng nghiên của Bình Long",
+                "ocr_text": "HTV CHẶNG 4 00:00 02:38:39 HỂ THAO C TON DONG AN IN DONGA J | H TV CHẶNG 4 02:38:37 HỂ THAO",
+                "vlm_caption": {
+                    "detailed_description": "A cyclist in a red and white jersey raises his arms in victory as he crosses the finish line in a cycling race.",
+                    "objects_and_counts": [
+                        "11 person, 5 car, 4 bicycle, 2 motorcycle | 9 person, 2 car, 5 bicycle, 1 backpack"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L23_V004_S0011",
+            "start_frame": 2997,
+            "end_frame": 3218,
+            "start_ts": 119.88,
+            "end_ts": 128.72,
+            "duration": 8.84,
+            "keyframes": [
+                {
+                    "frame_idx": 3107,
+                    "timestamp": 124.28,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L23_V004/L23_V004_S0011_F003107.jpg"
+                },
+                {
+                    "frame_idx": 3052,
+                    "timestamp": 122.08,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L23_V004/L23_V004_S0011_F003052.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Martin Ladd đã xuất sắc giành được chiến thắng cho mình. Chiến thắng trận đầu tiên của 620 Châu Thới Vĩnh Long ở Cấp truyền hành tàu Cố Chính minh năm nay.",
+                "ocr_text": "HTV CHẶNG 4 00:08 02:38:39 T HẾ THAO | HTV CHẶNG 4 00:06 02:38:39 HỂ THAO ~- NHA KHOA LỆ ĐỘNG ĐỘI NGŨ CHUYEN GIA 35 NĂM KINH NGHIỆM",
+                "vlm_caption": {
+                    "detailed_description": "The image shows an aerial view of a street with a blue building labeled \"NHA KHOA LÊ ĐÔNG\" and several people riding bicycles along the road, with palm trees lining the sidewalk.",
+                    "objects_and_counts": [
+                        "1 car, 1 chair, 1 person | 7 person, 1 car"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L23_V004_S0012",
+            "start_frame": 3219,
+            "end_frame": 3843,
+            "start_ts": 128.76,
+            "end_ts": 153.72,
+            "duration": 24.96,
+            "keyframes": [
+                {
+                    "frame_idx": 3531,
+                    "timestamp": 141.24,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L23_V004/L23_V004_S0012_F003531.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Bây giờ thì chúng ta sẽ chờ đợi tớp đông có áo vàng về sau Xin được nhắc lại là cách biệt của Igor Frolov với Peter Dikunov là 31 giây Và nếu như đoàn đông phía sau về hơn 31 giây so với nhóm 1 thì áo vàng sẽ chính thức đổi chủ 28, 29, 30 Quá 31 giây rồi và tớp đông ở phía sau vẫn đang miệt mài tăng tốc Bây giờ sẽ tiếp",
+                "ocr_text": "H T/V CHẶNG 4 00:25 HỂ THAO 02:38:39 KHO BẠCI",
+                "vlm_caption": {
+                    "detailed_description": "A group of motorcyclists and cyclists are riding down a street, with spectators lining the sides.",
+                    "objects_and_counts": [
+                        "3 car, 15 person, 2 motorcycle, 1 handbag"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L23_V004_S0013",
+            "start_frame": 3844,
+            "end_frame": 3950,
+            "start_ts": 153.76,
+            "end_ts": 158.0,
+            "duration": 4.24,
+            "keyframes": [
+                {
+                    "frame_idx": 3897,
+                    "timestamp": 155.88,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L23_V004/L23_V004_S0013_F003897.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Tiếp tục là cuộc cạnh tranh áo cam. Nguyễn Tấn Hoài đã về trước.",
+                "ocr_text": "H V CHĂNG 4 00:40 02:38:39 T HỂ THẠO",
+                "vlm_caption": {
+                    "detailed_description": "A group of cyclists is riding in a line on a multi-lane road, with a green median and trees on the left side.",
+                    "objects_and_counts": [
+                        "2 car, 2 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L23_V004_S0014",
+            "start_frame": 3951,
+            "end_frame": 4213,
+            "start_ts": 158.04,
+            "end_ts": 168.52,
+            "duration": 10.48,
+            "keyframes": [
+                {
+                    "frame_idx": 4082,
+                    "timestamp": 163.28,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L23_V004/L23_V004_S0014_F004082.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "có cách biệt 1 phút 33 giây với Nguyễn Hoàng Sang. Nguyễn Tuấn Hoài đã về đích ở vị trí thứ 3. Và anh cũng có thêm giây thưởng cho mình ở trận đua ngày hôm nay.",
+                "ocr_text": "H V CHÁNG 4 00:4 02:38:39 HỂ THAO",
+                "vlm_caption": {
+                    "detailed_description": "A cyclist in a yellow jersey leads a group of cyclists down a city street, with trees and buildings lining the route.",
+                    "objects_and_counts": [
+                        "10 person, 5 bicycle, 2 backpack"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L23_V004_S0015",
+            "start_frame": 4214,
+            "end_frame": 4261,
+            "start_ts": 168.56,
+            "end_ts": 170.44,
+            "duration": 1.88,
+            "keyframes": [
+                {
+                    "frame_idx": 4237,
+                    "timestamp": 169.48,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L23_V004/L23_V004_S0015_F004237.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Là 4 giây, nghĩa là chỉ còn 1 phút 20...",
+                "ocr_text": "H TV CHĂNG 4 00:53 /HỂ THAO 02:38:39",
+                "vlm_caption": {
+                    "detailed_description": "An aerial view shows a person riding a motorcycle on a road near a residential area with various buildings and greenery.",
+                    "objects_and_counts": [
+                        "1 person, 3 potted plant"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L23_V004_S0016",
+            "start_frame": 4262,
+            "end_frame": 4328,
+            "start_ts": 170.48,
+            "end_ts": 173.12,
+            "duration": 2.64,
+            "keyframes": [
+                {
+                    "frame_idx": 4295,
+                    "timestamp": 171.8,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L23_V004/L23_V004_S0016_F004295.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Chứng dây thôi",
+                "ocr_text": "H V CHÁNG 4 /HỂ THAO 00:56 02:38:39 64 CAO LO DÔNG ANH DT: 100.313 THÁI HỒNG Qang ding PHÚC LỘC",
+                "vlm_caption": {
+                    "detailed_description": "A group of people is gathered on a street corner, with some standing and others walking, in front of a row of shops and a red umbrella.",
+                    "objects_and_counts": [
+                        "16 person, 1 car, 1 umbrella"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L23_V004_S0017",
+            "start_frame": 4329,
+            "end_frame": 4400,
+            "start_ts": 173.16,
+            "end_ts": 176.0,
+            "duration": 2.84,
+            "keyframes": [
+                {
+                    "frame_idx": 4364,
+                    "timestamp": 174.56,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L23_V004/L23_V004_S0017_F004364.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "1 phút 29 giây để vượt qua được cách biệt.",
+                "ocr_text": "H V CHẶNG 4 00:58 HỂ THAO 02:38:39 500 M",
+                "vlm_caption": {
+                    "detailed_description": "An aerial view shows a pedestrian crossing a street with a 500-meter distance marker, surrounded by greenery and parked cars.",
+                    "objects_and_counts": [
+                        "5 person, 4 car"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L23_V004_S0018",
+            "start_frame": 4401,
+            "end_frame": 4483,
+            "start_ts": 176.04,
+            "end_ts": 179.32,
+            "duration": 3.28,
+            "keyframes": [
+                {
+                    "frame_idx": 4442,
+                    "timestamp": 177.68,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L23_V004/L23_V004_S0018_F004442.jpg"
+                },
+                {
+                    "frame_idx": 4421,
+                    "timestamp": 176.84,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L23_V004/L23_V004_S0018_F004421.jpg"
+                },
+                {
+                    "frame_idx": 4462,
+                    "timestamp": 178.48,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L23_V004/L23_V004_S0018_F004462.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Với áo cam Nguyễn Hoàng Sang",
+                "ocr_text": "H V CHÁNG 4 02:38:39 HẾ THAO 52 | CHÁNG 4 01:01 02:38:39 THỂ THAO | H V CHĂNG 4 01:02 02:38:39 HỂ THAO",
+                "vlm_caption": {
+                    "detailed_description": "A group of cyclists in a race are navigating a tight corner on their bicycles, with one cyclist in a purple jersey leading the pack.",
+                    "objects_and_counts": [
+                        "10 person, 10 bicycle, 3 car, 1 motorcycle, 1 backpack | 8 bicycle, 10 person | 5 bicycle, 7 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L23_V004_S0019",
+            "start_frame": 4484,
+            "end_frame": 5019,
+            "start_ts": 179.36,
+            "end_ts": 200.76,
+            "duration": 21.4,
+            "keyframes": [
+                {
+                    "frame_idx": 4751,
+                    "timestamp": 190.04,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L23_V004/L23_V004_S0019_F004751.jpg"
+                },
+                {
+                    "frame_idx": 4885,
+                    "timestamp": 195.4,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L23_V004/L23_V004_S0019_F004885.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Đoàn đông đã về tới 500m cuối Những chiếc áo của thành phố Hồ Chí Minh Vinama đang vươn lên ở phía trên Họ đang chủ động đe lại đoàn đông để kéo dãn thời gian càng dài càng tốt so với áo vàng Viterbukunov Nguyễn Hoàng Sang cũng đang có mặt ở trong nhóm này 1 phút 29 giây",
+                "ocr_text": "H V CHẶNG 4 01:14 HỂ THAO 02:38:39 | H V CHẶNG 4 01:19 HẾ THAO 02:38:39 CANIFA",
+                "vlm_caption": {
+                    "detailed_description": "A group of cyclists is riding in a line down a city street, with buildings and trees lining the sides.",
+                    "objects_and_counts": [
+                        "8 person | 6 person, 1 car"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L23_V004_S0020",
+            "start_frame": 5020,
+            "end_frame": 5113,
+            "start_ts": 200.8,
+            "end_ts": 204.52,
+            "duration": 3.72,
+            "keyframes": [
+                {
+                    "frame_idx": 5066,
+                    "timestamp": 202.64,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L23_V004/L23_V004_S0020_F005066.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "V CHẶNG 4 01:26 02:38:39 HỂ THAO MÁY TÍNH CAMERA LÁP DẶT",
+                "vlm_caption": {
+                    "detailed_description": "A group of cyclists is racing down a city street, with a red umbrella and a sign for \"Máy Tính Camera\" in the background.",
+                    "objects_and_counts": [
+                        "14 person, 1 umbrella, 6 motorcycle, 1 bicycle"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L23_V004_S0021",
+            "start_frame": 5114,
+            "end_frame": 5908,
+            "start_ts": 204.56,
+            "end_ts": 236.32,
+            "duration": 31.76,
+            "keyframes": [
+                {
+                    "frame_idx": 5511,
+                    "timestamp": 220.44,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L23_V004/L23_V004_S0021_F005511.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Còn đảm bảo đủ thể lực sau khi lạp đầu máy kéo liên tiếp trong mấy chục km vượt qua. Đã vượt qua móc 1 phút 29 giây và đồng nghĩa với việc áo cam cũng đã chính thức đổi chủ sau trạng đua này. Nguyễn Hoàng Sang đã không thể giữ được chiếc áo cam của mình. Và Nguyễn Tấn Hoài sẽ là chủ nhân mới của chiếc áo danh giá dành cho vận động viên Việt Nam ấn tượng. Có lẽ là khoảng cách giữa 2 tốp khoảng 1 phút 38 giây. Thật sự quá hấp dẫn với những gì mà chúng ta đã được chứng kiến trong trạng đua ngày hôm nay.",
+                "ocr_text": "TV H V CHẶNG 4 01:44 02:38:39 HỂ THÁO P TRUYỀN HINH TV 1 C TON DO TON DONG A",
+                "vlm_caption": {
+                    "detailed_description": "A group of cyclists is racing on a road lined with spectators and banners, with the lead cyclist wearing a red jersey and helmet.",
+                    "objects_and_counts": [
+                        "11 person, 1 car, 8 bicycle"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L23_V004_S0022",
+            "start_frame": 5909,
+            "end_frame": 6163,
+            "start_ts": 236.36,
+            "end_ts": 246.52,
+            "duration": 10.16,
+            "keyframes": [
+                {
+                    "frame_idx": 6036,
+                    "timestamp": 241.44,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L23_V004/L23_V004_S0022_F006036.jpg"
+                },
+                {
+                    "frame_idx": 5972,
+                    "timestamp": 238.88,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L23_V004/L23_V004_S0022_F005972.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Sự được chúc mừng tập thể Vĩnh Long với chiến thắng trạng đầu tiên dành cho Martin Las Một tay đùa có nước rút tốt đến từ Estonia",
+                "ocr_text": "H T/V HẾ THAO | HTV CHẶNG 4 02:03 02:38:39 )HẾ THAO",
+                "vlm_caption": {
+                    "detailed_description": "An aerial view of a small town with red-roofed buildings, green trees, and a busy street with cars and pedestrians.",
+                    "objects_and_counts": [
+                        "3 car, 4 person, 1 umbrella | 18 car"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L23_V004_S0023",
+            "start_frame": 6164,
+            "end_frame": 6282,
+            "start_ts": 246.56,
+            "end_ts": 251.28,
+            "duration": 4.72,
+            "keyframes": [
+                {
+                    "frame_idx": 6223,
+                    "timestamp": 248.92,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L23_V004/L23_V004_S0023_F006223.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Người đã từng tham gia trạng đua La Fuenta Tây Ban Nha Một trong bà Grand Tour lớn nhất của thế giới",
+                "ocr_text": "& TON DONGA GA 07",
+                "vlm_caption": {
+                    "detailed_description": "A cyclist crosses the finish line at a cycling race, with spectators and banners lining the course.",
+                    "objects_and_counts": [
+                        "13 person, 3 bicycle"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L23_V004_S0024",
+            "start_frame": 6283,
+            "end_frame": 6425,
+            "start_ts": 251.32,
+            "end_ts": 257.0,
+            "duration": 5.68,
+            "keyframes": [
+                {
+                    "frame_idx": 6354,
+                    "timestamp": 254.16,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L23_V004/L23_V004_S0024_F006354.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Xin được chúc mừng tập thể thành phố Hồ Chí Minh Vinama và thành phố Hồ Chí Minh New Group với những người đã đạt được tổ chức đại dịch.",
+                "ocr_text": "CUP TRUYEN HINH H THẬNH PHỐ RỖ CHI MIN Y RÀN HIỆM XA HỘI HT/V TON DO HẾ THAO CÚP TRUYỀN HÌNH CẢI TRUYỀN HÌNH THẨNH PHỐ HỒ CHÍ NẠNH TON DONG A",
+                "vlm_caption": {
+                    "detailed_description": "A crowd of people waving Vietnamese flags and holding signs at an event.",
+                    "objects_and_counts": [
+                        "3 person, 1 potted plant"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L23_V004_S0025",
+            "start_frame": 6426,
+            "end_frame": 7217,
+            "start_ts": 257.04,
+            "end_ts": 288.68,
+            "duration": 31.64,
+            "keyframes": [
+                {
+                    "frame_idx": 6821,
+                    "timestamp": 272.84,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L23_V004/L23_V004_S0025_F006821.jpg"
+                },
+                {
+                    "frame_idx": 7019,
+                    "timestamp": 280.76,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L23_V004/L23_V004_S0025_F007019.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "chiếc áo vàng đối chủ về tay Eagle Pro Love. Trong khi đó, dù có được danh hiệu áo cam của Nguyễn Tấn Hoài nhưng rõ ràng tập thể của Tập đoàn Lộc Trại An Giang và Cao Hoàng Cộng Trại An Giang đã trải qua một trạng đua không nhuyễn. Có lẽ là đến lúc này thì bản thân chúng tôi, những người đã theo dõi",
+                "ocr_text": "TON DONG HTY bÍCH HT V HỂ THAO CỤP TRUYỀN HÌNH L TON DONGA- TON DONGA NDONGA) | D TON DONG A ĐÍCH HT V HỂ THAO ALT Chặng 4-124 k - Hòa Bình - Sơn Tây (Hà Nộ) - Vii: - Đóng Anh (Ho Na) CC TON DONG A",
+                "vlm_caption": {
+                    "detailed_description": "A group of cyclists is approaching the finish line of a cycling race, with banners and spectators lining the route.",
+                    "objects_and_counts": [
+                        "12 person | 9 person, 2 car, 2 bicycle, 1 backpack"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L23_V004_S0026",
+            "start_frame": 7218,
+            "end_frame": 7640,
+            "start_ts": 288.72,
+            "end_ts": 305.6,
+            "duration": 16.88,
+            "keyframes": [
+                {
+                    "frame_idx": 7429,
+                    "timestamp": 297.16,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L23_V004/L23_V004_S0026_F007429.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "xuyên suốt trận đua ngày hôm nay vẫn đang cảm thấy nổi da gà với những gì mà chúng ta đã được chứng kiến ở trong trận đua này thật sự nằm vươn ra khỏi những dự đoán của chúng ta trước khi trận đua bắt đầu. Với lục viên Trần Thôi thì anh chia sẻ thế nào về cảm xúc của mình sau khi đã tham gia bình luận một trận đua rất hay ngày hôm nay? Phải nói là một...",
+                "ocr_text": "HTV HẾ THAO 5123533,",
+                "vlm_caption": {
+                    "detailed_description": "A group of cyclists is racing on a paved road, with a motorcycle escorting them, and spectators and vehicles are visible in the background.",
+                    "objects_and_counts": [
+                        "2 car, 12 person, 2 motorcycle, 3 bicycle, 1 truck"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L23_V004_S0027",
+            "start_frame": 7641,
+            "end_frame": 8053,
+            "start_ts": 305.64,
+            "end_ts": 322.12,
+            "duration": 16.48,
+            "keyframes": [
+                {
+                    "frame_idx": 7847,
+                    "timestamp": 313.88,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L23_V004/L23_V004_S0027_F007847.jpg"
+                },
+                {
+                    "frame_idx": 7744,
+                    "timestamp": 309.76,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L23_V004/L23_V004_S0027_F007744.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "trận đấu rất là kịch tính. Chúng tôi theo dõi từ ngay từ ban đầu, tuy là khoảng 70 km đầu tiên là nhập độ trận đấu rất là bình thường. Tuy nhiên sau khi vào thành phố Bình Yên, tất cả đã thay đổi khi tất cả các phòng đồng viên mạnh ngoại binh đã thoát lên trên. Đó là một mấu chốt.",
+                "ocr_text": "H HỂ THAO NIE TON DONG A TƯE TON DONG A | H V HỂ THAO Y SNOO NO1 TIR",
+                "vlm_caption": {
+                    "detailed_description": "Three cyclists are racing on a paved road, with spectators lining both sides of the street.",
+                    "objects_and_counts": [
+                        "3 person | 7 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L23_V004_S0028",
+            "start_frame": 8054,
+            "end_frame": 8318,
+            "start_ts": 322.16,
+            "end_ts": 332.72,
+            "duration": 10.56,
+            "keyframes": [
+                {
+                    "frame_idx": 8186,
+                    "timestamp": 327.44,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L23_V004/L23_V004_S0028_F008186.jpg"
+                },
+                {
+                    "frame_idx": 8120,
+                    "timestamp": 324.8,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L23_V004/L23_V004_S0028_F008120.jpg"
+                },
+                {
+                    "frame_idx": 8252,
+                    "timestamp": 330.08,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L23_V004/L23_V004_S0028_F008252.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "của trận đấu ngày hôm nay tăng sự kịch tính và hấp dẫn một trận đua mà có lẽ là không ai dự đoán ra được cục diện như thế này một lần nữa chúng ta phải nhắc",
+                "ocr_text": "HTV HỂ THAO 120 CHÂU THỚI VĨNH LONG | HT V /HẾ THAO 510 3' | H V > HỂ THAO 620 CH/ÂU THỚI VĨNH LONG 07",
+                "vlm_caption": {
+                    "detailed_description": "Two cyclists are racing on a road, with one in a white jersey and the other in a green and yellow jersey, while a motorcycle and a blue Ford truck are visible in the background.",
+                    "objects_and_counts": [
+                        "8 person | 4 person, 1 car, 4 bicycle, 1 motorcycle | 4 person, 1 bicycle"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L23_V004_S0029",
+            "start_frame": 8319,
+            "end_frame": 8579,
+            "start_ts": 332.76,
+            "end_ts": 343.16,
+            "duration": 10.4,
+            "keyframes": [
+                {
+                    "frame_idx": 8449,
+                    "timestamp": 337.96,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L23_V004/L23_V004_S0029_F008449.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "TON DONGA ĐÍCH HTV HỂ THAO CỦP TRUYÊN HIN C TON DONG AY",
+                "vlm_caption": {
+                    "detailed_description": "A group of cyclists is approaching the finish line marked by a red inflatable archway, with colorful banners and spectators on either side.",
+                    "objects_and_counts": [
+                        "14 person, 2 car"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L23_V004_S0030",
+            "start_frame": 8580,
+            "end_frame": 9039,
+            "start_ts": 343.2,
+            "end_ts": 361.56,
+            "duration": 18.36,
+            "keyframes": [
+                {
+                    "frame_idx": 8809,
+                    "timestamp": 352.36,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L23_V004/L23_V004_S0030_F008809.jpg"
+                },
+                {
+                    "frame_idx": 8694,
+                    "timestamp": 347.76,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L23_V004/L23_V004_S0030_F008694.jpg"
+                },
+                {
+                    "frame_idx": 8924,
+                    "timestamp": 356.96,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L23_V004/L23_V004_S0030_F008924.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "cho Peter Rykudov. Nhưng đó cũng chính là cái hay, là nét đẹp của xe đạp đường trường. Mọi chiến thuật đều chỉ ở trên bàn giấy khi trận đua chưa bắt đầu. Và trên thực tế thì chỉ có những diễn biến mới chúng ta, mới đưa đến chúng ta những kết quả cuối cùng.",
+                "ocr_text": "V HỂ THAO YỀN HÌNH KẢNH PHỐ HỒ CHÍ MINH 1024 TON DONG A LIỀN MỘT DÃ HTV - TÔN BỒNG A I DONG A | H 51431532 | HTV HỂ THAO AnA SE TOA SANG TRUYEN HINH CN NÓCH THÀNH PHỐ HỒ CHÍ TẾNH 1014 TON DONGA SÔNG LIỀN MỘT ĐÃI HTV - TÔN DÓNG & PHỐ HỔ CHÍ VINH N DONG A IM MỘT DÃI D THỨNG ĐIỀN NẾN PHU 25/2024 1",
+                "vlm_caption": {
+                    "detailed_description": "A group of cyclists is racing down a city street, with spectators and banners lining the route.",
+                    "objects_and_counts": [
+                        "6 person, 5 car, 1 bicycle | 4 car, 8 person, 5 bicycle, 1 umbrella | 14 person, 4 car, 4 bicycle, 1 truck"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L23_V004_S0031",
+            "start_frame": 9040,
+            "end_frame": 9373,
+            "start_ts": 361.6,
+            "end_ts": 374.92,
+            "duration": 13.32,
+            "keyframes": [
+                {
+                    "frame_idx": 9206,
+                    "timestamp": 368.24,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L23_V004/L23_V004_S0031_F009206.jpg"
+                },
+                {
+                    "frame_idx": 9123,
+                    "timestamp": 364.92,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L23_V004/L23_V004_S0031_F009123.jpg"
+                },
+                {
+                    "frame_idx": 9289,
+                    "timestamp": 371.56,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L23_V004/L23_V004_S0031_F009289.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Martin Las, Nguyễn Tấn Hoàng, Roman Maikin Những người ít phải làm việc nhất Ở trong quảng đường hơn 30km vừa qua Đã giành được 3 thiết hạn đầu Cũng là một lẽ tất yếu Nhưng rõ ràng là với ekip thành phố Hồ Chí Minh",
+                "ocr_text": "HTV HỂ THAO iloil TON DÔNG A • TON DONG A | HTV HỂ THÀO TON DONG A TON DONG A | HTV HỂ THAO • TON DONG A",
+                "vlm_caption": {
+                    "detailed_description": "A cyclist approaches the finish line, with a cheering crowd and a large \"TON DONG A\" banner in the background.",
+                    "objects_and_counts": [
+                        "17 person, 2 bicycle | 7 person | 1 bicycle, 14 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L23_V004_S0032",
+            "start_frame": 9374,
+            "end_frame": 9699,
+            "start_ts": 374.96,
+            "end_ts": 387.96,
+            "duration": 13.0,
+            "keyframes": [
+                {
+                    "frame_idx": 9536,
+                    "timestamp": 381.44,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L23_V004/L23_V004_S0032_F009536.jpg"
+                },
+                {
+                    "frame_idx": 9455,
+                    "timestamp": 378.2,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L23_V004/L23_V004_S0032_F009455.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "thì họ không quá bận tâm với việc này và mục đích lớn nhất của họ vẫn là tạo được cách biệt lớn với đoàn đồng phía sau và lấy được chiếc áo vàng từ tay Peter Rikunov và đó khiến cho cuộc đua ở phần còn lại sẽ càng hay hơn rất nhiều",
+                "ocr_text": "ES TON DONG A TON DONG A | HTV T HỂ THAO HTU S TON DONG A TON DONG A TON DONG A",
+                "vlm_caption": {
+                    "detailed_description": "A cyclist rides past a colorful barrier with \"TON DONGA\" branding, while spectators and flags line the street.",
+                    "objects_and_counts": [
+                        "2 bicycle, 8 person | 14 person, 3 bicycle"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L23_V004_S0033",
+            "start_frame": 9700,
+            "end_frame": 9725,
+            "start_ts": 388.0,
+            "end_ts": 389.0,
+            "duration": 1.0,
+            "keyframes": [],
+            "extracted_data": {
+                "transcript": "영상편집 및 자막이 도움이 되셨다면 구독과 좋아요 부탁드립니다.",
+                "ocr_text": ""
+            }
+        },
+        {
+            "shot_id": "L23_V004_S0034",
+            "start_frame": 9726,
+            "end_frame": 9835,
+            "start_ts": 389.04,
+            "end_ts": 393.4,
+            "duration": 4.36,
+            "keyframes": [
+                {
+                    "frame_idx": 9780,
+                    "timestamp": 391.2,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L23_V004/L23_V004_S0034_F009780.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Bây giờ thì áo vàng Eagle Pro Lops",
+                "ocr_text": "ĐÍCH HT V /HỂ THAO Cháng 4-124 km Hòc Bình - Sơn Tày (Hà Nộ)- Vinh Tên (in Phúc) - Dóng Anh (Hà Nói) DƯỢC DOMSCO ĐÒNG NHI DOMESCO",
+                "vlm_caption": {
+                    "detailed_description": "The image depicts a race event with participants and officials at the starting line, surrounded by colorful banners and vehicles.",
+                    "objects_and_counts": [
+                        "1 bus, 14 person, 1 truck, 2 car"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L23_V004_S0035",
+            "start_frame": 9836,
+            "end_frame": 9930,
+            "start_ts": 393.44,
+            "end_ts": 397.2,
+            "duration": 3.76,
+            "keyframes": [],
+            "extracted_data": {
+                "transcript": "",
+                "ocr_text": ""
+            }
+        }
+    ]
+}

@@ -1,0 +1,4269 @@
+{
+    "video_id": "L29_V011",
+    "fps": 25.0,
+    "total_shots": 152,
+    "total_keyframes": 258,
+    "shots": [
+        {
+            "shot_id": "L29_V011_S0001",
+            "start_frame": 0,
+            "end_frame": 95,
+            "start_ts": 0.0,
+            "end_ts": 3.8,
+            "duration": 3.8,
+            "keyframes": [
+                {
+                    "frame_idx": 47,
+                    "timestamp": 1.88,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0001_F000047.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "🎵",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "The image depicts a stylized urban scene with various buildings, including a tall skyscraper and shorter structures, set against a clear blue sky."
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V011_S0002",
+            "start_frame": 96,
+            "end_frame": 135,
+            "start_ts": 3.84,
+            "end_ts": 5.4,
+            "duration": 1.56,
+            "keyframes": [
+                {
+                    "frame_idx": 115,
+                    "timestamp": 4.6,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0002_F000115.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Thanks for watching!",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "A person wearing a conical hat shields their eyes from the sun while standing in front of palm trees.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V011_S0003",
+            "start_frame": 136,
+            "end_frame": 569,
+            "start_ts": 5.44,
+            "end_ts": 22.76,
+            "duration": 17.32,
+            "keyframes": [
+                {
+                    "frame_idx": 352,
+                    "timestamp": 14.08,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0003_F000352.jpg"
+                },
+                {
+                    "frame_idx": 460,
+                    "timestamp": 18.4,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0003_F000460.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Thank you.",
+                "ocr_text": "Online | Online ĐÔI MÁT MĚKONG",
+                "vlm_caption": {
+                    "detailed_description": "A cartoon boat with the text \"Đôi mắt Mekong\" floats on a beach with palm trees and clouds in the background.",
+                    "objects_and_counts": [
+                        "1 potted plant | 5 person, 1 potted plant, 1 umbrella"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V011_S0004",
+            "start_frame": 570,
+            "end_frame": 657,
+            "start_ts": 22.8,
+            "end_ts": 26.28,
+            "duration": 3.48,
+            "keyframes": [
+                {
+                    "frame_idx": 613,
+                    "timestamp": 24.52,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0004_F000613.jpg"
+                },
+                {
+                    "frame_idx": 591,
+                    "timestamp": 23.64,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0004_F000591.jpg"
+                },
+                {
+                    "frame_idx": 635,
+                    "timestamp": 25.4,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0004_F000635.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Nương theo dòng chảy sông Mekong, nhịp sóng không chỉ là một đường đường,",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "A large group of boats is gathered on a sandy beach, with some boats docked and others floating in the water, creating a bustling maritime scene.",
+                    "objects_and_counts": [
+                        "18 boat | 12 boat | 16 boat"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V011_S0005",
+            "start_frame": 658,
+            "end_frame": 733,
+            "start_ts": 26.32,
+            "end_ts": 29.32,
+            "duration": 3.0,
+            "keyframes": [
+                {
+                    "frame_idx": 695,
+                    "timestamp": 27.8,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0005_F000695.jpg"
+                },
+                {
+                    "frame_idx": 676,
+                    "timestamp": 27.04,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0005_F000676.jpg"
+                },
+                {
+                    "frame_idx": 714,
+                    "timestamp": 28.56,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0005_F000714.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "là sự đan sen của những dòng nước mà còn là cơ thể",
+                "ocr_text": "Online MÜI CA MAU | HTY Online MÙI CÀ MAU | HTV MUI CÀ MAU",
+                "vlm_caption": {
+                    "detailed_description": "An aerial view of a large, colorful boat monument on a circular platform near a river, with a few people standing nearby, surrounded by lush greenery and a distant tower.",
+                    "objects_and_counts": [
+                        "1 person, 1 boat | 3 person, 1 boat"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V011_S0006",
+            "start_frame": 734,
+            "end_frame": 754,
+            "start_ts": 29.36,
+            "end_ts": 30.16,
+            "duration": 0.8,
+            "keyframes": [
+                {
+                    "frame_idx": 744,
+                    "timestamp": 29.76,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0006_F000744.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "HTV Online ỦY BAN NHÂN DÂN TỈNH CẢ MAU VƯỜN QUỐC GIA U MINH HẠ U MINH HA NATIONAL PARK aT: 02903 910 020 - FAX: 02003 010 060 ĐC: ẤP VÕ DOI, XÃ THÁN HƠI, HUYỆN TRÂN VĂN THOL, TÍNH CÀ MẠU",
+                "vlm_caption": {
+                    "detailed_description": "The image shows the entrance to U Minh Ha National Park in Cà Mau Province, Vietnam, with a green sign and a circular plaza with colorful flags in the background.",
+                    "objects_and_counts": [
+                        "1 car"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V011_S0007",
+            "start_frame": 755,
+            "end_frame": 789,
+            "start_ts": 30.2,
+            "end_ts": 31.56,
+            "duration": 1.36,
+            "keyframes": [
+                {
+                    "frame_idx": 772,
+                    "timestamp": 30.88,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0007_F000772.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "A large tree with a wooden structure underneath it stands beside a river, with a dirt path leading to it, and a lush green landscape in the background.",
+                    "objects_and_counts": [
+                        "1 train"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V011_S0008",
+            "start_frame": 790,
+            "end_frame": 839,
+            "start_ts": 31.6,
+            "end_ts": 33.56,
+            "duration": 1.96,
+            "keyframes": [
+                {
+                    "frame_idx": 814,
+                    "timestamp": 32.56,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0008_F000814.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "The image depicts a lush, green agricultural field with crops growing in neat rows, flanked by dense foliage and trees under a partly cloudy sky.",
+                    "objects_and_counts": [
+                        "1 train"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V011_S0009",
+            "start_frame": 840,
+            "end_frame": 893,
+            "start_ts": 33.6,
+            "end_ts": 35.72,
+            "duration": 2.12,
+            "keyframes": [
+                {
+                    "frame_idx": 866,
+                    "timestamp": 34.64,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0009_F000866.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A person is paddling a canoe through a serene river surrounded by lush greenery and trees, with sunlight filtering through the foliage."
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V011_S0010",
+            "start_frame": 894,
+            "end_frame": 944,
+            "start_ts": 35.76,
+            "end_ts": 37.76,
+            "duration": 2.0,
+            "keyframes": [
+                {
+                    "frame_idx": 919,
+                    "timestamp": 36.76,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0010_F000919.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy cùng chúng tôi hướng về Đồng Bắc",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "The image shows an aerial view of a large, organized agricultural field with rows of crops separated by narrow paths, extending into the distance."
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V011_S0011",
+            "start_frame": 945,
+            "end_frame": 1035,
+            "start_ts": 37.8,
+            "end_ts": 41.4,
+            "duration": 3.6,
+            "keyframes": [
+                {
+                    "frame_idx": 990,
+                    "timestamp": 39.6,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0011_F000990.jpg"
+                },
+                {
+                    "frame_idx": 967,
+                    "timestamp": 38.68,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0011_F000967.jpg"
+                },
+                {
+                    "frame_idx": 1012,
+                    "timestamp": 40.48,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0011_F001012.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "A muddy stream flows through a lush, green landscape with dense vegetation and trees in the background.",
+                    "objects_and_counts": [
+                        "1 boat | 1 boat, 5 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V011_S0012",
+            "start_frame": 1036,
+            "end_frame": 1080,
+            "start_ts": 41.44,
+            "end_ts": 43.2,
+            "duration": 1.76,
+            "keyframes": [
+                {
+                    "frame_idx": 1058,
+                    "timestamp": 42.32,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0012_F001058.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Cảm ơn các bạn đã theo dõi và hẹn gặp lại.",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "An aerial view of a large, divided agricultural field with patches of green and yellow vegetation, bordered by a dirt path and trees in the background."
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V011_S0013",
+            "start_frame": 1081,
+            "end_frame": 1144,
+            "start_ts": 43.24,
+            "end_ts": 45.76,
+            "duration": 2.52,
+            "keyframes": [
+                {
+                    "frame_idx": 1112,
+                    "timestamp": 44.48,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0013_F001112.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Làm chài bình dị Chúng ta sẽ cảm giác",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "A small boat is navigating through a river with a bridge in the background, surrounded by various boats and a dock area.",
+                    "objects_and_counts": [
+                        "5 boat"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V011_S0014",
+            "start_frame": 1145,
+            "end_frame": 1185,
+            "start_ts": 45.8,
+            "end_ts": 47.4,
+            "duration": 1.6,
+            "keyframes": [
+                {
+                    "frame_idx": 1165,
+                    "timestamp": 46.6,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0014_F001165.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "được hơi thở của nước.",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "A jet ski travels across a calm body of water, leaving a trail of white foam, with a small village of houses and trees visible on the left side.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V011_S0015",
+            "start_frame": 1186,
+            "end_frame": 1243,
+            "start_ts": 47.44,
+            "end_ts": 49.72,
+            "duration": 2.28,
+            "keyframes": [
+                {
+                    "frame_idx": 1214,
+                    "timestamp": 48.56,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0015_F001214.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Đa số các nền văn minh đều bắt nguồn.",
+                "ocr_text": "HTV Online - LÊ PHÁT MỚT TÔC NAM",
+                "vlm_caption": {
+                    "detailed_description": "A group of people in colorful costumes and masks are waving and walking down a street, with a decorated float in the background.",
+                    "objects_and_counts": [
+                        "10 person, 2 motorcycle"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V011_S0016",
+            "start_frame": 1244,
+            "end_frame": 1315,
+            "start_ts": 49.76,
+            "end_ts": 52.6,
+            "duration": 2.84,
+            "keyframes": [
+                {
+                    "frame_idx": 1279,
+                    "timestamp": 51.16,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0016_F001279.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "A person wearing a green hat and a blue shirt is standing in a shallow body of water surrounded by tall green grass, with a yellow object floating in the background."
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V011_S0017",
+            "start_frame": 1316,
+            "end_frame": 1364,
+            "start_ts": 52.64,
+            "end_ts": 54.56,
+            "duration": 1.92,
+            "keyframes": [
+                {
+                    "frame_idx": 1340,
+                    "timestamp": 53.6,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0017_F001340.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hàng ngàn câu chuyện đã được ghi lại",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A construction worker is operating a machine that is pouring concrete onto a grid of steel rebar on a rooftop."
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V011_S0018",
+            "start_frame": 1365,
+            "end_frame": 1439,
+            "start_ts": 54.6,
+            "end_ts": 57.56,
+            "duration": 2.96,
+            "keyframes": [
+                {
+                    "frame_idx": 1402,
+                    "timestamp": 56.08,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0018_F001402.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Từ thế hệ này sang thế hệ khác",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "The image depicts an aerial view of a dense forest with a river or waterway running through it, surrounded by lush greenery and trees."
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V011_S0019",
+            "start_frame": 1440,
+            "end_frame": 1531,
+            "start_ts": 57.6,
+            "end_ts": 61.24,
+            "duration": 3.64,
+            "keyframes": [
+                {
+                    "frame_idx": 1485,
+                    "timestamp": 59.4,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0019_F001485.jpg"
+                },
+                {
+                    "frame_idx": 1508,
+                    "timestamp": 60.32,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0019_F001508.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy sẵn sàng cho một cuộc phiêu lưu đầy màu sắc",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "An aerial view shows a blue boat with a person rowing, surrounded by a circular wake in a muddy river, with greenery visible on the far bank.",
+                    "objects_and_counts": [
+                        "1 skis, 1 surfboard"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V011_S0020",
+            "start_frame": 1532,
+            "end_frame": 1605,
+            "start_ts": 61.28,
+            "end_ts": 64.2,
+            "duration": 2.92,
+            "keyframes": [
+                {
+                    "frame_idx": 1568,
+                    "timestamp": 62.72,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0020_F001568.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "và sức sống mới. Chúng ta cùng nhau khám phá những biết",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "Two individuals wearing green hats are walking through a dense, green forested area.",
+                    "objects_and_counts": [
+                        "2 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V011_S0021",
+            "start_frame": 1606,
+            "end_frame": 1651,
+            "start_ts": 64.24,
+            "end_ts": 66.04,
+            "duration": 1.8,
+            "keyframes": [
+                {
+                    "frame_idx": 1628,
+                    "timestamp": 65.12,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0021_F001628.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "ẩn và vẻ đẹp của cuộc sống.",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "A small green plant emerges from the ground amidst fallen leaves and twigs."
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V011_S0022",
+            "start_frame": 1652,
+            "end_frame": 1711,
+            "start_ts": 66.08,
+            "end_ts": 68.44,
+            "duration": 2.36,
+            "keyframes": [
+                {
+                    "frame_idx": 1681,
+                    "timestamp": 67.24,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0022_F001681.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "dọc theo sông Mekong nơi mà",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "A group of people are riding in a small boat on a calm river, with a motor at the back propelling the boat forward.",
+                    "objects_and_counts": [
+                        "2 boat, 5 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V011_S0023",
+            "start_frame": 1712,
+            "end_frame": 2065,
+            "start_ts": 68.48,
+            "end_ts": 82.6,
+            "duration": 14.12,
+            "keyframes": [
+                {
+                    "frame_idx": 1888,
+                    "timestamp": 75.52,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0023_F001888.jpg"
+                },
+                {
+                    "frame_idx": 1800,
+                    "timestamp": 72.0,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0023_F001800.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "tinh thần của con người và mạch sống của tự nhiên cộng sinh và giao thoa tạo nên môi trường sống tươi đẹp.",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "A diverse group of birds, including a heron, are perched among dense green foliage in a lush, forested environment.",
+                    "objects_and_counts": [
+                        "2 bird | 1 bird"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V011_S0024",
+            "start_frame": 2066,
+            "end_frame": 3397,
+            "start_ts": 82.64,
+            "end_ts": 135.88,
+            "duration": 53.24,
+            "keyframes": [
+                {
+                    "frame_idx": 2731,
+                    "timestamp": 109.24,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0024_F002731.jpg"
+                },
+                {
+                    "frame_idx": 2398,
+                    "timestamp": 95.92,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0024_F002398.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "Online | HTV Online ĐỘI MÁT Dẫn chương trình MEKONG Phương Uyên",
+                "vlm_caption": {
+                    "detailed_description": "A woman in a yellow shirt is standing in front of a river, with trees and water visible in the background.",
+                    "objects_and_counts": [
+                        "1 person, 1 boat"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V011_S0025",
+            "start_frame": 3398,
+            "end_frame": 3528,
+            "start_ts": 135.92,
+            "end_ts": 141.12,
+            "duration": 5.2,
+            "keyframes": [
+                {
+                    "frame_idx": 3463,
+                    "timestamp": 138.52,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0025_F003463.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "có chuyện về đất Cà Mau có chuyện nhiều người biết cũng có chuyện ít người biết",
+                "ocr_text": "Online Cây nấm trên vùng đất ngập mặn",
+                "vlm_caption": {
+                    "detailed_description": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V011_S0026",
+            "start_frame": 3530,
+            "end_frame": 3670,
+            "start_ts": 141.2,
+            "end_ts": 146.8,
+            "duration": 5.6,
+            "keyframes": [
+                {
+                    "frame_idx": 3600,
+                    "timestamp": 144.0,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0026_F003600.jpg"
+                },
+                {
+                    "frame_idx": 3565,
+                    "timestamp": 142.6,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0026_F003565.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Có chuyện chỉ nghe trong dần dàng truyền miệng, cũng có chuyện từng ở nơi xa xôi.",
+                "ocr_text": "HTV Online ĐỜI MÁT, MEKONG | Online",
+                "vlm_caption": {
+                    "detailed_description": "The image depicts an aerial view of a rural area with houses, a river, and lush greenery, showcasing a tranquil countryside landscape."
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V011_S0027",
+            "start_frame": 3672,
+            "end_frame": 3842,
+            "start_ts": 146.88,
+            "end_ts": 153.68,
+            "duration": 6.8,
+            "keyframes": [
+                {
+                    "frame_idx": 3757,
+                    "timestamp": 150.28,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0027_F003757.jpg"
+                },
+                {
+                    "frame_idx": 3714,
+                    "timestamp": 148.56,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0027_F003714.jpg"
+                },
+                {
+                    "frame_idx": 3799,
+                    "timestamp": 151.96,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0027_F003799.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "nhưng thực ra lại gần ngay trước mắt. Ở cái xứ thời tiết khát nhiệt và ngập mặn như Cà Mau, thì lần đầu tiên,",
+                "ocr_text": "Online/ MĚKONG | Online. WEKO | HTV ĐỜI MÁT MEKONG",
+                "vlm_caption": {
+                    "detailed_description": "A person is riding a small motorboat through a mangrove forest, with lush greenery and dense trees surrounding the waterway.",
+                    "objects_and_counts": [
+                        "1 person, 1 boat | 1 person, 2 boat | 2 boat"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V011_S0028",
+            "start_frame": 3844,
+            "end_frame": 3916,
+            "start_ts": 153.76,
+            "end_ts": 156.64,
+            "duration": 2.88,
+            "keyframes": [
+                {
+                    "frame_idx": 3880,
+                    "timestamp": 155.2,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0028_F003880.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Bài thức vật khó chịu như nấm, tưởng chừng phải nhìn thấy những bài thức vật khó chịu như nấm.",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A small boat is navigating through a narrow canal surrounded by lush greenery and a thatched-roof structure.",
+                    "objects_and_counts": [
+                        "1 boat"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V011_S0029",
+            "start_frame": 3918,
+            "end_frame": 4056,
+            "start_ts": 156.72,
+            "end_ts": 162.24,
+            "duration": 5.52,
+            "keyframes": [
+                {
+                    "frame_idx": 3987,
+                    "timestamp": 159.48,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0029_F003987.jpg"
+                },
+                {
+                    "frame_idx": 3952,
+                    "timestamp": 158.08,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0029_F003952.jpg"
+                },
+                {
+                    "frame_idx": 4021,
+                    "timestamp": 160.84,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0029_F004021.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "nhập từ vùng khác về, nhưng hàng tấn nấm được cung ứng mỗi tháng ra thị trường nơi đây.",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "The image shows a rustic, wooden structure with various objects, including bottles and a wheel, arranged on shelves and surfaces.",
+                    "objects_and_counts": [
+                        "2 donut"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V011_S0030",
+            "start_frame": 4058,
+            "end_frame": 4149,
+            "start_ts": 162.32,
+            "end_ts": 165.96,
+            "duration": 3.64,
+            "keyframes": [
+                {
+                    "frame_idx": 4103,
+                    "timestamp": 164.12,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0030_F004103.jpg"
+                },
+                {
+                    "frame_idx": 4080,
+                    "timestamp": 163.2,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0030_F004080.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "lại xuất phát từ mô hình khởi nghiệp thành công tại cái nước.",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "The image shows a narrow, dimly lit tunnel with shelves on either side filled with various items, including plastic bottles, bags, and a yellow flower arrangement."
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V011_S0031",
+            "start_frame": 4150,
+            "end_frame": 4182,
+            "start_ts": 166.0,
+            "end_ts": 167.28,
+            "duration": 1.28,
+            "keyframes": [
+                {
+                    "frame_idx": 4166,
+                    "timestamp": 166.64,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0031_F004166.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Cảm Mau của cô gái",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "A person is handling mushrooms, with a focus on their hands and the mushrooms they are holding.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V011_S0032",
+            "start_frame": 4183,
+            "end_frame": 4370,
+            "start_ts": 167.32,
+            "end_ts": 174.8,
+            "duration": 7.48,
+            "keyframes": [
+                {
+                    "frame_idx": 4276,
+                    "timestamp": 171.04,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0032_F004276.jpg"
+                },
+                {
+                    "frame_idx": 4229,
+                    "timestamp": 169.16,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0032_F004229.jpg"
+                },
+                {
+                    "frame_idx": 4323,
+                    "timestamp": 172.92,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0032_F004323.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Các bạn hãy đăng kí cho kênh lalaschool Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "Online - | Online",
+                "vlm_caption": {
+                    "detailed_description": "A woman in a beige shirt is pointing at a basket of mushrooms in a market stall surrounded by plastic bags containing more mushrooms.",
+                    "objects_and_counts": [
+                        "2 person | 1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V011_S0033",
+            "start_frame": 4371,
+            "end_frame": 4535,
+            "start_ts": 174.84,
+            "end_ts": 181.4,
+            "duration": 6.56,
+            "keyframes": [
+                {
+                    "frame_idx": 4453,
+                    "timestamp": 178.12,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0033_F004453.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Để đi vào đây ai cũng biết cô nắm hết. Chứng tỏ là mô hình của mình và đặc biệt là cô nắm Myrin rất là được mọi người biết đến và đón nhận.",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "Two women are standing in front of a stack of white bags, with one wearing a yellow shirt and the other in a pink top, in a rustic setting with wooden structures and straw walls.",
+                    "objects_and_counts": [
+                        "2 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V011_S0034",
+            "start_frame": 4536,
+            "end_frame": 4599,
+            "start_ts": 181.44,
+            "end_ts": 183.96,
+            "duration": 2.52,
+            "keyframes": [
+                {
+                    "frame_idx": 4567,
+                    "timestamp": 182.68,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0034_F004567.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Nhưng mà Phương Yên được biết là trước khi làm công việc này thì...",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A woman with long black hair tied in pigtails stands in a rustic setting, wearing a pink top with a microphone attached, surrounded by stacked bags and wooden structures.",
+                    "objects_and_counts": [
+                        "1 person, 1 chair"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V011_S0035",
+            "start_frame": 4600,
+            "end_frame": 4721,
+            "start_ts": 184.0,
+            "end_ts": 188.84,
+            "duration": 4.84,
+            "keyframes": [
+                {
+                    "frame_idx": 4660,
+                    "timestamp": 186.4,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0035_F004660.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Mà Rin cũng đã trải qua nhiều ngành nghề đúng không? Đúng rồi Nói chung trước khi mà mình bắt đầu với nấm á",
+                "ocr_text": "Online:",
+                "vlm_caption": {
+                    "detailed_description": "Two women are standing in front of a thatched structure filled with bags of what appears to be rice or a similar grain product.",
+                    "objects_and_counts": [
+                        "2 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V011_S0036",
+            "start_frame": 4722,
+            "end_frame": 4933,
+            "start_ts": 188.88,
+            "end_ts": 197.32,
+            "duration": 8.44,
+            "keyframes": [
+                {
+                    "frame_idx": 4827,
+                    "timestamp": 193.08,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0036_F004827.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "thì công việc chính của mình là về lĩnh vực du lịch thì mình đã từng làm việc ở Phú Quốc nè ở Hà Nội và thành phố Hồ Chí Minh thì sau đó mình mới bắt đầu trở về quê và khởi nghiệp với nấm",
+                "ocr_text": "HTV Online ĐÔI MÁT Chị Trần Mai Ril MĚKONE Chủ trại nấm ở huyện Cái Nước, Cà Mau",
+                "vlm_caption": {
+                    "detailed_description": "A woman with long black hair tied in a ponytail is standing in front of a wooden structure, wearing a pink top, with a background of stacked bags and a sign indicating \"Đối Mặt Mekong.\"",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V011_S0037",
+            "start_frame": 4934,
+            "end_frame": 5048,
+            "start_ts": 197.36,
+            "end_ts": 201.92,
+            "duration": 4.56,
+            "keyframes": [
+                {
+                    "frame_idx": 4991,
+                    "timestamp": 199.64,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0037_F004991.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Cơ duyên nào và thời điểm nào mà bạn quyết định là bạn quay trở về Cà Mau và khởi nghiệp với mô hình này?",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "Two women are standing in front of a wooden structure filled with white bags, possibly mushrooms, in a rustic setting.",
+                    "objects_and_counts": [
+                        "2 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V011_S0038",
+            "start_frame": 5049,
+            "end_frame": 5137,
+            "start_ts": 201.96,
+            "end_ts": 205.48,
+            "duration": 3.52,
+            "keyframes": [
+                {
+                    "frame_idx": 5093,
+                    "timestamp": 203.72,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0038_F005093.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Gọi là cái cơ duyên lớn nhất thì phải nói đến đó là dịch Covid.",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "A woman with long black hair tied in pigtails stands in front of a wooden structure with bags of rice or grain.",
+                    "objects_and_counts": [
+                        "1 person, 1 chair"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V011_S0039",
+            "start_frame": 5138,
+            "end_frame": 5577,
+            "start_ts": 205.52,
+            "end_ts": 223.08,
+            "duration": 17.56,
+            "keyframes": [
+                {
+                    "frame_idx": 5357,
+                    "timestamp": 214.28,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0039_F005357.jpg"
+                },
+                {
+                    "frame_idx": 5467,
+                    "timestamp": 218.68,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0039_F005467.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Thì dịch Covid ập tới thì cái ngành du lịch là bị đóng băng Thì mình bắt đầu định hướng lại cái công việc của mình Tại vì lúc trước thì mình cũng có cái đam mê trồng nấm Nhưng mà chỉ trồng để mình sử dụng ở nhà thôi Chứ mình không có nghĩ tới kinh doanh Tại vì lúc đó mình vẫn đam mê du lịch Nhưng mà sau cái đợt dịch là mình trồng nấm để ăn",
+                "ocr_text": "Online | HTV Online.. ĐỎI MÁT MEKONG",
+                "vlm_caption": {
+                    "detailed_description": "An aerial view of a rural landscape featuring waterways, greenery, and a small building complex, with a boat docked near a sign reading \"Đối Mắt Mekong.\"",
+                    "objects_and_counts": [
+                        "1 truck | 2 boat"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V011_S0040",
+            "start_frame": 5579,
+            "end_frame": 6173,
+            "start_ts": 223.16,
+            "end_ts": 246.92,
+            "duration": 23.76,
+            "keyframes": [
+                {
+                    "frame_idx": 5876,
+                    "timestamp": 235.04,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0040_F005876.jpg"
+                },
+                {
+                    "frame_idx": 5727,
+                    "timestamp": 229.08,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0040_F005727.jpg"
+                },
+                {
+                    "frame_idx": 6024,
+                    "timestamp": 240.96,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0040_F006024.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "trong lúc dịch là cung cấp thực phẩm cho mình thì mình mới tìm hiểu là thấy ở Cà Mau mình là chưa có những cái mô hình trồng nấm như vậy và nhận thấy là cây nấm nó cũng là một cái nguồn thực phẩm gọi là xu hướng trong tương lai nữa thì sao mình không bắt đầu khởi nghiệp với nấm để mang cái nấm về quê hương của mình Với mô hình này không biết là vốn có phải là một trong những điều khó khăn bước đầu của Ma Rin không? Dạ đúng rồi, nói chung về khởi nghiệp và nhất với nấm nè",
+                "ocr_text": "Online | HTV Online DÔI MẤT MĚKONG",
+                "vlm_caption": {
+                    "detailed_description": "The image shows a wooden structure filled with stacked logs and bags, likely used for storing or drying materials."
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V011_S0041",
+            "start_frame": 6174,
+            "end_frame": 6279,
+            "start_ts": 246.96,
+            "end_ts": 251.16,
+            "duration": 4.2,
+            "keyframes": [
+                {
+                    "frame_idx": 6226,
+                    "timestamp": 249.04,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0041_F006226.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Thì cái tuổi sức xây vòng 4 nó dài Nên là để mà làm",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "The image shows a close-up of a cluster of white mushrooms with a plastic bag in the background."
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V011_S0042",
+            "start_frame": 6280,
+            "end_frame": 6565,
+            "start_ts": 251.2,
+            "end_ts": 262.6,
+            "duration": 11.4,
+            "keyframes": [
+                {
+                    "frame_idx": 6422,
+                    "timestamp": 256.88,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0042_F006422.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "được cái mô hình lớn thì mình phải cần nhiều vốn mà sau cái đợt dịch thì công việc du lịch của mình nó cũng bị đóng băng thì cho nên là vốn mình cũng không nhiều cho nên là địa phương cũng đã có trợ giúp là hỗ trợ cho vay vốn khởi nghiệp",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "The image shows a close-up of a collection of pink and beige mushrooms, with a focus on a single mushroom with a unique pink cap and a beige body.",
+                    "objects_and_counts": [
+                        "2 teddy bear"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V011_S0043",
+            "start_frame": 6566,
+            "end_frame": 6684,
+            "start_ts": 262.64,
+            "end_ts": 267.36,
+            "duration": 4.72,
+            "keyframes": [
+                {
+                    "frame_idx": 6625,
+                    "timestamp": 265.0,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0043_F006625.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Thì lúc đó mình rất là vui để được hỗ trợ những cái vật động vốn ban đầu thì mình rất là hạnh phúc.",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "A woman with long black hair tied in pigtails is smiling and wearing a pink top, standing in front of a wooden structure with stacked items.",
+                    "objects_and_counts": [
+                        "1 person, 1 chair"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V011_S0044",
+            "start_frame": 6685,
+            "end_frame": 6823,
+            "start_ts": 267.4,
+            "end_ts": 272.92,
+            "duration": 5.52,
+            "keyframes": [
+                {
+                    "frame_idx": 6754,
+                    "timestamp": 270.16,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0044_F006754.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Và bạn bắt đầu với mô hình này chính xác là vào năm mấy? Thì tháng 12.",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "Two women are standing in front of a backdrop of stacked bags, with one wearing a yellow shirt and the other in a pink top, in a setting that appears to be a market or storage area.",
+                    "objects_and_counts": [
+                        "2 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V011_S0045",
+            "start_frame": 6824,
+            "end_frame": 6951,
+            "start_ts": 272.96,
+            "end_ts": 278.04,
+            "duration": 5.08,
+            "keyframes": [
+                {
+                    "frame_idx": 6887,
+                    "timestamp": 275.48,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0045_F006887.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Năm 2021 là mình chính thức từ thành phố Hồ Chí Minh về quê.",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "A woman with long black hair tied in pigtails is standing in front of a wooden structure with stacked bags, wearing a pink top and a microphone attached to her shirt.",
+                    "objects_and_counts": [
+                        "1 person, 1 chair"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V011_S0046",
+            "start_frame": 6952,
+            "end_frame": 7030,
+            "start_ts": 278.08,
+            "end_ts": 281.2,
+            "duration": 3.12,
+            "keyframes": [
+                {
+                    "frame_idx": 6991,
+                    "timestamp": 279.64,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0046_F006991.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "mình bắt đầu làm những cái trồng những cái phôi nấm đầu tiên",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "Two women stand in front of a wooden rack filled with white bags, possibly containing mushrooms, in a rustic setting.",
+                    "objects_and_counts": [
+                        "2 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V011_S0047",
+            "start_frame": 7031,
+            "end_frame": 7617,
+            "start_ts": 281.24,
+            "end_ts": 304.68,
+            "duration": 23.44,
+            "keyframes": [
+                {
+                    "frame_idx": 7324,
+                    "timestamp": 292.96,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0047_F007324.jpg"
+                },
+                {
+                    "frame_idx": 7177,
+                    "timestamp": 287.08,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0047_F007177.jpg"
+                },
+                {
+                    "frame_idx": 7470,
+                    "timestamp": 298.8,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0047_F007470.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "và chính thức là cái chạy căn chạy chuẩn đầu tiên mà mình lập ra là tháng 3 năm 2022 là lúc đã được payvote rồi đó thử nghiệm đầu tiên của mình thì mình lấy khoảng 500 phôi rồi lúc đó để chồng để cho tặng người thân bạn bè để xem là khách hàng có thích cái loại nấm nó không có cảm thấy ngon không thì mình mới bắt đầu chồng nhiều lúc đó thì chỉ có một loại là nấm bào ngư sám thôi nấm bào ngư sám là",
+                "ocr_text": "ĐỘI MẠT MÉKONG | MEKONG",
+                "vlm_caption": {
+                    "detailed_description": "The image depicts a rural scene with thatched-roof huts along a riverbank, surrounded by vegetation and trees."
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V011_S0048",
+            "start_frame": 7618,
+            "end_frame": 7731,
+            "start_ts": 304.72,
+            "end_ts": 309.24,
+            "duration": 4.52,
+            "keyframes": [
+                {
+                    "frame_idx": 7674,
+                    "timestamp": 306.96,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0048_F007674.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "và lại nắm đầu tiên và mình thử nghiệm một phôi cái này thì mình sẽ gọi là cái phôi đúng không",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "Two women are standing in front of a wooden structure filled with bags of what appears to be cotton or similar material.",
+                    "objects_and_counts": [
+                        "2 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V011_S0049",
+            "start_frame": 7732,
+            "end_frame": 7800,
+            "start_ts": 309.28,
+            "end_ts": 312.0,
+            "duration": 2.72,
+            "keyframes": [
+                {
+                    "frame_idx": 7766,
+                    "timestamp": 310.64,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0049_F007766.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Cái này là một cái phôi nấm nè Cái phôi nấm như vậy",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "A woman in a pink shirt and black hair is holding a large, textured object, possibly a piece of pottery or a woven item, in an indoor setting with shelves and bags in the background.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V011_S0050",
+            "start_frame": 7801,
+            "end_frame": 7880,
+            "start_ts": 312.04,
+            "end_ts": 315.2,
+            "duration": 3.16,
+            "keyframes": [
+                {
+                    "frame_idx": 7840,
+                    "timestamp": 313.6,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0050_F007840.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "là mình sẽ lấy nguồn từ đâu ha cái phôi này thì mình",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "A woman in a yellow shirt holds a white object, while another woman in a pink shirt observes, with a background of stacked bags and a woven structure.",
+                    "objects_and_counts": [
+                        "2 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V011_S0051",
+            "start_frame": 7881,
+            "end_frame": 7985,
+            "start_ts": 315.24,
+            "end_ts": 319.4,
+            "duration": 4.16,
+            "keyframes": [
+                {
+                    "frame_idx": 7933,
+                    "timestamp": 317.32,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0051_F007933.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "cũng đã test rất là nhiều nhà cung cấp rồi ở miền Tây cũng có",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "A woman with long black hair tied in pigtails stands in front of a wooden structure with stacked white cylindrical objects, possibly mushrooms, in a storage or processing area.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V011_S0052",
+            "start_frame": 7986,
+            "end_frame": 8436,
+            "start_ts": 319.44,
+            "end_ts": 337.44,
+            "duration": 18.0,
+            "keyframes": [
+                {
+                    "frame_idx": 8211,
+                    "timestamp": 328.44,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0052_F008211.jpg"
+                },
+                {
+                    "frame_idx": 8098,
+                    "timestamp": 323.92,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0052_F008098.jpg"
+                },
+                {
+                    "frame_idx": 8323,
+                    "timestamp": 332.92,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0052_F008323.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Các tỉnh như Cần Thơ, Tiền Giang và Long An là những cái chỗ mà sản xuất nấm nhiều đó Rồi ở gần thành phố Hồ Chí Minh và ở Cửu Chi, Hốc Môn hoặc là Vũng Tàu, Đồng Nai Mình cũng đã thử hết rất là nhiều chỗ rồi Lúc mình mới lấy thì cái tơ nấm nó chỉ có một phần như thế thôi Là phần phía sau này là chưa có tơ, nghĩa là tơ nó còn non đó",
+                "ocr_text": "Online i | Online",
+                "vlm_caption": {
+                    "detailed_description": "A man is sorting garlic into bags near a thatched hut in a rural setting.",
+                    "objects_and_counts": [
+                        "2 person | 2 person, 1 chair | 1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V011_S0053",
+            "start_frame": 8437,
+            "end_frame": 8511,
+            "start_ts": 337.48,
+            "end_ts": 340.44,
+            "duration": 2.96,
+            "keyframes": [
+                {
+                    "frame_idx": 8474,
+                    "timestamp": 338.96,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0053_F008474.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "cái nào là tơ có nghĩa là bịch này nó đã trắng hết rồi nè",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "A woman in a yellow shirt is interacting with a child in a pink shirt in front of shelves filled with packaged items.",
+                    "objects_and_counts": [
+                        "2 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V011_S0054",
+            "start_frame": 8512,
+            "end_frame": 8626,
+            "start_ts": 340.48,
+            "end_ts": 345.04,
+            "duration": 4.56,
+            "keyframes": [
+                {
+                    "frame_idx": 8569,
+                    "timestamp": 342.76,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0054_F008569.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Là nó đã ăn tơ hết bịch rồi Còn lúc mà mình mới nhập về á Thì cái phôi á",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "A woman in a pink shirt examines a large, textured object resembling a sponge or sponge-like material in a workshop setting.",
+                    "objects_and_counts": [
+                        "2 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V011_S0055",
+            "start_frame": 8627,
+            "end_frame": 8717,
+            "start_ts": 345.08,
+            "end_ts": 348.68,
+            "duration": 3.6,
+            "keyframes": [
+                {
+                    "frame_idx": 8672,
+                    "timestamp": 346.88,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0055_F008672.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "nó chỉ trắng được có bao nhiêu đây thôi sau đó mình sẽ từ từ mình dưỡng tơ cho nó",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "A woman in a yellow shirt is speaking to another woman in a pink shirt, who is holding a white object, in an outdoor setting with stacked bags in the background.",
+                    "objects_and_counts": [
+                        "2 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V011_S0056",
+            "start_frame": 8718,
+            "end_frame": 8822,
+            "start_ts": 348.72,
+            "end_ts": 352.88,
+            "duration": 4.16,
+            "keyframes": [
+                {
+                    "frame_idx": 8770,
+                    "timestamp": 350.8,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0056_F008770.jpg"
+                },
+                {
+                    "frame_idx": 8744,
+                    "timestamp": 349.76,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0056_F008744.jpg"
+                },
+                {
+                    "frame_idx": 8796,
+                    "timestamp": 351.84,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0056_F008796.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Đấy trắng bịch rồi mình mới cho ra nấm Lúc mình dưỡng là mình chỉ cần để 1 cái nhà đây rồi",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "A woman in a pink shirt examines a large, beige, cylindrical object in a workshop setting.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V011_S0057",
+            "start_frame": 8823,
+            "end_frame": 9165,
+            "start_ts": 352.92,
+            "end_ts": 366.6,
+            "duration": 13.68,
+            "keyframes": [
+                {
+                    "frame_idx": 8994,
+                    "timestamp": 359.76,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0057_F008994.jpg"
+                },
+                {
+                    "frame_idx": 8908,
+                    "timestamp": 356.32,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0057_F008908.jpg"
+                },
+                {
+                    "frame_idx": 9079,
+                    "timestamp": 363.16,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0057_F009079.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "rồi thói mát là nó cứ phát triển bình thường rồi đó Bây giờ Uyên rất là thắc mắc về quá trình mà từ một cái phôi mình lấy về rồi làm sao cho đến lúc mà nó ra được những cái nấm đầu tiên Thì đầu tiên cái phôi này đem về là nó chưa có nấm",
+                "ocr_text": "HT/V Online ĐỜI MAT MĚKONG | Online HOOI MAT | HTV Online ĐỞI MÁT MÉKONG",
+                "vlm_caption": {
+                    "detailed_description": "The image shows an aerial view of a rural area with several thatched-roof structures, surrounded by greenery and a body of water, with a logo in the bottom left corner.",
+                    "objects_and_counts": [
+                        "1 boat"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V011_S0058",
+            "start_frame": 9166,
+            "end_frame": 9270,
+            "start_ts": 366.64,
+            "end_ts": 370.8,
+            "duration": 4.16,
+            "keyframes": [
+                {
+                    "frame_idx": 9218,
+                    "timestamp": 368.72,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0058_F009218.jpg"
+                },
+                {
+                    "frame_idx": 9192,
+                    "timestamp": 367.68,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0058_F009192.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Thì mình mới bắt đầu là có cái cục bông gòn đây nè Rồi mình gỡ cái cục bông gòn ra",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "A woman in a pink shirt is holding a large, white, cylindrical object with a small, round, white object on top, standing in front of shelves filled with similar cylindrical objects.",
+                    "objects_and_counts": [
+                        "2 person | 1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V011_S0059",
+            "start_frame": 9271,
+            "end_frame": 9347,
+            "start_ts": 370.84,
+            "end_ts": 373.88,
+            "duration": 3.04,
+            "keyframes": [
+                {
+                    "frame_idx": 9309,
+                    "timestamp": 372.36,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0059_F009309.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "lại mục đích cụm con gọn đó lúc ban đầu là người ta cấy cái mêu giống vô",
+                "ocr_text": "online",
+                "vlm_caption": {
+                    "detailed_description": "Two women are standing in a rustic setting with bags of goods stacked behind them.",
+                    "objects_and_counts": [
+                        "2 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V011_S0060",
+            "start_frame": 9348,
+            "end_frame": 9446,
+            "start_ts": 373.92,
+            "end_ts": 377.84,
+            "duration": 3.92,
+            "keyframes": [
+                {
+                    "frame_idx": 9397,
+                    "timestamp": 375.88,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0060_F009397.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "và người ta đậy lại để tránh cho công trùng hay là các vật nhiễm gây hại cho nấm đó.",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "A woman holds a wrapped object, possibly a snake, in a workshop setting with bags of materials in the background.",
+                    "objects_and_counts": [
+                        "1 person, 1 donut, 2 cell phone"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V011_S0061",
+            "start_frame": 9447,
+            "end_frame": 9507,
+            "start_ts": 377.88,
+            "end_ts": 380.28,
+            "duration": 2.4,
+            "keyframes": [
+                {
+                    "frame_idx": 9477,
+                    "timestamp": 379.08,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0061_F009477.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Sau đó thì cái tơ nó trắng bịt hết như thế này",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "A woman in a pink top holds a wrapped item while another woman in a beige shirt observes in a rustic setting with stacked bags and baskets.",
+                    "objects_and_counts": [
+                        "2 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V011_S0062",
+            "start_frame": 9508,
+            "end_frame": 9573,
+            "start_ts": 380.32,
+            "end_ts": 382.92,
+            "duration": 2.6,
+            "keyframes": [
+                {
+                    "frame_idx": 9540,
+                    "timestamp": 381.6,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0062_F009540.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "rồi mình bắt đầu gỡ cục bông gòn ra mình đậy nắp này lại",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "Two women are standing in front of a wooden shelf filled with various items, including bags and bottles, in a rustic setting.",
+                    "objects_and_counts": [
+                        "2 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V011_S0063",
+            "start_frame": 9574,
+            "end_frame": 10098,
+            "start_ts": 382.96,
+            "end_ts": 403.92,
+            "duration": 20.96,
+            "keyframes": [
+                {
+                    "frame_idx": 9836,
+                    "timestamp": 393.44,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0063_F009836.jpg"
+                },
+                {
+                    "frame_idx": 9705,
+                    "timestamp": 388.2,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0063_F009705.jpg"
+                },
+                {
+                    "frame_idx": 9967,
+                    "timestamp": 398.68,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0063_F009967.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "đậy lại đủ 7 ngày xong rồi mình mới mở ra tưới lúc đậy lại là như vậy nè mục đích của mình đậy lại là để làm gì hả? mình đậy lại để cho nó dưỡng cái tơ nấm trong đây nè nghĩa là tơ nó trắng lên hết rồi xong nó mới kích thích cái nấm nghĩa là nấm nó bị ngọt tơ nó bị ngọt sau khi mình mở ra thì mới bắt đầu là nó bung nấm ra trong quá trình đó thì mình có tránh ánh sáng hay là nhiệt độ như thế nào không?",
+                "ocr_text": "HTV Online ĐỎI MAT | Online MEKONG | Online MÉKONG",
+                "vlm_caption": {
+                    "detailed_description": "The image shows a thatched roof with sunlight filtering through, creating a pattern of light and shadow on the ground below.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V011_S0064",
+            "start_frame": 10099,
+            "end_frame": 10285,
+            "start_ts": 403.96,
+            "end_ts": 411.4,
+            "duration": 7.44,
+            "keyframes": [
+                {
+                    "frame_idx": 10192,
+                    "timestamp": 407.68,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0064_F010192.jpg"
+                },
+                {
+                    "frame_idx": 10145,
+                    "timestamp": 405.8,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0064_F010145.jpg"
+                },
+                {
+                    "frame_idx": 10238,
+                    "timestamp": 409.52,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0064_F010238.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Về cái loại nấm bào ngư này thì nó không có cần phải là quá khó khăn Nghĩa là nhiệt độ bình thường và ánh sáng thì đủ độc sách là được",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "A woman with long dark hair tied back is standing in a workshop or storage area filled with bags and wooden shelves.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V011_S0065",
+            "start_frame": 10286,
+            "end_frame": 10366,
+            "start_ts": 411.44,
+            "end_ts": 414.64,
+            "duration": 3.2,
+            "keyframes": [
+                {
+                    "frame_idx": 10326,
+                    "timestamp": 413.04,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0065_F010326.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Không quá tới thui, không bị tới thui nè Cũng không cần quá sáng",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "Two women are engaged in a conversation in an outdoor setting with bags and baskets in the background.",
+                    "objects_and_counts": [
+                        "2 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V011_S0066",
+            "start_frame": 10367,
+            "end_frame": 10840,
+            "start_ts": 414.68,
+            "end_ts": 433.6,
+            "duration": 18.92,
+            "keyframes": [
+                {
+                    "frame_idx": 10603,
+                    "timestamp": 424.12,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0066_F010603.jpg"
+                },
+                {
+                    "frame_idx": 10485,
+                    "timestamp": 419.4,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0066_F010485.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Như ánh sáng ban ngày trong khu văn viên của mình như vậy là hợp lý rồi Rồi bạn vừa nói là nấm bào ngư thì như vậy Vậy là mỗi loại nấm sẽ có một quy trình chăm sóc khác nhau Và những điều kiện khác nhau để phát triển đúng không? Đúng rồi, sẽ có những loại nấm mà cách trồng nó cũng giống nhau Tuy nhiên cũng có những loại cách trồng nó khác hẳn Thì tùy theo loại mà mình có tạo môi trường cho nó khác nhau",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "An aerial view shows a traditional thatched-roof structure with a blue tarp covering part of it, surrounded by greenery and a small pond.",
+                    "objects_and_counts": [
+                        "1 train"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V011_S0067",
+            "start_frame": 10841,
+            "end_frame": 10971,
+            "start_ts": 433.64,
+            "end_ts": 438.84,
+            "duration": 5.2,
+            "keyframes": [
+                {
+                    "frame_idx": 10906,
+                    "timestamp": 436.24,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0067_F010906.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Như ở đây thì mình đang có những loại nấm nào Mà Rin có thể giới thiệu cho Uyên biết được không Rồi mình sẽ đi từng loại ha",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "Two women are standing in front of a backdrop of stacked white bags, with one woman in a light yellow shirt and the other in a pink top, engaged in conversation.",
+                    "objects_and_counts": [
+                        "2 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V011_S0068",
+            "start_frame": 10972,
+            "end_frame": 11114,
+            "start_ts": 438.88,
+            "end_ts": 444.56,
+            "duration": 5.68,
+            "keyframes": [
+                {
+                    "frame_idx": 11043,
+                    "timestamp": 441.72,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0068_F011043.jpg"
+                },
+                {
+                    "frame_idx": 11007,
+                    "timestamp": 440.28,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0068_F011007.jpg"
+                },
+                {
+                    "frame_idx": 11078,
+                    "timestamp": 443.12,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0068_F011078.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Đầu tiên nó là nấm hằng đế đi Hay nó gọi là nấm milky Tại vì nó trắng tươi như sữa",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "A person in a pink shirt is operating a machine that appears to be processing or shaping cylindrical objects, likely clay or a similar material, in a workshop setting.",
+                    "objects_and_counts": [
+                        "2 person | 1 person, 1 chair"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V011_S0069",
+            "start_frame": 11115,
+            "end_frame": 11380,
+            "start_ts": 444.6,
+            "end_ts": 455.2,
+            "duration": 10.6,
+            "keyframes": [
+                {
+                    "frame_idx": 11247,
+                    "timestamp": 449.88,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0069_F011247.jpg"
+                },
+                {
+                    "frame_idx": 11181,
+                    "timestamp": 447.24,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0069_F011181.jpg"
+                },
+                {
+                    "frame_idx": 11313,
+                    "timestamp": 452.52,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0069_F011313.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Cách trồng nó hoàn toàn khác so với bào ngư luôn Đầu tiên là mình phải dưỡng cái bịch tơ trắng xong rồi Đủ ngày trồng Mình mới mở cái miệng nó ra Mình phủ lên một lớp sơ dừa Sau đó mình phun sương giữ ẩm",
+                "ocr_text": "Online ĐỜI MÁT MĚKONE | Online | ĐỘI bVL",
+                "vlm_caption": {
+                    "detailed_description": "The image shows a close-up of a white, textured object resembling a human face with outstretched hands, set against a blurred background.",
+                    "objects_and_counts": [
+                        "1 sheep"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V011_S0070",
+            "start_frame": 11382,
+            "end_frame": 11561,
+            "start_ts": 455.28,
+            "end_ts": 462.44,
+            "duration": 7.16,
+            "keyframes": [
+                {
+                    "frame_idx": 11471,
+                    "timestamp": 458.84,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0070_F011471.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "thì tầm khoảng 15 đến 20 ngày mới bắt đầu mọc nấm. 15 đến 20 ngày? Hồi nãy nó cũng khá là lâu đó. Vậy mấy loại kia là sẽ nhanh hơn không chú? Đúng rồi.",
+                "ocr_text": "HTV Online ĐỜI MẤT MEKONG",
+                "vlm_caption": {
+                    "detailed_description": "The image shows a collection of white, bulbous objects with small, protruding mushrooms emerging from them, arranged in a vertical stack."
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V011_S0071",
+            "start_frame": 11564,
+            "end_frame": 11688,
+            "start_ts": 462.56,
+            "end_ts": 467.52,
+            "duration": 4.96,
+            "keyframes": [
+                {
+                    "frame_idx": 11626,
+                    "timestamp": 465.04,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0071_F011626.jpg"
+                },
+                {
+                    "frame_idx": 11595,
+                    "timestamp": 463.8,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0071_F011595.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Thì chu kỳ là tầm khoảng 15 ngày là mọc rồi Còn riêng cái nấm hoàng đế thì sẽ lâu hơn Cái kích thước như vầy là mình",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "The image shows a close-up of white mushrooms with a blurred background.",
+                    "objects_and_counts": [
+                        "1 teddy bear"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V011_S0072",
+            "start_frame": 11689,
+            "end_frame": 11842,
+            "start_ts": 467.56,
+            "end_ts": 473.68,
+            "duration": 6.12,
+            "keyframes": [
+                {
+                    "frame_idx": 11765,
+                    "timestamp": 470.6,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0072_F011765.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Các bạn đã thu hoạch chưa? Như mũ nấm như thế này là mình có thể hái được rồi. Cái này là giá trị kinh tế nó có cao hơn những loại nấm khác không Mary?",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "Two women are standing in front of a wooden structure filled with bags of mushrooms, with one holding a bag of mushrooms.",
+                    "objects_and_counts": [
+                        "2 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V011_S0073",
+            "start_frame": 11843,
+            "end_frame": 11949,
+            "start_ts": 473.72,
+            "end_ts": 477.96,
+            "duration": 4.24,
+            "keyframes": [
+                {
+                    "frame_idx": 11896,
+                    "timestamp": 475.84,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0073_F011896.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Như loại này thì đăng giá thị trường là khoảng 200 nghìn 1 kg nấm tương",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "A woman in a pink shirt holds a packaged mushroom, with a background of stacked bags and wooden shelves.",
+                    "objects_and_counts": [
+                        "1 person, 1 hot dog"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V011_S0074",
+            "start_frame": 11950,
+            "end_frame": 12075,
+            "start_ts": 478.0,
+            "end_ts": 483.0,
+            "duration": 5.0,
+            "keyframes": [
+                {
+                    "frame_idx": 12012,
+                    "timestamp": 480.48,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0074_F012012.jpg"
+                },
+                {
+                    "frame_idx": 11981,
+                    "timestamp": 479.24,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0074_F011981.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "từ gốc ở đây là 200 ngàn rồi đó đây Uyên gửi lại nha",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "Two women are standing in front of a wooden structure filled with bags of what appears to be fermented products, with one woman holding a transparent bag containing a similar substance.",
+                    "objects_and_counts": [
+                        "2 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V011_S0075",
+            "start_frame": 12076,
+            "end_frame": 12278,
+            "start_ts": 483.04,
+            "end_ts": 491.12,
+            "duration": 8.08,
+            "keyframes": [
+                {
+                    "frame_idx": 12177,
+                    "timestamp": 487.08,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0075_F012177.jpg"
+                },
+                {
+                    "frame_idx": 12126,
+                    "timestamp": 485.04,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0075_F012126.jpg"
+                },
+                {
+                    "frame_idx": 12227,
+                    "timestamp": 489.08,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0075_F012227.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hiện tại thì sản lượng chiếm bao nhiêu phần trăm so với những loại nấm khác trong trại mình? Loại này thì ít thôi, tại vì cái mùa này thì mới trồng được, còn những mùa khác thì hơi khó.",
+                "ocr_text": "Online ĐỜI MÁT MĚKONG | Online | Online TÀM IỘC:",
+                "vlm_caption": {
+                    "detailed_description": "A close-up of a hand holding a white mushroom with a smooth, slightly curved cap and a stem.",
+                    "objects_and_counts": [
+                        "1 cow | 1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V011_S0076",
+            "start_frame": 12279,
+            "end_frame": 12456,
+            "start_ts": 491.16,
+            "end_ts": 498.24,
+            "duration": 7.08,
+            "keyframes": [
+                {
+                    "frame_idx": 12367,
+                    "timestamp": 494.68,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0076_F012367.jpg"
+                },
+                {
+                    "frame_idx": 12323,
+                    "timestamp": 492.92,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0076_F012323.jpg"
+                },
+                {
+                    "frame_idx": 12411,
+                    "timestamp": 496.44,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0076_F012411.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Thì cái loại này hiện tại là mình chỉ tiêu thụ chắc tầm khoảng 10% cái năng suất thôi ạ À, thì bên này có cái nấm gì vàng vàng đó",
+                "ocr_text": "HTV Online ĐỘI MÁT MĚKONG | Online MĚKONG",
+                "vlm_caption": {
+                    "detailed_description": "A person wearing gloves is handling a large mushroom, with a blurred background and a logo in the bottom left corner.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V011_S0077",
+            "start_frame": 12457,
+            "end_frame": 12628,
+            "start_ts": 498.28,
+            "end_ts": 505.12,
+            "duration": 6.84,
+            "keyframes": [
+                {
+                    "frame_idx": 12542,
+                    "timestamp": 501.68,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0077_F012542.jpg"
+                },
+                {
+                    "frame_idx": 12499,
+                    "timestamp": 499.96,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0077_F012499.jpg"
+                },
+                {
+                    "frame_idx": 12585,
+                    "timestamp": 503.4,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0077_F012585.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "rất là xinh nấm vàng đây đây là nấm hoàng kim hoàng kim là màu da màu vàng này đúng không rồi à",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "A woman in a yellow shirt is interacting with another woman in a pink sweater in a rustic setting with wooden structures and stacked items.",
+                    "objects_and_counts": [
+                        "2 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V011_S0078",
+            "start_frame": 12629,
+            "end_frame": 12677,
+            "start_ts": 505.16,
+            "end_ts": 507.08,
+            "duration": 1.92,
+            "keyframes": [
+                {
+                    "frame_idx": 12653,
+                    "timestamp": 506.12,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0078_F012653.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Nó hay còn gọi là nấm ngô đó",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "A woman in a pink shirt holds a white object with yellow protrusions, possibly a mushroom, in a workshop setting with shelves of similar objects in the background.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V011_S0079",
+            "start_frame": 12678,
+            "end_frame": 13095,
+            "start_ts": 507.12,
+            "end_ts": 523.8,
+            "duration": 16.68,
+            "keyframes": [
+                {
+                    "frame_idx": 12886,
+                    "timestamp": 515.44,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0079_F012886.jpg"
+                },
+                {
+                    "frame_idx": 12782,
+                    "timestamp": 511.28,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0079_F012782.jpg"
+                },
+                {
+                    "frame_idx": 12990,
+                    "timestamp": 519.6,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0079_F012990.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Tại vì cái mùi của nó như là mùi ngô vậy đó Người ta hay kêu cái tên khác của nó là vậy đó Cái nấm này chắc là thường để ăn lẩu hay là mình xào Nấm này thì sẽ xào hoặc là lẩu đều ngon Đa số các loại nấm là mình đều có thể xào lẩu, nấu nướng đều được hết Mình sẽ hái thử cho",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "The image shows a close-up of a cluster of white mushrooms with yellow caps, with a blurred background.",
+                    "objects_and_counts": [
+                        "1 pizza"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V011_S0080",
+            "start_frame": 13096,
+            "end_frame": 13265,
+            "start_ts": 523.84,
+            "end_ts": 530.6,
+            "duration": 6.76,
+            "keyframes": [
+                {
+                    "frame_idx": 13180,
+                    "timestamp": 527.2,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0080_F013180.jpg"
+                },
+                {
+                    "frame_idx": 13138,
+                    "timestamp": 525.52,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0080_F013138.jpg"
+                },
+                {
+                    "frame_idx": 13222,
+                    "timestamp": 528.88,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0080_F013222.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Uyên xem nha Có hái được chưa? Được rồi, cỏ này là mình tu hoạch được rồi nè Đây mình sẽ nhổ ra",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "A woman in a pink shirt is using a wooden tool to cut a large, round, white object, likely a mushroom, in a workshop setting with shelves of similar objects in the background.",
+                    "objects_and_counts": [
+                        "1 person | 2 person, 1 donut"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V011_S0081",
+            "start_frame": 13266,
+            "end_frame": 13475,
+            "start_ts": 530.64,
+            "end_ts": 539.0,
+            "duration": 8.36,
+            "keyframes": [
+                {
+                    "frame_idx": 13370,
+                    "timestamp": 534.8,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0081_F013370.jpg"
+                },
+                {
+                    "frame_idx": 13318,
+                    "timestamp": 532.72,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0081_F013318.jpg"
+                },
+                {
+                    "frame_idx": 13422,
+                    "timestamp": 536.88,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0081_F013422.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Mình lắc nhẹ như thế này là được À là hái nóng là mình sẽ dùng tay Mình lắc nhẹ như vậy thôi Rồi một cái phôi như vậy là mình lên nóng được bao nhiêu lần?",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "Two women are interacting in a rustic setting, with one holding a white flower and the other wearing a pink top.",
+                    "objects_and_counts": [
+                        "2 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V011_S0082",
+            "start_frame": 13476,
+            "end_frame": 13648,
+            "start_ts": 539.04,
+            "end_ts": 545.92,
+            "duration": 6.88,
+            "keyframes": [
+                {
+                    "frame_idx": 13562,
+                    "timestamp": 542.48,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0082_F013562.jpg"
+                },
+                {
+                    "frame_idx": 13519,
+                    "timestamp": 540.76,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0082_F013519.jpg"
+                },
+                {
+                    "frame_idx": 13605,
+                    "timestamp": 544.2,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0082_F013605.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Ví dụ như một cái phô hoàng kim này thì nó có thể mọc từ 6 đến 8 lần Trong vòng 3 đến 4 tháng tùy theo mình chăm sóc hái nấm lớn hay nhỏ",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "A woman in a pink shirt is holding a small object, possibly a piece of clay or a mold, while another person's hands are visible in the foreground, holding a similar object.",
+                    "objects_and_counts": [
+                        "2 person | 2 person, 1 donut | 2 person, 2 donut, 1 cell phone"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V011_S0083",
+            "start_frame": 13649,
+            "end_frame": 13772,
+            "start_ts": 545.96,
+            "end_ts": 550.88,
+            "duration": 4.92,
+            "keyframes": [
+                {
+                    "frame_idx": 13710,
+                    "timestamp": 548.4,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0083_F013710.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Mình chăm sóc độ ẩm nó có tốt hay không Mình hái nấm xong rồi Mình dùng một cái muỗng này",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "The image shows a close-up of a dense cluster of light yellow mushrooms with white stems, set against a blurred, textured background."
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V011_S0084",
+            "start_frame": 13773,
+            "end_frame": 13877,
+            "start_ts": 550.92,
+            "end_ts": 555.08,
+            "duration": 4.16,
+            "keyframes": [
+                {
+                    "frame_idx": 13825,
+                    "timestamp": 553.0,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0084_F013825.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Mình sẽ vệ sinh sạch sẽ cái cổ nấm Những cái gốc nấm mà nó còn sót trong đây đó",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "A woman in a pink shirt is using a stone tool to shape a piece of clay, while another person assists her in a workshop setting.",
+                    "objects_and_counts": [
+                        "3 person, 1 donut"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V011_S0085",
+            "start_frame": 13878,
+            "end_frame": 13906,
+            "start_ts": 555.12,
+            "end_ts": 556.24,
+            "duration": 1.12,
+            "keyframes": [
+                {
+                    "frame_idx": 13892,
+                    "timestamp": 555.68,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0085_F013892.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Rồi Thì mình cứ cạo sạch",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "Two women are interacting in a rustic setting, with one offering a spoonful of something to the other, who is holding a small object.",
+                    "objects_and_counts": [
+                        "2 person, 1 cake"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V011_S0086",
+            "start_frame": 13907,
+            "end_frame": 13958,
+            "start_ts": 556.28,
+            "end_ts": 558.32,
+            "duration": 2.04,
+            "keyframes": [
+                {
+                    "frame_idx": 13932,
+                    "timestamp": 557.28,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0086_F013932.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Xong rồi mình lại đậy nắp lại giống như bào ngư vậy đó",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "A woman in a pink shirt holds a large, round, beige object, possibly a mushroom, in a workshop setting with shelves of similar items in the background.",
+                    "objects_and_counts": [
+                        "3 person, 2 donut"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V011_S0087",
+            "start_frame": 13959,
+            "end_frame": 14528,
+            "start_ts": 558.36,
+            "end_ts": 581.12,
+            "duration": 22.76,
+            "keyframes": [
+                {
+                    "frame_idx": 14243,
+                    "timestamp": 569.72,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0087_F014243.jpg"
+                },
+                {
+                    "frame_idx": 14101,
+                    "timestamp": 564.04,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0087_F014101.jpg"
+                },
+                {
+                    "frame_idx": 14385,
+                    "timestamp": 575.4,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0087_F014385.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "là nó sẽ tự lên tiếp từ những cái tơ nấm này trong đây thì nó sẽ hình thành những cái tơ nấm mới rồi mình mở nắp ra mình tưới là nó sẽ mọc nấm đây là nấm hồng ngọc nè, cái nào xinh ghê hông cái nấm này hiếm thấy lắm ha, ở đây Uyên thấy là Uyên chưa biết cái nấm này nè nấm hồng ngọc thì cách trồng nó cũng giống như nấm bào ngư và nấm hoàng kim tại vì nó cùng loại là nấm sò nấm sò họ là họ nấm sò",
+                "ocr_text": "HTV Online ĐỜI MÁT, MEKONG | ĐỘI NVI | Online:",
+                "vlm_caption": {
+                    "detailed_description": "The image depicts a close-up view of a cluster of light yellow mushrooms with a blurred background of similar mushrooms and a logo in the bottom left corner.",
+                    "objects_and_counts": [
+                        "1 sandwich"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V011_S0088",
+            "start_frame": 14529,
+            "end_frame": 14661,
+            "start_ts": 581.16,
+            "end_ts": 586.44,
+            "duration": 5.28,
+            "keyframes": [
+                {
+                    "frame_idx": 14595,
+                    "timestamp": 583.8,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0088_F014595.jpg"
+                },
+                {
+                    "frame_idx": 14562,
+                    "timestamp": 582.48,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0088_F014562.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Vài đám này nó có hiếm không? Về đổ hiếm thì nó không hiếm nhưng mà về thị trường á",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "A woman in a beige shirt holds a large, ornate bottle with a pink flower, while another woman in a pink traditional outfit looks on in a rustic, wooden structure filled with stacked items.",
+                    "objects_and_counts": [
+                        "2 person | 2 person, 1 teddy bear"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V011_S0089",
+            "start_frame": 14662,
+            "end_frame": 14810,
+            "start_ts": 586.48,
+            "end_ts": 592.4,
+            "duration": 5.92,
+            "keyframes": [
+                {
+                    "frame_idx": 14736,
+                    "timestamp": 589.44,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0089_F014736.jpg"
+                },
+                {
+                    "frame_idx": 14773,
+                    "timestamp": 590.92,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0089_F014773.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "thì chưa có trồng lại trà tại vì thực tế là nó có 5 loại 5 lạ đó thì nhiều khi là người dân người ta chưa có",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "A woman in a pink shirt stands in front of shelves filled with various items, including mushrooms and bags, in a rustic setting.",
+                    "objects_and_counts": [
+                        "2 person | 2 person, 2 teddy bear"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V011_S0090",
+            "start_frame": 14811,
+            "end_frame": 14865,
+            "start_ts": 592.44,
+            "end_ts": 594.6,
+            "duration": 2.16,
+            "keyframes": [
+                {
+                    "frame_idx": 14838,
+                    "timestamp": 593.52,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0090_F014838.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "gọi là chưa dám ăn, chưa dám sử dụng",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "Two women are standing in front of a wooden structure filled with bags of white objects, possibly mushrooms, with one woman holding a pink flower.",
+                    "objects_and_counts": [
+                        "2 person, 1 bottle"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V011_S0091",
+            "start_frame": 14866,
+            "end_frame": 15115,
+            "start_ts": 594.64,
+            "end_ts": 604.6,
+            "duration": 9.96,
+            "keyframes": [
+                {
+                    "frame_idx": 14990,
+                    "timestamp": 599.6,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0091_F014990.jpg"
+                },
+                {
+                    "frame_idx": 14928,
+                    "timestamp": 597.12,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0091_F014928.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Nhìn màu sắc của nó sạc sở quá đó. Vậy thì cái giá thành của nó có cao không so với nấm bào ngư? Có. Ví dụ như giá của nấm hồng ngọc và nấm hoàng kim là bằng nhau thì nó sẽ cao hơn so với bào ngư một chút.",
+                "ocr_text": "HTV Online MIEKONG | Online",
+                "vlm_caption": {
+                    "detailed_description": "A person is holding and examining a cluster of pink oyster mushrooms.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V011_S0092",
+            "start_frame": 15117,
+            "end_frame": 15424,
+            "start_ts": 604.68,
+            "end_ts": 616.96,
+            "duration": 12.28,
+            "keyframes": [
+                {
+                    "frame_idx": 15270,
+                    "timestamp": 610.8,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0092_F015270.jpg"
+                },
+                {
+                    "frame_idx": 15347,
+                    "timestamp": 613.88,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0092_F015347.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Về đặc điểm của em này thì có gì khác so với những loại nấm khác không? Về cách chăm sóc hay là về thời vụ? Liên cái nấm hồng ngọc này thì mình lưu ý là nó sẽ mọc nhanh hơn nhưng mà nó sẽ cần phải độ ẩm cao hơn",
+                "ocr_text": "HTV Online ĐỜI MÁT MEKONG | Online",
+                "vlm_caption": {
+                    "detailed_description": "A person holds a cluster of pink mushrooms with a blurred background."
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V011_S0093",
+            "start_frame": 15425,
+            "end_frame": 15589,
+            "start_ts": 617.0,
+            "end_ts": 623.56,
+            "duration": 6.56,
+            "keyframes": [
+                {
+                    "frame_idx": 15507,
+                    "timestamp": 620.28,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0093_F015507.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Tại vì cái nấm nó dễ bị khô Nếu mà nấm nó bị khô á Và nó nóng thì cái màu nó sẽ nhạt Nó không được hồng đậm như vậy đâu",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "A woman with long dark hair tied back in a ponytail is holding a baby wrapped in a white blanket, standing in a rustic setting with wooden structures and bags in the background.",
+                    "objects_and_counts": [
+                        "2 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V011_S0094",
+            "start_frame": 15590,
+            "end_frame": 15654,
+            "start_ts": 623.6,
+            "end_ts": 626.16,
+            "duration": 2.56,
+            "keyframes": [
+                {
+                    "frame_idx": 15622,
+                    "timestamp": 624.88,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0094_F015622.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "mà màu sắc của cái nấm này sẽ còn phụ thuộc",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "Two women are standing in a rustic setting, one holding a bag of what appears to be fermented tofu, with a background of woven bamboo and stacked bags.",
+                    "objects_and_counts": [
+                        "2 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V011_S0095",
+            "start_frame": 15655,
+            "end_frame": 15720,
+            "start_ts": 626.2,
+            "end_ts": 628.8,
+            "duration": 2.6,
+            "keyframes": [
+                {
+                    "frame_idx": 15687,
+                    "timestamp": 627.48,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0095_F015687.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "vào cái môi trường của mình trồng là đậu ẩm và ánh sáng nữa",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "A woman with long black hair, wearing a pink shirt, stands in front of a wooden structure with shelves holding various items, including bags and a microphone.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V011_S0096",
+            "start_frame": 15721,
+            "end_frame": 15823,
+            "start_ts": 628.84,
+            "end_ts": 632.92,
+            "duration": 4.08,
+            "keyframes": [
+                {
+                    "frame_idx": 15772,
+                    "timestamp": 630.88,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0096_F015772.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Nếu như cái nào mà mình để cho nó bị khô Là nó sẽ nhạt màu hơn",
+                "ocr_text": "Online\"",
+                "vlm_caption": {
+                    "detailed_description": "A woman in a beige shirt holds a large white object, while another woman in a pink top looks on, both in a rustic setting with stacked bags and wooden structures.",
+                    "objects_and_counts": [
+                        "3 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V011_S0097",
+            "start_frame": 15824,
+            "end_frame": 15909,
+            "start_ts": 632.96,
+            "end_ts": 636.36,
+            "duration": 3.4,
+            "keyframes": [
+                {
+                    "frame_idx": 15866,
+                    "timestamp": 634.64,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0097_F015866.jpg"
+                },
+                {
+                    "frame_idx": 15845,
+                    "timestamp": 633.8,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0097_F015845.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "mà bị khô, thiếu ẩm và bị nóng thì nó sẽ nhạt màu, nhìn nấm nó không có ngon.",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "A woman with long dark hair tied in a ponytail is holding a small cake with pink decorations, wearing a pink shirt and a microphone attached to her shirt.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V011_S0098",
+            "start_frame": 15910,
+            "end_frame": 16192,
+            "start_ts": 636.4,
+            "end_ts": 647.68,
+            "duration": 11.28,
+            "keyframes": [
+                {
+                    "frame_idx": 16051,
+                    "timestamp": 642.04,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0098_F016051.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "nó không có tươi. Đây là nấm bào ngư nhật thì loại này cũng khá là hiếm trên thị trường đó Nói chung là những năm gần đây thì mới bắt đầu là tiêu thụ loại này nhiều và cái nấm nó to và nó giòn giống như nấm đùi gà vậy đó. Cái này là nấm đùi gà",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "The image shows a close-up of several white mushrooms growing in a controlled environment, with transparent plastic bags surrounding the roots."
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V011_S0099",
+            "start_frame": 16193,
+            "end_frame": 16281,
+            "start_ts": 647.72,
+            "end_ts": 651.24,
+            "duration": 3.52,
+            "keyframes": [
+                {
+                    "frame_idx": 16237,
+                    "timestamp": 649.48,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0099_F016237.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Nhìn giống như vậy đó Nhưng mà nó không phải là nguyên gà Đây là nấm bông nhật",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "Two women are examining large, white, cylindrical objects in a rustic setting.",
+                    "objects_and_counts": [
+                        "2 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V011_S0100",
+            "start_frame": 16282,
+            "end_frame": 16434,
+            "start_ts": 651.28,
+            "end_ts": 657.36,
+            "duration": 6.08,
+            "keyframes": [
+                {
+                    "frame_idx": 16358,
+                    "timestamp": 654.32,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0100_F016358.jpg"
+                },
+                {
+                    "frame_idx": 16320,
+                    "timestamp": 652.8,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0100_F016320.jpg"
+                },
+                {
+                    "frame_idx": 16396,
+                    "timestamp": 655.84,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0100_F016396.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "và có một cái điểm đặc biệt nữa đó chính là cái tơ nấm của bà Nguyên Nhật là nó màu đen",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "A woman with a microphone stands in a room filled with shelves of pottery.",
+                    "objects_and_counts": [
+                        "2 person | 1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V011_S0101",
+            "start_frame": 16435,
+            "end_frame": 16672,
+            "start_ts": 657.4,
+            "end_ts": 666.88,
+            "duration": 9.48,
+            "keyframes": [
+                {
+                    "frame_idx": 16553,
+                    "timestamp": 662.12,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0101_F016553.jpg"
+                },
+                {
+                    "frame_idx": 16494,
+                    "timestamp": 659.76,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0101_F016494.jpg"
+                },
+                {
+                    "frame_idx": 16612,
+                    "timestamp": 664.48,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0101_F016612.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Uyên thấy không là nó chín tươi à, còn riêng cái nấm bà Nguyên Nhật này là cái tên nó đen thui à Hồi nãy Uyên tưởng là nó bị dơ nhưng mà do là đặc thù của nó như vậy đúng không?",
+                "ocr_text": "HTV Online TÀM IỘC | Online ĐỜI MẤT MFKONG | HTV Online ĐỒI MAT MĚKONG",
+                "vlm_caption": {
+                    "detailed_description": "Two women are examining large, white, cylindrical objects in a rustic, indoor setting with woven walls and shelves filled with similar items.",
+                    "objects_and_counts": [
+                        "2 person | 3 person, 3 teddy bear | 3 person, 1 bowl, 1 teddy bear"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V011_S0102",
+            "start_frame": 16673,
+            "end_frame": 16796,
+            "start_ts": 666.92,
+            "end_ts": 671.84,
+            "duration": 4.92,
+            "keyframes": [
+                {
+                    "frame_idx": 16734,
+                    "timestamp": 669.36,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0102_F016734.jpg"
+                },
+                {
+                    "frame_idx": 16703,
+                    "timestamp": 668.12,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0102_F016703.jpg"
+                },
+                {
+                    "frame_idx": 16765,
+                    "timestamp": 670.6,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0102_F016765.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Nếu như mà người không biết á, thì mình nhìn tưởng là nó bị hư, tưởng là bị hư thôi mà, nhưng mà thật ra không phải.",
+                "ocr_text": "HTV Online ĐỎI MẤT MĚKONG",
+                "vlm_caption": {
+                    "detailed_description": "Two individuals are examining a large, beige, textured object, possibly a piece of stone or a traditional artifact, in an indoor setting with wooden elements and a blurred background.",
+                    "objects_and_counts": [
+                        "2 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V011_S0103",
+            "start_frame": 16797,
+            "end_frame": 17144,
+            "start_ts": 671.88,
+            "end_ts": 685.76,
+            "duration": 13.88,
+            "keyframes": [
+                {
+                    "frame_idx": 16970,
+                    "timestamp": 678.8,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0103_F016970.jpg"
+                },
+                {
+                    "frame_idx": 16883,
+                    "timestamp": 675.32,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0103_F016883.jpg"
+                },
+                {
+                    "frame_idx": 17057,
+                    "timestamp": 682.28,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0103_F017057.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Nếu là cái loại nấm như vậy á, nó hơi đặc biệt. Nhưng mà mấy cái này nó có bị hư không? Không. Có nghĩa là trong cái nấm nó cũng có những cái bệnh. Ví dụ như mình trồng rau nó cũng sẽ có sâu bệnh vậy đó. Thì trồng nấm cũng sẽ có những cái bệnh liên quan tới nấm. Mình cũng phải phần chống nữa.",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "Two women are examining large, white, cylindrical objects in a rustic, wooden setting.",
+                    "objects_and_counts": [
+                        "2 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V011_S0104",
+            "start_frame": 17145,
+            "end_frame": 17266,
+            "start_ts": 685.8,
+            "end_ts": 690.64,
+            "duration": 4.84,
+            "keyframes": [
+                {
+                    "frame_idx": 17205,
+                    "timestamp": 688.2,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0104_F017205.jpg"
+                },
+                {
+                    "frame_idx": 17175,
+                    "timestamp": 687.0,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0104_F017175.jpg"
+                },
+                {
+                    "frame_idx": 17235,
+                    "timestamp": 689.4,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0104_F017235.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Cỡ này là mình có thể thu hoạch được rồi nè Cứ lắc lắc thì phải làm sao",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+                    "objects_and_counts": [
+                        "2 person | 2 person, 1 banana | 1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V011_S0105",
+            "start_frame": 17267,
+            "end_frame": 17358,
+            "start_ts": 690.68,
+            "end_ts": 694.32,
+            "duration": 3.64,
+            "keyframes": [
+                {
+                    "frame_idx": 17312,
+                    "timestamp": 692.48,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0105_F017312.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "I keep swings my swings up swings up",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "Two women are examining and handling large, white, cylindrical objects in a rustic, outdoor setting.",
+                    "objects_and_counts": [
+                        "2 person, 1 teddy bear"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V011_S0106",
+            "start_frame": 17359,
+            "end_frame": 17482,
+            "start_ts": 694.36,
+            "end_ts": 699.28,
+            "duration": 4.92,
+            "keyframes": [
+                {
+                    "frame_idx": 17420,
+                    "timestamp": 696.8,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0106_F017420.jpg"
+                },
+                {
+                    "frame_idx": 17451,
+                    "timestamp": 698.04,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0106_F017451.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Đóng ngay cái thân của nó ha Xong rồi Sẽ nghe tiếng giòn cái rợp luôn",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "A person in a beige shirt is carefully peeling the skin off a large mushroom, while another person in a pink shirt observes.",
+                    "objects_and_counts": [
+                        "2 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V011_S0107",
+            "start_frame": 17483,
+            "end_frame": 17654,
+            "start_ts": 699.32,
+            "end_ts": 706.16,
+            "duration": 6.84,
+            "keyframes": [
+                {
+                    "frame_idx": 17568,
+                    "timestamp": 702.72,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0107_F017568.jpg"
+                },
+                {
+                    "frame_idx": 17525,
+                    "timestamp": 701.0,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0107_F017525.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Đó thấy chưa? Nghe đậu giòn đó không? Đây nó còn cái nấm con nữa nè Là do Uyên bẻ sai hay sao?",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "Two women are examining and discussing a large, white, oval-shaped object in a rustic, wooden-laden environment.",
+                    "objects_and_counts": [
+                        "2 person, 1 toothbrush, 1 remote | 3 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V011_S0108",
+            "start_frame": 17655,
+            "end_frame": 17780,
+            "start_ts": 706.2,
+            "end_ts": 711.2,
+            "duration": 5.0,
+            "keyframes": [
+                {
+                    "frame_idx": 17717,
+                    "timestamp": 708.68,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0108_F017717.jpg"
+                },
+                {
+                    "frame_idx": 17686,
+                    "timestamp": 707.44,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0108_F017686.jpg"
+                },
+                {
+                    "frame_idx": 17748,
+                    "timestamp": 709.92,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0108_F017748.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "À không, tại vì cái lợi này nó giòn á Nên là sau khi mình hái xong là mình sẽ phải dùng ngũ nè",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "A woman in a pink shirt is holding a bag of mushrooms in a mushroom cultivation facility.",
+                    "objects_and_counts": [
+                        "2 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V011_S0109",
+            "start_frame": 17781,
+            "end_frame": 17858,
+            "start_ts": 711.24,
+            "end_ts": 714.32,
+            "duration": 3.08,
+            "keyframes": [
+                {
+                    "frame_idx": 17819,
+                    "timestamp": 712.76,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0109_F017819.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Mình gậy đi những cái gốc nấm cũ như thế này đó Để cho nó sạch",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "Two women are examining garlic in a market setting.",
+                    "objects_and_counts": [
+                        "2 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V011_S0110",
+            "start_frame": 17859,
+            "end_frame": 17983,
+            "start_ts": 714.36,
+            "end_ts": 719.32,
+            "duration": 4.96,
+            "keyframes": [
+                {
+                    "frame_idx": 17921,
+                    "timestamp": 716.84,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0110_F017921.jpg"
+                },
+                {
+                    "frame_idx": 17890,
+                    "timestamp": 715.6,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0110_F017890.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Để không thì những cái góc nấm này nó còn sót lại là nó sẽ bị úng, nó bị hư là đợt sau nó sẽ không mọc được",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "A woman in a pink shirt is using a tool to extract something from a coconut in a workshop setting.",
+                    "objects_and_counts": [
+                        "2 person, 1 banana | 2 person, 1 donut"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V011_S0111",
+            "start_frame": 17984,
+            "end_frame": 18073,
+            "start_ts": 719.36,
+            "end_ts": 722.92,
+            "duration": 3.56,
+            "keyframes": [
+                {
+                    "frame_idx": 18028,
+                    "timestamp": 721.12,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0111_F018028.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Là mình phải cải sạch ra Xong rồi mình mới đậy nó lại",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "Two women are examining and handling white, cylindrical objects in a market setting.",
+                    "objects_and_counts": [
+                        "2 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V011_S0112",
+            "start_frame": 18074,
+            "end_frame": 18335,
+            "start_ts": 722.96,
+            "end_ts": 733.4,
+            "duration": 10.44,
+            "keyframes": [
+                {
+                    "frame_idx": 18204,
+                    "timestamp": 728.16,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0112_F018204.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Cái công đoạn mà vệ sinh cái gốc nấm sau khi thu hoạch Nó rất là quan trọng Nếu mà mình làm không kỹ khâu này Là mình sẽ không hái nấm được nhiều lần Tại vì cái gốc mà nó xót lại là nó sẽ bị hư",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "White mushrooms are growing in plastic pots on a bed of soil."
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V011_S0113",
+            "start_frame": 18336,
+            "end_frame": 18504,
+            "start_ts": 733.44,
+            "end_ts": 740.16,
+            "duration": 6.72,
+            "keyframes": [
+                {
+                    "frame_idx": 18420,
+                    "timestamp": 736.8,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0113_F018420.jpg"
+                },
+                {
+                    "frame_idx": 18378,
+                    "timestamp": 735.12,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0113_F018378.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Đây là con sóc mà mình phải nạp sạch ra rồi mình mới nắp lại. Khi mà mình bắt đầu dựng những cái nhà nóng thì mình có lưu ý.",
+                "ocr_text": "HTV Online ĐỜI MÁT MEKONG | Online",
+                "vlm_caption": {
+                    "detailed_description": "The image shows a close-up of white mushrooms growing in a concrete block, with a blurred background.",
+                    "objects_and_counts": [
+                        "2 toilet | 1 toilet"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V011_S0114",
+            "start_frame": 18506,
+            "end_frame": 18835,
+            "start_ts": 740.24,
+            "end_ts": 753.4,
+            "duration": 13.16,
+            "keyframes": [
+                {
+                    "frame_idx": 18670,
+                    "timestamp": 746.8,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0114_F018670.jpg"
+                },
+                {
+                    "frame_idx": 18752,
+                    "timestamp": 750.08,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0114_F018752.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Chúng ta có ý gì về chọn hướng nắng, hướng gió hay là nguồn nước như thế nào để phù hợp với điều kiện phát triển của từng loại không? Khi mà dựng trại nắm lên mình cũng phải xem cái hướng nắng, đặc biệt nó rất là ảnh hưởng tới nắm nha. Ví dụ như ở đây thì mình sẽ chọn hướng nắng.",
+                "ocr_text": "Online DOI MAT MEKONG | Online",
+                "vlm_caption": {
+                    "detailed_description": "The image shows an aerial view of a construction site with rows of concrete slabs and greenery surrounding the area."
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V011_S0115",
+            "start_frame": 18837,
+            "end_frame": 19319,
+            "start_ts": 753.48,
+            "end_ts": 772.76,
+            "duration": 19.28,
+            "keyframes": [
+                {
+                    "frame_idx": 19078,
+                    "timestamp": 763.12,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0115_F019078.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hướng nhà chạy sẽ quay hướng này Để những vách xung quanh mình làm kính Thì buổi chiều nắng chiếu vô hướng này Thì nó không bị ảnh hưởng vào phôi nấm phía trong Nếu mà phôi nấm bị nắng chiếu vô trực tiếp Là nó sẽ bị nóng và nó bị khô cho nấm Nhưng mà điều kiện thời tiết ở đây của mình Thì cũng khá là nóng cho nên là mình phải bảo quản Và mình phải tưới Mình có tưới nhiều lần trong ngày",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "The image depicts an aerial view of a rural area with houses, small ponds, and greenery, surrounded by a river and distant fields under a clear sky."
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V011_S0116",
+            "start_frame": 19321,
+            "end_frame": 19785,
+            "start_ts": 772.84,
+            "end_ts": 791.4,
+            "duration": 18.56,
+            "keyframes": [
+                {
+                    "frame_idx": 19553,
+                    "timestamp": 782.12,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0116_F019553.jpg"
+                },
+                {
+                    "frame_idx": 19437,
+                    "timestamp": 777.48,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0116_F019437.jpg"
+                },
+                {
+                    "frame_idx": 19669,
+                    "timestamp": 786.76,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0116_F019669.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Mỗi ngày tưới khoảng từ 3 đến 4 lần là đủ ẩm rồi Nhưng mà riêng đặc biệt vào mùa nắng nóng như thế này nè Thì mỗi ngày mình tưới có thể lên đến 7-8 lần nữa Là cơ chứ mình tưới cả ngày luôn rồi Tại vì tưới loay hoay hết nhà này qua tới nhà nắm khác Đúng rồi, sẽ xay phiên nhau",
+                "ocr_text": "Online VAM 1OGH | Online | Online MĚKÖNG",
+                "vlm_caption": {
+                    "detailed_description": "A large, textured object resembling a piece of wood or bark is mounted on a wooden structure, with a heart-shaped object attached to it.",
+                    "objects_and_counts": [
+                        "1 bird"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V011_S0117",
+            "start_frame": 19788,
+            "end_frame": 20044,
+            "start_ts": 791.52,
+            "end_ts": 801.76,
+            "duration": 10.24,
+            "keyframes": [
+                {
+                    "frame_idx": 19916,
+                    "timestamp": 796.64,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0117_F019916.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "ở trong nhà mỗi người tưới mỗi cử rồi cách khoảng thời gian khoảng cường 1 đến 2 tiếng mình đi tưới một lần còn về nguồn nước thì không biết là bạn sử dụng nguồn nước nào để phù hợp với nấm nhất",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "A close-up of a mushroom with a brown cap and stem against a blurred wooden background."
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V011_S0118",
+            "start_frame": 20045,
+            "end_frame": 20131,
+            "start_ts": 801.8,
+            "end_ts": 805.24,
+            "duration": 3.44,
+            "keyframes": [
+                {
+                    "frame_idx": 20088,
+                    "timestamp": 803.52,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0118_F020088.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Về cái nguồn nước thì tại địa phương Cà Mau này cũng là một cái vấn đề đây",
+                "ocr_text": "Onlinel",
+                "vlm_caption": {
+                    "detailed_description": "Two women are standing in front of a backdrop of stacked bags, with one wearing a light-colored shirt and the other in a pink garment, in a setting that appears to be a market or storage area.",
+                    "objects_and_counts": [
+                        "2 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V011_S0119",
+            "start_frame": 20132,
+            "end_frame": 20318,
+            "start_ts": 805.28,
+            "end_ts": 812.72,
+            "duration": 7.44,
+            "keyframes": [
+                {
+                    "frame_idx": 20225,
+                    "timestamp": 809.0,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0119_F020225.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "là nước rất là bị phèn và bị mặn thì ban đầu là mình sử dụng trực tiếp bằng nước giếng khoang thì",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A young woman with long black hair tied in pigtails stands in front of a wooden easel, with a background of stacked bags and a Sony microphone attached to her shirt.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V011_S0120",
+            "start_frame": 20319,
+            "end_frame": 20435,
+            "start_ts": 812.76,
+            "end_ts": 817.4,
+            "duration": 4.64,
+            "keyframes": [
+                {
+                    "frame_idx": 20377,
+                    "timestamp": 815.08,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0120_F020377.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Thì khi mà mình tưới một thời gian là cái bịch phôi nấm mình nó bị đóng một cái lớp phèn, lớp vôi ở bên ngoài nè",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "Two women are standing in a rustic setting, one wearing a light-colored shirt and the other in a pink top, with shelves filled with bags of what appears to be mushrooms or similar items in the background.",
+                    "objects_and_counts": [
+                        "2 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V011_S0121",
+            "start_frame": 20436,
+            "end_frame": 20543,
+            "start_ts": 817.44,
+            "end_ts": 821.72,
+            "duration": 4.28,
+            "keyframes": [
+                {
+                    "frame_idx": 20489,
+                    "timestamp": 819.56,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0121_F020489.jpg"
+                },
+                {
+                    "frame_idx": 20462,
+                    "timestamp": 818.48,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0121_F020462.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Mặc dù nó không ảnh hưởng trực tiếp lên đến chất lượng nấm Tại vì mục đích mình...",
+                "ocr_text": "HTV Online ĐỜI MÁT MĚKONG | Online",
+                "vlm_caption": {
+                    "detailed_description": "A close-up of a crab's mouth with its mandibles open, revealing its internal anatomy.",
+                    "objects_and_counts": [
+                        "1 bird"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V011_S0122",
+            "start_frame": 20544,
+            "end_frame": 20650,
+            "start_ts": 821.76,
+            "end_ts": 826.0,
+            "duration": 4.24,
+            "keyframes": [
+                {
+                    "frame_idx": 20597,
+                    "timestamp": 823.88,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0122_F020597.jpg"
+                },
+                {
+                    "frame_idx": 20623,
+                    "timestamp": 824.92,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0122_F020623.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "là chỉ để giữ ẩm không khí thôi còn nước với dinh dưỡng bên trong mịch phôi nó đã quyết định cho",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "The image shows a close-up of a doll's feet with a transparent plastic bag wrapped around them, set against a blurred background.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V011_S0123",
+            "start_frame": 20651,
+            "end_frame": 20796,
+            "start_ts": 826.04,
+            "end_ts": 831.84,
+            "duration": 5.8,
+            "keyframes": [
+                {
+                    "frame_idx": 20723,
+                    "timestamp": 828.92,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0123_F020723.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "cái nấm mình nó ngon hay không rồi thì sau một thời gian mình làm thì mình đã đầu tư một hệ thống",
+                "ocr_text": "HTV Online LOI MAU MEKONG",
+                "vlm_caption": {
+                    "detailed_description": "A gloved hand is holding a white faucet, with a blurred background and a logo in the bottom left corner.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V011_S0124",
+            "start_frame": 20797,
+            "end_frame": 20976,
+            "start_ts": 831.88,
+            "end_ts": 839.04,
+            "duration": 7.16,
+            "keyframes": [
+                {
+                    "frame_idx": 20886,
+                    "timestamp": 835.44,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0124_F020886.jpg"
+                },
+                {
+                    "frame_idx": 20931,
+                    "timestamp": 837.24,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0124_F020931.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "để cho đỏ nước đặc trưởng hơn tưới nấm sẽ không bị đọng những vết ố vàng trên đây",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "A woman in a pink shirt and black hair tied back is holding a wooden structure in a workshop filled with bags of materials.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V011_S0125",
+            "start_frame": 20977,
+            "end_frame": 21087,
+            "start_ts": 839.08,
+            "end_ts": 843.48,
+            "duration": 4.4,
+            "keyframes": [
+                {
+                    "frame_idx": 21032,
+                    "timestamp": 841.28,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0125_F021032.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Sản lượng hiện tại mình cũng bứng ra thị trường là khoảng bao nhiêu? Mình có thể thống kê được không?",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "Two women are standing in front of a backdrop of stacked bags, engaged in a conversation.",
+                    "objects_and_counts": [
+                        "2 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V011_S0126",
+            "start_frame": 21088,
+            "end_frame": 21228,
+            "start_ts": 843.52,
+            "end_ts": 849.12,
+            "duration": 5.6,
+            "keyframes": [
+                {
+                    "frame_idx": 21158,
+                    "timestamp": 846.32,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0126_F021158.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hiện tại thì tùy theo mùa vụ mà mỗi ngày mình sẽ cung ứng ra thị trường tầm khoảng 25-30kg nấm",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "A woman with long black hair tied in pigtails stands in front of a wooden easel, with a backdrop of stacked white bags.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V011_S0127",
+            "start_frame": 21229,
+            "end_frame": 21320,
+            "start_ts": 849.16,
+            "end_ts": 852.8,
+            "duration": 3.64,
+            "keyframes": [
+                {
+                    "frame_idx": 21274,
+                    "timestamp": 850.96,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0127_F021274.jpg"
+                },
+                {
+                    "frame_idx": 21251,
+                    "timestamp": 850.04,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0127_F021251.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Có những thời điểm mà cao điểm thì có thể lên tới 50kg nấm một ngày",
+                "ocr_text": "Online MÉKONG | Online",
+                "vlm_caption": {
+                    "detailed_description": "A river flows through a lush, green forested area, with waves crashing onto the shore.",
+                    "objects_and_counts": [
+                        "1 surfboard"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V011_S0128",
+            "start_frame": 21321,
+            "end_frame": 21566,
+            "start_ts": 852.84,
+            "end_ts": 862.64,
+            "duration": 9.8,
+            "keyframes": [
+                {
+                    "frame_idx": 21443,
+                    "timestamp": 857.72,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0128_F021443.jpg"
+                },
+                {
+                    "frame_idx": 21382,
+                    "timestamp": 855.28,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0128_F021382.jpg"
+                },
+                {
+                    "frame_idx": 21504,
+                    "timestamp": 860.16,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0128_F021504.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Mỗi ngày mình đi hái nấm và đều có nấm tươi, nấm mới để mình cung ứng ra thị trường. Con số cũng rất là đáng để luôn với một cô gái bé nhỏ giống như Mairin như thế này.",
+                "ocr_text": "Online MEKONG | Online | HTV Online ĐỜI MÁT MEKONG",
+                "vlm_caption": {
+                    "detailed_description": "A boat is floating on a calm river surrounded by lush green trees under a partly cloudy sky.",
+                    "objects_and_counts": [
+                        "2 boat, 1 person, 1 umbrella | 2 boat, 2 person | 3 boat"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V011_S0129",
+            "start_frame": 21567,
+            "end_frame": 21728,
+            "start_ts": 862.68,
+            "end_ts": 869.12,
+            "duration": 6.44,
+            "keyframes": [
+                {
+                    "frame_idx": 21647,
+                    "timestamp": 865.88,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0129_F021647.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Cô mướn ra thị trường mà trước tiên mình phục vụ cho bà con tại Cà Mau Rồi bạn có phân phối những kênh nào nữa không?",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "Two women are standing in front of a backdrop of stacked bags, engaged in a conversation.",
+                    "objects_and_counts": [
+                        "2 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V011_S0130",
+            "start_frame": 21729,
+            "end_frame": 21847,
+            "start_ts": 869.16,
+            "end_ts": 873.88,
+            "duration": 4.72,
+            "keyframes": [
+                {
+                    "frame_idx": 21788,
+                    "timestamp": 871.52,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0130_F021788.jpg"
+                },
+                {
+                    "frame_idx": 21758,
+                    "timestamp": 870.32,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0130_F021758.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Về nấm tươi thì mình bán tại thị trường địa phương Cà Mau Tại vì do đặc thù vận chuyển",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "A woman with long black hair, wearing a pink shirt, stands in front of a wooden structure with bags of white material in the background.",
+                    "objects_and_counts": [
+                        "1 person | 1 person, 1 tie"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V011_S0131",
+            "start_frame": 21848,
+            "end_frame": 22359,
+            "start_ts": 873.92,
+            "end_ts": 894.36,
+            "duration": 20.44,
+            "keyframes": [
+                {
+                    "frame_idx": 22103,
+                    "timestamp": 884.12,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0131_F022103.jpg"
+                },
+                {
+                    "frame_idx": 21975,
+                    "timestamp": 879.0,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0131_F021975.jpg"
+                },
+                {
+                    "frame_idx": 22231,
+                    "timestamp": 889.24,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0131_F022231.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "nấm tươi thì tiêu thụ càng nhanh càng sớm càng tốt thì nấm nó càng ngon còn vận chuyển xa thì vừa tốn chi phí lại mất giảm cái độ ngon của nấm còn về cái phôi nấm thì mình cũng cung cấp phôi nấm và hướng dẫn mọi người chồng nấm tại nhà thì mình bán phôi online toàn quốc luôn là khách ở đâu mua mình cũng ship tới được sau một thời gian khởi nghiệp thì mô hình của mình cũng đang",
+                "ocr_text": "HTV Online ĐỘI MẤT MÉKONE | Online | HTV Online ĐỜI MÁT MÉKONG",
+                "vlm_caption": {
+                    "detailed_description": "A woman in a pink outfit is arranging mushrooms on shelves in a rustic, wooden structure.",
+                    "objects_and_counts": [
+                        "1 person, 1 cup, 1 bowl | 1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V011_S0132",
+            "start_frame": 22360,
+            "end_frame": 22505,
+            "start_ts": 894.4,
+            "end_ts": 900.2,
+            "duration": 5.8,
+            "keyframes": [
+                {
+                    "frame_idx": 22432,
+                    "timestamp": 897.28,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0132_F022432.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "có những kết quả rất là phấn khởi. Thì không biết là địa phương ở đây, từ chính quyền địa phương đến người dân sau khi mà...",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "Two women are standing in front of a display of garlic, with one gesturing towards the garlic while the other listens attentively.",
+                    "objects_and_counts": [
+                        "2 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V011_S0133",
+            "start_frame": 22506,
+            "end_frame": 22585,
+            "start_ts": 900.24,
+            "end_ts": 903.4,
+            "duration": 3.16,
+            "keyframes": [
+                {
+                    "frame_idx": 22545,
+                    "timestamp": 901.8,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0133_F022545.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "tiếp nhận cái sản phẩm của mình thì họ đã có những phản hồi như thế nào",
+                "ocr_text": "Online BONY",
+                "vlm_caption": {
+                    "detailed_description": "A woman with long black hair tied in pigtails stands in front of a wooden easel, with stacks of white bags in the background.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V011_S0134",
+            "start_frame": 22586,
+            "end_frame": 22719,
+            "start_ts": 903.44,
+            "end_ts": 908.76,
+            "duration": 5.32,
+            "keyframes": [
+                {
+                    "frame_idx": 22652,
+                    "timestamp": 906.08,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0134_F022652.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "và định hướng của bạn phát triển trong thời gian sắp tới ra sao? Với khách hàng tại địa phương thì...",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "Two women are standing in front of a stack of bags, with one wearing a yellow shirt and the other in a pink top, in an outdoor setting with a thatched structure and stacked bags in the background.",
+                    "objects_and_counts": [
+                        "2 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V011_S0135",
+            "start_frame": 22720,
+            "end_frame": 22901,
+            "start_ts": 908.8,
+            "end_ts": 916.04,
+            "duration": 7.24,
+            "keyframes": [
+                {
+                    "frame_idx": 22810,
+                    "timestamp": 912.4,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0135_F022810.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Người dân xung quanh địa phương đây cũng là khách hàng thân thiết của chạy nắm mình Và đặc biệt là ở địa phương xã cũng hỗ trợ",
+                "ocr_text": "HTV Online ĐÔI MÁT Chị Trần Mai Ril MĚKONG Chủ trại nấm ở huyện Cái Nước, Cà Mau",
+                "vlm_caption": {
+                    "detailed_description": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V011_S0136",
+            "start_frame": 22902,
+            "end_frame": 23034,
+            "start_ts": 916.08,
+            "end_ts": 921.36,
+            "duration": 5.28,
+            "keyframes": [
+                {
+                    "frame_idx": 22968,
+                    "timestamp": 918.72,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0136_F022968.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "đầu ra cho trại nắm rất nhiều là tạo cơ hội để đi trưng bày các cái cuộc",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "Two women are standing in front of a wooden structure filled with bags of white material, possibly mushrooms, in a rustic setting.",
+                    "objects_and_counts": [
+                        "2 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V011_S0137",
+            "start_frame": 23035,
+            "end_frame": 23195,
+            "start_ts": 921.4,
+            "end_ts": 927.8,
+            "duration": 6.4,
+            "keyframes": [
+                {
+                    "frame_idx": 23115,
+                    "timestamp": 924.6,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0137_F023115.jpg"
+                },
+                {
+                    "frame_idx": 23075,
+                    "timestamp": 923.0,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0137_F023075.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "hội trợ ở địa phương, ở huyện, ở xã và tỉnh và có thể là ở những cái tỉnh khác, vùng khác cũng có nữa.",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "A woman with long black hair and a pink shirt stands in front of a wooden structure filled with white objects, possibly mushrooms, in a dimly lit room.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V011_S0138",
+            "start_frame": 23196,
+            "end_frame": 23378,
+            "start_ts": 927.84,
+            "end_ts": 935.12,
+            "duration": 7.28,
+            "keyframes": [
+                {
+                    "frame_idx": 23287,
+                    "timestamp": 931.48,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0138_F023287.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Và định hướng của bạn trong thời gian tới thì bạn có định là mình sẽ mở rộng mô hình về số lượng hay về sản lượng như thế nào không?",
+                "ocr_text": "Online,",
+                "vlm_caption": {
+                    "detailed_description": "Two women stand in front of shelves filled with bags of white and beige items, with one wearing a yellow shirt and the other in a pink top.",
+                    "objects_and_counts": [
+                        "2 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V011_S0139",
+            "start_frame": 23379,
+            "end_frame": 23816,
+            "start_ts": 935.16,
+            "end_ts": 952.64,
+            "duration": 17.48,
+            "keyframes": [
+                {
+                    "frame_idx": 23597,
+                    "timestamp": 943.88,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0139_F023597.jpg"
+                },
+                {
+                    "frame_idx": 23488,
+                    "timestamp": 939.52,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0139_F023488.jpg"
+                },
+                {
+                    "frame_idx": 23706,
+                    "timestamp": 948.24,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0139_F023706.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Và Phương Nguyên thấy là hiện tại thì thời tiết và giao thông ở đây cũng là một vấn đề khá là nan giải trong khu vực của mình Thì bạn sẽ định hướng để giải quyết nó như thế nào? Về cái định hướng tương lai của mình thì mình sẽ mở rộng cái mô hình mình ra Thứ nhất là nâng về cái sản lượng lên Hiện tại thì...",
+                "ocr_text": "Online * TÀM LỘC | Online | HTV Online ĐỘI MÁT MEKONG",
+                "vlm_caption": {
+                    "detailed_description": "A small boat travels across a narrow bridge over a river, surrounded by lush greenery and agricultural fields.",
+                    "objects_and_counts": [
+                        "2 boat | 3 boat"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V011_S0140",
+            "start_frame": 23817,
+            "end_frame": 23989,
+            "start_ts": 952.68,
+            "end_ts": 959.56,
+            "duration": 6.88,
+            "keyframes": [
+                {
+                    "frame_idx": 23903,
+                    "timestamp": 956.12,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0140_F023903.jpg"
+                },
+                {
+                    "frame_idx": 23860,
+                    "timestamp": 954.4,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0140_F023860.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Cái giao thông ở đây là điều trở ngại lớn nhất. Thì mình cũng đã có kế hoạch là mở chạy nắm ở thành phố Cà Mau.",
+                "ocr_text": "Ortine",
+                "vlm_caption": {
+                    "detailed_description": "The image depicts a serene river surrounded by dense mangrove trees under a cloudy sky."
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V011_S0141",
+            "start_frame": 23990,
+            "end_frame": 24119,
+            "start_ts": 959.6,
+            "end_ts": 964.76,
+            "duration": 5.16,
+            "keyframes": [
+                {
+                    "frame_idx": 24054,
+                    "timestamp": 962.16,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0141_F024054.jpg"
+                },
+                {
+                    "frame_idx": 24086,
+                    "timestamp": 963.44,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0141_F024086.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "để thuận tiện di chuyển hơn và nó đỡ phải tốn công sức thuyền đò đó.",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "A woman with long black hair tied in pigtails stands in front of a wooden easel, wearing a pink shirt and a Sony microphone, with bags of mushrooms in the background.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V011_S0142",
+            "start_frame": 24120,
+            "end_frame": 24225,
+            "start_ts": 964.8,
+            "end_ts": 969.0,
+            "duration": 4.2,
+            "keyframes": [
+                {
+                    "frame_idx": 24172,
+                    "timestamp": 966.88,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0142_F024172.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Cảm ơn Margin ngày hôm nay đã dành thời gian để trò chuyện cùng với chương trình Đôi Mắt Nguyên Công.",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "Two women are standing in a rustic setting with baskets and bags of goods, one wearing a light-colored shirt and the other in a pink top, with a wooden structure and stacked items in the background.",
+                    "objects_and_counts": [
+                        "2 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V011_S0143",
+            "start_frame": 24226,
+            "end_frame": 24293,
+            "start_ts": 969.04,
+            "end_ts": 971.72,
+            "duration": 2.68,
+            "keyframes": [
+                {
+                    "frame_idx": 24259,
+                    "timestamp": 970.36,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0143_F024259.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Cảm ơn Phương Nguyên và cảm ơn tất cả quý vị",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "A woman with long dark hair tied in pigtails is standing in front of a wooden structure filled with bags of white material, smiling at the camera.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V011_S0144",
+            "start_frame": 24294,
+            "end_frame": 24617,
+            "start_ts": 971.76,
+            "end_ts": 984.68,
+            "duration": 12.92,
+            "keyframes": [
+                {
+                    "frame_idx": 24455,
+                    "timestamp": 978.2,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0144_F024455.jpg"
+                },
+                {
+                    "frame_idx": 24374,
+                    "timestamp": 974.96,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0144_F024374.jpg"
+                },
+                {
+                    "frame_idx": 24536,
+                    "timestamp": 981.44,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0144_F024536.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Tưởng chừng nấm chỉ được dùng để chế biến thực phẩm Nhưng bằng sự sáng tạo của mình, Myrin đã cho ra đời những chậu nấm bonsai đầy tính nghệ thuật",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "The image shows a table with various decorated bowls and a series of close-up shots of hands holding small potted plants in different colors and designs.",
+                    "objects_and_counts": [
+                        "1 person, 7 vase | 1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V011_S0145",
+            "start_frame": 24619,
+            "end_frame": 25307,
+            "start_ts": 984.76,
+            "end_ts": 1012.28,
+            "duration": 27.52,
+            "keyframes": [
+                {
+                    "frame_idx": 24963,
+                    "timestamp": 998.52,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0145_F024963.jpg"
+                },
+                {
+                    "frame_idx": 24791,
+                    "timestamp": 991.64,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0145_F024791.jpg"
+                },
+                {
+                    "frame_idx": 25135,
+                    "timestamp": 1005.4,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0145_F025135.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Quê hương là chùm ché ngọt, cho con trèo hái mỗi ngày. Quê hương là đường đi học, con về rợp bướm vàng bay. Quê hương như người mẹ hiền, luôn bảo bọc, chở che, lặng lẽ ngắm nhìn và lặng lẽ chứng kiến sự trưởng thành của mỗi chúng ta. Với hành trình trở về quê hương và quyết tâm làm giàu từ cây nấm, Mai Rinh là một trong những vương sáng của địa phương.",
+                "ocr_text": "HTV ĐỜI MÁT MEKONG | HTV Online ĐỜI MẤT MĚKONG | Online",
+                "vlm_caption": {
+                    "detailed_description": "An aerial view shows a boat navigating through a narrow waterway flanked by lush greenery and houses, with the text \"Đôi Mắt Mekong\" and \"HTTV Online\" visible.",
+                    "objects_and_counts": [
+                        "1 boat | 2 person, 4 boat"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V011_S0146",
+            "start_frame": 25308,
+            "end_frame": 25501,
+            "start_ts": 1012.32,
+            "end_ts": 1020.04,
+            "duration": 7.72,
+            "keyframes": [
+                {
+                    "frame_idx": 25404,
+                    "timestamp": 1016.16,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0146_F025404.jpg"
+                },
+                {
+                    "frame_idx": 25356,
+                    "timestamp": 1014.24,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0146_F025356.jpg"
+                },
+                {
+                    "frame_idx": 25452,
+                    "timestamp": 1018.08,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0146_F025452.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Những ngày lao động bằng cả nhiệt huyết và cái tâm với nghệ trồng nấm của cô gái nông dân chính hiệu đã đem lại những sự thật đẹp.",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "The image depicts a traditional wooden structure with bamboo elements, possibly part of a cultural or historical exhibit, featuring intricate carvings and a bird-like figure.",
+                    "objects_and_counts": [
+                        "1 sheep | 1 donut | 1 vase"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V011_S0147",
+            "start_frame": 25502,
+            "end_frame": 25754,
+            "start_ts": 1020.08,
+            "end_ts": 1030.16,
+            "duration": 10.08,
+            "keyframes": [
+                {
+                    "frame_idx": 25628,
+                    "timestamp": 1025.12,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0147_F025628.jpg"
+                },
+                {
+                    "frame_idx": 25565,
+                    "timestamp": 1022.6,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0147_F025565.jpg"
+                },
+                {
+                    "frame_idx": 25691,
+                    "timestamp": 1027.64,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0147_F025691.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "những thư vị ngọt ngào trong những món ngon đặc sản của nơi đây. Thưa quý vị, có được một ngày trải nghiệm quy trình chăm sóc nấm và được tự tay thu hoạch những...",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "The image shows a person wearing a pink garment standing next to a shelf filled with neatly stacked cylindrical objects, likely food items, wrapped in plastic.",
+                    "objects_and_counts": [
+                        "1 person, 1 spoon, 1 bowl | 1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V011_S0148",
+            "start_frame": 25755,
+            "end_frame": 26024,
+            "start_ts": 1030.2,
+            "end_ts": 1040.96,
+            "duration": 10.76,
+            "keyframes": [
+                {
+                    "frame_idx": 25889,
+                    "timestamp": 1035.56,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0148_F025889.jpg"
+                },
+                {
+                    "frame_idx": 25822,
+                    "timestamp": 1032.88,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0148_F025822.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Sản phẩm tươi như thế này tại vườn càng khiến cho chúng tôi thêm trân quý và tháng phục sức hăng sai lao động của con người ở nơi đây. Như dòng sông bao đời này đã phun bồi, tưới tấm cho những giá trị sống của con người.",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "A woman in a light yellow shirt stands in front of a bamboo fence, holding a bouquet of flowers.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V011_S0149",
+            "start_frame": 26025,
+            "end_frame": 26196,
+            "start_ts": 1041.0,
+            "end_ts": 1047.84,
+            "duration": 6.84,
+            "keyframes": [
+                {
+                    "frame_idx": 26110,
+                    "timestamp": 1044.4,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0149_F026110.jpg"
+                },
+                {
+                    "frame_idx": 26153,
+                    "timestamp": 1046.12,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0149_F026153.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Và con người thì sinh hoạt, lao động để tô điểm cho dòng sông Sẽ còn rất nhiều những câu chuyện về vẻ đẹp cuộc sống lao động của người dân",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V011_S0150",
+            "start_frame": 26197,
+            "end_frame": 26358,
+            "start_ts": 1047.88,
+            "end_ts": 1054.32,
+            "duration": 6.44,
+            "keyframes": [
+                {
+                    "frame_idx": 26277,
+                    "timestamp": 1051.08,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0150_F026277.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "Online",
+                "vlm_caption": {
+                    "detailed_description": "A woman in a light yellow shirt stands in front of a bamboo background.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V011_S0151",
+            "start_frame": 26359,
+            "end_frame": 26467,
+            "start_ts": 1054.36,
+            "end_ts": 1058.68,
+            "duration": 4.32,
+            "keyframes": [
+                {
+                    "frame_idx": 26413,
+                    "timestamp": 1056.52,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0151_F026413.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Xin chào tạm biệt và hẹn gặp lại quý vị khán giả của chương trình Đôi Nắp Mê Công.",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A woman stands in front of a bamboo fence, holding a woven basket with white and pink flowers, wearing a light yellow blouse and dark pants.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L29_V011_S0152",
+            "start_frame": 26468,
+            "end_frame": 26892,
+            "start_ts": 1058.72,
+            "end_ts": 1075.68,
+            "duration": 16.96,
+            "keyframes": [
+                {
+                    "frame_idx": 26680,
+                    "timestamp": 1067.2,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0152_F026680.jpg"
+                },
+                {
+                    "frame_idx": 26786,
+                    "timestamp": 1071.44,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L29_V011/L29_V011_S0152_F026786.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Altyazı M.K.",
+                "ocr_text": "ATV Kịch bản Lê Mẫn Đạo điển Hoài Nam Quay phim Văn Cuờng Duy Khánh Dựng phim TMT Groud Thể hiện lời bình Ý NHUNG | HTV ĐÀI TRUYỀN HÌNH TP. HỒ CHÍ MINH Thực hiện",
+                "vlm_caption": {
+                    "detailed_description": "A cartoon boat with a fish and vegetables on the front is floating in the sky with clouds and a blue sunburst background.",
+                    "objects_and_counts": [
+                        "1 book"
+                    ]
+                }
+            }
+        }
+    ]
+}

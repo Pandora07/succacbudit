@@ -1,0 +1,3148 @@
+{
+    "video_id": "L25_V005",
+    "fps": 29.97002997002997,
+    "total_shots": 126,
+    "total_keyframes": 140,
+    "shots": [
+        {
+            "shot_id": "L25_V005_S0001",
+            "start_frame": 0,
+            "end_frame": 80,
+            "start_ts": 0.0,
+            "end_ts": 2.669,
+            "duration": 2.669,
+            "keyframes": [],
+            "extracted_data": {
+                "transcript": "",
+                "ocr_text": ""
+            }
+        },
+        {
+            "shot_id": "L25_V005_S0002",
+            "start_frame": 81,
+            "end_frame": 231,
+            "start_ts": 2.703,
+            "end_ts": 7.708,
+            "duration": 5.005,
+            "keyframes": [
+                {
+                    "frame_idx": 156,
+                    "timestamp": 5.205,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V005/L25_V005_S0002_F000156.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Thank you.",
+                "ocr_text": "ÔN TẬP MÔN VẬT LÝ CHUYÊN ĐỀ 10 HẠT NHÂN NGUYÊN TỬ Giáo viên hướng dẫn: ThS. HUỲNH KIỀU VIẾT LÃM Giáo viên môn Vật lý Trường THPT TENLOMAN",
+                "vlm_caption": {
+                    "detailed_description": "The image is an educational poster for a physics lesson on atomic nuclei, with the title \"HẠT NHÂN NGUYÊN TỬ\" and the subtitle \"CHUYÊN ĐỀ 10,\" indicating it is part of a"
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V005_S0003",
+            "start_frame": 232,
+            "end_frame": 937,
+            "start_ts": 7.741,
+            "end_ts": 31.265,
+            "duration": 23.524,
+            "keyframes": [
+                {
+                    "frame_idx": 584,
+                    "timestamp": 19.486,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V005/L25_V005_S0003_F000584.jpg"
+                },
+                {
+                    "frame_idx": 408,
+                    "timestamp": 13.614,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V005/L25_V005_S0003_F000408.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Chào mừng các em đến với buổi ôn tập thi tốt nghiệp trung học phổ thông bộ môn vật lý năm 2024, chương trình do Báo Thanh Niên tổ chức. Đến với buổi ôn tập ngày hôm nay, chúng ta bước sang chuyên đề số 10, cũng là chuyên đề cuối cùng, nói về vấn đề hạt nhân nguyên tử. Rơi vào chương 7 của chương trình vật lý 12.",
+                "ocr_text": "VẬT LÍ NĂM 2024 THPT CĐ10: HẠT NHÂN NGUYÊN TỬ THANH NIEN | THANH NIEN ÔN THI THPTQG 2024 MÔN VẬT LÝ ThS. HUỲNH KIỀU VIẾT LÃM Giáo viên môn Vật lý Trường THPT Ernst Thälmann (Q.1, TP.HCM)",
+                "vlm_caption": {
+                    "detailed_description": "A man in a blue shirt is sitting at a desk with a laptop, presenting an online lecture about the 2024 Vietnamese High School Entrance Exam in Physics.",
+                    "objects_and_counts": [
+                        "1 person, 1 laptop"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V005_S0004",
+            "start_frame": 938,
+            "end_frame": 1042,
+            "start_ts": 31.298,
+            "end_ts": 34.768,
+            "duration": 3.47,
+            "keyframes": [
+                {
+                    "frame_idx": 990,
+                    "timestamp": 33.033,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V005/L25_V005_S0004_F000990.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Để có được thành công như hôm nay",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A man in a light blue shirt is holding a book and looking at it while standing in front of a bookshelf.",
+                    "objects_and_counts": [
+                        "1 person, 1 book"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V005_S0005",
+            "start_frame": 1043,
+            "end_frame": 1124,
+            "start_ts": 34.801,
+            "end_ts": 37.504,
+            "duration": 2.703,
+            "keyframes": [
+                {
+                    "frame_idx": 1083,
+                    "timestamp": 36.136,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V005/L25_V005_S0005_F001083.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Tôi đã có những ước mơ Và tôi đã có những ước mơ",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A man walks through a library aisle, holding a book, with shelves filled with books on either side.",
+                    "objects_and_counts": [
+                        "1 person, 1 book"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V005_S0006",
+            "start_frame": 1125,
+            "end_frame": 1278,
+            "start_ts": 37.538,
+            "end_ts": 42.643,
+            "duration": 5.105,
+            "keyframes": [
+                {
+                    "frame_idx": 1201,
+                    "timestamp": 40.073,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V005/L25_V005_S0006_F001201.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "đã hiện thực hóa ước mơ của mình bắt đầu từ Trường Đại học Quốc tế Sài Gòn SIU.",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A person in a light blue shirt is arranging books on a table in a library with white shelving units and a modern design.",
+                    "objects_and_counts": [
+                        "1 person, 1 potted plant"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V005_S0007",
+            "start_frame": 1279,
+            "end_frame": 1321,
+            "start_ts": 42.676,
+            "end_ts": 44.077,
+            "duration": 1.401,
+            "keyframes": [
+                {
+                    "frame_idx": 1300,
+                    "timestamp": 43.377,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V005/L25_V005_S0007_F001300.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "you",
+                "ocr_text": "ERNAI THE SAIGO",
+                "vlm_caption": {
+                    "detailed_description": "The image shows the exterior of The Saigon International University, with a sign prominently displayed in front of a building."
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V005_S0008",
+            "start_frame": 1323,
+            "end_frame": 1376,
+            "start_ts": 44.144,
+            "end_ts": 45.913,
+            "duration": 1.768,
+            "keyframes": [
+                {
+                    "frame_idx": 1349,
+                    "timestamp": 45.012,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V005/L25_V005_S0008_F001349.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "",
+                "ocr_text": "SOON INTERNATIONAL UNIVERSITY Lewis Campus #VERSITY THE SAIGON INTERNATION",
+                "vlm_caption": {
+                    "detailed_description": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V005_S0009",
+            "start_frame": 1377,
+            "end_frame": 1423,
+            "start_ts": 45.946,
+            "end_ts": 47.481,
+            "duration": 1.535,
+            "keyframes": [
+                {
+                    "frame_idx": 1400,
+                    "timestamp": 46.713,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V005/L25_V005_S0009_F001400.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "SIU • THE SAIGON INTERNATIONAL UNIVERSITY (Ta) www stu edu vn",
+                "vlm_caption": {
+                    "detailed_description": "A classroom at The Saigon International University features a teacher at the front with students raising their hands, and a whiteboard displaying geometric shapes and equations.",
+                    "objects_and_counts": [
+                        "8 chair, 10 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V005_S0010",
+            "start_frame": 1424,
+            "end_frame": 1468,
+            "start_ts": 47.514,
+            "end_ts": 48.982,
+            "duration": 1.468,
+            "keyframes": [
+                {
+                    "frame_idx": 1446,
+                    "timestamp": 48.248,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V005/L25_V005_S0010_F001446.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "THE SAIGON INTERNATIONAL UNI (Ja) = a A",
+                "vlm_caption": {
+                    "detailed_description": "A man in a suit stands in front of a whiteboard filled with mathematical equations and diagrams, presenting at The Saigon International University.",
+                    "objects_and_counts": [
+                        "1 person, 1 tie"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V005_S0011",
+            "start_frame": 1469,
+            "end_frame": 1512,
+            "start_ts": 49.016,
+            "end_ts": 50.45,
+            "duration": 1.435,
+            "keyframes": [
+                {
+                    "frame_idx": 1490,
+                    "timestamp": 49.716,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V005/L25_V005_S0011_F001490.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A group of individuals wearing headphones are seated at desks with computer monitors and keyboards, engaged in an activity that appears to be a call center or online support scenario.",
+                    "objects_and_counts": [
+                        "2 keyboard, 6 person, 3 tv, 2 chair"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V005_S0012",
+            "start_frame": 1513,
+            "end_frame": 1595,
+            "start_ts": 50.484,
+            "end_ts": 53.22,
+            "duration": 2.736,
+            "keyframes": [
+                {
+                    "frame_idx": 1554,
+                    "timestamp": 51.852,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V005/L25_V005_S0012_F001554.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Cảm ơn các bạn đã theo dõi và hẹn gặp lại.",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A humanoid robot is addressing a seated audience in a classroom setting.",
+                    "objects_and_counts": [
+                        "12 person, 2 chair"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V005_S0013",
+            "start_frame": 1596,
+            "end_frame": 1628,
+            "start_ts": 53.253,
+            "end_ts": 54.321,
+            "duration": 1.068,
+            "keyframes": [
+                {
+                    "frame_idx": 1612,
+                    "timestamp": 53.787,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V005/L25_V005_S0013_F001612.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A group of students in white uniforms with badges are seated in a classroom, attentively listening to a lecture.",
+                    "objects_and_counts": [
+                        "10 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V005_S0014",
+            "start_frame": 1629,
+            "end_frame": 1677,
+            "start_ts": 54.354,
+            "end_ts": 55.956,
+            "duration": 1.602,
+            "keyframes": [
+                {
+                    "frame_idx": 1653,
+                    "timestamp": 55.155,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V005/L25_V005_S0014_F001653.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "để thể hiện và phát triển năng lực.",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "Students in uniforms are seated at desks, writing with pens and pencils in a classroom setting.",
+                    "objects_and_counts": [
+                        "7 person, 1 chair"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V005_S0015",
+            "start_frame": 1678,
+            "end_frame": 1718,
+            "start_ts": 55.989,
+            "end_ts": 57.324,
+            "duration": 1.335,
+            "keyframes": [
+                {
+                    "frame_idx": 1698,
+                    "timestamp": 56.657,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V005/L25_V005_S0015_F001698.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Những ý tưởng luôn đều có thể tạo ra",
+                "ocr_text": "XêN Put the tr 9- Bỏ xác vào thùng c The disecte. . 4. Ngân hàng chu 3 Ông quam - 1 nhân viên mới ngày thang",
+                "vlm_caption": {
+                    "detailed_description": "A hand holds an orange and black pencil poised over a lined notebook filled with handwritten notes.",
+                    "objects_and_counts": [
+                        "1 person, 1 book"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V005_S0016",
+            "start_frame": 1719,
+            "end_frame": 1793,
+            "start_ts": 57.357,
+            "end_ts": 59.826,
+            "duration": 2.469,
+            "keyframes": [
+                {
+                    "frame_idx": 1756,
+                    "timestamp": 58.592,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V005/L25_V005_S0016_F001756.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "được khuyến khích và phát huy tối đa.",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A person with glasses and a white shirt is smiling, with another person in the background.",
+                    "objects_and_counts": [
+                        "2 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V005_S0017",
+            "start_frame": 1795,
+            "end_frame": 1847,
+            "start_ts": 59.893,
+            "end_ts": 61.628,
+            "duration": 1.735,
+            "keyframes": [
+                {
+                    "frame_idx": 1821,
+                    "timestamp": 60.761,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V005/L25_V005_S0017_F001821.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Chúng tôi đã được truyền cảm hứng.",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A scientist in a lab coat and gloves holds a test tube with a red liquid, pointing at it while another scientist observes.",
+                    "objects_and_counts": [
+                        "2 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V005_S0018",
+            "start_frame": 1848,
+            "end_frame": 1890,
+            "start_ts": 61.662,
+            "end_ts": 63.063,
+            "duration": 1.401,
+            "keyframes": [
+                {
+                    "frame_idx": 1869,
+                    "timestamp": 62.362,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V005/L25_V005_S0018_F001869.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Cảm ơn các bạn đã theo dõi và ủng hộ cho kênh lalaschool Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "In a classroom setting, a young woman with shoulder-length hair and a man with short hair are seated at desks, engaged in a discussion or activity, with one of them holding a notebook and pen.",
+                    "objects_and_counts": [
+                        "3 person, 3 chair, 1 fork, 1 dining table, 1 book"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V005_S0019",
+            "start_frame": 1891,
+            "end_frame": 1951,
+            "start_ts": 63.096,
+            "end_ts": 65.098,
+            "duration": 2.002,
+            "keyframes": [
+                {
+                    "frame_idx": 1921,
+                    "timestamp": 64.097,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V005/L25_V005_S0019_F001921.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A young woman in a red and yellow polo shirt is sitting and using a laptop with an Apple logo.",
+                    "objects_and_counts": [
+                        "1 laptop, 2 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V005_S0020",
+            "start_frame": 1952,
+            "end_frame": 1999,
+            "start_ts": 65.132,
+            "end_ts": 66.7,
+            "duration": 1.568,
+            "keyframes": [
+                {
+                    "frame_idx": 1975,
+                    "timestamp": 65.899,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V005/L25_V005_S0020_F001975.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A swimmer wearing goggles and a swim cap is performing the butterfly stroke in a pool with clear blue water.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V005_S0021",
+            "start_frame": 2000,
+            "end_frame": 2112,
+            "start_ts": 66.733,
+            "end_ts": 70.47,
+            "duration": 3.737,
+            "keyframes": [
+                {
+                    "frame_idx": 2056,
+                    "timestamp": 68.602,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V005/L25_V005_S0021_F002056.jpg"
+                },
+                {
+                    "frame_idx": 2028,
+                    "timestamp": 67.668,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V005/L25_V005_S0021_F002028.jpg"
+                },
+                {
+                    "frame_idx": 2084,
+                    "timestamp": 69.536,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V005/L25_V005_S0021_F002084.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "DE",
+                "vlm_caption": {
+                    "detailed_description": "A basketball player in a green jersey with the number 8 is diving to the ground while another player in a red jersey is approaching him, with a basketball near the hoop.",
+                    "objects_and_counts": [
+                        "1 person, 2 chair, 1 tv | 4 person, 1 sports ball | 1 person, 1 potted plant"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V005_S0022",
+            "start_frame": 2113,
+            "end_frame": 2332,
+            "start_ts": 70.504,
+            "end_ts": 77.811,
+            "duration": 7.307,
+            "keyframes": [
+                {
+                    "frame_idx": 2222,
+                    "timestamp": 74.141,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V005/L25_V005_S0022_F002222.jpg"
+                },
+                {
+                    "frame_idx": 2167,
+                    "timestamp": 72.306,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V005/L25_V005_S0022_F002167.jpg"
+                },
+                {
+                    "frame_idx": 2277,
+                    "timestamp": 75.976,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V005/L25_V005_S0022_F002277.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A person in a white shirt is playing a drum set with a shiny, glittery drum head, while a large poster of two men in suits is visible in the background.",
+                    "objects_and_counts": [
+                        "4 person, 1 bed, 1 tv, 1 chair | 1 person, 18 bottle, 1 cup, 1 wine glass | 4 person, 4 tie, 2 car"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V005_S0023",
+            "start_frame": 2333,
+            "end_frame": 2369,
+            "start_ts": 77.844,
+            "end_ts": 79.046,
+            "duration": 1.201,
+            "keyframes": [
+                {
+                    "frame_idx": 2351,
+                    "timestamp": 78.445,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V005/L25_V005_S0023_F002351.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Đó là triết lý giáo dục.",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A group of graduates in black gowns and caps stand in a line, facing forward, with a colorful banner reading \"敬\" above them.",
+                    "objects_and_counts": [
+                        "22 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V005_S0024",
+            "start_frame": 2370,
+            "end_frame": 2415,
+            "start_ts": 79.079,
+            "end_ts": 80.58,
+            "duration": 1.502,
+            "keyframes": [
+                {
+                    "frame_idx": 2392,
+                    "timestamp": 79.813,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V005/L25_V005_S0024_F002392.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "mà Đại học Quốc tế Sài Gòn",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A large group of graduates in black gowns and caps are posing together in front of a traditional building with a red roof and a stone monument.",
+                    "objects_and_counts": [
+                        "20 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V005_S0025",
+            "start_frame": 2416,
+            "end_frame": 2580,
+            "start_ts": 80.614,
+            "end_ts": 86.086,
+            "duration": 5.472,
+            "keyframes": [
+                {
+                    "frame_idx": 2498,
+                    "timestamp": 83.35,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V005/L25_V005_S0025_F002498.jpg"
+                },
+                {
+                    "frame_idx": 2457,
+                    "timestamp": 81.982,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V005/L25_V005_S0025_F002457.jpg"
+                },
+                {
+                    "frame_idx": 2539,
+                    "timestamp": 84.718,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V005/L25_V005_S0025_F002539.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "SIU",
+                "vlm_caption": {
+                    "detailed_description": "A woman in a graduation gown stands next to a clock displaying the SIU logo.",
+                    "objects_and_counts": [
+                        "1 person | 1 person, 1 clock, 1 stop sign"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V005_S0026",
+            "start_frame": 2582,
+            "end_frame": 2735,
+            "start_ts": 86.153,
+            "end_ts": 91.258,
+            "duration": 5.105,
+            "keyframes": [
+                {
+                    "frame_idx": 2658,
+                    "timestamp": 88.689,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V005/L25_V005_S0026_F002658.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Đã học",
+                "ocr_text": "Tlo R SLU SA UNIVERSIL 2007 THE SAIGON INTERNATIONAL UNIVERSITY Tâm hồn Việt Nam, giáo dục thể giới Vietnam s spirit global educatien",
+                "vlm_caption": {
+                    "detailed_description": "The image features the logo and name of The Saigon International University against a backdrop of a bright blue sky with scattered clouds and a rainbow.",
+                    "objects_and_counts": [
+                        "1 frisbee"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V005_S0027",
+            "start_frame": 2736,
+            "end_frame": 13030,
+            "start_ts": 91.291,
+            "end_ts": 434.768,
+            "duration": 343.476,
+            "keyframes": [
+                {
+                    "frame_idx": 7883,
+                    "timestamp": 263.029,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V005/L25_V005_S0027_F007883.jpg"
+                },
+                {
+                    "frame_idx": 10456,
+                    "timestamp": 348.882,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V005/L25_V005_S0027_F010456.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Trước tiên chúng ta cùng sang một số kiến thức trọng tâm. Thứ nhất là cấu tạo hạt nhân. Thì hạt nhân được cấu tạo từ 2 loại hạt là proton và neutron, gọi chung là nucleon. Về mặt điện tích thì proton mang định tích dương 1,6 x 10-19 Coulomb. Và khối lượng thì proton là 1,67262 x 10-27 Cg, thì khoảng là 1,0073 U. Trong khi đó hạt neutron thì không mang điện, và khối lượng nặng hơn proton một chút xíu là 1,0087 U. Đây là hình ảnh ký hiệu của một hạt nhân. Hạt nhân y. X, A và Z. A là con số phía trên cho chúng ta biết được thông tin là tổng số nucleon trong hạt nhân. Cho biết được số neutron khi mà chúng ta lấy A trừ cho Z. Và nó cũng tương đương với lại khối lượng nguyên tử, tức là số khối. Z thì cho ta biết được 3 thông tin. Thứ nhất là số proton trong hạt nhân nguyên tử. Và cũng chính là số electron ở lớp vỏ nguyên tử. Và Z này là số thứ tự trong bản tù hoàng hóa học. Đồng vị là các hạt nhân đồng vị là những hạt nhân có cùng số Z, nhưng khác số A, nghĩa là cùng số proton và khác số neutron bên trong hạt nhân. Ví dụ như hero. Hero thì có 3 đồng vị. Đồng vị thứ nhất là H11 là hạt nhân gồm 1 proton và không có neutron. Và đây cũng là trường hợp duy nhất. Chiếm 99,9 số nguyên tử hero trong tự nhiên. Đồng vị của hero là H12 gọi là Deuteron. Là hạt nhân gồm 1 proton và 1 neutron. Chiếm 0,01. 16% số nguyên tử hero trong tự nhiên. Đồng vị thứ 3 của hero đó là H13. Hạt nhân gồm 1 proton và 2 neutron. Đây là trường hợp duy nhất có số neutron bằng 2 lần số proton. Đồng vị này thì khá hiếm. Chỉ chiếm khoảng 10 mũ trừ 7% số nguyên tử hero trong tự nhiên. Nguyên tử вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот trong hạt nhân là rất nhỏ. Lực hạt nhân lớn hơn nhiều so với các loại lực khác nên gọi là lực tương tác mạnh. Lực hạt nhân chỉ phát huy tác dụng trong phạm vi kích thước hạt nhân tức là tầm 10 mũ trừ 15 mét. Độ hụt khối Delta M sẽ bằng Z nhân M proton cộng A trừ Z nhân Mn trừ cho khối lượng hạt nhân. Năng lượng liên kết sẽ tỷ lệ với độ hụt khối trên. Năng lượng liên kết sẽ bằng Delta M nhân cho 7 tức là bằng Z nhân M proton cộng A trừ Z Mn trồng trừ cho khối lượng hạt nhân nhân cho 7. Năng lượng tối thiểu đã tách một hạt nhân bền vững thành các nước lòng. Năng lượng tỏa ra khi các nước lòng liên kết với nhau thành một hạt nhân bền vững. Năng lượng liên kết riêng Khi chúng ta đã tính được năng lượng liên kết thì W liên kết riêng sẽ bằng W liên kết chia cho số khối của hạt nhân. Năng lượng liên kết riêng này sẽ quyết định sự bền vững của hạt nhân. Năng lượng liên kết riêng của một số hạt nhân như là Uranium là 7,6 là thấp nhất bởi vì trong hạt nhân của Uranium chúng ta thấy rằng là 92,235 có nghĩa là có rất nhiều proton và neutron trong hạt nhân cho nên Uranium là một hạt nhân gọi là hạt nhân phóng xạ bởi vì chúng dễ vỡ ra thành nhiều hạt nhân. Năng lượng liên kết riêng của một số hạt nhân như Uranium là 7,6 là thấp nhất. Bởi vì chúng dễ vỡ ra thành nhiều hạt nhân. Năng lượng liên kết riêng của một số hạt nhân. Năng lượng liên kết riêng của một số hạt nhân. Trong khi đó thì sắc là 28,56 là 8,8 là hầu như tồn tại bền vững và phổ biến trong tự nhiên cùng với một số chất còn lại. Cùng với một số chất còn lại.",
+                "ocr_text": "Bi ON THI Te NĂM 2024 Trong VẬT LÍ CĐ10: HẠT NHÂN NGUYÊN TỬ THPT X KIẾN THỨC TRỌNG TÂM 1. Cấu tạo hạt nhân Khôi lượng nguyên Cho biết sồ neutron Tổng sồ nuclon có N=A-Z tứ (sô khôi) trong hạt nhân Hạt nhân được cấu tạo từ hai loại hạt là proton và nơtron (gọi chung là nuclon). X Z Hạt Điện tích Khối lượng Số thứ tự của Số proton trong hạt Số electron ở lớp nguyên tổ nhân nguyên tử vỏ nguyên tử Proton (p) 1,67262.10-27 kg = 1,0073u 0 Nơtron (n) 1,67493.10-27 kg = 1,0087u Đồng vị: c) Triti ( H) a) Proti (;H) b) Đoteri (,H) Hạt nhân gồm 1 proton và 2 nơtron Hạt nhân góm 1 proton (trường Hạt nhân gồm 1 Các hạt nhân đồng vị là những hạt proton va 1 notron, ( trường hợp duy nhất có số hợp duy nhất không có nơtron). chiếm 0,016% số chiếm 99,984% số nguyên tử nơtron băng 2 làn só proton). nguyên từ hiđro tự hidro tự nhièn Đóng vị này chi chiem khoảng nhiên 10-7% số nguyên từ hiđro tự nhiên nhân có cùng số Z, khác số A, nghĩa Hạt electron Hạt nơtron Hạt proton Sơ đỏ cấu tạo nguyên tử các đồng vị của nguyên tố hiđro là cùng số proton và khác số nơtron. | ON THI NĂM 2024 Tumg CĐ10: HẠT NHÂN NGUYÊN TỬ VẬT LÍ THPT X KIẾN THỨC TRỌNG TÂM 2. Năng lượng liên kết hạt nhân Các nuclon trong hạt nhân hút nhau bằng các lực rất mạnh gọi là lực hạt nhân. • Lực hạt nhân không có cùng bản chất với lực tĩnh điện (không phụ thuộc vào điện tích) hay lực hấp dẫn(cường độ của lực hấp dẫn giữa các nuclon trong hạt nhân là rất nhỏ). • Lực hạt nhân lớn hơn rất nhiều so với các loại lực khác nên gọi là lực tương tác mạnh. • Lực hạt nhân chỉ phát huy tác dụng trong phạm vi kích thước hạt nhân (~10-15m). Độ hụt khối: Am = Zmp + (A - Z)m,- mx Năng lượng liên kết: Wi«=[Zmp+ (A- Z)m„- mx]c?=4mc2",
+                "vlm_caption": {
+                    "detailed_description": "The image is a slide from a Vietnamese high school physics textbook, focusing on nuclear physics, specifically discussing the strong nuclear force and the binding energy of atomic nuclei."
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V005_S0028",
+            "start_frame": 13031,
+            "end_frame": 13406,
+            "start_ts": 434.801,
+            "end_ts": 447.314,
+            "duration": 12.513,
+            "keyframes": [],
+            "extracted_data": {
+                "transcript": "Ta sang phần 3 nhỏ phóng xạ. Phóng xạ là hiện tượng một hạt nhân không bền vững phát ra các tia phóng xạ và biến thành một hạt nhân khác.",
+                "ocr_text": ""
+            }
+        },
+        {
+            "shot_id": "L25_V005_S0029",
+            "start_frame": 13407,
+            "end_frame": 20580,
+            "start_ts": 447.347,
+            "end_ts": 686.686,
+            "duration": 239.339,
+            "keyframes": [
+                {
+                    "frame_idx": 16993,
+                    "timestamp": 567.0,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V005/L25_V005_S0029_F016993.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Chúng ta có phương trình phóng xạ ban đầu có hạt nhân mẹ XZA tạo ra tia cộng với hạt nhân con là YZ'A'. Trước mắt chúng ta sẽ xét về tia. Thì một hạt nhân có thể bắn một tia hoặc có thể bắn nhiều tia, thậm chí là nhiều loại tia. Tia nhiều loại tia ở đây là có các như là alpha, tia beta trữ, tia beta cộng và tia gamma. Chúng ta cùng xét bản chất, tính chất và sự dịch chuyển của hạt nhân con đối với hạt nhân mẹ trong từng loại tia. Thứ nhất nếu như hạt nhân mẹ phát ra tia alpha thì nó là dòng hạt nhân nguyên tử heli 24. Tính chất của tia alpha đó là top. Tia alpha có độ là khoảng 2 x 107 m3. Nó y-ong hóa rất mạnh và bị lệch trong điện trường tự trường. Khi chúng ta con bằng phương trình thì chúng ta sẽ thấy rằng hạt nhân con có số khối giảm 4 và lùi 2 ô trong bản tuần hoàng hoa học. Đối với tia beta trừ và beta cộng thì gọi là 2 hạt và phản hạt của nhau. Beta trừ thật ra nó chính là 2 hạt và phản hạt của nhau. Beta cộng là dòng electron. Còn beta cộng là dòng electron dương hay còn gọi là bô-si-trông. Có ký hiệu electron là E0-1 và bô-si-trông là E0-1. Tính chất của beta cộng và beta trừ thì gần như giống nhau. Thứ nhất tốc độ là gần bằng tốc độ ánh sáng. Y-ong hóa yếu hơn nhưng đâm xuyên mạnh hơn. T-ong hóa yếu hơn nhưng đâm xuyên mạnh hơn. Tiếp вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот вот tốc độ ánh sáng ion hóa yếu nhất nhưng đâm xuyên mạnh nhất và vì bản chất đã là bức xạ điện tử nên không bị lệch trong điện trường và từ trường tức là khi đi vào môi trường điện trường và từ trường thì tia gamma sẽ đi thẳng trong khi đó bê ta cộng và alpha sẽ lệch về cùng hướng bê ta trừ thì sẽ lệch về hướng ngược lại sự dịch chuyển của tia gamma thì không có sự biến đổi về hạt nhân nhưng chỉ có sự thay đổi về mức năng lượng tức ban đầu hạt nhân mẹ đang ở mức năng lượng kích thích cao khi phóng ra tia gamma thì sẽ trở về trạng thái cơ bản hoặc mức kích thích thấp hơn thì tia gamma này thường không đi riêng lễ mà thường đi kèm với các loại phóng xạ ở phía trên là alpha, bê ta trừ và bê ta cộng",
+                "ocr_text": "ON THI NĂM 2024 VẬT LÍ CĐ10: HẠT NHÂN NGUYÊN TỬ THPT X KIẾN THỨC TRỌNG TÂM 3. Phóng xạ A Là hiện tượng một hạt nhân không bền vững phát ra các tia Tia + phóng xạ, biến thành một hạt nhân khác. Tia Tính chất Bản chất Dịch chuyển Là dòng hạt nhân nguyên tử Hạt nhân con có số khối giảm 4, và + Tốc độ 2. 10 m/s + lon hóa rất mạnh lùi 2 ô trong bảng tuần hoàn hóa He2 + Bị lệch trong điện trường, từ trường học. + Tốc độ gần bằng tốc độ ánh sáng Hạt nhân con có số khối không Là dòng hạt electron _ie + lon hóa yếu hơn nhưng đâm xuyên mạnh hơn tia thay đổi và tiến một ô trong bảng tuần hoàn + Bị lệch trong điện trường, từ trường Là dòng hạt electron dương Hạt nhân con có số khối không thay đổi và lùi một ô trong bảng B+ +ie ( positron). tuần hoàn + Không có sự biến đổi hạt nhân, Là bức xạ điện từ có bước + Tốc độ ánh sáng rất sóng chỉ có sự thay đối về mức năng ngắn dưới + lon hóa yếu nhất, nhưng đâm xuyên mạnh nhất lượng. 10-11m) Y + Không bị lệch trong điện trường, từ trường Là hạt photon có năng lượng + Thường đi kèm với các loại rất cao. phóng xạ trên.",
+                "vlm_caption": {
+                    "detailed_description": "The image is a slide from a physics textbook or presentation, detailing the different types of radioactive decay, specifically alpha, beta-, beta+, and gamma decay, with corresponding characteristics and transformations.",
+                    "objects_and_counts": [
+                        "1 laptop"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V005_S0030",
+            "start_frame": 20581,
+            "end_frame": 21259,
+            "start_ts": 686.719,
+            "end_ts": 709.342,
+            "duration": 22.623,
+            "keyframes": [
+                {
+                    "frame_idx": 20920,
+                    "timestamp": 698.031,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V005/L25_V005_S0030_F020920.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Chúng ta xét một số định luật phóng xạ. Chu kỳ bán rã. Đặc trưng cho mỗi chất phóng xạ là thời gian t lớn, gọi là chu kỳ bán rã. Cứ sau khoảng thời gian một chu kỳ bán rã t lớn, thì một nửa lượng chất phóng xạ đã bị phân rã và biến thành chất khác.",
+                "ocr_text": "CON THE NĂM 2024 VẬT LÍ CĐ10: HẠT NHÂN NGUYÊN TỬ THPT KIẾN THỨC TRỌNG TÂM 4. Định luật phóng xạ THANH NIEN Chu kì bán rã: Đặc trưng cho mỗi chất phóng xạ là thời gian T, gọi là chu kỳ bán ră. Cứ sau khoảng thời gian 1 chu kỳ bán rã T thì ½ lượng chất phóng xạ đã bị phân rã biến thành chất khác. 000606",
+                "vlm_caption": {
+                    "detailed_description": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+                    "objects_and_counts": [
+                        "1 laptop, 1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V005_S0031",
+            "start_frame": 21260,
+            "end_frame": 26130,
+            "start_ts": 709.375,
+            "end_ts": 871.871,
+            "duration": 162.496,
+            "keyframes": [
+                {
+                    "frame_idx": 23695,
+                    "timestamp": 790.623,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V005/L25_V005_S0031_F023695.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hàng số phóng xạ thì lambda sẽ bằng LN2 chia cho T lớn T lớn lúc này là chúng ta tính bằng dây Và LN2 sẽ bằng 0.693 Lambda và chu kỳ T thì lưu ý rằng không phụ thuộc vào các tác động bên ngoài Mà chỉ phụ thuộc vào bản chất bên trong của chất phóng xạ Công thức về số hạt nhân chất phóng xạ còn lại hay gọi là số hạt mẹ còn lại Là N bằng N0 nhân 2 mũ trừ T nhỏ trên T lớn Và bằng N0 nhân E mũ trừ lambda nhân T nhỏ Tuy bài mà chúng ta sẽ thuận sử dụng công thức nào Nhưng N bằng N0 nhân 2 mũ trừ T nhỏ trên T lớn Có một lợi thế đó là N bằng N0 nhân 2 mũ trừ T nhỏ trên T lớn Chỉ còn T nhỏ và T lớn cùng đơn vị Ví dụ đối với một số chất phóng xạ có chu kỳ bán rã lớn như hàng năm Thì khi đổi ra dây thì rất khó khăn Thì chúng ta chỉ cần sử dụng 2 mũ trừ T nhỏ trên T lớn Thì T lớn đơn vị 5 Thì T nhỏ đơn vị cũng là 5 Khác với biểu thức N0 nhân E mũ trừ lambda T nhỏ Thì T nhỏ bột lòng Thì T nhỏ bột lòng Thì T nhỏ bột lòng Thì T nhỏ bột lòng Thì chúng ta phải đổi về dây Các bạn chú ý điều này Số hạt nhân mẹ bị phong rã Bằng số hạt nhân con tạo thành Là delta N Bằng N0 trừ N ban đầu Bằng N0 nhân 1 trừ 2 mũ trừ T nhỏ trên T lớn Bằng N0 nhân 1 trừ E mũ trừ lambda nhân T Bằng N0 nhân 1 trừ 2 mũ trừ T nhỏ trên T lớn Bằng N0 nhân 1 trừ� вот N вот là bằng số môn của hạt đó. Khối lượng chất phóng xạ quần lại là M bằng M0 x 2 mũ trừ T nhỏ trên T lớn bằng M0 x E mũ trừ lambda T. Khối lượng chất phóng xạ bị phong rã là delta M sẽ bằng M0 x 1 trừ 2 mũ trừ T nhỏ trên T lớn.",
+                "ocr_text": "ON THI NĂM 2024 Tung VẬT LÍ CĐ10: HẠT NHÂN NGUYÊN TỬ THPT X Thi KIẾN THỨC TRỌNG TÂM 4. Định luật phóng xạ Chu kì bán rã: Đặc trưng cho mỗi chất phóng xạ là thời gian T, gọi là 2 và chu kỳ T không phụ thuộc vào các chu kỳ bán rã. Cứ sau khoảng thời gian 1 chu kỳ bán rã T thì ½ lượng tác động bên ngoài mà chỉ phụ thuộc chất phóng xạ đã bị phân rã biến thành chất khác. bản chất bên trong của chất phóng xạ. In 2 0,693 Hằng số phóng xạ: 2 = T = T(s) Số hạt nhân chất phóng xạ còn lại (hạt mẹ còn lại): N = No. 2 T = No. e-ht",
+                "vlm_caption": {
+                    "detailed_description": "The image is a screenshot of a Vietnamese physics textbook page from the 2024 examination, focusing on the concept of radioactive decay, including the half-life and the decay equation."
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V005_S0032",
+            "start_frame": 26131,
+            "end_frame": 26333,
+            "start_ts": 871.904,
+            "end_ts": 878.644,
+            "duration": 6.74,
+            "keyframes": [
+                {
+                    "frame_idx": 26232,
+                    "timestamp": 875.274,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V005/L25_V005_S0032_F026232.jpg"
+                },
+                {
+                    "frame_idx": 26181,
+                    "timestamp": 873.573,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V005/L25_V005_S0032_F026181.jpg"
+                },
+                {
+                    "frame_idx": 26282,
+                    "timestamp": 876.943,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V005/L25_V005_S0032_F026282.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Trường Quốc tế Á Châu Tự hào là ngôi trường Mang đến nền giáo dục tiên tiến",
+                "ocr_text": "Trường Quốc Tố Á Châu madonal Scha",
+                "vlm_caption": {
+                    "detailed_description": "The image shows a building with a green and white striped facade and a sign in Vietnamese, indicating it is an international school.",
+                    "objects_and_counts": [
+                        "2 person | 10 person, 3 bench, 1 dining table, 1 pizza | 3 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V005_S0033",
+            "start_frame": 26334,
+            "end_frame": 26383,
+            "start_ts": 878.678,
+            "end_ts": 880.313,
+            "duration": 1.635,
+            "keyframes": [
+                {
+                    "frame_idx": 26358,
+                    "timestamp": 879.479,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V005/L25_V005_S0033_F026358.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A young boy wearing a school uniform and a backpack is smiling and looking to his left, while another child is reading a book in the background.",
+                    "objects_and_counts": [
+                        "2 person, 1 backpack, 1 book"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V005_S0034",
+            "start_frame": 26384,
+            "end_frame": 26435,
+            "start_ts": 880.346,
+            "end_ts": 882.048,
+            "duration": 1.702,
+            "keyframes": [
+                {
+                    "frame_idx": 26409,
+                    "timestamp": 881.18,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V005/L25_V005_S0034_F026409.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A person in a pink shirt smiles at the camera with a green, leafy background.",
+                    "objects_and_counts": [
+                        "2 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V005_S0035",
+            "start_frame": 26436,
+            "end_frame": 26465,
+            "start_ts": 882.081,
+            "end_ts": 883.049,
+            "duration": 0.968,
+            "keyframes": [
+                {
+                    "frame_idx": 26450,
+                    "timestamp": 882.548,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V005/L25_V005_S0035_F026450.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A young boy with a backpack and pink headband smiles while holding a book, with another child in the background.",
+                    "objects_and_counts": [
+                        "2 person, 1 chair, 1 backpack"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V005_S0036",
+            "start_frame": 26466,
+            "end_frame": 26600,
+            "start_ts": 883.082,
+            "end_ts": 887.553,
+            "duration": 4.471,
+            "keyframes": [
+                {
+                    "frame_idx": 26533,
+                    "timestamp": 885.318,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V005/L25_V005_S0036_F026533.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "in our cass we are a team. We respect each other 7 WE TAKE RISKS we learn from our mistakes. the try our best. create.",
+                "vlm_caption": {
+                    "detailed_description": "A classroom scene with students seated at desks, facing a teacher, and a whiteboard displaying a motivational message.",
+                    "objects_and_counts": [
+                        "13 person, 6 chair, 1 tv, 1 dining table, 1 laptop, 1 book"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V005_S0037",
+            "start_frame": 26601,
+            "end_frame": 26650,
+            "start_ts": 887.587,
+            "end_ts": 889.222,
+            "duration": 1.635,
+            "keyframes": [
+                {
+                    "frame_idx": 26625,
+                    "timestamp": 888.388,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V005/L25_V005_S0037_F026625.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A man in a white shirt and red tie is gesturing with his right hand while holding a remote control, standing in front of a green chalkboard.",
+                    "objects_and_counts": [
+                        "1 person, 1 tie, 1 cell phone"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V005_S0038",
+            "start_frame": 26651,
+            "end_frame": 26687,
+            "start_ts": 889.255,
+            "end_ts": 890.456,
+            "duration": 1.201,
+            "keyframes": [
+                {
+                    "frame_idx": 26669,
+                    "timestamp": 889.856,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V005/L25_V005_S0038_F026669.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "thuộc thể thao.",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A hand is holding a green crayon above a stack of colorful crayons on a white surface.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V005_S0039",
+            "start_frame": 26688,
+            "end_frame": 26714,
+            "start_ts": 890.49,
+            "end_ts": 891.357,
+            "duration": 0.868,
+            "keyframes": [
+                {
+                    "frame_idx": 26701,
+                    "timestamp": 890.923,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V005/L25_V005_S0039_F026701.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "감사합니다.",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A young girl wearing glasses and a red and white school uniform is sitting at a desk, smiling and working on a craft project.",
+                    "objects_and_counts": [
+                        "2 person, 3 chair, 1 potted plant, 1 vase"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V005_S0040",
+            "start_frame": 26715,
+            "end_frame": 26745,
+            "start_ts": 891.39,
+            "end_ts": 892.392,
+            "duration": 1.001,
+            "keyframes": [
+                {
+                    "frame_idx": 26730,
+                    "timestamp": 891.891,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V005/L25_V005_S0040_F026730.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "调整",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A child's drawing depicts a vibrant garden scene with colorful flowers, a butterfly, and a snail.",
+                    "objects_and_counts": [
+                        "1 person, 1 cake, 1 dining table"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V005_S0041",
+            "start_frame": 26746,
+            "end_frame": 26919,
+            "start_ts": 892.425,
+            "end_ts": 898.197,
+            "duration": 5.772,
+            "keyframes": [
+                {
+                    "frame_idx": 26832,
+                    "timestamp": 895.294,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V005/L25_V005_S0041_F026832.jpg"
+                },
+                {
+                    "frame_idx": 26789,
+                    "timestamp": 893.86,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V005/L25_V005_S0041_F026789.jpg"
+                },
+                {
+                    "frame_idx": 26875,
+                    "timestamp": 896.729,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V005/L25_V005_S0041_F026875.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Mục đích giáo dục không chỉ là truyền thụ kiến thức, mà còn giúp học sinh sáng tạo, khơi nguồn cảm hứng, đồng hành.",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A red and white striped object, possibly a balloon, is floating against a backdrop of light blue sky with scattered white clouds."
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V005_S0042",
+            "start_frame": 26920,
+            "end_frame": 26981,
+            "start_ts": 898.231,
+            "end_ts": 900.266,
+            "duration": 2.035,
+            "keyframes": [
+                {
+                    "frame_idx": 26950,
+                    "timestamp": 899.232,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V005/L25_V005_S0042_F026950.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "Two individuals in red shirts are engaged in a conversation outdoors, with one holding a notebook.",
+                    "objects_and_counts": [
+                        "2 person, 1 cell phone"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V005_S0043",
+            "start_frame": 26982,
+            "end_frame": 27038,
+            "start_ts": 900.299,
+            "end_ts": 902.168,
+            "duration": 1.869,
+            "keyframes": [
+                {
+                    "frame_idx": 27010,
+                    "timestamp": 901.234,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V005/L25_V005_S0043_F027010.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Nhân cách",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A group of people in red shirts are sitting on the grass in a park, surrounded by greenery and flowers.",
+                    "objects_and_counts": [
+                        "5 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V005_S0044",
+            "start_frame": 27039,
+            "end_frame": 27061,
+            "start_ts": 902.201,
+            "end_ts": 902.935,
+            "duration": 0.734,
+            "keyframes": [
+                {
+                    "frame_idx": 27050,
+                    "timestamp": 902.568,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V005/L25_V005_S0044_F027050.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hoài",
+                "ocr_text": "SAN 199%",
+                "vlm_caption": {
+                    "detailed_description": "Two individuals in red polo shirts are engaged in a conversation outdoors, with one wearing glasses and the other with a hand on their chin.",
+                    "objects_and_counts": [
+                        "2 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V005_S0045",
+            "start_frame": 27062,
+            "end_frame": 27102,
+            "start_ts": 902.969,
+            "end_ts": 904.303,
+            "duration": 1.335,
+            "keyframes": [
+                {
+                    "frame_idx": 27082,
+                    "timestamp": 903.636,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V005/L25_V005_S0045_F027082.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "những giờ học trên lớp, học",
+                "ocr_text": "A Flag 17% Thank 1 Cras 172 Reading saratony\" Pul 11 All Togetion Pristening and Speaking Workshop Desenten tr Game - Writing Workshop: Write a Descriptiva Paragraph Fluency . - Picture Dictionary -",
+                "vlm_caption": {
+                    "detailed_description": "A person is holding a book with a page displaying a reading lesson, including a flag, an astronaut, and a picture dictionary.",
+                    "objects_and_counts": [
+                        "1 book"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V005_S0046",
+            "start_frame": 27103,
+            "end_frame": 27168,
+            "start_ts": 904.337,
+            "end_ts": 906.506,
+            "duration": 2.169,
+            "keyframes": [
+                {
+                    "frame_idx": 27135,
+                    "timestamp": 905.404,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V005/L25_V005_S0046_F027135.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "sinh trường quốc tế Á Châu còn được trải ngay",
+                "ocr_text": "TER BOOK FAIR",
+                "vlm_caption": {
+                    "detailed_description": "Children in red and white uniforms are participating in a book fair at The Asian International School.",
+                    "objects_and_counts": [
+                        "10 person, 7 chair, 1 dining table, 1 tv"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V005_S0047",
+            "start_frame": 27169,
+            "end_frame": 27344,
+            "start_ts": 906.539,
+            "end_ts": 912.378,
+            "duration": 5.839,
+            "keyframes": [
+                {
+                    "frame_idx": 27256,
+                    "timestamp": 909.442,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V005/L25_V005_S0047_F027256.jpg"
+                },
+                {
+                    "frame_idx": 27212,
+                    "timestamp": 907.974,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V005/L25_V005_S0047_F027212.jpg"
+                },
+                {
+                    "frame_idx": 27300,
+                    "timestamp": 910.91,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V005/L25_V005_S0047_F027300.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "thử thách bản thân và phản biện các vấn đề để tự mình học hỏi trưởng thành độc lập hơn.",
+                "ocr_text": "to am",
+                "vlm_caption": {
+                    "detailed_description": "A young girl in a red and white graduation cap and gown is holding a book, while another girl in a similar outfit stands behind her, both in a classroom setting with colorful letters on the wall.",
+                    "objects_and_counts": [
+                        "5 person, 1 tie | 3 person, 3 book | 3 person, 1 book"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V005_S0048",
+            "start_frame": 27345,
+            "end_frame": 27388,
+            "start_ts": 912.412,
+            "end_ts": 913.846,
+            "duration": 1.435,
+            "keyframes": [
+                {
+                    "frame_idx": 27366,
+                    "timestamp": 913.112,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V005/L25_V005_S0048_F027366.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "you",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "The image depicts a serene sunset scene with the sun's reflection on the water, surrounded by lush green foliage."
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V005_S0049",
+            "start_frame": 27389,
+            "end_frame": 27468,
+            "start_ts": 913.88,
+            "end_ts": 916.516,
+            "duration": 2.636,
+            "keyframes": [
+                {
+                    "frame_idx": 27428,
+                    "timestamp": 915.181,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V005/L25_V005_S0049_F027428.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "감사합니다.",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "The image shows skewers of assorted vegetables and meat on a white plate.",
+                    "objects_and_counts": [
+                        "4 broccoli, 3 carrot, 1 bowl"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V005_S0050",
+            "start_frame": 27469,
+            "end_frame": 27519,
+            "start_ts": 916.549,
+            "end_ts": 918.217,
+            "duration": 1.668,
+            "keyframes": [
+                {
+                    "frame_idx": 27494,
+                    "timestamp": 917.383,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V005/L25_V005_S0050_F027494.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "you",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "Children in school uniforms are serving themselves food at a dining table.",
+                    "objects_and_counts": [
+                        "13 person, 3 bowl, 1 dining table"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V005_S0051",
+            "start_frame": 27520,
+            "end_frame": 27555,
+            "start_ts": 918.251,
+            "end_ts": 919.418,
+            "duration": 1.168,
+            "keyframes": [
+                {
+                    "frame_idx": 27537,
+                    "timestamp": 918.818,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V005/L25_V005_S0051_F027537.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A young girl in a school uniform is eating a piece of food, with another person partially visible in the background.",
+                    "objects_and_counts": [
+                        "2 person, 1 donut"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V005_S0052",
+            "start_frame": 27556,
+            "end_frame": 27585,
+            "start_ts": 919.452,
+            "end_ts": 920.42,
+            "duration": 0.968,
+            "keyframes": [
+                {
+                    "frame_idx": 27570,
+                    "timestamp": 919.919,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V005/L25_V005_S0052_F027570.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "you",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A young girl in a red and white uniform is eating a piece of food with her hands.",
+                    "objects_and_counts": [
+                        "2 person, 1 donut"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V005_S0053",
+            "start_frame": 27586,
+            "end_frame": 27867,
+            "start_ts": 920.453,
+            "end_ts": 929.829,
+            "duration": 9.376,
+            "keyframes": [
+                {
+                    "frame_idx": 27726,
+                    "timestamp": 925.124,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V005/L25_V005_S0053_F027726.jpg"
+                },
+                {
+                    "frame_idx": 27656,
+                    "timestamp": 922.789,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V005/L25_V005_S0053_F027656.jpg"
+                },
+                {
+                    "frame_idx": 27796,
+                    "timestamp": 927.46,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V005/L25_V005_S0053_F027796.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Nơi đây với tôi còn hơn cả một ngôi trường Nơi đây là nền tảng giúp đỡ",
+                "ocr_text": "GABE GROUP OF ASIAN INTERNATIONAL EDUCATION | acation. The slogan of CAlE 99 ity",
+                "vlm_caption": {
+                    "detailed_description": "A woman in a pink polo shirt stands in front of a modern building with colorful balconies, with a bright, overexposed sky in the background.",
+                    "objects_and_counts": [
+                        "1 person, 1 kite | 3 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V005_S0054",
+            "start_frame": 27869,
+            "end_frame": 27917,
+            "start_ts": 929.896,
+            "end_ts": 931.497,
+            "duration": 1.602,
+            "keyframes": [
+                {
+                    "frame_idx": 27893,
+                    "timestamp": 930.696,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V005/L25_V005_S0054_F027893.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Chúc tôi đặt những viên gạch đủ.",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A young girl in a school uniform stands near a set of colorful lockers, looking to her left.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V005_S0055",
+            "start_frame": 27918,
+            "end_frame": 27966,
+            "start_ts": 931.531,
+            "end_ts": 933.132,
+            "duration": 1.602,
+            "keyframes": [
+                {
+                    "frame_idx": 27942,
+                    "timestamp": 932.331,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V005/L25_V005_S0055_F027942.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A group of students wearing red shirts and headphones are seated at desks with computers, engaged in an activity that involves typing on keyboards.",
+                    "objects_and_counts": [
+                        "4 person, 2 keyboard, 3 tv, 1 mouse, 1 chair"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V005_S0056",
+            "start_frame": 27967,
+            "end_frame": 28055,
+            "start_ts": 933.166,
+            "end_ts": 936.102,
+            "duration": 2.936,
+            "keyframes": [
+                {
+                    "frame_idx": 28011,
+                    "timestamp": 934.634,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V005/L25_V005_S0056_F028011.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A hand is typing on a computer keyboard with a blurred background.",
+                    "objects_and_counts": [
+                        "1 keyboard"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V005_S0057",
+            "start_frame": 28057,
+            "end_frame": 28099,
+            "start_ts": 936.169,
+            "end_ts": 937.57,
+            "duration": 1.401,
+            "keyframes": [
+                {
+                    "frame_idx": 28078,
+                    "timestamp": 936.869,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V005/L25_V005_S0057_F028078.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "Two individuals are examining a specimen through a microscope in a laboratory setting.",
+                    "objects_and_counts": [
+                        "2 person, 1 scissors"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V005_S0058",
+            "start_frame": 28100,
+            "end_frame": 28180,
+            "start_ts": 937.603,
+            "end_ts": 940.273,
+            "duration": 2.669,
+            "keyframes": [
+                {
+                    "frame_idx": 28140,
+                    "timestamp": 938.938,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V005/L25_V005_S0058_F028140.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Giáo dục không phải là chuẩn bị cho cuộc sống",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "Students in a laboratory setting are engaged in various activities, including using microscopes and working with laboratory equipment.",
+                    "objects_and_counts": [
+                        "8 person, 1 bottle, 2 chair"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V005_S0059",
+            "start_frame": 28181,
+            "end_frame": 28200,
+            "start_ts": 940.306,
+            "end_ts": 940.94,
+            "duration": 0.634,
+            "keyframes": [
+                {
+                    "frame_idx": 28190,
+                    "timestamp": 940.606,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V005/L25_V005_S0059_F028190.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "中",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A lit match is placed on top of a clear glass bottle, with a yellow paper holder holding the bottle steady, against a blurred background.",
+                    "objects_and_counts": [
+                        "1 wine glass"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V005_S0060",
+            "start_frame": 28201,
+            "end_frame": 28232,
+            "start_ts": 940.973,
+            "end_ts": 942.008,
+            "duration": 1.034,
+            "keyframes": [
+                {
+                    "frame_idx": 28216,
+                    "timestamp": 941.474,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V005/L25_V005_S0060_F028216.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Nó chính là cuộc sống.",
+                "ocr_text": "20° 00m 10",
+                "vlm_caption": {
+                    "detailed_description": "Scientists in a laboratory are conducting experiments with various colored liquids in test tubes and beakers.",
+                    "objects_and_counts": [
+                        "2 person, 3 bottle"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V005_S0061",
+            "start_frame": 28233,
+            "end_frame": 28258,
+            "start_ts": 942.041,
+            "end_ts": 942.875,
+            "duration": 0.834,
+            "keyframes": [
+                {
+                    "frame_idx": 28245,
+                    "timestamp": 942.442,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V005/L25_V005_S0061_F028245.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Thank you.",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A group of students perform on stage, with a pianist, violinists, and a vocalist, surrounded by colorful balloons and an American flag.",
+                    "objects_and_counts": [
+                        "10 person, 28 sports ball, 6 chair, 1 laptop"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V005_S0062",
+            "start_frame": 28259,
+            "end_frame": 28311,
+            "start_ts": 942.909,
+            "end_ts": 944.644,
+            "duration": 1.735,
+            "keyframes": [
+                {
+                    "frame_idx": 28285,
+                    "timestamp": 943.776,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V005/L25_V005_S0062_F028285.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Từ môi trường giáo dục này",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A person in a dark room is holding a white object with a red ribbon.",
+                    "objects_and_counts": [
+                        "2 person, 1 tie"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V005_S0063",
+            "start_frame": 28313,
+            "end_frame": 28340,
+            "start_ts": 944.71,
+            "end_ts": 945.611,
+            "duration": 0.901,
+            "keyframes": [
+                {
+                    "frame_idx": 28326,
+                    "timestamp": 945.144,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V005/L25_V005_S0063_F028326.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Chúng tôi đã từng",
+                "ocr_text": "*",
+                "vlm_caption": {
+                    "detailed_description": "A young man plays the piano in front of an American flag and a Vietnamese flag.",
+                    "objects_and_counts": [
+                        "1 person, 1 oven"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V005_S0064",
+            "start_frame": 28342,
+            "end_frame": 28383,
+            "start_ts": 945.678,
+            "end_ts": 947.046,
+            "duration": 1.368,
+            "keyframes": [
+                {
+                    "frame_idx": 28362,
+                    "timestamp": 946.345,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V005/L25_V005_S0064_F028362.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Tình bước tiếp",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A person is playing a violin, with another individual partially visible in the background.",
+                    "objects_and_counts": [
+                        "2 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V005_S0065",
+            "start_frame": 28385,
+            "end_frame": 28457,
+            "start_ts": 947.113,
+            "end_ts": 949.515,
+            "duration": 2.402,
+            "keyframes": [
+                {
+                    "frame_idx": 28421,
+                    "timestamp": 948.314,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V005/L25_V005_S0065_F028421.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A person in a graduation gown and cap is ascending a wooden spiral staircase in a well-lit, elegant interior space.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V005_S0066",
+            "start_frame": 28459,
+            "end_frame": 28521,
+            "start_ts": 949.582,
+            "end_ts": 951.651,
+            "duration": 2.069,
+            "keyframes": [
+                {
+                    "frame_idx": 28490,
+                    "timestamp": 950.616,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V005/L25_V005_S0066_F028490.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Thank you.",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A young woman in a graduation cap and gown gazes upward with a thoughtful expression.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V005_S0067",
+            "start_frame": 28522,
+            "end_frame": 28658,
+            "start_ts": 951.684,
+            "end_ts": 956.222,
+            "duration": 4.538,
+            "keyframes": [
+                {
+                    "frame_idx": 28590,
+                    "timestamp": 953.953,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V005/L25_V005_S0067_F028590.jpg"
+                },
+                {
+                    "frame_idx": 28556,
+                    "timestamp": 952.819,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V005/L25_V005_S0067_F028556.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "",
+                "ocr_text": "ASIAN SCHOOLC• 1999 TRƯỜNG QUỐC TỂ Á CHÂU | AL S ATION \"ASIAN STAN INTERT SHI 1-999",
+                "vlm_caption": {
+                    "detailed_description": "The image features the logo of The Asian International School, with a blue globe and text in white and blue, set against a gradient background.",
+                    "objects_and_counts": [
+                        "1 clock"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V005_S0068",
+            "start_frame": 28659,
+            "end_frame": 29018,
+            "start_ts": 956.255,
+            "end_ts": 968.234,
+            "duration": 11.979,
+            "keyframes": [
+                {
+                    "frame_idx": 28838,
+                    "timestamp": 962.228,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V005/L25_V005_S0068_F028838.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Chúng ta sang 5. Phản ứng hạt nhân. Phản ứng hạt nhân là mọi quá trình biến đổi hạt nhân dẫn đến sự biến đổi chúng thành các hạt khác.",
+                "ocr_text": "VẬT LÍ NĂM 2022 CĐ10: HẠT NHÂN NGUYÊN TỬ THPTQC KIẾN THỨC TRỌNG TÂM 5. Phản ứng hạt nhân THANH NIEN Phản ứng hạt nhân là mọi quá trình biến đổi hạt nhân dẫn đến sự biến đổi chúng thành các hạt khác. x, + X2 → X3+ X4 trong đó X,, X, là các hạt tương tác, còn X3, X, là các hạt sản phẩm 000006",
+                "vlm_caption": {
+                    "detailed_description": "A man in a blue shirt is sitting at a desk with a laptop, presenting information on a screen displaying a lesson about nuclear reactions.",
+                    "objects_and_counts": [
+                        "1 person, 1 laptop"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V005_S0069",
+            "start_frame": 29019,
+            "end_frame": 34106,
+            "start_ts": 968.267,
+            "end_ts": 1138.004,
+            "duration": 169.736,
+            "keyframes": [
+                {
+                    "frame_idx": 31562,
+                    "timestamp": 1053.119,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V005/L25_V005_S0069_F031562.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Ta có phương trình x1 cộng x2 tạo ra x3 cộng x4. Trong đó x1 và x2 là các hạt thương tác. Còn x3 và x4 là các hạt sản phẩm. Thì dù chúng tham gia phản ứng như thế nào, thì chúng cũng phải tuân theo các định luật bảo toàn sau. Thứ nhất là bảo toàn số nilk long, tức là bảo toàn số khối. Ta có a1 cộng a2 phải bằng a3 cộng a4. Thứ hai là bảo toàn điện tích, tức là nguyên tử số z1 cộng z2 bằng z3 cộng z4. Ở đây các em lưu ý, bảo toàn là bảo toàn điện tích, chứ không phải bảo toàn số proton. Nhiều bạn học sinh hiểu lầm rằng z là số proton, cho nên z1 cộng z2 bằng z3 cộng z4 là bảo toàn proton, là phương trình x1 và x2. Nhiều bạn học sinh hiểu lầm rằng z là số proton, cho nên z1 cộng z2 bằng z3 cộng z4 là bảo toàn điện tích, chứ không phải bảo toàn số proton. Bảo toàn động lượng, thì động lượng trước phản ứng là b1 cộng b2 vector sẽ bằng b3 cộng b4 vector. Ở đây thầy diễn dịch ra là m1 vector v1 cộng m2 vector v2 bằng m3 vector v3. Cộng m4 vector v4. Và cuối cùng là bảo toàn năng lượng toàn phong, là k của hạt x1 cộng k của hạt x2 cộng delta E, tức là năng lượng phản ứng, sẽ bằng k hạt x3 cộng k hạt x4. Ở đây k chính là động năng. Năng lượng phản ứng hạt nhân, thì tùy bài chúng ta sẽ tuân theo 3 biểu thức. Đối với những bài dễ, tức là thường rơi vào câu 1 đến câu 24, thì thường chúng ta sẽ áp dụng biểu thức đầu tiên là tổng m trước trừ tổng m sau nhân 7. Những bài phong loại khá hơn, thì chúng ta sẽ sử dụng độ hụt khối là delta m sau trừ delta m trước nhân 7. Và phương pháp cuối cùng là chúng ta sử dụng k sau trừ k sau nhân 7. Từ k trước là đối với những bài phong loại khó. K ở đây là động năng. Nếu như delta E lớn hơn 0, thì phản ứng tỏa năng lượng. Ngược lại, delta E bé hơn 0, thì phản ứng này thu năng lượng. Tức là còn phải tác động năng lượng vào nó, thì phản ứng này mới xảy ra.",
+                "ocr_text": "ON THI Chal NĂM 2022 VẬT LÍ CĐ10: HẠT NHÂN NGUYÊN TỬ Trang X THPTQG KIẾN THỨC TRỌNG TÂM 5. Phản ứng hạt nhân Phản ứng hạt nhân là mọi quá trình biến đổi hạt nhân dẫn đến sự biến đổi chúng thành các hạt khác. x1 + Xz →X3+ X4 trong đó X,, X2 là các hạt tương tác, còn X3, X, là các hạt sản phẩm Các định luật bảo toàn + Bảo toàn số nuclôn (số khối): A, + A, = Az + A4 + Bảo toàn diện tích (nguyên tử số): Z, + Z2= Zz + Za + Bảo toàn động lượng: Pỉ + Pź = P3+ P4 hay m,Ví + mzvź=m3V3+™¿™¼ + Bảo toàn năng lượng: Kx, +Kx2 + AE = Kxg + Kx4",
+                "vlm_caption": {
+                    "detailed_description": "The image is a screenshot of a physics lesson from the 2022 academic year, focusing on nuclear reactions, specifically the process of nuclear fission."
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V005_S0070",
+            "start_frame": 34107,
+            "end_frame": 34693,
+            "start_ts": 1138.037,
+            "end_ts": 1157.59,
+            "duration": 19.553,
+            "keyframes": [],
+            "extracted_data": {
+                "transcript": "Ta xét tiếp theo phản ứng phân hạch Là phản ứng trong đó một hạt nhân nặng vỡ ra thành hai mảnh nhẹ hơn Sau khi hấp thụ một nơ trong Đồng thời giải phóng ca nơ trong Và tỏa nhiều năng lượng",
+                "ocr_text": ""
+            }
+        },
+        {
+            "shot_id": "L25_V005_S0071",
+            "start_frame": 34694,
+            "end_frame": 38947,
+            "start_ts": 1157.623,
+            "end_ts": 1299.532,
+            "duration": 141.908,
+            "keyframes": [
+                {
+                    "frame_idx": 36820,
+                    "timestamp": 1228.561,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V005/L25_V005_S0071_F036820.jpg"
+                },
+                {
+                    "frame_idx": 37883,
+                    "timestamp": 1264.029,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V005/L25_V005_S0071_F037883.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Đây là một hình ảnh một phản ứng dây chuyền tạo ra từ urani và một hạt nơ trong ban đầu. Ở đây các em thấy rằng chỉ còn một hạt nơ trong một viên đạn ban đầu bắn vào một hạt urani sẽ tạo ra hai viên đạn tiếp theo. Và hai viên đạn này tiếp tục va chạm hai hạt urani và từ hai tạo thành bốn. Từ bốn tiếp tục tạo thành tám cứ thế năng lượng sẽ theo cấp số nhân. Đây gọi là phản ứng dây chuyền. Và phản ứng dây chuyền này chúng ta phải kiểm soát. Nếu không kiểm soát được thì sẽ trở thành bơm. Chúng ta kiểm soát bằng cái hệ số nhân nơ trong. Nếu như K nhỏ hơn một thì phản ứng sẽ tắt dòng. K lớn hơn một thì là phản ứng vượt hạn tức là bơm nguyên tử. K bằng một tức là một hạt nơ trong đi vào thì chỉ tiếp tục một hạt nơ trong đi ra. Thì đó là điều lý tưởng. Thì phản ứng này duy trì ổn định. Đó là lò phản ứng hạt nhân. Ta sang phản ứng nhiệt hạch. Là phản ứng hai hay nhiều hạt nhân nhẹ tổng hợp thành hạt nhân nặng hơn. Thì đây là hình ảnh về phản ứng nhiệt hạch. Ta có Deuteri. Cộng cho Tri Ti là hai đồng vị của Hero. Tạo thành Heli 24 và một hạt nơ trong. Thì đối với phản ứng nhiệt hạch có đặc điểm là tạo ra năng lượng rất là lớn. Tức là 17,6 Mega electron volt trên một phản ứng. Thì nếu như trên một bằng khối lượng. Thì năng lượng của nhiệt hạch tạo ra so với phân hạch thì lớn hơn rất nhiều. Phản ứng nhiệt hạch thì sạch hơn. Cũng phản ứng hạt nhân. Cụ thể là phân hạch. Nhưng ngược lại thì phản ứng nhiệt hạch còn nhiệt độ rất cao. Nhiệt hạch thì chỉ xảy ra ở bề mặt của mặt trời và các môi sao thôi. Tại mặt đất thì con người đã chế tạo được bơm Hero. Tiếp tục nghiên cứu để kiểm soát cái năng lượng phản ứng nhiệt hạch này. Để phục vụ cho khoa học và đời sống.",
+                "ocr_text": "Bi ON THI NĂM 2024 VẬT LÍ Tung CĐ10: HẠT NHÂN NGUYÊN TỬ THPT KIẾN THỨC TRỌNG TÂM PHẢN ỨNG PHÂN HẠCH Là phản ứng trong đó một hạt nhân nặng vỡ ra thành hai mảnh nhẹ hơn sau khi hấp thụ một nơtron. Đồng thời giải phóng K nơtron và tỏa nhiều năng lượng 235 Ul 92 Phản ứng dây chuyền Hệ số nhân nơtron: + K <1 : Phản ứng tắt dần + K > 1: Phản ứng vượt hạn → Bom nguyên tử + K =1 : Phản ứng duy trì ổn định → Lò phản ứng hạt nhân | Bi ON THI NĂM 2024 CĐ10: HẠT NHÂN NGUYÊN TỬ VẬT LÍ THPT X TLi KIẾN THỨC TRỌNG TÂM PHẢN ỨNG NHIỆT HẠCH PHẢN ỨNG PHÂN HẠCH Là phản ứng trong đó một hạt nhân nặng vỡ ra thành hai Là phản ứng hai hay nhiều hạt nhân nhẹ tổng hợp mảnh nhẹ hơn sau khi hấp thụ một nơtron. Đồng thời giải thành hạt nhân nặng hơn. phóng K nơtron và tỏa nhiều năng lượng ¿He ,\" 23 U 92 + Tạo ra năng lượng lớn (17,6 Mev/phản ứng) + \"Sạch\" hơn phản ứng hạt nhân Phản ứng dây chuyền + Cần nhiệt độ rất cao (nhiệt hạch xảy ra ở bề mặt Hệ số nhân nơtron: mặt trời, các ngôi sao + K <1 : Phản ứng tắt dần + Tại trái đất: Con người chế tạo được bom H, tiếp + K > 1: Phản ứng vượt hạn → Bom nguyên tử tục nghiên cứu để kiểm soát năng lượng, phục vụ + K =1 : Phản ứng duy trì ổn định → Lò phản ứng hạt nhân cho khoa học cuộc sống.",
+                "vlm_caption": {
+                    "detailed_description": "The image is an educational poster about nuclear reactions, specifically focusing on fission and fusion reactions, with detailed explanations and diagrams.",
+                    "objects_and_counts": [
+                        "1 book"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V005_S0072",
+            "start_frame": 38948,
+            "end_frame": 39306,
+            "start_ts": 1299.565,
+            "end_ts": 1311.51,
+            "duration": 11.945,
+            "keyframes": [
+                {
+                    "frame_idx": 39037,
+                    "timestamp": 1302.535,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V005/L25_V005_S0072_F039037.jpg"
+                },
+                {
+                    "frame_idx": 39216,
+                    "timestamp": 1308.507,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V005/L25_V005_S0072_F039216.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Chúng ta đã qua một số kiến thức cơ bản của chuyên đề số 10, Bộ lý hạt nhân. Bây giờ chúng ta sẽ sang một số bài tập ví dụ để khác sâu kiến thức.",
+                "ocr_text": "THANHNIEN ThS. HUỲNH KIỀU VIẾT LÃM Giáo viên môn Vật lý Trường THPT Ernst Thälmann (Q.1, TP.HCM) | Câu 1: Cho phản ứng hạt nhân ?H + ,Be → X + {He Giá trị của Z là (THPTQG2021) B. 3 A. 1 D. 4 C. 2 THANH NIEN",
+                "vlm_caption": {
+                    "detailed_description": "A man in a light blue shirt is sitting at a desk with a laptop, speaking in front of a blue background with text.",
+                    "objects_and_counts": [
+                        "1 person, 1 laptop"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V005_S0073",
+            "start_frame": 39307,
+            "end_frame": 44188,
+            "start_ts": 1311.544,
+            "end_ts": 1474.406,
+            "duration": 162.863,
+            "keyframes": [
+                {
+                    "frame_idx": 41747,
+                    "timestamp": 1392.958,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V005/L25_V005_S0073_F041747.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Câu số 1. Cho phản ứng hạt nhân H21 cộng Berry 94 sẽ tạo ra XAZ cộng cho Heli 42. Giá trị của Z là bao nhiêu? Thì chúng ta dùng định luật bảo toàn điện tích 1 cộng 4 bằng Z cộng 2. Như vậy Z sẽ bằng 3. Đáp án của chúng ta là B. Ta sang ví dụ số 2. Cho khối lượng của proton, của neutron và của hạt nhân Li-T63 lần lượt là các giá trị dưới đây. Độ hụt khối của Li-T63 là bao nhiêu? Thì ở đây chúng ta dễ dàng sử dụng biểu thức. Độ hụt khối Delta M bằng ZMV cộng A trừ ZMN trừ cho MX. Độ hụt khối Delta M bằng ZMV cộng A trừ ZMN trừ cho MX. Trong đó MB đã có là 1,0073. MN đã có là 1,0087. A và Z định dạng A của Li-T là 6, Z của Li-T là 3. Ta trừ cho khối lượng hạt nhân Li-T lúc này là 6,0135. Thì chúng ta ra được đáp án là C. Ta sang câu ví dụ số 3. Một chất phóng sản Li-T là 1,0135. Một chất phóng sản X có chu kỳ bán rã là T. Ban đầu có một mẫu X nguyên chất với khối lượng 4g. Sau khoảng thời gian 2T thì khối lượng chất X trong mẫu đã bị phân rã là bao nhiêu? Ở đây ta có biểu thức khối lượng chất mẹ đã bị phân rã Delta M bằng M0 nhân 1 trừ 2 mũ trừ T nhỏ trên T lớn. Trong đó T nhỏ lúc này là bằng 2T lớn tức là qua thời gian là 2 chu kỳ. Chúng ta thế số thì dễ dàng ra được đã bị phân rã là 3g. Ví dụ số 4. Hạt nhân Urani-23592 có năng lượng liên kết là 1784 MeV. Năng lượng liên kết riêng của hạt nhân này là 1,784 MeV. Năng lượng liên kết riêng là bằng năng lượng liên kết chia cho số khối. Chúng ta thế số thì sẽ được đáp án là d7,59 MeV trên nước lồng.",
+                "ocr_text": "Câu 1: Cho phản ứng hạt nhân }H + {Be → {X + {He Giá trị của Z là (THPTQG2021) B .3 C. 2 D. 4 A. 1 Bảo toàn số điện tích: Z = 3 Câu 2: Cho khối lượng của prôtôn, nơtron, hạt nhân Li lần lượt là 1,0073 u; 1,0087 u; 6,0135 u. Độ hụt khối của fLi là (THPTQG2019) A. 0,0245u. B. 0,0412u. D. 0,0512u. C.)0,0345u. Am = Zm, + (A - Z)m,- mx àu có một mẫu X nguyên chất với khối lượng 4g. Sau i bị phân rã là (THPTQG2021) D. 4g.",
+                "vlm_caption": {
+                    "detailed_description": "The image contains two multiple-choice questions related to chemistry, including questions about the atomic number (Z) of elements and the mass defect in a lithium isotope."
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V005_S0074",
+            "start_frame": 44189,
+            "end_frame": 45520,
+            "start_ts": 1474.44,
+            "end_ts": 1518.851,
+            "duration": 44.411,
+            "keyframes": [
+                {
+                    "frame_idx": 44854,
+                    "timestamp": 1496.628,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V005/L25_V005_S0074_F044854.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Ta dàn ví dụ số 5. Một mẫu chất chữa Cobalt-60 là chất phóng xạ với chu kỳ là 5,27 năm, được sử dụng trong điều trị ung thư. Gọi Delta-N0 là số hạt Cobalt-60 của mẫu phân rã trong 1 phút khi nó mới được sản xuất. Mẫu được coi là hết hạn sử dụng khi số hạt Cobalt-60 của mẫu phân rã trong 1 phút nhỏ hơn 0,7 Delta-N0. Nếu mẫu được sản xuất vào tuần đầu tiên của tháng 7 năm 2021, thì hạn sử dụng của nó đến bao nhiêu?",
+                "ocr_text": "Câu 5: Một mẫu chất chứa Co6° là chất phóng xạ với chu kì bán rã 5,27 năm, được sử dụng trong điều trị ung thu. Gọi AN, là số hạt Co6o của mẫu phân rã trong 1 phút khi nó mới được sản xuất. Mẫu được coi là hết \"hạn sử dụng\" khi số hạt Coồ của mẫu phân rã trong 1 phút nhỏ hơn 0,7AN,. Nếu mẫu được sản xuất vào tuần đầu tiên của tháng 7 năm 2021 thì hạn sử dụng của nó đến (THPTQG 2021) THANH NIEN",
+                "vlm_caption": {
+                    "detailed_description": "A man in a blue shirt is sitting at a desk with a laptop, with a blue background and text in Vietnamese on the right side.",
+                    "objects_and_counts": [
+                        "1 person, 1 laptop"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V005_S0075",
+            "start_frame": 45521,
+            "end_frame": 47018,
+            "start_ts": 1518.884,
+            "end_ts": 1568.834,
+            "duration": 49.95,
+            "keyframes": [
+                {
+                    "frame_idx": 46269,
+                    "timestamp": 1543.842,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V005/L25_V005_S0075_F046269.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "thì độ phóng xạ ban đầu của Cobalt là H0 bằng ΔN0 H thì bằng H0 nhân E mũ trừ λT bằng ΔN0 nhân E mũ trừ λT thì đề yêu cầu là nhỏ hơn hoặc bằng 0,ΔN0 thì hết hạn sử dụng thì lúc này chúng ta thể vào λT sẽ nhỏ hơn bằng lóc của 1 phòng 0,7 như vậy T chúng ta sẽ tính ra được là 2,712 năm đáp án là tháng 3 năm 2004",
+                "ocr_text": "Câu 5: Một mẫu chất chứa Co6° là chất phóng xạ với chu kì bán rã 5,27 năm, được sử dụng trong điều trị ung thư. Gọi 4N, là số hạt Co6° của mẫu phân rã trong 1 phút khi nó mới được sản xuất. Mẫu được coi là hết \"hạn sử dụng\" khi số hạt Co60 của mẫu phân rã trong 1 phút nhỏ hơn 0,7AN,. Nếu mẫu được sản xuất vào tuần đầu tiên của tháng 7 năm 2021 thì hạn sử dụng của nó đến (THPTQG 2021) C D 5/2025 3/2024 A 5/2024 B 3/2024 Bài giải Độ phóng xạ ban đầu: Ho = AN, H = Ho.e-it = AN .e-*t ≤ 0,7AN.",
+                "vlm_caption": {
+                    "detailed_description": "The image is a screenshot of a Vietnamese math problem related to radioactive decay, with options A, B, C, and D for the answer, and a solution showing the initial activity (H₀) and the condition for the end of use."
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V005_S0076",
+            "start_frame": 47019,
+            "end_frame": 47020,
+            "start_ts": 1568.867,
+            "end_ts": 1568.901,
+            "duration": 0.033,
+            "keyframes": [
+                {
+                    "frame_idx": 47019,
+                    "timestamp": 1568.867,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V005/L25_V005_S0076_F047019.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "",
+                "ocr_text": "IACBE SIU",
+                "vlm_caption": {
+                    "detailed_description": "The image shows a modern building with the logo of Saigon International University and IACBE on its facade, surrounded by other buildings and greenery."
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V005_S0077",
+            "start_frame": 47021,
+            "end_frame": 47052,
+            "start_ts": 1568.934,
+            "end_ts": 1569.968,
+            "duration": 1.034,
+            "keyframes": [
+                {
+                    "frame_idx": 47036,
+                    "timestamp": 1569.435,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V005/L25_V005_S0077_F047036.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Trường Đại học Quốc tế",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "The image shows an aerial view of a modern building with a flat roof and signage for \"The Saigon International University\" and \"AABE\" on its facade, surrounded by other buildings and greenery.",
+                    "objects_and_counts": [
+                        "2 train"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V005_S0078",
+            "start_frame": 47053,
+            "end_frame": 47090,
+            "start_ts": 1570.002,
+            "end_ts": 1571.236,
+            "duration": 1.235,
+            "keyframes": [
+                {
+                    "frame_idx": 47071,
+                    "timestamp": 1570.602,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V005/L25_V005_S0078_F047071.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Sài Gòn SIU",
+                "ocr_text": "FUN ITERNATIONAL UNIVERBITY Lewis Hall VERSITY THE SAIGON INTERNATION",
+                "vlm_caption": {
+                    "detailed_description": "The image shows the exterior of the Saigon International University building with multiple flags and a clear sky in the background."
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V005_S0079",
+            "start_frame": 47091,
+            "end_frame": 47144,
+            "start_ts": 1571.27,
+            "end_ts": 1573.038,
+            "duration": 1.768,
+            "keyframes": [
+                {
+                    "frame_idx": 47117,
+                    "timestamp": 1572.137,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V005/L25_V005_S0079_F047117.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Không chỉ cung cấp chương trình đào tạo",
+                "ocr_text": "International Accreditation Council for Business Education THE BOARD OF COMMISSIONERS OF The International Accreditation Council for Business Education HEREBY AWARDS THIS Certificate of Accreditation • BUSIN GRAMS OFFERED BY The Saige International University School of Business Administration This accreditation applies only to the programs approved by the Board of Commissioners and is contingent upon the accredited programs remaining in compliance with the principles and policies of the Council. Period of Accreditation: March 30, 2020 through April 30, 2027 Phyllis Okrepkie PRESIDENT, LACE",
+                "vlm_caption": {
+                    "detailed_description": "The image shows a Certificate of Accreditation from the International Accreditation Council for Business Education (IACBE) awarded to the Singapore International University School of Business Administration."
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V005_S0080",
+            "start_frame": 47145,
+            "end_frame": 47165,
+            "start_ts": 1573.072,
+            "end_ts": 1573.739,
+            "duration": 0.667,
+            "keyframes": [
+                {
+                    "frame_idx": 47155,
+                    "timestamp": 1573.405,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V005/L25_V005_S0080_F047155.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "of Israel RAK",
+                "vlm_caption": {
+                    "detailed_description": "A man with a beard and glasses is speaking, gesturing with his hands, in front of a backdrop with the word \"RAK\" and a large screen displaying \"Israel.\"",
+                    "objects_and_counts": [
+                        "2 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V005_S0081",
+            "start_frame": 47166,
+            "end_frame": 47186,
+            "start_ts": 1573.772,
+            "end_ts": 1574.44,
+            "duration": 0.667,
+            "keyframes": [
+                {
+                    "frame_idx": 47176,
+                    "timestamp": 1574.106,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V005/L25_V005_S0081_F047176.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "S.I.",
+                "ocr_text": "Learning towards Creative Society Presented by Former Prime Minister of Israel EHUD BARAK August 05, 2022",
+                "vlm_caption": {
+                    "detailed_description": "A man is giving a presentation titled \"Learning towards Creative Society\" by Ehud Barak, former Prime Minister of Israel, at the SIU IACBEE event on August 05, 2022.",
+                    "objects_and_counts": [
+                        "7 person, 1 tv, 1 potted plant"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V005_S0082",
+            "start_frame": 47187,
+            "end_frame": 47207,
+            "start_ts": 1574.473,
+            "end_ts": 1575.14,
+            "duration": 0.667,
+            "keyframes": [
+                {
+                    "frame_idx": 47197,
+                    "timestamp": 1574.807,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V005/L25_V005_S0082_F047197.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "నోలో",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A woman with braided hair is seated in a conference room, wearing a leopard print top.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V005_S0083",
+            "start_frame": 47208,
+            "end_frame": 47236,
+            "start_ts": 1575.174,
+            "end_ts": 1576.108,
+            "duration": 0.934,
+            "keyframes": [
+                {
+                    "frame_idx": 47222,
+                    "timestamp": 1575.641,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V005/L25_V005_S0083_F047222.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Tạo ra bố trường hợp",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A young woman and man interact with a robot in an office setting.",
+                    "objects_and_counts": [
+                        "2 person, 1 tie"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V005_S0084",
+            "start_frame": 47237,
+            "end_frame": 47258,
+            "start_ts": 1576.141,
+            "end_ts": 1576.842,
+            "duration": 0.701,
+            "keyframes": [
+                {
+                    "frame_idx": 47247,
+                    "timestamp": 1576.475,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V005/L25_V005_S0084_F047247.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "ROBOTICS NATURAL LANGUAGE PROCESSING MACHINE LEARNING INTERI OF THI BIG DATA",
+                "vlm_caption": {
+                    "detailed_description": "A woman stands next to a humanoid robot in an office setting, holding a smartphone.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V005_S0085",
+            "start_frame": 47259,
+            "end_frame": 47292,
+            "start_ts": 1576.875,
+            "end_ts": 1577.976,
+            "duration": 1.101,
+            "keyframes": [
+                {
+                    "frame_idx": 47275,
+                    "timestamp": 1577.409,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V005/L25_V005_S0085_F047275.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "đa dạng",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "The image depicts an empty auditorium with bright stage lights and spotlights illuminating the seating area.",
+                    "objects_and_counts": [
+                        "4 chair"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V005_S0086",
+            "start_frame": 47293,
+            "end_frame": 47333,
+            "start_ts": 1578.01,
+            "end_ts": 1579.344,
+            "duration": 1.335,
+            "keyframes": [
+                {
+                    "frame_idx": 47313,
+                    "timestamp": 1578.677,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V005/L25_V005_S0086_F047313.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "và tôn trọng sự khác biệt",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A symphony orchestra is performing on stage, with musicians playing various instruments including violins, cellos, and a grand piano.",
+                    "objects_and_counts": [
+                        "7 person, 2 chair"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V005_S0087",
+            "start_frame": 47334,
+            "end_frame": 47368,
+            "start_ts": 1579.378,
+            "end_ts": 1580.512,
+            "duration": 1.134,
+            "keyframes": [
+                {
+                    "frame_idx": 47351,
+                    "timestamp": 1579.945,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V005/L25_V005_S0087_F047351.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "S.I.U.",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A man in a blue blazer and a woman in a green jacket are seated at a table with a flag in the background, engaged in a discussion.",
+                    "objects_and_counts": [
+                        "3 person, 1 bottle, 2 cup, 3 chair"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V005_S0088",
+            "start_frame": 47369,
+            "end_frame": 47402,
+            "start_ts": 1580.546,
+            "end_ts": 1581.647,
+            "duration": 1.101,
+            "keyframes": [
+                {
+                    "frame_idx": 47385,
+                    "timestamp": 1581.08,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V005/L25_V005_S0088_F047385.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Mở rộng hợp tác quốc tế",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A man in a suit and tie is speaking, gesturing with his hands, in an office setting with framed portraits on the wall.",
+                    "objects_and_counts": [
+                        "4 person, 1 tie, 2 chair"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V005_S0089",
+            "start_frame": 47403,
+            "end_frame": 47446,
+            "start_ts": 1581.68,
+            "end_ts": 1583.115,
+            "duration": 1.435,
+            "keyframes": [
+                {
+                    "frame_idx": 47424,
+                    "timestamp": 1582.381,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V005/L25_V005_S0089_F047424.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "với các trường đại học",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A man and a woman are sitting at a conference table, with the man holding a document and the woman looking at papers.",
+                    "objects_and_counts": [
+                        "3 person, 1 chair, 2 cup, 2 bottle, 1 book, 1 dining table, 1 cell phone"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V005_S0090",
+            "start_frame": 47447,
+            "end_frame": 47486,
+            "start_ts": 1583.148,
+            "end_ts": 1584.45,
+            "duration": 1.301,
+            "keyframes": [
+                {
+                    "frame_idx": 47466,
+                    "timestamp": 1583.782,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V005/L25_V005_S0090_F047466.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "SIU en University a of Advanced Educatle onal College of Advanced Education (ICE), Australla",
+                "vlm_caption": {
+                    "detailed_description": "A group of individuals is seated around a conference table in a meeting room, with two large screens displaying information in the background.",
+                    "objects_and_counts": [
+                        "8 person, 1 laptop, 2 chair, 2 tv, 2 cup, 5 bottle, 1 potted plant, 1 dining table"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V005_S0091",
+            "start_frame": 47487,
+            "end_frame": 47523,
+            "start_ts": 1584.483,
+            "end_ts": 1585.684,
+            "duration": 1.201,
+            "keyframes": [
+                {
+                    "frame_idx": 47505,
+                    "timestamp": 1585.083,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V005/L25_V005_S0091_F047505.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Chốt nghiệp từ khắp đất",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "Two men stand behind a table, holding documents and smiling, with flags of Vietnam and Romania in the background.",
+                    "objects_and_counts": [
+                        "6 person, 4 tie, 1 chair, 1 book, 1 potted plant"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V005_S0092",
+            "start_frame": 47524,
+            "end_frame": 47564,
+            "start_ts": 1585.717,
+            "end_ts": 1587.052,
+            "duration": 1.335,
+            "keyframes": [
+                {
+                    "frame_idx": 47544,
+                    "timestamp": 1586.385,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V005/L25_V005_S0092_F047544.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "trên thế giới.",
+                "ocr_text": "THE SAIGON MICHAEL DUKAKIS INTERNATIONAL INSTITUTE FOR LEADERHIP AND INNOVATION UNIVERSITY MEMORANDUM OF UNDERSTANDING SIGNING CEREMONY between Saigon International University, Vietnam and Michael Dukakis Institute for Leadership & Innovation, USA Hoch City. January 6th. 2022",
+                "vlm_caption": {
+                    "detailed_description": "Two individuals are seated at a table, signing a document during a Memorandum of Understanding ceremony between Saigon International University, Vietnam, and the Michael Dukakis Institute for Leadership & Innovation, USA, in Ho Chi Minh City on January 6th",
+                    "objects_and_counts": [
+                        "4 person, 3 cup, 1 bottle, 2 tie, 1 dining table, 1 chair, 1 tv"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V005_S0093",
+            "start_frame": 47565,
+            "end_frame": 47613,
+            "start_ts": 1587.086,
+            "end_ts": 1588.687,
+            "duration": 1.602,
+            "keyframes": [
+                {
+                    "frame_idx": 47589,
+                    "timestamp": 1587.886,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V005/L25_V005_S0093_F047589.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "THE WESTIN POINTS L MERIDIEN S STRON 22 AM Marrioft INTERNATIONAL MINK",
+                "vlm_caption": {
+                    "detailed_description": "A group of individuals, including a man in a suit holding a tablet, are gathered around a table with logos of Marriott International and other hotel brands, with a backdrop featuring the text \"Live Fully\" and \"Lễ Khai Trương.\"",
+                    "objects_and_counts": [
+                        "6 person, 3 tie, 1 chair"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V005_S0094",
+            "start_frame": 47614,
+            "end_frame": 47634,
+            "start_ts": 1588.72,
+            "end_ts": 1589.388,
+            "duration": 0.667,
+            "keyframes": [
+                {
+                    "frame_idx": 47624,
+                    "timestamp": 1589.054,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V005/L25_V005_S0094_F047624.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "",
+                "ocr_text": "lional Saigon IN Un COOPE REEMEN University EREM 2023 CHANG GUNG UNIVERSITY HSING WU UNIVERSITY SIU • SIU on International SIT",
+                "vlm_caption": {
+                    "detailed_description": "A group of five individuals are holding red certificates and smiling at a formal event, with a backdrop displaying \"SIU\" and \"Cooperation Agreement\" in the background.",
+                    "objects_and_counts": [
+                        "5 person, 2 tie, 2 potted plant, 3 laptop"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V005_S0095",
+            "start_frame": 47635,
+            "end_frame": 47695,
+            "start_ts": 1589.421,
+            "end_ts": 1591.423,
+            "duration": 2.002,
+            "keyframes": [
+                {
+                    "frame_idx": 47665,
+                    "timestamp": 1590.422,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V005/L25_V005_S0095_F047665.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A group of students is engaged in a discussion in a library setting, with bookshelves filled with books in the background.",
+                    "objects_and_counts": [
+                        "5 person, 8 chair, 6 book"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V005_S0096",
+            "start_frame": 47696,
+            "end_frame": 47733,
+            "start_ts": 1591.457,
+            "end_ts": 1592.691,
+            "duration": 1.235,
+            "keyframes": [
+                {
+                    "frame_idx": 47714,
+                    "timestamp": 1592.057,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V005/L25_V005_S0096_F047714.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "honey bone",
+                "ocr_text": "HỌI THAM CHE TON PRIEA TOS NHAN DÀN SIU Saigon International U UNIVERSITY Sai du.vn UN",
+                "vlm_caption": {
+                    "detailed_description": "A person is speaking into a microphone at a table with a red and white tablecloth, while another person sits behind a podium with a Vietnamese flag in the background.",
+                    "objects_and_counts": [
+                        "10 person, 2 tie, 1 chair"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V005_S0097",
+            "start_frame": 47734,
+            "end_frame": 47771,
+            "start_ts": 1592.724,
+            "end_ts": 1593.959,
+            "duration": 1.235,
+            "keyframes": [
+                {
+                    "frame_idx": 47752,
+                    "timestamp": 1593.325,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V005/L25_V005_S0097_F047752.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "SIU UNIVERSITY",
+                "vlm_caption": {
+                    "detailed_description": "A classroom scene with students seated at desks, facing a lecturer at the front, with a projector screen displaying a presentation.",
+                    "objects_and_counts": [
+                        "23 person, 7 chair, 1 tv"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V005_S0098",
+            "start_frame": 47772,
+            "end_frame": 47815,
+            "start_ts": 1593.992,
+            "end_ts": 1595.427,
+            "duration": 1.435,
+            "keyframes": [
+                {
+                    "frame_idx": 47793,
+                    "timestamp": 1594.693,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V005/L25_V005_S0098_F047793.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A group of chefs wearing white uniforms, red aprons, and white hats are preparing food in a commercial kitchen.",
+                    "objects_and_counts": [
+                        "5 person, 3 bowl"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V005_S0099",
+            "start_frame": 47816,
+            "end_frame": 47868,
+            "start_ts": 1595.461,
+            "end_ts": 1597.196,
+            "duration": 1.735,
+            "keyframes": [
+                {
+                    "frame_idx": 47842,
+                    "timestamp": 1596.328,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V005/L25_V005_S0099_F047842.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "SIU University Tlành trinh den Phường Đòng",
+                "vlm_caption": {
+                    "detailed_description": "A group of people, including a woman in traditional attire, are seated on a red carpet in front of a large blue banner with the text \"Nghành trình đến Phương Đông\" at an event.",
+                    "objects_and_counts": [
+                        "17 person, 1 potted plant, 1 tv, 2 bottle, 1 chair, 1 laptop, 1 vase"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V005_S0100",
+            "start_frame": 47870,
+            "end_frame": 47922,
+            "start_ts": 1597.262,
+            "end_ts": 1598.997,
+            "duration": 1.735,
+            "keyframes": [
+                {
+                    "frame_idx": 47896,
+                    "timestamp": 1598.13,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V005/L25_V005_S0100_F047896.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "PHƯƠNG THỨC XÉT TUYỂN TẠI 4 SIU 1. Xét tuyển học bạ 3 học kỳ (2HK lớp 11 + HKi lớp 12)' Xét tuyển học bạ lớp 12 e connec 3. Xét tuyển kết quả kỳ thi THPT 4. Xét tuyển kết quả kỳ thi đánh giá năng lực của Đại học Quốc gia TPHCM",
+                "vlm_caption": {
+                    "detailed_description": "A man and a woman in school uniforms are holding a book, with a blue background and text in Vietnamese describing four methods of university admission.",
+                    "objects_and_counts": [
+                        "2 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V005_S0101",
+            "start_frame": 47923,
+            "end_frame": 47980,
+            "start_ts": 1599.031,
+            "end_ts": 1600.933,
+            "duration": 1.902,
+            "keyframes": [
+                {
+                    "frame_idx": 47951,
+                    "timestamp": 1599.965,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V005/L25_V005_S0101_F047951.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "SIU cam kết hỗ trợ sinh viên",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A man in academic regalia stands at a podium with a microphone, holding a bouquet of yellow flowers, in front of a backdrop of red and white flags.",
+                    "objects_and_counts": [
+                        "1 person, 1 potted plant"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V005_S0102",
+            "start_frame": 47981,
+            "end_frame": 48026,
+            "start_ts": 1600.966,
+            "end_ts": 1602.468,
+            "duration": 1.502,
+            "keyframes": [
+                {
+                    "frame_idx": 48003,
+                    "timestamp": 1601.7,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V005/L25_V005_S0102_F048003.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Với nhiều chính sách học bổng",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A man in academic regalia stands at a podium with a microphone and a bouquet of sunflowers, addressing an audience in front of flags.",
+                    "objects_and_counts": [
+                        "1 person, 1 potted plant, 1 tie"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V005_S0103",
+            "start_frame": 48027,
+            "end_frame": 48092,
+            "start_ts": 1602.501,
+            "end_ts": 1604.67,
+            "duration": 2.169,
+            "keyframes": [
+                {
+                    "frame_idx": 48059,
+                    "timestamp": 1603.569,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V005/L25_V005_S0103_F048059.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "20 suất học bổng chủ tình S.I.U",
+                "ocr_text": "SIU University Shine FORS. New Path 510",
+                "vlm_caption": {
+                    "detailed_description": "A woman in a black dress is receiving a bouquet from another woman while a third woman in a white shirt and black pants stands nearby.",
+                    "objects_and_counts": [
+                        "4 person, 1 tv, 1 teddy bear"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V005_S0104",
+            "start_frame": 48093,
+            "end_frame": 48163,
+            "start_ts": 1604.703,
+            "end_ts": 1607.039,
+            "duration": 2.336,
+            "keyframes": [
+                {
+                    "frame_idx": 48128,
+                    "timestamp": 1605.871,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V005/L25_V005_S0104_F048128.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "100 suất học bổng tiếp bước hành trình",
+                "ocr_text": "The Saigon Internationa LỄ CÔNG BỐ curney",
+                "vlm_caption": {
+                    "detailed_description": "A group of students and a speaker stand on a stage in front of a large screen displaying \"LỄ CÔNG BỐ Journey Scholarship,\" with students clapping and the speaker holding a flag.",
+                    "objects_and_counts": [
+                        "17 person, 5 chair, 1 tv"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V005_S0105",
+            "start_frame": 48164,
+            "end_frame": 48195,
+            "start_ts": 1607.072,
+            "end_ts": 1608.106,
+            "duration": 1.034,
+            "keyframes": [
+                {
+                    "frame_idx": 48179,
+                    "timestamp": 1607.573,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V005/L25_V005_S0105_F048179.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Quỹ tài năng trẻ",
+                "ocr_text": "The Saigon International TRƯỜNG ĐẠI HỌC QUỐC TẾ SÀI GÒN TRAO TẶNG QUÝ HỌC BỔNG TÁI NĂNG TRẺ -8898 100 40% - 60% HỌC PHÍ TOÀN KHOA (https://www.fscebook.com/dho www.siu.edu.vn",
+                "vlm_caption": {
+                    "detailed_description": "Two men are holding a sign that reads \"TRAO TẶNG QUÝ HỌC BỔNG TÀI NĂNG TRẺ 40% - 60% - 100% HỌC PHÍ",
+                    "objects_and_counts": [
+                        "2 person, 1 tie"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V005_S0106",
+            "start_frame": 48196,
+            "end_frame": 48277,
+            "start_ts": 1608.14,
+            "end_ts": 1610.843,
+            "duration": 2.703,
+            "keyframes": [
+                {
+                    "frame_idx": 48236,
+                    "timestamp": 1609.475,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V005/L25_V005_S0106_F048236.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Học bổng 50% học phí toàn hóa Cho những học sinh",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "Two women in white shirts are standing in front of a large, reflective surface, possibly a mirror or a screen, with one of them pointing at something on the surface.",
+                    "objects_and_counts": [
+                        "2 person, 1 remote"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V005_S0107",
+            "start_frame": 48278,
+            "end_frame": 48312,
+            "start_ts": 1610.876,
+            "end_ts": 1612.01,
+            "duration": 1.134,
+            "keyframes": [
+                {
+                    "frame_idx": 48295,
+                    "timestamp": 1611.443,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V005/L25_V005_S0107_F048295.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A group of dancers in white outfits perform on stage with a backdrop of Van Gogh's \"Starry Night.\"",
+                    "objects_and_counts": [
+                        "12 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V005_S0108",
+            "start_frame": 48313,
+            "end_frame": 48348,
+            "start_ts": 1612.044,
+            "end_ts": 1613.212,
+            "duration": 1.168,
+            "keyframes": [
+                {
+                    "frame_idx": 48330,
+                    "timestamp": 1612.611,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V005/L25_V005_S0108_F048330.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Trong các hoạt động văn hóa",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "In a split-screen image, a soccer player in green is dribbling the ball near the goalpost, while another player in black attempts to block the shot.",
+                    "objects_and_counts": [
+                        "5 person, 1 bird"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V005_S0109",
+            "start_frame": 48349,
+            "end_frame": 48386,
+            "start_ts": 1613.245,
+            "end_ts": 1614.48,
+            "duration": 1.235,
+            "keyframes": [
+                {
+                    "frame_idx": 48367,
+                    "timestamp": 1613.846,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V005/L25_V005_S0109_F048367.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "Swimmers in a pool, some wearing caps and fins, are practicing in lanes.",
+                    "objects_and_counts": [
+                        "3 person, 1 surfboard"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V005_S0110",
+            "start_frame": 48387,
+            "end_frame": 48423,
+            "start_ts": 1614.513,
+            "end_ts": 1615.714,
+            "duration": 1.201,
+            "keyframes": [
+                {
+                    "frame_idx": 48405,
+                    "timestamp": 1615.113,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V005/L25_V005_S0110_F048405.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Học bổng đồng hành sẽ được tạo ra bởi các bạn.",
+                "ocr_text": "The Saigon •Universily LỄ KÝ KẾT HỌC BỔNG ĐỒNG HÀNH XÂY DỰNG NHÂN LỰC CHẤT LƯỢNG CAO CHO THÀNH PHỐ THỦ ĐỨC Thanh c hn Ha an Minh ngay 2 thang) SIU SIU talgon Internation Salgon Intermationd UNIVERSITY UNIVERSITI",
+                "vlm_caption": {
+                    "detailed_description": "A group of four individuals stands behind a table with red and white banners, signing documents at a formal event.",
+                    "objects_and_counts": [
+                        "5 person, 4 laptop, 1 tv, 1 potted plant"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V005_S0111",
+            "start_frame": 48424,
+            "end_frame": 48468,
+            "start_ts": 1615.747,
+            "end_ts": 1617.216,
+            "duration": 1.468,
+            "keyframes": [
+                {
+                    "frame_idx": 48446,
+                    "timestamp": 1616.482,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V005/L25_V005_S0111_F048446.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A woman in a blue dress stands at a podium with a microphone, delivering a speech in front of a backdrop of wooden panels and a floral arrangement.",
+                    "objects_and_counts": [
+                        "1 person, 1 potted plant"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V005_S0112",
+            "start_frame": 48469,
+            "end_frame": 48509,
+            "start_ts": 1617.249,
+            "end_ts": 1618.584,
+            "duration": 1.335,
+            "keyframes": [
+                {
+                    "frame_idx": 48489,
+                    "timestamp": 1617.916,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V005/L25_V005_S0112_F048489.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "thành phố Thủ Đức, thành phố Hồ Chí Minh.",
+                "ocr_text": "LỄ KÝ KẾT T NGUYỄN HỮU BIÊN BẢN HƠ HỢP TÁC GIỮA TRƯỜI ẢI GÒN &. TRƯỜNG ĐẠI HỌC QUÔ to Hố ON Min rgdy 01 P e Saig ematiol University TRƯỜNG ĐẠI HỌC QUỐC TẾ SÀI GÒN TRAO TẶNG HỌC BỔNG ĐÓNG HÀNH XÂY DỰNG NHÂN LỰC CHẤT LƯỢNG CAO CHO THÀNH PHỐ THỦ ĐỨC ) HỌC PHÍ TOÀN KHOA HỌC 30% TRỊ GIÁ G0000 www.siu.edu.vn",
+                "vlm_caption": {
+                    "detailed_description": "Two men stand side by side, holding a large check with the text \"TRƯỜNG ĐẠI HỌC QUỐC TẾ SÀI GÒN TRAO TẶNG HỌC BỔNG ĐỒNG H",
+                    "objects_and_counts": [
+                        "2 person, 1 tie"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V005_S0113",
+            "start_frame": 48510,
+            "end_frame": 48556,
+            "start_ts": 1618.617,
+            "end_ts": 1620.152,
+            "duration": 1.535,
+            "keyframes": [
+                {
+                    "frame_idx": 48533,
+                    "timestamp": 1619.384,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V005/L25_V005_S0113_F048533.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Học bổng doanh nghiệp tài trợ",
+                "ocr_text": "International University MOU SIGNING CEREMONY with BUSINESS PARTNERS Ho Chi Minh City, December 20, 2023 SIU SIU SIU Saigon International Saigon International Saigon International UNIVERSITY UNIVERSITY UNIVERSITY",
+                "vlm_caption": {
+                    "detailed_description": "A group of individuals are seated at a table with red banners displaying \"SIU\" and \"International University\" logos, participating in a MOU signing ceremony with business partners in Ho Chi Minh City on December 20, 2023",
+                    "objects_and_counts": [
+                        "7 person, 6 laptop, 1 tie"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V005_S0114",
+            "start_frame": 48557,
+            "end_frame": 48593,
+            "start_ts": 1620.185,
+            "end_ts": 1621.386,
+            "duration": 1.201,
+            "keyframes": [
+                {
+                    "frame_idx": 48575,
+                    "timestamp": 1620.786,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V005/L25_V005_S0114_F048575.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hợp bổng 20%",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A man in a suit is giving a presentation to a group of students seated at tables in a classroom.",
+                    "objects_and_counts": [
+                        "5 chair, 13 person, 1 laptop"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V005_S0115",
+            "start_frame": 48594,
+            "end_frame": 48626,
+            "start_ts": 1621.42,
+            "end_ts": 1622.488,
+            "duration": 1.068,
+            "keyframes": [
+                {
+                    "frame_idx": 48610,
+                    "timestamp": 1621.954,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V005/L25_V005_S0115_F048610.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "Three students, two male and one female, are engaged in a discussion while seated at a table in a classroom setting.",
+                    "objects_and_counts": [
+                        "6 person, 1 tie, 1 book"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V005_S0116",
+            "start_frame": 48627,
+            "end_frame": 48670,
+            "start_ts": 1622.521,
+            "end_ts": 1623.956,
+            "duration": 1.435,
+            "keyframes": [
+                {
+                    "frame_idx": 48648,
+                    "timestamp": 1623.222,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V005/L25_V005_S0116_F048648.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "Four men in white shirts and red ties are gathered around a table in an office setting, engaged in a discussion with papers and laptops in front of them.",
+                    "objects_and_counts": [
+                        "4 person, 2 laptop, 3 tie, 7 book, 7 chair, 1 keyboard, 1 dining table"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V005_S0117",
+            "start_frame": 48671,
+            "end_frame": 48707,
+            "start_ts": 1623.989,
+            "end_ts": 1625.19,
+            "duration": 1.201,
+            "keyframes": [
+                {
+                    "frame_idx": 48689,
+                    "timestamp": 1624.59,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V005/L25_V005_S0117_F048689.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "Int ore file_nose| 2 GIVE YOU",
+                "vlm_caption": {
+                    "detailed_description": "A man in a floral shirt is speaking into a microphone with a projection of code behind him, and the text \"GIVE YOU YOU WANT\" is displayed in front of him.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V005_S0118",
+            "start_frame": 48708,
+            "end_frame": 48742,
+            "start_ts": 1625.224,
+            "end_ts": 1626.358,
+            "duration": 1.134,
+            "keyframes": [
+                {
+                    "frame_idx": 48725,
+                    "timestamp": 1625.791,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V005/L25_V005_S0118_F048725.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "S.I.U",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "Graduates in blue robes and black gowns throw their caps into the air in front of a traditional building with red roofs and yellow lanterns.",
+                    "objects_and_counts": [
+                        "8 person, 2 kite"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V005_S0119",
+            "start_frame": 48743,
+            "end_frame": 48816,
+            "start_ts": 1626.391,
+            "end_ts": 1628.827,
+            "duration": 2.436,
+            "keyframes": [
+                {
+                    "frame_idx": 48779,
+                    "timestamp": 1627.593,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V005/L25_V005_S0119_F048779.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Tâm hồn Việt Nam, Giáo dục Thế Giới",
+                "ocr_text": "2007 THE SAIGON INTERNATIONAL UNIVERSIT/ Tâm hôn Việt Nam, giáo dục thể giải Vietnam's spirit global education",
+                "vlm_caption": {
+                    "detailed_description": "The image features the logo and name of The Saigon International University, set against a backdrop of a bright sun and a blue sky with clouds and a rainbow.",
+                    "objects_and_counts": [
+                        "1 frisbee"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V005_S0120",
+            "start_frame": 48817,
+            "end_frame": 49552,
+            "start_ts": 1628.861,
+            "end_ts": 1653.385,
+            "duration": 24.524,
+            "keyframes": [
+                {
+                    "frame_idx": 49184,
+                    "timestamp": 1641.106,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V005/L25_V005_S0120_F049184.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Ta sang ví dụ số 6. Cho phản ứng nhiệt hạch H11 cộng H31 tạo ra heli 42. Biết khối lượng của H11, H31 và heli 42 lần lượt là các giá trị sau. Lấy 1U bằng 931.5mEV trên xe bình. Năng lượng tỏa ra của phản ứng này là",
+                "ocr_text": "Câu 6: Cho phản ứng nhiệt hạch 1H + 3H → {He . Biết khối lượng của ịH; 3H và {He lần lượt là 1,0073 u; 3,0155 u và 4,0015 u. Lấy 1 u = 931,5 MeV/c. Năng lượng tỏa ra của phản ứng này là (MH THPTQG 2022) THANH NIEN",
+                "vlm_caption": {
+                    "detailed_description": "A man in a light blue shirt is sitting at a desk with a laptop, speaking in front of a blue background with text in Vietnamese.",
+                    "objects_and_counts": [
+                        "1 person, 1 laptop"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V005_S0121",
+            "start_frame": 49553,
+            "end_frame": 51686,
+            "start_ts": 1653.418,
+            "end_ts": 1724.59,
+            "duration": 71.171,
+            "keyframes": [
+                {
+                    "frame_idx": 50619,
+                    "timestamp": 1688.987,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V005/L25_V005_S0121_F050619.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "thì năng lượng trong một phản ứng hạt nhân chúng ta biết rằng là có 3 biểu thức là delta E bằng m trước trừ m sau 7 bằng delta m sau trừ delta m trước nhân 7 hoặc là bằng k sau trừ k trước thì tuy bài ở đây chúng ta sẽ sử dụng biểu thức là tổng m trước trừ cho tổng m sau thì delta E sẽ bằng tổng m trước là khối lượng của H11 và H31 trừ cho m sau là heli 42 và 7 ở đây là 931.5 ta thay thế để ra đơn vị của các delta m là U như vậy ta sẽ được delta E sẽ bằng 23.8 mEV thì kỹ thuật thế c bình là 931.5 là một kỹ thuật đổi đơn vị các bạn cần lưu ý",
+                "ocr_text": "25,5 MeV A Câu 6: Cho phản ứng nhiệt hạch {H + 3H → {He . Biết khối lượng của {H; 3H và {He lần lượt là 1,0073 u; 3,0155 u và 4,0015 u. Lấy 1 u = 931,5 B 23,8 MeV . Năng lượng tỏa ra của phản ứng này là (MH THPTQG 2022) MeV/c2. C 19,8 MeV 21,4 MeV Bài giải Năng lượng trong phản ứng hạt nhân: ДЕ = ( 1,0073 + 3,0155 - 4,0015) 931,5",
+                "vlm_caption": {
+                    "detailed_description": "The image is a screenshot of a Vietnamese math problem related to nuclear reactions, with a solution provided in Vietnamese."
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V005_S0122",
+            "start_frame": 51687,
+            "end_frame": 53807,
+            "start_ts": 1724.623,
+            "end_ts": 1795.36,
+            "duration": 70.737,
+            "keyframes": [
+                {
+                    "frame_idx": 52747,
+                    "timestamp": 1759.992,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V005/L25_V005_S0122_F052747.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Ta sang câu ví dụ số 7 Để xác định tuổi của một cổ vọt bằng gỗ Các nhà khoa học đã sử dụng phương pháp xác định tuổi theo lượng carbon 14 Khi cây còn sống, nhờ sự trao đổi chất với môi trường Nên tỷ số giữa số nguyên tử carbon 14 và số nguyên tử carbon 12 Có trong cây tuy rất nhỏ nhưng luôn không đổi Khi cây chết đi thì sự trao đổi chất không còn nữa Trong khi carbon 14 là chất phóng xạ bê ta trừ Với chu kỳ bán rã là 5.730 năm Nên tỷ số giữa số nguyên tử carbon 14 và số nguyên tử carbon 12 Có trong gỗ sẽ giảm đi theo thời gian Một mảnh gỗ của cổ vọt có số phân rã của carbon 14 trong 1 giờ là 497 Biết rằng với cùng mảnh gỗ có khối lượng cây cùng loại Khi mới chặt thì số phân rã của carbon 14 trong 1 giờ là 921 Xác định tuổi của cổ vọt",
+                "ocr_text": "Câu 7: Để xác định tuổi của một cổ vật bằng gỗ, các nhà khoa học đã sử dụng phương pháp xác định tuổi theo lượng 'C. Khi cây còn sống, nhờ sự trao đổi chất với môi trường nên tỉ số giữa số nguyên tử 'C và số nguyên tử 12C có trong cây tuy rất nhỏ nhưng luôn không đổi. Khi cây chết, sự trao đổi chất không còn nữa trong khi '*C là chất phóng xạ e với chu kì bán rã 5730 năm nên ti số giữa số nguyên tử 1*C và số nguyên tử 'C có trong gỗ sẽ giảm. Một mảnh gỗ của cổ vật có số phân rã của 'C trong 1 giờ là 497. Biết rằng với mãnh gỗ cùng khối lượng của THANHNIEN cây cùng loại khi mới chặt thì số phân rã của '*C trong 1 giờ là 921. Tuổi của cổ vật là ( TN THPT 2022)",
+                "vlm_caption": {
+                    "detailed_description": "A man wearing glasses and a light blue shirt is sitting at a desk with a laptop in front of him, speaking into a microphone.",
+                    "objects_and_counts": [
+                        "1 person, 1 laptop"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V005_S0123",
+            "start_frame": 53808,
+            "end_frame": 56493,
+            "start_ts": 1795.394,
+            "end_ts": 1884.983,
+            "duration": 89.59,
+            "keyframes": [
+                {
+                    "frame_idx": 55150,
+                    "timestamp": 1840.172,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V005/L25_V005_S0123_F055150.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "thì ta thấy rằng lúc T bằng 0 gọi số hạt nhân carbon 14 là N0. Trong 1 giờ đầu thì delta N sẽ bằng N0 nhân 1 trừ 2 mũ trừ T nhỏ trên T lớn và bằng 921. Ở đây T nhỏ lúc này đã bằng 1. Tại thời điểm T thì số hạt nhân carbon 14 còn lại là N bằng N0 nhân 2 mũ trừ T nhỏ trên T lớn. Từ 1 giờ cuối cùng số hạt nhân bị phân rã sẽ là delta N bằng N nhân 1 trừ 2 mũ trừ 1 trên T lớn. N này bằng với N0. Nó là N0 nhân 2 mũ trừ T nhỏ trên T lớn thế xuống. Và đề cho là bằng 497. Từ 1 và 2 chúng ta lập tỷ số. Thì chúng ta sẽ được rằng 2 mũ trừ T nhỏ trên T lớn sẽ bằng 497 trên 921. Từ đó ta tính được mẫu gỗ này có tuổi thọ đã là 5100 năm. Và đáp án là D. Cảm ơn các bạn đã theo dõi.",
+                "ocr_text": "1500 năm Câu 7: Để xác định tuổi của một cổ vật bằng gỗ, các nhà khoa học đã sử dụng phương pháp xác định tuổi theo lượng 14C. Khi cây còn sống, nhờ sự trao đổi chất với môi trường nên tỉ số giữa số nguyên tử 14C và số nguyên tử 8700 năm 'C có trong cây tuy rất nhỏ nhưng luôn không đổi. Khi cây chết, sự trao đổi chất không còn nữa trong khi 14 c là B chất phóng xạ e với chu kì bán rã 5730 năm nên tỉ số giữa số nguyên tử 14C và số nguyên tử 12C có trong gỗ sẽ giảm. Một mảnh gỗ của cổ vật có số phân rã của 1C trong 1 giờ là 497. Biết rằng với mảnh gỗ cùng khối lượng của 3600 năm cây cùng loại khi mới chặt thì số phân rã của 14C trong 1 giờ là 921. Tuổi của cổ vật là ( TN THPT 2022) 5100 năm Bài giải Lúc t = 0, gọi số hạt nhân C14 là No Trong 1h đầu: 4N = N, (1 - 2-1/T) = 921 (1) Tại thời điểm t, số hạt nhân C14 còn lại: N = N, 2t/T 1h cuối số hạt nhân bị phân rã: AN = N(1 - 2-1/T) = N, 2-t/T (1 - 2-1/T) = 497 (2)",
+                "vlm_caption": {
+                    "detailed_description": "The image is a screenshot of a Vietnamese math problem and its solution, discussing the decay of carbon-14 in wood to determine its age."
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V005_S0124",
+            "start_frame": 56494,
+            "end_frame": 57063,
+            "start_ts": 1885.016,
+            "end_ts": 1904.002,
+            "duration": 18.986,
+            "keyframes": [
+                {
+                    "frame_idx": 56778,
+                    "timestamp": 1894.493,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V005/L25_V005_S0124_F056778.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Câu ví dụ trên đã kết thúc chuyên đề 10 ngày hôm nay và cũng kết thúc toàn bộ nội dung chương trình ôn tập thi tốt nghiệp trung học phổ thông năm 2024 do Báo Thanh niên tổ chức. Thầy chúc các em thi thật tốt. Tạm biệt các em.",
+                "ocr_text": "THANH NIEN",
+                "vlm_caption": {
+                    "detailed_description": "A man wearing glasses and a light blue shirt is sitting at a desk with a laptop in front of him, against a blue background with a blurred image of a person in the background.",
+                    "objects_and_counts": [
+                        "1 person, 1 laptop"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V005_S0125",
+            "start_frame": 57064,
+            "end_frame": 57190,
+            "start_ts": 1904.035,
+            "end_ts": 1908.24,
+            "duration": 4.204,
+            "keyframes": [],
+            "extracted_data": {
+                "transcript": "",
+                "ocr_text": ""
+            }
+        },
+        {
+            "shot_id": "L25_V005_S0126",
+            "start_frame": 57191,
+            "end_frame": 57198,
+            "start_ts": 1908.273,
+            "end_ts": 1908.507,
+            "duration": 0.234,
+            "keyframes": [],
+            "extracted_data": {
+                "transcript": "",
+                "ocr_text": ""
+            }
+        }
+    ]
+}

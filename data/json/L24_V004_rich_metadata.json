@@ -1,0 +1,2644 @@
+{
+    "video_id": "L24_V004",
+    "fps": 25.0,
+    "total_shots": 102,
+    "total_keyframes": 127,
+    "shots": [
+        {
+            "shot_id": "L24_V004_S0001",
+            "start_frame": 0,
+            "end_frame": 253,
+            "start_ts": 0.0,
+            "end_ts": 10.12,
+            "duration": 10.12,
+            "keyframes": [
+                {
+                    "frame_idx": 126,
+                    "timestamp": 5.04,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V004/L24_V004_S0001_F000126.jpg"
+                },
+                {
+                    "frame_idx": 63,
+                    "timestamp": 2.52,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V004/L24_V004_S0001_F000063.jpg"
+                },
+                {
+                    "frame_idx": 189,
+                    "timestamp": 7.56,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V004/L24_V004_S0001_F000189.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Tham dự với chủ đề Vương cao con trồng đất Việt",
+                "ocr_text": "HTV Chợ Lén HẾ THAO NHIỆT LI ĐANG CỘA | ATV Chợ Lén HẾ THAO HTU VIET LII CỘN EN ĐOAN LÂN SƯ RÔNG | ATV Chợ Cu HẾ THAO NHIỆT LI ĐÁNG CỘN",
+                "vlm_caption": {
+                    "detailed_description": "A man in a blue and yellow shirt holds up a red flag while standing next to two men in camouflage uniforms on a stage with a colorful backdrop.",
+                    "objects_and_counts": [
+                        "5 person | 4 person | 3 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L24_V004_S0002",
+            "start_frame": 254,
+            "end_frame": 365,
+            "start_ts": 10.16,
+            "end_ts": 14.6,
+            "duration": 4.44,
+            "keyframes": [
+                {
+                    "frame_idx": 309,
+                    "timestamp": 12.36,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V004/L24_V004_S0002_F000309.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "",
+                "ocr_text": "ATV HỂ THAO 4 1",
+                "vlm_caption": {
+                    "detailed_description": "Soldiers in camouflage uniforms stand in formation on a stage, with a banner featuring a child and Vietnamese text in the background.",
+                    "objects_and_counts": [
+                        "5 person, 1 chair"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L24_V004_S0003",
+            "start_frame": 366,
+            "end_frame": 507,
+            "start_ts": 14.64,
+            "end_ts": 20.28,
+            "duration": 5.64,
+            "keyframes": [
+                {
+                    "frame_idx": 436,
+                    "timestamp": 17.44,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V004/L24_V004_S0003_F000436.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey,",
+                "ocr_text": "AT/V quAnS Chợ lém HỂ THAO",
+                "vlm_caption": {
+                    "detailed_description": "A group of individuals in camouflage uniforms are performing synchronized movements on a stage with a colorful backdrop.",
+                    "objects_and_counts": [
+                        "5 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L24_V004_S0004",
+            "start_frame": 508,
+            "end_frame": 727,
+            "start_ts": 20.32,
+            "end_ts": 29.08,
+            "duration": 8.76,
+            "keyframes": [
+                {
+                    "frame_idx": 617,
+                    "timestamp": 24.68,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V004/L24_V004_S0004_F000617.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "",
+                "ocr_text": "Nọt dung thh .ua Công Truyền Thòng HTV Chợ Lớn T HẾ THAO",
+                "vlm_caption": {
+                    "detailed_description": "A group of individuals in camouflage uniforms are performing a synchronized dance routine on a stage with a large screen displaying a map of Vietnam in the background.",
+                    "objects_and_counts": [
+                        "11 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L24_V004_S0005",
+            "start_frame": 728,
+            "end_frame": 969,
+            "start_ts": 29.12,
+            "end_ts": 38.76,
+            "duration": 9.64,
+            "keyframes": [
+                {
+                    "frame_idx": 848,
+                    "timestamp": 33.92,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V004/L24_V004_S0005_F000848.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "HTV Chợ Lớn HỂ THAO",
+                "vlm_caption": {
+                    "detailed_description": "A man in a camouflage uniform stands on a blue mat, facing the camera, with another person in camouflage attire partially visible on the left side of the frame.",
+                    "objects_and_counts": [
+                        "2 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L24_V004_S0006",
+            "start_frame": 970,
+            "end_frame": 1323,
+            "start_ts": 38.8,
+            "end_ts": 52.92,
+            "duration": 14.12,
+            "keyframes": [
+                {
+                    "frame_idx": 1146,
+                    "timestamp": 45.84,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V004/L24_V004_S0006_F001146.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hương cao con rồng đất Việt",
+                "ocr_text": "Chợ lén T]HỂ THẠO HẢI NAM LIÊN HỮU 0.5 - TP. HCM",
+                "vlm_caption": {
+                    "detailed_description": "A group of soldiers in camouflage uniforms stands in formation on a stage, with a banner reading \"Hải Nam Liên Hữu 0.5 - TP. HCM\" in the foreground.",
+                    "objects_and_counts": [
+                        "9 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L24_V004_S0007",
+            "start_frame": 1324,
+            "end_frame": 2134,
+            "start_ts": 52.96,
+            "end_ts": 85.36,
+            "duration": 32.4,
+            "keyframes": [
+                {
+                    "frame_idx": 1729,
+                    "timestamp": 69.16,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V004/L24_V004_S0007_F001729.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Nga Hoang Huy, trẻ trẻ, trẻ trẻ, trẻ trẻ, trẻ trẻ, trẻ trẻ, trẻ trẻ, trẻ trẻ, trẻ trẻ, trẻ trẻ, trẻ trẻ, trẻ trẻ, trẻ trẻ, trẻ trẻ, trẻ trẻ, trẻ trẻ, trẻ trẻ, trẻ trẻ, trẻ trẻ, trẻ trẻ, trẻ trẻ, trẻ trẻ, trẻ trẻ, trẻ trẻ, trẻ trẻ, trẻ trẻ, trẻ trẻ, trẻ trẻ, trẻ trẻ, trẻ trẻ, trẻ trẻ, trẻ trẻ, trẻ trẻ, trẻ trẻ, trẻ trẻ, trẻ trẻ, trẻ trẻ, trẻ trẻ, trẻ trẻ, trẻ trẻ, trẻ trẻ, trẻ trẻ, trẻ trẻ, trẻ trẻ, tr Trẻ trẻ, trẻ trẻ, trẻ trẻ, trẻ trẻ, trẻ trẻ, trẻ trẻ, trẻ trẻ, trẻ trẻ, trẻ trẻ, non non non non non non non non non non non non non non non non non non non non non non non non non non non non non non non non non non non non non non non non non non non non non non non non non non non non non non non non non non non non non non non non non non non non non non non non non non non non non non non non non non non non non non non non non non non non non non non non non non non non non non non non non non non non non non non non non non non non non non non non non non non non non non non non non non non non non non non non non non non non non non non non non non non non non non non non non non non non non non non non non non non non non non non non non non non non non non non non",
+                "ocr_text": "Tự Lợn HỂ THAO",
+                "vlm_caption": {
+                    "detailed_description": "A gymnastics competition is taking place on a large blue mat, with a crowd of spectators and judges seated around the perimeter, under a large tent-like structure.",
+                    "objects_and_counts": [
+                        "1 tv, 1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L24_V004_S0008",
+            "start_frame": 2135,
+            "end_frame": 2272,
+            "start_ts": 85.4,
+            "end_ts": 90.88,
+            "duration": 5.48,
+            "keyframes": [
+                {
+                    "frame_idx": 2203,
+                    "timestamp": 88.12,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V004/L24_V004_S0008_F002203.jpg"
+                },
+                {
+                    "frame_idx": 2169,
+                    "timestamp": 86.76,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V004/L24_V004_S0008_F002169.jpg"
+                },
+                {
+                    "frame_idx": 2237,
+                    "timestamp": 89.48,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V004/L24_V004_S0008_F002237.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "",
+                "ocr_text": "H Chợ Lớn HỂ THAO | H Chợ Lon T HỂ THAO | Chợ Lớn HẾ THAO",
+                "vlm_caption": {
+                    "detailed_description": "A gymnast emerges from a blue tent on a blue mat, preparing for a performance.",
+                    "objects_and_counts": [
+                        "1 person | 4 person, 1 chair"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L24_V004_S0009",
+            "start_frame": 2273,
+            "end_frame": 2520,
+            "start_ts": 90.92,
+            "end_ts": 100.8,
+            "duration": 9.88,
+            "keyframes": [
+                {
+                    "frame_idx": 2396,
+                    "timestamp": 95.84,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V004/L24_V004_S0009_F002396.jpg"
+                },
+                {
+                    "frame_idx": 2334,
+                    "timestamp": 93.36,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V004/L24_V004_S0009_F002334.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "",
+                "ocr_text": "HTV Chợ lớn T HỂ THAO | HT V Chợ Lớn HỂ THAO",
+                "vlm_caption": {
+                    "detailed_description": "A dragon dance performance is taking place in a festive environment with smoke and colorful decorations.",
+                    "objects_and_counts": [
+                        "2 person, 1 umbrella | 3 person, 1 donut"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L24_V004_S0010",
+            "start_frame": 2521,
+            "end_frame": 3177,
+            "start_ts": 100.84,
+            "end_ts": 127.08,
+            "duration": 26.24,
+            "keyframes": [
+                {
+                    "frame_idx": 2849,
+                    "timestamp": 113.96,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V004/L24_V004_S0010_F002849.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "¶¶",
+                "ocr_text": "HTV Chợ Lớn HỂ THAO",
+                "vlm_caption": {
+                    "detailed_description": "A group of performers dressed in green costumes are dancing with a large yellow dragon puppet on a blue stage, with a crowd of spectators watching in the background.",
+                    "objects_and_counts": [
+                        "7 person, 1 kite"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L24_V004_S0011",
+            "start_frame": 3178,
+            "end_frame": 3238,
+            "start_ts": 127.12,
+            "end_ts": 129.52,
+            "duration": 2.4,
+            "keyframes": [
+                {
+                    "frame_idx": 3208,
+                    "timestamp": 128.32,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V004/L24_V004_S0011_F003208.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "",
+                "ocr_text": "HTV quAnS Chu lơn T HẾ THAO",
+                "vlm_caption": {
+                    "detailed_description": "The image shows a vibrant, colorful dragon costume with intricate designs, likely part of a traditional or cultural performance."
+                }
+            }
+        },
+        {
+            "shot_id": "L24_V004_S0012",
+            "start_frame": 3239,
+            "end_frame": 3626,
+            "start_ts": 129.56,
+            "end_ts": 145.04,
+            "duration": 15.48,
+            "keyframes": [
+                {
+                    "frame_idx": 3432,
+                    "timestamp": 137.28,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V004/L24_V004_S0012_F003432.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Thank you.",
+                "ocr_text": "HTV Chợ Lon HẾ THAO 8",
+                "vlm_caption": {
+                    "detailed_description": "A group of performers in camouflage uniforms are holding and maneuvering a large, yellow dragon puppet on an ice rink at night.",
+                    "objects_and_counts": [
+                        "8 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L24_V004_S0013",
+            "start_frame": 3627,
+            "end_frame": 3717,
+            "start_ts": 145.08,
+            "end_ts": 148.68,
+            "duration": 3.6,
+            "keyframes": [
+                {
+                    "frame_idx": 3672,
+                    "timestamp": 146.88,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V004/L24_V004_S0013_F003672.jpg"
+                },
+                {
+                    "frame_idx": 3694,
+                    "timestamp": 147.76,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V004/L24_V004_S0013_F003694.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "",
+                "ocr_text": "ATV quins Chợ bn HỂ THAO | HTV quAnS» Cho lún HẾ THAO",
+                "vlm_caption": {
+                    "detailed_description": "Two individuals in camouflage uniforms are performing a dragon dance with colorful dragon flags on a stage with a blue floor and a red and white backdrop.",
+                    "objects_and_counts": [
+                        "11 person | 13 person, 1 dining table"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L24_V004_S0014",
+            "start_frame": 3718,
+            "end_frame": 4021,
+            "start_ts": 148.72,
+            "end_ts": 160.84,
+            "duration": 12.12,
+            "keyframes": [
+                {
+                    "frame_idx": 3869,
+                    "timestamp": 154.76,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V004/L24_V004_S0014_F003869.jpg"
+                },
+                {
+                    "frame_idx": 3793,
+                    "timestamp": 151.72,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V004/L24_V004_S0014_F003793.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "¶¶",
+                "ocr_text": "HTV Chợ Lớn HỂ THAO | H quAiR hợ Lớn HỂ THAO",
+                "vlm_caption": {
+                    "detailed_description": "A group of gymnasts perform on a blue mat in front of a large audience, with a large inflatable ring and colorful decorations in the background.",
+                    "objects_and_counts": [
+                        "5 person | 6 person, 1 tv"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L24_V004_S0015",
+            "start_frame": 4022,
+            "end_frame": 4107,
+            "start_ts": 160.88,
+            "end_ts": 164.28,
+            "duration": 3.4,
+            "keyframes": [
+                {
+                    "frame_idx": 4064,
+                    "timestamp": 162.56,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V004/L24_V004_S0015_F004064.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "",
+                "ocr_text": "HTV Choi lón HẾ HAO",
+                "vlm_caption": {
+                    "detailed_description": "A group of individuals in camouflage uniforms are performing a coordinated dragon dance with colorful, circular dragon heads.",
+                    "objects_and_counts": [
+                        "4 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L24_V004_S0016",
+            "start_frame": 4108,
+            "end_frame": 4604,
+            "start_ts": 164.32,
+            "end_ts": 184.16,
+            "duration": 19.84,
+            "keyframes": [
+                {
+                    "frame_idx": 4356,
+                    "timestamp": 174.24,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V004/L24_V004_S0016_F004356.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "© BF-WATCH TV 2021",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A group of performers in camouflage uniforms are holding a large, colorful dragon puppet on a stage with a backdrop of a green landscape and a large screen displaying a dragon.",
+                    "objects_and_counts": [
+                        "11 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L24_V004_S0017",
+            "start_frame": 4605,
+            "end_frame": 4667,
+            "start_ts": 184.2,
+            "end_ts": 186.68,
+            "duration": 2.48,
+            "keyframes": [
+                {
+                    "frame_idx": 4636,
+                    "timestamp": 185.44,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V004/L24_V004_S0017_F004636.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "",
+                "ocr_text": "HTV Chư lớn HẾ THAO HTV",
+                "vlm_caption": {
+                    "detailed_description": "The image depicts a vibrant and colorful dragon dance performance, with a focus on the intricate details of the dragon's head and scales.",
+                    "objects_and_counts": [
+                        "1 banana"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L24_V004_S0018",
+            "start_frame": 4668,
+            "end_frame": 4774,
+            "start_ts": 186.72,
+            "end_ts": 190.96,
+            "duration": 4.24,
+            "keyframes": [
+                {
+                    "frame_idx": 4721,
+                    "timestamp": 188.84,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V004/L24_V004_S0018_F004721.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "",
+                "ocr_text": "Chợ Lên Y HẾ THAO",
+                "vlm_caption": {
+                    "detailed_description": "A group of performers dressed in camouflage uniforms are performing a dragon dance on a stage with a blue floor, surrounded by an audience and decorated with festive elements.",
+                    "objects_and_counts": [
+                        "9 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L24_V004_S0019",
+            "start_frame": 4775,
+            "end_frame": 4827,
+            "start_ts": 191.0,
+            "end_ts": 193.08,
+            "duration": 2.08,
+            "keyframes": [
+                {
+                    "frame_idx": 4801,
+                    "timestamp": 192.04,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V004/L24_V004_S0019_F004801.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "",
+                "ocr_text": "HTV HỂ THAO",
+                "vlm_caption": {
+                    "detailed_description": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+                    "objects_and_counts": [
+                        "2 person, 1 bird"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L24_V004_S0020",
+            "start_frame": 4828,
+            "end_frame": 5445,
+            "start_ts": 193.12,
+            "end_ts": 217.8,
+            "duration": 24.68,
+            "keyframes": [
+                {
+                    "frame_idx": 5136,
+                    "timestamp": 205.44,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V004/L24_V004_S0020_F005136.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "© transcript Emily Beynon",
+                "ocr_text": "HTV Chợ Lớn HỂ THAO",
+                "vlm_caption": {
+                    "detailed_description": "A group of soldiers in camouflage uniforms perform a dragon dance on a stage with colorful decorations and a large screen displaying a dragon.",
+                    "objects_and_counts": [
+                        "8 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L24_V004_S0021",
+            "start_frame": 5446,
+            "end_frame": 5490,
+            "start_ts": 217.84,
+            "end_ts": 219.6,
+            "duration": 1.76,
+            "keyframes": [
+                {
+                    "frame_idx": 5468,
+                    "timestamp": 218.72,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V004/L24_V004_S0021_F005468.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "",
+                "ocr_text": "Chợ Lon HỂ THAO",
+                "vlm_caption": {
+                    "detailed_description": "Two performers in camouflage outfits are dancing with a colorful dragon puppet on a stage at night.",
+                    "objects_and_counts": [
+                        "5 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L24_V004_S0022",
+            "start_frame": 5491,
+            "end_frame": 5764,
+            "start_ts": 219.64,
+            "end_ts": 230.56,
+            "duration": 10.92,
+            "keyframes": [
+                {
+                    "frame_idx": 5627,
+                    "timestamp": 225.08,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V004/L24_V004_S0022_F005627.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "",
+                "ocr_text": "HTV T HẾ THAO",
+                "vlm_caption": {
+                    "detailed_description": "A group of performers in green uniforms are performing a dragon dance on a blue stage with a large crowd watching.",
+                    "objects_and_counts": [
+                        "4 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L24_V004_S0023",
+            "start_frame": 5765,
+            "end_frame": 5925,
+            "start_ts": 230.6,
+            "end_ts": 237.0,
+            "duration": 6.4,
+            "keyframes": [
+                {
+                    "frame_idx": 5845,
+                    "timestamp": 233.8,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V004/L24_V004_S0023_F005845.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "",
+                "ocr_text": "HT quAiR họ Lớn T HỂ THAO",
+                "vlm_caption": {
+                    "detailed_description": "A group of performers dressed in green military-style uniforms are performing a dragon dance on a stage with a blue floor, illuminated by spotlights, in front of an audience.",
+                    "objects_and_counts": [
+                        "6 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L24_V004_S0024",
+            "start_frame": 5926,
+            "end_frame": 6018,
+            "start_ts": 237.04,
+            "end_ts": 240.72,
+            "duration": 3.68,
+            "keyframes": [
+                {
+                    "frame_idx": 5972,
+                    "timestamp": 238.88,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V004/L24_V004_S0024_F005972.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "",
+                "ocr_text": "HT V Chu Lớn HỂ THAO",
+                "vlm_caption": {
+                    "detailed_description": "A group of individuals in camouflage uniforms are participating in a dragon dance performance, with a large, colorful dragon head held aloft by several participants.",
+                    "objects_and_counts": [
+                        "2 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L24_V004_S0025",
+            "start_frame": 6019,
+            "end_frame": 6256,
+            "start_ts": 240.76,
+            "end_ts": 250.24,
+            "duration": 9.48,
+            "keyframes": [
+                {
+                    "frame_idx": 6137,
+                    "timestamp": 245.48,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V004/L24_V004_S0025_F006137.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Субтитры сделал DimaTorzok",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A group of performers dressed in camouflage uniforms are performing a dragon dance on a stage with a blue floor and a large, colorful dragon puppet.",
+                    "objects_and_counts": [
+                        "9 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L24_V004_S0026",
+            "start_frame": 6257,
+            "end_frame": 6340,
+            "start_ts": 250.28,
+            "end_ts": 253.6,
+            "duration": 3.32,
+            "keyframes": [
+                {
+                    "frame_idx": 6298,
+                    "timestamp": 251.92,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V004/L24_V004_S0026_F006298.jpg"
+                },
+                {
+                    "frame_idx": 6277,
+                    "timestamp": 251.08,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V004/L24_V004_S0026_F006277.jpg"
+                },
+                {
+                    "frame_idx": 6319,
+                    "timestamp": 252.76,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V004/L24_V004_S0026_F006319.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "字幕by索兰娅",
+                "ocr_text": "HTV Chợ Lên HỂ THAO | HTV Cho Lu HẾ THAO | HTV Cho Lon HỂ THAO",
+                "vlm_caption": {
+                    "detailed_description": "Soldiers in camouflage uniforms are performing a dragon dance with bright yellow and green dragon costumes.",
+                    "objects_and_counts": [
+                        "8 person | 5 person | 7 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L24_V004_S0027",
+            "start_frame": 6341,
+            "end_frame": 6499,
+            "start_ts": 253.64,
+            "end_ts": 259.96,
+            "duration": 6.32,
+            "keyframes": [
+                {
+                    "frame_idx": 6420,
+                    "timestamp": 256.8,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V004/L24_V004_S0027_F006420.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "字幕by索兰娅",
+                "ocr_text": "HTV hợ Lên HỂ THAO",
+                "vlm_caption": {
+                    "detailed_description": "A group of performers is participating in a dragon dance on a blue stage, with a large dragon puppet in the center.",
+                    "objects_and_counts": [
+                        "8 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L24_V004_S0028",
+            "start_frame": 6500,
+            "end_frame": 6679,
+            "start_ts": 260.0,
+            "end_ts": 267.16,
+            "duration": 7.16,
+            "keyframes": [
+                {
+                    "frame_idx": 6589,
+                    "timestamp": 263.56,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V004/L24_V004_S0028_F006589.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "",
+                "ocr_text": "HT V Chợ Lớn HỂ THAO",
+                "vlm_caption": {
+                    "detailed_description": "A group of individuals in camouflage uniforms are performing a dragon dance with a long, colorful dragon puppet at night.",
+                    "objects_and_counts": [
+                        "5 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L24_V004_S0029",
+            "start_frame": 6680,
+            "end_frame": 6849,
+            "start_ts": 267.2,
+            "end_ts": 273.96,
+            "duration": 6.76,
+            "keyframes": [
+                {
+                    "frame_idx": 6764,
+                    "timestamp": 270.56,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V004/L24_V004_S0029_F006764.jpg"
+                },
+                {
+                    "frame_idx": 6722,
+                    "timestamp": 268.88,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V004/L24_V004_S0029_F006722.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "",
+                "ocr_text": "HTV Chợ Lớn /HỂ THAO | HTV hợ Lên T HỂ THẠO",
+                "vlm_caption": {
+                    "detailed_description": "A group of soldiers in green uniforms perform a synchronized routine on a blue mat, with a large yellow archway and colorful decorations in the background.",
+                    "objects_and_counts": [
+                        "2 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L24_V004_S0030",
+            "start_frame": 6850,
+            "end_frame": 6945,
+            "start_ts": 274.0,
+            "end_ts": 277.8,
+            "duration": 3.8,
+            "keyframes": [
+                {
+                    "frame_idx": 6897,
+                    "timestamp": 275.88,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V004/L24_V004_S0030_F006897.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "",
+                "ocr_text": "HTV Chợ lới HỂ THAO AME NGAY THANH LAP HÔ CRÍ MINH VỊ DẠI SỰ NGHIÊP CỦA CHÚNG TAI",
+                "vlm_caption": {
+                    "detailed_description": "A group of individuals in camouflage uniforms are performing a dragon dance, with one person holding a colorful dragon head and another holding a long pole, while a poster featuring a Vietnamese flag and a portrait of a person is displayed in the background.",
+                    "objects_and_counts": [
+                        "6 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L24_V004_S0031",
+            "start_frame": 6946,
+            "end_frame": 7168,
+            "start_ts": 277.84,
+            "end_ts": 286.72,
+            "duration": 8.88,
+            "keyframes": [
+                {
+                    "frame_idx": 7057,
+                    "timestamp": 282.28,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V004/L24_V004_S0031_F007057.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Субтитры сделал DimaTorzok",
+                "ocr_text": "HT quAis Chợ Lên T HỂ THAO",
+                "vlm_caption": {
+                    "detailed_description": "Soldiers in camouflage uniforms perform a dragon dance with a long, yellow dragon made of flowers on a stage with a colorful backdrop.",
+                    "objects_and_counts": [
+                        "10 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L24_V004_S0032",
+            "start_frame": 7169,
+            "end_frame": 7258,
+            "start_ts": 286.76,
+            "end_ts": 290.32,
+            "duration": 3.56,
+            "keyframes": [
+                {
+                    "frame_idx": 7213,
+                    "timestamp": 288.52,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V004/L24_V004_S0032_F007213.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "",
+                "ocr_text": "H V Chợ Lên THỂ THAO",
+                "vlm_caption": {
+                    "detailed_description": "A colorful dragon dance performance is taking place at night, with a person holding the head of the dragon and another person holding a large, round, multicolored ball.",
+                    "objects_and_counts": [
+                        "1 person, 1 banana"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L24_V004_S0033",
+            "start_frame": 7259,
+            "end_frame": 7591,
+            "start_ts": 290.36,
+            "end_ts": 303.64,
+            "duration": 13.28,
+            "keyframes": [
+                {
+                    "frame_idx": 7425,
+                    "timestamp": 297.0,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V004/L24_V004_S0033_F007425.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Thank you.",
+                "ocr_text": "HT Chợ Lón HẾ THAO",
+                "vlm_caption": {
+                    "detailed_description": "A group of individuals in military uniforms perform a dragon dance on a stage with a large, yellow dragon puppet.",
+                    "objects_and_counts": [
+                        "13 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L24_V004_S0034",
+            "start_frame": 7592,
+            "end_frame": 7759,
+            "start_ts": 303.68,
+            "end_ts": 310.36,
+            "duration": 6.68,
+            "keyframes": [
+                {
+                    "frame_idx": 7675,
+                    "timestamp": 307.0,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V004/L24_V004_S0034_F007675.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "",
+                "ocr_text": "HT hợ Lợn HẾ THAO",
+                "vlm_caption": {
+                    "detailed_description": "A group of performers dressed in green uniforms are performing a dragon dance on a blue stage, with a large screen displaying a white silhouette of a person in the background.",
+                    "objects_and_counts": [
+                        "2 person, 1 chair, 1 dining table"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L24_V004_S0035",
+            "start_frame": 7760,
+            "end_frame": 7964,
+            "start_ts": 310.4,
+            "end_ts": 318.56,
+            "duration": 8.16,
+            "keyframes": [
+                {
+                    "frame_idx": 7862,
+                    "timestamp": 314.48,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V004/L24_V004_S0035_F007862.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "",
+                "ocr_text": "Chợ Lớn HỂ THAO",
+                "vlm_caption": {
+                    "detailed_description": "A group of performers dressed in camouflage uniforms are dancing with a large yellow dragon puppet on a stage with a backdrop of a cityscape and traditional decorations.",
+                    "objects_and_counts": [
+                        "11 person, 1 elephant"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L24_V004_S0036",
+            "start_frame": 7965,
+            "end_frame": 8089,
+            "start_ts": 318.6,
+            "end_ts": 323.56,
+            "duration": 4.96,
+            "keyframes": [
+                {
+                    "frame_idx": 8027,
+                    "timestamp": 321.08,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V004/L24_V004_S0036_F008027.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "",
+                "ocr_text": "HTV quAnS Chợ lớn HẾ THAO",
+                "vlm_caption": {
+                    "detailed_description": "A performer in camouflage attire is controlling a large, colorful dragon puppet on a stage with a backdrop of a mountainous landscape."
+                }
+            }
+        },
+        {
+            "shot_id": "L24_V004_S0037",
+            "start_frame": 8090,
+            "end_frame": 8171,
+            "start_ts": 323.6,
+            "end_ts": 326.84,
+            "duration": 3.24,
+            "keyframes": [
+                {
+                    "frame_idx": 8130,
+                    "timestamp": 325.2,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V004/L24_V004_S0037_F008130.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Thank you.",
+                "ocr_text": "họợ Lên",
+                "vlm_caption": {
+                    "detailed_description": "A group of performers in traditional attire are performing a dragon dance on a stage with a large audience watching.",
+                    "objects_and_counts": [
+                        "7 person, 1 dining table"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L24_V004_S0038",
+            "start_frame": 8172,
+            "end_frame": 8644,
+            "start_ts": 326.88,
+            "end_ts": 345.76,
+            "duration": 18.88,
+            "keyframes": [
+                {
+                    "frame_idx": 8408,
+                    "timestamp": 336.32,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V004/L24_V004_S0038_F008408.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "© BF-WATCH TV 2021",
+                "ocr_text": "HTV Chợ Lon 7 HẾ THAO",
+                "vlm_caption": {
+                    "detailed_description": "A group of individuals in military-style uniforms are performing a dragon dance on a stage with a large, colorful dragon puppet.",
+                    "objects_and_counts": [
+                        "14 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L24_V004_S0039",
+            "start_frame": 8645,
+            "end_frame": 8830,
+            "start_ts": 345.8,
+            "end_ts": 353.2,
+            "duration": 7.4,
+            "keyframes": [
+                {
+                    "frame_idx": 8737,
+                    "timestamp": 349.48,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V004/L24_V004_S0039_F008737.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "",
+                "ocr_text": "quRn5• HẾ THAO",
+                "vlm_caption": {
+                    "detailed_description": "A colorful dragon puppet with intricate patterns and vibrant colors is being held up, likely during a cultural or festive event."
+                }
+            }
+        },
+        {
+            "shot_id": "L24_V004_S0040",
+            "start_frame": 8831,
+            "end_frame": 8926,
+            "start_ts": 353.24,
+            "end_ts": 357.04,
+            "duration": 3.8,
+            "keyframes": [
+                {
+                    "frame_idx": 8878,
+                    "timestamp": 355.12,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V004/L24_V004_S0040_F008878.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "",
+                "ocr_text": "quin® HTV tự LỚn HỂ THAO",
+                "vlm_caption": {
+                    "detailed_description": "A group of performers in green uniforms are performing a dragon dance on a blue stage with a large, colorful dragon made of balloons.",
+                    "objects_and_counts": [
+                        "3 person, 1 chair"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L24_V004_S0041",
+            "start_frame": 8927,
+            "end_frame": 9025,
+            "start_ts": 357.08,
+            "end_ts": 361.0,
+            "duration": 3.92,
+            "keyframes": [
+                {
+                    "frame_idx": 8976,
+                    "timestamp": 359.04,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V004/L24_V004_S0041_F008976.jpg"
+                },
+                {
+                    "frame_idx": 8951,
+                    "timestamp": 358.04,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V004/L24_V004_S0041_F008951.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "",
+                "ocr_text": "HTV HẾ THAO | quAnS ATV Chợ lớn HỂ THAO",
+                "vlm_caption": {
+                    "detailed_description": "A vibrant dragon dance performance is taking place, with a large, colorful dragon head prominently displayed in the foreground, while participants in traditional attire are visible in the background."
+                }
+            }
+        },
+        {
+            "shot_id": "L24_V004_S0042",
+            "start_frame": 9026,
+            "end_frame": 9044,
+            "start_ts": 361.04,
+            "end_ts": 361.76,
+            "duration": 0.72,
+            "keyframes": [
+                {
+                    "frame_idx": 9035,
+                    "timestamp": 361.4,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V004/L24_V004_S0042_F009035.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "",
+                "ocr_text": "HTV quAiS Chợ Lớn /HỂ THAO PTV Cho eu HTY GIẢI LÂN SƯ RÔNG QUẬN 5 MƠ RỌNG LÀN 6 CUP CHỢ LON - HTV 2024",
+                "vlm_caption": {
+                    "detailed_description": "Two men are seated at a table with microphones and logos, likely participating in a press conference or interview, with a festive background featuring a lion dance costume and a large HTV logo.",
+                    "objects_and_counts": [
+                        "2 person, 1 bottle, 1 chair"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L24_V004_S0043",
+            "start_frame": 9045,
+            "end_frame": 9212,
+            "start_ts": 361.8,
+            "end_ts": 368.48,
+            "duration": 6.68,
+            "keyframes": [
+                {
+                    "frame_idx": 9128,
+                    "timestamp": 365.12,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V004/L24_V004_S0043_F009128.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "",
+                "ocr_text": "HTV Chợ Lớn HỂ THAO",
+                "vlm_caption": {
+                    "detailed_description": "A group of performers in military-style uniforms are holding a large, colorful dragon puppet on a stage, with a crowd of spectators in the background.",
+                    "objects_and_counts": [
+                        "13 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L24_V004_S0044",
+            "start_frame": 9213,
+            "end_frame": 9272,
+            "start_ts": 368.52,
+            "end_ts": 370.88,
+            "duration": 2.36,
+            "keyframes": [
+                {
+                    "frame_idx": 9242,
+                    "timestamp": 369.68,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V004/L24_V004_S0044_F009242.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "",
+                "ocr_text": "HT Chợ Lên T HỂ THAO",
+                "vlm_caption": {
+                    "detailed_description": "A vibrant dragon puppet with intricate designs and colorful patterns is being held aloft in a nighttime outdoor setting, with a blurred background of buildings and lights."
+                }
+            }
+        },
+        {
+            "shot_id": "L24_V004_S0045",
+            "start_frame": 9273,
+            "end_frame": 9618,
+            "start_ts": 370.92,
+            "end_ts": 384.72,
+            "duration": 13.8,
+            "keyframes": [
+                {
+                    "frame_idx": 9445,
+                    "timestamp": 377.8,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V004/L24_V004_S0045_F009445.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Thanks for watching!",
+                "ocr_text": "HTV Chợ Lớn HẾ THAO",
+                "vlm_caption": {
+                    "detailed_description": "A group of soldiers in camouflage uniforms perform a dragon dance on a stage with a large screen displaying a red and yellow dragon in the background.",
+                    "objects_and_counts": [
+                        "9 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L24_V004_S0046",
+            "start_frame": 9619,
+            "end_frame": 9728,
+            "start_ts": 384.76,
+            "end_ts": 389.12,
+            "duration": 4.36,
+            "keyframes": [
+                {
+                    "frame_idx": 9673,
+                    "timestamp": 386.92,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V004/L24_V004_S0046_F009673.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "© BF-WATCH TV 2021",
+                "ocr_text": "H Ans Chợ Lớn HẾ THAO",
+                "vlm_caption": {
+                    "detailed_description": "Soldiers in camouflage uniforms perform a traditional dragon dance with large yellow dragon heads and long, flowing tails, using long sticks to guide the dragon's movements on a stage with a crowd of spectators in the background.",
+                    "objects_and_counts": [
+                        "11 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L24_V004_S0047",
+            "start_frame": 9729,
+            "end_frame": 9847,
+            "start_ts": 389.16,
+            "end_ts": 393.88,
+            "duration": 4.72,
+            "keyframes": [
+                {
+                    "frame_idx": 9788,
+                    "timestamp": 391.52,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V004/L24_V004_S0047_F009788.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "",
+                "ocr_text": "H Chợ lên HỂ THAO",
+                "vlm_caption": {
+                    "detailed_description": "A group of performers in green uniforms are performing a dragon dance on a stage with a blue and pink floor, surrounded by a large audience and decorated with colorful banners and flags.",
+                    "objects_and_counts": [
+                        "7 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L24_V004_S0048",
+            "start_frame": 9848,
+            "end_frame": 9984,
+            "start_ts": 393.92,
+            "end_ts": 399.36,
+            "duration": 5.44,
+            "keyframes": [
+                {
+                    "frame_idx": 9916,
+                    "timestamp": 396.64,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V004/L24_V004_S0048_F009916.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "",
+                "ocr_text": "HT Chợ Lớn Y HỂ THAO",
+                "vlm_caption": {
+                    "detailed_description": "A group of performers dressed in green uniforms are engaged in a dragon dance, with a large, vibrant yellow dragon puppet being the central focus, while the audience watches from the background.",
+                    "objects_and_counts": [
+                        "6 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L24_V004_S0049",
+            "start_frame": 9985,
+            "end_frame": 10311,
+            "start_ts": 399.4,
+            "end_ts": 412.44,
+            "duration": 13.04,
+            "keyframes": [
+                {
+                    "frame_idx": 10148,
+                    "timestamp": 405.92,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V004/L24_V004_S0049_F010148.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "Chợ Lon HỂ THAO",
+                "vlm_caption": {
+                    "detailed_description": "A group of performers dressed in green uniforms are dancing with a large, colorful dragon puppet on a stage with a blue floor and a large screen displaying a soccer game in the background.",
+                    "objects_and_counts": [
+                        "8 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L24_V004_S0050",
+            "start_frame": 10312,
+            "end_frame": 10436,
+            "start_ts": 412.48,
+            "end_ts": 417.44,
+            "duration": 4.96,
+            "keyframes": [
+                {
+                    "frame_idx": 10374,
+                    "timestamp": 414.96,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V004/L24_V004_S0050_F010374.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "VAI V Chợ Lớn HẾ THAO",
+                "vlm_caption": {
+                    "detailed_description": "A group of performers dressed in green uniforms are participating in a dragon dance, with a vibrant, colorful dragon puppet being held aloft by several individuals.",
+                    "objects_and_counts": [
+                        "11 person, 1 dining table, 1 kite"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L24_V004_S0051",
+            "start_frame": 10437,
+            "end_frame": 10753,
+            "start_ts": 417.48,
+            "end_ts": 430.12,
+            "duration": 12.64,
+            "keyframes": [
+                {
+                    "frame_idx": 10595,
+                    "timestamp": 423.8,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V004/L24_V004_S0051_F010595.jpg"
+                },
+                {
+                    "frame_idx": 10674,
+                    "timestamp": 426.96,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V004/L24_V004_S0051_F010674.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "HT V hợ Lên /HỂ THAO | HT )) HỂ THAO",
+                "vlm_caption": {
+                    "detailed_description": "Two performers in green costumes are performing a dragon dance on a blue stage with a large audience watching.",
+                    "objects_and_counts": [
+                        "2 person | 8 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L24_V004_S0052",
+            "start_frame": 10754,
+            "end_frame": 10829,
+            "start_ts": 430.16,
+            "end_ts": 433.16,
+            "duration": 3.0,
+            "keyframes": [
+                {
+                    "frame_idx": 10791,
+                    "timestamp": 431.64,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V004/L24_V004_S0052_F010791.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Oh",
+                "ocr_text": "HTV HỂ THAO",
+                "vlm_caption": {
+                    "detailed_description": "A group of individuals dressed in green uniforms are performing a dragon dance on a stage with a large, colorful dragon puppet.",
+                    "objects_and_counts": [
+                        "16 person, 1 banana, 1 chair"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L24_V004_S0053",
+            "start_frame": 10830,
+            "end_frame": 11187,
+            "start_ts": 433.2,
+            "end_ts": 447.48,
+            "duration": 14.28,
+            "keyframes": [
+                {
+                    "frame_idx": 11008,
+                    "timestamp": 440.32,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V004/L24_V004_S0053_F011008.jpg"
+                },
+                {
+                    "frame_idx": 10919,
+                    "timestamp": 436.76,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V004/L24_V004_S0053_F010919.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "HTV Chợ Len HỂ THAO | Chợ Lớn HỂ THAO",
+                "vlm_caption": {
+                    "detailed_description": "A group of individuals in camouflage uniforms are performing a dragon dance on a stage with a large, colorful dragon puppet.",
+                    "objects_and_counts": [
+                        "15 person | 16 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L24_V004_S0054",
+            "start_frame": 11188,
+            "end_frame": 11248,
+            "start_ts": 447.52,
+            "end_ts": 449.92,
+            "duration": 2.4,
+            "keyframes": [
+                {
+                    "frame_idx": 11218,
+                    "timestamp": 448.72,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V004/L24_V004_S0054_F011218.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "HTV Chư Lêm /HỂ THAO",
+                "vlm_caption": {
+                    "detailed_description": "A man in a green shirt is holding a colorful dragon puppet, with spectators in the background.",
+                    "objects_and_counts": [
+                        "1 person, 1 banana"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L24_V004_S0055",
+            "start_frame": 11249,
+            "end_frame": 11528,
+            "start_ts": 449.96,
+            "end_ts": 461.12,
+            "duration": 11.16,
+            "keyframes": [
+                {
+                    "frame_idx": 11388,
+                    "timestamp": 455.52,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V004/L24_V004_S0055_F011388.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Đã trải qua ba mùa mưa năm Thoá bao cuộc đổi thai Mãi dâng thòa đời bài tình ta đất chung",
+                "ocr_text": "V Chợ Lên T HỂ THAO",
+                "vlm_caption": {
+                    "detailed_description": "A group of performers dressed in green uniforms are holding a large, yellow dragon puppet, performing a traditional dance or festival event at night.",
+                    "objects_and_counts": [
+                        "7 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L24_V004_S0056",
+            "start_frame": 11529,
+            "end_frame": 11885,
+            "start_ts": 461.16,
+            "end_ts": 475.4,
+            "duration": 14.24,
+            "keyframes": [
+                {
+                    "frame_idx": 11707,
+                    "timestamp": 468.28,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V004/L24_V004_S0056_F011707.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "V Chợ Lon T HỂ THAO",
+                "vlm_caption": {
+                    "detailed_description": "A group of performers in green uniforms are executing a coordinated dance routine with yellow and red flags on a blue stage, with a large audience and a large screen displaying a soccer game in the background.",
+                    "objects_and_counts": [
+                        "7 person, 1 skis"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L24_V004_S0057",
+            "start_frame": 11886,
+            "end_frame": 11974,
+            "start_ts": 475.44,
+            "end_ts": 478.96,
+            "duration": 3.52,
+            "keyframes": [
+                {
+                    "frame_idx": 11930,
+                    "timestamp": 477.2,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V004/L24_V004_S0057_F011930.jpg"
+                },
+                {
+                    "frame_idx": 11908,
+                    "timestamp": 476.32,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V004/L24_V004_S0057_F011908.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "",
+                "ocr_text": "HTV Chợ Lon ) HỂ THAO | HTV Chợ Lon HẾ THAO",
+                "vlm_caption": {
+                    "detailed_description": "A group of athletes in green uniforms are waving flags and cheering in a stadium setting.",
+                    "objects_and_counts": [
+                        "6 person | 4 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L24_V004_S0058",
+            "start_frame": 11975,
+            "end_frame": 12063,
+            "start_ts": 479.0,
+            "end_ts": 482.52,
+            "duration": 3.52,
+            "keyframes": [
+                {
+                    "frame_idx": 12019,
+                    "timestamp": 480.76,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V004/L24_V004_S0058_F012019.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "",
+                "ocr_text": "AT ZI Chợ Lon HẾ THAO",
+                "vlm_caption": {
+                    "detailed_description": "A group of performers dressed in camouflage uniforms are performing a traditional dragon dance on a stage with a blue floor, surrounded by spectators and decorated with banners.",
+                    "objects_and_counts": [
+                        "11 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L24_V004_S0059",
+            "start_frame": 12064,
+            "end_frame": 12134,
+            "start_ts": 482.56,
+            "end_ts": 485.36,
+            "duration": 2.8,
+            "keyframes": [
+                {
+                    "frame_idx": 12099,
+                    "timestamp": 483.96,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V004/L24_V004_S0059_F012099.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "qulilns. HTV HẾ THAO",
+                "vlm_caption": {
+                    "detailed_description": "A vibrant dragon dance performance is taking place, with a large, colorful dragon adorned with a portrait of a Vietnamese leader at the center, surrounded by performers in green uniforms.",
+                    "objects_and_counts": [
+                        "5 person, 1 frisbee"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L24_V004_S0060",
+            "start_frame": 12135,
+            "end_frame": 12388,
+            "start_ts": 485.4,
+            "end_ts": 495.52,
+            "duration": 10.12,
+            "keyframes": [
+                {
+                    "frame_idx": 12261,
+                    "timestamp": 490.44,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V004/L24_V004_S0060_F012261.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "",
+                "ocr_text": "HTV HẾ THAO",
+                "vlm_caption": {
+                    "detailed_description": "A group of soldiers in camouflage uniforms perform a dragon dance on a blue stage, with a large screen displaying a rural scene in the background.",
+                    "objects_and_counts": [
+                        "19 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L24_V004_S0061",
+            "start_frame": 12389,
+            "end_frame": 13085,
+            "start_ts": 495.56,
+            "end_ts": 523.4,
+            "duration": 27.84,
+            "keyframes": [
+                {
+                    "frame_idx": 12737,
+                    "timestamp": 509.48,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V004/L24_V004_S0061_F012737.jpg"
+                },
+                {
+                    "frame_idx": 12563,
+                    "timestamp": 502.52,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V004/L24_V004_S0061_F012563.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "HTV Tự Lên HẾ THAO | HTV nọ LỚn HẾ THAO",
+                "vlm_caption": {
+                    "detailed_description": "A group of performers in green costumes are performing a dragon dance on a blue stage with a large audience watching.",
+                    "objects_and_counts": [
+                        "6 person | 1 tv, 2 person, 1 dining table"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L24_V004_S0062",
+            "start_frame": 13086,
+            "end_frame": 13565,
+            "start_ts": 523.44,
+            "end_ts": 542.6,
+            "duration": 19.16,
+            "keyframes": [
+                {
+                    "frame_idx": 13325,
+                    "timestamp": 533.0,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V004/L24_V004_S0062_F013325.jpg"
+                },
+                {
+                    "frame_idx": 13205,
+                    "timestamp": 528.2,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V004/L24_V004_S0062_F013205.jpg"
+                },
+                {
+                    "frame_idx": 13445,
+                    "timestamp": 537.8,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V004/L24_V004_S0062_F013445.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "ATV Chợ Lớn HỂ THAO | HT V Chợ Lớn T) HỂ THAO lim | HT Chợ Lon HỂ THAO",
+                "vlm_caption": {
+                    "detailed_description": "A performer in a colorful, traditional mask emerges from a tent amidst a cloud of smoke.",
+                    "objects_and_counts": [
+                        "8 person, 1 umbrella | 3 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L24_V004_S0063",
+            "start_frame": 13566,
+            "end_frame": 13927,
+            "start_ts": 542.64,
+            "end_ts": 557.08,
+            "duration": 14.44,
+            "keyframes": [
+                {
+                    "frame_idx": 13746,
+                    "timestamp": 549.84,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V004/L24_V004_S0063_F013746.jpg"
+                },
+                {
+                    "frame_idx": 13656,
+                    "timestamp": 546.24,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V004/L24_V004_S0063_F013656.jpg"
+                },
+                {
+                    "frame_idx": 13836,
+                    "timestamp": 553.44,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V004/L24_V004_S0063_F013836.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "hợ Lên HỂ THAO | ATV HỂ THÀO | V Chợ Lon 7 HỂ THAO",
+                "vlm_caption": {
+                    "detailed_description": "A large crowd watches a dragon dance performance on a blue mat, with a performer in military uniform holding a colorful lantern.",
+                    "objects_and_counts": [
+                        "8 person | 4 person, 1 sports ball, 1 motorcycle | 8 person, 1 kite"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L24_V004_S0064",
+            "start_frame": 13928,
+            "end_frame": 14085,
+            "start_ts": 557.12,
+            "end_ts": 563.4,
+            "duration": 6.28,
+            "keyframes": [
+                {
+                    "frame_idx": 14006,
+                    "timestamp": 560.24,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V004/L24_V004_S0064_F014006.jpg"
+                },
+                {
+                    "frame_idx": 14045,
+                    "timestamp": 561.8,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V004/L24_V004_S0064_F014045.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "Chợ Lớn / HỂ THAO C | Chợ Lên THỂ THAO",
+                "vlm_caption": {
+                    "detailed_description": "A group of individuals in camouflage uniforms are holding up a large, colorful dragon puppet with bright lights and traditional decorations, set against a nighttime backdrop with a stage and audience.",
+                    "objects_and_counts": [
+                        "7 person, 1 dining table | 5 person, 1 kite"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L24_V004_S0065",
+            "start_frame": 14086,
+            "end_frame": 14202,
+            "start_ts": 563.44,
+            "end_ts": 568.08,
+            "duration": 4.64,
+            "keyframes": [
+                {
+                    "frame_idx": 14144,
+                    "timestamp": 565.76,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V004/L24_V004_S0065_F014144.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "中文字幕志愿者 杨茜茜",
+                "ocr_text": "HTV Chợ lớn HỂ THAO",
+                "vlm_caption": {
+                    "detailed_description": "A vibrant dragon dance performance is taking place at an outdoor event, with a large, colorful dragon head prominently displayed in the foreground, while a group of people, including a man in a white shirt, are seated and observing the performance.",
+                    "objects_and_counts": [
+                        "11 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L24_V004_S0066",
+            "start_frame": 14203,
+            "end_frame": 14405,
+            "start_ts": 568.12,
+            "end_ts": 576.2,
+            "duration": 8.08,
+            "keyframes": [
+                {
+                    "frame_idx": 14304,
+                    "timestamp": 572.16,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V004/L24_V004_S0066_F014304.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "nự LỚn HỂ THAO",
+                "vlm_caption": {
+                    "detailed_description": "A dragon dance performance is taking place on a stage with a large crowd watching, under a large tent-like structure.",
+                    "objects_and_counts": [
+                        "6 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L24_V004_S0067",
+            "start_frame": 14406,
+            "end_frame": 14466,
+            "start_ts": 576.24,
+            "end_ts": 578.64,
+            "duration": 2.4,
+            "keyframes": [
+                {
+                    "frame_idx": 14436,
+                    "timestamp": 577.44,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V004/L24_V004_S0067_F014436.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "HTV HỂ THẢO",
+                "vlm_caption": {
+                    "detailed_description": "A group of individuals in camouflage uniforms are participating in a dragon dance performance, with a large, intricately decorated dragon head prominently displayed in the foreground.",
+                    "objects_and_counts": [
+                        "6 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L24_V004_S0068",
+            "start_frame": 14467,
+            "end_frame": 14627,
+            "start_ts": 578.68,
+            "end_ts": 585.08,
+            "duration": 6.4,
+            "keyframes": [
+                {
+                    "frame_idx": 14547,
+                    "timestamp": 581.88,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V004/L24_V004_S0068_F014547.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "请不吝点赞 订阅 转发 打赏支持明镜与点点栏目",
+                "ocr_text": "V HT Chợ Lon HỂ THAO",
+                "vlm_caption": {
+                    "detailed_description": "A vibrant dragon puppet with yellow, red, and black colors is displayed prominently in an outdoor setting with a green light in the background."
+                }
+            }
+        },
+        {
+            "shot_id": "L24_V004_S0069",
+            "start_frame": 14628,
+            "end_frame": 14807,
+            "start_ts": 585.12,
+            "end_ts": 592.28,
+            "duration": 7.16,
+            "keyframes": [
+                {
+                    "frame_idx": 14717,
+                    "timestamp": 588.68,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V004/L24_V004_S0069_F014717.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Trồng bói, từ bóng vào nông. Trồng bói, bầy đông.",
+                "ocr_text": "HẾ THẠO",
+                "vlm_caption": {
+                    "detailed_description": "A group of performers in traditional attire are participating in a dragon dance on a stage with a large, colorful dragon puppet, surrounded by an audience and various decorations.",
+                    "objects_and_counts": [
+                        "9 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L24_V004_S0070",
+            "start_frame": 14808,
+            "end_frame": 15006,
+            "start_ts": 592.32,
+            "end_ts": 600.24,
+            "duration": 7.92,
+            "keyframes": [
+                {
+                    "frame_idx": 14907,
+                    "timestamp": 596.28,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V004/L24_V004_S0070_F014907.jpg"
+                },
+                {
+                    "frame_idx": 14857,
+                    "timestamp": 594.28,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V004/L24_V004_S0070_F014857.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "quAis Chợ Lớn HẾ THAO",
+                "vlm_caption": {
+                    "detailed_description": "A colorful, striped ball is spinning on a pole in front of a building with illuminated lights and a sign.",
+                    "objects_and_counts": [
+                        "1 kite | 1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L24_V004_S0071",
+            "start_frame": 15007,
+            "end_frame": 15329,
+            "start_ts": 600.28,
+            "end_ts": 613.16,
+            "duration": 12.88,
+            "keyframes": [
+                {
+                    "frame_idx": 15168,
+                    "timestamp": 606.72,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V004/L24_V004_S0071_F015168.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "HTV hợ Lên T HẾ THẠO",
+                "vlm_caption": {
+                    "detailed_description": "A group of performers in green uniforms are dancing with a large, colorful dragon puppet on a stage with a blue floor and a crowd of spectators in the background.",
+                    "objects_and_counts": [
+                        "10 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L24_V004_S0072",
+            "start_frame": 15330,
+            "end_frame": 15485,
+            "start_ts": 613.2,
+            "end_ts": 619.4,
+            "duration": 6.2,
+            "keyframes": [
+                {
+                    "frame_idx": 15407,
+                    "timestamp": 616.28,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V004/L24_V004_S0072_F015407.jpg"
+                },
+                {
+                    "frame_idx": 15446,
+                    "timestamp": 617.84,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V004/L24_V004_S0072_F015446.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hồn người xa xứ Thêm thêm cơn hương thêm nhiều nỗi rộng Rộng mắt trong tim",
+                "ocr_text": "HT Chợ Lon THẾ THAO cT RỒNG | H7 Chợ Lon HẾ THAO NH LÂN SỬ RÔNG",
+                "vlm_caption": {
+                    "detailed_description": "The image shows a nighttime scene with a red flag and a yellow lantern in the foreground, and a green banner with text in the background.",
+                    "objects_and_counts": [
+                        "1 kite"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L24_V004_S0073",
+            "start_frame": 15486,
+            "end_frame": 15610,
+            "start_ts": 619.44,
+            "end_ts": 624.4,
+            "duration": 4.96,
+            "keyframes": [
+                {
+                    "frame_idx": 15548,
+                    "timestamp": 621.92,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V004/L24_V004_S0073_F015548.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "HT THẾ THẠO",
+                "vlm_caption": {
+                    "detailed_description": "A group of performers in traditional attire are engaged in a dragon dance on a stage decorated with colorful floral arrangements, with a large audience watching from the sides.",
+                    "objects_and_counts": [
+                        "3 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L24_V004_S0074",
+            "start_frame": 15611,
+            "end_frame": 15705,
+            "start_ts": 624.44,
+            "end_ts": 628.2,
+            "duration": 3.76,
+            "keyframes": [
+                {
+                    "frame_idx": 15658,
+                    "timestamp": 626.32,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V004/L24_V004_S0074_F015658.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "HTV Chợ Bn THỂ THAO THÀNH PHẨ NỔ CÁM 0",
+                "vlm_caption": {
+                    "detailed_description": "A group of performers dressed in green and yellow costumes are participating in a dragon dance on a large, colorful float, with spectators and other performers in the background.",
+                    "objects_and_counts": [
+                        "9 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L24_V004_S0075",
+            "start_frame": 15706,
+            "end_frame": 15853,
+            "start_ts": 628.24,
+            "end_ts": 634.12,
+            "duration": 5.88,
+            "keyframes": [
+                {
+                    "frame_idx": 15779,
+                    "timestamp": 631.16,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V004/L24_V004_S0075_F015779.jpg"
+                },
+                {
+                    "frame_idx": 15742,
+                    "timestamp": 629.68,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V004/L24_V004_S0075_F015742.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "",
+                "ocr_text": "HT Chọ Lo HỂ THAO HA | HTV HẾ THAO",
+                "vlm_caption": {
+                    "detailed_description": "A person is holding a dragon dance costume with a Chinese flag attached, performing in front of a blue backdrop.",
+                    "objects_and_counts": [
+                        "1 person | 1 person, 1 banana"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L24_V004_S0076",
+            "start_frame": 15854,
+            "end_frame": 16607,
+            "start_ts": 634.16,
+            "end_ts": 664.28,
+            "duration": 30.12,
+            "keyframes": [
+                {
+                    "frame_idx": 16230,
+                    "timestamp": 649.2,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V004/L24_V004_S0076_F016230.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Đoàn Lân Sư Rồng Hải Nam Liên Hữu Đủ thể lượng không lỗi Đủ thể lượng không lỗi",
+                "ocr_text": "Chợ Len T HỂ THAO",
+                "vlm_caption": {
+                    "detailed_description": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+                    "objects_and_counts": [
+                        "9 person, 1 cake"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L24_V004_S0077",
+            "start_frame": 16608,
+            "end_frame": 16796,
+            "start_ts": 664.32,
+            "end_ts": 671.84,
+            "duration": 7.52,
+            "keyframes": [
+                {
+                    "frame_idx": 16702,
+                    "timestamp": 668.08,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V004/L24_V004_S0077_F016702.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "",
+                "ocr_text": "HT Chợ Lớn THỂ THAO",
+                "vlm_caption": {
+                    "detailed_description": "A group of people, including children and adults, are seated in an audience, some holding smartphones, while others wear face masks, indicating a public event or gathering.",
+                    "objects_and_counts": [
+                        "13 person, 1 cell phone"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L24_V004_S0078",
+            "start_frame": 16797,
+            "end_frame": 17299,
+            "start_ts": 671.88,
+            "end_ts": 691.96,
+            "duration": 20.08,
+            "keyframes": [
+                {
+                    "frame_idx": 17048,
+                    "timestamp": 681.92,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V004/L24_V004_S0078_F017048.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Chú vị và các bạn thân mến, như vậy là chúng ta đã vừa theo dõi xong bài thi và đó là thực sự đặc sắc và rất tuyệt vời của đoàn Liên sĩ Đồng Hải Nam Liên Hữu đến từ quận 5, thành phố Hồ Chí Minh. Một bài thi mà chúng ta có thể thấy rõ họ đã có sự đầu tư rất kỹ lực.",
+                "ocr_text": "Chợ Lớn HỂ THAO",
+                "vlm_caption": {
+                    "detailed_description": "A colorful parade featuring a dragon float and military personnel marching in formation takes place on a stage with a large screen displaying a cartoon character.",
+                    "objects_and_counts": [
+                        "11 person, 1 tv"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L24_V004_S0079",
+            "start_frame": 17300,
+            "end_frame": 17414,
+            "start_ts": 692.0,
+            "end_ts": 696.56,
+            "duration": 4.56,
+            "keyframes": [
+                {
+                    "frame_idx": 17357,
+                    "timestamp": 694.28,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V004/L24_V004_S0079_F017357.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "về đạo cụ, về trang phục, về nhạc nền.",
+                "ocr_text": "HT V Chợ Lon Y HỂ THAO",
+                "vlm_caption": {
+                    "detailed_description": "The image shows a diverse audience seated in a stadium, with some individuals wearing masks, and the logo of HTV in the top right corner.",
+                    "objects_and_counts": [
+                        "15 person, 1 donut"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L24_V004_S0080",
+            "start_frame": 17415,
+            "end_frame": 17650,
+            "start_ts": 696.6,
+            "end_ts": 706.0,
+            "duration": 9.4,
+            "keyframes": [
+                {
+                    "frame_idx": 17532,
+                    "timestamp": 701.28,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V004/L24_V004_S0080_F017532.jpg"
+                },
+                {
+                    "frame_idx": 17473,
+                    "timestamp": 698.92,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V004/L24_V004_S0080_F017473.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Chúng ta chuẩn bị báo điểm",
+                "ocr_text": "HTV Chợ Lớm HỂ THAO NHIỆT LIỆT CHAO MƯNG 94 NĂM NGAY THANH LẬP BANG CỘNG SAN VIỆT NAM (03/02/1930 - 03/02/2824) 5 0 4 CHỦ TỊCH HỒ CHÍ MINH VĨ BẠI, SỐNG MÃI TRONG CH NAUÊ MIN | HTV Chợ Lớn HỂ THAO HTV 5",
+                "vlm_caption": {
+                    "detailed_description": "A group of young men in camouflage uniforms stand in a line, with their arms around each other, on a stage with a red background and a banner displaying \"HTV Thể Thao.\"",
+                    "objects_and_counts": [
+                        "5 person | 7 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L24_V004_S0081",
+            "start_frame": 17651,
+            "end_frame": 18593,
+            "start_ts": 706.04,
+            "end_ts": 743.72,
+            "duration": 37.68,
+            "keyframes": [
+                {
+                    "frame_idx": 18122,
+                    "timestamp": 724.88,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V004/L24_V004_S0081_F018122.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Trọng tài đã thông báo Ở trong bài thi này thì các đại viên Của đoàn Lân Sinh Thồng Hải Nam Liên Hữu Không mắc lỗi Và chúng ta sẽ chờ phần công bố điểm Của các trọng tài Cảm ơn các bạn đã theo dõi",
+                "ocr_text": "quAis HTV Chợ lớn HỂ THAO Dac",
+                "vlm_caption": {
+                    "detailed_description": "Soldiers in green uniforms stand in formation on a stage, with a large screen displaying a parade in the background.",
+                    "objects_and_counts": [
+                        "15 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L24_V004_S0082",
+            "start_frame": 18594,
+            "end_frame": 18600,
+            "start_ts": 743.76,
+            "end_ts": 744.0,
+            "duration": 0.24,
+            "keyframes": [],
+            "extracted_data": {
+                "transcript": "",
+                "ocr_text": ""
+            }
+        },
+        {
+            "shot_id": "L24_V004_S0083",
+            "start_frame": 18601,
+            "end_frame": 18643,
+            "start_ts": 744.04,
+            "end_ts": 745.72,
+            "duration": 1.68,
+            "keyframes": [
+                {
+                    "frame_idx": 18622,
+                    "timestamp": 744.88,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V004/L24_V004_S0083_F018622.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Đồng tài số 1",
+                "ocr_text": "tự Lợn /HỂ THAO",
+                "vlm_caption": {
+                    "detailed_description": "A large crowd gathers around a stage where a group of people in uniform stand in formation, with a large screen displaying an image of a boat in the background.",
+                    "objects_and_counts": [
+                        "10 person, 1 tv"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L24_V004_S0084",
+            "start_frame": 18644,
+            "end_frame": 18730,
+            "start_ts": 745.76,
+            "end_ts": 749.2,
+            "duration": 3.44,
+            "keyframes": [
+                {
+                    "frame_idx": 18687,
+                    "timestamp": 747.48,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V004/L24_V004_S0084_F018687.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "8 phút 65 Trọng tài số 2",
+                "ocr_text": "H Thio La HỂ THAO 865 DÀN LÂN SƯ HƠNG TRỌNG TÀI 1",
+                "vlm_caption": {
+                    "detailed_description": "A person in a blue shirt holds up a sign with the number 865 at a table with a blue tablecloth, while a panel of judges sits behind a table with colorful banners.",
+                    "objects_and_counts": [
+                        "7 person, 1 bottle, 1 dining table, 1 vase, 1 cup"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L24_V004_S0085",
+            "start_frame": 18731,
+            "end_frame": 18833,
+            "start_ts": 749.24,
+            "end_ts": 753.32,
+            "duration": 4.08,
+            "keyframes": [
+                {
+                    "frame_idx": 18782,
+                    "timestamp": 751.28,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V004/L24_V004_S0085_F018782.jpg"
+                },
+                {
+                    "frame_idx": 18807,
+                    "timestamp": 752.28,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V004/L24_V004_S0085_F018807.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "8 phết 70 Đồng tài số 3",
+                "ocr_text": "quAns HTV Chợ lớn HẾ THAO 870 | HTV Chợ Lớm HỂ THAO RONG",
+                "vlm_caption": {
+                    "detailed_description": "A man in a blue and yellow shirt is holding a clipboard while standing on an escalator.",
+                    "objects_and_counts": [
+                        "5 person, 1 bottle | 5 person, 1 chair"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L24_V004_S0086",
+            "start_frame": 18834,
+            "end_frame": 18910,
+            "start_ts": 753.36,
+            "end_ts": 756.4,
+            "duration": 3.04,
+            "keyframes": [
+                {
+                    "frame_idx": 18872,
+                    "timestamp": 754.88,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V004/L24_V004_S0086_F018872.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "HT hợ Lợn HỂ THAO",
+                "vlm_caption": {
+                    "detailed_description": "A large group of people are gathered on a stage, with a large, colorful, circular structure in the center, and a crowd of spectators surrounding the stage.",
+                    "objects_and_counts": [
+                        "5 person, 1 tv"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L24_V004_S0087",
+            "start_frame": 18911,
+            "end_frame": 18987,
+            "start_ts": 756.44,
+            "end_ts": 759.48,
+            "duration": 3.04,
+            "keyframes": [
+                {
+                    "frame_idx": 18949,
+                    "timestamp": 757.96,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V004/L24_V004_S0087_F018949.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Vẫn 60 Và đọng tại số 5",
+                "ocr_text": "H Chợ Lon HẾ THAO 6 TRỌNG TÀI 4",
+                "vlm_caption": {
+                    "detailed_description": "A child holds up a sign displaying the number 860 at an event, with other children and adults in the background.",
+                    "objects_and_counts": [
+                        "12 person, 1 dining table, 1 cup"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L24_V004_S0088",
+            "start_frame": 18988,
+            "end_frame": 19056,
+            "start_ts": 759.52,
+            "end_ts": 762.24,
+            "duration": 2.72,
+            "keyframes": [
+                {
+                    "frame_idx": 19022,
+                    "timestamp": 760.88,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V004/L24_V004_S0088_F019022.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "8 phút 60",
+                "ocr_text": "HTV Chợ Lên HỂ THAO 86 0 Sugnb TRỌNG TÀI 5 AN LÂN SƯ RỐM",
+                "vlm_caption": {
+                    "detailed_description": "A person holds up a card with the number 860 at a sports event, with spectators and a stage in the background.",
+                    "objects_and_counts": [
+                        "15 person, 1 bottle"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L24_V004_S0089",
+            "start_frame": 19057,
+            "end_frame": 19115,
+            "start_ts": 762.28,
+            "end_ts": 764.6,
+            "duration": 2.32,
+            "keyframes": [
+                {
+                    "frame_idx": 19086,
+                    "timestamp": 763.44,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V004/L24_V004_S0089_F019086.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Thank you.",
+                "ocr_text": "HT hợ Len T HỂ THAO",
+                "vlm_caption": {
+                    "detailed_description": "A large crowd gathers around a stage where a group of people in green uniforms stand in formation, with a large screen displaying a boat in the background.",
+                    "objects_and_counts": [
+                        "6 person, 1 tv"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L24_V004_S0090",
+            "start_frame": 19116,
+            "end_frame": 19445,
+            "start_ts": 764.64,
+            "end_ts": 777.8,
+            "duration": 13.16,
+            "keyframes": [
+                {
+                    "frame_idx": 19280,
+                    "timestamp": 771.2,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V004/L24_V004_S0090_F019280.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Sự điểm rất cao của đoàn sinh động Hải Nam Liên Hữu 2 điểm 8,6 1 điểm 8,65 1 điểm 8,7 Và 1 điểm 8,35",
+                "ocr_text": "HTV Chọ Lên HỂ THAO 1 8",
+                "vlm_caption": {
+                    "detailed_description": "A group of individuals, including a person in a red shirt with a yellow star and camouflage uniforms, stand in front of a colorful dragon costume.",
+                    "objects_and_counts": [
+                        "6 person, 1 banana"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L24_V004_S0091",
+            "start_frame": 19446,
+            "end_frame": 19677,
+            "start_ts": 777.84,
+            "end_ts": 787.08,
+            "duration": 9.24,
+            "keyframes": [
+                {
+                    "frame_idx": 19561,
+                    "timestamp": 782.44,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V004/L24_V004_S0091_F019561.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "",
+                "ocr_text": "V HT Chợ Lên HỂ THAO",
+                "vlm_caption": {
+                    "detailed_description": "A group of military personnel stands in formation on a stage, with a large, colorful dragon boat and a large screen displaying a festive scene in the background.",
+                    "objects_and_counts": [
+                        "15 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L24_V004_S0092",
+            "start_frame": 19678,
+            "end_frame": 19969,
+            "start_ts": 787.12,
+            "end_ts": 798.76,
+            "duration": 11.64,
+            "keyframes": [
+                {
+                    "frame_idx": 19823,
+                    "timestamp": 792.92,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V004/L24_V004_S0092_F019823.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Điểm cao nhất và lúc này xin nhắc lại đàn thuộc đoàn Tinh Anh Đường với tổng số điểm là 8,63. Và bây giờ chúng ta sẽ chờ điểm cuối cùng cho bài thi của đoàn Hải Nam Liên Hợp.",
+                "ocr_text": "Chợ Lên HỂ THAO 5 4",
+                "vlm_caption": {
+                    "detailed_description": "A group of men in camouflage uniforms stand in a line, facing forward, with their hands on their hips, in an indoor setting with a red and yellow banner in the background.",
+                    "objects_and_counts": [
+                        "7 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L24_V004_S0093",
+            "start_frame": 19970,
+            "end_frame": 20854,
+            "start_ts": 798.8,
+            "end_ts": 834.16,
+            "duration": 35.36,
+            "keyframes": [
+                {
+                    "frame_idx": 20412,
+                    "timestamp": 816.48,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V004/L24_V004_S0093_F020412.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Um momento de espera muito ansioso dos membros da equipe.",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A group of military personnel stands in formation on a stage adorned with colorful decorations, including a large dragon and a traditional Vietnamese flag, during a public event.",
+                    "objects_and_counts": [
+                        "14 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L24_V004_S0094",
+            "start_frame": 20855,
+            "end_frame": 21126,
+            "start_ts": 834.2,
+            "end_ts": 845.04,
+            "duration": 10.84,
+            "keyframes": [
+                {
+                    "frame_idx": 20990,
+                    "timestamp": 839.6,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V004/L24_V004_S0094_F020990.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Đồng Hải Nam Liên Hữu",
+                "ocr_text": "1 8",
+                "vlm_caption": {
+                    "detailed_description": "A group of individuals, including a person in a red shirt with a yellow star and camouflage-patterned clothing, stand in front of a colorful dragon costume, with one person holding a Vietnamese flag.",
+                    "objects_and_counts": [
+                        "6 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L24_V004_S0095",
+            "start_frame": 21127,
+            "end_frame": 21530,
+            "start_ts": 845.08,
+            "end_ts": 861.2,
+            "duration": 16.12,
+            "keyframes": [
+                {
+                    "frame_idx": 21328,
+                    "timestamp": 853.12,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V004/L24_V004_S0095_F021328.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "H7 /HỂ THAO TRỌNG TÀI 3",
+                "vlm_caption": {
+                    "detailed_description": "A group of individuals in camouflage uniforms stand in front of a dragon dance costume, holding a red flag and a sign with Vietnamese text, with a blue table and a green dragon dance costume in the background.",
+                    "objects_and_counts": [
+                        "12 person, 1 cake"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L24_V004_S0096",
+            "start_frame": 21531,
+            "end_frame": 21848,
+            "start_ts": 861.24,
+            "end_ts": 873.92,
+            "duration": 12.68,
+            "keyframes": [
+                {
+                    "frame_idx": 21689,
+                    "timestamp": 867.56,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V004/L24_V004_S0096_F021689.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "8,53 và vị thứ 3 là đoàn gia thắng tỉnh Bình Dương có số điểm 8,25 và số điểm đạt được của đội Hải Nam Liên Hữu đến từ quận 5, quận 4 Hồ Chí Minh là",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A group of individuals in military uniforms stand in formation on a stage, with a large dragon boat and a large screen displaying a festive scene in the background.",
+                    "objects_and_counts": [
+                        "14 person, 1 tv"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L24_V004_S0097",
+            "start_frame": 21849,
+            "end_frame": 21931,
+            "start_ts": 873.96,
+            "end_ts": 877.24,
+            "duration": 3.28,
+            "keyframes": [
+                {
+                    "frame_idx": 21890,
+                    "timestamp": 875.6,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V004/L24_V004_S0097_F021890.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "8 phần 61",
+                "ocr_text": "H THỂ THAO 861 JOÁN LÂN SƯ RONG",
+                "vlm_caption": {
+                    "detailed_description": "A person holds up a sign with the number 861 in front of a crowd of people, with cameras and microphones set up around them.",
+                    "objects_and_counts": [
+                        "15 person, 2 bottle"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L24_V004_S0098",
+            "start_frame": 21932,
+            "end_frame": 22183,
+            "start_ts": 877.28,
+            "end_ts": 887.32,
+            "duration": 10.04,
+            "keyframes": [
+                {
+                    "frame_idx": 22057,
+                    "timestamp": 882.28,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V004/L24_V004_S0098_F022057.jpg"
+                },
+                {
+                    "frame_idx": 21994,
+                    "timestamp": 879.76,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V004/L24_V004_S0098_F021994.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "8,61 là số điểm của đoàn Lân Sư Đồng Hải Nam Liên Hữu quận 5. Và như vậy chúng ta đã biết được hoàng nào.",
+                "ocr_text": "/V | 1",
+                "vlm_caption": {
+                    "detailed_description": "A group of individuals in camouflage uniforms stand in front of a colorful dragon puppet, with one person in a red shirt clapping.",
+                    "objects_and_counts": [
+                        "6 person | 4 person, 1 sports ball, 1 banana"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L24_V004_S0099",
+            "start_frame": 22184,
+            "end_frame": 22764,
+            "start_ts": 887.36,
+            "end_ts": 910.56,
+            "duration": 23.2,
+            "keyframes": [
+                {
+                    "frame_idx": 22474,
+                    "timestamp": 898.96,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V004/L24_V004_S0099_F022474.jpg"
+                },
+                {
+                    "frame_idx": 22329,
+                    "timestamp": 893.16,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V004/L24_V004_S0099_F022329.jpg"
+                },
+                {
+                    "frame_idx": 22619,
+                    "timestamp": 904.76,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V004/L24_V004_S0099_F022619.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "là đoàn giành được thôi vị cao nhất tại hạng mục búa rồng truyền thống ở giải Lân Sư Rồng quận 5 Mở Rộng là thứ 6 cấp trợ lớn HVP năm 2024 này đó là đoàn Lân Sư Rồng Tinh Anh Đường với số điểm 8,63",
+                "ocr_text": "HT /HỂ THAO TC | THÉ THAO HITAS XE DAP -XE ĐAP: THÂN TẠNG | HTV HẾ THAO CÔNG CỘNG",
+                "vlm_caption": {
+                    "detailed_description": "A group of people, some wearing red jackets with \"DTC\" and \"HITAS\" logos, are gathered at night, possibly in a sports or community event setting.",
+                    "objects_and_counts": [
+                        "10 person, 1 handbag | 11 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L24_V004_S0100",
+            "start_frame": 22765,
+            "end_frame": 22818,
+            "start_ts": 910.6,
+            "end_ts": 912.72,
+            "duration": 2.12,
+            "keyframes": [
+                {
+                    "frame_idx": 22791,
+                    "timestamp": 911.64,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V004/L24_V004_S0100_F022791.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "you",
+                "ocr_text": "HTV HẾ THAO BIÊM TREI TÔNG 6,01",
+                "vlm_caption": {
+                    "detailed_description": "A group of performers dressed in camouflage uniforms are participating in a dragon dance competition on a stage with a large screen displaying event details.",
+                    "objects_and_counts": [
+                        "12 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L24_V004_S0101",
+            "start_frame": 22819,
+            "end_frame": 23205,
+            "start_ts": 912.76,
+            "end_ts": 928.2,
+            "duration": 15.44,
+            "keyframes": [],
+            "extracted_data": {
+                "transcript": "ở đây đó là số điểm của đoàn Hải Nam Liên Hữu 8,61 với điểm này thì đứng ở vị trí thứ hai chung",
+                "ocr_text": ""
+            }
+        },
+        {
+            "shot_id": "L24_V004_S0102",
+            "start_frame": 23206,
+            "end_frame": 23405,
+            "start_ts": 928.24,
+            "end_ts": 936.2,
+            "duration": 7.96,
+            "keyframes": [],
+            "extracted_data": {
+                "transcript": "",
+                "ocr_text": ""
+            }
+        }
+    ]
+}

@@ -1,0 +1,3053 @@
+{
+    "video_id": "L25_V024",
+    "fps": 25.0,
+    "total_shots": 119,
+    "total_keyframes": 141,
+    "shots": [
+        {
+            "shot_id": "L25_V024_S0001",
+            "start_frame": 0,
+            "end_frame": 67,
+            "start_ts": 0.0,
+            "end_ts": 2.68,
+            "duration": 2.68,
+            "keyframes": [],
+            "extracted_data": {
+                "transcript": "",
+                "ocr_text": ""
+            }
+        },
+        {
+            "shot_id": "L25_V024_S0002",
+            "start_frame": 68,
+            "end_frame": 464,
+            "start_ts": 2.72,
+            "end_ts": 18.56,
+            "duration": 15.84,
+            "keyframes": [
+                {
+                    "frame_idx": 266,
+                    "timestamp": 10.64,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V024/L25_V024_S0002_F000266.jpg"
+                },
+                {
+                    "frame_idx": 365,
+                    "timestamp": 14.6,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V024/L25_V024_S0002_F000365.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Thân mến chào tất cả các em, rất vui được gặp lại các em trong chuyên đề tiếp theo của môn địa lý. Trong chuyên đề này, thầy giới thiệu các em tìm hiểu về hai vừa lúa lớn nhất của nước ta, đó chính là vùng đồng bằng sông Hồng và vùng đồng bằng sông Cửu Long. Mời các em cùng đến với chuyên đề số 8.",
+                "ocr_text": "THANH NIEN Thầy TRẦN NGỌC ANH Trường THPT chuyên Trần Đại Nghĩa, Thành phố Hồ Chí Minh",
+                "vlm_caption": {
+                    "detailed_description": "A news anchor in a white shirt and red tie is seated at a desk with a laptop, with a digital world map and blue background in the background.",
+                    "objects_and_counts": [
+                        "1 person, 1 tie"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V024_S0003",
+            "start_frame": 465,
+            "end_frame": 593,
+            "start_ts": 18.6,
+            "end_ts": 23.72,
+            "duration": 5.12,
+            "keyframes": [
+                {
+                    "frame_idx": 529,
+                    "timestamp": 21.16,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V024/L25_V024_S0003_F000529.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Trong chuyên đề số 8 chúng ta tìm hiểu bài 33 và 41 ở trong khách giáo khoa.",
+                "ocr_text": "THANH NIEN ĐỊA LÍ VIỆT NAM ĐỊA LÍ KINH TẾ CHUYÊN ĐÊ 8 ĐỊA LÍ VÙNG KINH TẾ VIỆT NAM - P2 (BÁI 33, 41)",
+                "vlm_caption": {
+                    "detailed_description": "A classroom setting with a teacher in front of a large screen displaying educational content about Vietnamese geography, specifically focusing on economic regions.",
+                    "objects_and_counts": [
+                        "2 person, 1 laptop, 1 tie"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V024_S0004",
+            "start_frame": 594,
+            "end_frame": 730,
+            "start_ts": 23.76,
+            "end_ts": 29.2,
+            "duration": 5.44,
+            "keyframes": [
+                {
+                    "frame_idx": 662,
+                    "timestamp": 26.48,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V024/L25_V024_S0004_F000662.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Và đầu tiên đó chính là vấn đề chuyển dịch cơ cầu kinh tế theo ngành ở Đồng bằng sông Hồng.",
+                "ocr_text": "THANH NIEN VẤN ĐỀ CHUYẾN DỊCH CƠ CẤU KINH TẾ THANH NIEN DIỄN ĐÀN CỦA HỘI LIÊN HIỆP THANH NIÊN VIỆT NAM THEO NGÀNH Ở ĐỒNG BẰNG SÔNG HỒNG VINFAST",
+                "vlm_caption": {
+                    "detailed_description": "The image shows a presentation slide from a Vietnamese news program, featuring various images of landscapes and industrial sites, with a focus on economic restructuring in the Dong Bang Song Hong region.",
+                    "objects_and_counts": [
+                        "1 person, 1 tie, 1 laptop"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V024_S0005",
+            "start_frame": 731,
+            "end_frame": 1256,
+            "start_ts": 29.24,
+            "end_ts": 50.24,
+            "duration": 21.0,
+            "keyframes": [
+                {
+                    "frame_idx": 993,
+                    "timestamp": 39.72,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V024/L25_V024_S0005_F000993.jpg"
+                },
+                {
+                    "frame_idx": 1124,
+                    "timestamp": 44.96,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V024/L25_V024_S0005_F001124.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Đồng bằng Sông Hồng là vùng đồng bằng trù phú, giàu tiềm năng phát triển kinh tế, có nhiều điều kiện, tuy nhiên ở vùng này thì là chuyển dịch cơ cầu kinh tế là còn chậm. Đồng bằng Sông Hồng bao gồm 10 tỉnh thành và diện tích khoảng 15.000 km2 và dân số khoảng 21,58 triệu người năm 2020.",
+                "ocr_text": "THANH NIEN THANH NEN ĐỊA LÍ CÁC VÙNG KINH TẾ VIỆT NAM - PHẦN II CHUYÊN ĐÊ Vùng đồng bằng trù phú, giàu tiềm năng phát triển kinh tế, nhưng cơ cấu kinh tế chuyển dịch còn châm ĐỒNG BẰNG SÔNG HỒNG (ĐBSH) | THANH NIÊN THANH NIEN ĐỊA LÍ CÁC VÙNG KINH TẾ VIỆT NAM - PHẦN II CHUYÊN ĐỀ Gồm 10 tỉnh thành: Vùng đồng bằng trù phú, giàu tiềm năng phát triển 5H, 5 INH kinh tế, nhưng cơ cấu kinh tế chuyển dịch còn châm ĐỒNG BẰNG SÔNG HỒNG (ĐBSH) Diện tích: 15 000 km vuông",
+                "vlm_caption": {
+                    "detailed_description": "The image is a screenshot of a Vietnamese educational video, featuring a slide about the Dong Binh-Song Hong Economic Region in Vietnam, highlighting its geographical and economic characteristics.",
+                    "objects_and_counts": [
+                        "1 person, 1 tie, 1 laptop"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V024_S0006",
+            "start_frame": 1257,
+            "end_frame": 1272,
+            "start_ts": 50.28,
+            "end_ts": 50.88,
+            "duration": 0.6,
+            "keyframes": [
+                {
+                    "frame_idx": 1264,
+                    "timestamp": 50.56,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V024/L25_V024_S0006_F001264.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Thank you.",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A man in a white shirt is reaching into a bookshelf filled with books.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V024_S0007",
+            "start_frame": 1274,
+            "end_frame": 1343,
+            "start_ts": 50.96,
+            "end_ts": 53.72,
+            "duration": 2.76,
+            "keyframes": [
+                {
+                    "frame_idx": 1308,
+                    "timestamp": 52.32,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V024/L25_V024_S0007_F001308.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Để có được thành công như hôm nay,",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A man in a white shirt is reading a book in a library.",
+                    "objects_and_counts": [
+                        "1 person, 1 book"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V024_S0008",
+            "start_frame": 1344,
+            "end_frame": 1412,
+            "start_ts": 53.76,
+            "end_ts": 56.48,
+            "duration": 2.72,
+            "keyframes": [
+                {
+                    "frame_idx": 1378,
+                    "timestamp": 55.12,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V024/L25_V024_S0008_F001378.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Tôi đã có những ước mơ Và tôi đã có những ước mơ",
+                "ocr_text": "G",
+                "vlm_caption": {
+                    "detailed_description": "A man walks through a library aisle, holding a book, with shelves filled with books on either side.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V024_S0009",
+            "start_frame": 1413,
+            "end_frame": 1577,
+            "start_ts": 56.52,
+            "end_ts": 63.08,
+            "duration": 6.56,
+            "keyframes": [
+                {
+                    "frame_idx": 1495,
+                    "timestamp": 59.8,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V024/L25_V024_S0009_F001495.jpg"
+                },
+                {
+                    "frame_idx": 1536,
+                    "timestamp": 61.44,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V024/L25_V024_S0009_F001536.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "đã hiện thực hóa ước mơ của mình bắt đầu từ Trường Đại học Quốc tế Sài Gòn SIU",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A man in a white shirt is standing in a library, surrounded by bookshelves filled with books.",
+                    "objects_and_counts": [
+                        "1 person | 1 person, 1 potted plant"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V024_S0010",
+            "start_frame": 1578,
+            "end_frame": 1622,
+            "start_ts": 63.12,
+            "end_ts": 64.88,
+            "duration": 1.76,
+            "keyframes": [
+                {
+                    "frame_idx": 1600,
+                    "timestamp": 64.0,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V024/L25_V024_S0010_F001600.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "",
+                "ocr_text": "SOON INTERNATIONAL UNIVERSITY Lewis Campus IVERSITY THE SAIGON INTERNATIONA",
+                "vlm_caption": {
+                    "detailed_description": "The image shows the exterior of the Saigon International University, with a modern building featuring large windows and multiple flags flying in front."
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V024_S0011",
+            "start_frame": 1623,
+            "end_frame": 1661,
+            "start_ts": 64.92,
+            "end_ts": 66.44,
+            "duration": 1.52,
+            "keyframes": [
+                {
+                    "frame_idx": 1642,
+                    "timestamp": 65.68,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V024/L25_V024_S0011_F001642.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Đào tạo đa dạng, đa lĩnh",
+                "ocr_text": "SIU • THE SAIGON INTERNATIONAL UNIVERSITY (Ta)\" - ww.siu.edu.vn",
+                "vlm_caption": {
+                    "detailed_description": "A classroom at The Saigon International University features a teacher presenting at a whiteboard while students raise their hands.",
+                    "objects_and_counts": [
+                        "7 chair, 12 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V024_S0012",
+            "start_frame": 1662,
+            "end_frame": 1699,
+            "start_ts": 66.48,
+            "end_ts": 67.96,
+            "duration": 1.48,
+            "keyframes": [
+                {
+                    "frame_idx": 1680,
+                    "timestamp": 67.2,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V024/L25_V024_S0012_F001680.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "THE SAIGON INTERNATIONAL UNI (Ja)\" = ą A",
+                "vlm_caption": {
+                    "detailed_description": "A man in a suit stands in front of a whiteboard filled with mathematical equations and diagrams, presenting a lecture at The Saigon International University.",
+                    "objects_and_counts": [
+                        "1 person, 1 tie"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V024_S0013",
+            "start_frame": 1700,
+            "end_frame": 1735,
+            "start_ts": 68.0,
+            "end_ts": 69.4,
+            "duration": 1.4,
+            "keyframes": [
+                {
+                    "frame_idx": 1717,
+                    "timestamp": 68.68,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V024/L25_V024_S0013_F001717.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A group of individuals wearing headphones are seated at desks with computers, engaged in a collaborative activity.",
+                    "objects_and_counts": [
+                        "3 keyboard, 6 person, 3 tv, 3 chair"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V024_S0014",
+            "start_frame": 1736,
+            "end_frame": 1770,
+            "start_ts": 69.44,
+            "end_ts": 70.8,
+            "duration": 1.36,
+            "keyframes": [
+                {
+                    "frame_idx": 1753,
+                    "timestamp": 70.12,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V024/L25_V024_S0014_F001753.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy đăng ký kênh để nhận thêm nhiều video mới nhé.",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A classroom with students raising their hands, likely participating in a class discussion or question-and-answer session.",
+                    "objects_and_counts": [
+                        "13 person, 12 chair"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V024_S0015",
+            "start_frame": 1771,
+            "end_frame": 1805,
+            "start_ts": 70.84,
+            "end_ts": 72.2,
+            "duration": 1.36,
+            "keyframes": [
+                {
+                    "frame_idx": 1788,
+                    "timestamp": 71.52,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V024/L25_V024_S0015_F001788.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Tất cả xin chào",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A teacher stands in front of a classroom full of students, gesturing with her hand while addressing the class.",
+                    "objects_and_counts": [
+                        "13 person, 2 chair, 1 potted plant, 1 tv"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V024_S0016",
+            "start_frame": 1806,
+            "end_frame": 1873,
+            "start_ts": 72.24,
+            "end_ts": 74.92,
+            "duration": 2.68,
+            "keyframes": [],
+            "extracted_data": {
+                "transcript": "đều có cơ hội để thể hiện và phát triển năng lực.",
+                "ocr_text": ""
+            }
+        },
+        {
+            "shot_id": "L25_V024_S0017",
+            "start_frame": 1874,
+            "end_frame": 1907,
+            "start_ts": 74.96,
+            "end_ts": 76.28,
+            "duration": 1.32,
+            "keyframes": [
+                {
+                    "frame_idx": 1890,
+                    "timestamp": 75.6,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V024/L25_V024_S0017_F001890.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Những ý tưởng",
+                "ocr_text": "ến tên Pet the tr 9. Who The disecte.. 3. Ông qam. - 1. Ngân hàng chu xác vào thúng đi ! 1 nhân viên mới ngày thang",
+                "vlm_caption": {
+                    "detailed_description": "A hand holding an orange and black pencil writes on a lined notebook page with blue ink.",
+                    "objects_and_counts": [
+                        "1 person, 1 book"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V024_S0018",
+            "start_frame": 1908,
+            "end_frame": 1970,
+            "start_ts": 76.32,
+            "end_ts": 78.8,
+            "duration": 2.48,
+            "keyframes": [
+                {
+                    "frame_idx": 1939,
+                    "timestamp": 77.56,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V024/L25_V024_S0018_F001939.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "không được khuyến khích và phát huy tối đa.",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A young woman with glasses and a white shirt is smiling, with a blurred figure in the background.",
+                    "objects_and_counts": [
+                        "2 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V024_S0019",
+            "start_frame": 1972,
+            "end_frame": 2015,
+            "start_ts": 78.88,
+            "end_ts": 80.6,
+            "duration": 1.72,
+            "keyframes": [
+                {
+                    "frame_idx": 1993,
+                    "timestamp": 79.72,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V024/L25_V024_S0019_F001993.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Chúng tôi đã được truyền cảm hứng.",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A scientist points at a red liquid in a test tube held by another scientist, both wearing white lab coats and gloves.",
+                    "objects_and_counts": [
+                        "2 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V024_S0020",
+            "start_frame": 2016,
+            "end_frame": 2051,
+            "start_ts": 80.64,
+            "end_ts": 82.04,
+            "duration": 1.4,
+            "keyframes": [
+                {
+                    "frame_idx": 2033,
+                    "timestamp": 81.32,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V024/L25_V024_S0020_F002033.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Cảm ơn các bạn đã theo dõi và ủng hộ cho kênh lalaschool Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "Three students in white uniforms are seated at desks, with one holding a pen and another reading a book, in a classroom setting.",
+                    "objects_and_counts": [
+                        "3 person, 1 knife, 2 chair, 1 book, 1 dining table"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V024_S0021",
+            "start_frame": 2052,
+            "end_frame": 2102,
+            "start_ts": 82.08,
+            "end_ts": 84.08,
+            "duration": 2.0,
+            "keyframes": [
+                {
+                    "frame_idx": 2077,
+                    "timestamp": 83.08,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V024/L25_V024_S0021_F002077.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A young girl in a red shirt is using a laptop with an Apple logo.",
+                    "objects_and_counts": [
+                        "1 laptop, 2 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V024_S0022",
+            "start_frame": 2103,
+            "end_frame": 2142,
+            "start_ts": 84.12,
+            "end_ts": 85.68,
+            "duration": 1.56,
+            "keyframes": [
+                {
+                    "frame_idx": 2122,
+                    "timestamp": 84.88,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V024/L25_V024_S0022_F002122.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A swimmer wearing goggles is performing the butterfly stroke in a pool with clear blue water.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V024_S0023",
+            "start_frame": 2143,
+            "end_frame": 2236,
+            "start_ts": 85.72,
+            "end_ts": 89.44,
+            "duration": 3.72,
+            "keyframes": [
+                {
+                    "frame_idx": 2189,
+                    "timestamp": 87.56,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V024/L25_V024_S0023_F002189.jpg"
+                },
+                {
+                    "frame_idx": 2166,
+                    "timestamp": 86.64,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V024/L25_V024_S0023_F002166.jpg"
+                },
+                {
+                    "frame_idx": 2212,
+                    "timestamp": 88.48,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V024/L25_V024_S0023_F002212.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "tập về ý tưởng để sáng tạo để trải nghiệm để thử thách bản thân đã",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A basketball player in a green jersey is falling to the ground while another player in a red jersey attempts to block him, with a basketball near the hoop.",
+                    "objects_and_counts": [
+                        "1 person, 3 chair, 2 tv, 1 car | 4 person, 1 sports ball, 1 tennis racket | 1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V024_S0024",
+            "start_frame": 2237,
+            "end_frame": 2306,
+            "start_ts": 89.48,
+            "end_ts": 92.24,
+            "duration": 2.76,
+            "keyframes": [
+                {
+                    "frame_idx": 2271,
+                    "timestamp": 90.84,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V024/L25_V024_S0024_F002271.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A person is playing an acoustic guitar while another person sits nearby, both seated on chairs in a softly lit room with a warm, glowing light.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V024_S0025",
+            "start_frame": 2307,
+            "end_frame": 2419,
+            "start_ts": 92.28,
+            "end_ts": 96.76,
+            "duration": 4.48,
+            "keyframes": [
+                {
+                    "frame_idx": 2363,
+                    "timestamp": 94.52,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V024/L25_V024_S0025_F002363.jpg"
+                },
+                {
+                    "frame_idx": 2335,
+                    "timestamp": 93.4,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V024/L25_V024_S0025_F002335.jpg"
+                },
+                {
+                    "frame_idx": 2391,
+                    "timestamp": 95.64,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V024/L25_V024_S0025_F002391.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "năng động và hòa nhập quốc tế nhưng vẫn giữ được bản sắc dân tộc.",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A hotel staff member is making the bed in a modern hotel room, with a television mounted on the wall and a wooden floor.",
+                    "objects_and_counts": [
+                        "4 person, 1 bed, 1 tv, 1 chair | 1 person, 1 wine glass, 20 bottle"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V024_S0026",
+            "start_frame": 2420,
+            "end_frame": 2451,
+            "start_ts": 96.8,
+            "end_ts": 98.04,
+            "duration": 1.24,
+            "keyframes": [
+                {
+                    "frame_idx": 2435,
+                    "timestamp": 97.4,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V024/L25_V024_S0026_F002435.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "đó là triết lý giáo dục.",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A group of graduates in caps and gowns stands in a line, facing forward, with a banner reading \"敬\" (respect) above them.",
+                    "objects_and_counts": [
+                        "21 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V024_S0027",
+            "start_frame": 2452,
+            "end_frame": 2489,
+            "start_ts": 98.08,
+            "end_ts": 99.56,
+            "duration": 1.48,
+            "keyframes": [
+                {
+                    "frame_idx": 2470,
+                    "timestamp": 98.8,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V024/L25_V024_S0027_F002470.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "mà Đại học Quốc tế Sài Gòn",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A large group of graduates in black caps and gowns are posing for a photo in front of a traditional building with a red roof and a stone monument.",
+                    "objects_and_counts": [
+                        "19 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V024_S0028",
+            "start_frame": 2491,
+            "end_frame": 2627,
+            "start_ts": 99.64,
+            "end_ts": 105.08,
+            "duration": 5.44,
+            "keyframes": [
+                {
+                    "frame_idx": 2559,
+                    "timestamp": 102.36,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V024/L25_V024_S0028_F002559.jpg"
+                },
+                {
+                    "frame_idx": 2525,
+                    "timestamp": 101.0,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V024/L25_V024_S0028_F002525.jpg"
+                },
+                {
+                    "frame_idx": 2593,
+                    "timestamp": 103.72,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V024/L25_V024_S0028_F002593.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "SIU luôn hướng đến. Đã đến lúc vương xa hơn những gì.",
+                "ocr_text": "SIU",
+                "vlm_caption": {
+                    "detailed_description": "A woman in a graduation gown stands next to a clock displaying the SIU logo.",
+                    "objects_and_counts": [
+                        "1 person | 1 person, 1 clock"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V024_S0029",
+            "start_frame": 2629,
+            "end_frame": 2756,
+            "start_ts": 105.16,
+            "end_ts": 110.24,
+            "duration": 5.08,
+            "keyframes": [
+                {
+                    "frame_idx": 2692,
+                    "timestamp": 107.68,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V024/L25_V024_S0029_F002692.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Đã học",
+                "ocr_text": "R TIO SALUNIVERSI 2007 *THE SAIGON INTERNATIONAL UNIVERSITY Vietnam's spirit global education",
+                "vlm_caption": {
+                    "detailed_description": "The image features the logo and name of The Saigon International University against a backdrop of a bright sun and scattered clouds.",
+                    "objects_and_counts": [
+                        "1 frisbee"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V024_S0030",
+            "start_frame": 2757,
+            "end_frame": 10229,
+            "start_ts": 110.28,
+            "end_ts": 409.16,
+            "duration": 298.88,
+            "keyframes": [
+                {
+                    "frame_idx": 6493,
+                    "timestamp": 259.72,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V024/L25_V024_S0030_F006493.jpg"
+                },
+                {
+                    "frame_idx": 4625,
+                    "timestamp": 185.0,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V024/L25_V024_S0030_F004625.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Đầu tiên chúng ta cùng nhau tìm hiểu về khái quát chung. Đồng bằng sông Hồng bao gồm 10 tỉnh thành theo chương trình 2006 là 5 tỉnh thành bắt đầu bằng chữ H, đó là Hải Phòng, Hải Dương, Hương Yên, Hà Nội và Hà Nam. 5 chữ Y đó là Vĩnh Phúc, Bắc Ninh, Thái Bình, Nam Đình và Ninh Bình. Trung du viên núi Bắc Bộ, Bắc Trung Bộ, Vĩnh Bắc Bộ là những khu vực tiếp giáp với đồng bằng sông Hồng. Những vùng này cũng tạo điều kiện thuận lợi cho việc giao lưu phát triển kinh tế. Ở đồng bằng sông Hồng có các đảo và quần đảo tiêu biểu như là đảo Cát Bà, đảo Bạch Đông Vĩ. Và đồng bằng sông Hồng thì thuộc vùng kinh tế trọng điểm phía Bắc, cho nên ý nghĩa ở đây là thuận lợi cho việc giao lưu trong và ngoài nước, giao lưu phát triển kinh tế xã hội, kinh tế của vùng. Tiếp theo đó là các thế mạnh chủ yếu. Thầy có một sơ đồ giới thiệu với các em đó là các thế mạnh chủ yếu về vị trí địa lý, về tự nhiên như là đất, nước, biển, khoáng sản. Về điều kiện kinh tế xã hội như là dân cư lao động, cơ sở hạ tầng, cơ sở vật chất kỹ thuật và các thế mạnh khác. Và chúng ta cùng nhau tìm hiểu các nội dung chi tiết. Đầu tiên đó là về vị trí địa lý. Các em sử dụng thêm Atlas Địa lý Việt Nam trang 26, trang 23 và trang 25 kết hợp để chúng ta đọc ra các nội dung. Thứ nhất đó là nằm trong vùng kinh tế trọng điểm phía Bắc, là 6 đến 7 tỉnh thành. Giáp với Trung Du, miền núi Bắc Bồ, Bắc Trung Bồ và Biển Đông. Cho nên là tạo điều kiện thuận lời cho việc là giao lưu phát triển kinh tế trong và ngoài nước. Giáp với những vùng giàu với nguyên liệu thuận lời cho việc phát triển kinh tế, đặc biệt là công nghiệp. Và giáp với biển thì thuận lời cho phát triển tổng hợp kinh tế biển. Thứ hai đó là về điều kiện tự nhiên. Chúng ta có một cái bảng thông tin. Về đất đai thì đất nông nghiệp ở đây là 51,2%. Trong đó có 70% là đất phù sa, thuận lời cho việc phát triển nông nghiệp. Nước thì ở đây phong phú, có nước mặt. Nước dưới đất, nước nóng, nước khoáng ở khu vực Thái Bình, Ninh Bình, Hải Phòng. Thuận lời cho việc cung cấp nước tưới, sinh hoạt sản xuất. Thuận lời cho việc thâm canh, tăng bù, phát triển đa ngành. Về biển ở đây thì bờ biển dài 400km, vùng biển rồng lớn, giàu tiềm năng về hải sản. Cho nên thuận lời phát triển tổng hợp kinh tế biển. Về khoáng sản thì có đá vôi, xét, cao lanh, rồi than nâu, khí tự nhiên. Có ý nghĩa cho việc khai thác về khoáng sản. Rồi là phát triển về vật liệu xây dựng, phát triển nghề gốm xứ, và phát triển về nghề năng lượng, v.v. Tiếp theo đó là về điều kiện kinh tế xã hội thì Đồng Bằng, Sông Hồng là vùng đông dân. Lao động dồi dào, có kinh nghiệm và trình độ cao. Đây là yếu tố quan trọng, là động lực cho sự phát triển kinh tế, có thị trường tiêu thụ rồng lớn. Cơ sở hạ tầng ở đây được đánh giá là đồng bồ và hoàn thiện nhất cả nước. Đã nâng cấp các quốc lộ huyết mạch như quốc lộ 1, 2, 3, 6. 18, 5, 10 thuận lời cho việc giao lưu phát triển kinh tế. Mạng lưới đường sắt, đường thủy, đường hàng không thì phát triển mạnh mẽ. Rồi là hệ thống về cung cấp điền, rồi nguồn nước được đảm bảo cho việc phát triển kinh tế của vùng. Cơ sở vật chất ở đây là tương đối phát triển và phục vụ sự phát triển kinh tế ở khu vực ngày càng tốt hơn. Tiếp theo đó là một số thêm ảnh khác. Ví dụ như là ở đây có lịch sử khai thác từ lâu đời, có nét văn hóa đa dạng, đậm đà bản sắc. Ở đây có nhiều di tích, có nhiều lễ hồi, có nhiều làng nghề truyền thống, có nhiều đại học, viện nghiên cứu. Như vậy là những điều kiện thuận lời cho việc phát triển kinh tế của Đồng bằng Sông Hồng. Ở đây có mạng lưới đô thị tương đối dày đặc và phát triển. Có nhiều trung tâm công nghiệp và mức độ tập trung công nghiệp rất là cao. Có 2 trung tâm kinh tế xã hội lớn nhất của vùng, đó là thành phố Hà Nội và thành phố Hải Phòng. Tiếp theo đó là một số hạn chế chủ yếu. Thì đối với tự nhiên thì ở đây có khí hậu nhiệt đới ẩm gió mùa. Có nhiều thiên tai như là bão, lụ lụt, hàn hán. Về tài nguyên thiên nhiên ở đây thì ít, sử dụng là chưa hợp lý, khai thác là quá mức. Cho nên cái tài nguyên thiên nhiên ở đây là bị xuống cấp, đặc biệt là tài nguyên về đất và nước. Thứ 3 đây là vùng thiếu về nguyên liệu cho phát triển công nghiệp. Phần lớn chủ yếu là phải nhập khẩu từ các khu vực khác tới. Về điều kiện kinh tế xã hội thì ở đây nổi bật với một số khó khăn. Đó là thứ nhất, đó là dân số là đông nhất, mật độ dân số rất cao. Như vậy là gấp 4,8 lần mật độ trung bình của cả nước vào năm 2020. Dân số đông cùng với kết cấu dân số trẻ trong điều kiện nền kinh tế còn chậm phát triển đã gây khó khăn cho việc làm, cho nhà ở, cho giao thông. Các vấn đề cần phải giải quyết như là quỷ đất nông nghiệp đang bị thu hẹp, sức ép về việc làm ngày càng lớn. Và đặc biệt đó là vấn đề chuyển dịch cơ cấu kinh tế ở đây còn chậm và chưa phát huy hết thế mạnh của vùng. Như vậy ở đây yêu cầu cần phải chuyển dịch cơ cấu kinh tế mạnh mẽ hơn để phát huy hết những lợi thế của vùng đồng bằng sông Hồng. Bởi chúng ta có thể tìm ra những lợi thế nào để giúp đỡ các nhà đông cư.",
+                "ocr_text": "THANH NIEN THANH NIEN ĐỊA LÍ CÁC VÙNG KINH TẾ VIỆT NAM - PHẦN II CHUYÊN ĐÊ ĐỒNG BẰNG SÔNG HỒNG 1 Các thế mạnh chủ yếu của vùng Điều kiện tự nhiên Đặc điểm Y nghĩa Điều kiện Thuận lợi phát triển • Đất nông nghiệp 51,2% diện tích đồng Đất đai nông nghiệp bằng. Có 70% là đất phù sa màu mỡ. Cung cấp nước tưới, • Phong phú: nước mặt, nước dưới đất, sinh hoạt, sản xuất,... Nước nước nóng, nước khoáng ở Thái Bình, Thâm cạnh, tăng vụ Ninh Bình, Hải Phòng. Phát triển đa ngành Phát triển kinh tế biển (thủy sản, • Bờ biến dài 400 km, vùng biến rộng, giàu Biển giao thông, làm muối, du lịch tiềm năng hải sản,.. biển đảo) Khai thác khoáng sản, • Đá vôi, sét, cao lanh. vật liệu xây dựng, Khoáng sản • Than nâu. • Khí tự nhiên. gốm - s, năng lượng Thầy TRẦN NGỌC ANH CHƯƠNG TRÌNH ÔN THI THPT 2024: MÔN ĐỊA LÝ: CĐ8 Trường THPT chuyên Trần Đại Nghĩa, TP.HCM ĐỊA LÝ CÁC VÙNG KINH TẾ VIỆT NAM - PHẦN 2 | THANH NIÊN THANH NIEN ĐỊA LÍ CÁC VÙNG KINH TẾ VIỆT NAM - PHẦN II CHUYÊN ĐÊ I ĐỒNG BẰNG SÔNG HỒNG 1 Các thế mạnh chủ yếu của vùng O Vị trí địa lí (Atlat trang vùng 26; trang ngành 23, 25,...) • Trong vùng kinh tê trọng điếm phía Bắc. (6/7 tỉnh thành) • Giáp Trung du và miền núi Bắc Bộ, TRUNG QUỐC Bắc Trung Bộ và biển Đông. L À O VINH BAC BO BÁC TRUNG BỔ TỈ LẾ 1: 1 700 000 CHƯƠNG TRÌNH ÔN THI THPT 2024: MÔN ĐỊA LÝ: CĐ8 Thầy TRẦN NGỌC ANH Trường THPT chuyên Trần Đại Nghĩa, TP.HCM ĐỊA LÝ CÁC VÙNG KINH TẾ VIỆT NAM - PHẦN 2",
+                "vlm_caption": {
+                    "detailed_description": "A Vietnamese educational video lecture is being shown, featuring a map of Vietnam and a teacher explaining the economic regions of Vietnam, specifically focusing on the Dong Binh River Basin.",
+                    "objects_and_counts": [
+                        "1 person, 1 tie, 1 laptop"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V024_S0031",
+            "start_frame": 10230,
+            "end_frame": 11959,
+            "start_ts": 409.2,
+            "end_ts": 478.36,
+            "duration": 69.16,
+            "keyframes": [
+                {
+                    "frame_idx": 11094,
+                    "timestamp": 443.76,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V024/L25_V024_S0031_F011094.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Chúng ta cùng đến với vấn đề chuyển dịch cơ cầu kinh tế. Mời các em cùng quan sát về biểu đồ cơ cầu kinh tế theo ngành của Đồng bằng Sông Hồng từ năm 1986 đến năm 2017. Thì em thấy được rằng là tỷ trọng của ngành nông lâm ngư nghiệp là giảm và giảm từ 49,5% năm 1986 xuống còn 6% năm 2017. Tỷ trọng của công nghiệp xây dựng thì tăng từ 21,5% năm 1986 lên 39,5% năm 2017. Tỷ trọng của dịch vụ là tăng từ 29% năm 1986 lên 54,5% năm 2017. Các em có thể thấy được giai đoạn năm 1986 đến năm 2005 thì chuyển dịch còn chậm. Thì giai đoạn năm 2005 đến 2005. Thì giai đoạn năm 2017 chuyển dịch nhanh hơn. Như vậy chúng ta cũng thấy được nét cơ bản. Ở đây là có các sự chuyển dịch cơ cầu kinh tế là có những nét là khởi sắc. Tuy nhiên giai đoạn năm 1986 đến năm 2005 thì còn chậm.",
+                "ocr_text": "THANH NIÊN THANH NIEN ĐỊA LÍ CÁC VÙNG KINH TẾ VIỆT NAM - PHẦN II CHUYÊN ĐỀ I ĐỒNG BẰNG SÔNG HỒNG 3 Chuyển dịch cơ cấu kinh tế BIẾU ĐỒ CƠ CÁU KINH TẾ THEO NGÀNH Ở ĐỒNG BẢNG SÔNG HỒNG (%) Chuyền dịch còn chậm 7 100 29,0 31,7 80 - 10 42,0 43.9 43,9 54,5 60 - 25,4 40 - 12 49,5 45,6 20 - 32,6 23,4 16,8 6.0 Năm Y3 1986 2000 1990 2017 2005 1995 Dịch vụ Nông - lâm - ngư nghiệp - Công nghiệp - xây dựng Thầy TRÂN NGỌC ANH CHƯƠNG TRÌNH ÔN THI THPT 2024: MÔN ĐỊA LÝ: CĐ8 Trường THPT chuyên Trần Đại Nghĩa, TP.HCM ĐỊA LÝ CÁC VÙNG KINH TẾ VIỆT NAM - PHẦN 2",
+                "vlm_caption": {
+                    "detailed_description": "The image shows a presentation slide from a Vietnamese educational program, detailing the economic structure of the Dong Binh River Basin over time, with a focus on the shift from agriculture and industry to services.",
+                    "objects_and_counts": [
+                        "1 person, 1 tie, 1 laptop, 1 tv"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V024_S0032",
+            "start_frame": 11960,
+            "end_frame": 12713,
+            "start_ts": 478.4,
+            "end_ts": 508.52,
+            "duration": 30.12,
+            "keyframes": [
+                {
+                    "frame_idx": 12336,
+                    "timestamp": 493.44,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V024/L25_V024_S0032_F012336.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Tiếp theo đó là về bức tranh về cơ cấu kinh tế theo ngành là có sự chuyển dịch theo hướng tích cực. Tuy nhiên là chuyển dịch còn chậm. Tỷ trọng khu vực nông lâm ngư vẫn còn cao là 16,8% năm 2005 và 6% năm 2017. Đến 2017 thì kết quả về chuyển dịch cơ cấu là có những nét tích cực hơn. Về các định hướng chính thì là giảm tỷ trọng của khu vực 1 và tăng tỷ trọng khu vực 2. Các định hướng chính thì là giảm tỷ trọng của khu vực 2 và tăng tỷ trọng của khu vực 3.",
+                "ocr_text": "THANH NIEN THANH NIEN ĐỊA LÍ CÁC VÙNG KINH TẾ VIỆT NAM - PHẦN II CHUYÊN ĐỀ ĐỒNG BẰNG SÔNG HỒNG 3 Chuyển dịch cơ cấu kinh tế Mam Đão TRUNG DU VÀ MIẾN NỮI BẮC BỘ Háng QUẢNG NINH » Cơ cấu kinh tế theo ngành có sự Hà Đôn Hà( Dương chuyển dịch theo hướng tích cực. » Sự chuyển dịch còn chậm. O Ninh Đ. Bạch Long VT » Tí trọng khu vực nông - lâm - ngư BẮC TRUNG BỘ VINH BẮC BỘ nghiệp vẫn còn cao (16,8%_2005; TRUNG TÂM ] Vùng nông lâm kết hợp Cảng CUNG NUMIEY Vùng lúa, lợn, gia cấm Sân bay quốc tế Vật liệu xây dụng Cây ăn quả Sản bay nội đa 6%_2017) + Vườn quốc gia Nhiệt điện Bải tấm Lược đồ kinh tế Đồng bằng sông Hồng Thầy TRÂN NGỌC ANH CHƯƠNG TRÌNH ÔN THI THPT 2024: MÔN ĐỊA LÝ: CĐ8 Trường THPT chuyên Trần Đại Nghĩa, TP.HCM ĐỊA LÝ CÁC VÙNG KINH TẾ VIỆT NAM - PHẦN 2",
+                "vlm_caption": {
+                    "detailed_description": "The image is a screenshot of a Vietnamese geography lesson, focusing on the Dong Binh River Economic Belt, with a map and text discussing economic shifts and agricultural importance in the region.",
+                    "objects_and_counts": [
+                        "1 person, 1 tie, 1 laptop"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V024_S0033",
+            "start_frame": 12714,
+            "end_frame": 14987,
+            "start_ts": 508.56,
+            "end_ts": 599.48,
+            "duration": 90.92,
+            "keyframes": [
+                {
+                    "frame_idx": 13850,
+                    "timestamp": 554.0,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V024/L25_V024_S0033_F013850.jpg"
+                },
+                {
+                    "frame_idx": 13282,
+                    "timestamp": 531.28,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V024/L25_V024_S0033_F013282.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Về các định hướng chính thì ở đây đó là giảm tỷ trọng của khu vực 1 và tăng tỷ trọng của khu vực 2. Hướng đến phát triển bền vững đó chính là về tăng trường về kinh tế và đảm bảo về công bằng xã hội và lưu ý dự dịnh về vấn đề môi trường. Đó chính là những nét cơ bản về định hướng phát triển bền vững của Đồng bằng Sông Hồng. Tiếp theo đó là đối với khu vực 1 thì là giảm tỷ trọng của ngành trồng trọt, tăng tỷ trọng của ngành chăn nuôi và thủy sản. Riêng trong ngành trồng trọt thì chúng ta giảm tỷ trọng của cây lương thực và chúng ta tăng cường về cây công nghiệp, cây thực phẩm và cây rau quả. Bởi vì những ngành chăn nuôi về thủy sản và cây công nghiệp, cây thực phẩm và cây rau quả có hiệu quả kinh tế cao. Tiếp theo đó là các định hướng đối với khu vực 2 thì là trọng tâm phát triển và hiện đại hóa công nghiệp chế biến các ngành công nghiệp khác và dịch vụ gắn liền với nông nghiệp hàng hóa. Quá trình chuyển dịch gắn liền với hình thành phát triển các ngành công nghiệp trọng điểm để khai thác thế mạnh của vùng. Các em có thể đọc được trong Atlas Địa lý Việt Nam về các trung tâm công nghiệp, các ngành công nghiệp tiêu biểu được phát triển ở vùng đồng bằng sông Hồng. Đối với khu vực 3 thì du lịch là một ngành tiềm năng và tài chính, ngân hàng, giáo dục đào tạo cần được quan tâm phát triển nhằm đẩy nhanh tốc độ chuyển dịch cơ cầu kinh tế của vùng. Một số y ngành giới thiệu các em về tiềm năng về du lịch cũng như là các hệ thống về các hệ thống. Đây là những thông tin về giáo dục và đào tạo nổi tiếng của khu vực đồng bằng sông Hồng.",
+                "ocr_text": "THANH NIEN THANH NIEN ĐỊA LÍ CÁC VÙNG KINH TẾ VIỆT NAM - PHẦN II CHUYÊN ĐÊ I ĐỒNG BẰNG SÔNG HỒNG Tỉnh TÚc CAO BÁNG] 3 Chuyển dịch cơ cấu kinh tế Hà Giang TUYÊN •Các định hướng chính BÄCKAN Pa ChẤ LAI CHÁU LaI Châu Can Dường QUANG LÀO CAI Tuyên THALNGUYEN LANG SON ĐIỆN Quỳnh Nhai Quang Thải Nguyện • YÊN BÁI i.P-. BIÊN - Lạng Sơn Yên Bái Na Dương ,Điện Biên Phủ Bặc Ninh Viêt Tr :Bắc Giang PHÚ THỌ 1 Sơn Lài phả Lai Phúc Cài Bầu Dương Cấ Phả HAN Hoa Bình a Hạ Long Hải Phòng Phố Ly Thải Bình (A) Tiền Hải Nam Định Bim Sar NAM ĐINH Đ. Bạch Long VI THANH HOA Thanh Hoa Tinh Gia Quý Châu 2 hòn Mò NGHỆ AN Quỳnh Lưu /inh Thạch Khê • Hà Tinh Thầy TRÂN NGỌC ANH CHƯƠNG TRÌNH ÔN THI THPT 2024: MÔN ĐỊA LÝ: CĐ8 Trường THPT chuyên Trần Đại Nghĩa, TP.HCM ĐỊA LÝ CÁC VÙNG KINH TẾ VIỆT NAM - PHẦN 2 | THANH NIEN THANH NIEN ĐỊA LÍ CÁC VÙNG KINH TẾ VIỆT NAM - PHẦN II CHUYÊN ĐÊ ĐỒNG BẰNG SÔNG HỒNG 3 Chuyển dịch cơ cấu kinh tế •Các định hướng chính Đối với khu vực I: » Giảm tỉ trọng của ngành trồng trọt. » Tăng tỉ trọng ngành chăn nuôi và thuỷ sản. Riêng trong ngành trồng trọt: Giảm ti trọng của cây lương thực. » Tăng tỉ trọng cây công nghiệp, cây thực phẩm và cây rau quả. Thầy TRẦN NGỌC ANH CHƯƠNG TRÌNH ÔN THI THPT 2024: MÔN ĐỊA LÝ: CĐ8 Trường THPT chuyên Trần Đại Nghĩa, TP.HCM ĐỊA LÝ CÁC VÙNG KINH TẾ VIỆT NAM - PHẦN 2",
+                "vlm_caption": {
+                    "detailed_description": "The image is a screenshot of a Vietnamese educational video lecture about economic regions in Vietnam, focusing on the Dong Binh-Song Hong region, with a focus on economic transformation and sectoral changes.",
+                    "objects_and_counts": [
+                        "1 person, 1 tie, 1 laptop"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V024_S0034",
+            "start_frame": 14988,
+            "end_frame": 17346,
+            "start_ts": 599.52,
+            "end_ts": 693.84,
+            "duration": 94.32,
+            "keyframes": [
+                {
+                    "frame_idx": 16167,
+                    "timestamp": 646.68,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V024/L25_V024_S0034_F016167.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Như vậy là thầy trò chúng ta vừa cùng nhau tìm hiểu xong về Đồng bằng sông Hồng. Thầy có một số nội dung tóm lược để giúp các em nắm tốt bài hơn. Đồng bằng sông Hồng là vùng có diện tích khoảng 15.000 km2, dân số là tương đối đông. Như vậy là thầy trò chúng ta vừa cùng nhau tìm hiểu xong về vùng Đồng bằng sông Hồng. Thầy có một số nội dung tóm lược để giúp các em nắm tốt bài hơn. Đồng bằng sông Hồng là vùng có diện tích nhỏ, điều kiện thuận lời về phát triển kinh tế xã hội rất là tốt, về điều kiện tự nhiên, kinh tế xã hội. Đây là vùng trung tâm kinh tế chính trị văn hóa, là vùng kinh tế trọng điểm phía Bắc, với 10 tỉnh thành là 5 chữ H và 5 chữ Y. Có các thế mạnh tiêu biểu được phân tích, đó là về vị trí địa lý, về tự nhiên, về kinh tế xã hội. Và vấn đề tiêu biểu đây đó là vấn đề chuyển dịch cơ cầu kinh tế, nhưng mà còn chậm, chưa xứng đáng với những điều kiện, thuận lời của vùng. Tuy nhiên, định hướng phát triển của vùng cũng rất là rõ rệt, đó chính là giảm tỷ trọng khu vực 1, tăng tỷ trọng khu vực 2, và hướng đến phát triển bền vững nhằm tăng trưởng về kinh tế, đảm bảo về công bằng xã hội và giữ gìn về môi trường. Thì trên đây là một số nội dung cơ bản về đồng bằng sông Hồng. Và bây giờ, thầy trò chúng ta cùng nhau tìm hiểu tiếp theo, đó chính là về vùng đồng bằng sông Cửu Long. Đồng bằng sông Cửu Long thì tiêu biểu đó là vấn đề sử dụng hợp lý và cải tạo. Đây là châu thổ lớn nhất nước ta, gồm 13 tỉnh thành, diện tích khoảng 40.000 km2, và với dân số là khoảng 17,3 triệu người năm 2020.",
+                "ocr_text": "THANH NIEN * Vùng có diện tích nhỏ nhất VÁN ĐÈ CHUYÊN DỊCH * Điều kiện thuận lợi phát triển KT - XH CƠ CÁU KINH TÉ CÒN CHẬM, CHƯA TƯNG XỨNG * Trung tâm kinh tế, chính trị, văn hóa • Vùng kinh tế trọng điểm phía Bắc • Diện tích: 15 nghìn km? ĐỒNG BẰNG HÀ NƠI C - Dân số: 21,58 triệu người (2020) HÀI DƯƠNG SÔNG HỒNG • Gồm 10 tỉnh thành: THẢI BÌNH 5 H: Tp Hải Phòng, Hải Dương, Hưng Yên, Tp Hà Nội, Hà Nam. NAM ĐINH 5 INH: Vĩnh Phúc, Bắc Ninh, Thái Bình, Nam Định, Ninh Bình. Các thế mạnh chủ yếu Vị trí địa lí Tự nhiên Kinh tế - xã hội Thể mạnh Dân cư - Khoáng Cơ sở vật chất Cơ sở Nước Đất Biển sản khác - kì thuật hạ tâng lao động • Trong • Đất nông • Phong • Lao • Đã với, vùng nghiệp phú kinh tê • Mạng • Tương 51,2% diện động • Thị sét, cao • Thùy • Nước lanh đổi tốt dỗi dào trường trọng tích đồng lưới giao hải sản dưới đât điêm • Có kinh • Than băng • Phục vụ • Lịch sử thông • Nước • Du lich • Giáp nâu khai thác • Điện, sản xuất, • Trong dó nghiệm • Cảng nóng, 70% là đất các vùng và trình • Khi tự nước lãnh thổ đời sống nước phù sa và vịnh độ nhiên khoáng màu mỡ Bắc Bộ Thầy TRẦN NGỌC ANH CHƯƠNG TRÌNH ÔN THI THPT 2024: MÔN ĐỊA LÝ: CĐ8 Trường THPT chuyên Trần Đại Nghĩa, TP.HCM ĐỊA LÝ CÁC VÙNG KINH TẾ VIỆT NAM - PHẦN 2",
+                "vlm_caption": {
+                    "detailed_description": "The image is a screenshot of a presentation slide from a Vietnamese geography class, discussing the Dong Binh River Basin, its characteristics, and its role in the Vietnamese economy.",
+                    "objects_and_counts": [
+                        "1 person, 1 tie, 1 laptop"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V024_S0035",
+            "start_frame": 17347,
+            "end_frame": 18104,
+            "start_ts": 693.88,
+            "end_ts": 724.16,
+            "duration": 30.28,
+            "keyframes": [
+                {
+                    "frame_idx": 17725,
+                    "timestamp": 709.0,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V024/L25_V024_S0035_F017725.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Chúng ta đến với một số nét khai quát chung Chúng ta cùng nhau tìm hiểu về 13 tỉnh thành Thì các em sử dụng Alas Địa lý Việt Nam Chúng ta đọc được các địa phương Ở vùng ngoài biển thì các em sẽ đọc được Tiền Giang, Bến Tre, Trà Vinh, Sóc Trăng, Bạc Liêu và Cà Mau Giáp với Campuchia thì các em sẽ đọc được Kiên Giang, An Giang, Đồng Tháp và Long An Còn ở giữa trung tâm thì chúng ta sẽ có là Vĩnh Long, Cần Thơ và Hồ Giang Chúng ta có 13 tỉnh thành Cảm ơn các em đã theo dõi và hẹn gặp lại",
+                "ocr_text": "THANH NIEN THANH NIEN ĐỊA LÍ CÁC VÙNG KINH TẾ VIỆT NAM - PHẦN II CHUYÊN ĐÊ ĐỒNG BẰNG SÔNG CỬU LONG II Đák Mi • Khái quát chung ĐÁK NÔNG GIA NGHÍA •Lộc Ninh BÌNH PHƯỐC S. MÊ CÔNG S. Đồng Nai HNÔM PÊNH? • Gồm 13 tỉnh thành: TAY NINH ĐỐNG XON & Đàu Liên BAO BINH DƯNG ĐỘNG NÃI - • Vòng ngoài (biến): THY DÁU HỚI LONG KUNH BÌNH T ĐỒNG TP. HỒ CHÍ MINH LAG LONG AN CHU BOC THÁP Tiền Giang, Bến Tre, Trà Vinh, Sóc Trăng, AN GIANG CAO LANH 57 HÀ TIÊN GIẢN AN BA RIA LONG XUYENG 2Đ. Hồ Tiên MY THO SA DES VŨNG TÀU Bạc Liêu, Cà Mau. BEN TRE VINH LÒNG! BẾN TRẺ\" DẠI RẠCH GIA CẦN THOO VINH LOÀ hòn Trẻ\" TRÀ VINH HẬU GIANG hòn Rái - KIÊN cửa Hàm Luông • Giáp Campuchia: TRA VỊ THANH GIANG VINH của Cung Hầu SÓC TRANG Kiên Giang, An Giang, Đông Tháp, Long An. K LIÊU | cửa Định An BAC LIÊU CA MAH BẠC SỐP TRÁNG ửa Thanh De CÀ MAU ôn Chuối. Năm Căn Còn Sa, hôn Trứng Lớn mãi Ca Máu Xớm Mới hôn Trứng Nhỏ hòn Khoai hòn Đã Lễ Thầy TRÂN NGỌC ANH CHƯƠNG TRÌNH ÔN THI THPT 2024: MÔN ĐỊA LÝ: CĐ8 Trường THPT chuyên Trần Đại Nghĩa, TP.HCM ĐỊA LÝ CÁC VÙNG KINH TẾ VIỆT NAM - PHẦN 2",
+                "vlm_caption": {
+                    "detailed_description": "A Vietnamese geography lesson is being presented, focusing on the Dong Binh Sông Cửu Long region, with a map and a list of 13 provinces, including Bến Tre, Trà Vinh, and Cà Mau,",
+                    "objects_and_counts": [
+                        "1 person, 1 tie, 1 laptop"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V024_S0036",
+            "start_frame": 18105,
+            "end_frame": 18273,
+            "start_ts": 724.2,
+            "end_ts": 730.92,
+            "duration": 6.72,
+            "keyframes": [
+                {
+                    "frame_idx": 18189,
+                    "timestamp": 727.56,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V024/L25_V024_S0036_F018189.jpg"
+                },
+                {
+                    "frame_idx": 18147,
+                    "timestamp": 725.88,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V024/L25_V024_S0036_F018147.jpg"
+                },
+                {
+                    "frame_idx": 18231,
+                    "timestamp": 729.24,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V024/L25_V024_S0036_F018231.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Trường Quốc tế Á Châu Tự hào là ngôi trường Mang đến nền giáo dục tiên tiến",
+                "ocr_text": "Trường Quốc Tế Á Châu madonal Schon",
+                "vlm_caption": {
+                    "detailed_description": "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+                    "objects_and_counts": [
+                        "2 person | 11 person, 1 dining table, 3 bench, 1 pizza | 3 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V024_S0037",
+            "start_frame": 18274,
+            "end_frame": 18315,
+            "start_ts": 730.96,
+            "end_ts": 732.6,
+            "duration": 1.64,
+            "keyframes": [
+                {
+                    "frame_idx": 18294,
+                    "timestamp": 731.76,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V024/L25_V024_S0037_F018294.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A young boy wearing a school uniform and a backpack smiles while another child reads a book in the background.",
+                    "objects_and_counts": [
+                        "2 person, 2 backpack, 1 book"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V024_S0038",
+            "start_frame": 18316,
+            "end_frame": 18358,
+            "start_ts": 732.64,
+            "end_ts": 734.32,
+            "duration": 1.68,
+            "keyframes": [
+                {
+                    "frame_idx": 18337,
+                    "timestamp": 733.48,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V024/L25_V024_S0038_F018337.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A woman in a pink shirt smiles at the camera amidst a lush green background.",
+                    "objects_and_counts": [
+                        "2 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V024_S0039",
+            "start_frame": 18359,
+            "end_frame": 18384,
+            "start_ts": 734.36,
+            "end_ts": 735.36,
+            "duration": 1.0,
+            "keyframes": [
+                {
+                    "frame_idx": 18371,
+                    "timestamp": 734.84,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V024/L25_V024_S0039_F018371.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A young boy in a white polo shirt and pink cap stands in a classroom, holding a book, with another child in the background reading.",
+                    "objects_and_counts": [
+                        "2 person, 2 backpack"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V024_S0040",
+            "start_frame": 18385,
+            "end_frame": 18496,
+            "start_ts": 735.4,
+            "end_ts": 739.84,
+            "duration": 4.44,
+            "keyframes": [
+                {
+                    "frame_idx": 18440,
+                    "timestamp": 737.6,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V024/L25_V024_S0040_F018440.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Trường Quốc tế Á Châu xây dựng chương trình học tập toàn diện cân cấp",
+                "ocr_text": "we are a team Rounding To The We repect each other. I Neorest WE TAKE RISKS Ten and Hundred we learn from our mistakes. we try vas brett. create",
+                "vlm_caption": {
+                    "detailed_description": "A classroom scene with students seated at desks, facing a teacher, and a whiteboard displaying educational content.",
+                    "objects_and_counts": [
+                        "14 person, 7 chair, 1 tv, 1 book, 3 laptop, 1 dining table"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V024_S0041",
+            "start_frame": 18497,
+            "end_frame": 18538,
+            "start_ts": 739.88,
+            "end_ts": 741.52,
+            "duration": 1.64,
+            "keyframes": [
+                {
+                    "frame_idx": 18517,
+                    "timestamp": 740.68,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V024/L25_V024_S0041_F018517.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A man in a white shirt and red tie is gesturing with his right hand while holding a remote control, standing in front of a green chalkboard.",
+                    "objects_and_counts": [
+                        "1 person, 1 tie, 1 cell phone"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V024_S0042",
+            "start_frame": 18539,
+            "end_frame": 18569,
+            "start_ts": 741.56,
+            "end_ts": 742.76,
+            "duration": 1.2,
+            "keyframes": [
+                {
+                    "frame_idx": 18554,
+                    "timestamp": 742.16,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V024/L25_V024_S0042_F018554.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A hand holds a green pencil above a collection of colored pencils arranged on a white surface.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V024_S0043",
+            "start_frame": 18570,
+            "end_frame": 18591,
+            "start_ts": 742.8,
+            "end_ts": 743.64,
+            "duration": 0.84,
+            "keyframes": [
+                {
+                    "frame_idx": 18580,
+                    "timestamp": 743.2,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V024/L25_V024_S0043_F018580.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A young girl wearing glasses and a red and white school uniform is sitting at a desk, smiling and working on a craft project.",
+                    "objects_and_counts": [
+                        "2 person, 3 chair, 1 potted plant, 2 vase"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V024_S0044",
+            "start_frame": 18592,
+            "end_frame": 18617,
+            "start_ts": 743.68,
+            "end_ts": 744.68,
+            "duration": 1.0,
+            "keyframes": [
+                {
+                    "frame_idx": 18604,
+                    "timestamp": 744.16,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V024/L25_V024_S0044_F018604.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hiểu rõ",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A child's drawing depicts a colorful garden scene with flowers, a butterfly, and a person wearing a red hat.",
+                    "objects_and_counts": [
+                        "1 cake, 1 dining table, 1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V024_S0045",
+            "start_frame": 18618,
+            "end_frame": 18762,
+            "start_ts": 744.72,
+            "end_ts": 750.48,
+            "duration": 5.76,
+            "keyframes": [
+                {
+                    "frame_idx": 18690,
+                    "timestamp": 747.6,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V024/L25_V024_S0045_F018690.jpg"
+                },
+                {
+                    "frame_idx": 18654,
+                    "timestamp": 746.16,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V024/L25_V024_S0045_F018654.jpg"
+                },
+                {
+                    "frame_idx": 18726,
+                    "timestamp": 749.04,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V024/L25_V024_S0045_F018726.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Mục đích giáo dục không chỉ là truyền thụ kiến thức, mà còn giúp học sinh sáng tạo, khơi nguồn cảm hứng, đồng hành.",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A red and white striped ball is flying through a cloudy sky.",
+                    "objects_and_counts": [
+                        "1 kite | 6 person, 1 backpack"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V024_S0046",
+            "start_frame": 18763,
+            "end_frame": 18814,
+            "start_ts": 750.52,
+            "end_ts": 752.56,
+            "duration": 2.04,
+            "keyframes": [
+                {
+                    "frame_idx": 18788,
+                    "timestamp": 751.52,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V024/L25_V024_S0046_F018788.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "Two young women in red school uniforms are sitting outdoors, engaged in conversation.",
+                    "objects_and_counts": [
+                        "2 person, 1 cell phone, 1 book"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V024_S0047",
+            "start_frame": 18815,
+            "end_frame": 18862,
+            "start_ts": 752.6,
+            "end_ts": 754.48,
+            "duration": 1.88,
+            "keyframes": [
+                {
+                    "frame_idx": 18838,
+                    "timestamp": 753.52,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V024/L25_V024_S0047_F018838.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "nhân cách.",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A group of students in maroon uniforms are sitting on the grass in a lush, green park, engaged in a discussion.",
+                    "objects_and_counts": [
+                        "5 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V024_S0048",
+            "start_frame": 18863,
+            "end_frame": 18881,
+            "start_ts": 754.52,
+            "end_ts": 755.24,
+            "duration": 0.72,
+            "keyframes": [
+                {
+                    "frame_idx": 18872,
+                    "timestamp": 754.88,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V024/L25_V024_S0048_F018872.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Ngoài",
+                "ocr_text": "B66I",
+                "vlm_caption": {
+                    "detailed_description": "Two individuals wearing maroon polo shirts are engaged in a conversation outdoors, with one person resting their chin on their hand.",
+                    "objects_and_counts": [
+                        "2 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V024_S0049",
+            "start_frame": 18882,
+            "end_frame": 18915,
+            "start_ts": 755.28,
+            "end_ts": 756.6,
+            "duration": 1.32,
+            "keyframes": [
+                {
+                    "frame_idx": 18898,
+                    "timestamp": 755.92,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V024/L25_V024_S0049_F018898.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "những giờ học trên lớp, học",
+                "ocr_text": "168 A Flag ty Sopr 171 Think it over Reading Stategy Cr 172 Grammar and Writing Put I All Together Projects . Listening and Speaking Workshop. Description Gue Game . . Writing Workshop: Write a Descriptive Paragraph Fluency - Picture Dictionary",
+                "vlm_caption": {
+                    "detailed_description": "The image shows a page from a book with a section titled \"Reading 3\" and various activities listed, including projects, listening and speaking workshops, and a picture dictionary.",
+                    "objects_and_counts": [
+                        "1 book, 1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V024_S0050",
+            "start_frame": 18916,
+            "end_frame": 18970,
+            "start_ts": 756.64,
+            "end_ts": 758.8,
+            "duration": 2.16,
+            "keyframes": [
+                {
+                    "frame_idx": 18943,
+                    "timestamp": 757.72,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V024/L25_V024_S0050_F018943.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "sinh trường quốc tế Á Châu còn được trải nghiệm.",
+                "ocr_text": "BOOKFAR",
+                "vlm_caption": {
+                    "detailed_description": "The image depicts a vibrant scene at The Asian International School's Book Fair, with children in red uniforms and hats gathered around tables, engaging in activities and interacting with books, while colorful banners and flags decorate the classroom.",
+                    "objects_and_counts": [
+                        "11 person, 7 chair"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V024_S0051",
+            "start_frame": 18971,
+            "end_frame": 19117,
+            "start_ts": 758.84,
+            "end_ts": 764.68,
+            "duration": 5.84,
+            "keyframes": [
+                {
+                    "frame_idx": 19044,
+                    "timestamp": 761.76,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V024/L25_V024_S0051_F019044.jpg"
+                },
+                {
+                    "frame_idx": 19007,
+                    "timestamp": 760.28,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V024/L25_V024_S0051_F019007.jpg"
+                },
+                {
+                    "frame_idx": 19080,
+                    "timestamp": 763.2,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V024/L25_V024_S0051_F019080.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "thử thách bản thân và phản biện các vấn đề để tự mình học hỏi trưởng thành độc lập hơn.",
+                "ocr_text": "to am",
+                "vlm_caption": {
+                    "detailed_description": "A young girl in a red graduation cap and gown stands in front of a whiteboard with the words \"WELCOME to a new beginning\" written on it, while other children in similar attire stand behind her, holding books.",
+                    "objects_and_counts": [
+                        "3 person, 4 book | 3 person, 2 book | 5 person, 1 tie"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V024_S0052",
+            "start_frame": 19118,
+            "end_frame": 19153,
+            "start_ts": 764.72,
+            "end_ts": 766.12,
+            "duration": 1.4,
+            "keyframes": [
+                {
+                    "frame_idx": 19135,
+                    "timestamp": 765.4,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V024/L25_V024_S0052_F019135.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "by bwd6",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "The image depicts a serene sunset scene with golden sunlight filtering through dense foliage, creating a tranquil and natural environment."
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V024_S0053",
+            "start_frame": 19155,
+            "end_frame": 19218,
+            "start_ts": 766.2,
+            "end_ts": 768.72,
+            "duration": 2.52,
+            "keyframes": [
+                {
+                    "frame_idx": 19186,
+                    "timestamp": 767.44,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V024/L25_V024_S0053_F019186.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "The image shows skewers of assorted vegetables and meat on a white plate.",
+                    "objects_and_counts": [
+                        "4 broccoli, 3 carrot, 1 bowl"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V024_S0054",
+            "start_frame": 19220,
+            "end_frame": 19263,
+            "start_ts": 768.8,
+            "end_ts": 770.52,
+            "duration": 1.72,
+            "keyframes": [
+                {
+                    "frame_idx": 19241,
+                    "timestamp": 769.64,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V024/L25_V024_S0054_F019241.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "by bwd6",
+                "ocr_text": "169",
+                "vlm_caption": {
+                    "detailed_description": "Children in school uniforms are serving themselves food at a table with various dishes.",
+                    "objects_and_counts": [
+                        "13 person, 2 bowl, 1 dining table"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V024_S0055",
+            "start_frame": 19264,
+            "end_frame": 19293,
+            "start_ts": 770.56,
+            "end_ts": 771.72,
+            "duration": 1.16,
+            "keyframes": [
+                {
+                    "frame_idx": 19278,
+                    "timestamp": 771.12,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V024/L25_V024_S0055_F019278.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "by bwd6",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A young girl in a red and white uniform is eating a piece of food, with another person partially visible in the background.",
+                    "objects_and_counts": [
+                        "2 person, 1 donut"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V024_S0056",
+            "start_frame": 19294,
+            "end_frame": 19318,
+            "start_ts": 771.76,
+            "end_ts": 772.72,
+            "duration": 0.96,
+            "keyframes": [
+                {
+                    "frame_idx": 19306,
+                    "timestamp": 772.24,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V024/L25_V024_S0056_F019306.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "by bwd6",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A young girl in a red and white uniform is eating a piece of food with her hands.",
+                    "objects_and_counts": [
+                        "2 person, 1 donut"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V024_S0057",
+            "start_frame": 19319,
+            "end_frame": 19553,
+            "start_ts": 772.76,
+            "end_ts": 782.12,
+            "duration": 9.36,
+            "keyframes": [
+                {
+                    "frame_idx": 19436,
+                    "timestamp": 777.44,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V024/L25_V024_S0057_F019436.jpg"
+                },
+                {
+                    "frame_idx": 19377,
+                    "timestamp": 775.08,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V024/L25_V024_S0057_F019377.jpg"
+                },
+                {
+                    "frame_idx": 19494,
+                    "timestamp": 779.76,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V024/L25_V024_S0057_F019494.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Nơi đây với tôi còn hơn cả một ngôi trường Nơi đây là nền tảng giúp đỡ",
+                "ocr_text": "Hosen of CAlE 99 GALE GROUP OF ASIAN INTERNATIONAL EDUCATION | The slogan of GAle99",
+                "vlm_caption": {
+                    "detailed_description": "A person in a pink polo shirt stands in front of a modern building with colorful windows, looking up towards the sky.",
+                    "objects_and_counts": [
+                        "4 person | 1 kite, 1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V024_S0058",
+            "start_frame": 19554,
+            "end_frame": 19595,
+            "start_ts": 782.16,
+            "end_ts": 783.8,
+            "duration": 1.64,
+            "keyframes": [
+                {
+                    "frame_idx": 19574,
+                    "timestamp": 782.96,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V024/L25_V024_S0058_F019574.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Chúc tôi đặt những viên gạch đủ",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A young girl in a school uniform stands near a wooden door, looking to her left.",
+                    "objects_and_counts": [
+                        "1 person, 1 tie"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V024_S0059",
+            "start_frame": 19596,
+            "end_frame": 19636,
+            "start_ts": 783.84,
+            "end_ts": 785.44,
+            "duration": 1.6,
+            "keyframes": [
+                {
+                    "frame_idx": 19616,
+                    "timestamp": 784.64,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V024/L25_V024_S0059_F019616.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A group of students wearing headphones are engaged in computer activities, with one student pointing at a monitor.",
+                    "objects_and_counts": [
+                        "5 person, 2 keyboard, 1 mouse, 3 tv, 1 backpack"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V024_S0060",
+            "start_frame": 19637,
+            "end_frame": 19710,
+            "start_ts": 785.48,
+            "end_ts": 788.4,
+            "duration": 2.92,
+            "keyframes": [
+                {
+                    "frame_idx": 19673,
+                    "timestamp": 786.92,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V024/L25_V024_S0060_F019673.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A hand is typing on a computer keyboard with a blurred background.",
+                    "objects_and_counts": [
+                        "1 laptop, 1 keyboard"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V024_S0061",
+            "start_frame": 19712,
+            "end_frame": 19747,
+            "start_ts": 788.48,
+            "end_ts": 789.88,
+            "duration": 1.4,
+            "keyframes": [
+                {
+                    "frame_idx": 19729,
+                    "timestamp": 789.16,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V024/L25_V024_S0061_F019729.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "by bwd6",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A woman wearing glasses is looking through a microscope, with another person in the background.",
+                    "objects_and_counts": [
+                        "2 person, 1 scissors"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V024_S0062",
+            "start_frame": 19748,
+            "end_frame": 19814,
+            "start_ts": 789.92,
+            "end_ts": 792.56,
+            "duration": 2.64,
+            "keyframes": [
+                {
+                    "frame_idx": 19781,
+                    "timestamp": 791.24,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V024/L25_V024_S0062_F019781.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Giáo dục không phải là chuẩn bị cho cuộc sống",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "Students in a laboratory setting are engaged in various activities, including using microscopes and working with laboratory equipment.",
+                    "objects_and_counts": [
+                        "12 person, 2 bottle"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V024_S0063",
+            "start_frame": 19815,
+            "end_frame": 19831,
+            "start_ts": 792.6,
+            "end_ts": 793.24,
+            "duration": 0.64,
+            "keyframes": [
+                {
+                    "frame_idx": 19823,
+                    "timestamp": 792.92,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V024/L25_V024_S0063_F019823.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A lit match is placed on top of a glass bottle filled with a yellow liquid, with a blue liquid bottle to the left and a yellow object in the background.",
+                    "objects_and_counts": [
+                        "1 vase"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V024_S0064",
+            "start_frame": 19832,
+            "end_frame": 19858,
+            "start_ts": 793.28,
+            "end_ts": 794.32,
+            "duration": 1.04,
+            "keyframes": [
+                {
+                    "frame_idx": 19845,
+                    "timestamp": 793.8,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V024/L25_V024_S0064_F019845.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Nó chính là cuộc sống.",
+                "ocr_text": "20° m 001",
+                "vlm_caption": {
+                    "detailed_description": "Two individuals in lab coats and protective eyewear are conducting a chemical experiment, with various test tubes containing different colored liquids arranged on a metal rack.",
+                    "objects_and_counts": [
+                        "2 person, 4 bottle, 1 wine glass"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V024_S0065",
+            "start_frame": 19859,
+            "end_frame": 19879,
+            "start_ts": 794.36,
+            "end_ts": 795.16,
+            "duration": 0.8,
+            "keyframes": [
+                {
+                    "frame_idx": 19869,
+                    "timestamp": 794.76,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V024/L25_V024_S0065_F019869.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A group of students, including a pianist and violinists, perform on stage with colorful balloons and an American flag in the background.",
+                    "objects_and_counts": [
+                        "7 person, 26 sports ball, 7 chair"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V024_S0066",
+            "start_frame": 19880,
+            "end_frame": 19923,
+            "start_ts": 795.2,
+            "end_ts": 796.92,
+            "duration": 1.72,
+            "keyframes": [
+                {
+                    "frame_idx": 19901,
+                    "timestamp": 796.04,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V024/L25_V024_S0066_F019901.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Từ môi trường giáo dục này",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A person in a dark room is holding a glowing object, with another person partially visible in the foreground.",
+                    "objects_and_counts": [
+                        "3 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V024_S0067",
+            "start_frame": 19925,
+            "end_frame": 19947,
+            "start_ts": 797.0,
+            "end_ts": 797.88,
+            "duration": 0.88,
+            "keyframes": [
+                {
+                    "frame_idx": 19936,
+                    "timestamp": 797.44,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V024/L25_V024_S0067_F019936.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Chúng tôi đã từng",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A young man in a white shirt is playing a piano in front of an American flag and a Vietnamese flag.",
+                    "objects_and_counts": [
+                        "1 person, 1 oven"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V024_S0068",
+            "start_frame": 19950,
+            "end_frame": 19983,
+            "start_ts": 798.0,
+            "end_ts": 799.32,
+            "duration": 1.32,
+            "keyframes": [
+                {
+                    "frame_idx": 19966,
+                    "timestamp": 798.64,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V024/L25_V024_S0068_F019966.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A person is playing a violin, with a focus on the bow and strings, in a dimly lit indoor setting.",
+                    "objects_and_counts": [
+                        "2 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V024_S0069",
+            "start_frame": 19985,
+            "end_frame": 20046,
+            "start_ts": 799.4,
+            "end_ts": 801.84,
+            "duration": 2.44,
+            "keyframes": [
+                {
+                    "frame_idx": 20015,
+                    "timestamp": 800.6,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V024/L25_V024_S0069_F020015.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Bạn viết ngân câu chuyện tương lai của chính mình.",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A person in a graduation gown and cap is ascending a grand, wooden spiral staircase in a well-lit, elegant interior space.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V024_S0070",
+            "start_frame": 20047,
+            "end_frame": 20099,
+            "start_ts": 801.88,
+            "end_ts": 803.96,
+            "duration": 2.08,
+            "keyframes": [
+                {
+                    "frame_idx": 20073,
+                    "timestamp": 802.92,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V024/L25_V024_S0070_F020073.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh La La School Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A young woman in a graduation cap and gown stands against a plain background, looking slightly to her left.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V024_S0071",
+            "start_frame": 20100,
+            "end_frame": 20213,
+            "start_ts": 804.0,
+            "end_ts": 808.52,
+            "duration": 4.52,
+            "keyframes": [
+                {
+                    "frame_idx": 20156,
+                    "timestamp": 806.24,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V024/L25_V024_S0071_F020156.jpg"
+                },
+                {
+                    "frame_idx": 20128,
+                    "timestamp": 805.12,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V024/L25_V024_S0071_F020128.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "you",
+                "ocr_text": "SCHOOLL• 1999 TRƯỞNG QUỐC TẾ Á CHÂU | ATTONAL \"ASIAN SIAN INTERN THI 1999-",
+                "vlm_caption": {
+                    "detailed_description": "The image features the logo of The Asian International School, with a blue globe and text on a gradient background.",
+                    "objects_and_counts": [
+                        "1 cake"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V024_S0072",
+            "start_frame": 20214,
+            "end_frame": 24849,
+            "start_ts": 808.56,
+            "end_ts": 993.96,
+            "duration": 185.4,
+            "keyframes": [
+                {
+                    "frame_idx": 22531,
+                    "timestamp": 901.24,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V024/L25_V024_S0072_F022531.jpg"
+                },
+                {
+                    "frame_idx": 21372,
+                    "timestamp": 854.88,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V024/L25_V024_S0072_F021372.jpg"
+                },
+                {
+                    "frame_idx": 23690,
+                    "timestamp": 947.6,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V024/L25_V024_S0072_F023690.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Đây là vùng đồng bằng lớn nhất của nước ta và tiếp giáp với khu vực Đông Nam Bộ và khu vực Biển Đông rộng lớn và đặc biệt là tiếp giáp với Campuchia. Có nhiều đảo và quần đảo ven bờ, trong đó có đảo lớn nhất, đó là đảo Phú Quốc. Thì như vậy, với những điều kiện khai quát chung như vậy là rất thuận lợi cho việc phát triển kinh tế xã hội cả trên đất liền và cả trên biển, mở rộng mối quan hệ hợp tác với các nước tiểu vùng của sông Mekong. Tiếp theo đó là các thế mạnh và hạn chế chủ yếu. Thế mạnh đầu tiên đó là về đất. Đồng bằng sông Cửu Long nổi bật đó là về các nhóm đất, ví dụ như đất Phú Sa Ngọt với 1,2 triệu hectare, chiếm 30% về diện tích của đồng bằng. Đất này màu mờ nhất, phân bố ở những dọc của sông Tiền và sông Hầu. Thứ hai là đất Phèn, 1,6 triệu hectare, 41%. Trong đó thì có khu vực đất Phèn nhiều. Khu vực Phèn ít và trung bình thì chủ yếu ở Đồng Tháp 10, Hà Tiên, vùng trùng Cà Mau. Về đất bằn thì là 75 vàn hectare, chiếm khoảng 19%. Phân bố ở ven của Vình Thái Lan và Biển Đông. Còn đất khác thì khoảng 40 vàn hectare, chiếm khoảng 10%, phân bố rải rác khắp vùng. Về đất Phú Sa thì chúng ta có đất Phú Sa Ngọt, phân bố dọc ở sông Tiền, sông Hầu, được thể hiện thông qua màu xanh. Đất Phèn, đất Mằn thì các em có thể đọc được thông qua biểu đồ về phân bố về đất đai ở đây. Và tài nguyên đất ở đây là một tài nguyên rất là quan trọng trong sự phát triển kinh tế xã hội của vùng. Thứ hai đó là về khí hậu thì các em có thể quan sát và các em có thể thấy được rằng khí hậu cần xích đảo có một mùa mưa và một mùa khô. Chế độ nhiệt ở đây thì cao, ổn định với nhiệt độ trung bình khoảng 25 đến 27 độ C. Lượng mưa ở đây lớn, tập trung vào các tháng. Lượng mưa ở đây lớn, tập trung vào các tháng. Đất Phèn, đất Mằn thì các em có thể thấy được rằng khí hậu cần xích đảo có một mùa mưa và một mùa khô. Nguyên tố vi lường, đất quá chặt, khó thắt nước, v.v. Tài nguyên khoáng sản ở đây thì hạn chế, gây khó khăn cho việc phát triển kinh tế, đặc biệt là phát triển về công nghiệp.",
+                "ocr_text": "THANH NIÊN THANH NIEN CHUYÊN ĐỀ ĐỊA LÍ CÁC VÙNG KINH TẾ VIỆT NAM - PHẦN II II ĐỒNG BẰNG SÔNG CỬU LONG 1 Các thế mạnh và hạn chế chủ yếu CAM - PU - CHIA ĐỘNG NAM BỘ a. Thế mạnh LONG AN V ĐÓNG• . - THÁP AN GIANG C, Phủ Quốc Đất phù sa có 3 nhóm chính là đất CÁN THƠ, phù sa ngọt, đất phèn và đất mặn: đảo VINH LONG BẾN TRE, Phú Quốc KIẾN GIANG = hòn Trọ HẬU hón Rái • Đất phù sa ngọt: Phân bố thành GIANG . TRÀ VINH U Minh Thượng DH Qa. Nam Du SỐC TRÁNG dải dọc sông Tiền, sông Hậu. BAC LIÊU Cd. Thể Chu • Đất phèn: Phân bố vùng ĐÔNG CA MAU Đồng Tháp Mười, Hà Tiên, Cà Mau. Đất Mai Cơn Đảo 3 Mũi Cả Mau • Đất mặn: Phân bố thành vành đai hỏn Khoai ven Biến Đông và vịnh Thái Lan. Đắt phủ sa ngọt Đá với Vườn quốc gia Đất phèn Bãi tôm Than bùn Đất mặn Bãi tắm Bãi cá Đất khác Thầy TRẦN NGỌC ANH CHƯƠNG TRÌNH ÔN THI THPT 2024: MÔN ĐỊA LÝ: CĐ8 Trường THPT chuyên Trần Đại Nghĩa, TP.HCM ĐỊA LÝ CÁC VÙNG KINH TẾ VIỆT NAM - PHẦN 2 | THANH NIÊN THANH NIEN ĐỊA LÍ CÁC VÙNG KINH TẾ VIỆT NAM - PHẦN II CHUYÊN ĐỀ II ĐỒNG BẰNG SÔNG CỬU LONG 1 Các thế mạnh và hạn chế chủ yếu a. Thế mạnh Các nhóm đất ở ĐBSCL Đất. Đất khác Đất mặn Đất phù sa ngọt Đât phèn • 1,6 triệu ha (41%) • 1,2 triệu ha (30% • Khoảng 40 vạn ha • 75 vạn ha (19%) + Phèn nhiều • Phân bố thành vành (10%) diện tích đồng bằng), • Phân bố rải rác màu mỡ nhất (55 vạn ha) đai ven Biển Đông • Phân bố thành dải + Phèn ít và trung và Vịnh Thái Lan binh ( 1,05 triệu ha) dọc sông Tiền, sông • Phân bô chủ yêu ở Hậu Đồng Tháp Mười, Hà Tiên, vùng trũng ở Cà Mau Thầy TRẦN NGỌC ANH CHƯƠNG TRÌNH ÔN THI THPT 2024: MÔN ĐỊA LÝ: CĐ8 Trường THPT chuyên Trần Đại Nghĩa, TP.HCM ĐỊA LÝ CÁC VÙNG KINH TẾ VIỆT NAM - PHẦN 2 | THANH NIÊN THANH NIEN ĐỊA LÍ CÁC VÙNG KINH TẾ VIỆT NAM - PHẦN II CHUYÊN ĐÊ II ĐỒNG BẰNG SÔNG CỬU LONG 1 Các thế mạnh và hạn chế chủ yếu a. Thế mạnh • Sông ngòi, kênh rạch: chằng chịt, cắt xẻ châu thổ thành các ô vuông, tạo thuận lợi cho giao thông đường thuy, sản xuất và sinh hoạt. Sinh vật: • Thực vật: chủ yếu là rừng ngập mặn, rừng tràm. • Động vật: có giá trị là cá và chim. Thầy TRẦN NGỌC ANH CHƯƠNG TRÌNH ÔN THI THPT 2024: MÔN ĐỊA LÝ: CĐ8 Trường THPT chuyên Trần Đại Nghĩa, TP.HCM ĐỊA LÝ CÁC VÙNG KINH TẾ VIỆT NAM - PHẦN 2",
+                "vlm_caption": {
+                    "detailed_description": "The image is a screenshot of a Vietnamese educational video lecture about the Dong Binh-Song Cau Long Economic Region, focusing on strengths and weaknesses, with a presenter in a classroom setting.",
+                    "objects_and_counts": [
+                        "1 person, 1 tie, 1 laptop"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V024_S0073",
+            "start_frame": 24850,
+            "end_frame": 25498,
+            "start_ts": 994.0,
+            "end_ts": 1019.92,
+            "duration": 25.92,
+            "keyframes": [
+                {
+                    "frame_idx": 25174,
+                    "timestamp": 1006.96,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V024/L25_V024_S0073_F025174.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Một số hình ảnh giới thiệu cho các em về vấn đề hạn mạnh nghiêm trọng ở đồng bằng sông Cổ Long. Nguyên nhân là do mù khô sâu sắc, vấn đề biến đổi khí hậu toàn cầu, vấn đề xây dựng thủy điện ở thường nguồn, vấn đề về địa hình ở đây thấp và có nhiều cửa sông cho nên nước biển khả năng xâm nhập vào rất là cao, và vấn đề về thủy lời, vấn đề rừng gặp mạnh. Đây là một số khó khăn tiêu biểu của vùng đồng bằng sông Cổ Long.",
+                "ocr_text": "THANH NIEN® THANH NIEN CHUYÊN ĐÊ ĐỊA LÍ CÁC VÙNG KINH TẾ VIỆT NAM - PHẦN II Hạn mặn bủa vây đông băng sông Cửu Long HẠN MẶN NGHIÊM TRỌNG Ở ĐỒNG BĂNG SÔNG CỬU LONG Thanh Niên * Cuộc sống đảo lộn hoàn toàn vì thiếu nước ngọt, trên đồng lúa chết hàng loạt, cây ăn trái, hoa màu héo khô trong đợt hạn mặn tại các tinh miền Tây. i Like 894 06:56- Chia sẻ íố Thích 23 <* Xem tất cả sự kiện Hàng chục ngàn héc ta lúa chưa ngậm đòng đã chết rụi, hàng trăm ngàn héc ta cây ăn trái, hoa màu đang héo rũ, ước tính có đến 180.000 hộ dân thiếu nước ngọt... Ngàn tấn hàu chết, vựa thuý sản nguy kịch trong mặn THỜI SỰ 26/02/2016 Người dân miền Tây khốn đốn vì hạn, mặn Cuộc sống người dân đảo lộn hoàn toàn vi thiếu nước ngọt, trên đồng lúa chết hàng loạt, cây ăn trái, hoa màu héo khô là những gì đang diễn ra tại các tinh miền Tây. Đất tròng lúa tại các huyện Ba Tri, Giòng Trôm. Thạnh Phú (Bến Tre) đã nứt nẻ Đói, khát trên vựa lúa mặn cháy hơn nứa tháng qua NGUYÊN NHÂN Anh: Bác Bình Mùa khô sâu sắc Biến đổi khí hậu Thủy điện thượng nguồn Thủy lợi Rừng ngập mặn Thấp, nhiều cửa sông Thầy TRÂN NGỌC ANH CHƯƠNG TRÌNH ÔN THI THPT 2024: MÔN ĐỊA LÝ: CĐ8 Trường THPT chuyên Trần Đại Nghĩa, TP.HCM ĐỊA LÝ CÁC VÙNG KINH TẾ VIỆT NAM - PHẦN 2",
+                "vlm_caption": {
+                    "detailed_description": "The image shows a news article about drought conditions in the Cửu Long Delta, Vietnam, with a man speaking in front of a screen displaying the article.",
+                    "objects_and_counts": [
+                        "4 person, 1 tie, 1 laptop"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V024_S0074",
+            "start_frame": 25499,
+            "end_frame": 31316,
+            "start_ts": 1019.96,
+            "end_ts": 1252.64,
+            "duration": 232.68,
+            "keyframes": [
+                {
+                    "frame_idx": 28407,
+                    "timestamp": 1136.28,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V024/L25_V024_S0074_F028407.jpg"
+                },
+                {
+                    "frame_idx": 26953,
+                    "timestamp": 1078.12,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V024/L25_V024_S0074_F026953.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Tiếp theo, thầy trò chúng ta cùng nhau tìm hiểu về vấn đề sử dụng hợp lý và cải tạo tự nhiên. Các em cùng quan sát về biểu đồ tròn về cơ cấu sử dụng đất của Đồng bằng Sông Hồng và Đồng bằng Sông Cửu Long. Đồng bằng Sông Hồng với 48,5% về diện tích đất nông nghiệp, còn đối với Đồng bằng Sông Cửu Long lớn hơn rất nhiều với 64,1% về diện tích đất nông nghiệp. Trong đó, Đồng bằng Sông Cửu Long có diện tích lớn hơn rất nhiều. Như vậy, các em có thể thấy được rằng, ở Đồng bằng Sông Hồng và Đồng bằng Sông Cửu Long thì có nhiều ưu thế trong việc khai thác tài nguyên đất. Tuy nhiên, ở Đồng bằng Sông Cửu Long thì chiếm diện tích lớn và có cái diện tích về đất nông nghiệp rất lớn, đó là 64,1%. Cho nên, ở Đồng bằng Sông Cửu Long, một vấn đề đặt ra đó là cần phải khai thác và cần phải cải tạo cái đất đai này để phục vụ cho sự phát triển kinh tế. Vậy, các em có thể thấy được rằng, ở Đồng bằng Sông Cửu Long thì có nhiều ưu thế trong việc khai thác tài nguyên đất. Vậy thì tại sao ở Đồng bằng Sông Cửu Long chúng ta cần phải đặt vấn đề sử dụng hợp lý và cải tạo tự nhiên? Thì chúng ta có một loạt các cái lý do cơ bản như sau. Thứ nhất, đó là Đồng bằng Sông Cửu Long có vị trí chiến lược trong việc phát triển kinh tế xã hội của đất nước. Thứ hai, đó là vùng giải quyết cái nhu cầu về lương thực, thực phẩm cho cả nước. Thứ ba, là Đồng bằng Sông Cửu Long là mới được đưa vào khai thác cho nên tiềm lăng rất là lớn. Thứ tư là khai thác có hiệu quả những cái thế mạnh sản có về mặt tự nhiên của vùng. Thứ năm, đó là hạn chế khắc phục những tồn tại về mặt tự nhiên. Và thứ sáu, đó là hiện nay là vấn đề biến đổi khí hậu ở Đồng bằng Sông Cửu Long là diễn ra ngày càng rõ rệt cho nên ảnh hưởng rất lớn đối với sự phát triển kinh tế. Cho nên vùng này cần phải sử dụng hợp lý và cải tạo tự nhiên. Và việc sử dụng hợp lý và cải tạo tự nhiên có ảnh hưởng rất lớn đến sự phát triển kinh tế của vùng. Cho nên cần phải chú trọng trong việc phát triển. Vậy thì việc sử dụng hợp lý và cải tạo tự nhiên là vấn đề cấp bách. Nhằm biến khu vực Đồng bằng Sông Cửu Long thành một vùng kinh tế quan trọng và hướng tới là phát triển bền vững của đất nước. Nước ngọt là vấn đề quan trọng hàng đầu của vùng. Và mùa khô, đất bị nhiễm mạnh, nhiễm phèn, cần phải có nước ngọt để thao chua, rửa mạnh, cải tạo vào mùa khô. Kết hợp với việc tạo ra các giống lúa chiều phèn và chiều mạnh, thì đây là những ý cơ bản quan trọng trong việc. Sử dụng hợp lý và cải tạo tự nhiên. Và thứ ba đó là cần phải duy trì và bảo vệ rừng nhằm đảm bảo cân bằng sinh thái. Một số hình ảnh giới thiệu với em về vấn đề nước ngọt và vấn đề duy trì và bảo vệ hệ sinh thái của Đồng bằng Sông Cửu Long. Đối với việc gắn với hoạt động kinh tế của con người thì chúng ta cần phải chuyển đổi cơ cấu kinh tế. Đẩy mạnh là trồng cây công nghiệp, trồng cây ăn quả có giá trị kinh tế cao. Kết hợp nuôi trồng thủy sản, phát triển công nghiệp chế biến để mang lại hiệu quả kinh tế cao. Đối với vùng biển thì chúng ta kết hợp mặt biển với đảo, quần đảo và đất liền để tạo một thế kinh tế liên hoàn. Đối với đời sống thì chúng ta cần phải chú trọng là sống chung với lũ. Đồng thời khai thác những nguồn lời quan trọng của lũ mang lại để phục vụ cho sự phát triển kinh tế. Và các em lưu ý rằng là lũ ở Đồng bằng Sông Cửu Long mang lại rất nhiều lợi ích quan trọng cho con người. Ví dụ như là phù sa. Phù sa cho sự phát triển kinh tế. Rồi là nguồn lời về thủy sản. Rồi là nguồn lời về giao thông vận tải. Phát triển về trở nổi, v.v. Thì đó chính là những yếu tố quan trọng để con người chúng ta sống chung với lũ và khai thác những lợi thế của lũ mang lại. Tiếp theo đó chính là một số mô hình. Ví dụ như là chuyển đổi cơ cấu cây trồng, vật nuôi mang lại hiệu quả kinh tế cao. Rồi là kết hợp biển, đảo và đất liền để tạo nên thế kinh tế liên hoàn. Hay là sống chung với lũ. Là phát triển và khai thác về lợi thế của lũ. Đó là về hải sản và tiềm năng phát triển về giao thông vận tải đường thủy.",
+                "ocr_text": "THANH NIÊN THANH NIEN ĐỊA LÍ CÁC VÙNG KINH TẾ VIỆT NAM - PHẦN II CHUYÊN ĐỀ II ĐỒNG BẰNG SÔNG CỬU LONG 2 Sử dụng hợp lí và cải tạo tự nhiên • Việc sử dụng hợp lí và cải tạo tự nhiên là cấp bách nhằm biến đồng bằng thành khu vực kinh tế quan trọng của đất nước trên cơ sở phát triển bền vững. Thầy TRẦN NGỌC ANH CHƯƠNG TRÌNH ÔN THI THPT 2024: MÔN ĐỊA LÝ: CĐ8 Trường THPT chuyên Trần Đại Nghĩa, TP.HCM ĐỊA LÝ CÁC VÙNG KINH TẾ VIỆT NAM - PHẦN 2 | THAN HNEN THANH NIEN CHUYÊN ĐỀ ĐỊA LÍ CÁC VÙNG KINH TẾ VIỆT NAM - PHẦN II II ĐỒNG BẰNG SÔNG CỬU LONG 2 Sử dụng hợp lí và cải tạo tự nhiên ?? Tại sao phải đặt vấn đề sử dụng hợp lí và cải tạo tự nhiên ở ĐBSCL? Thầy TRÂN NGỌC ANH CHƯƠNG TRÌNH ÔN THI THPT 2024: MÔN ĐỊA LÝ: CĐ8 Trường THPT chuyên Trần Đại Nghĩa, TP.HCM ĐỊA LÝ CÁC VÙNG KINH TẾ VIỆT NAM - PHẦN 2",
+                "vlm_caption": {
+                    "detailed_description": "The image is a screenshot of a Vietnamese educational video, featuring a teacher in a white shirt and red tie, discussing the use of logical and natural reasoning in the Dong Binh-Song Cau Long Economic Region in Vietnam.",
+                    "objects_and_counts": [
+                        "1 person, 1 tie, 1 laptop"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V024_S0075",
+            "start_frame": 31317,
+            "end_frame": 33717,
+            "start_ts": 1252.68,
+            "end_ts": 1348.68,
+            "duration": 96.0,
+            "keyframes": [
+                {
+                    "frame_idx": 32517,
+                    "timestamp": 1300.68,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V024/L25_V024_S0075_F032517.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Như vậy là thầy trò chúng ta vừa tìm hiểu xong về đồng bằng sông Cửu Long Thầy có một số nội dung tóm lược để các em nắm tốt bài hơn Đồng bằng sông Cửu Long gồm 13 tỉnh thành Với diện tích khoảng 40.000 km2, dân số tương đối đông Và đây là châu thổ lớn nhất của nước ta Bao gồm 2 phần, đó là phần nằm trong phạm bi tác đồng của sông Tiền, sông Hầu Và phần ngoài phạm bi tác đồng của sông Tiền, sông Hầu Đồng bằng sông Cửu Long có một số nét thế mạnh cơ bản Như là đất là quan trọng hàng đầu Khí hầu, sông ngòi, canh rạch, sinh vật, biển và khoáng sản Về hạn chế thì chúng ta có mùa khô kéo dài Diện tích đất mạnh và đất phèn lớn Đất thì thiếu dinh dưỡng Tài nguyên khoáng sản hạn chế Và một số thiên tai khác như là sạt lở đất, lốc v.v Và ở đây có một vấn đề tiêu biểu Đó là vấn đề sử dụng hợp lý và cải tạo tự nhiên Và trong đó có 3 nội dung trọng tâm Đó là nước ngọt là vấn đề quan trọng hàng đầu Thứ 2 đó là phải duy trì bảo vệ trường Đảm bảo cân bằng sinh thái Và thứ 3 đó là sử dụng cải tạo tự nhiên Không thể tách rời hoạt động kinh tế con người Trong đó là chú ý về chuyển đổi cơ cấu kinh tế Kết hợp mặt biển, đảo, quần đảo và đất liền Sống chung với lũ và khai thác những lợi thế của lũ mang lại Đây là vấn đề cấp bách Và vấn đề vùng kinh tế quan trọng của đất nước Nhằm đưa vùng đồng bằng sông Hồng Trở thành một vùng kinh tế quan trọng của đất nước Như vậy là thầy trò chúng ta vừa cùng nhau tìm hiểu xong Về vùng đồng bằng sông Hồng Và vùng đồng bằng sông Cổ Long Các em lưu ý chúng ta đọc thêm trong Atlas Địa lý Việt Nam Để chúng ta khai thác các kiến thức cơ bản",
+                "ocr_text": "THANH NIÊN • Châu thổ lớn nhất nước ta, gồm 2 phần. ĐỒNG BẰNG SÔNG CỬU LONG • Phần đất nằm trong phạm vi tác động của • Diện tích: 40 nghìn km? Sông Tiền, sông Hậu. • Dân số: 17,3 triệu người (2020) Gồm: phần thượng lưu và phần hạ lưu. Gồm 13 tỉnh thành: Long An, Tiền Giang, Bến Tre, Phần đất nằm ngoài phạm vi tác động của Trà Vinh, Sóc Trăng, Bạc Liêu, Cà Mau, Kiên Giang, sông Tiền, sông Hậu. An Giang, Đồng Tháp, Tp. Cần Thơ, Vĩnh Long, Hậu Giang. 1. ĐẤT: quan trọng hàng đầu. VẤN ĐỀ SỬ DỤNG HỢP LÍ a. Phù sa ngọt (1,2 triệu ha): ven sông Tiền, sông Hậu VÀ CẢI TẠO TỰ NHIÊN b. Đất phèn (1,6 triệu ha): Đông T.Mười, Hà Tiên, Cà Mau. c. Đất mặn (75 vạn ha): ven Biển Đông, vịnh Thái Lan. 1. Nước ngọt là vấn đề quan trọng hàng đầu THẾ d. Đất khác: phân bố rải rác. vào mùa khô. 2. Khí hậu: cận xích đạo (mùa mưa - mùa khô) MẠNH 3. Sông ngòi, kênh rạch: chằng chịt, cắt xẻ châu thổ. 2. Phải duy trì và bảo vệ rừng để đảm bảo 4. Sinh vật: rừng ngập mặn, rừng tràm; cá và chim. 5. Biển: phong phú, thuận lợi đánh bắt - nuôi trồng. sự cân bằng sinh thái. 6. Khoáng sản: đá vôi, than bùn, dầu khí. 3. Sử dụng và cải tạo tự nhiên không thể 1. Mùa khô kéo dài: thiếu nước, xâm nhập mặn. tách rời hoạt động kinh tế của con người. 2. Diện tích đất mặn, phèn lớn. HẠN a. Chuyển đổi cơ cấu kinh tế. 3. Đất thiếu dinh dưỡng,... CHẾ b. Kết hợp mặt biến với đảo, quân đảo và đất liên. 4. Tài nguyên khoáng sản hạn chế. 5. Thiên tai khác: sạt lở đất, lốc. c. Sống chung với lũ, khai thác các lợi thế của lũ. Thầy TRẦN NGỌC ANH CHƯƠNG TRÌNH ÔN THI THPT 2024: MÔN ĐỊA LÝ: CĐ8 Trường THPT chuyên Trần Đại Nghĩa, TP.HCM ĐỊA LÝ CÁC VÙNG KINH TẾ VIỆT NAM - PHẦN 2",
+                "vlm_caption": {
+                    "detailed_description": "The image is a screenshot of a Vietnamese educational video lecture about Dong Binh Song Cau Long, a geographical region in Vietnam, focusing on its characteristics, challenges, and solutions for sustainable development.",
+                    "objects_and_counts": [
+                        "1 person, 1 tie, 1 laptop"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V024_S0076",
+            "start_frame": 33718,
+            "end_frame": 34249,
+            "start_ts": 1348.72,
+            "end_ts": 1369.96,
+            "duration": 21.24,
+            "keyframes": [
+                {
+                    "frame_idx": 33983,
+                    "timestamp": 1359.32,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V024/L25_V024_S0076_F033983.jpg"
+                },
+                {
+                    "frame_idx": 33850,
+                    "timestamp": 1354.0,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V024/L25_V024_S0076_F033850.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Như vậy là thầy trò chúng ta vừa cùng nhau tìm hiểu xong về chuyên đề địa lý về vùng kinh tế. Chúng ta tìm hiểu về hai vườn lúa lớn nhất nước ta, đó chính là vùng đồng bằng sông Hồng và vùng đồng bằng sông Cửu Long. Mỗi vùng đều có những nét cơ bản về sự phát triển kinh tế và những vấn đề trong quá trình phát triển kinh tế tư biểu. Thân mến chào tất cả các em, chúc các em học tốt.",
+                "ocr_text": "THANH NIEN | THANHNIEN Thầy TRẦN NGỌC ANH Trường THPT chuyên Trần Đại Nghĩa, Thành phố Hồ Chí Minh",
+                "vlm_caption": {
+                    "detailed_description": "A man in a white shirt and red tie sits at a desk with a laptop, with a digital world map background and Vietnamese text identifying him as a teacher from a high school in Ho Chi Minh City.",
+                    "objects_and_counts": [
+                        "1 person, 1 tie, 1 laptop"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V024_S0077",
+            "start_frame": 34250,
+            "end_frame": 34278,
+            "start_ts": 1370.0,
+            "end_ts": 1371.12,
+            "duration": 1.12,
+            "keyframes": [
+                {
+                    "frame_idx": 34264,
+                    "timestamp": 1370.56,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V024/L25_V024_S0077_F034264.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Trường Đại học Quốc tế",
+                "ocr_text": "ACBE AGBE",
+                "vlm_caption": {
+                    "detailed_description": "The image shows an aerial view of a modern building with a curved roof, featuring signage for \"The Saigon International University\" and \"ACBSE,\" surrounded by other buildings and greenery.",
+                    "objects_and_counts": [
+                        "1 potted plant, 1 clock"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V024_S0078",
+            "start_frame": 34279,
+            "end_frame": 34309,
+            "start_ts": 1371.16,
+            "end_ts": 1372.36,
+            "duration": 1.2,
+            "keyframes": [
+                {
+                    "frame_idx": 34294,
+                    "timestamp": 1371.76,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V024/L25_V024_S0078_F034294.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Sài Gòn SIU",
+                "ocr_text": "EIdEN INTERNATIONAL UNIVERSITY Lewis • Hall IVERSITY IGON INTERNATION",
+                "vlm_caption": {
+                    "detailed_description": "The image shows the exterior of Saigon International University, featuring a modern building with large windows, a flagpole with a flag, and a sign displaying the university's name."
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V024_S0079",
+            "start_frame": 34310,
+            "end_frame": 34354,
+            "start_ts": 1372.4,
+            "end_ts": 1374.16,
+            "duration": 1.76,
+            "keyframes": [
+                {
+                    "frame_idx": 34332,
+                    "timestamp": 1373.28,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V024/L25_V024_S0079_F034332.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Không chỉ cung cấp chương trình đào tạo",
+                "ocr_text": "International Accreditation Council for Business Education THE BOARD OF COMMISSIONERS OF The International Accreditation Council for Business Education HEREBY AWARDS THIS Certificate of Accreditation TO BUSIN GRAMS OFFERED BY The Saigon International University School of Business Administration This accreditation applies only to the programs approved by the Board of Commissioners and is contingent upon the accredited programs remaining in compliance with the principles and policies of the Council. Period of Accreditation: March 30, 2020 through April 30, 2027 Phyllis Okeptie DR. PHYLLIS OKREPKIE PRESIDENT, lABE",
+                "vlm_caption": {
+                    "detailed_description": "The image shows a Certificate of Accreditation awarded by the International Accreditation Council for Business Education (IACBE) to the Singapore International University School of Business Administration."
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V024_S0080",
+            "start_frame": 34355,
+            "end_frame": 34372,
+            "start_ts": 1374.2,
+            "end_ts": 1374.88,
+            "duration": 0.68,
+            "keyframes": [
+                {
+                    "frame_idx": 34363,
+                    "timestamp": 1374.52,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V024/L25_V024_S0080_F034363.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "of Israe RAK",
+                "vlm_caption": {
+                    "detailed_description": "A man with a beard and glasses is speaking at a podium with a floral arrangement in front of him, with a large screen displaying the word \"Israel\" in the background.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V024_S0081",
+            "start_frame": 34373,
+            "end_frame": 34389,
+            "start_ts": 1374.92,
+            "end_ts": 1375.56,
+            "duration": 0.64,
+            "keyframes": [
+                {
+                    "frame_idx": 34381,
+                    "timestamp": 1375.24,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V024/L25_V024_S0081_F034381.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "S.I.",
+                "ocr_text": "SlUniversity Learning towards Creative Society Presented by Former Prime Minister of Israel EHUD BARAK August 05, 2022",
+                "vlm_caption": {
+                    "detailed_description": "A speaker stands at a podium in front of an audience, presenting a lecture titled \"Learning towards Creative Society\" by Ehud Barak, the former Prime Minister of Israel, on August 05, 2022.",
+                    "objects_and_counts": [
+                        "8 person, 1 tv, 1 potted plant"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V024_S0082",
+            "start_frame": 34390,
+            "end_frame": 34407,
+            "start_ts": 1375.6,
+            "end_ts": 1376.28,
+            "duration": 0.68,
+            "keyframes": [
+                {
+                    "frame_idx": 34398,
+                    "timestamp": 1375.92,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V024/L25_V024_S0082_F034398.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "நுலு!",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A woman with braided hair is seated in a conference room, wearing a leopard print top.",
+                    "objects_and_counts": [
+                        "1 person, 1 chair"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V024_S0083",
+            "start_frame": 34408,
+            "end_frame": 34431,
+            "start_ts": 1376.32,
+            "end_ts": 1377.24,
+            "duration": 0.92,
+            "keyframes": [
+                {
+                    "frame_idx": 34419,
+                    "timestamp": 1376.76,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V024/L25_V024_S0083_F034419.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Tạo ra môi trường hóa",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A young woman and a man are interacting with a humanoid robot in an office setting.",
+                    "objects_and_counts": [
+                        "3 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V024_S0084",
+            "start_frame": 34432,
+            "end_frame": 34449,
+            "start_ts": 1377.28,
+            "end_ts": 1377.96,
+            "duration": 0.68,
+            "keyframes": [
+                {
+                    "frame_idx": 34440,
+                    "timestamp": 1377.6,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V024/L25_V024_S0084_F034440.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "ROBOTICS NATURAL LANGUAGE PROCESSING MACHINE LEARNING INTERT OF THI BIG DATA",
+                "vlm_caption": {
+                    "detailed_description": "A woman stands next to a humanoid robot in an office setting, holding a smartphone.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V024_S0085",
+            "start_frame": 34450,
+            "end_frame": 34478,
+            "start_ts": 1378.0,
+            "end_ts": 1379.12,
+            "duration": 1.12,
+            "keyframes": [
+                {
+                    "frame_idx": 34464,
+                    "timestamp": 1378.56,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V024/L25_V024_S0085_F034464.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "đa dạng",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "The image depicts an empty theater with rows of blue seats illuminated by colorful stage lights, creating a dramatic and inviting atmosphere.",
+                    "objects_and_counts": [
+                        "1 chair"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V024_S0086",
+            "start_frame": 34479,
+            "end_frame": 34512,
+            "start_ts": 1379.16,
+            "end_ts": 1380.48,
+            "duration": 1.32,
+            "keyframes": [
+                {
+                    "frame_idx": 34495,
+                    "timestamp": 1379.8,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V024/L25_V024_S0086_F034495.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "và tôn trọng sự khác biệt",
+                "ocr_text": "). C uệc đố SIU ASIAN SCHOOI Piano SIU SIU",
+                "vlm_caption": {
+                    "detailed_description": "A large ensemble of musicians, including a string section and a piano, perform on a stage with a backdrop displaying \"SIU Piano\" and \"Asian Schools.\"",
+                    "objects_and_counts": [
+                        "7 person, 5 chair"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V024_S0087",
+            "start_frame": 34513,
+            "end_frame": 34541,
+            "start_ts": 1380.52,
+            "end_ts": 1381.64,
+            "duration": 1.12,
+            "keyframes": [
+                {
+                    "frame_idx": 34527,
+                    "timestamp": 1381.08,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V024/L25_V024_S0087_F034527.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "SIU",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A man in a blue blazer and a woman in a green jacket are seated at a conference table, engaged in a discussion with a flag of Lebanon in the background.",
+                    "objects_and_counts": [
+                        "3 person, 1 bottle, 3 chair, 3 cup"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V024_S0088",
+            "start_frame": 34542,
+            "end_frame": 34606,
+            "start_ts": 1381.68,
+            "end_ts": 1384.24,
+            "duration": 2.56,
+            "keyframes": [
+                {
+                    "frame_idx": 34574,
+                    "timestamp": 1382.96,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V024/L25_V024_S0088_F034574.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "mở rộng hợp tác quốc tế với các trường đại học",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A man and a woman are seated at a conference table, with the man holding and reviewing documents while the woman looks on.",
+                    "objects_and_counts": [
+                        "3 person, 2 chair, 2 cup, 2 bottle, 2 book, 1 dining table"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V024_S0089",
+            "start_frame": 34607,
+            "end_frame": 34640,
+            "start_ts": 1384.28,
+            "end_ts": 1385.6,
+            "duration": 1.32,
+            "keyframes": [
+                {
+                    "frame_idx": 34623,
+                    "timestamp": 1384.92,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V024/L25_V024_S0089_F034623.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "SIU ten University nal College of Advanced Educat onal College of Advanced Educa Australla",
+                "vlm_caption": {
+                    "detailed_description": "A group of professionals is engaged in a meeting in a conference room with two large screens displaying educational content, surrounded by various items on the table.",
+                    "objects_and_counts": [
+                        "8 person, 1 laptop, 2 chair, 2 tv, 2 cup, 7 bottle, 1 potted plant, 1 dining table"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V024_S0090",
+            "start_frame": 34641,
+            "end_frame": 34671,
+            "start_ts": 1385.64,
+            "end_ts": 1386.84,
+            "duration": 1.2,
+            "keyframes": [
+                {
+                    "frame_idx": 34656,
+                    "timestamp": 1386.24,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V024/L25_V024_S0090_F034656.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Các bạn hãy đăng ký kênh để ủng hộ kênh của mình nhé.",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "Two men stand behind a table, each holding a document, with flags of Romania and Vietnam in the background.",
+                    "objects_and_counts": [
+                        "5 person, 4 tie, 1 book, 1 potted plant"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V024_S0091",
+            "start_frame": 34672,
+            "end_frame": 34705,
+            "start_ts": 1386.88,
+            "end_ts": 1388.2,
+            "duration": 1.32,
+            "keyframes": [
+                {
+                    "frame_idx": 34688,
+                    "timestamp": 1387.52,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V024/L25_V024_S0091_F034688.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "trên thế giới.",
+                "ocr_text": "THE SAIGON MICHAEL DUKAKIS INTERNATIONAL INSTITUTE FOR LEADERHIP AND INNOVATION UNIVERSIIY MEMORANDUM OF UNDERSTANDING SIGNING CEREMONY between Saigon International University, Vietnam and Michael Dukakis Institute for Leadership & Innovation, USA Hoch City, January 6th, 2022",
+                "vlm_caption": {
+                    "detailed_description": "Two individuals are seated at a table, signing a document during a Memorandum of Understanding ceremony between Saigon International University, Vietnam, and the Michael Dukakis Institute for Leadership & Innovation, USA.",
+                    "objects_and_counts": [
+                        "4 person, 2 cup, 1 bottle, 1 dining table, 1 chair, 3 tie, 1 tv, 1 potted plant"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V024_S0092",
+            "start_frame": 34706,
+            "end_frame": 34746,
+            "start_ts": 1388.24,
+            "end_ts": 1389.84,
+            "duration": 1.6,
+            "keyframes": [
+                {
+                    "frame_idx": 34726,
+                    "timestamp": 1389.04,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V024/L25_V024_S0092_F034726.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "FOUR ? THE WESTIN POINTS S TRON 22 AM Marriott INTESNATIONAL MINK",
+                "vlm_caption": {
+                    "detailed_description": "A group of individuals, including a man in a suit, are gathered at a table with a Marriott sign, participating in a formal event or ceremony.",
+                    "objects_and_counts": [
+                        "6 person, 3 tie"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V024_S0093",
+            "start_frame": 34747,
+            "end_frame": 34763,
+            "start_ts": 1389.88,
+            "end_ts": 1390.52,
+            "duration": 0.64,
+            "keyframes": [
+                {
+                    "frame_idx": 34755,
+                    "timestamp": 1390.2,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V024/L25_V024_S0093_F034755.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "Stional Saigon IN COOPE REEMEN University Univereity EREM 2023 CHANG GUNG UNIVERSITY HSING WU UNIVERSITY SIU • SIU on International ® SIT",
+                "vlm_caption": {
+                    "detailed_description": "Five individuals stand behind a table adorned with red and blue banners, holding red folders, with a backdrop displaying \"SIU\" and \"2023\" at a formal event.",
+                    "objects_and_counts": [
+                        "5 person, 2 tie, 2 potted plant, 2 laptop"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V024_S0094",
+            "start_frame": 34764,
+            "end_frame": 34814,
+            "start_ts": 1390.56,
+            "end_ts": 1392.56,
+            "duration": 2.0,
+            "keyframes": [
+                {
+                    "frame_idx": 34789,
+                    "timestamp": 1391.56,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V024/L25_V024_S0094_F034789.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A group of students is seated at a table in a library, engaged in a discussion or study session, with bookshelves filled with books in the background.",
+                    "objects_and_counts": [
+                        "8 chair, 5 person, 6 book"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V024_S0095",
+            "start_frame": 34815,
+            "end_frame": 34846,
+            "start_ts": 1392.6,
+            "end_ts": 1393.84,
+            "duration": 1.24,
+            "keyframes": [
+                {
+                    "frame_idx": 34830,
+                    "timestamp": 1393.2,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V024/L25_V024_S0095_F034830.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Habibong S.I.",
+                "ocr_text": "CHC TOX PHIÊN TOS HỘI THAM NHAN DAN SIU Saigon International U UNIVERSITY Sai du.vn UN",
+                "vlm_caption": {
+                    "detailed_description": "A person is speaking into a microphone at a table with a red and white banner displaying \"SIU Saigon International University\" while another individual sits behind a podium with a Vietnamese flag and emblem in the background.",
+                    "objects_and_counts": [
+                        "10 person, 2 tie, 1 chair, 1 laptop"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V024_S0096",
+            "start_frame": 34847,
+            "end_frame": 34877,
+            "start_ts": 1393.88,
+            "end_ts": 1395.08,
+            "duration": 1.2,
+            "keyframes": [
+                {
+                    "frame_idx": 34862,
+                    "timestamp": 1394.48,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V024/L25_V024_S0096_F034862.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "UNIVERSITY SIU",
+                "vlm_caption": {
+                    "detailed_description": "A classroom setting with students seated at desks, facing a presenter standing near a projection screen displaying a presentation slide.",
+                    "objects_and_counts": [
+                        "22 person, 7 chair, 1 tv"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V024_S0097",
+            "start_frame": 34878,
+            "end_frame": 34914,
+            "start_ts": 1395.12,
+            "end_ts": 1396.56,
+            "duration": 1.44,
+            "keyframes": [
+                {
+                    "frame_idx": 34896,
+                    "timestamp": 1395.84,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V024/L25_V024_S0097_F034896.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A group of chefs in white uniforms and hats, wearing masks and gloves, are preparing food in a professional kitchen setting.",
+                    "objects_and_counts": [
+                        "5 person, 2 bowl, 1 bottle"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V024_S0098",
+            "start_frame": 34915,
+            "end_frame": 34958,
+            "start_ts": 1396.6,
+            "end_ts": 1398.32,
+            "duration": 1.72,
+            "keyframes": [
+                {
+                    "frame_idx": 34936,
+                    "timestamp": 1397.44,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V024/L25_V024_S0098_F034936.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "SIU University Tlành trinh dến Phường Đòng",
+                "vlm_caption": {
+                    "detailed_description": "A group of people, including children in traditional attire, are kneeling on a red carpet in front of a large blue banner with a scenic backdrop, while an adult in a yellow and green outfit stands to the right.",
+                    "objects_and_counts": [
+                        "1 potted plant, 18 person, 3 chair, 2 bottle, 1 tv, 1 vase, 1 laptop"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V024_S0099",
+            "start_frame": 34960,
+            "end_frame": 35003,
+            "start_ts": 1398.4,
+            "end_ts": 1400.12,
+            "duration": 1.72,
+            "keyframes": [
+                {
+                    "frame_idx": 34981,
+                    "timestamp": 1399.24,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V024/L25_V024_S0099_F034981.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "PHƯƠNG THỨC XÉT TUYỂN TẠI 4 SIU 1. Xét tuyển học bạ 3 học kỳ (2HK lớp 11 + HKi lớp 12)' 2. Xét tuyển học bạ lớp 12 E conrlc 3. Xét tuyển kết quả kỳ thi THPT 4. Xét tuyển kết quả kỳ thi đánh giá năng lực của Đại học Quốc gia TPHCM",
+                "vlm_caption": {
+                    "detailed_description": "A man and woman in white shirts are holding a blue booklet, with a blue background and text in Vietnamese listing four methods of admission at SIU.",
+                    "objects_and_counts": [
+                        "2 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V024_S0100",
+            "start_frame": 35004,
+            "end_frame": 35052,
+            "start_ts": 1400.16,
+            "end_ts": 1402.08,
+            "duration": 1.92,
+            "keyframes": [
+                {
+                    "frame_idx": 35028,
+                    "timestamp": 1401.12,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V024/L25_V024_S0100_F035028.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "SIU cam kết hỗ trợ sinh viên",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A man in academic regalia stands at a podium with a bouquet of yellow flowers, flanked by red flags and a beige curtain.",
+                    "objects_and_counts": [
+                        "1 person, 1 potted plant"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V024_S0101",
+            "start_frame": 35053,
+            "end_frame": 35090,
+            "start_ts": 1402.12,
+            "end_ts": 1403.6,
+            "duration": 1.48,
+            "keyframes": [
+                {
+                    "frame_idx": 35071,
+                    "timestamp": 1402.84,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V024/L25_V024_S0101_F035071.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Với nhiều chính sách học bổng",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A man in academic regalia stands at a podium with a microphone and a bouquet of sunflowers, addressing an audience in front of flags.",
+                    "objects_and_counts": [
+                        "1 person, 1 tie, 1 potted plant"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V024_S0102",
+            "start_frame": 35091,
+            "end_frame": 35145,
+            "start_ts": 1403.64,
+            "end_ts": 1405.8,
+            "duration": 2.16,
+            "keyframes": [
+                {
+                    "frame_idx": 35118,
+                    "timestamp": 1404.72,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V024/L25_V024_S0102_F035118.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "20 xuất học bổng chủ tình S.I.U",
+                "ocr_text": "Shine zons. New Pal",
+                "vlm_caption": {
+                    "detailed_description": "A woman in a black skirt and jacket is receiving a bouquet of flowers from another woman in a white shirt and black skirt, while a man in a white shirt and black pants stands nearby.",
+                    "objects_and_counts": [
+                        "4 person, 1 teddy bear, 1 tv"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V024_S0103",
+            "start_frame": 35146,
+            "end_frame": 35204,
+            "start_ts": 1405.84,
+            "end_ts": 1408.16,
+            "duration": 2.32,
+            "keyframes": [
+                {
+                    "frame_idx": 35175,
+                    "timestamp": 1407.0,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V024/L25_V024_S0103_F035175.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "100 xuất học bổng tiếp bước hành trình",
+                "ocr_text": "The Saigon International Universit) LỄ CÔNG BỐ purney nojar ship",
+                "vlm_caption": {
+                    "detailed_description": "A group of students in blue shirts and black skirts stand on a stage, clapping and singing in front of a large screen displaying \"LỄ CÔNG BỐ Journey Scholarship\" at The Saigon International University.",
+                    "objects_and_counts": [
+                        "16 person, 7 chair, 1 tv"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V024_S0104",
+            "start_frame": 35205,
+            "end_frame": 35231,
+            "start_ts": 1408.2,
+            "end_ts": 1409.24,
+            "duration": 1.04,
+            "keyframes": [
+                {
+                    "frame_idx": 35218,
+                    "timestamp": 1408.72,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V024/L25_V024_S0104_F035218.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Quỹ tài năng trẻ",
+                "ocr_text": "The Saigon CNTT TRƯỜNG ĐẠI HỌC QUỐC TẾ SÀI GÒN TRAO TẶNG QUÝ HỌC BỔNG TÁI NĂNG TRẺ 889850 40% - 60% - 100 HỌC PHÍ TOÀN KHOÁ O6 hhttps://www.facebook.com www.siu.edu.vn",
+                "vlm_caption": {
+                    "detailed_description": "Two men are holding a sign that reads \"TRAO TẶNG QUÝ HỌC BỔNG TÀI NĂNG TRẺ 40%-60%-100% HỌC PHÍ TOÀN K",
+                    "objects_and_counts": [
+                        "2 person, 1 tie"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V024_S0105",
+            "start_frame": 35232,
+            "end_frame": 35329,
+            "start_ts": 1409.28,
+            "end_ts": 1413.16,
+            "duration": 3.88,
+            "keyframes": [
+                {
+                    "frame_idx": 35280,
+                    "timestamp": 1411.2,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V024/L25_V024_S0105_F035280.jpg"
+                },
+                {
+                    "frame_idx": 35256,
+                    "timestamp": 1410.24,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V024/L25_V024_S0105_F035256.jpg"
+                },
+                {
+                    "frame_idx": 35304,
+                    "timestamp": 1412.16,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V024/L25_V024_S0105_F035304.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Học bổng 50% học phí toàn hóa Cho những học sinh có thành tích xuất sắc",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A woman in a white blouse and black skirt is opening a door with her right hand, while her left hand is on the door frame.",
+                    "objects_and_counts": [
+                        "2 person | 13 person | 12 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V024_S0106",
+            "start_frame": 35330,
+            "end_frame": 35359,
+            "start_ts": 1413.2,
+            "end_ts": 1414.36,
+            "duration": 1.16,
+            "keyframes": [
+                {
+                    "frame_idx": 35344,
+                    "timestamp": 1413.76,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V024/L25_V024_S0106_F035344.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Trong các hoạt động văn hóa",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A group of children are playing a game on a green basketball court, with one child sitting on the ground and others standing around, possibly engaged in a physical activity or sport.",
+                    "objects_and_counts": [
+                        "3 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V024_S0107",
+            "start_frame": 35360,
+            "end_frame": 35390,
+            "start_ts": 1414.4,
+            "end_ts": 1415.6,
+            "duration": 1.2,
+            "keyframes": [
+                {
+                    "frame_idx": 35375,
+                    "timestamp": 1415.0,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V024/L25_V024_S0107_F035375.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "Swimmers in a pool, wearing caps and goggles, are practicing freestyle strokes with colorful swim aids.",
+                    "objects_and_counts": [
+                        "7 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V024_S0108",
+            "start_frame": 35391,
+            "end_frame": 35421,
+            "start_ts": 1415.64,
+            "end_ts": 1416.84,
+            "duration": 1.2,
+            "keyframes": [
+                {
+                    "frame_idx": 35406,
+                    "timestamp": 1416.24,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V024/L25_V024_S0108_F035406.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Học bổng đồng hành sẽ được tạo ra bởi các bạn.",
+                "ocr_text": "The Saigon International «University LỄ KÝ KẾT HỌC BỔNG ĐỒNG HÀNH XÂY DỰNG NHÂN LỰC CHẤT LƯỢNG CAO CHO THÀNH PHỐ THỦ ĐỨC Thành phố Hồ Chí Minh, ngày 22 tháng 12 năm 2023 SIU SIU algon Internationi Salgon Internationa UNIVERSITI UNIVERSITY www.siu.edu.vn",
+                "vlm_caption": {
+                    "detailed_description": "A group of four individuals stands behind a table with red and white banners, signing documents at a formal event at The Saigon International University.",
+                    "objects_and_counts": [
+                        "5 person, 3 laptop, 1 tv, 1 potted plant"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V024_S0109",
+            "start_frame": 35422,
+            "end_frame": 35459,
+            "start_ts": 1416.88,
+            "end_ts": 1418.36,
+            "duration": 1.48,
+            "keyframes": [
+                {
+                    "frame_idx": 35440,
+                    "timestamp": 1417.6,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V024/L25_V024_S0109_F035440.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A woman in a blue dress stands at a podium with a microphone, delivering a speech in front of a wooden backdrop and a floral arrangement.",
+                    "objects_and_counts": [
+                        "1 person, 1 potted plant"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V024_S0110",
+            "start_frame": 35460,
+            "end_frame": 35493,
+            "start_ts": 1418.4,
+            "end_ts": 1419.72,
+            "duration": 1.32,
+            "keyframes": [
+                {
+                    "frame_idx": 35476,
+                    "timestamp": 1419.04,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V024/L25_V024_S0110_F035476.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Thành phố Thủ Đức, thành phố Hồ Chí Minh",
+                "ocr_text": "LÊ KÝ KẾT T NGUYỄN HỮU BIÊN BẢN HỞ HỢP TÁC GIỮA TRƯỜI ÁI GÒN TRƯỜNG ĐẠI HỌC QUÔ Tp Hô CN Minh, ngày đi hội e Saig University TRƯỜNG ĐẠI HỌC QUỐC TẾ SÀI GÒN TRAO TẶNG HỌC BỐNG ĐỒNG HÀNH XÂY DỰNG NHÂN LỰC CHẤT LƯỢNG CAO CHO THÀNH PHỐ THỦ ĐỨC HỌC PHÍ TOÁN KHOA HỌC 30% TRỊ GIÁ www.siu.edu.vn",
+                "vlm_caption": {
+                    "detailed_description": "Two men stand holding a large check, with one presenting it to the other, against a backdrop of a blue banner with text in Vietnamese.",
+                    "objects_and_counts": [
+                        "2 person, 1 tie"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V024_S0111",
+            "start_frame": 35494,
+            "end_frame": 35532,
+            "start_ts": 1419.76,
+            "end_ts": 1421.28,
+            "duration": 1.52,
+            "keyframes": [
+                {
+                    "frame_idx": 35513,
+                    "timestamp": 1420.52,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V024/L25_V024_S0111_F035513.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Học bổng doanh nghiệp tài trợ",
+                "ocr_text": "Internafional • University MOU SIGNING CEREMONY with BUSINESS PARTNERS Ho Chi Minh City, December 20, 2023 SIU SIU SIU Saigon International Saigon International Saigon International UNIVERSITY UNIVERSITY UNIVERSITY",
+                "vlm_caption": {
+                    "detailed_description": "A group of individuals are seated at a table with red banners displaying \"SIU\" and \"International University\" logos, participating in a MOU signing ceremony with business partners in Ho Chi Minh City on December 20, 2023",
+                    "objects_and_counts": [
+                        "7 person, 6 laptop, 2 tie"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V024_S0112",
+            "start_frame": 35533,
+            "end_frame": 35563,
+            "start_ts": 1421.32,
+            "end_ts": 1422.52,
+            "duration": 1.2,
+            "keyframes": [
+                {
+                    "frame_idx": 35548,
+                    "timestamp": 1421.92,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V024/L25_V024_S0112_F035548.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hợp bổng 20%",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A man is giving a presentation to a group of students in a classroom setting.",
+                    "objects_and_counts": [
+                        "15 person, 6 chair, 1 laptop, 1 tie"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V024_S0113",
+            "start_frame": 35564,
+            "end_frame": 35591,
+            "start_ts": 1422.56,
+            "end_ts": 1423.64,
+            "duration": 1.08,
+            "keyframes": [
+                {
+                    "frame_idx": 35577,
+                    "timestamp": 1423.08,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V024/L25_V024_S0113_F035577.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A group of students, including a man in a white shirt and red tie, are gathered around a table, engaged in a discussion or activity.",
+                    "objects_and_counts": [
+                        "6 person, 1 tie, 1 book"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V024_S0114",
+            "start_frame": 35592,
+            "end_frame": 35627,
+            "start_ts": 1423.68,
+            "end_ts": 1425.08,
+            "duration": 1.4,
+            "keyframes": [
+                {
+                    "frame_idx": 35609,
+                    "timestamp": 1424.36,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V024/L25_V024_S0114_F035609.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "Four men in white shirts and red ties are gathered around a table, engaged in a discussion with papers and laptops in front of them.",
+                    "objects_and_counts": [
+                        "4 person, 2 laptop, 4 tie, 7 book, 7 chair, 1 dining table"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V024_S0115",
+            "start_frame": 35628,
+            "end_frame": 35658,
+            "start_ts": 1425.12,
+            "end_ts": 1426.32,
+            "duration": 1.2,
+            "keyframes": [
+                {
+                    "frame_idx": 35643,
+                    "timestamp": 1425.72,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V024/L25_V024_S0115_F035643.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "core; int GIVE YOU",
+                "vlm_caption": {
+                    "detailed_description": "A man in a floral shirt is speaking into a microphone in front of a projection of computer code and text that reads \"GIVE YOU YOU WANT.\"",
+                    "objects_and_counts": [
+                        "1 person, 1 tv"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V024_S0116",
+            "start_frame": 35659,
+            "end_frame": 35687,
+            "start_ts": 1426.36,
+            "end_ts": 1427.48,
+            "duration": 1.12,
+            "keyframes": [
+                {
+                    "frame_idx": 35673,
+                    "timestamp": 1426.92,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V024/L25_V024_S0116_F035673.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "S.I.U.",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "Graduates in black gowns and blue robes are throwing their caps into the air in front of a traditional building with red lanterns.",
+                    "objects_and_counts": [
+                        "13 person, 1 kite"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V024_S0117",
+            "start_frame": 35688,
+            "end_frame": 35748,
+            "start_ts": 1427.52,
+            "end_ts": 1429.92,
+            "duration": 2.4,
+            "keyframes": [
+                {
+                    "frame_idx": 35718,
+                    "timestamp": 1428.72,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V024/L25_V024_S0117_F035718.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Tâm hồn Việt Nam, Giáo dục Thế Giới",
+                "ocr_text": "THE SAIGON INTERNATIONAL UNIVERSITY Vietnam's spirit global education",
+                "vlm_caption": {
+                    "detailed_description": "The image features the logo and name of The Saigon International University, set against a backdrop of a bright blue sky with clouds and a rainbow.",
+                    "objects_and_counts": [
+                        "1 frisbee"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L25_V024_S0118",
+            "start_frame": 35749,
+            "end_frame": 35854,
+            "start_ts": 1429.96,
+            "end_ts": 1434.16,
+            "duration": 4.2,
+            "keyframes": [],
+            "extracted_data": {
+                "transcript": "",
+                "ocr_text": ""
+            }
+        },
+        {
+            "shot_id": "L25_V024_S0119",
+            "start_frame": 35855,
+            "end_frame": 35861,
+            "start_ts": 1434.2,
+            "end_ts": 1434.44,
+            "duration": 0.24,
+            "keyframes": [],
+            "extracted_data": {
+                "transcript": "",
+                "ocr_text": ""
+            }
+        }
+    ]
+}

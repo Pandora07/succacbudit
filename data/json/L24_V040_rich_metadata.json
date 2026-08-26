@@ -1,0 +1,225 @@
+{
+    "video_id": "L24_V040",
+    "fps": 30.0,
+    "total_shots": 8,
+    "total_keyframes": 14,
+    "shots": [
+        {
+            "shot_id": "L24_V040_S0001",
+            "start_frame": 0,
+            "end_frame": 123,
+            "start_ts": 0.0,
+            "end_ts": 4.1,
+            "duration": 4.1,
+            "keyframes": [
+                {
+                    "frame_idx": 61,
+                    "timestamp": 2.033,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V040/L24_V040_S0001_F000061.jpg"
+                },
+                {
+                    "frame_idx": 30,
+                    "timestamp": 1.0,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V040/L24_V040_S0001_F000030.jpg"
+                },
+                {
+                    "frame_idx": 92,
+                    "timestamp": 3.067,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V040/L24_V040_S0001_F000092.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "なに?",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A lion dance performance is taking place on a stage with a crowd of spectators in the background.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L24_V040_S0002",
+            "start_frame": 124,
+            "end_frame": 271,
+            "start_ts": 4.133,
+            "end_ts": 9.033,
+            "duration": 4.9,
+            "keyframes": [
+                {
+                    "frame_idx": 197,
+                    "timestamp": 6.567,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V040/L24_V040_S0002_F000197.jpg"
+                },
+                {
+                    "frame_idx": 160,
+                    "timestamp": 5.333,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V040/L24_V040_S0002_F000160.jpg"
+                },
+                {
+                    "frame_idx": 234,
+                    "timestamp": 7.8,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V040/L24_V040_S0002_F000234.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "감사합니다.",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A balloon sculpture of a seahorse is floating in the air, illuminated by lights against a dark background.",
+                    "objects_and_counts": [
+                        "2 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L24_V040_S0003",
+            "start_frame": 272,
+            "end_frame": 429,
+            "start_ts": 9.067,
+            "end_ts": 14.3,
+            "duration": 5.233,
+            "keyframes": [
+                {
+                    "frame_idx": 350,
+                    "timestamp": 11.667,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V040/L24_V040_S0003_F000350.jpg"
+                },
+                {
+                    "frame_idx": 311,
+                    "timestamp": 10.367,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V040/L24_V040_S0003_F000311.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "See you next time.",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A white robotic dragon performs a stunt in front of an audience at an event, with spectators seated at tables numbered 1 through 17.",
+                    "objects_and_counts": [
+                        "5 person | 1 chair, 2 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L24_V040_S0004",
+            "start_frame": 430,
+            "end_frame": 615,
+            "start_ts": 14.333,
+            "end_ts": 20.5,
+            "duration": 6.167,
+            "keyframes": [
+                {
+                    "frame_idx": 522,
+                    "timestamp": 17.4,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V040/L24_V040_S0004_F000522.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Bile mile, bile mile, me ma e gal Bile mile, bile mile, me ma e gal",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A person in a yellow shirt stands in front of a large, colorful dragon puppet on a stage with a dark background.",
+                    "objects_and_counts": [
+                        "4 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L24_V040_S0005",
+            "start_frame": 616,
+            "end_frame": 740,
+            "start_ts": 20.533,
+            "end_ts": 24.667,
+            "duration": 4.133,
+            "keyframes": [
+                {
+                    "frame_idx": 678,
+                    "timestamp": 22.6,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V040/L24_V040_S0005_F000678.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "I turn my defense back, but I need no money",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "The image depicts a traditional Chinese paper-cut decoration hanging from a string, featuring intricate patterns and characters."
+                }
+            }
+        },
+        {
+            "shot_id": "L24_V040_S0006",
+            "start_frame": 741,
+            "end_frame": 1056,
+            "start_ts": 24.7,
+            "end_ts": 35.2,
+            "duration": 10.5,
+            "keyframes": [
+                {
+                    "frame_idx": 898,
+                    "timestamp": 29.933,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V040/L24_V040_S0006_F000898.jpg"
+                },
+                {
+                    "frame_idx": 819,
+                    "timestamp": 27.3,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V040/L24_V040_S0006_F000819.jpg"
+                },
+                {
+                    "frame_idx": 977,
+                    "timestamp": 32.567,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V040/L24_V040_S0006_F000977.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Субтитры сделал DimaTorzok",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A white, robotic figure with a red and white striped tail stands on a table with a dark background.",
+                    "objects_and_counts": [
+                        "1 person | 3 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L24_V040_S0007",
+            "start_frame": 1057,
+            "end_frame": 1128,
+            "start_ts": 35.233,
+            "end_ts": 37.6,
+            "duration": 2.367,
+            "keyframes": [
+                {
+                    "frame_idx": 1092,
+                    "timestamp": 36.4,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L24_V040/L24_V040_S0007_F001092.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "I've had to boom, boom, poppin'",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A person is riding a mechanical ride at night, with a large, colorful dragon-like structure in the foreground."
+                }
+            }
+        },
+        {
+            "shot_id": "L24_V040_S0008",
+            "start_frame": 1129,
+            "end_frame": 1131,
+            "start_ts": 37.633,
+            "end_ts": 37.7,
+            "duration": 0.067,
+            "keyframes": [],
+            "extracted_data": {
+                "transcript": "",
+                "ocr_text": ""
+            }
+        }
+    ]
+}

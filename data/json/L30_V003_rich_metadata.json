@@ -1,0 +1,1699 @@
+{
+    "video_id": "L30_V003",
+    "fps": 25.0,
+    "total_shots": 64,
+    "total_keyframes": 86,
+    "shots": [
+        {
+            "shot_id": "L30_V003_S0001",
+            "start_frame": 0,
+            "end_frame": 74,
+            "start_ts": 0.0,
+            "end_ts": 2.96,
+            "duration": 2.96,
+            "keyframes": [],
+            "extracted_data": {
+                "transcript": "",
+                "ocr_text": ""
+            }
+        },
+        {
+            "shot_id": "L30_V003_S0002",
+            "start_frame": 75,
+            "end_frame": 169,
+            "start_ts": 3.0,
+            "end_ts": 6.76,
+            "duration": 3.76,
+            "keyframes": [
+                {
+                    "frame_idx": 122,
+                    "timestamp": 4.88,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V003/L30_V003_S0002_F000122.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Thank you.",
+                "ocr_text": "Herbalife' thương hiệu quan lý cân nặng # & sức khỏe trên thế giới",
+                "vlm_caption": {
+                    "detailed_description": "The image features the Herbalife logo with the text \"thương hiệu quản lý cân nặng & sức khỏe trên thế giới\" and a green number one symbol."
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V003_S0003",
+            "start_frame": 170,
+            "end_frame": 289,
+            "start_ts": 6.8,
+            "end_ts": 11.56,
+            "duration": 4.76,
+            "keyframes": [
+                {
+                    "frame_idx": 229,
+                    "timestamp": 9.16,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V003/L30_V003_S0003_F000229.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "you",
+                "ocr_text": "Clip bạn đọc dự thi cuộc thi: Lan tỏa năng lượng tích cực 2024",
+                "vlm_caption": {
+                    "detailed_description": "The image contains text in Vietnamese, which translates to \"Clip you read for the contest: Spread positive energy 2024.\""
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V003_S0004",
+            "start_frame": 290,
+            "end_frame": 733,
+            "start_ts": 11.6,
+            "end_ts": 29.32,
+            "duration": 17.72,
+            "keyframes": [
+                {
+                    "frame_idx": 511,
+                    "timestamp": 20.44,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V003/L30_V003_S0004_F000511.jpg"
+                },
+                {
+                    "frame_idx": 400,
+                    "timestamp": 16.0,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V003/L30_V003_S0004_F000400.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Trong quá trình nghe Đăng Bảo chia sẻ thì cô rất ấn tượng Với việc là con đã đạt ra mục tiêu ngay từ sớm Cũng như là có một lộ trình để chinh phục mục tiêu đó Và đặc biệt là cô vô cùng ấn tượng với một ý mà con nói là Con chưa đi học thêm ở bất kỳ nơi nào Tức là chỉ tham gia quanh đồng học tập ở trường",
+                "ocr_text": "tuoi trẻv Cuộc thi Lan tỏa năng lượng tích cực 2024: thương hiệu Truyền cảm hứng với tinh thần tự học",
+                "vlm_caption": {
+                    "detailed_description": "A woman speaks into a microphone while surrounded by students in a classroom setting.",
+                    "objects_and_counts": [
+                        "11 person | 10 person, 1 cell phone"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V003_S0005",
+            "start_frame": 734,
+            "end_frame": 810,
+            "start_ts": 29.36,
+            "end_ts": 32.4,
+            "duration": 3.04,
+            "keyframes": [
+                {
+                    "frame_idx": 772,
+                    "timestamp": 30.88,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V003/L30_V003_S0005_F000772.jpg"
+                },
+                {
+                    "frame_idx": 791,
+                    "timestamp": 31.64,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V003/L30_V003_S0005_F000791.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Mẹ con đã chú chương",
+                "ocr_text": "BMS TALK #1 bms CHINH PHỤC HỌC BỒNG ASEAN Lor VT MAAL NO | bms BMS TALK #1 CHINH PHỤC HỌC BỐNG ASEAN LOP V1",
+                "vlm_caption": {
+                    "detailed_description": "A panel discussion is taking place in a modern, brightly lit room with a large screen displaying a presentation slide, while an audience sits attentively.",
+                    "objects_and_counts": [
+                        "10 chair, 16 person, 2 potted plant, 2 cup, 1 dining table, 2 tv, 1 handbag | 12 chair, 16 person, 1 tv, 3 potted plant, 2 dining table, 1 cup, 1 handbag"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V003_S0006",
+            "start_frame": 811,
+            "end_frame": 886,
+            "start_ts": 32.44,
+            "end_ts": 35.44,
+            "duration": 3.0,
+            "keyframes": [
+                {
+                    "frame_idx": 848,
+                    "timestamp": 33.92,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V003/L30_V003_S0006_F000848.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "sẽ không làm thiểm đâu, sẽ tập trung vào giá dựng thực hành.",
+                "ocr_text": "THÌ TUỆ DO THAI NGUYỄN ĐĂNG BẢO Lớp 9T, THCS Ban Mai, Hà Đông, Hà Nội",
+                "vlm_caption": {
+                    "detailed_description": "A young boy in a blue suit and glasses is holding a microphone, speaking in front of a colorful backdrop with cartoon characters and books.",
+                    "objects_and_counts": [
+                        "1 person, 1 chair, 1 cup, 1 potted plant, 1 vase, 2 book"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V003_S0007",
+            "start_frame": 887,
+            "end_frame": 952,
+            "start_ts": 35.48,
+            "end_ts": 38.08,
+            "duration": 2.6,
+            "keyframes": [
+                {
+                    "frame_idx": 919,
+                    "timestamp": 36.76,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V003/L30_V003_S0007_F000919.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Bắt đầu thì con được hệ kềm trong những cái...",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A diverse group of students and adults are seated in a classroom setting, attentively listening to a presentation.",
+                    "objects_and_counts": [
+                        "12 person, 4 chair, 1 book"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V003_S0008",
+            "start_frame": 953,
+            "end_frame": 1032,
+            "start_ts": 38.12,
+            "end_ts": 41.28,
+            "duration": 3.16,
+            "keyframes": [
+                {
+                    "frame_idx": 992,
+                    "timestamp": 39.68,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V003/L30_V003_S0008_F000992.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "rồi gọi họ đến bộ nước hải lực ban.",
+                "ocr_text": "Học bóng thờn phòn ASEAN : TRI TUÊ DO THI",
+                "vlm_caption": {
+                    "detailed_description": "A young man in a blue suit and glasses is speaking into a microphone while seated at a table with a bouquet of pink roses and books.",
+                    "objects_and_counts": [
+                        "1 person, 1 chair, 1 cup, 1 vase, 1 cell phone, 2 book, 1 potted plant, 1 dining table"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V003_S0009",
+            "start_frame": 1033,
+            "end_frame": 1181,
+            "start_ts": 41.32,
+            "end_ts": 47.24,
+            "duration": 5.92,
+            "keyframes": [
+                {
+                    "frame_idx": 1107,
+                    "timestamp": 44.28,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V003/L30_V003_S0009_F001107.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Kenya is famous for its animals. There are many different animals there.",
+                "ocr_text": "KIDS",
+                "vlm_caption": {
+                    "detailed_description": "A young boy in a striped shirt sits at a desk with a globe, laptop, and world map in the background.",
+                    "objects_and_counts": [
+                        "1 person, 1 mouse, 1 book, 1 tv"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V003_S0010",
+            "start_frame": 1182,
+            "end_frame": 1254,
+            "start_ts": 47.28,
+            "end_ts": 50.16,
+            "duration": 2.88,
+            "keyframes": [
+                {
+                    "frame_idx": 1218,
+                    "timestamp": 48.72,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V003/L30_V003_S0010_F001218.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Học hỏi ở trường lớp là cần thiết",
+                "ocr_text": ") THÍ THÚ LIẾN THỨC LỚP THỦ THỈ KIÊN TH",
+                "vlm_caption": {
+                    "detailed_description": "A young boy in a white shirt and orange tie is reading a book titled \"Thư viện thực tập lớp 3\" in a classroom setting.",
+                    "objects_and_counts": [
+                        "1 person, 1 book, 1 tie"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V003_S0011",
+            "start_frame": 1255,
+            "end_frame": 1299,
+            "start_ts": 50.2,
+            "end_ts": 51.96,
+            "duration": 1.76,
+            "keyframes": [
+                {
+                    "frame_idx": 1277,
+                    "timestamp": 51.08,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V003/L30_V003_S0011_F001277.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Học hỏi từng phút một trong cuộc sống hàng ngày.",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A young boy in a white shirt and red tie is sitting on a stone bench, reading a book.",
+                    "objects_and_counts": [
+                        "1 person, 2 tie, 1 book"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V003_S0012",
+            "start_frame": 1301,
+            "end_frame": 1590,
+            "start_ts": 52.04,
+            "end_ts": 63.6,
+            "duration": 11.56,
+            "keyframes": [
+                {
+                    "frame_idx": 1445,
+                    "timestamp": 57.8,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V003/L30_V003_S0012_F001445.jpg"
+                },
+                {
+                    "frame_idx": 1517,
+                    "timestamp": 60.68,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V003/L30_V003_S0012_F001517.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "mới vô cùng quan trọng. Hãy để ý từ sự việc quanh mình và đặt câu hỏi với mọi thứ. Bởi vì tò mò chính là nền tảng để học hỏi và hoàn thiện bản thân mình.",
+                "ocr_text": "tuoi treTv TẠI SAO TRÚNG LUỘC XONG SẼ CÚNG LẠI? cử lòng trắng và lòng đỏ) hay là Cưng lòng đào (chín lòng trắng, lòng t vần hơi mềm và chảy). Cả lòng trắng và lòng dỏ trong Từng phần trong quả trứng có quả trứng đều chứa nhiều dinh dưỡng, giật độ chín khác nhau, lòng trắng trong đó có chất đạm (protein), Chất tưng cứng lại ở khoảng 80°C, đạm khi dun nóng ở nhiệt độ cao sẽ B l khoảng 70°C. Vì lòng đỏ có n cứng lại. Khi luộc lên thì lòng trắng 43 chín thấp hơn nên có thể chỉ. sẽ cứng lại trước vì nhiệt độ của nước nhệt độ để tạo ra những món ăn thú sôi truyền qua lớp vỏ vào bên trong,. phần lòng trắng cứng h: V dụ, người ta ngâm trứng trong dần, rồi chẳng mấy cáo si hoảng 70°C chừng 20 phút chốc đến lòng đỏ ở giữa. Tùy vào thời Vỏ trứng gian luộc mà ta dược 7 Lòng đỏ Dây trứng chín hần (chín treo Lồng trắng 10g | tuöi trẻTv TẠI SAO TRỨNG LUỘC cả lòng trắng và lòng đỏ) hay là XONG SẼ CỨNG LẠI? trứng lòng đào (chín lòng trắng, lòng đó vần hơi mềm và chảy). Cả lòng trắng và lòng đỏ trong Từng phần trong quả trứng có quả trứng đều chứa nhiều dinh dưỡng, chiệt độ chín khác nhau, lòng trắng trong đó có chất đạm (protein). Chất rững cừng lại ở khoảng 80°C, đạm khi đun nóng ở nhiệt độ cao sẽ blà khoảng 70°C. Vì lòng đỏ có n cứng lại. Khi luộc lên thì lòng trắng đà chín thấp hơn nên có thể chỉ. sẽ cứng lại trước vì nhiệt độ của nước thiệt độ để tạo ra những món ăn thú sôi truyền qua lớp vỏ vào bên trong, ià Vi dụ, người ta ngâm trứng trong phần lòng trắng cứng nước sôi khoảng 70°C chừng 20 phút dần, rồi chẳng mấy chốc đến lòng đó ở gian ha giữa. Tùy vào thời",
+                "vlm_caption": {
+                    "detailed_description": "A hand is holding an open book with text in Vietnamese discussing the properties of eggs, including their white and yolk, and how they solidify at different temperatures.",
+                    "objects_and_counts": [
+                        "1 book, 1 person | 1 book, 2 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V003_S0013",
+            "start_frame": 1591,
+            "end_frame": 1680,
+            "start_ts": 63.64,
+            "end_ts": 67.2,
+            "duration": 3.56,
+            "keyframes": [
+                {
+                    "frame_idx": 1635,
+                    "timestamp": 65.4,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V003/L30_V003_S0013_F001635.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Đầu tiêu của mình là trong khoảng 3 tháng mình sẽ đọc được hơn 10.000 tháng.",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A young person wearing a white shirt and red tie is standing indoors with a plain background.",
+                    "objects_and_counts": [
+                        "1 person, 1 tie"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V003_S0014",
+            "start_frame": 1681,
+            "end_frame": 1752,
+            "start_ts": 67.24,
+            "end_ts": 70.08,
+            "duration": 2.84,
+            "keyframes": [
+                {
+                    "frame_idx": 1716,
+                    "timestamp": 68.64,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V003/L30_V003_S0014_F001716.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Mỗi ngày mình sẽ đọc khoảng 70 trang sách",
+                "ocr_text": "BẮG GIÁO DUC NHI THỦ THỈ KIẾN THỨC LỚP",
+                "vlm_caption": {
+                    "detailed_description": "A young boy in a school uniform is holding and reading a book titled \"Thử Thách Kiến Thức Lớp 3\" while standing outdoors.",
+                    "objects_and_counts": [
+                        "1 person, 1 tie, 1 book"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V003_S0015",
+            "start_frame": 1753,
+            "end_frame": 2095,
+            "start_ts": 70.12,
+            "end_ts": 83.8,
+            "duration": 13.68,
+            "keyframes": [
+                {
+                    "frame_idx": 1924,
+                    "timestamp": 76.96,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V003/L30_V003_S0015_F001924.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Đừng bỏ cuộc, hãy đứng dậy Nick Vinsick đã nói như vậy Và chú đã thực sự đứng vững Dù không có chân Và Nick cũng tin vào điều này Bạn không cần can đảm để chiến thắng Mà bạn cần can đảm để đối diện với thất bại",
+                "ocr_text": "VMI 17:48 anh niên TP. Hồ Chí Minh sẽ hô trợ lao động ngoại tỉnh tim việc miện",
+                "vlm_caption": {
+                    "detailed_description": "A young boy in a red sweater stands holding a book, with a bookshelf and a cabinet in the background.",
+                    "objects_and_counts": [
+                        "1 person, 4 book, 1 remote"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V003_S0016",
+            "start_frame": 2096,
+            "end_frame": 2491,
+            "start_ts": 83.84,
+            "end_ts": 99.64,
+            "duration": 15.8,
+            "keyframes": [
+                {
+                    "frame_idx": 2293,
+                    "timestamp": 91.72,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V003/L30_V003_S0016_F002293.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Con có thể học không nhiều trong thời gian này, có thể học khoảng 1 tiếng, 1 tiếng rưỡi hoặc là những em 2 tiếng. Nhưng mà con học vào những lúc thời gian mà con cảm thấy thực sự thoải mái, và những lúc mà con thấy đầu bóc của con hoàn toàn đẹp đáo và cũng để tiếp hủi những thức mới.",
+                "ocr_text": "d0 2024 Light BRAK LATL THÌ TUÊ DO THẢI",
+                "vlm_caption": {
+                    "detailed_description": "A young man in a blue blazer and glasses is holding a microphone, standing in front of a colorful backdrop with educational materials and a bouquet of pink flowers.",
+                    "objects_and_counts": [
+                        "1 person, 1 cup, 2 chair, 1 cell phone, 1 vase, 1 book, 1 dining table, 1 potted plant"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V003_S0017",
+            "start_frame": 2492,
+            "end_frame": 2577,
+            "start_ts": 99.68,
+            "end_ts": 103.08,
+            "duration": 3.4,
+            "keyframes": [
+                {
+                    "frame_idx": 2534,
+                    "timestamp": 101.36,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V003/L30_V003_S0017_F002534.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "và những nghiệm mà con có thể tìm hiểu cách hiệu quả được ạ.",
+                "ocr_text": "CHINH PHỤC HỌC BỔNG ASEAN tuoi trev Guya GMSER NGUYỄN DĂNG BẢO LOP 91",
+                "vlm_caption": {
+                    "detailed_description": "A panel discussion is taking place in a classroom setting, with a large screen displaying a presentation about ASEAN education reform, while participants and an audience engage in conversation.",
+                    "objects_and_counts": [
+                        "15 person, 5 chair, 2 cup, 1 tv, 1 potted plant"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V003_S0018",
+            "start_frame": 2578,
+            "end_frame": 2674,
+            "start_ts": 103.12,
+            "end_ts": 106.96,
+            "duration": 3.84,
+            "keyframes": [
+                {
+                    "frame_idx": 2626,
+                    "timestamp": 105.04,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V003/L30_V003_S0018_F002626.jpg"
+                },
+                {
+                    "frame_idx": 2602,
+                    "timestamp": 104.08,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V003/L30_V003_S0018_F002602.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "nation currently this aging girl boy",
+                "ocr_text": "* The United Nations currently lists 18 \"Global issues\" - Gender equality Issues Global What are the issues that matter (most, in today's world? | Issues Global What are the issues that matter (most in today's world? *",
+                "vlm_caption": {
+                    "detailed_description": "A young boy stands in front of a television displaying a presentation about global issues, gesturing with his hands.",
+                    "objects_and_counts": [
+                        "1 person, 1 tv"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V003_S0019",
+            "start_frame": 2675,
+            "end_frame": 3126,
+            "start_ts": 107.0,
+            "end_ts": 125.04,
+            "duration": 18.04,
+            "keyframes": [
+                {
+                    "frame_idx": 2900,
+                    "timestamp": 116.0,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V003/L30_V003_S0019_F002900.jpg"
+                },
+                {
+                    "frame_idx": 2787,
+                    "timestamp": 111.48,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V003/L30_V003_S0019_F002787.jpg"
+                },
+                {
+                    "frame_idx": 3013,
+                    "timestamp": 120.52,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V003/L30_V003_S0019_F003013.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "My country has 54 ethnic groups, including 53 ethnic minorities Con làm tất cả mọi thứ đấy là do cái mong muốn tự thân của con Và con cảm thấy hạnh phúc khi mà con được là chứng bản thân con được làm những cái thứ mà con thích",
+                "ocr_text": "tuoi trẻv SẢOH GIẢO KHOA Bà PHẠM LAN ANH Mẹ hoc sinh Đăng Bảo | tua trery 4 DÂN TỘC VIỆT NAM | tuôi trẻv LÁCH GIẢO KHOI",
+                "vlm_caption": {
+                    "detailed_description": "A young boy stands in front of a television displaying a collage of images, with the text \"54 DÂN TỘC VIỆT NAM\" and \"tuoitre TV\" visible.",
+                    "objects_and_counts": [
+                        "1 person, 1 chair, 3 book, 1 potted plant | 1 person, 4 book | 1 person, 1 tv"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V003_S0020",
+            "start_frame": 3127,
+            "end_frame": 3225,
+            "start_ts": 125.08,
+            "end_ts": 129.0,
+            "duration": 3.92,
+            "keyframes": [
+                {
+                    "frame_idx": 3176,
+                    "timestamp": 127.04,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V003/L30_V003_S0020_F003176.jpg"
+                },
+                {
+                    "frame_idx": 3151,
+                    "timestamp": 126.04,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V003/L30_V003_S0020_F003151.jpg"
+                },
+                {
+                    "frame_idx": 3200,
+                    "timestamp": 128.0,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V003/L30_V003_S0020_F003200.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Và tất nhiên là nếu như nó có được cái kết quả tốt đẹp thì là một điều",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A group of adults and children are gathered in a classroom, looking at a bulletin board decorated with colorful paper cutouts and text.",
+                    "objects_and_counts": [
+                        "10 person, 2 tie | 13 person, 1 tie | 11 person, 1 tie, 1 book"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V003_S0021",
+            "start_frame": 3226,
+            "end_frame": 3335,
+            "start_ts": 129.04,
+            "end_ts": 133.4,
+            "duration": 4.36,
+            "keyframes": [
+                {
+                    "frame_idx": 3280,
+                    "timestamp": 131.2,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V003/L30_V003_S0021_F003280.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "rất là nếu như là không thì cái hành trình",
+                "ocr_text": "ING 4 SU",
+                "vlm_caption": {
+                    "detailed_description": "A young boy stands at a table in a classroom, speaking into a microphone while a large screen displays a presentation.",
+                    "objects_and_counts": [
+                        "1 tv, 11 person, 1 cell phone, 3 dining table, 1 vase, 2 chair, 1 potted plant"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V003_S0022",
+            "start_frame": 3336,
+            "end_frame": 3454,
+            "start_ts": 133.44,
+            "end_ts": 138.16,
+            "duration": 4.72,
+            "keyframes": [
+                {
+                    "frame_idx": 3395,
+                    "timestamp": 135.8,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V003/L30_V003_S0022_F003395.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "là con sẽ có được những kinh nghiệm, con sẽ có học hỏi được rất là nhiều.",
+                "ocr_text": "tuổi trẻv Chie Mong KO FU 10",
+                "vlm_caption": {
+                    "detailed_description": "A young boy stands in front of a microphone, addressing an audience in a classroom setting with a \"Doraemon\" themed backdrop and bookshelves in the background.",
+                    "objects_and_counts": [
+                        "6 person, 3 cell phone, 3 book, 1 potted plant, 1 cup, 1 vase"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V003_S0023",
+            "start_frame": 3455,
+            "end_frame": 3616,
+            "start_ts": 138.2,
+            "end_ts": 144.64,
+            "duration": 6.44,
+            "keyframes": [
+                {
+                    "frame_idx": 3535,
+                    "timestamp": 141.4,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V003/L30_V003_S0023_F003535.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "và chắc chắn là khi 1 lần sau nếu như con thất bại thì con sẽ học hỏi được từ thất bại đấy để con có thể thành công hơn",
+                "ocr_text": "Video của Nguyên Đảng Bảo THẤP LÊN NGỌN LỬA được các giảo viên trong trưởng đánh giá cao, với giọng kế hấp dẫn, lưu loát, lời văn vừa có đọng, vừa thể hiện rõ nét cảm xúc, góc nhìn ấn tượng cùng CÙNG \"TUỔI THƠ DỮ DỘI\" như những thông điệp muốn nhân nhủ của người thực hiện. Trước sức hấp dẫn quả lớn của \"Tuổi thơ dữ dội\", bạn Nguyễn Đăng Bào Vốn là một cậu học trò (lớp 4T, trường Tiểu học Ban Mai, Hà Nội) đã thực hiện một video hùng biện, thông minh, khả năng làm chia sẻ những tâm đắc của minh vé tập chủ sân khấu tốt nên ở sách dày gắn 800 trang của Phùng Quản. trường, Nguyễn Đảng Bảo \"Tuổi thơ dữ dội\" không chỉ gày ăn tượng với các thành tích cao là truyện dài của nhà vẫn trong học tập, mà còn bởi Phùng Quán, được viết ròng rà hình ảnh một MC di dỏm, trong suốt 18 năm (1968 - 1986). xử lý tinh huống tốt trong các Trong suốt 34 năm qua, tác phẩm giờ chào cờ đầu tuần cũng như này đã gắn bó với nhiều thế hệ Đăng Bảo với vai những sự kiện, hoạt động của của tuổi thơ Việt Nam, cá bằng trò MC trong giờ sinh hoạt Ban thiếu nhì. hình thức in ấn xuất bản và Việc thực hiện một video dưới cà đầu tuần tại trường điện ảnh. Tiếu học Ban Mai. giới thiệu sách để truyến cảm hứng tích cực trong sự chung tay đồng lòng của gia đình, nhà online, Bảo đã dành phần lớn thải trường và toàn xã hội để chiến gian đọc sách: thắng dịch bệnh COVID-19 thực Theo Đăng Bảo, Tuổi thơ dữ sự là một việc làm ý nghĩa - dội\" là cuốn sách tập hợp những cô Nguyễn Thị Thanh Nương- trái tim yêu nước thuần khiết Đăng Bào giới thiệu sách tại nhà trong Phó Hiệu trưởng nhà trường nhất, non dại nhất và cũng đẹp những ngày phòng tránh dịch COVID-19. bày tỏ. đê nhất, giúp bạn hiểu thế nào Cô Phạm Lan Anh - mẹ của là tình yêu đất nước xuất phát Đăng Bảo chia sẻ: Ngay từ khi từ tinh yêu người thăn, yêu gia đình, yêu xóm làng, quê hương. Ning dìn thường muồn là naití đần biết thời gian nghỉ học vì dịch",
+                "vlm_caption": {
+                    "detailed_description": "The image shows a magazine page with a photograph of a young boy holding a book, accompanied by text in Vietnamese about a student named Nguyễn Đăng Bảo who created a video about the book \"Tuổi thơ dữ dội\" (The Difficult Youth)",
+                    "objects_and_counts": [
+                        "3 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V003_S0024",
+            "start_frame": 3617,
+            "end_frame": 3840,
+            "start_ts": 144.68,
+            "end_ts": 153.6,
+            "duration": 8.92,
+            "keyframes": [
+                {
+                    "frame_idx": 3728,
+                    "timestamp": 149.12,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V003/L30_V003_S0024_F003728.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Thì cái quá trình mà con trưởng thành về tư duy hay là về cách hành xử Đấy đó là cái mà mình nhìn nhận thấy là cái thay đổi rõ",
+                "ocr_text": "tuôi trẻv LÁCH GIẢO KHOI",
+                "vlm_caption": {
+                    "detailed_description": "A woman in a polka dot blouse is speaking in a brightly lit room with bookshelves and a yellow door.",
+                    "objects_and_counts": [
+                        "1 person, 1 chair, 3 book, 1 potted plant"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V003_S0025",
+            "start_frame": 3841,
+            "end_frame": 3970,
+            "start_ts": 153.64,
+            "end_ts": 158.8,
+            "duration": 5.16,
+            "keyframes": [
+                {
+                    "frame_idx": 3905,
+                    "timestamp": 156.2,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V003/L30_V003_S0025_F003905.jpg"
+                },
+                {
+                    "frame_idx": 3873,
+                    "timestamp": 154.92,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V003/L30_V003_S0025_F003873.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "giá trị đối với con chứ không phải là cái kết quả cuối cùng mà con đạt được thì là mình nhận ra được rằng là",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A person is sitting on a bus, looking out the window at a lush green landscape.",
+                    "objects_and_counts": [
+                        "1 person, 1 bowl | 1 person, 2 bowl"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V003_S0026",
+            "start_frame": 3971,
+            "end_frame": 4048,
+            "start_ts": 158.84,
+            "end_ts": 161.92,
+            "duration": 3.08,
+            "keyframes": [
+                {
+                    "frame_idx": 4009,
+                    "timestamp": 160.36,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V003/L30_V003_S0026_F004009.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hạnh phúc của con là thành công của người làm cha",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A young boy in a school uniform is leaning out of a window, looking outside.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V003_S0027",
+            "start_frame": 4049,
+            "end_frame": 4133,
+            "start_ts": 161.96,
+            "end_ts": 165.32,
+            "duration": 3.36,
+            "keyframes": [
+                {
+                    "frame_idx": 4091,
+                    "timestamp": 163.64,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V003/L30_V003_S0027_F004091.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "không phải là mẹ chứ không phải là cái thành công của con mà làm cho mình",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "The image shows a close-up of a child's face with a blurred background featuring greenery and a blue wall.",
+                    "objects_and_counts": [
+                        "2 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V003_S0028",
+            "start_frame": 4134,
+            "end_frame": 4229,
+            "start_ts": 165.36,
+            "end_ts": 169.16,
+            "duration": 3.8,
+            "keyframes": [
+                {
+                    "frame_idx": 4181,
+                    "timestamp": 167.24,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V003/L30_V003_S0028_F004181.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "cảm thấy hạnh phúc",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A young boy in a white shirt is smiling and looking to the side while leaning against a metal railing outdoors.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V003_S0029",
+            "start_frame": 4230,
+            "end_frame": 4345,
+            "start_ts": 169.2,
+            "end_ts": 173.8,
+            "duration": 4.6,
+            "keyframes": [
+                {
+                    "frame_idx": 4287,
+                    "timestamp": 171.48,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V003/L30_V003_S0029_F004287.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "다음 영상에서 만나요.",
+                "ocr_text": "tuổi trẻTv HẠNH PHÚC của con chính là THÀNH CÔNG của cha mẹ",
+                "vlm_caption": {
+                    "detailed_description": "A mother hugs her child with a heart above them, and the text reads \"Hạnh phúc của con chính là thành công của cha mẹ.\"",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V003_S0030",
+            "start_frame": 4346,
+            "end_frame": 4597,
+            "start_ts": 173.84,
+            "end_ts": 183.88,
+            "duration": 10.04,
+            "keyframes": [
+                {
+                    "frame_idx": 4471,
+                    "timestamp": 178.84,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V003/L30_V003_S0030_F004471.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Thì ngày 27 tháng tháng vừa rồi thực sự là một ngày vô cùng đặc biệt đối với bản thân con. Ngày hôm ấy thì con đã nhận được kết quả của học bổng ASEAN và thông báo rằng là con là một trong những người đàn ông",
+                "ocr_text": "tuoi treTv CHINH PHỤC HỌC BỔNG TOÀN PHẦN ASEAN GREENAGI BẶC TRUNG HỌC CC TRAN CHIT TH THẾ DO THAI",
+                "vlm_caption": {
+                    "detailed_description": "A young man in a suit is speaking into a microphone while seated in front of a presentation screen displaying information about ASEAN scholarships.",
+                    "objects_and_counts": [
+                        "1 person, 3 cup, 1 potted plant, 1 dining table, 4 chair"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V003_S0031",
+            "start_frame": 4598,
+            "end_frame": 4706,
+            "start_ts": 183.92,
+            "end_ts": 188.24,
+            "duration": 4.32,
+            "keyframes": [
+                {
+                    "frame_idx": 4652,
+                    "timestamp": 186.08,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V003/L30_V003_S0031_F004652.jpg"
+                },
+                {
+                    "frame_idx": 4625,
+                    "timestamp": 185.0,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V003/L30_V003_S0031_F004625.jpg"
+                },
+                {
+                    "frame_idx": 4679,
+                    "timestamp": 187.16,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V003/L30_V003_S0031_F004679.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "trung du học sinh được cấp học bổng của quốc gia nước siêu con khi đó một",
+                "ocr_text": "BMS TALK 21 bms TINH PHỤC HỌC BONG ASERN | bms BMS TALK «1 CHINH PHỤC HỌC BONG ASEAN n Thái | tuoi tretv DITS BMS TALK •1 Chai PHỤC HỌC DONG RSEAN",
+                "vlm_caption": {
+                    "detailed_description": "A group of children and adults are seated in a classroom setting, attentively listening to a presentation on a large screen displaying a slide with text and an image of a man.",
+                    "objects_and_counts": [
+                        "23 person, 1 tv, 8 chair | 21 person, 6 chair, 1 tv | 23 person, 1 tv, 6 chair, 2 potted plant"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V003_S0032",
+            "start_frame": 4707,
+            "end_frame": 4824,
+            "start_ts": 188.28,
+            "end_ts": 192.96,
+            "duration": 4.68,
+            "keyframes": [
+                {
+                    "frame_idx": 4765,
+                    "timestamp": 190.6,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V003/L30_V003_S0032_F004765.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "giấu mốc về cho một hành trình mà con đã luôn nỗ lực và quyết tâm theo đuổi mục tiêu của mình.",
+                "ocr_text": "tuôi tret BMSER NGUYỄN DĂNG BÁO LOP 9T • Học bồng thản phòn ASTAN 3001 • Học sinh têu biễu Thủi d0 2024 - Học tnn têU bHẩ Quờn Hà Dộng com hoe 2023 3001",
+                "vlm_caption": {
+                    "detailed_description": "A panel discussion is taking place in a classroom setting with a presenter, two interviewers, and an audience seated on chairs.",
+                    "objects_and_counts": [
+                        "11 person, 6 chair, 4 cup, 1 potted plant, 1 dining table, 1 tv"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V003_S0033",
+            "start_frame": 4825,
+            "end_frame": 5040,
+            "start_ts": 193.0,
+            "end_ts": 201.6,
+            "duration": 8.6,
+            "keyframes": [
+                {
+                    "frame_idx": 4932,
+                    "timestamp": 197.28,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V003/L30_V003_S0033_F004932.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Thực sự đến lúc này mình vẫn chưa hết được sự vui mừng và hạnh phúc khi mà mình biết mình là một trong những du học sinh học bổng của trường phụ Singapore theo chương trình.",
+                "ocr_text": "tuoi trem ÂY TỪ VỰNG Ớ - Chun yên cơn màò day hải cu bay NGUYỄN ĐĂNG BẢO Lớp 9T, THCS Ban Mai, Hà Đông, Hà Nội",
+                "vlm_caption": {
+                    "detailed_description": "A young man in a suit stands in front of a colorful backdrop with educational posters, identified as Nguyễn Đăng Bảo from Lớp 9T at THCS Ban Mai in Hà Đông, Hà Nội.",
+                    "objects_and_counts": [
+                        "2 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V003_S0034",
+            "start_frame": 5041,
+            "end_frame": 5475,
+            "start_ts": 201.64,
+            "end_ts": 219.0,
+            "duration": 17.36,
+            "keyframes": [
+                {
+                    "frame_idx": 5258,
+                    "timestamp": 210.32,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V003/L30_V003_S0034_F005258.jpg"
+                },
+                {
+                    "frame_idx": 5149,
+                    "timestamp": 205.96,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V003/L30_V003_S0034_F005149.jpg"
+                },
+                {
+                    "frame_idx": 5366,
+                    "timestamp": 214.64,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V003/L30_V003_S0034_F005366.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Học bổng ASEAN. Đầu tiên mình biết đến học bổng này là vào năm 2 khi mà được mẹ mình giới thiệu vào một trang web trên bài đăng của nhà trường. Thực sự thì lúc đó mình cũng không suy nghĩ quá nhiều vì nghĩ rằng nó quá khó để có thể đạt được. Tuy nhiên là việc sau này mình có cơ hội được học toán tư vị Singapore đã khiến mình có...",
+                "ocr_text": "Tai ve M Gmail > 1 trong tổng số 2 Dear Dang Bao, Ref: AS-VN-S3-0000000544 Quan trọng Congratulations! You have been awarded the Academic Year 2025 ASEAN Scholarship for Vietnam (Secondary 3)! 11 Please indicate your intent to accept the offer using the link D Danh mục below within 7 days of this email. We are excited to have you join us in Singapore! Here is the list of attachments that you can find in this email: Quảng cáo a) Instructions to Awardee This document contains important information regarding the | Tai ve M Gmail 1 trong tổng số 2 Quan trọng 11 Danh mục Bear Bang Bae, Ref: A8-VN:83:0999998544 Quảng cáo Engratulations! You have been awarded the Academie Year 2025 ASEAN Sehelarship fer Vietnam (Secendary 3)! | Tai ve M Gmail > 1 trong tổng số 2 ..... ..... We are excited to have you join us in Singapore! Here is the list of D Quan trọng attachments that you can find in this email: a) Instructions to Awardee 11 This document contains important information regarding the Scholarship Agreement. Do read through this document carefully D Danh mục before making a decision. b) Sample of Scholarship Agreement We look forward to receiving your acceptance of this scholarship. We will contact you again to follow up on the execution of the Scholarship Agreement and other administrative Quảng cáo matters.",
+                "vlm_caption": {
+                    "detailed_description": "The image shows a Gmail inbox with a message from the Ministry of Education congratulating the recipient on being awarded the 2025 ASEAN Scholarship for Vietnam (Secondary 3).",
+                    "objects_and_counts": [
+                        "1 laptop"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V003_S0035",
+            "start_frame": 5476,
+            "end_frame": 5562,
+            "start_ts": 219.04,
+            "end_ts": 222.48,
+            "duration": 3.44,
+            "keyframes": [
+                {
+                    "frame_idx": 5519,
+                    "timestamp": 220.76,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V003/L30_V003_S0035_F005519.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "mình rất là hâm thú với bộ bún này và mình đã bắt đầu suy nghĩ việc",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A young child in a white shirt and red tie is holding a blue folder, looking at it with a focused expression.",
+                    "objects_and_counts": [
+                        "1 person, 1 tie"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V003_S0036",
+            "start_frame": 5563,
+            "end_frame": 5643,
+            "start_ts": 222.52,
+            "end_ts": 225.72,
+            "duration": 3.2,
+            "keyframes": [
+                {
+                    "frame_idx": 5603,
+                    "timestamp": 224.12,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V003/L30_V003_S0036_F005603.jpg"
+                },
+                {
+                    "frame_idx": 5623,
+                    "timestamp": 224.92,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V003/L30_V003_S0036_F005623.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "tìm hiểu về hệ thống giáo dục của Singapore cũng như là có mong muốn",
+                "ocr_text": "I/M | TIM EN IV/M",
+                "vlm_caption": {
+                    "detailed_description": "A young boy in a white shirt is drawing on a piece of paper with a red marker, while a decorated Christmas tree and a blue wall with a poster are visible in the background.",
+                    "objects_and_counts": [
+                        "1 person | 1 person, 1 dining table"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V003_S0037",
+            "start_frame": 5644,
+            "end_frame": 5723,
+            "start_ts": 225.76,
+            "end_ts": 228.92,
+            "duration": 3.16,
+            "keyframes": [
+                {
+                    "frame_idx": 5683,
+                    "timestamp": 227.32,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V003/L30_V003_S0037_F005683.jpg"
+                },
+                {
+                    "frame_idx": 5663,
+                    "timestamp": 226.52,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V003/L30_V003_S0037_F005663.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "tại một trong những quốc gia có nền giáo dục chất lượng hàng đầu thế giới.",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A person is cutting a red piece of paper with blue scissors.",
+                    "objects_and_counts": [
+                        "1 person | 1 person, 1 scissors"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V003_S0038",
+            "start_frame": 5724,
+            "end_frame": 5820,
+            "start_ts": 228.96,
+            "end_ts": 232.8,
+            "duration": 3.84,
+            "keyframes": [
+                {
+                    "frame_idx": 5772,
+                    "timestamp": 230.88,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V003/L30_V003_S0038_F005772.jpg"
+                },
+                {
+                    "frame_idx": 5796,
+                    "timestamp": 231.84,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V003/L30_V003_S0038_F005796.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "mình đã có quyết định upla hạ bộ vào tháng 7 và lúc đó thì",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A young boy in a white shirt and red tie is sitting at a desk, holding a pen and writing on a piece of paper.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V003_S0039",
+            "start_frame": 5821,
+            "end_frame": 6193,
+            "start_ts": 232.84,
+            "end_ts": 247.72,
+            "duration": 14.88,
+            "keyframes": [
+                {
+                    "frame_idx": 6007,
+                    "timestamp": 240.28,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V003/L30_V003_S0039_F006007.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Mình bắt đầu suy nghĩ về những lộ trình sắp tới của mình như thế nào Thì thực sự lúc đó mình khá là lo lắng vì các học sơ để apply học bộ ASEAN này Phải hoàn thành xuất sắc cho trường học Đồng thời là phải thành thạo tiếng Anh với IELTS 7.0 Và tham gia tích cực các hoạt động ngoại khóa",
+                "ocr_text": "tuôi trẻmv CÂY TỪ VỰNG C ay lu vứng in con mêt day hỏi au VỤNG bay",
+                "vlm_caption": {
+                    "detailed_description": "A young man in a suit stands in front of a colorful backdrop featuring illustrations of trees with apples, likely in an educational or promotional setting.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V003_S0040",
+            "start_frame": 6194,
+            "end_frame": 6242,
+            "start_ts": 247.76,
+            "end_ts": 249.68,
+            "duration": 1.92,
+            "keyframes": [
+                {
+                    "frame_idx": 6218,
+                    "timestamp": 248.72,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V003/L30_V003_S0040_F006218.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "khó khăn lớn nhất đối với mình",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A group of people, including a young boy and an adult, are gathered around a table with a transparent container filled with a plant and a small green object.",
+                    "objects_and_counts": [
+                        "7 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V003_S0041",
+            "start_frame": 6243,
+            "end_frame": 6304,
+            "start_ts": 249.72,
+            "end_ts": 252.16,
+            "duration": 2.44,
+            "keyframes": [
+                {
+                    "frame_idx": 6273,
+                    "timestamp": 250.92,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V003/L30_V003_S0041_F006273.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "thì mình có lẽ là việc mà phải cân bằng giữa việc học",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A group of people, including a woman in a beige jacket and a man in a white shirt, are gathered around a transparent machine with a blue handle, possibly at an event or exhibition.",
+                    "objects_and_counts": [
+                        "8 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V003_S0042",
+            "start_frame": 6305,
+            "end_frame": 6365,
+            "start_ts": 252.2,
+            "end_ts": 254.6,
+            "duration": 2.4,
+            "keyframes": [
+                {
+                    "frame_idx": 6335,
+                    "timestamp": 253.4,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V003/L30_V003_S0042_F006335.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "không chỉ là việc tham gia hoạt động ngoại khóa",
+                "ocr_text": "bms LỄ KHAI GIẢNG NĂM HỌC 2023 - 2024 A BRIGHT FUTURE BE \"KHỞI ĐẦU MỘT TƯƠNG LAI Hà Nội, ngây 5 tháng 9 năn bms A member of lgc =:",
+                "vlm_caption": {
+                    "detailed_description": "A young man stands at a podium in front of a large screen displaying the \"Khai giảng\" (Opening Ceremony) for the 2023-2024 academic year, with the theme \"A Bright Future Begins.\"",
+                    "objects_and_counts": [
+                        "2 person, 1 tv"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V003_S0043",
+            "start_frame": 6366,
+            "end_frame": 6404,
+            "start_ts": 254.64,
+            "end_ts": 256.16,
+            "duration": 1.52,
+            "keyframes": [
+                {
+                    "frame_idx": 6385,
+                    "timestamp": 255.4,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V003/L30_V003_S0043_F006385.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "bms LỄ KHAI GIẢNG NĂM HỌC 2023 - 2024 • BRIGHT FUTURE BEGIS ĐẦU MỘ Hà Nội, ng",
+                "vlm_caption": {
+                    "detailed_description": "A group of students and a teacher stand on a stage in front of a large screen displaying the BMS logo and the words \"Lễ Khai Giảng Năm Học 2023 - 2024\" and \"A Bright",
+                    "objects_and_counts": [
+                        "4 person, 2 tie"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V003_S0044",
+            "start_frame": 6405,
+            "end_frame": 6442,
+            "start_ts": 256.2,
+            "end_ts": 257.68,
+            "duration": 1.48,
+            "keyframes": [
+                {
+                    "frame_idx": 6423,
+                    "timestamp": 256.92,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V003/L30_V003_S0044_F006423.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hỏi lấy thời gian Và hơn nữa",
+                "ocr_text": "tuoi treTv NĂM HỌC 2023 - 2024 A RIGHT FUTURE BEGIŞ \"KHỞ) <U MỘL TỢ HA TALTƯƠI NG\" 202 MAI SCHOOL",
+                "vlm_caption": {
+                    "detailed_description": "Three students stand in front of a large screen displaying a map of Vietnam, with one holding a microphone and speaking, while the other two listen attentively.",
+                    "objects_and_counts": [
+                        "4 person, 1 tie"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V003_S0045",
+            "start_frame": 6443,
+            "end_frame": 6489,
+            "start_ts": 257.72,
+            "end_ts": 259.56,
+            "duration": 1.84,
+            "keyframes": [
+                {
+                    "frame_idx": 6466,
+                    "timestamp": 258.64,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V003/L30_V003_S0045_F006466.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "và giúp mình biến áp được thể nỗ lực",
+                "ocr_text": "LE KHAI GIAN Goitrerv NĂM HỌC 2023 - 2024 A B SHT FUTURE BEGINS ỚI ĐÃ S LAI T MỘT TƯ SÁN ° năm gày",
+                "vlm_caption": {
+                    "detailed_description": "A group of students in school uniforms stand in a line, holding certificates, with a large screen displaying \"Lễ Khai Giảng Năm Học 2023 - 2024\" and \"A Bright Future Begins\" in the",
+                    "objects_and_counts": [
+                        "9 person, 2 tie"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V003_S0046",
+            "start_frame": 6490,
+            "end_frame": 6549,
+            "start_ts": 259.6,
+            "end_ts": 261.96,
+            "duration": 2.36,
+            "keyframes": [
+                {
+                    "frame_idx": 6519,
+                    "timestamp": 260.76,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V003/L30_V003_S0046_F006519.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "ඔබේ පොත් තෙමින්න මින්න මින්න මින්න මින්න",
+                "ocr_text": "tuoi trẻv CẦY TỪ VỰNGC ay lụ vung uyên con mào day hói cu VỤNG bay",
+                "vlm_caption": {
+                    "detailed_description": "A young man in a suit and glasses stands in front of a colorful backdrop, speaking into a microphone, with a poster featuring illustrations of trees with apples in the background.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V003_S0047",
+            "start_frame": 6550,
+            "end_frame": 6688,
+            "start_ts": 262.0,
+            "end_ts": 267.52,
+            "duration": 5.52,
+            "keyframes": [
+                {
+                    "frame_idx": 6619,
+                    "timestamp": 264.76,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V003/L30_V003_S0047_F006619.jpg"
+                },
+                {
+                    "frame_idx": 6584,
+                    "timestamp": 263.36,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V003/L30_V003_S0047_F006584.jpg"
+                },
+                {
+                    "frame_idx": 6653,
+                    "timestamp": 266.12,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V003/L30_V003_S0047_F006653.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Có những khi mà con cảm thấy rằng là nó cũng là quá khó Và con có thể là ngoài nghi về cái kết quả",
+                "ocr_text": "tuoi trẻTv 2021 ành đạo STEAM FAIR 202 P DI LEADERS® thouve shine Du ần Am nhạc cộng đồng | tuôi trẻTv 2021 đ ạ o là n N g EAM FAIR 2021 AY - LEADERSHIP uve shine Make 4 Du án nhạc ding | tuoi trẻTv 1 2021 Ng ày AM FAIR 2( AY - ve shine Make Du án nhac ding",
+                "vlm_caption": {
+                    "detailed_description": "Two young boys stand on a stage, holding tablets and speaking into microphones, with a backdrop reading \"Leadership Day - Dream Fair 2021\" and a sign in Vietnamese.",
+                    "objects_and_counts": [
+                        "2 person, 2 laptop, 5 potted plant | 2 person, 7 potted plant, 2 chair, 3 laptop | 2 person, 6 potted plant, 3 laptop"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V003_S0048",
+            "start_frame": 6689,
+            "end_frame": 6764,
+            "start_ts": 267.56,
+            "end_ts": 270.56,
+            "duration": 3.0,
+            "keyframes": [
+                {
+                    "frame_idx": 6726,
+                    "timestamp": 269.04,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V003/L30_V003_S0048_F006726.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "mà con sẽ đạt được thì mình cũng sẽ phải nói cho con hiểu",
+                "ocr_text": "tuoi trẻv LÁCH GIẢO KHOA",
+                "vlm_caption": {
+                    "detailed_description": "A woman in a polka dot shirt stands in an office setting with a bookshelf and a yellow door in the background.",
+                    "objects_and_counts": [
+                        "1 person, 1 chair, 4 book, 1 potted plant"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V003_S0049",
+            "start_frame": 6765,
+            "end_frame": 6819,
+            "start_ts": 270.6,
+            "end_ts": 272.76,
+            "duration": 2.16,
+            "keyframes": [
+                {
+                    "frame_idx": 6792,
+                    "timestamp": 271.68,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V003/L30_V003_S0049_F006792.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Nếu như con muốn bỏ giờ giữa chừng",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A young boy in a white shirt with a red collar stands in a classroom, looking to his left with his arms crossed.",
+                    "objects_and_counts": [
+                        "5 person, 1 tie"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V003_S0050",
+            "start_frame": 6820,
+            "end_frame": 6854,
+            "start_ts": 272.8,
+            "end_ts": 274.16,
+            "duration": 1.36,
+            "keyframes": [
+                {
+                    "frame_idx": 6837,
+                    "timestamp": 273.48,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V003/L30_V003_S0050_F006837.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "con hãy",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A young boy in a classroom raises his hand, wearing a white shirt and red tie, while other students and colorful decorations are visible in the background.",
+                    "objects_and_counts": [
+                        "6 person, 1 tie"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V003_S0051",
+            "start_frame": 6855,
+            "end_frame": 6884,
+            "start_ts": 274.2,
+            "end_ts": 275.36,
+            "duration": 1.16,
+            "keyframes": [
+                {
+                    "frame_idx": 6869,
+                    "timestamp": 274.76,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V003/L30_V003_S0051_F006869.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Nhớ lại cả",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A young boy in a school uniform stands in a classroom, looking to his left.",
+                    "objects_and_counts": [
+                        "3 person, 1 tie"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V003_S0052",
+            "start_frame": 6885,
+            "end_frame": 6939,
+            "start_ts": 275.4,
+            "end_ts": 277.56,
+            "duration": 2.16,
+            "keyframes": [
+                {
+                    "frame_idx": 6912,
+                    "timestamp": 276.48,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V003/L30_V003_S0052_F006912.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "cái lý do mà mình bắt đầu và con",
+                "ocr_text": "We ared",
+                "vlm_caption": {
+                    "detailed_description": "A group of children in school uniforms are gathered around a table with food, some holding red ribbons.",
+                    "objects_and_counts": [
+                        "10 person, 3 tie"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V003_S0053",
+            "start_frame": 6940,
+            "end_frame": 6996,
+            "start_ts": 277.6,
+            "end_ts": 279.84,
+            "duration": 2.24,
+            "keyframes": [
+                {
+                    "frame_idx": 6968,
+                    "timestamp": 278.72,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V003/L30_V003_S0053_F006968.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Nhìn lại những cái mà con đã cố gắng",
+                "ocr_text": "AI BẢN HỒNG CÚMỈ",
+                "vlm_caption": {
+                    "detailed_description": "The image shows a miniature model of a landscape with a Vietnamese flag, a tree, and various signs, including one labeled \"Bản phòng cúm\" (Cough Prevention Area)."
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V003_S0054",
+            "start_frame": 6997,
+            "end_frame": 7025,
+            "start_ts": 279.88,
+            "end_ts": 281.0,
+            "duration": 1.12,
+            "keyframes": [
+                {
+                    "frame_idx": 7011,
+                    "timestamp": 280.44,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V003/L30_V003_S0054_F007011.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "thì con sẽ thấy được rằng là",
+                "ocr_text": "AI ĐÔI AI",
+                "vlm_caption": {
+                    "detailed_description": "A green spherical object labeled \"ĐÔI A1\" is floating above a green, pixelated landscape."
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V003_S0055",
+            "start_frame": 7026,
+            "end_frame": 7117,
+            "start_ts": 281.04,
+            "end_ts": 284.68,
+            "duration": 3.64,
+            "keyframes": [
+                {
+                    "frame_idx": 7071,
+                    "timestamp": 282.84,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V003/L30_V003_S0055_F007071.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "không phải tất cả mọi cố gắng của mình nó đều thành công. Thế nhưng mà mình nên cố gắng,",
+                "ocr_text": "are we aret We are,",
+                "vlm_caption": {
+                    "detailed_description": "A group of children in school uniforms are gathered around a table with various flags and decorations, with one child holding a blue card.",
+                    "objects_and_counts": [
+                        "11 person, 2 tie"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V003_S0056",
+            "start_frame": 7118,
+            "end_frame": 7214,
+            "start_ts": 284.72,
+            "end_ts": 288.56,
+            "duration": 3.84,
+            "keyframes": [
+                {
+                    "frame_idx": 7166,
+                    "timestamp": 286.64,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V003/L30_V003_S0056_F007166.jpg"
+                },
+                {
+                    "frame_idx": 7142,
+                    "timestamp": 285.68,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V003/L30_V003_S0056_F007142.jpg"
+                },
+                {
+                    "frame_idx": 7190,
+                    "timestamp": 287.6,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V003/L30_V003_S0056_F007190.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "và cố gắng đến cùng bởi vì là dù cho có thất bại thì lúc đó mình cũng sẽ cảm thấy không",
+                "ocr_text": "Tiêu diệt T và bắt sông 16.200 tên | AI diệt Tiêu và bắt sông, Băn rơi 16.200 tên bau 62 máy | Tiêu diệt Thu 64 0tó và toàn bộ và bắt sống vũ khí 16.200 tên",
+                "vlm_caption": {
+                    "detailed_description": "Two blue star-shaped signs with Vietnamese text are held by a person wearing a white shirt.",
+                    "objects_and_counts": [
+                        "2 person | 1 person | 4 person, 1 umbrella"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V003_S0057",
+            "start_frame": 7215,
+            "end_frame": 7289,
+            "start_ts": 288.6,
+            "end_ts": 291.56,
+            "duration": 2.96,
+            "keyframes": [
+                {
+                    "frame_idx": 7252,
+                    "timestamp": 290.08,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V003/L30_V003_S0057_F007252.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "không phải hối tiếc được một cái gì cả",
+                "ocr_text": "AI",
+                "vlm_caption": {
+                    "detailed_description": "A group of children in a classroom are performing a synchronized hand-clapping routine, with some wearing white shirts and others in white with colorful designs.",
+                    "objects_and_counts": [
+                        "10 person, 2 tie"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V003_S0058",
+            "start_frame": 7290,
+            "end_frame": 7472,
+            "start_ts": 291.6,
+            "end_ts": 298.88,
+            "duration": 7.28,
+            "keyframes": [
+                {
+                    "frame_idx": 7381,
+                    "timestamp": 295.24,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V003/L30_V003_S0058_F007381.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Cô Hà cũng học tập rất nhiều điều với con về sự chủ động, sự quyết tâm, sự bền bình, sự đam mê trong học tập.",
+                "ocr_text": "BẢO CÔ NGUYỄN THỊ THANH HÀ Giáo viên dạy Toán, Lớp 9T",
+                "vlm_caption": {
+                    "detailed_description": "A woman in a brown blazer is speaking into a microphone while a young man in a suit listens attentively in a classroom setting.",
+                    "objects_and_counts": [
+                        "2 person, 1 potted plant"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V003_S0059",
+            "start_frame": 7473,
+            "end_frame": 7681,
+            "start_ts": 298.92,
+            "end_ts": 307.24,
+            "duration": 8.32,
+            "keyframes": [
+                {
+                    "frame_idx": 7577,
+                    "timestamp": 303.08,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V003/L30_V003_S0059_F007577.jpg"
+                },
+                {
+                    "frame_idx": 7525,
+                    "timestamp": 301.0,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V003/L30_V003_S0059_F007525.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Thành công của bất cứ ai chắc chắn đều sẽ không chỉ đến từ mỗi cá nhân người ấy Mình phải nói là cực kỳ biết ơn những cái sự hỗ trợ của mọi người như vậy",
+                "ocr_text": "anachd BẢNG V ÀNG GHẢÁN HÍ CỈB IẤ N NƯỢỢG G | tuôi trẻv ÂY TỪ VỰNG uyện con nào day ha đu bray",
+                "vlm_caption": {
+                    "detailed_description": "A young man in a suit stands in front of a colorful display board with illustrations of trees and text in Vietnamese.",
+                    "objects_and_counts": [
+                        "1 person | 6 person, 3 book"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V003_S0060",
+            "start_frame": 7682,
+            "end_frame": 7796,
+            "start_ts": 307.28,
+            "end_ts": 311.84,
+            "duration": 4.56,
+            "keyframes": [
+                {
+                    "frame_idx": 7739,
+                    "timestamp": 309.56,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V003/L30_V003_S0060_F007739.jpg"
+                },
+                {
+                    "frame_idx": 7710,
+                    "timestamp": 308.4,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V003/L30_V003_S0060_F007710.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "chúng ta phải biết ơn cả những nghiệt cảnh, cả những gấp gác và cả những thất bại của bản thân.",
+                "ocr_text": "bms DANH HIỆU HỌC SINH TIÊU BIỂU THỦ ĐỒ NĂM HỌC 2023 - 2024 > Ba năm liên tiếp đạt Danh hiệu Học sinh xuất sắc. - Danh hiệu Bỗng mai vóng •- Đạt 05 Huy chương Vòng, 07 Huy chương Bạc, 04 Huy chương Đồng và các giải Khuyến khích trong các kà thì Quốc tố nhữ ki thi FISO, ASMO, SASMO, TIMO, TOFAS, IKMC. SEI : các cuộc thi Cấp Trường và luôn đạt thành tích P Tha ấn ti ực vào các hoạt động Đoàn Đội và sự òng. Vai trò lành đạo Liên đội trưởng. Ba đọc BMS. cực vòa các hoạt động từ thiện trong các aming, dự ăn nấu ăn từ thiện cho Bệnh viện K",
+                "vlm_caption": {
+                    "detailed_description": "Two individuals are standing in front of a large screen displaying a blue background with text and graphics.",
+                    "objects_and_counts": [
+                        "3 person, 1 tie"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V003_S0061",
+            "start_frame": 7797,
+            "end_frame": 7893,
+            "start_ts": 311.88,
+            "end_ts": 315.72,
+            "duration": 3.84,
+            "keyframes": [
+                {
+                    "frame_idx": 7845,
+                    "timestamp": 313.8,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V003/L30_V003_S0061_F007845.jpg"
+                },
+                {
+                    "frame_idx": 7821,
+                    "timestamp": 312.84,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V003/L30_V003_S0061_F007821.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "sẽ học được nhiều hơn từ thất bại hơn là từ thành công của chúng mình.",
+                "ocr_text": "mid",
+                "vlm_caption": {
+                    "detailed_description": "A person sits at a table with colorful objects resembling medals and papers in front of them.",
+                    "objects_and_counts": [
+                        "2 chair, 1 person, 1 dining table | 1 person, 2 chair, 1 dining table"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V003_S0062",
+            "start_frame": 7894,
+            "end_frame": 7960,
+            "start_ts": 315.76,
+            "end_ts": 318.4,
+            "duration": 2.64,
+            "keyframes": [
+                {
+                    "frame_idx": 7927,
+                    "timestamp": 317.08,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V003/L30_V003_S0062_F007927.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Đầu nhất đó chính là vượt qua được chính bản thân mình của ngày hôm qua",
+                "ocr_text": "tuoi trev: DECT LOVE RESPEC Tác giả: Lương An Nhiên",
+                "vlm_caption": {
+                    "detailed_description": "A young man in a suit speaks into a microphone while seated at a table in a classroom setting, with other individuals and educational materials visible in the background.",
+                    "objects_and_counts": [
+                        "4 person, 7 chair, 2 cup, 2 dining table, 1 vase, 1 potted plant"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V003_S0063",
+            "start_frame": 7961,
+            "end_frame": 8080,
+            "start_ts": 318.44,
+            "end_ts": 323.2,
+            "duration": 4.76,
+            "keyframes": [
+                {
+                    "frame_idx": 8020,
+                    "timestamp": 320.8,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V003/L30_V003_S0063_F008020.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Điều quan trọng nhất vẫn chính là có niềm tin và sự quyết tâm bền bỉ để theo bước chân cơ đường mình đã chọn.",
+                "ocr_text": "tuoi trẻmv CÂY TỪ VỰNG C ay tụ vưng tin con mẽo day hã au VỤNG bay Cây tư vý Tác giả: Lương An Nhiên",
+                "vlm_caption": {
+                    "detailed_description": "A young man in a suit and glasses stands in front of a colorful backdrop with educational posters, speaking into a microphone.",
+                    "objects_and_counts": [
+                        "1 person, 1 chair"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V003_S0064",
+            "start_frame": 8081,
+            "end_frame": 8091,
+            "start_ts": 323.24,
+            "end_ts": 323.64,
+            "duration": 0.4,
+            "keyframes": [
+                {
+                    "frame_idx": 8086,
+                    "timestamp": 323.44,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V003/L30_V003_S0064_F008086.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A person in a suit stands in front of a colorful poster with trees and text, in a dimly lit indoor setting.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        }
+    ]
+}

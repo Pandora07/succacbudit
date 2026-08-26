@@ -1,0 +1,895 @@
+{
+    "video_id": "L30_V086",
+    "fps": 25.0,
+    "total_shots": 36,
+    "total_keyframes": 39,
+    "shots": [
+        {
+            "shot_id": "L30_V086_S0001",
+            "start_frame": 0,
+            "end_frame": 74,
+            "start_ts": 0.0,
+            "end_ts": 2.96,
+            "duration": 2.96,
+            "keyframes": [],
+            "extracted_data": {
+                "transcript": "",
+                "ocr_text": ""
+            }
+        },
+        {
+            "shot_id": "L30_V086_S0002",
+            "start_frame": 75,
+            "end_frame": 289,
+            "start_ts": 3.0,
+            "end_ts": 11.56,
+            "duration": 8.56,
+            "keyframes": [
+                {
+                    "frame_idx": 182,
+                    "timestamp": 7.28,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V086/L30_V086_S0002_F000182.jpg"
+                },
+                {
+                    "frame_idx": 128,
+                    "timestamp": 5.12,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V086/L30_V086_S0002_F000128.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "",
+                "ocr_text": "Clip bạn đọc dự thi cuộc thi: Lan tỏa năng lượng tích cực 2024 | Herbalife'",
+                "vlm_caption": {
+                    "detailed_description": "The image features the Herbalife logo, which consists of the brand name in green letters with a leaf graphic to the right."
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V086_S0003",
+            "start_frame": 290,
+            "end_frame": 364,
+            "start_ts": 11.6,
+            "end_ts": 14.56,
+            "duration": 2.96,
+            "keyframes": [
+                {
+                    "frame_idx": 327,
+                    "timestamp": 13.08,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V086/L30_V086_S0003_F000327.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Từ giữa năm 2022",
+                "ocr_text": "Herbalife",
+                "vlm_caption": {
+                    "detailed_description": "A chef in a white uniform is focused on preparing food in a professional kitchen with stainless steel appliances and a decorative wooden structure in the background.",
+                    "objects_and_counts": [
+                        "1 person, 1 chair, 1 microwave, 1 oven"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V086_S0004",
+            "start_frame": 365,
+            "end_frame": 456,
+            "start_ts": 14.6,
+            "end_ts": 18.24,
+            "duration": 3.64,
+            "keyframes": [
+                {
+                    "frame_idx": 410,
+                    "timestamp": 16.4,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V086/L30_V086_S0004_F000410.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Thiên Ân bắt đầu biết đến vẽ tranh trên chất liệu bánh fondant.",
+                "ocr_text": "tuoi trẻv Cuộc thi Lan tỏa năng lượng tích cực 2024: Herbalife Sáng tạo để cuộc sống thêm phần thú vị WORLD ASSOCIATION OF CHEPS",
+                "vlm_caption": {
+                    "detailed_description": "A person in a white shirt is looking down, with a blurred background featuring a person wearing a cap and a sign with text in Vietnamese.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V086_S0005",
+            "start_frame": 457,
+            "end_frame": 558,
+            "start_ts": 18.28,
+            "end_ts": 22.32,
+            "duration": 4.04,
+            "keyframes": [
+                {
+                    "frame_idx": 507,
+                    "timestamp": 20.28,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V086/L30_V086_S0005_F000507.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Anh dành khá nhiều thời gian để tìm hiểu và theo đuổi bộ môn này",
+                "ocr_text": "Cuộc thi Lan tỏa năng lượng tích cực 2024: Herbalife' Sáng tạo để cuộc sống thêm phần thú vị",
+                "vlm_caption": {
+                    "detailed_description": "A person wearing black gloves is drawing on a piece of paper with a black pen, while a smartphone displaying an animated character is placed nearby.",
+                    "objects_and_counts": [
+                        "3 person, 1 cell phone"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V086_S0006",
+            "start_frame": 559,
+            "end_frame": 654,
+            "start_ts": 22.36,
+            "end_ts": 26.16,
+            "duration": 3.8,
+            "keyframes": [
+                {
+                    "frame_idx": 606,
+                    "timestamp": 24.24,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V086/L30_V086_S0006_F000606.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Mất 3 giờ đồng hồ để tạo ra một chiếc bánh vẽ hình",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A gloved hand uses a tool to etch a design into a piece of clay on a green cutting mat."
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V086_S0007",
+            "start_frame": 655,
+            "end_frame": 734,
+            "start_ts": 26.2,
+            "end_ts": 29.36,
+            "duration": 3.16,
+            "keyframes": [
+                {
+                    "frame_idx": 694,
+                    "timestamp": 27.76,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V086/L30_V086_S0007_F000694.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Đối với những tác phẩm cần độ chi tiết, độ tả thực cao,",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A person wearing black gloves is working on a circular object on a green cutting mat, with a smartphone displaying an image of a character nearby.",
+                    "objects_and_counts": [
+                        "1 person, 1 dining table"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V086_S0008",
+            "start_frame": 735,
+            "end_frame": 806,
+            "start_ts": 29.4,
+            "end_ts": 32.24,
+            "duration": 2.84,
+            "keyframes": [
+                {
+                    "frame_idx": 770,
+                    "timestamp": 30.8,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V086/L30_V086_S0008_F000770.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Ân có thể dành cả tháng trời để tạo ra một sống.",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A person in a white chef's uniform is carefully arranging succulents on a decorative pot in a kitchen setting.",
+                    "objects_and_counts": [
+                        "1 person, 1 potted plant"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V086_S0009",
+            "start_frame": 807,
+            "end_frame": 884,
+            "start_ts": 32.28,
+            "end_ts": 35.36,
+            "duration": 3.08,
+            "keyframes": [
+                {
+                    "frame_idx": 845,
+                    "timestamp": 33.8,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V086/L30_V086_S0009_F000845.jpg"
+                },
+                {
+                    "frame_idx": 864,
+                    "timestamp": 34.56,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V086/L30_V086_S0009_F000864.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Phẩm ưng ý",
+                "ocr_text": "tuoi trẻv",
+                "vlm_caption": {
+                    "detailed_description": "A chef wearing a white uniform and black gloves is carefully applying a dark liquid to the edge of a stained glass window, which features vibrant floral and butterfly designs.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V086_S0010",
+            "start_frame": 885,
+            "end_frame": 1527,
+            "start_ts": 35.4,
+            "end_ts": 61.08,
+            "duration": 25.68,
+            "keyframes": [
+                {
+                    "frame_idx": 1206,
+                    "timestamp": 48.24,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V086/L30_V086_S0010_F001206.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Đối với một tác phẩm nghệ thuật thì mình sẽ mất khá nhiều thời gian trong việc lên ý tưởng, vẽ một bảng vẽ phát thảo, ước lượng canh chừng những chế thức của từng chi tiết trên bánh. Và mình bắt đầu tiến hành phủ bánh, vẽ hình, tạo hình và điểm thêm những chi tiết để chiếc bánh được hoàn thiện tốt nhất.",
+                "ocr_text": "tuổi trẻTv 1 8,5 Nguon Huu Thien An Thanh PASTEY",
+                "vlm_caption": {
+                    "detailed_description": "A person in a white chef's uniform is seated at a table, gesturing with their hands while speaking.",
+                    "objects_and_counts": [
+                        "1 person, 1 chair"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V086_S0011",
+            "start_frame": 1528,
+            "end_frame": 1593,
+            "start_ts": 61.12,
+            "end_ts": 63.72,
+            "duration": 2.6,
+            "keyframes": [
+                {
+                    "frame_idx": 1560,
+                    "timestamp": 62.4,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V086/L30_V086_S0011_F001560.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Kéo mềm phan định và mềm",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A person wearing a black glove holds a intricately designed, colorful, stained-glass-like object featuring butterflies and flowers.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V086_S0012",
+            "start_frame": 1594,
+            "end_frame": 1653,
+            "start_ts": 63.76,
+            "end_ts": 66.12,
+            "duration": 2.36,
+            "keyframes": [
+                {
+                    "frame_idx": 1623,
+                    "timestamp": 64.92,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V086/L30_V086_S0012_F001623.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Màu thực phẩm là hai nguyên liệu không thể thiếu.",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "The image features a stained glass window with vibrant colors and intricate designs, including birds, butterflies, and floral patterns."
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V086_S0013",
+            "start_frame": 1654,
+            "end_frame": 1901,
+            "start_ts": 66.16,
+            "end_ts": 76.04,
+            "duration": 9.88,
+            "keyframes": [
+                {
+                    "frame_idx": 1777,
+                    "timestamp": 71.08,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V086/L30_V086_S0013_F001777.jpg"
+                },
+                {
+                    "frame_idx": 1715,
+                    "timestamp": 68.6,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V086/L30_V086_S0013_F001715.jpg"
+                },
+                {
+                    "frame_idx": 1839,
+                    "timestamp": 73.56,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V086/L30_V086_S0013_F001839.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Khi Ân tạo ra các tác phẩm, thời gian đầu Ân phải tự tìm hiểu tất cả các bước từ trộn bột đến đánh kem. Anh chàng cũng tự học cách để vẽ màu lên nền kẹp.",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "The image shows a close-up of intricately carved wooden panels featuring detailed animal figures."
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V086_S0014",
+            "start_frame": 1902,
+            "end_frame": 1982,
+            "start_ts": 76.08,
+            "end_ts": 79.28,
+            "duration": 3.2,
+            "keyframes": [
+                {
+                    "frame_idx": 1942,
+                    "timestamp": 77.68,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V086/L30_V086_S0014_F001942.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "tuoi trẻTv Nguyen Huu Thien An Thanh",
+                "vlm_caption": {
+                    "detailed_description": "A person wearing a white shirt with a logo is painting a ceramic object with a brush, while wearing black gloves, in a workshop setting with various tools and equipment visible.",
+                    "objects_and_counts": [
+                        "1 person, 1 scissors, 1 book"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V086_S0015",
+            "start_frame": 1983,
+            "end_frame": 2053,
+            "start_ts": 79.32,
+            "end_ts": 82.12,
+            "duration": 2.8,
+            "keyframes": [
+                {
+                    "frame_idx": 2018,
+                    "timestamp": 80.72,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V086/L30_V086_S0015_F002018.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "và chân thực đến độ nếu không được giới thiệu lại.",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A gloved hand uses a tool to draw a design on a piece of dough placed on a green cutting mat.",
+                    "objects_and_counts": [
+                        "1 dining table, 1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V086_S0016",
+            "start_frame": 2054,
+            "end_frame": 2104,
+            "start_ts": 82.16,
+            "end_ts": 84.16,
+            "duration": 2.0,
+            "keyframes": [
+                {
+                    "frame_idx": 2079,
+                    "timestamp": 83.16,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V086/L30_V086_S0016_F002079.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Cảm ơn các bạn đã theo dõi và hẹn gặp lại.",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A cartoon boy in overalls and a cap is sitting in water, holding a fishing rod."
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V086_S0017",
+            "start_frame": 2105,
+            "end_frame": 2162,
+            "start_ts": 84.2,
+            "end_ts": 86.48,
+            "duration": 2.28,
+            "keyframes": [
+                {
+                    "frame_idx": 2133,
+                    "timestamp": 85.32,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V086/L30_V086_S0017_F002133.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Đó là mô hình.",
+                "ocr_text": "tuổi trẻv WORLD OF CHEPS SOCIETIES Ngạn Huu Thien An PASTRY",
+                "vlm_caption": {
+                    "detailed_description": "A person wearing a white shirt with patches is painting a design on a piece of paper with a brush.",
+                    "objects_and_counts": [
+                        "2 person, 2 chair, 1 dining table"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V086_S0018",
+            "start_frame": 2163,
+            "end_frame": 2350,
+            "start_ts": 86.52,
+            "end_ts": 94.0,
+            "duration": 7.48,
+            "keyframes": [
+                {
+                    "frame_idx": 2256,
+                    "timestamp": 90.24,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V086/L30_V086_S0018_F002256.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Mình phải tự tìm tòi và nghiên cứu ra được cách vẽ phù hợp, phối hợp giữa nền kẹo mềm phân đình và màu thực phẩm.",
+                "ocr_text": "tuơi trẻTv Nguyen Huu Thien An Thanh PASTIY",
+                "vlm_caption": {
+                    "detailed_description": "A person in a white chef's coat is sitting at a table with a colorful background featuring a stained glass window and various kitchen items.",
+                    "objects_and_counts": [
+                        "1 person, 1 chair"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V086_S0019",
+            "start_frame": 2351,
+            "end_frame": 2454,
+            "start_ts": 94.04,
+            "end_ts": 98.16,
+            "duration": 4.12,
+            "keyframes": [
+                {
+                    "frame_idx": 2402,
+                    "timestamp": 96.08,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V086/L30_V086_S0019_F002402.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "thì mình quyết định là cải tiến công thức kẹo mềm",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A miniature stained glass window features two birds perched on a branch, set against a backdrop of vibrant colors and intricate patterns.",
+                    "objects_and_counts": [
+                        "1 person, 1 vase"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V086_S0020",
+            "start_frame": 2455,
+            "end_frame": 2614,
+            "start_ts": 98.2,
+            "end_ts": 104.56,
+            "duration": 6.36,
+            "keyframes": [
+                {
+                    "frame_idx": 2534,
+                    "timestamp": 101.36,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V086/L30_V086_S0020_F002534.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Để có đường và màu thực phẩm có độ thấm hút nhất định Thì bây giờ thì",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "The image depicts a detailed wooden carving featuring intricate floral and leaf patterns, surrounded by decorative elements.",
+                    "objects_and_counts": [
+                        "1 dining table"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V086_S0021",
+            "start_frame": 2615,
+            "end_frame": 2774,
+            "start_ts": 104.6,
+            "end_ts": 110.96,
+            "duration": 6.36,
+            "keyframes": [
+                {
+                    "frame_idx": 2694,
+                    "timestamp": 107.76,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V086/L30_V086_S0021_F002694.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "màu và đường có độ thấm hút nhất định thì nó sẽ thể hiện rõ nét được cái hồn của tác phẩm",
+                "ocr_text": "tuổi trẻTv Nguyen Buu Thien is Thanh PASTEY",
+                "vlm_caption": {
+                    "detailed_description": "A person in a white chef's coat is speaking and gesturing with their hands in a kitchen setting.",
+                    "objects_and_counts": [
+                        "1 person, 1 chair"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V086_S0022",
+            "start_frame": 2775,
+            "end_frame": 2851,
+            "start_ts": 111.0,
+            "end_ts": 114.04,
+            "duration": 3.04,
+            "keyframes": [
+                {
+                    "frame_idx": 2813,
+                    "timestamp": 112.52,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V086/L30_V086_S0022_F002813.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Năm 2023, Thiên Ân sẽ được tham gia một cuộc chiến đấu đại diện.",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A person wearing a white shirt with a red flag and blue logo is using chopsticks to eat from a carved wooden box adorned with intricate bird and plant designs.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V086_S0023",
+            "start_frame": 2852,
+            "end_frame": 2915,
+            "start_ts": 114.08,
+            "end_ts": 116.6,
+            "duration": 2.52,
+            "keyframes": [
+                {
+                    "frame_idx": 2883,
+                    "timestamp": 115.32,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V086/L30_V086_S0023_F002883.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "đem những sản phẩm của mình ra trường quốc tế.",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "The image features a collection of succulent plants with pink and green hues arranged on a moss-covered rock, with a blurred background and a red object partially visible on the left side."
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V086_S0024",
+            "start_frame": 2916,
+            "end_frame": 3040,
+            "start_ts": 116.64,
+            "end_ts": 121.6,
+            "duration": 4.96,
+            "keyframes": [
+                {
+                    "frame_idx": 2978,
+                    "timestamp": 119.12,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V086/L30_V086_S0024_F002978.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Tác phẩm đầu tay, cá chép hóa rộng xuất sắc đạt huy chân vàng tại cuộc thi E-Sports.",
+                "ocr_text": "tuổi trẻTv SIDE VIETNAM TEAM CARP JUMPING THE DRACON GATE T'OR",
+                "vlm_caption": {
+                    "detailed_description": "Two young chefs in white hats and aprons are posing with a decorated cake featuring a dragon and a plate of food, with a Vietnamese flag in the background.",
+                    "objects_and_counts": [
+                        "3 person, 1 cake, 1 dining table"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V086_S0025",
+            "start_frame": 3041,
+            "end_frame": 3165,
+            "start_ts": 121.64,
+            "end_ts": 126.6,
+            "duration": 4.96,
+            "keyframes": [
+                {
+                    "frame_idx": 3103,
+                    "timestamp": 124.12,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V086/L30_V086_S0025_F003103.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Asian Pastry Young Chef. Tại cuộc thi Battle of the Chefs 2024,",
+                "ocr_text": "ON CATE SEE SHENZHER ASIAN PASTRY TOUNE! SIDE",
+                "vlm_caption": {
+                    "detailed_description": "Two individuals in chef attire are working on a detailed dragon sculpture, with one using a brush to add details.",
+                    "objects_and_counts": [
+                        "2 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V086_S0026",
+            "start_frame": 3166,
+            "end_frame": 3290,
+            "start_ts": 126.64,
+            "end_ts": 131.6,
+            "duration": 4.96,
+            "keyframes": [
+                {
+                    "frame_idx": 3228,
+                    "timestamp": 129.12,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V086/L30_V086_S0026_F003228.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Tổ chức tại Malaysia tác phẩm Bánh cưới hòa hợp đặc huy chân vàng và tác phẩm bánh cưới hòa hợp đặc huy chân vàng.",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A young boy stands behind a stone sculpture of an elderly woman, holding a knife, with various food items arranged in front of her.",
+                    "objects_and_counts": [
+                        "4 person, 3 bowl"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V086_S0027",
+            "start_frame": 3291,
+            "end_frame": 3399,
+            "start_ts": 131.64,
+            "end_ts": 135.96,
+            "duration": 4.32,
+            "keyframes": [
+                {
+                    "frame_idx": 3345,
+                    "timestamp": 133.8,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V086/L30_V086_S0027_F003345.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "hustle and bustle of life, I suddenly find myself reminiscing me. How long has It been since you last returned home? How ng has it been since you gathered with your family? Can you remember? th seemingly simple and unpretentious dishes, yet filled with so ecial emotional value. Do you know why? Because the dishes in nory carry a very familiar flavor, a flavor that only my mother k. My mother always adds a special \"spice\" to her cooking - it's Incredibly dellelous. And that's also the secret that makes my mother's cooking so But now all of those things are only left in my memories. of a mother with a happy smile - mole dishes that my",
+                "vlm_caption": {
+                    "detailed_description": "The image depicts a detailed and colorful display of food items arranged to form a portrait of an elderly woman, with a sign reading \"Memories\" in the foreground.",
+                    "objects_and_counts": [
+                        "4 bowl, 2 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V086_S0028",
+            "start_frame": 3400,
+            "end_frame": 3525,
+            "start_ts": 136.0,
+            "end_ts": 141.0,
+            "duration": 5.0,
+            "keyframes": [
+                {
+                    "frame_idx": 3462,
+                    "timestamp": 138.48,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V086/L30_V086_S0028_F003462.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Thiên Ân còn có nhiều tác phẩm chân dung và đặc tả đồng quê Việt",
+                "ocr_text": "* Tallor A Thanh",
+                "vlm_caption": {
+                    "detailed_description": "A chef wearing a white uniform and black gloves is carefully arranging colorful mosaic tiles on a wooden structure.",
+                    "objects_and_counts": [
+                        "1 person, 1 microwave"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V086_S0029",
+            "start_frame": 3526,
+            "end_frame": 3846,
+            "start_ts": 141.04,
+            "end_ts": 153.84,
+            "duration": 12.8,
+            "keyframes": [
+                {
+                    "frame_idx": 3686,
+                    "timestamp": 147.44,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V086/L30_V086_S0029_F003686.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Mình cảm thấy hạnh phúc khi mà những món ăn của Việt Nam được bạn bè quốc tế biết được. Họ ồ lên, họ thích thú khi mà nhìn thấy được người phụ nữ Việt Nam có nụ cười đẹp.",
+                "ocr_text": "tuơi trẻTv LATION Nguyen Hus Thien AR Thanh",
+                "vlm_caption": {
+                    "detailed_description": "A person in a white chef's coat sits at a table with various items, including a colorful stained glass piece and a small figurine, in a kitchen setting.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V086_S0030",
+            "start_frame": 3847,
+            "end_frame": 4337,
+            "start_ts": 153.88,
+            "end_ts": 173.48,
+            "duration": 19.6,
+            "keyframes": [
+                {
+                    "frame_idx": 4092,
+                    "timestamp": 163.68,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V086/L30_V086_S0030_F004092.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Thì mình sẽ vẫn tiếp tục tham gia rất nhiều cuộc thi nữa ở đấu trường quốc tế để mang giá trị văn hóa Việt Nam ra các đấu trường quốc tế. Và song song với đó thì mình cũng đang chuyển hướng sang một con đường mới là một con đường trao giá trị và truyền ấm hứng cho những bạn có cùng giấc mơ như mình.",
+                "ocr_text": "tuổi trẻTv #suyen Huw Thien As Thanh",
+                "vlm_caption": {
+                    "detailed_description": "A person in a white chef's coat sits at a table with various objects, including a colorful stained glass piece and a small figurine, in a kitchen setting.",
+                    "objects_and_counts": [
+                        "1 person, 1 chair"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V086_S0031",
+            "start_frame": 4338,
+            "end_frame": 4406,
+            "start_ts": 173.52,
+            "end_ts": 176.24,
+            "duration": 2.72,
+            "keyframes": [
+                {
+                    "frame_idx": 4372,
+                    "timestamp": 174.88,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V086/L30_V086_S0031_F004372.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Thiên Ân chia sẻ bạn sẽ mở những lớp",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A person wearing a white shirt with a red flag patch is using a brush to paint intricate designs on a wooden box adorned with detailed carvings of birds and plants.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V086_S0032",
+            "start_frame": 4407,
+            "end_frame": 4469,
+            "start_ts": 176.28,
+            "end_ts": 178.76,
+            "duration": 2.48,
+            "keyframes": [
+                {
+                    "frame_idx": 4438,
+                    "timestamp": 177.52,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V086/L30_V086_S0032_F004438.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Dạy vẽ tranh trên nền bánh vẽ Phan Đình",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A gloved hand gently touches a intricately carved wooden panel featuring floral and leaf patterns."
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V086_S0033",
+            "start_frame": 4470,
+            "end_frame": 4523,
+            "start_ts": 178.8,
+            "end_ts": 180.92,
+            "duration": 2.12,
+            "keyframes": [
+                {
+                    "frame_idx": 4496,
+                    "timestamp": 179.84,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V086/L30_V086_S0033_F004496.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "đồng thời hỗ trợ các bạn nhỏ học cách trai.",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A gloved hand holds a paintbrush near a colorful, stained-glass-like fabric with intricate patterns.",
+                    "objects_and_counts": [
+                        "2 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V086_S0034",
+            "start_frame": 4524,
+            "end_frame": 4597,
+            "start_ts": 180.96,
+            "end_ts": 183.88,
+            "duration": 2.92,
+            "keyframes": [
+                {
+                    "frame_idx": 4560,
+                    "timestamp": 182.4,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V086/L30_V086_S0034_F004560.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "trí bánh đơn giản để nghệ thuật bánh nói chung.",
+                "ocr_text": "tuoi trẻv Herbalife Tác giả: Tạ Lâm",
+                "vlm_caption": {
+                    "detailed_description": "A person is arranging small succulent plants on a knitted hat.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V086_S0035",
+            "start_frame": 4598,
+            "end_frame": 4671,
+            "start_ts": 183.92,
+            "end_ts": 186.84,
+            "duration": 2.92,
+            "keyframes": [
+                {
+                    "frame_idx": 4634,
+                    "timestamp": 185.36,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V086/L30_V086_S0035_F004634.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "và vẽ tranh trên đền kẹo phân định nói riêng",
+                "ocr_text": "tuoi trẻTv Nguyen Huu Thien As 135 PASTRY Thanh He Tác giá: Tạ Lâm",
+                "vlm_caption": {
+                    "detailed_description": "A chef in a white uniform is preparing food in a kitchen with various appliances and ingredients visible.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V086_S0036",
+            "start_frame": 4672,
+            "end_frame": 4756,
+            "start_ts": 186.88,
+            "end_ts": 190.24,
+            "duration": 3.36,
+            "keyframes": [
+                {
+                    "frame_idx": 4714,
+                    "timestamp": 188.56,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V086/L30_V086_S0036_F004714.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy lan tỏa nhiều hơn.",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A gloved hand uses a tool to apply a blue substance to the edge of a sticker featuring an anime-style character.",
+                    "objects_and_counts": [
+                        "1 person, 1 dining table"
+                    ]
+                }
+            }
+        }
+    ]
+}

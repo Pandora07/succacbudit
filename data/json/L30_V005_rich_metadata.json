@@ -1,0 +1,440 @@
+{
+    "video_id": "L30_V005",
+    "fps": 25.0,
+    "total_shots": 16,
+    "total_keyframes": 25,
+    "shots": [
+        {
+            "shot_id": "L30_V005_S0001",
+            "start_frame": 0,
+            "end_frame": 74,
+            "start_ts": 0.0,
+            "end_ts": 2.96,
+            "duration": 2.96,
+            "keyframes": [],
+            "extracted_data": {
+                "transcript": "",
+                "ocr_text": ""
+            }
+        },
+        {
+            "shot_id": "L30_V005_S0002",
+            "start_frame": 75,
+            "end_frame": 169,
+            "start_ts": 3.0,
+            "end_ts": 6.76,
+            "duration": 3.76,
+            "keyframes": [
+                {
+                    "frame_idx": 122,
+                    "timestamp": 4.88,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V005/L30_V005_S0002_F000122.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Thank you.",
+                "ocr_text": "Herbalife thương hiệu quản lý cân nặng # & sức khỏe trên thế giới",
+                "vlm_caption": {
+                    "detailed_description": "The image features a green circular logo with the Herbalife logo at the top, followed by Vietnamese text that translates to \"World's No. 1 brand in managing health and wellness.\""
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V005_S0003",
+            "start_frame": 170,
+            "end_frame": 289,
+            "start_ts": 6.8,
+            "end_ts": 11.56,
+            "duration": 4.76,
+            "keyframes": [
+                {
+                    "frame_idx": 229,
+                    "timestamp": 9.16,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V005/L30_V005_S0003_F000229.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "",
+                "ocr_text": "Clip bạn đọc dự thi cuộc thi: Lan tỏa năng lượng tích cực 2024",
+                "vlm_caption": {
+                    "detailed_description": "The image contains text in Vietnamese, which translates to \"Clip you read for the contest: Spread positive energy 2024.\""
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V005_S0004",
+            "start_frame": 290,
+            "end_frame": 407,
+            "start_ts": 11.6,
+            "end_ts": 16.28,
+            "duration": 4.68,
+            "keyframes": [
+                {
+                    "frame_idx": 348,
+                    "timestamp": 13.92,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V005/L30_V005_S0004_F000348.jpg"
+                },
+                {
+                    "frame_idx": 377,
+                    "timestamp": 15.08,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V005/L30_V005_S0004_F000377.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Nhiều năm qua, Hiến máu tình nguyện đã trở thành hoạt động thường xuyên, thể hiện bởi những người đàn ông,",
+                "ocr_text": "tuöitre™v N MÁU TÍNH NGUYÊN de 'Dei Ö Lai• Cuộc thi Lan tỏa năng lượng tích cực 2024: Lan tỏa phong trào hiến máu tình nguyện | EN MÀU TINH NGUYEN Dei Ü Ler- COACH HOA Cuộc thi Lan tỏa năng lượng tích cực 2024: Lan tỏa phong trào hiến máu tình nguyện",
+                "vlm_caption": {
+                    "detailed_description": "A group of people, including a coach, are gathered in a large, open room with white tiled floors and a high ceiling, participating in an event promoting blood donation.",
+                    "objects_and_counts": [
+                        "17 person, 1 clock, 1 backpack | 18 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V005_S0005",
+            "start_frame": 408,
+            "end_frame": 521,
+            "start_ts": 16.32,
+            "end_ts": 20.84,
+            "duration": 4.52,
+            "keyframes": [
+                {
+                    "frame_idx": 464,
+                    "timestamp": 18.56,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V005/L30_V005_S0005_F000464.jpg"
+                },
+                {
+                    "frame_idx": 436,
+                    "timestamp": 17.44,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V005/L30_V005_S0005_F000436.jpg"
+                },
+                {
+                    "frame_idx": 492,
+                    "timestamp": 19.68,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V005/L30_V005_S0005_F000492.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Tinh thần tuổi trẻ về cộng đồng, thông điệp về một giọt máu cho đi, một cuộc đời ở lại đã thu hút.",
+                "ocr_text": "tuoi treTv thương hiệu | tuôi trẻTv POCAR SWEAT T.F Cuộc thi Lan tỏa năng lượng tích cực 2024: thương hiệu Lan tỏa phong trào hiến máu tình nguyện",
+                "vlm_caption": {
+                    "detailed_description": "A group of people are seated at tables in a large room, with some individuals standing and others sitting, and a banner in the background.",
+                    "objects_and_counts": [
+                        "13 person, 1 cup | 14 person, 1 cup, 1 laptop, 2 dining table | 15 person, 2 chair, 1 cup, 1 laptop, 1 dining table"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V005_S0006",
+            "start_frame": 522,
+            "end_frame": 588,
+            "start_ts": 20.88,
+            "end_ts": 23.52,
+            "duration": 2.64,
+            "keyframes": [
+                {
+                    "frame_idx": 555,
+                    "timestamp": 22.2,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V005/L30_V005_S0006_F000555.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "thu thúc nhiều người trẻ thực hiện nghị cử tốt đẹp.",
+                "ocr_text": "CARI EAT KHU VỰC XÉT NGHIỆM MÁU THE UMITEO ZHATION STUDIO ALL ROGHTS AISSERMED",
+                "vlm_caption": {
+                    "detailed_description": "A person in a blue shirt is drawing blood from another person's arm at a medical examination station.",
+                    "objects_and_counts": [
+                        "8 person, 1 cup, 1 bottle"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V005_S0007",
+            "start_frame": 589,
+            "end_frame": 681,
+            "start_ts": 23.56,
+            "end_ts": 27.24,
+            "duration": 3.68,
+            "keyframes": [
+                {
+                    "frame_idx": 635,
+                    "timestamp": 25.4,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V005/L30_V005_S0007_F000635.jpg"
+                },
+                {
+                    "frame_idx": 612,
+                    "timestamp": 24.48,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V005/L30_V005_S0007_F000612.jpg"
+                },
+                {
+                    "frame_idx": 658,
+                    "timestamp": 26.32,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V005/L30_V005_S0007_F000658.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Quế Phương Châm sống tích cực, thế hệ trẻ ngoài góp phần thực hiện những việc",
+                "ocr_text": "ROTS",
+                "vlm_caption": {
+                    "detailed_description": "A group of people, some wearing face masks, are seated on blue plastic stools in a waiting area, with a woman in a white shirt holding a piece of paper.",
+                    "objects_and_counts": [
+                        "11 person, 2 chair, 2 bottle | 12 person, 1 handbag, 1 bottle, 1 chair | 8 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V005_S0008",
+            "start_frame": 682,
+            "end_frame": 777,
+            "start_ts": 27.28,
+            "end_ts": 31.08,
+            "duration": 3.8,
+            "keyframes": [
+                {
+                    "frame_idx": 729,
+                    "timestamp": 29.16,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V005/L30_V005_S0008_F000729.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "ý nghĩa còn giúp người hiến máu phải ý thức giữ gìn sức khỏe, sinh hoạt lành",
+                "ocr_text": "tuoi treTv TRUNG TẤM QUẢN LÝ XY TỤC XÃ ĐHỌG-NCM THANH PHỄ LĨ AN NGÀY HIẾN MÁU TÌNH NGUYỆN \"Một Giọt Mâu Cho Đi, Một Cuộc Đời Ở Lại\" NĂM 2024",
+                "vlm_caption": {
+                    "detailed_description": "A group of people are participating in a blood donation event at a hospital, with banners and tables set up for the activity.",
+                    "objects_and_counts": [
+                        "14 person, 3 chair, 1 bed"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V005_S0009",
+            "start_frame": 778,
+            "end_frame": 908,
+            "start_ts": 31.12,
+            "end_ts": 36.32,
+            "duration": 5.2,
+            "keyframes": [
+                {
+                    "frame_idx": 843,
+                    "timestamp": 33.72,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V005/L30_V005_S0009_F000843.jpg"
+                },
+                {
+                    "frame_idx": 875,
+                    "timestamp": 35.0,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V005/L30_V005_S0009_F000875.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "mạnh để đủ tiêu chuẩn tham gia hiến máu. Bên cạnh đó, hiến máu dân đạo thường xuyên sẽ giúp cơ thể",
+                "ocr_text": "tuoi tre NH NGUYÊN 1 Cuộc Đời Ở Lui\"",
+                "vlm_caption": {
+                    "detailed_description": "A group of people are sitting on chairs and lying on medical tables in a room with medical equipment and a banner in the background.",
+                    "objects_and_counts": [
+                        "9 person, 3 chair | 12 person, 2 bed, 1 chair"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V005_S0010",
+            "start_frame": 909,
+            "end_frame": 1009,
+            "start_ts": 36.36,
+            "end_ts": 40.36,
+            "duration": 4.0,
+            "keyframes": [
+                {
+                    "frame_idx": 959,
+                    "timestamp": 38.36,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V005/L30_V005_S0010_F000959.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "để loại bỏ lượng sắc dư thừa và sáng sinh lượng máu mới có lợi cho sức khỏe.",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A man in a blue shirt is sitting on a chair, while another man in a brown shirt is lying on a bed, both in a room with a fan and other people in the background.",
+                    "objects_and_counts": [
+                        "4 person, 3 chair, 1 potted plant"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V005_S0011",
+            "start_frame": 1010,
+            "end_frame": 1111,
+            "start_ts": 40.4,
+            "end_ts": 44.44,
+            "duration": 4.04,
+            "keyframes": [
+                {
+                    "frame_idx": 1060,
+                    "timestamp": 42.4,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V005/L30_V005_S0011_F001060.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Lượng máu đã hiến sẽ được cơ thể nhanh chóng tái tạo phục vụ cho quá trình tụng hoàng máu.",
+                "ocr_text": "tuoi trẻTv :TRUNG TÂM QUAN LÝ KỲ TÚC XÁ CHOG-HGM NÓI CHU THÀP DO THLNG TAM TRURÉN MAU ĐNI VỚN CHO GẤY NGÀY HIẾN MÁU TÌNH NGUYỆN \"Một Giọt Mâu Cho Đi, Một Cuộc Đời Ở Lại\" NĂM 2024",
+                "vlm_caption": {
+                    "detailed_description": "A group of volunteers are participating in a blood donation event at a hospital, with banners and posters promoting the event in the background.",
+                    "objects_and_counts": [
+                        "16 person, 3 chair, 1 cup"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V005_S0012",
+            "start_frame": 1112,
+            "end_frame": 1209,
+            "start_ts": 44.48,
+            "end_ts": 48.36,
+            "duration": 3.88,
+            "keyframes": [
+                {
+                    "frame_idx": 1160,
+                    "timestamp": 46.4,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V005/L30_V005_S0012_F001160.jpg"
+                },
+                {
+                    "frame_idx": 1136,
+                    "timestamp": 45.44,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V005/L30_V005_S0012_F001136.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hoạt động hiến mấu tình nguyện của nhiều bạn sinh viên trẻ đã là một trong những điều đáng đáng đáng đáng.",
+                "ocr_text": "NAM LUCY + | HIVE",
+                "vlm_caption": {
+                    "detailed_description": "A group of people are participating in a blood donation event, with individuals lying on chairs and receiving medical attention.",
+                    "objects_and_counts": [
+                        "10 person, 1 chair, 2 bottle, 1 cup, 1 backpack | 11 person, 2 chair, 2 bottle, 1 cell phone, 1 cup, 1 backpack"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V005_S0013",
+            "start_frame": 1210,
+            "end_frame": 1339,
+            "start_ts": 48.4,
+            "end_ts": 53.56,
+            "duration": 5.16,
+            "keyframes": [
+                {
+                    "frame_idx": 1274,
+                    "timestamp": 50.96,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V005/L30_V005_S0013_F001274.jpg"
+                },
+                {
+                    "frame_idx": 1242,
+                    "timestamp": 49.68,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V005/L30_V005_S0013_F001242.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "đàn tỏa những giá trị nhân văn tốt đẹp cho cộng đồng và xã hội. Mỗi giọt máu tình nguyện không chỉ đứng đoán,",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A group of people are participating in a blood donation event in a large, well-lit room with tables and chairs, where individuals are lying on beds to donate blood.",
+                    "objects_and_counts": [
+                        "16 person, 7 chair | 10 person, 1 chair"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V005_S0014",
+            "start_frame": 1340,
+            "end_frame": 1438,
+            "start_ts": 53.6,
+            "end_ts": 57.52,
+            "duration": 3.92,
+            "keyframes": [
+                {
+                    "frame_idx": 1389,
+                    "timestamp": 55.56,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V005/L30_V005_S0014_F001389.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hãy subscribe cho kênh Ghiền Mì Gõ Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A group of people are sitting on blue chairs in a waiting area, some are reading papers, while others are resting or sleeping.",
+                    "objects_and_counts": [
+                        "13 person, 1 bottle, 4 chair, 1 tennis racket"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V005_S0015",
+            "start_frame": 1439,
+            "end_frame": 1523,
+            "start_ts": 57.56,
+            "end_ts": 60.92,
+            "duration": 3.36,
+            "keyframes": [
+                {
+                    "frame_idx": 1481,
+                    "timestamp": 59.24,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V005/L30_V005_S0015_F001481.jpg"
+                },
+                {
+                    "frame_idx": 1460,
+                    "timestamp": 58.4,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V005/L30_V005_S0015_F001460.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "sự sống cho người bệnh Đó chính là hành trình mang theo tình yêu",
+                "ocr_text": "tuổi trẻTv Tác giả: Trần Minh Khải",
+                "vlm_caption": {
+                    "detailed_description": "A person is lying on a bed, receiving medical attention from a healthcare worker in a room filled with other individuals and medical supplies.",
+                    "objects_and_counts": [
+                        "13 person, 11 chair, 1 bottle, 1 backpack, 1 cup | 12 person, 1 bottle, 9 chair, 1 backpack, 1 cup"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V005_S0016",
+            "start_frame": 1524,
+            "end_frame": 1658,
+            "start_ts": 60.96,
+            "end_ts": 66.32,
+            "duration": 5.36,
+            "keyframes": [
+                {
+                    "frame_idx": 1591,
+                    "timestamp": 63.64,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V005/L30_V005_S0016_F001591.jpg"
+                },
+                {
+                    "frame_idx": 1624,
+                    "timestamp": 64.96,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V005/L30_V005_S0016_F001624.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Cảm ơn các bạn đã theo dõi và ủng hộ cho kênh lalaschool Để không bỏ lỡ những video hấp dẫn",
+                "ocr_text": "tuoi trẻTv. SAI HẾN BÁU TÍNH NGUYỆN -Có Sức khoe- Có ước hữ. thương hệu Tác giả: Trần Minh Khải | tuôi trẻTv SCI HẾN HẢU TNH NGUYÊN Có sức khỏe - Có ước mó.",
+                "vlm_caption": {
+                    "detailed_description": "A group of people are seated on tables in a large, well-lit room with a large screen displaying a presentation, and a banner with Vietnamese text in the background.",
+                    "objects_and_counts": [
+                        "10 person, 2 potted plant, 1 chair, 1 umbrella | 7 person, 2 chair, 2 potted plant, 1 umbrella"
+                    ]
+                }
+            }
+        }
+    ]
+}

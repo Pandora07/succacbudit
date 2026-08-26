@@ -1,0 +1,1760 @@
+{
+    "video_id": "L25_V083",
+    "fps": 25.0,
+    "total_shots": 111,
+    "total_keyframes": 129,
+    "shots": [
+        {
+            "shot_id": "L25_V083_S0001",
+            "start_frame": 0,
+            "end_frame": 66,
+            "start_ts": 0.0,
+            "end_ts": 2.64,
+            "duration": 2.64,
+            "keyframes": []
+        },
+        {
+            "shot_id": "L25_V083_S0002",
+            "start_frame": 67,
+            "end_frame": 532,
+            "start_ts": 2.68,
+            "end_ts": 21.28,
+            "duration": 18.6,
+            "keyframes": [
+                {
+                    "frame_idx": 299,
+                    "timestamp": 11.96,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V083/L25_V083_S0002_F000299.jpg"
+                },
+                {
+                    "frame_idx": 415,
+                    "timestamp": 16.6,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V083/L25_V083_S0002_F000415.jpg"
+                }
+            ]
+        },
+        {
+            "shot_id": "L25_V083_S0003",
+            "start_frame": 533,
+            "end_frame": 6245,
+            "start_ts": 21.32,
+            "end_ts": 249.8,
+            "duration": 228.48,
+            "keyframes": [
+                {
+                    "frame_idx": 3389,
+                    "timestamp": 135.56,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V083/L25_V083_S0003_F003389.jpg"
+                },
+                {
+                    "frame_idx": 1961,
+                    "timestamp": 78.44,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V083/L25_V083_S0003_F001961.jpg"
+                },
+                {
+                    "frame_idx": 4817,
+                    "timestamp": 192.68,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V083/L25_V083_S0003_F004817.jpg"
+                }
+            ]
+        },
+        {
+            "shot_id": "L25_V083_S0004",
+            "start_frame": 6246,
+            "end_frame": 6247,
+            "start_ts": 249.84,
+            "end_ts": 249.88,
+            "duration": 0.04,
+            "keyframes": [
+                {
+                    "frame_idx": 6246,
+                    "timestamp": 249.84,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V083/L25_V083_S0004_F006246.jpg"
+                }
+            ]
+        },
+        {
+            "shot_id": "L25_V083_S0005",
+            "start_frame": 6248,
+            "end_frame": 6274,
+            "start_ts": 249.92,
+            "end_ts": 250.96,
+            "duration": 1.04,
+            "keyframes": [
+                {
+                    "frame_idx": 6261,
+                    "timestamp": 250.44,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V083/L25_V083_S0005_F006261.jpg"
+                }
+            ]
+        },
+        {
+            "shot_id": "L25_V083_S0006",
+            "start_frame": 6275,
+            "end_frame": 6305,
+            "start_ts": 251.0,
+            "end_ts": 252.2,
+            "duration": 1.2,
+            "keyframes": [
+                {
+                    "frame_idx": 6290,
+                    "timestamp": 251.6,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V083/L25_V083_S0006_F006290.jpg"
+                }
+            ]
+        },
+        {
+            "shot_id": "L25_V083_S0007",
+            "start_frame": 6306,
+            "end_frame": 6350,
+            "start_ts": 252.24,
+            "end_ts": 254.0,
+            "duration": 1.76,
+            "keyframes": [
+                {
+                    "frame_idx": 6328,
+                    "timestamp": 253.12,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V083/L25_V083_S0007_F006328.jpg"
+                }
+            ]
+        },
+        {
+            "shot_id": "L25_V083_S0008",
+            "start_frame": 6351,
+            "end_frame": 6368,
+            "start_ts": 254.04,
+            "end_ts": 254.72,
+            "duration": 0.68,
+            "keyframes": [
+                {
+                    "frame_idx": 6359,
+                    "timestamp": 254.36,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V083/L25_V083_S0008_F006359.jpg"
+                }
+            ]
+        },
+        {
+            "shot_id": "L25_V083_S0009",
+            "start_frame": 6369,
+            "end_frame": 6385,
+            "start_ts": 254.76,
+            "end_ts": 255.4,
+            "duration": 0.64,
+            "keyframes": [
+                {
+                    "frame_idx": 6377,
+                    "timestamp": 255.08,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V083/L25_V083_S0009_F006377.jpg"
+                }
+            ]
+        },
+        {
+            "shot_id": "L25_V083_S0010",
+            "start_frame": 6386,
+            "end_frame": 6403,
+            "start_ts": 255.44,
+            "end_ts": 256.12,
+            "duration": 0.68,
+            "keyframes": [
+                {
+                    "frame_idx": 6394,
+                    "timestamp": 255.76,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V083/L25_V083_S0010_F006394.jpg"
+                }
+            ]
+        },
+        {
+            "shot_id": "L25_V083_S0011",
+            "start_frame": 6404,
+            "end_frame": 6427,
+            "start_ts": 256.16,
+            "end_ts": 257.08,
+            "duration": 0.92,
+            "keyframes": [
+                {
+                    "frame_idx": 6415,
+                    "timestamp": 256.6,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V083/L25_V083_S0011_F006415.jpg"
+                }
+            ]
+        },
+        {
+            "shot_id": "L25_V083_S0012",
+            "start_frame": 6428,
+            "end_frame": 6445,
+            "start_ts": 257.12,
+            "end_ts": 257.8,
+            "duration": 0.68,
+            "keyframes": [
+                {
+                    "frame_idx": 6436,
+                    "timestamp": 257.44,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V083/L25_V083_S0012_F006436.jpg"
+                }
+            ]
+        },
+        {
+            "shot_id": "L25_V083_S0013",
+            "start_frame": 6446,
+            "end_frame": 6474,
+            "start_ts": 257.84,
+            "end_ts": 258.96,
+            "duration": 1.12,
+            "keyframes": [
+                {
+                    "frame_idx": 6460,
+                    "timestamp": 258.4,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V083/L25_V083_S0013_F006460.jpg"
+                }
+            ]
+        },
+        {
+            "shot_id": "L25_V083_S0014",
+            "start_frame": 6475,
+            "end_frame": 6508,
+            "start_ts": 259.0,
+            "end_ts": 260.32,
+            "duration": 1.32,
+            "keyframes": [
+                {
+                    "frame_idx": 6491,
+                    "timestamp": 259.64,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V083/L25_V083_S0014_F006491.jpg"
+                }
+            ]
+        },
+        {
+            "shot_id": "L25_V083_S0015",
+            "start_frame": 6509,
+            "end_frame": 6537,
+            "start_ts": 260.36,
+            "end_ts": 261.48,
+            "duration": 1.12,
+            "keyframes": [
+                {
+                    "frame_idx": 6523,
+                    "timestamp": 260.92,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V083/L25_V083_S0015_F006523.jpg"
+                }
+            ]
+        },
+        {
+            "shot_id": "L25_V083_S0016",
+            "start_frame": 6538,
+            "end_frame": 6602,
+            "start_ts": 261.52,
+            "end_ts": 264.08,
+            "duration": 2.56,
+            "keyframes": [
+                {
+                    "frame_idx": 6570,
+                    "timestamp": 262.8,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V083/L25_V083_S0016_F006570.jpg"
+                }
+            ]
+        },
+        {
+            "shot_id": "L25_V083_S0017",
+            "start_frame": 6603,
+            "end_frame": 6636,
+            "start_ts": 264.12,
+            "end_ts": 265.44,
+            "duration": 1.32,
+            "keyframes": [
+                {
+                    "frame_idx": 6619,
+                    "timestamp": 264.76,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V083/L25_V083_S0017_F006619.jpg"
+                }
+            ]
+        },
+        {
+            "shot_id": "L25_V083_S0018",
+            "start_frame": 6637,
+            "end_frame": 6667,
+            "start_ts": 265.48,
+            "end_ts": 266.68,
+            "duration": 1.2,
+            "keyframes": [
+                {
+                    "frame_idx": 6652,
+                    "timestamp": 266.08,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V083/L25_V083_S0018_F006652.jpg"
+                }
+            ]
+        },
+        {
+            "shot_id": "L25_V083_S0019",
+            "start_frame": 6668,
+            "end_frame": 6701,
+            "start_ts": 266.72,
+            "end_ts": 268.04,
+            "duration": 1.32,
+            "keyframes": [
+                {
+                    "frame_idx": 6684,
+                    "timestamp": 267.36,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V083/L25_V083_S0019_F006684.jpg"
+                }
+            ]
+        },
+        {
+            "shot_id": "L25_V083_S0020",
+            "start_frame": 6702,
+            "end_frame": 6742,
+            "start_ts": 268.08,
+            "end_ts": 269.68,
+            "duration": 1.6,
+            "keyframes": [
+                {
+                    "frame_idx": 6722,
+                    "timestamp": 268.88,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V083/L25_V083_S0020_F006722.jpg"
+                }
+            ]
+        },
+        {
+            "shot_id": "L25_V083_S0021",
+            "start_frame": 6743,
+            "end_frame": 6759,
+            "start_ts": 269.72,
+            "end_ts": 270.36,
+            "duration": 0.64,
+            "keyframes": [
+                {
+                    "frame_idx": 6751,
+                    "timestamp": 270.04,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V083/L25_V083_S0021_F006751.jpg"
+                }
+            ]
+        },
+        {
+            "shot_id": "L25_V083_S0022",
+            "start_frame": 6760,
+            "end_frame": 6810,
+            "start_ts": 270.4,
+            "end_ts": 272.4,
+            "duration": 2.0,
+            "keyframes": [
+                {
+                    "frame_idx": 6785,
+                    "timestamp": 271.4,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V083/L25_V083_S0022_F006785.jpg"
+                }
+            ]
+        },
+        {
+            "shot_id": "L25_V083_S0023",
+            "start_frame": 6811,
+            "end_frame": 6842,
+            "start_ts": 272.44,
+            "end_ts": 273.68,
+            "duration": 1.24,
+            "keyframes": [
+                {
+                    "frame_idx": 6826,
+                    "timestamp": 273.04,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V083/L25_V083_S0023_F006826.jpg"
+                }
+            ]
+        },
+        {
+            "shot_id": "L25_V083_S0024",
+            "start_frame": 6843,
+            "end_frame": 6873,
+            "start_ts": 273.72,
+            "end_ts": 274.92,
+            "duration": 1.2,
+            "keyframes": [
+                {
+                    "frame_idx": 6858,
+                    "timestamp": 274.32,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V083/L25_V083_S0024_F006858.jpg"
+                }
+            ]
+        },
+        {
+            "shot_id": "L25_V083_S0025",
+            "start_frame": 6874,
+            "end_frame": 6910,
+            "start_ts": 274.96,
+            "end_ts": 276.4,
+            "duration": 1.44,
+            "keyframes": [
+                {
+                    "frame_idx": 6892,
+                    "timestamp": 275.68,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V083/L25_V083_S0025_F006892.jpg"
+                }
+            ]
+        },
+        {
+            "shot_id": "L25_V083_S0026",
+            "start_frame": 6911,
+            "end_frame": 6954,
+            "start_ts": 276.44,
+            "end_ts": 278.16,
+            "duration": 1.72,
+            "keyframes": [
+                {
+                    "frame_idx": 6932,
+                    "timestamp": 277.28,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V083/L25_V083_S0026_F006932.jpg"
+                }
+            ]
+        },
+        {
+            "shot_id": "L25_V083_S0027",
+            "start_frame": 6956,
+            "end_frame": 6999,
+            "start_ts": 278.24,
+            "end_ts": 279.96,
+            "duration": 1.72,
+            "keyframes": [
+                {
+                    "frame_idx": 6977,
+                    "timestamp": 279.08,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V083/L25_V083_S0027_F006977.jpg"
+                }
+            ]
+        },
+        {
+            "shot_id": "L25_V083_S0028",
+            "start_frame": 7000,
+            "end_frame": 7047,
+            "start_ts": 280.0,
+            "end_ts": 281.88,
+            "duration": 1.88,
+            "keyframes": [
+                {
+                    "frame_idx": 7023,
+                    "timestamp": 280.92,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V083/L25_V083_S0028_F007023.jpg"
+                }
+            ]
+        },
+        {
+            "shot_id": "L25_V083_S0029",
+            "start_frame": 7049,
+            "end_frame": 7086,
+            "start_ts": 281.96,
+            "end_ts": 283.44,
+            "duration": 1.48,
+            "keyframes": [
+                {
+                    "frame_idx": 7067,
+                    "timestamp": 282.68,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V083/L25_V083_S0029_F007067.jpg"
+                }
+            ]
+        },
+        {
+            "shot_id": "L25_V083_S0030",
+            "start_frame": 7087,
+            "end_frame": 7141,
+            "start_ts": 283.48,
+            "end_ts": 285.64,
+            "duration": 2.16,
+            "keyframes": [
+                {
+                    "frame_idx": 7114,
+                    "timestamp": 284.56,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V083/L25_V083_S0030_F007114.jpg"
+                }
+            ]
+        },
+        {
+            "shot_id": "L25_V083_S0031",
+            "start_frame": 7142,
+            "end_frame": 7200,
+            "start_ts": 285.68,
+            "end_ts": 288.0,
+            "duration": 2.32,
+            "keyframes": [
+                {
+                    "frame_idx": 7171,
+                    "timestamp": 286.84,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V083/L25_V083_S0031_F007171.jpg"
+                }
+            ]
+        },
+        {
+            "shot_id": "L25_V083_S0032",
+            "start_frame": 7201,
+            "end_frame": 7227,
+            "start_ts": 288.04,
+            "end_ts": 289.08,
+            "duration": 1.04,
+            "keyframes": [
+                {
+                    "frame_idx": 7214,
+                    "timestamp": 288.56,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V083/L25_V083_S0032_F007214.jpg"
+                }
+            ]
+        },
+        {
+            "shot_id": "L25_V083_S0033",
+            "start_frame": 7228,
+            "end_frame": 7325,
+            "start_ts": 289.12,
+            "end_ts": 293.0,
+            "duration": 3.88,
+            "keyframes": [
+                {
+                    "frame_idx": 7276,
+                    "timestamp": 291.04,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V083/L25_V083_S0033_F007276.jpg"
+                },
+                {
+                    "frame_idx": 7252,
+                    "timestamp": 290.08,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V083/L25_V083_S0033_F007252.jpg"
+                },
+                {
+                    "frame_idx": 7300,
+                    "timestamp": 292.0,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V083/L25_V083_S0033_F007300.jpg"
+                }
+            ]
+        },
+        {
+            "shot_id": "L25_V083_S0034",
+            "start_frame": 7326,
+            "end_frame": 7355,
+            "start_ts": 293.04,
+            "end_ts": 294.2,
+            "duration": 1.16,
+            "keyframes": [
+                {
+                    "frame_idx": 7340,
+                    "timestamp": 293.6,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V083/L25_V083_S0034_F007340.jpg"
+                }
+            ]
+        },
+        {
+            "shot_id": "L25_V083_S0035",
+            "start_frame": 7356,
+            "end_frame": 7386,
+            "start_ts": 294.24,
+            "end_ts": 295.44,
+            "duration": 1.2,
+            "keyframes": [
+                {
+                    "frame_idx": 7371,
+                    "timestamp": 294.84,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V083/L25_V083_S0035_F007371.jpg"
+                }
+            ]
+        },
+        {
+            "shot_id": "L25_V083_S0036",
+            "start_frame": 7387,
+            "end_frame": 7417,
+            "start_ts": 295.48,
+            "end_ts": 296.68,
+            "duration": 1.2,
+            "keyframes": [
+                {
+                    "frame_idx": 7402,
+                    "timestamp": 296.08,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V083/L25_V083_S0036_F007402.jpg"
+                }
+            ]
+        },
+        {
+            "shot_id": "L25_V083_S0037",
+            "start_frame": 7418,
+            "end_frame": 7455,
+            "start_ts": 296.72,
+            "end_ts": 298.2,
+            "duration": 1.48,
+            "keyframes": [
+                {
+                    "frame_idx": 7436,
+                    "timestamp": 297.44,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V083/L25_V083_S0037_F007436.jpg"
+                }
+            ]
+        },
+        {
+            "shot_id": "L25_V083_S0038",
+            "start_frame": 7456,
+            "end_frame": 7489,
+            "start_ts": 298.24,
+            "end_ts": 299.56,
+            "duration": 1.32,
+            "keyframes": [
+                {
+                    "frame_idx": 7472,
+                    "timestamp": 298.88,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V083/L25_V083_S0038_F007472.jpg"
+                }
+            ]
+        },
+        {
+            "shot_id": "L25_V083_S0039",
+            "start_frame": 7490,
+            "end_frame": 7528,
+            "start_ts": 299.6,
+            "end_ts": 301.12,
+            "duration": 1.52,
+            "keyframes": [
+                {
+                    "frame_idx": 7509,
+                    "timestamp": 300.36,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V083/L25_V083_S0039_F007509.jpg"
+                }
+            ]
+        },
+        {
+            "shot_id": "L25_V083_S0040",
+            "start_frame": 7529,
+            "end_frame": 7559,
+            "start_ts": 301.16,
+            "end_ts": 302.36,
+            "duration": 1.2,
+            "keyframes": [
+                {
+                    "frame_idx": 7544,
+                    "timestamp": 301.76,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V083/L25_V083_S0040_F007544.jpg"
+                }
+            ]
+        },
+        {
+            "shot_id": "L25_V083_S0041",
+            "start_frame": 7560,
+            "end_frame": 7587,
+            "start_ts": 302.4,
+            "end_ts": 303.48,
+            "duration": 1.08,
+            "keyframes": [
+                {
+                    "frame_idx": 7573,
+                    "timestamp": 302.92,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V083/L25_V083_S0041_F007573.jpg"
+                }
+            ]
+        },
+        {
+            "shot_id": "L25_V083_S0042",
+            "start_frame": 7588,
+            "end_frame": 7623,
+            "start_ts": 303.52,
+            "end_ts": 304.92,
+            "duration": 1.4,
+            "keyframes": [
+                {
+                    "frame_idx": 7605,
+                    "timestamp": 304.2,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V083/L25_V083_S0042_F007605.jpg"
+                }
+            ]
+        },
+        {
+            "shot_id": "L25_V083_S0043",
+            "start_frame": 7624,
+            "end_frame": 7654,
+            "start_ts": 304.96,
+            "end_ts": 306.16,
+            "duration": 1.2,
+            "keyframes": [
+                {
+                    "frame_idx": 7639,
+                    "timestamp": 305.56,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V083/L25_V083_S0043_F007639.jpg"
+                }
+            ]
+        },
+        {
+            "shot_id": "L25_V083_S0044",
+            "start_frame": 7655,
+            "end_frame": 7683,
+            "start_ts": 306.2,
+            "end_ts": 307.32,
+            "duration": 1.12,
+            "keyframes": [
+                {
+                    "frame_idx": 7669,
+                    "timestamp": 306.76,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V083/L25_V083_S0044_F007669.jpg"
+                }
+            ]
+        },
+        {
+            "shot_id": "L25_V083_S0045",
+            "start_frame": 7684,
+            "end_frame": 7744,
+            "start_ts": 307.36,
+            "end_ts": 309.76,
+            "duration": 2.4,
+            "keyframes": [
+                {
+                    "frame_idx": 7714,
+                    "timestamp": 308.56,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V083/L25_V083_S0045_F007714.jpg"
+                }
+            ]
+        },
+        {
+            "shot_id": "L25_V083_S0046",
+            "start_frame": 7745,
+            "end_frame": 16190,
+            "start_ts": 309.8,
+            "end_ts": 647.6,
+            "duration": 337.8,
+            "keyframes": [
+                {
+                    "frame_idx": 11967,
+                    "timestamp": 478.68,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V083/L25_V083_S0046_F011967.jpg"
+                }
+            ]
+        },
+        {
+            "shot_id": "L25_V083_S0047",
+            "start_frame": 16191,
+            "end_frame": 16359,
+            "start_ts": 647.64,
+            "end_ts": 654.36,
+            "duration": 6.72,
+            "keyframes": [
+                {
+                    "frame_idx": 16275,
+                    "timestamp": 651.0,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V083/L25_V083_S0047_F016275.jpg"
+                },
+                {
+                    "frame_idx": 16233,
+                    "timestamp": 649.32,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V083/L25_V083_S0047_F016233.jpg"
+                },
+                {
+                    "frame_idx": 16317,
+                    "timestamp": 652.68,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V083/L25_V083_S0047_F016317.jpg"
+                }
+            ]
+        },
+        {
+            "shot_id": "L25_V083_S0048",
+            "start_frame": 16360,
+            "end_frame": 16401,
+            "start_ts": 654.4,
+            "end_ts": 656.04,
+            "duration": 1.64,
+            "keyframes": [
+                {
+                    "frame_idx": 16380,
+                    "timestamp": 655.2,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V083/L25_V083_S0048_F016380.jpg"
+                }
+            ]
+        },
+        {
+            "shot_id": "L25_V083_S0049",
+            "start_frame": 16402,
+            "end_frame": 16444,
+            "start_ts": 656.08,
+            "end_ts": 657.76,
+            "duration": 1.68,
+            "keyframes": [
+                {
+                    "frame_idx": 16423,
+                    "timestamp": 656.92,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V083/L25_V083_S0049_F016423.jpg"
+                }
+            ]
+        },
+        {
+            "shot_id": "L25_V083_S0050",
+            "start_frame": 16445,
+            "end_frame": 16470,
+            "start_ts": 657.8,
+            "end_ts": 658.8,
+            "duration": 1.0,
+            "keyframes": [
+                {
+                    "frame_idx": 16457,
+                    "timestamp": 658.28,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V083/L25_V083_S0050_F016457.jpg"
+                }
+            ]
+        },
+        {
+            "shot_id": "L25_V083_S0051",
+            "start_frame": 16471,
+            "end_frame": 16582,
+            "start_ts": 658.84,
+            "end_ts": 663.28,
+            "duration": 4.44,
+            "keyframes": [
+                {
+                    "frame_idx": 16526,
+                    "timestamp": 661.04,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V083/L25_V083_S0051_F016526.jpg"
+                }
+            ]
+        },
+        {
+            "shot_id": "L25_V083_S0052",
+            "start_frame": 16583,
+            "end_frame": 16624,
+            "start_ts": 663.32,
+            "end_ts": 664.96,
+            "duration": 1.64,
+            "keyframes": [
+                {
+                    "frame_idx": 16603,
+                    "timestamp": 664.12,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V083/L25_V083_S0052_F016603.jpg"
+                }
+            ]
+        },
+        {
+            "shot_id": "L25_V083_S0053",
+            "start_frame": 16625,
+            "end_frame": 16655,
+            "start_ts": 665.0,
+            "end_ts": 666.2,
+            "duration": 1.2,
+            "keyframes": [
+                {
+                    "frame_idx": 16640,
+                    "timestamp": 665.6,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V083/L25_V083_S0053_F016640.jpg"
+                }
+            ]
+        },
+        {
+            "shot_id": "L25_V083_S0054",
+            "start_frame": 16656,
+            "end_frame": 16677,
+            "start_ts": 666.24,
+            "end_ts": 667.08,
+            "duration": 0.84,
+            "keyframes": [
+                {
+                    "frame_idx": 16666,
+                    "timestamp": 666.64,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V083/L25_V083_S0054_F016666.jpg"
+                }
+            ]
+        },
+        {
+            "shot_id": "L25_V083_S0055",
+            "start_frame": 16678,
+            "end_frame": 16703,
+            "start_ts": 667.12,
+            "end_ts": 668.12,
+            "duration": 1.0,
+            "keyframes": [
+                {
+                    "frame_idx": 16690,
+                    "timestamp": 667.6,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V083/L25_V083_S0055_F016690.jpg"
+                }
+            ]
+        },
+        {
+            "shot_id": "L25_V083_S0056",
+            "start_frame": 16704,
+            "end_frame": 16848,
+            "start_ts": 668.16,
+            "end_ts": 673.92,
+            "duration": 5.76,
+            "keyframes": [
+                {
+                    "frame_idx": 16776,
+                    "timestamp": 671.04,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V083/L25_V083_S0056_F016776.jpg"
+                },
+                {
+                    "frame_idx": 16740,
+                    "timestamp": 669.6,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V083/L25_V083_S0056_F016740.jpg"
+                },
+                {
+                    "frame_idx": 16812,
+                    "timestamp": 672.48,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V083/L25_V083_S0056_F016812.jpg"
+                }
+            ]
+        },
+        {
+            "shot_id": "L25_V083_S0057",
+            "start_frame": 16849,
+            "end_frame": 16900,
+            "start_ts": 673.96,
+            "end_ts": 676.0,
+            "duration": 2.04,
+            "keyframes": [
+                {
+                    "frame_idx": 16874,
+                    "timestamp": 674.96,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V083/L25_V083_S0057_F016874.jpg"
+                }
+            ]
+        },
+        {
+            "shot_id": "L25_V083_S0058",
+            "start_frame": 16901,
+            "end_frame": 16948,
+            "start_ts": 676.04,
+            "end_ts": 677.92,
+            "duration": 1.88,
+            "keyframes": [
+                {
+                    "frame_idx": 16924,
+                    "timestamp": 676.96,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V083/L25_V083_S0058_F016924.jpg"
+                }
+            ]
+        },
+        {
+            "shot_id": "L25_V083_S0059",
+            "start_frame": 16949,
+            "end_frame": 16967,
+            "start_ts": 677.96,
+            "end_ts": 678.68,
+            "duration": 0.72,
+            "keyframes": [
+                {
+                    "frame_idx": 16958,
+                    "timestamp": 678.32,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V083/L25_V083_S0059_F016958.jpg"
+                }
+            ]
+        },
+        {
+            "shot_id": "L25_V083_S0060",
+            "start_frame": 16968,
+            "end_frame": 17001,
+            "start_ts": 678.72,
+            "end_ts": 680.04,
+            "duration": 1.32,
+            "keyframes": [
+                {
+                    "frame_idx": 16984,
+                    "timestamp": 679.36,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V083/L25_V083_S0060_F016984.jpg"
+                }
+            ]
+        },
+        {
+            "shot_id": "L25_V083_S0061",
+            "start_frame": 17002,
+            "end_frame": 17056,
+            "start_ts": 680.08,
+            "end_ts": 682.24,
+            "duration": 2.16,
+            "keyframes": [
+                {
+                    "frame_idx": 17029,
+                    "timestamp": 681.16,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V083/L25_V083_S0061_F017029.jpg"
+                }
+            ]
+        },
+        {
+            "shot_id": "L25_V083_S0062",
+            "start_frame": 17057,
+            "end_frame": 17203,
+            "start_ts": 682.28,
+            "end_ts": 688.12,
+            "duration": 5.84,
+            "keyframes": [
+                {
+                    "frame_idx": 17130,
+                    "timestamp": 685.2,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V083/L25_V083_S0062_F017130.jpg"
+                },
+                {
+                    "frame_idx": 17093,
+                    "timestamp": 683.72,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V083/L25_V083_S0062_F017093.jpg"
+                },
+                {
+                    "frame_idx": 17166,
+                    "timestamp": 686.64,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V083/L25_V083_S0062_F017166.jpg"
+                }
+            ]
+        },
+        {
+            "shot_id": "L25_V083_S0063",
+            "start_frame": 17204,
+            "end_frame": 17240,
+            "start_ts": 688.16,
+            "end_ts": 689.6,
+            "duration": 1.44,
+            "keyframes": [
+                {
+                    "frame_idx": 17222,
+                    "timestamp": 688.88,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V083/L25_V083_S0063_F017222.jpg"
+                }
+            ]
+        },
+        {
+            "shot_id": "L25_V083_S0064",
+            "start_frame": 17241,
+            "end_frame": 17304,
+            "start_ts": 689.64,
+            "end_ts": 692.16,
+            "duration": 2.52,
+            "keyframes": [
+                {
+                    "frame_idx": 17272,
+                    "timestamp": 690.88,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V083/L25_V083_S0064_F017272.jpg"
+                }
+            ]
+        },
+        {
+            "shot_id": "L25_V083_S0065",
+            "start_frame": 17306,
+            "end_frame": 17349,
+            "start_ts": 692.24,
+            "end_ts": 693.96,
+            "duration": 1.72,
+            "keyframes": [
+                {
+                    "frame_idx": 17327,
+                    "timestamp": 693.08,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V083/L25_V083_S0065_F017327.jpg"
+                }
+            ]
+        },
+        {
+            "shot_id": "L25_V083_S0066",
+            "start_frame": 17350,
+            "end_frame": 17379,
+            "start_ts": 694.0,
+            "end_ts": 695.16,
+            "duration": 1.16,
+            "keyframes": [
+                {
+                    "frame_idx": 17364,
+                    "timestamp": 694.56,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V083/L25_V083_S0066_F017364.jpg"
+                }
+            ]
+        },
+        {
+            "shot_id": "L25_V083_S0067",
+            "start_frame": 17380,
+            "end_frame": 17404,
+            "start_ts": 695.2,
+            "end_ts": 696.16,
+            "duration": 0.96,
+            "keyframes": [
+                {
+                    "frame_idx": 17392,
+                    "timestamp": 695.68,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V083/L25_V083_S0067_F017392.jpg"
+                }
+            ]
+        },
+        {
+            "shot_id": "L25_V083_S0068",
+            "start_frame": 17405,
+            "end_frame": 17639,
+            "start_ts": 696.2,
+            "end_ts": 705.56,
+            "duration": 9.36,
+            "keyframes": [
+                {
+                    "frame_idx": 17522,
+                    "timestamp": 700.88,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V083/L25_V083_S0068_F017522.jpg"
+                },
+                {
+                    "frame_idx": 17463,
+                    "timestamp": 698.52,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V083/L25_V083_S0068_F017463.jpg"
+                },
+                {
+                    "frame_idx": 17580,
+                    "timestamp": 703.2,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V083/L25_V083_S0068_F017580.jpg"
+                }
+            ]
+        },
+        {
+            "shot_id": "L25_V083_S0069",
+            "start_frame": 17640,
+            "end_frame": 17681,
+            "start_ts": 705.6,
+            "end_ts": 707.24,
+            "duration": 1.64,
+            "keyframes": [
+                {
+                    "frame_idx": 17660,
+                    "timestamp": 706.4,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V083/L25_V083_S0069_F017660.jpg"
+                }
+            ]
+        },
+        {
+            "shot_id": "L25_V083_S0070",
+            "start_frame": 17682,
+            "end_frame": 17722,
+            "start_ts": 707.28,
+            "end_ts": 708.88,
+            "duration": 1.6,
+            "keyframes": [
+                {
+                    "frame_idx": 17702,
+                    "timestamp": 708.08,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V083/L25_V083_S0070_F017702.jpg"
+                }
+            ]
+        },
+        {
+            "shot_id": "L25_V083_S0071",
+            "start_frame": 17723,
+            "end_frame": 17796,
+            "start_ts": 708.92,
+            "end_ts": 711.84,
+            "duration": 2.92,
+            "keyframes": [
+                {
+                    "frame_idx": 17759,
+                    "timestamp": 710.36,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V083/L25_V083_S0071_F017759.jpg"
+                }
+            ]
+        },
+        {
+            "shot_id": "L25_V083_S0072",
+            "start_frame": 17798,
+            "end_frame": 17833,
+            "start_ts": 711.92,
+            "end_ts": 713.32,
+            "duration": 1.4,
+            "keyframes": [
+                {
+                    "frame_idx": 17815,
+                    "timestamp": 712.6,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V083/L25_V083_S0072_F017815.jpg"
+                }
+            ]
+        },
+        {
+            "shot_id": "L25_V083_S0073",
+            "start_frame": 17834,
+            "end_frame": 17900,
+            "start_ts": 713.36,
+            "end_ts": 716.0,
+            "duration": 2.64,
+            "keyframes": [
+                {
+                    "frame_idx": 17867,
+                    "timestamp": 714.68,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V083/L25_V083_S0073_F017867.jpg"
+                }
+            ]
+        },
+        {
+            "shot_id": "L25_V083_S0074",
+            "start_frame": 17901,
+            "end_frame": 17917,
+            "start_ts": 716.04,
+            "end_ts": 716.68,
+            "duration": 0.64,
+            "keyframes": [
+                {
+                    "frame_idx": 17909,
+                    "timestamp": 716.36,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V083/L25_V083_S0074_F017909.jpg"
+                }
+            ]
+        },
+        {
+            "shot_id": "L25_V083_S0075",
+            "start_frame": 17918,
+            "end_frame": 17944,
+            "start_ts": 716.72,
+            "end_ts": 717.76,
+            "duration": 1.04,
+            "keyframes": [
+                {
+                    "frame_idx": 17931,
+                    "timestamp": 717.24,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V083/L25_V083_S0075_F017931.jpg"
+                }
+            ]
+        },
+        {
+            "shot_id": "L25_V083_S0076",
+            "start_frame": 17945,
+            "end_frame": 17965,
+            "start_ts": 717.8,
+            "end_ts": 718.6,
+            "duration": 0.8,
+            "keyframes": [
+                {
+                    "frame_idx": 17955,
+                    "timestamp": 718.2,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V083/L25_V083_S0076_F017955.jpg"
+                }
+            ]
+        },
+        {
+            "shot_id": "L25_V083_S0077",
+            "start_frame": 17966,
+            "end_frame": 18009,
+            "start_ts": 718.64,
+            "end_ts": 720.36,
+            "duration": 1.72,
+            "keyframes": [
+                {
+                    "frame_idx": 17987,
+                    "timestamp": 719.48,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V083/L25_V083_S0077_F017987.jpg"
+                }
+            ]
+        },
+        {
+            "shot_id": "L25_V083_S0078",
+            "start_frame": 18011,
+            "end_frame": 18034,
+            "start_ts": 720.44,
+            "end_ts": 721.36,
+            "duration": 0.92,
+            "keyframes": [
+                {
+                    "frame_idx": 18022,
+                    "timestamp": 720.88,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V083/L25_V083_S0078_F018022.jpg"
+                }
+            ]
+        },
+        {
+            "shot_id": "L25_V083_S0079",
+            "start_frame": 18035,
+            "end_frame": 18070,
+            "start_ts": 721.4,
+            "end_ts": 722.8,
+            "duration": 1.4,
+            "keyframes": [
+                {
+                    "frame_idx": 18052,
+                    "timestamp": 722.08,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V083/L25_V083_S0079_F018052.jpg"
+                }
+            ]
+        },
+        {
+            "shot_id": "L25_V083_S0080",
+            "start_frame": 18071,
+            "end_frame": 18132,
+            "start_ts": 722.84,
+            "end_ts": 725.28,
+            "duration": 2.44,
+            "keyframes": [
+                {
+                    "frame_idx": 18101,
+                    "timestamp": 724.04,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V083/L25_V083_S0080_F018101.jpg"
+                }
+            ]
+        },
+        {
+            "shot_id": "L25_V083_S0081",
+            "start_frame": 18133,
+            "end_frame": 18185,
+            "start_ts": 725.32,
+            "end_ts": 727.4,
+            "duration": 2.08,
+            "keyframes": [
+                {
+                    "frame_idx": 18159,
+                    "timestamp": 726.36,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V083/L25_V083_S0081_F018159.jpg"
+                }
+            ]
+        },
+        {
+            "shot_id": "L25_V083_S0082",
+            "start_frame": 18186,
+            "end_frame": 18299,
+            "start_ts": 727.44,
+            "end_ts": 731.96,
+            "duration": 4.52,
+            "keyframes": [
+                {
+                    "frame_idx": 18242,
+                    "timestamp": 729.68,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V083/L25_V083_S0082_F018242.jpg"
+                },
+                {
+                    "frame_idx": 18214,
+                    "timestamp": 728.56,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V083/L25_V083_S0082_F018214.jpg"
+                }
+            ]
+        },
+        {
+            "shot_id": "L25_V083_S0083",
+            "start_frame": 18300,
+            "end_frame": 22494,
+            "start_ts": 732.0,
+            "end_ts": 899.76,
+            "duration": 167.76,
+            "keyframes": [
+                {
+                    "frame_idx": 20397,
+                    "timestamp": 815.88,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V083/L25_V083_S0083_F020397.jpg"
+                }
+            ]
+        },
+        {
+            "shot_id": "L25_V083_S0084",
+            "start_frame": 22495,
+            "end_frame": 25288,
+            "start_ts": 899.8,
+            "end_ts": 1011.52,
+            "duration": 111.72,
+            "keyframes": [
+                {
+                    "frame_idx": 23891,
+                    "timestamp": 955.64,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V083/L25_V083_S0084_F023891.jpg"
+                }
+            ]
+        },
+        {
+            "shot_id": "L25_V083_S0085",
+            "start_frame": 25289,
+            "end_frame": 25567,
+            "start_ts": 1011.56,
+            "end_ts": 1022.68,
+            "duration": 11.12,
+            "keyframes": [
+                {
+                    "frame_idx": 25428,
+                    "timestamp": 1017.12,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V083/L25_V083_S0085_F025428.jpg"
+                }
+            ]
+        },
+        {
+            "shot_id": "L25_V083_S0086",
+            "start_frame": 25568,
+            "end_frame": 25583,
+            "start_ts": 1022.72,
+            "end_ts": 1023.32,
+            "duration": 0.6,
+            "keyframes": [
+                {
+                    "frame_idx": 25575,
+                    "timestamp": 1023.0,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V083/L25_V083_S0086_F025575.jpg"
+                }
+            ]
+        },
+        {
+            "shot_id": "L25_V083_S0087",
+            "start_frame": 25585,
+            "end_frame": 25654,
+            "start_ts": 1023.4,
+            "end_ts": 1026.16,
+            "duration": 2.76,
+            "keyframes": [
+                {
+                    "frame_idx": 25619,
+                    "timestamp": 1024.76,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V083/L25_V083_S0087_F025619.jpg"
+                }
+            ]
+        },
+        {
+            "shot_id": "L25_V083_S0088",
+            "start_frame": 25655,
+            "end_frame": 25723,
+            "start_ts": 1026.2,
+            "end_ts": 1028.92,
+            "duration": 2.72,
+            "keyframes": [
+                {
+                    "frame_idx": 25689,
+                    "timestamp": 1027.56,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V083/L25_V083_S0088_F025689.jpg"
+                }
+            ]
+        },
+        {
+            "shot_id": "L25_V083_S0089",
+            "start_frame": 25724,
+            "end_frame": 25888,
+            "start_ts": 1028.96,
+            "end_ts": 1035.52,
+            "duration": 6.56,
+            "keyframes": [
+                {
+                    "frame_idx": 25806,
+                    "timestamp": 1032.24,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V083/L25_V083_S0089_F025806.jpg"
+                },
+                {
+                    "frame_idx": 25847,
+                    "timestamp": 1033.88,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V083/L25_V083_S0089_F025847.jpg"
+                }
+            ]
+        },
+        {
+            "shot_id": "L25_V083_S0090",
+            "start_frame": 25889,
+            "end_frame": 25933,
+            "start_ts": 1035.56,
+            "end_ts": 1037.32,
+            "duration": 1.76,
+            "keyframes": [
+                {
+                    "frame_idx": 25911,
+                    "timestamp": 1036.44,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V083/L25_V083_S0090_F025911.jpg"
+                }
+            ]
+        },
+        {
+            "shot_id": "L25_V083_S0091",
+            "start_frame": 25934,
+            "end_frame": 25972,
+            "start_ts": 1037.36,
+            "end_ts": 1038.88,
+            "duration": 1.52,
+            "keyframes": [
+                {
+                    "frame_idx": 25953,
+                    "timestamp": 1038.12,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V083/L25_V083_S0091_F025953.jpg"
+                }
+            ]
+        },
+        {
+            "shot_id": "L25_V083_S0092",
+            "start_frame": 25973,
+            "end_frame": 26010,
+            "start_ts": 1038.92,
+            "end_ts": 1040.4,
+            "duration": 1.48,
+            "keyframes": [
+                {
+                    "frame_idx": 25991,
+                    "timestamp": 1039.64,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V083/L25_V083_S0092_F025991.jpg"
+                }
+            ]
+        },
+        {
+            "shot_id": "L25_V083_S0093",
+            "start_frame": 26011,
+            "end_frame": 26046,
+            "start_ts": 1040.44,
+            "end_ts": 1041.84,
+            "duration": 1.4,
+            "keyframes": [
+                {
+                    "frame_idx": 26028,
+                    "timestamp": 1041.12,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V083/L25_V083_S0093_F026028.jpg"
+                }
+            ]
+        },
+        {
+            "shot_id": "L25_V083_S0094",
+            "start_frame": 26047,
+            "end_frame": 26081,
+            "start_ts": 1041.88,
+            "end_ts": 1043.24,
+            "duration": 1.36,
+            "keyframes": [
+                {
+                    "frame_idx": 26064,
+                    "timestamp": 1042.56,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V083/L25_V083_S0094_F026064.jpg"
+                }
+            ]
+        },
+        {
+            "shot_id": "L25_V083_S0095",
+            "start_frame": 26082,
+            "end_frame": 26116,
+            "start_ts": 1043.28,
+            "end_ts": 1044.64,
+            "duration": 1.36,
+            "keyframes": [
+                {
+                    "frame_idx": 26099,
+                    "timestamp": 1043.96,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V083/L25_V083_S0095_F026099.jpg"
+                }
+            ]
+        },
+        {
+            "shot_id": "L25_V083_S0096",
+            "start_frame": 26117,
+            "end_frame": 26184,
+            "start_ts": 1044.68,
+            "end_ts": 1047.36,
+            "duration": 2.68,
+            "keyframes": [
+                {
+                    "frame_idx": 26150,
+                    "timestamp": 1046.0,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V083/L25_V083_S0096_F026150.jpg"
+                }
+            ]
+        },
+        {
+            "shot_id": "L25_V083_S0097",
+            "start_frame": 26185,
+            "end_frame": 26218,
+            "start_ts": 1047.4,
+            "end_ts": 1048.72,
+            "duration": 1.32,
+            "keyframes": [
+                {
+                    "frame_idx": 26201,
+                    "timestamp": 1048.04,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V083/L25_V083_S0097_F026201.jpg"
+                }
+            ]
+        },
+        {
+            "shot_id": "L25_V083_S0098",
+            "start_frame": 26219,
+            "end_frame": 26281,
+            "start_ts": 1048.76,
+            "end_ts": 1051.24,
+            "duration": 2.48,
+            "keyframes": [
+                {
+                    "frame_idx": 26250,
+                    "timestamp": 1050.0,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V083/L25_V083_S0098_F026250.jpg"
+                }
+            ]
+        },
+        {
+            "shot_id": "L25_V083_S0099",
+            "start_frame": 26283,
+            "end_frame": 26326,
+            "start_ts": 1051.32,
+            "end_ts": 1053.04,
+            "duration": 1.72,
+            "keyframes": [
+                {
+                    "frame_idx": 26304,
+                    "timestamp": 1052.16,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V083/L25_V083_S0099_F026304.jpg"
+                }
+            ]
+        },
+        {
+            "shot_id": "L25_V083_S0100",
+            "start_frame": 26327,
+            "end_frame": 26362,
+            "start_ts": 1053.08,
+            "end_ts": 1054.48,
+            "duration": 1.4,
+            "keyframes": [
+                {
+                    "frame_idx": 26344,
+                    "timestamp": 1053.76,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V083/L25_V083_S0100_F026344.jpg"
+                }
+            ]
+        },
+        {
+            "shot_id": "L25_V083_S0101",
+            "start_frame": 26363,
+            "end_frame": 26413,
+            "start_ts": 1054.52,
+            "end_ts": 1056.52,
+            "duration": 2.0,
+            "keyframes": [
+                {
+                    "frame_idx": 26388,
+                    "timestamp": 1055.52,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V083/L25_V083_S0101_F026388.jpg"
+                }
+            ]
+        },
+        {
+            "shot_id": "L25_V083_S0102",
+            "start_frame": 26414,
+            "end_frame": 26453,
+            "start_ts": 1056.56,
+            "end_ts": 1058.12,
+            "duration": 1.56,
+            "keyframes": [
+                {
+                    "frame_idx": 26433,
+                    "timestamp": 1057.32,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V083/L25_V083_S0102_F026433.jpg"
+                }
+            ]
+        },
+        {
+            "shot_id": "L25_V083_S0103",
+            "start_frame": 26454,
+            "end_frame": 26547,
+            "start_ts": 1058.16,
+            "end_ts": 1061.88,
+            "duration": 3.72,
+            "keyframes": [
+                {
+                    "frame_idx": 26500,
+                    "timestamp": 1060.0,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V083/L25_V083_S0103_F026500.jpg"
+                },
+                {
+                    "frame_idx": 26477,
+                    "timestamp": 1059.08,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V083/L25_V083_S0103_F026477.jpg"
+                },
+                {
+                    "frame_idx": 26523,
+                    "timestamp": 1060.92,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V083/L25_V083_S0103_F026523.jpg"
+                }
+            ]
+        },
+        {
+            "shot_id": "L25_V083_S0104",
+            "start_frame": 26548,
+            "end_frame": 26617,
+            "start_ts": 1061.92,
+            "end_ts": 1064.68,
+            "duration": 2.76,
+            "keyframes": [
+                {
+                    "frame_idx": 26582,
+                    "timestamp": 1063.28,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V083/L25_V083_S0104_F026582.jpg"
+                }
+            ]
+        },
+        {
+            "shot_id": "L25_V083_S0105",
+            "start_frame": 26618,
+            "end_frame": 26730,
+            "start_ts": 1064.72,
+            "end_ts": 1069.2,
+            "duration": 4.48,
+            "keyframes": [
+                {
+                    "frame_idx": 26674,
+                    "timestamp": 1066.96,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V083/L25_V083_S0105_F026674.jpg"
+                },
+                {
+                    "frame_idx": 26646,
+                    "timestamp": 1065.84,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V083/L25_V083_S0105_F026646.jpg"
+                },
+                {
+                    "frame_idx": 26702,
+                    "timestamp": 1068.08,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V083/L25_V083_S0105_F026702.jpg"
+                }
+            ]
+        },
+        {
+            "shot_id": "L25_V083_S0106",
+            "start_frame": 26731,
+            "end_frame": 26762,
+            "start_ts": 1069.24,
+            "end_ts": 1070.48,
+            "duration": 1.24,
+            "keyframes": [
+                {
+                    "frame_idx": 26746,
+                    "timestamp": 1069.84,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V083/L25_V083_S0106_F026746.jpg"
+                }
+            ]
+        },
+        {
+            "shot_id": "L25_V083_S0107",
+            "start_frame": 26763,
+            "end_frame": 26800,
+            "start_ts": 1070.52,
+            "end_ts": 1072.0,
+            "duration": 1.48,
+            "keyframes": [
+                {
+                    "frame_idx": 26781,
+                    "timestamp": 1071.24,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V083/L25_V083_S0107_F026781.jpg"
+                }
+            ]
+        },
+        {
+            "shot_id": "L25_V083_S0108",
+            "start_frame": 26801,
+            "end_frame": 26938,
+            "start_ts": 1072.04,
+            "end_ts": 1077.52,
+            "duration": 5.48,
+            "keyframes": [
+                {
+                    "frame_idx": 26869,
+                    "timestamp": 1074.76,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V083/L25_V083_S0108_F026869.jpg"
+                },
+                {
+                    "frame_idx": 26835,
+                    "timestamp": 1073.4,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V083/L25_V083_S0108_F026835.jpg"
+                },
+                {
+                    "frame_idx": 26903,
+                    "timestamp": 1076.12,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V083/L25_V083_S0108_F026903.jpg"
+                }
+            ]
+        },
+        {
+            "shot_id": "L25_V083_S0109",
+            "start_frame": 26940,
+            "end_frame": 27067,
+            "start_ts": 1077.6,
+            "end_ts": 1082.68,
+            "duration": 5.08,
+            "keyframes": [
+                {
+                    "frame_idx": 27003,
+                    "timestamp": 1080.12,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L25_V083/L25_V083_S0109_F027003.jpg"
+                }
+            ]
+        },
+        {
+            "shot_id": "L25_V083_S0110",
+            "start_frame": 27068,
+            "end_frame": 27173,
+            "start_ts": 1082.72,
+            "end_ts": 1086.92,
+            "duration": 4.2,
+            "keyframes": []
+        },
+        {
+            "shot_id": "L25_V083_S0111",
+            "start_frame": 27174,
+            "end_frame": 27180,
+            "start_ts": 1086.96,
+            "end_ts": 1087.2,
+            "duration": 0.24,
+            "keyframes": []
+        }
+    ]
+}

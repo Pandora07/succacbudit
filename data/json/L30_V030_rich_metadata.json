@@ -1,0 +1,1685 @@
+{
+    "video_id": "L30_V030",
+    "fps": 25.0,
+    "total_shots": 65,
+    "total_keyframes": 78,
+    "shots": [
+        {
+            "shot_id": "L30_V030_S0001",
+            "start_frame": 0,
+            "end_frame": 74,
+            "start_ts": 0.0,
+            "end_ts": 2.96,
+            "duration": 2.96,
+            "keyframes": [],
+            "extracted_data": {
+                "transcript": "Thank you.",
+                "ocr_text": ""
+            }
+        },
+        {
+            "shot_id": "L30_V030_S0002",
+            "start_frame": 75,
+            "end_frame": 169,
+            "start_ts": 3.0,
+            "end_ts": 6.76,
+            "duration": 3.76,
+            "keyframes": [
+                {
+                    "frame_idx": 122,
+                    "timestamp": 4.88,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V030/L30_V030_S0002_F000122.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Thank you.",
+                "ocr_text": "Herbalife thương hiệu quản lý cân nặng # & sức khỏe trên thế giới",
+                "vlm_caption": {
+                    "detailed_description": "The image features a green circular logo with the text \"Herbalife\" and \"thương hiệu quản lý cân nặng & sức khỏe trên thế giới\" in Vietnamese, indicating Herbalife as the world's number one brand in weight management and health management"
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V030_S0003",
+            "start_frame": 170,
+            "end_frame": 288,
+            "start_ts": 6.8,
+            "end_ts": 11.52,
+            "duration": 4.72,
+            "keyframes": [
+                {
+                    "frame_idx": 229,
+                    "timestamp": 9.16,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V030/L30_V030_S0003_F000229.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Thank you.",
+                "ocr_text": "Clip bạn đọc dự thi cuộc thi: Lan tỏa năng lượng tích cực 2024",
+                "vlm_caption": {
+                    "detailed_description": "The image contains text in Vietnamese, indicating a clip related to a contest or competition titled \"Lan tỏa năng lượng tích cực 2024.\""
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V030_S0004",
+            "start_frame": 289,
+            "end_frame": 364,
+            "start_ts": 11.56,
+            "end_ts": 14.56,
+            "duration": 3.0,
+            "keyframes": [
+                {
+                    "frame_idx": 326,
+                    "timestamp": 13.04,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V030/L30_V030_S0004_F000326.jpg"
+                },
+                {
+                    "frame_idx": 307,
+                    "timestamp": 12.28,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V030/L30_V030_S0004_F000307.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Thank you.",
+                "ocr_text": "NHƯNG G KHI CHON MEA BAM BÃO AN TA # Thắp sáng tương lai bằng con chữ | KHI CHON BIM BẢO AN TG # 8 sưc khoe",
+                "vlm_caption": {
+                    "detailed_description": "A teacher and a student are standing in front of a chalkboard in a classroom setting.",
+                    "objects_and_counts": [
+                        "2 person, 1 bottle, 1 car | 2 person, 1 bottle"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V030_S0005",
+            "start_frame": 365,
+            "end_frame": 415,
+            "start_ts": 14.6,
+            "end_ts": 16.6,
+            "duration": 2.0,
+            "keyframes": [
+                {
+                    "frame_idx": 390,
+                    "timestamp": 15.6,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V030/L30_V030_S0005_F000390.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Thank you.",
+                "ocr_text": "tuoi trẻv 7 764 + 2 + 146 Thắp sáng tương lai bằng con chữ 70",
+                "vlm_caption": {
+                    "detailed_description": "A hand writes the number 764 on a green chalkboard, with a calculator and a green banner with text in the foreground.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V030_S0006",
+            "start_frame": 416,
+            "end_frame": 490,
+            "start_ts": 16.64,
+            "end_ts": 19.6,
+            "duration": 2.96,
+            "keyframes": [
+                {
+                    "frame_idx": 453,
+                    "timestamp": 18.12,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V030/L30_V030_S0006_F000453.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Thank you.",
+                "ocr_text": "707 264 + 247 954 346 +423 769 thương hiệu Thắp sáng tương lai bằng con chữ",
+                "vlm_caption": {
+                    "detailed_description": "A young girl in a yellow shirt is writing on a green chalkboard with a teacher standing beside her, both focused on solving a math problem.",
+                    "objects_and_counts": [
+                        "3 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V030_S0007",
+            "start_frame": 491,
+            "end_frame": 810,
+            "start_ts": 19.64,
+            "end_ts": 32.4,
+            "duration": 12.76,
+            "keyframes": [
+                {
+                    "frame_idx": 650,
+                    "timestamp": 26.0,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V030/L30_V030_S0007_F000650.jpg"
+                },
+                {
+                    "frame_idx": 570,
+                    "timestamp": 22.8,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V030/L30_V030_S0007_F000570.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Khi tham gia chương trình gia sư ấu xanh của TP.HCM, kỳ hè 2023, gia sư ấu xanh mình được về nhóm bụng tư mình ở dạy trường tiểu học Bí Nhơn.",
+                "ocr_text": "tuoi trẻmv thương hiệu Thầy LÊ TẤN PHÁT Giáo viên lớp học tình thương Ánh Sáng Xanh | tuổi trẻTv DEPARTMENT OF VIETNI",
+                "vlm_caption": {
+                    "detailed_description": "A man in a dark blue shirt stands in an indoor setting, speaking, with a green screen logo and a logo for \"tuoitre TV\" visible in the background.",
+                    "objects_and_counts": [
+                        "2 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V030_S0008",
+            "start_frame": 811,
+            "end_frame": 953,
+            "start_ts": 32.44,
+            "end_ts": 38.12,
+            "duration": 5.68,
+            "keyframes": [
+                {
+                    "frame_idx": 882,
+                    "timestamp": 35.28,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V030/L30_V030_S0008_F000882.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Trong mùa hè, gia sứa sanh chỉ dạy được công việc hè Trong thời gian có hoạt hướng",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A teacher and students are working on a math problem at a chalkboard in a classroom.",
+                    "objects_and_counts": [
+                        "4 person, 1 chair, 1 bottle"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V030_S0009",
+            "start_frame": 954,
+            "end_frame": 1113,
+            "start_ts": 38.16,
+            "end_ts": 44.52,
+            "duration": 6.36,
+            "keyframes": [
+                {
+                    "frame_idx": 1033,
+                    "timestamp": 41.32,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V030/L30_V030_S0009_F001033.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "sau khi 2 tháng mình dạy cắn bó với lớn học thì khoảng 2 tháng sau khi 2 tháng mình thấy tình cảm của mình với các bé á",
+                "ocr_text": "764 + 2 + 146 10",
+                "vlm_caption": {
+                    "detailed_description": "A hand points to the sum of 764 and 146 on a green chalkboard, with additional calculations visible in the background.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V030_S0010",
+            "start_frame": 1114,
+            "end_frame": 1437,
+            "start_ts": 44.56,
+            "end_ts": 57.48,
+            "duration": 12.92,
+            "keyframes": [
+                {
+                    "frame_idx": 1275,
+                    "timestamp": 51.0,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V030/L30_V030_S0010_F001275.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "với thấy các bé nhiều có hàn cảnh khó khăn nên mình xin ở lại quận 4 và bên phường sẽ là phân thường tạo cho mình điều kiện đi tới dạy và phường lập cho mình là cái lớp học lên là lớp học",
+                "ocr_text": "tuổi trẻTy",
+                "vlm_caption": {
+                    "detailed_description": "A young man in a dark blue shirt stands in an indoor setting, wearing a lanyard, with a window and a ceiling fan visible in the background.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V030_S0011",
+            "start_frame": 1438,
+            "end_frame": 1487,
+            "start_ts": 57.52,
+            "end_ts": 59.48,
+            "duration": 1.96,
+            "keyframes": [
+                {
+                    "frame_idx": 1462,
+                    "timestamp": 58.48,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V030/L30_V030_S0011_F001462.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Thank you.",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "Two children, a girl with pink hair bows and a boy with glasses, are sitting at a table and looking at a colorful book together.",
+                    "objects_and_counts": [
+                        "2 person, 5 chair, 2 dining table, 3 book"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V030_S0012",
+            "start_frame": 1488,
+            "end_frame": 1566,
+            "start_ts": 59.52,
+            "end_ts": 62.64,
+            "duration": 3.12,
+            "keyframes": [
+                {
+                    "frame_idx": 1527,
+                    "timestamp": 61.08,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V030/L30_V030_S0012_F001527.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Hiện tại là lớp mình tổng là được 15 bé.",
+                "ocr_text": "tučitrery NO HN AT",
+                "vlm_caption": {
+                    "detailed_description": "Two children, a girl and a boy, are sitting at a table, both wearing yellow shirts and looking at something on the table.",
+                    "objects_and_counts": [
+                        "2 person, 3 chair, 1 bench"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V030_S0013",
+            "start_frame": 1567,
+            "end_frame": 1638,
+            "start_ts": 62.68,
+            "end_ts": 65.52,
+            "duration": 2.84,
+            "keyframes": [
+                {
+                    "frame_idx": 1602,
+                    "timestamp": 64.08,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V030/L30_V030_S0013_F001602.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "đi học siêu nhất là được 11 vé 10 loại nghề",
+                "ocr_text": "A tuoi trev LỚP H H SÁN SOATI",
+                "vlm_caption": {
+                    "detailed_description": "A child is reading a comic book featuring various scenes of a boy and a girl in different activities.",
+                    "objects_and_counts": [
+                        "2 person, 2 book"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V030_S0014",
+            "start_frame": 1639,
+            "end_frame": 1694,
+            "start_ts": 65.56,
+            "end_ts": 67.76,
+            "duration": 2.2,
+            "keyframes": [
+                {
+                    "frame_idx": 1666,
+                    "timestamp": 66.64,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V030/L30_V030_S0014_F001666.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "10 tháng 8 nay con thì tư là mình làm để tổng đài.",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "Two children, a boy and a girl, are sitting at a table and reading a book together.",
+                    "objects_and_counts": [
+                        "2 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V030_S0015",
+            "start_frame": 1695,
+            "end_frame": 1894,
+            "start_ts": 67.8,
+            "end_ts": 75.76,
+            "duration": 7.96,
+            "keyframes": [
+                {
+                    "frame_idx": 1794,
+                    "timestamp": 71.76,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V030/L30_V030_S0015_F001794.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "kết vào trường tuổi 11 bé đó còn 4 bé còn lại thì mình đã thấy đi học không đều thì mình sẽ dành một phần hướng ri nữa",
+                "ocr_text": "tuổi trẻv NGŨ VÀI DEPARTMENT OF VIET ODE",
+                "vlm_caption": {
+                    "detailed_description": "A man in a dark shirt stands in a dimly lit room with a window and a ceiling fan in the background.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V030_S0016",
+            "start_frame": 1895,
+            "end_frame": 2006,
+            "start_ts": 75.8,
+            "end_ts": 80.24,
+            "duration": 4.44,
+            "keyframes": [
+                {
+                    "frame_idx": 1950,
+                    "timestamp": 78.0,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V030/L30_V030_S0016_F001950.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "11 bé gồm đa số các bé có cha mẹ là công nhân",
+                "ocr_text": "Thứ 4 ngay 14 tháng 8 năm 2024 CỘNG BÒA XÀ BỘI CHỦ SỰ 1/ Tính",
+                "vlm_caption": {
+                    "detailed_description": "A person is writing on a green chalkboard with a whiteboard marker.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V030_S0017",
+            "start_frame": 2007,
+            "end_frame": 2070,
+            "start_ts": 80.28,
+            "end_ts": 82.8,
+            "duration": 2.52,
+            "keyframes": [
+                {
+                    "frame_idx": 2038,
+                    "timestamp": 81.52,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V030/L30_V030_S0017_F002038.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "hoặc là làm cái công việc",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A young girl wearing a blue school uniform with white stripes is sitting at a desk, writing in a notebook with a pink pen.",
+                    "objects_and_counts": [
+                        "1 person, 2 chair"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V030_S0018",
+            "start_frame": 2071,
+            "end_frame": 2144,
+            "start_ts": 82.84,
+            "end_ts": 85.76,
+            "duration": 2.92,
+            "keyframes": [
+                {
+                    "frame_idx": 2107,
+                    "timestamp": 84.28,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V030/L30_V030_S0018_F002107.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Đau động kiểu mà Đau động tự do á",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A young boy wearing glasses and a yellow shirt is writing on a piece of paper with a white pencil.",
+                    "objects_and_counts": [
+                        "3 person, 3 chair"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V030_S0019",
+            "start_frame": 2145,
+            "end_frame": 2226,
+            "start_ts": 85.8,
+            "end_ts": 89.04,
+            "duration": 3.24,
+            "keyframes": [
+                {
+                    "frame_idx": 2185,
+                    "timestamp": 87.4,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V030/L30_V030_S0019_F002185.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Ví dụ bữa nay có đi làm thì bữa mai là không có làm á Khó khăn thì...",
+                "ocr_text": "tuöi trẻtv 1/ Tính 21 Tính 763 362 76+ 2 6 176 76 2 3",
+                "vlm_caption": {
+                    "detailed_description": "A teacher is writing on a green chalkboard, demonstrating mathematical calculations.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V030_S0020",
+            "start_frame": 2227,
+            "end_frame": 2302,
+            "start_ts": 89.08,
+            "end_ts": 92.08,
+            "duration": 3.0,
+            "keyframes": [
+                {
+                    "frame_idx": 2264,
+                    "timestamp": 90.56,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V030/L30_V030_S0020_F002264.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Nhầm có 2 bé Và đặc biệt là nó cũng",
+                "ocr_text": "764 707",
+                "vlm_caption": {
+                    "detailed_description": "A person is writing on a green chalkboard with a map of Vietnam in the background.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V030_S0021",
+            "start_frame": 2303,
+            "end_frame": 2359,
+            "start_ts": 92.12,
+            "end_ts": 94.36,
+            "duration": 2.24,
+            "keyframes": [
+                {
+                    "frame_idx": 2331,
+                    "timestamp": 93.24,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V030/L30_V030_S0021_F002331.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "mình không có độc giấc tối, ví dụ có",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A young girl in a yellow and blue uniform is sitting at a desk, holding a green pen and writing in a notebook.",
+                    "objects_and_counts": [
+                        "2 person, 3 chair"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V030_S0022",
+            "start_frame": 2360,
+            "end_frame": 2430,
+            "start_ts": 94.4,
+            "end_ts": 97.2,
+            "duration": 2.8,
+            "keyframes": [
+                {
+                    "frame_idx": 2395,
+                    "timestamp": 95.8,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V030/L30_V030_S0022_F002395.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "và lúc trước là có 2 vé mầm non",
+                "ocr_text": "Thứ 4 ngày 14 tháng 8 năm 2024 CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆ 3/ 1/Tính 2/ Tính 707 764 763 362 + 247 + 146 76+ 4 2 2 4000 67+2 246 ·76 176 323 2 3 200 LÊ TÁNH TÔN",
+                "vlm_caption": {
+                    "detailed_description": "Three children are working on math problems on a green chalkboard in a classroom.",
+                    "objects_and_counts": [
+                        "3 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V030_S0023",
+            "start_frame": 2431,
+            "end_frame": 2522,
+            "start_ts": 97.24,
+            "end_ts": 100.88,
+            "duration": 3.64,
+            "keyframes": [
+                {
+                    "frame_idx": 2476,
+                    "timestamp": 99.04,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V030/L30_V030_S0023_F002476.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "1 bé lớp 5, tất cả còn lại là lớp 4 và có 2 bé lớp 3",
+                "ocr_text": "tuổi trẻTy DEPARTMENT OF VIETNA ODE",
+                "vlm_caption": {
+                    "detailed_description": "A young man in a dark shirt stands in an indoor setting, speaking with his mouth open, wearing a lanyard with a badge.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V030_S0024",
+            "start_frame": 2523,
+            "end_frame": 2591,
+            "start_ts": 100.92,
+            "end_ts": 103.64,
+            "duration": 2.72,
+            "keyframes": [
+                {
+                    "frame_idx": 2557,
+                    "timestamp": 102.28,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V030/L30_V030_S0024_F002557.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Thank you.",
+                "ocr_text": "NUHIA VIỆT NAM 3/ 764 707 + 1.46 + 247 1000 476",
+                "vlm_caption": {
+                    "detailed_description": "A student points to a math problem on a chalkboard while a teacher observes, with a map of Vietnam and other educational materials in the background.",
+                    "objects_and_counts": [
+                        "3 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V030_S0025",
+            "start_frame": 2592,
+            "end_frame": 2670,
+            "start_ts": 103.68,
+            "end_ts": 106.8,
+            "duration": 3.12,
+            "keyframes": [
+                {
+                    "frame_idx": 2631,
+                    "timestamp": 105.24,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V030/L30_V030_S0025_F002631.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Lúc mình đi phim nó đã có đa dạng về khối mình sẽ chọn là",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A young boy wearing glasses is writing on a blackboard with a math problem.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V030_S0026",
+            "start_frame": 2671,
+            "end_frame": 2745,
+            "start_ts": 106.84,
+            "end_ts": 109.8,
+            "duration": 2.96,
+            "keyframes": [
+                {
+                    "frame_idx": 2708,
+                    "timestamp": 108.32,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V030/L30_V030_S0026_F002708.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "có 4 và 5 sẽ học chung chi thức, ví dụ là môn tiếng Việt",
+                "ocr_text": "764 707 + 247 1000 954 46 + 23",
+                "vlm_caption": {
+                    "detailed_description": "A teacher and a student are working on a math problem together at a chalkboard.",
+                    "objects_and_counts": [
+                        "2 person, 2 bottle"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V030_S0027",
+            "start_frame": 2746,
+            "end_frame": 2855,
+            "start_ts": 109.84,
+            "end_ts": 114.2,
+            "duration": 4.36,
+            "keyframes": [
+                {
+                    "frame_idx": 2800,
+                    "timestamp": 112.0,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V030/L30_V030_S0027_F002800.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "rồi thì mình sẽ dạy môn tập đọc và môn đọc hiểu còn tón thì mình chủ yếu dạy các",
+                "ocr_text": "3/ 707 764 + 247 + 146 76+4=80 4000 954 67+3=70 3G 46+4=50 +4",
+                "vlm_caption": {
+                    "detailed_description": "A young girl and a boy are solving math problems on a green chalkboard, with a map of Vietnam displayed on the wall behind them.",
+                    "objects_and_counts": [
+                        "4 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V030_S0028",
+            "start_frame": 2856,
+            "end_frame": 3406,
+            "start_ts": 114.24,
+            "end_ts": 136.24,
+            "duration": 22.0,
+            "keyframes": [
+                {
+                    "frame_idx": 3131,
+                    "timestamp": 125.24,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V030/L30_V030_S0028_F003131.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "hoặc là điểm ít hay là cộng trừ, nhân chia. Còn mình sẽ chia vào nhóm thứ hai là từ học sinh lớp 1 đến lớp 3 thì chủ yếu mình rèn việc chính tả và tập đọc. Còn mình sẽ kèm riêng cho phần bé lớp 1 thì lớp 1 mình sẽ chính tả chưa có viết mình chủ yếu là mình rèn chữ cho các bé làm quen với mặt chữ trong quá trình dạy.",
+                "ocr_text": "tuoi trẻTy DEPARTMENT OF VIETN",
+                "vlm_caption": {
+                    "detailed_description": "A man in a dark shirt stands in an indoor setting with a purple lanyard, a ceiling fan, and a window in the background.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V030_S0029",
+            "start_frame": 3407,
+            "end_frame": 3494,
+            "start_ts": 136.28,
+            "end_ts": 139.76,
+            "duration": 3.48,
+            "keyframes": [
+                {
+                    "frame_idx": 3450,
+                    "timestamp": 138.0,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V030/L30_V030_S0029_F003450.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "90 phút mình rất là mệt đuối Tại do là phong lan nó nhẹ",
+                "ocr_text": "1/ linh tuoi trẻTv 362 76",
+                "vlm_caption": {
+                    "detailed_description": "A person is writing on a green chalkboard with the number 362 multiplied by 2, resulting in 76.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V030_S0030",
+            "start_frame": 3495,
+            "end_frame": 3917,
+            "start_ts": 139.8,
+            "end_ts": 156.68,
+            "duration": 16.88,
+            "keyframes": [
+                {
+                    "frame_idx": 3706,
+                    "timestamp": 148.24,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V030/L30_V030_S0030_F003706.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Nó hay mệt, đôi lúc mình dạy mình nói không nổi, hụt hơi nữa Tại do mình dạy bên từ thực hành là chuyên ngành môn của mình là Sư phạm Vũ Văn Mà mình dạy khối 12 thì nó hay cực là cái lượng giới thức mình over là rất là nhiều Đặc biệt cái môn của mình là môn nói nhiều nhất",
+                "ocr_text": "tuoi trẻty KHOA DEPARTMENT OF VIETNA 3000",
+                "vlm_caption": {
+                    "detailed_description": "A young man stands in a dimly lit room, wearing a dark shirt and a lanyard, with a ceiling fan and a window in the background.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V030_S0031",
+            "start_frame": 3918,
+            "end_frame": 4009,
+            "start_ts": 156.72,
+            "end_ts": 160.36,
+            "duration": 3.64,
+            "keyframes": [
+                {
+                    "frame_idx": 3963,
+                    "timestamp": 158.52,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V030/L30_V030_S0031_F003963.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Nên khi mình dạy qua đây mình rất là mệt Nhưng mà sau khi",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A teacher stands at the front of a classroom, holding a bag of snacks, while students sit at desks, engaged in writing activities.",
+                    "objects_and_counts": [
+                        "3 person, 2 dining table, 6 chair, 1 bench"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V030_S0032",
+            "start_frame": 4010,
+            "end_frame": 4093,
+            "start_ts": 160.4,
+            "end_ts": 163.72,
+            "duration": 3.32,
+            "keyframes": [
+                {
+                    "frame_idx": 4051,
+                    "timestamp": 162.04,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V030/L30_V030_S0032_F004051.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Các bé học và trò chuyện với mình",
+                "ocr_text": "IG LE",
+                "vlm_caption": {
+                    "detailed_description": "Three children are sitting at a table in a classroom, engaged in writing activities.",
+                    "objects_and_counts": [
+                        "4 person, 3 chair, 2 book"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V030_S0033",
+            "start_frame": 4094,
+            "end_frame": 4235,
+            "start_ts": 163.76,
+            "end_ts": 169.4,
+            "duration": 5.64,
+            "keyframes": [
+                {
+                    "frame_idx": 4164,
+                    "timestamp": 166.56,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V030/L30_V030_S0033_F004164.jpg"
+                },
+                {
+                    "frame_idx": 4199,
+                    "timestamp": 167.96,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V030/L30_V030_S0033_F004199.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "có động lực để tiếp tục lớp học",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A young man in a blue shirt is holding a colorful book and smiling in a classroom setting.",
+                    "objects_and_counts": [
+                        "1 person, 3 book, 1 chair, 1 tie | 4 book, 2 person, 1 chair, 1 tie"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V030_S0034",
+            "start_frame": 4236,
+            "end_frame": 4624,
+            "start_ts": 169.44,
+            "end_ts": 184.96,
+            "duration": 15.52,
+            "keyframes": [
+                {
+                    "frame_idx": 4430,
+                    "timestamp": 177.2,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V030/L30_V030_S0034_F004430.jpg"
+                },
+                {
+                    "frame_idx": 4527,
+                    "timestamp": 181.08,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V030/L30_V030_S0034_F004527.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Thường hồi đó mình không có dạy lớp học ánh sáng xanh này Thường thường là 10h30 học 11h mình phải đi ngủ Tại mình dạy buổi sáng phải về sớm Còn cái này là phải tầm thường thường Nếu bữa nào mình dạy bên lớp học ánh sáng xanh Mình phải chọn bài trước Thì là nhầm bữa 11h, 11h hoặc 12h mấy là mình mới được ngủ",
+                "ocr_text": "tuoi trẻtv IGUISTICS thương hiệu Thầy LÊ TẤN PHÁT Giáo viên lớp học tình thương Ánh Sáng Xanh | tuoi trẻTy LINGUISTICS KHOA DEPARTMENT OF VIETNAI 1001",
+                "vlm_caption": {
+                    "detailed_description": "A young man stands in a dimly lit room, wearing a dark shirt and a lanyard, with a ceiling fan and a window in the background.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V030_S0035",
+            "start_frame": 4625,
+            "end_frame": 4806,
+            "start_ts": 185.0,
+            "end_ts": 192.24,
+            "duration": 7.24,
+            "keyframes": [
+                {
+                    "frame_idx": 4715,
+                    "timestamp": 188.6,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V030/L30_V030_S0035_F004715.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Mình có lý dụ trong thời gian dạy 90 phút, mình dạy cho các bé khoảng 30 phút.",
+                "ocr_text": "ỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM",
+                "vlm_caption": {
+                    "detailed_description": "A man stands in a classroom holding a book, with a map of Vietnam and a poster on the wall behind him.",
+                    "objects_and_counts": [
+                        "2 person, 2 book"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V030_S0036",
+            "start_frame": 4807,
+            "end_frame": 4946,
+            "start_ts": 192.28,
+            "end_ts": 197.84,
+            "duration": 5.56,
+            "keyframes": [
+                {
+                    "frame_idx": 4876,
+                    "timestamp": 195.04,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V030/L30_V030_S0036_F004876.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "hoặc là 35 gì đó, mình sẽ cho bé ra chơi ví dụ mình cho chơi tốn tiềm hay là chơi vẽ dây gì đó",
+                "ocr_text": "tuoi teTv L6 THÁNH TÔN",
+                "vlm_caption": {
+                    "detailed_description": "Three children are sitting at a table in a classroom setting, with one standing and looking to the side.",
+                    "objects_and_counts": [
+                        "3 person, 2 chair"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V030_S0037",
+            "start_frame": 4947,
+            "end_frame": 5085,
+            "start_ts": 197.88,
+            "end_ts": 203.4,
+            "duration": 5.52,
+            "keyframes": [
+                {
+                    "frame_idx": 5016,
+                    "timestamp": 200.64,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V030/L30_V030_S0037_F005016.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "có nghĩa là mình không quá hấp đặc về kiến thức nhiều nhưng mà mình cho lớp khóe là thoải mái",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A man in a blue shirt is sitting at a table in a classroom setting, with a window and some children's books visible in the background.",
+                    "objects_and_counts": [
+                        "1 person, 2 chair"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V030_S0038",
+            "start_frame": 5086,
+            "end_frame": 5185,
+            "start_ts": 203.44,
+            "end_ts": 207.4,
+            "duration": 3.96,
+            "keyframes": [
+                {
+                    "frame_idx": 5135,
+                    "timestamp": 205.4,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V030/L30_V030_S0038_F005135.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Thì nhiều sự khi có việc ở máy các bé thì các bé mới ham học và và",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A teacher stands at the front of a classroom, holding a book and addressing students seated at desks.",
+                    "objects_and_counts": [
+                        "6 person, 9 chair, 3 book"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V030_S0039",
+            "start_frame": 5186,
+            "end_frame": 5321,
+            "start_ts": 207.44,
+            "end_ts": 212.84,
+            "duration": 5.4,
+            "keyframes": [
+                {
+                    "frame_idx": 5253,
+                    "timestamp": 210.12,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V030/L30_V030_S0039_F005253.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Còn nếu mình đặt kiến thức quá nhiều thì ví dụ có bé thấy lớp học hạt là thấy mình đã sợ rồi.",
+                "ocr_text": "LÝ NHƠN LE NI",
+                "vlm_caption": {
+                    "detailed_description": "A young boy and girl are sitting at a table, with the boy wearing glasses and a yellow shirt with black stripes, and the girl with pink hair accessories.",
+                    "objects_and_counts": [
+                        "2 person, 3 chair, 1 dining table"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V030_S0040",
+            "start_frame": 5322,
+            "end_frame": 5527,
+            "start_ts": 212.88,
+            "end_ts": 221.08,
+            "duration": 8.2,
+            "keyframes": [
+                {
+                    "frame_idx": 5424,
+                    "timestamp": 216.96,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V030/L30_V030_S0040_F005424.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Nói chung là mình lòng ghép vừa chơi và học Để cho các bé có một tâm trạng vui Vừa học và vừa chơi Các bé sẽ có động lực để học tiếp",
+                "ocr_text": "tuoi trẻy DEPARTMENT OF VIETN",
+                "vlm_caption": {
+                    "detailed_description": "A man in a dark shirt stands in an indoor setting, speaking with his mouth open, wearing a lanyard with a badge.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V030_S0041",
+            "start_frame": 5528,
+            "end_frame": 5874,
+            "start_ts": 221.12,
+            "end_ts": 234.96,
+            "duration": 13.84,
+            "keyframes": [
+                {
+                    "frame_idx": 5701,
+                    "timestamp": 228.04,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V030/L30_V030_S0041_F005701.jpg"
+                },
+                {
+                    "frame_idx": 5787,
+                    "timestamp": 231.48,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V030/L30_V030_S0041_F005787.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Dạ, thầy Duyên, bảy số 1 cho em lên tính. Xong rồi thầy, xong rồi thầy giờ một ai mà kiểu như là lớp trưởng, xong rồi lớp phó lên tính đúng tỷ lệ.",
+                "ocr_text": "Em PHẠM THIÊN KIM Quận 4, TP.HCM",
+                "vlm_caption": {
+                    "detailed_description": "A young girl wearing glasses and a school uniform stands in a classroom with a green chalkboard and a bookshelf in the background.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V030_S0042",
+            "start_frame": 5875,
+            "end_frame": 6031,
+            "start_ts": 235.0,
+            "end_ts": 241.24,
+            "duration": 6.24,
+            "keyframes": [
+                {
+                    "frame_idx": 5953,
+                    "timestamp": 238.12,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V030/L30_V030_S0042_F005953.jpg"
+                },
+                {
+                    "frame_idx": 5992,
+                    "timestamp": 239.68,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V030/L30_V030_S0042_F005992.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "nếu bạn nào sai thì thầy cho hữu lại thôi à thầy cũng cho",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A young boy in a blue polo shirt is sitting at a desk, reading a book with a colorful cover.",
+                    "objects_and_counts": [
+                        "1 person | 1 person, 1 chair, 2 book"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V030_S0043",
+            "start_frame": 6032,
+            "end_frame": 6187,
+            "start_ts": 241.28,
+            "end_ts": 247.48,
+            "duration": 6.2,
+            "keyframes": [
+                {
+                    "frame_idx": 6109,
+                    "timestamp": 244.36,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V030/L30_V030_S0043_F006109.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Cho tới giờ 9, 9 giờ mấy là thầy theo tay chơi Với lại thầy cũng mơ cho",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A girl in a school uniform sits at a table, resting her chin on her hand, with a floral hair accessory in her hair.",
+                    "objects_and_counts": [
+                        "4 chair, 1 person, 1 dining table, 1 bottle"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V030_S0044",
+            "start_frame": 6188,
+            "end_frame": 6295,
+            "start_ts": 247.52,
+            "end_ts": 251.8,
+            "duration": 4.28,
+            "keyframes": [
+                {
+                    "frame_idx": 6241,
+                    "timestamp": 249.64,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V030/L30_V030_S0044_F006241.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Thầy, nếu mà Phường có gì là thầy dẫn đi chứ",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A young person wearing glasses and a school uniform stands in front of a classroom with a green chalkboard and educational posters.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V030_S0045",
+            "start_frame": 6296,
+            "end_frame": 6414,
+            "start_ts": 251.84,
+            "end_ts": 256.56,
+            "duration": 4.72,
+            "keyframes": [
+                {
+                    "frame_idx": 6355,
+                    "timestamp": 254.2,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V030/L30_V030_S0045_F006355.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Mà hình như bé bé nói chung là",
+                "ocr_text": "GO VĂN",
+                "vlm_caption": {
+                    "detailed_description": "A man in a blue shirt is holding and looking at a book in a classroom setting.",
+                    "objects_and_counts": [
+                        "2 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V030_S0046",
+            "start_frame": 6415,
+            "end_frame": 6546,
+            "start_ts": 256.6,
+            "end_ts": 261.84,
+            "duration": 5.24,
+            "keyframes": [
+                {
+                    "frame_idx": 6480,
+                    "timestamp": 259.2,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V030/L30_V030_S0046_F006480.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Mình cũng không biết sao mấy bé rất là ham đến học Ví dụ mình dặn 7h là mấy bé đi đúng giờ",
+                "ocr_text": "ONG TIED,",
+                "vlm_caption": {
+                    "detailed_description": "A young girl with pink hair accessories is sitting at a table, reading a colorful book.",
+                    "objects_and_counts": [
+                        "3 chair, 1 person, 1 dining table, 1 book"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V030_S0047",
+            "start_frame": 6547,
+            "end_frame": 6675,
+            "start_ts": 261.88,
+            "end_ts": 267.0,
+            "duration": 5.12,
+            "keyframes": [
+                {
+                    "frame_idx": 6611,
+                    "timestamp": 264.44,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V030/L30_V030_S0047_F006611.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "dù nắng hay mưa, thậm chí mưa, trời mưa, kẻ óc bé đi cũng khá là đúng giờ",
+                "ocr_text": "CÔNG HÒA XẢ HỘI CHỦ NGHĨA VIỆT tror unr 07",
+                "vlm_caption": {
+                    "detailed_description": "A man in a classroom is holding and looking at a book while standing in front of a green chalkboard and a map.",
+                    "objects_and_counts": [
+                        "1 person, 1 chair, 1 book, 1 dining table"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V030_S0048",
+            "start_frame": 6676,
+            "end_frame": 6826,
+            "start_ts": 267.04,
+            "end_ts": 273.04,
+            "duration": 6.0,
+            "keyframes": [
+                {
+                    "frame_idx": 6751,
+                    "timestamp": 270.04,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V030/L30_V030_S0048_F006751.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "nhầm bé mặc áo mưa đi đến đây nữa, mình thấy cũng thần nghiệp đó là một cái động lực để mình tiếp tục duy trì lớp này",
+                "ocr_text": "tuoi trẻTy SUISTICS DEPARTA",
+                "vlm_caption": {
+                    "detailed_description": "A young man in a purple shirt stands in a dimly lit room, smiling at the camera.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V030_S0049",
+            "start_frame": 6827,
+            "end_frame": 6864,
+            "start_ts": 273.08,
+            "end_ts": 274.56,
+            "duration": 1.48,
+            "keyframes": [
+                {
+                    "frame_idx": 6845,
+                    "timestamp": 273.8,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V030/L30_V030_S0049_F006845.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Thank you.",
+                "ocr_text": "BAN CHỈ ĐẠO HOẠT ĐỘNG HÈ PHƯỜNG 6 BAN CHỈ BAO HOAT ĐỘNG HỆ PHOỜNG S TRỞ ƠI, THÁY ĐẾN ĐÀY = TRÒ ƠI, THẤY ĐẾN ĐÂY!! LỚP HỌC ÁNH SẢNG XANH LỚP HỌC ÁNH SÁNG XANH PHƯỜNG 6 G PHƯỐNG 6 SOT: 0353.485.111 (Tháy Tán Phát) SĐT: 0353.486.111 (Tháy Tấn Phát)",
+                "vlm_caption": {
+                    "detailed_description": "The image shows a promotional event for a children's reading program, with a banner and a group of children holding gift bags.",
+                    "objects_and_counts": [
+                        "5 person, 2 potted plant"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V030_S0050",
+            "start_frame": 6865,
+            "end_frame": 6930,
+            "start_ts": 274.6,
+            "end_ts": 277.2,
+            "duration": 2.6,
+            "keyframes": [
+                {
+                    "frame_idx": 6897,
+                    "timestamp": 275.88,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V030/L30_V030_S0050_F006897.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Mình muốn giúp sách vẽ kẹp",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A teacher interacts with students in a classroom setting, with multiple students seated at desks and a teacher standing beside them.",
+                    "objects_and_counts": [
+                        "11 person, 2 chair, 2 dining table"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V030_S0051",
+            "start_frame": 6931,
+            "end_frame": 7002,
+            "start_ts": 277.24,
+            "end_ts": 280.08,
+            "duration": 2.84,
+            "keyframes": [
+                {
+                    "frame_idx": 6966,
+                    "timestamp": 278.64,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V030/L30_V030_S0051_F006966.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "một cái lượng hữu thức để học sau này",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A group of students is sitting at desks in a classroom, engaged in writing activities.",
+                    "objects_and_counts": [
+                        "5 person, 2 cup, 3 chair, 1 dining table, 1 book"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V030_S0052",
+            "start_frame": 7003,
+            "end_frame": 7082,
+            "start_ts": 280.12,
+            "end_ts": 283.28,
+            "duration": 3.16,
+            "keyframes": [
+                {
+                    "frame_idx": 7042,
+                    "timestamp": 281.68,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V030/L30_V030_S0052_F007042.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "vừa dạy học và tìm được kỹ năng sống và giao chiếc để sau này",
+                "ocr_text": "tuôi trẻT NESE LINGUISTICS NGỮ KHOA DEPARTMENT OF VIETNA 100",
+                "vlm_caption": {
+                    "detailed_description": "A man in a dark shirt stands in an indoor setting, wearing a lanyard, with a window and a ceiling fan visible in the background.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V030_S0053",
+            "start_frame": 7083,
+            "end_frame": 7087,
+            "start_ts": 283.32,
+            "end_ts": 283.48,
+            "duration": 0.16,
+            "keyframes": [
+                {
+                    "frame_idx": 7085,
+                    "timestamp": 283.4,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V030/L30_V030_S0053_F007085.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "",
+                "ocr_text": "tuổi trẻv",
+                "vlm_caption": {
+                    "detailed_description": "A group of children and an adult are standing in front of a wall with certificates, posing for a photo.",
+                    "objects_and_counts": [
+                        "6 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V030_S0054",
+            "start_frame": 7088,
+            "end_frame": 7163,
+            "start_ts": 283.52,
+            "end_ts": 286.52,
+            "duration": 3.0,
+            "keyframes": [
+                {
+                    "frame_idx": 7125,
+                    "timestamp": 285.0,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V030/L30_V030_S0054_F007125.jpg"
+                },
+                {
+                    "frame_idx": 7106,
+                    "timestamp": 284.24,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V030/L30_V030_S0054_F007106.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "thì mình tin chắc lớp mình sẽ phát biến một số phong học đến",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A group of five children and one adult are standing in front of a wall displaying certificates, posing for a photo.",
+                    "objects_and_counts": [
+                        "7 person, 1 clock"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V030_S0055",
+            "start_frame": 7165,
+            "end_frame": 7244,
+            "start_ts": 286.6,
+            "end_ts": 289.76,
+            "duration": 3.16,
+            "keyframes": [
+                {
+                    "frame_idx": 7204,
+                    "timestamp": 288.16,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V030/L30_V030_S0055_F007204.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "không được cấp A đâu thì nhìn bé thậm chí giờ không được cấp 2",
+                "ocr_text": "tuoi trẻTv thắng năm 2018 VANG: 462 3 78",
+                "vlm_caption": {
+                    "detailed_description": "A student in a yellow shirt is solving a math problem on a large chalkboard, while another student in a blue shirt assists.",
+                    "objects_and_counts": [
+                        "2 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V030_S0056",
+            "start_frame": 7245,
+            "end_frame": 7525,
+            "start_ts": 289.8,
+            "end_ts": 301.0,
+            "duration": 11.2,
+            "keyframes": [
+                {
+                    "frame_idx": 7385,
+                    "timestamp": 295.4,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V030/L30_V030_S0056_F007385.jpg"
+                },
+                {
+                    "frame_idx": 7315,
+                    "timestamp": 292.6,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V030/L30_V030_S0056_F007315.jpg"
+                },
+                {
+                    "frame_idx": 7455,
+                    "timestamp": 298.2,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V030/L30_V030_S0056_F007455.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "thì mình mới tâm sự và kỹ năng sống sau này bé không được đi học thì bé ra xã hội rồi có nghĩa là mình có một kỹ năng nào đó",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A child in a striped shirt is sitting at a table with a book and a pencil, appearing to be engaged in an activity.",
+                    "objects_and_counts": [
+                        "4 person, 1 chair, 1 handbag | 6 person, 5 chair, 4 book | 3 person, 3 chair, 1 book"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V030_S0057",
+            "start_frame": 7526,
+            "end_frame": 7678,
+            "start_ts": 301.04,
+            "end_ts": 307.12,
+            "duration": 6.08,
+            "keyframes": [
+                {
+                    "frame_idx": 7602,
+                    "timestamp": 304.08,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V030/L30_V030_S0057_F007602.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "giống như một cái hành trang để mình là xã hội không có được, không có thua tiệc với mọi người và đặc biệt mình nói những cái",
+                "ocr_text": "tuổi trẻTv ESE LINGUISTICS KHOA DEPARTMENT OF VIETNAN",
+                "vlm_caption": {
+                    "detailed_description": "A young man in a dark blue shirt stands in a dimly lit room with a green door and a ceiling fan visible in the background.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V030_S0058",
+            "start_frame": 7679,
+            "end_frame": 7984,
+            "start_ts": 307.16,
+            "end_ts": 319.36,
+            "duration": 12.2,
+            "keyframes": [
+                {
+                    "frame_idx": 7831,
+                    "timestamp": 313.24,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V030/L30_V030_S0058_F007831.jpg"
+                },
+                {
+                    "frame_idx": 7755,
+                    "timestamp": 310.2,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V030/L30_V030_S0058_F007755.jpg"
+                },
+                {
+                    "frame_idx": 7907,
+                    "timestamp": 316.28,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V030/L30_V030_S0058_F007907.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "những việc làm nào có vi phạm bất lực ví dụ những tuyệt đại đại xã hội mình dặn các bé không nên tham gia mình mong muốn các bé chuẩn bị lớp học này để các bé đọc và biết sau này ví dụ không có được đi học",
+                "ocr_text": "thứ Bảy , ngày 20 tháng 4 năm 2024 Chính tả Thư Trung thu 8",
+                "vlm_caption": {
+                    "detailed_description": "A man and two children are sitting at a table, with the man helping one of the children with their homework.",
+                    "objects_and_counts": [
+                        "8 person | 3 person, 3 chair, 3 book, 1 handbag | 5 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V030_S0059",
+            "start_frame": 7986,
+            "end_frame": 8032,
+            "start_ts": 319.44,
+            "end_ts": 321.28,
+            "duration": 1.84,
+            "keyframes": [
+                {
+                    "frame_idx": 8009,
+                    "timestamp": 320.36,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V030/L30_V030_S0059_F008009.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Thì nó vẽ bé này đi làm việc biết cách",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A teacher assists a student at a desk with a notebook and pen, while a fan is visible in the background.",
+                    "objects_and_counts": [
+                        "3 person, 6 chair, 1 handbag, 1 dining table"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V030_S0060",
+            "start_frame": 8033,
+            "end_frame": 8105,
+            "start_ts": 321.32,
+            "end_ts": 324.2,
+            "duration": 2.88,
+            "keyframes": [
+                {
+                    "frame_idx": 8069,
+                    "timestamp": 322.76,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V030/L30_V030_S0060_F008069.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Chính có tiền bạc vậy đó Còn hữu mụn như là",
+                "ocr_text": "tuoi trẻTy DEPARTMENT OF VIETN",
+                "vlm_caption": {
+                    "detailed_description": "A young man with short dark hair and a dark blue shirt stands in a room with a ceiling fan and a window in the background.",
+                    "objects_and_counts": [
+                        "1 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V030_S0061",
+            "start_frame": 8106,
+            "end_frame": 8264,
+            "start_ts": 324.24,
+            "end_ts": 330.56,
+            "duration": 6.32,
+            "keyframes": [
+                {
+                    "frame_idx": 8185,
+                    "timestamp": 327.4,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V030/L30_V030_S0061_F008185.jpg"
+                },
+                {
+                    "frame_idx": 8145,
+                    "timestamp": 325.8,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V030/L30_V030_S0061_F008145.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Música",
+                "ocr_text": "",
+                "vlm_caption": {
+                    "detailed_description": "A group of four individuals, including two children and two adults, are posing for a photo in front of a backdrop featuring the Vietnamese flag and a statue, with one adult holding a bouquet of flowers.",
+                    "objects_and_counts": [
+                        "5 person | 11 person, 1 chair"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V030_S0062",
+            "start_frame": 8267,
+            "end_frame": 8371,
+            "start_ts": 330.68,
+            "end_ts": 334.84,
+            "duration": 4.16,
+            "keyframes": [
+                {
+                    "frame_idx": 8319,
+                    "timestamp": 332.76,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V030/L30_V030_S0062_F008319.jpg"
+                },
+                {
+                    "frame_idx": 8293,
+                    "timestamp": 331.72,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V030/L30_V030_S0062_F008293.jpg"
+                },
+                {
+                    "frame_idx": 8345,
+                    "timestamp": 333.8,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V030/L30_V030_S0062_F008345.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": ".",
+                "ocr_text": "NG CÔNG UANG VII Tác giả: LÊ TẤN PHÁT | JANG : CỘNI ĐẢNG CỘNG SẢN VIỆT NAM QUANG VINH M C HÀNH RÃI, VÀ HÊ BÌNH hoc he SÁCH à cổ NHẤT # Tác giả: LÊ TẤN PHÁT | tuoi trẻTv TƯƠNG TRÌNH : VI BIÊM ĐÃO QUE HƯO RIEN GIOI. HIEN thương hiệu Tác giả: LÊ TẤN PHÁT",
+                "vlm_caption": {
+                    "detailed_description": "A group of children and adults are posing for a photo in front of a Vietnamese flag and a banner with the Vietnamese Communist Party's slogan.",
+                    "objects_and_counts": [
+                        "11 person | 17 person | 6 person"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V030_S0063",
+            "start_frame": 8372,
+            "end_frame": 8413,
+            "start_ts": 334.88,
+            "end_ts": 336.52,
+            "duration": 1.64,
+            "keyframes": [
+                {
+                    "frame_idx": 8392,
+                    "timestamp": 335.68,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V030/L30_V030_S0063_F008392.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "",
+                "ocr_text": "tuoi trẻv CỘNG GÁN VIỆT NAM QUANG VINH MUÔN NĂM *THỰC HÀNH VÀ PHAT HUY RỘNG BÃI DẢN CHU TÃ HỘI CHỦ NGHIA, QUYỀN LÀM CHỦ VÀ VAI TRÒ Tệ tổng kết lép học hể CHỦ THẾ CỦA NHÂN DÂN: PHAT HUY SUC MANH BẠI BOÀN KẾT TOÀN DÂN TỘC; CÔNG CÓ, RÂNG CAO NIẾM TIN CỦA NHÂN ĐẢN, TÁNG CƯỜNG ĐỒNG TP ÀN XÀ HỘT. thương hiệu Tác giả: LÊ TẤN PHÁT",
+                "vlm_caption": {
+                    "detailed_description": "A group of people are seated in a classroom setting, facing a podium where a speaker is addressing an audience, with a large screen displaying text in the background.",
+                    "objects_and_counts": [
+                        "12 person, 5 chair, 1 tv, 2 potted plant, 1 bottle, 1 laptop"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V030_S0064",
+            "start_frame": 8414,
+            "end_frame": 8473,
+            "start_ts": 336.56,
+            "end_ts": 338.92,
+            "duration": 2.36,
+            "keyframes": [
+                {
+                    "frame_idx": 8443,
+                    "timestamp": 337.72,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V030/L30_V030_S0064_F008443.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Thank you.",
+                "ocr_text": "thương hiệu Tác giả: LÊ TẤN PHÁT",
+                "vlm_caption": {
+                    "detailed_description": "A group of children and adults are standing in a classroom, posing for a photo, with a teacher and a student in the background.",
+                    "objects_and_counts": [
+                        "15 person, 2 clock"
+                    ]
+                }
+            }
+        },
+        {
+            "shot_id": "L30_V030_S0065",
+            "start_frame": 8474,
+            "end_frame": 8591,
+            "start_ts": 338.96,
+            "end_ts": 343.64,
+            "duration": 4.68,
+            "keyframes": [
+                {
+                    "frame_idx": 8503,
+                    "timestamp": 340.12,
+                    "image_path": "/Users/trandinhquy/Documents/AICDemos/Demo2/data/processed/keyframes/L30_V030/L30_V030_S0065_F008503.jpg"
+                }
+            ],
+            "extracted_data": {
+                "transcript": "Thank you.",
+                "ocr_text": "tuoi trẻv ÂM KHẠC N ỌC ĐƯỜNG DÂN TỘ huật Hát Bội Ở với 1 Hoa Pl 100000",
+                "vlm_caption": {
+                    "detailed_description": "A group of people, including a person in traditional attire, are standing on a stage with a backdrop displaying Vietnamese text and logos.",
+                    "objects_and_counts": [
+                        "15 person, 1 tv"
+                    ]
+                }
+            }
+        }
+    ]
+}
