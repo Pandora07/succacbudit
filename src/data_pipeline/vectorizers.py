@@ -39,12 +39,23 @@ class ImageDenseVectorizer:
             with torch.no_grad():
                 outputs = self.model.get_image_features(**inputs)
 
+            # Transformers versions mới (>= 4.40) có thể trả về BaseModelOutputWithPooling
+            # thay vì tensor thuần — cần unwrap an toàn trước khi norm
+            if hasattr(outputs, "pooler_output") and outputs.pooler_output is not None:
+                image_features = outputs.pooler_output
+            elif hasattr(outputs, "last_hidden_state"):
+                # Dùng CLS token (index 0) nếu không có pooler
+                image_features = outputs.last_hidden_state[:, 0]
+            else:
+                image_features = outputs  # Đã là tensor thuần
+
             # L2 Normalization — cùng chuẩn với text features của SigLIP
-            image_features = outputs / outputs.norm(p=2, dim=-1, keepdim=True)
+            image_features = image_features / image_features.norm(p=2, dim=-1, keepdim=True)
             return image_features.squeeze().cpu().tolist()
         except Exception as e:
             logger.error(f"Lỗi encode hình ảnh {image_path}: {e}")
             return [0.0] * DIM_IMAGE_DENSE
+
 
 
 # ==========================================

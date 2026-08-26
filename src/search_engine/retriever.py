@@ -56,12 +56,22 @@ class SigLIPTextEncoder:
             ).to(self.device)
             with torch.no_grad():
                 text_features = self.model.get_text_features(**inputs)
+
+            # Cùng cách xử lý với ImageDenseVectorizer — unwrap nếu là Output object
+            if hasattr(text_features, "pooler_output") and text_features.pooler_output is not None:
+                text_features = text_features.pooler_output
+            elif hasattr(text_features, "last_hidden_state"):
+                text_features = text_features.last_hidden_state[:, 0]
+            # else: đã là tensor thuần
+
             # L2 Normalize — cùng chuẩn với image features đã ingest
             text_features = text_features / text_features.norm(p=2, dim=-1, keepdim=True)
             return text_features.squeeze().cpu().tolist()
         except Exception as e:
             logger.error(f"❌ Lỗi SigLIP text encode: {e}")
             return [0.0] * 1024
+
+
 
 
 class HybridRetriever:

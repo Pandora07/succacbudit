@@ -107,11 +107,13 @@ class StageC_Ingester:
     # ==========================================
     def _resolve_frame_path(self, kf_obj, video_name: str, fps: float) -> tuple[str | None, int]:
         """
-        Tìm đường dẫn thực tế của một keyframe, theo 2 cấp ưu tiên:
-          Cấp 1: KEYFRAMES_ROOT/video_name/basename  (máy hiện tại có full pipeline)
-          Cấp 2: AIC_KEYFRAMES_ROOT/video_name/{frame_id:03d}.jpg  (folder ban TC)
+        Tìm đường dẫn thực tế của một keyframe, theo 3 cấp ưu tiên:
 
-        Trả về (image_path_str, frame_idx) hoặc (None, 0).
+          Cấp 0: raw_path gốc từ JSON — nếu file vẫn tồn tại trên máy này (e.g. /Users/trandinhquy/...)
+          Cấp 1: KEYFRAMES_ROOT/video_name/basename  — máy chạy full pipeline hiện tại
+          Cấp 2: AIC_KEYFRAMES_ROOT/video_name/{frame_id:03d}.jpg — folder ban TC (L26_V200–V299)
+
+        Trả về (image_path_str, frame_idx) hoặc (None, frame_idx).
         """
         if isinstance(kf_obj, dict):
             frame_idx = kf_obj.get("frame_idx", 0)
@@ -122,12 +124,19 @@ class StageC_Ingester:
 
         img_name = os.path.basename(raw_path)
 
-        # --- Cấp 1: Demo3 keyframes (máy chạy đầy đủ pipeline) ---
+        # --- Cấp 0: Đường dẫn gốc trong JSON ---
+        # Demo được tải từ máy khác nên raw_path có thể là /Users/trandinhquy/...
+        # Nếu folder của user đó vẫn mount hoặc tồn tại trên máy này → dùng luôn
+        if raw_path and os.path.isfile(raw_path):
+            return raw_path, frame_idx
+
+        # --- Cấp 1: Rebase sang KEYFRAMES_ROOT hiện tại ---
+        # Dùng basename để thoát khỏi path tuyệt đối từ máy khác
         p1 = KEYFRAMES_ROOT / video_name / img_name
         if p1.exists():
             return str(p1), frame_idx
 
-        # --- Cấp 2: AIC keyframesL26c ---
+        # --- Cấp 2: AIC keyframesL26c (chỉ có cho L26_V200–V299) ---
         # AIC lưu ~1fps: frame_id = round(timestamp_sec), filename = f"{frame_id:03d}.jpg"
         if fps and fps > 0:
             timestamp_sec = frame_idx / fps
@@ -140,6 +149,8 @@ class StageC_Ingester:
             return str(p2), frame_idx
 
         return None, frame_idx
+
+
 
     def _select_representative_frame(self, keyframes: list, video_name: str, fps: float):
         """
