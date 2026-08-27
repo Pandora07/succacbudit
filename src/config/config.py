@@ -48,8 +48,8 @@ COLLECTION_NAME = "demo3_hybrid_v1"
 # ==========================================
 # Model IDs
 SIGLIP_MODEL_ID     = "google/siglip-base-patch16-224"
+TEXT_SPARSE_MODEL   = "opensearch-project/opensearch-neural-sparse-encoding-multilingual-v1"
 TEXT_DENSE_MODEL    = "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
-TEXT_SPARSE_MODEL   = "prithivida/Splade_PP_en_v1"
 WHISPER_MODEL_PATH  = "mlx-community/whisper-large-v3-mlx"
 VLM_LOCAL_MODEL     = "mlx-community/Qwen2.5-VL-7B-Instruct-8bit"
 VLM_INGEST_MODEL    = "mlx-community/Qwen3-VL-4B-Instruct-8bit"
@@ -57,8 +57,8 @@ VLM_INGEST_MODEL    = "mlx-community/Qwen3-VL-4B-Instruct-8bit"
 # VLM_INGEST_MODEL = "mlx-community/Qwen2.5-VL-3B-Instruct-8bit"
 
 # Chiều vector
-DIM_IMAGE_DENSE = 1024  # SigLIP image/text features
-DIM_TEXT_DENSE  = 384   # MiniLM multilingual
+DIM_IMAGE_DENSE = 768  # SigLIP image/text features
+DIM_TEXT_DENSE  = 384   
 
 # FPS mặc định khi metadata không chứa thông tin fps
 DEFAULT_FPS = 25.0

@@ -1,26 +1,15 @@
-"""
-Giao diện Người dùng (Frontend) - Phiên bản V7 (Modularized & Padded Edition)
-Tích hợp: Giỏ hàng 100 Frames (Padding), Module hóa UI, Auto-fill Rocchio.
-Vị trí: src/ui/app.py
-"""
-
 import os
 import time
 import streamlit as st
 import pandas as pd
 
-# 📦 Import Modules Tiện ích (UI Utils)
 from src.ui.utils.frame_utils import get_exact_frame_idx, generate_padded_frames
 from src.ui.utils.api_client import call_search_api, call_qa_api
 from src.ui.utils.video_utils import extract_single_frame, find_video_path, maybe_cleanup_temp_clips
 from src.ui.utils.submission_utils import parse_btc_uploaded_files, create_zip_in_memory
 
-# ==========================================
-# CẤU HÌNH TRANG & KHỞI TẠO BỘ NHỚ ẢO
-# ==========================================
 st.set_page_config(page_title="AI Video Search - Datathon", page_icon="🏆", layout="wide")
 
-# Khởi chạy dọn dẹp rác nền (Xóa bớt temp video/ảnh cũ)
 maybe_cleanup_temp_clips()
 
 if "btc_queries" not in st.session_state:
@@ -30,9 +19,6 @@ if "cart" not in st.session_state:
 if "liked_shot_id" not in st.session_state:
     st.session_state.liked_shot_id = None
 
-# ==========================================
-# THANH ĐIỀU HƯỚNG BÊN TRÁI (SIDEBAR)
-# ==========================================
 with st.sidebar:
     st.header("📂 1. Quản lý Đề thi")
     uploaded_files = st.file_uploader("Kéo thả các file đề của BTC (.txt)", type=["txt"], accept_multiple_files=True)
@@ -57,9 +43,6 @@ with st.sidebar:
             st.session_state.liked_shot_id = None
             st.rerun()
 
-# ==========================================
-# GIAO DIỆN CHÍNH: 4 TABS CHIẾN LƯỢC
-# ==========================================
 st.title("🏆 Trạm Chỉ Huy Datathon (AI Multimodal)")
 st.markdown("---")
 
@@ -71,7 +54,7 @@ tab_kis, tab_qa, tab_trake, tab_submit = st.tabs([
 ])
 
 # ==========================================
-# PHASE 2.1: KIS (TRẠM NỘI SOI & RẢI THẢM 100 FRAMES)
+# PHASE 1: KIS (TRẠM NỘI SOI & RẢI THẢM)
 # ==========================================
 with tab_kis:
     st.header("🔍 Giải quyết KIS (Truy vấn Hình ảnh)")
@@ -84,11 +67,8 @@ with tab_kis:
         selected_q_id = st.selectbox("📌 Chọn câu hỏi KIS:", options=list(query_options.keys()), format_func=lambda x: query_options[x])
         selected_q_text = [q["text"] for q in kis_queries if q["id"] == selected_q_id][0]
 
-        # Quản lý State cho KIS
-        if "kis_search_results" not in st.session_state:
-            st.session_state.kis_search_results = []
-        if "kis_active_shot" not in st.session_state:
-            st.session_state.kis_active_shot = None
+        if "kis_search_results" not in st.session_state: st.session_state.kis_search_results = []
+        if "kis_active_shot" not in st.session_state: st.session_state.kis_active_shot = None
 
         col1, col2 = st.columns([1, 5])
         with col1:
@@ -97,16 +77,13 @@ with tab_kis:
                 spinner_msg = "Quét nhanh từ Qdrant..." if kis_fast_mode else "VLM đang chấm điểm... (~15s)"
                 with st.spinner(spinner_msg):
                     st.session_state.kis_search_results = call_search_api(
-                        query=selected_q_text, top_k=80, top_n=20, skip_vlm=kis_fast_mode
+                        query=selected_q_text, top_k=80, top_n=20, skip_vlm=kis_fast_mode, task_type="kis"
                     )
                 st.session_state.kis_active_shot = None
 
         if selected_q_id in st.session_state.cart:
             st.success(f"🛒 Câu này đã chốt {len(st.session_state.cart[selected_q_id])} frames. Có thể chọn ảnh khác để đè lại.")
 
-        # ==========================================
-        # CHẶNG 1: LƯỚI TÌM KIẾM
-        # ==========================================
         if st.session_state.kis_search_results and not st.session_state.kis_active_shot:
             st.markdown("---")
             st.markdown("### Lướt và Chọn 1 ảnh để Nội soi")
@@ -117,8 +94,8 @@ with tab_kis:
                     meta = res["metadata"]
                     vid_id = res["video_id"]
                     est_frame_idx = get_exact_frame_idx(meta)
-
                     img_url = res.get("thumbnail_url", "")
+                    
                     if img_url and os.path.exists(img_url):
                         st.image(img_url, use_container_width=True)
                     else:
@@ -130,9 +107,6 @@ with tab_kis:
                         st.session_state.kis_active_shot = res
                         st.rerun()
 
-        # ==========================================
-        # CHẶNG 2: TRẠM NỘI SOI KIS (Phát Video & Kéo Frame)
-        # ==========================================
         if st.session_state.kis_active_shot:
             active_res = st.session_state.kis_active_shot
             vid_id = active_res["video_id"]
@@ -167,9 +141,6 @@ with tab_kis:
                         st.image(active_res.get("thumbnail_url"))
 
             with col_ctrl:
-                st.info("Sử dụng thanh trượt và băng chuyền để chốt chính xác frame mỏ neo.")
-                
-                # Đồng bộ thời gian
                 default_ts = float(meta.get("start_ts", 0.0))
                 current_slider_val = st.session_state.get(f"kis_slider_{active_res['shot_id']}", default_ts)
                 
@@ -179,12 +150,10 @@ with tab_kis:
                 exact_frame = round(fine_ts * fps)
                 st.markdown(f"### Frame đang trỏ: **<span style='color:#ff4b4b'>{exact_frame}</span>**", unsafe_allow_html=True)
 
-                # Băng chuyền Frame
                 gap_sec_kis = st.slider("Độ giãn cách băng chuyền (giây):", min_value=0.1, max_value=2.0, value=0.5, step=0.1)
                 step_frames = max(1, int(fps * gap_sec_kis))
                 offsets = [-step_frames*2, -step_frames, 0, step_frames, step_frames*2]
                 carousel_cols = st.columns(5)
-                
                 final_selected_frame = exact_frame
                 
                 for i, offset in enumerate(offsets):
@@ -198,7 +167,6 @@ with tab_kis:
                             st.session_state[f"kis_final_frame_{vid_id}"] = target_f
                             st.rerun()
 
-                # Ghi nhận frame được chọn từ băng chuyền (nếu có)
                 if f"kis_final_frame_{vid_id}" in st.session_state:
                     final_selected_frame = st.session_state[f"kis_final_frame_{vid_id}"]
                     st.success(f"Đã ghim mỏ neo tại Frame: {final_selected_frame}")
@@ -206,21 +174,16 @@ with tab_kis:
                 st.markdown("---")
                 if st.button("🛒 CHỐT RẢI THẢM ĐÁP ÁN NÀY", type="primary", use_container_width=True):
                     with st.spinner("⚡ Đang vét 100 frames (Cận chiến + Lưới dự phòng)..."):
-                        # Lấy lưới dự phòng
                         auto_fill_results = call_search_api(
-                            query=selected_q_text, top_k=100, 
-                            top_n=100,
-                            liked_shot_id=active_res["shot_id"], 
-                            skip_vlm=True
+                            query=selected_q_text, top_k=100, top_n=100,
+                            liked_shot_id=active_res["shot_id"], skip_vlm=True, task_type="kis"
                         )
-                        # Kích hoạt module cào
                         padded_cart = generate_padded_frames(
                             anchor_vid=vid_id,
                             anchor_frame_idx=final_selected_frame,
                             semantic_results=auto_fill_results,
                             max_frames=100
                         )
-                        
                         st.session_state.cart[selected_q_id] = padded_cart
                         st.success(f"🎉 Đã chốt {len(padded_cart)} Frames an toàn vào giỏ hàng!")
                         time.sleep(1.5)
@@ -228,7 +191,7 @@ with tab_kis:
                         st.rerun()
 
 # ==========================================
-# PHASE 2.2: Q&A (CHẾ ĐỘ RẢI THẢM TEXT)
+# PHASE 2: Q&A
 # ==========================================
 with tab_qa:
     st.header("💬 Giải quyết Q&A (Phủ Text 100 Frames)")
@@ -247,16 +210,11 @@ with tab_qa:
         if f"qa_active_shot_{sel_qa_id}" not in st.session_state: st.session_state[f"qa_active_shot_{sel_qa_id}"] = None
         if f"qa_final_res_{sel_qa_id}" not in st.session_state: st.session_state[f"qa_final_res_{sel_qa_id}"] = None
 
-        # [CHẶNG 1] TÌM KIẾM MỎ NEO
         qa_fast_mode = st.checkbox("⚡ Siêu tốc (bỏ qua VLM)", key=f"qa_fast_{sel_qa_id}")
         if st.button("🔎 1. Tìm 10 khung hình ứng viên", key=f"btn_suggest_{sel_qa_id}", use_container_width=True):
             with st.spinner("Đang quét..."):
                 st.session_state[f"qa_frames_{sel_qa_id}"] = call_search_api(
-                    query=edited_search_query.strip(), 
-                    top_k=60, 
-                    top_n=10, 
-                    skip_vlm=qa_fast_mode,
-                    task_type="qa"
+                    query=edited_search_query.strip(), top_k=60, top_n=10, skip_vlm=qa_fast_mode, task_type="qa"
                 )
                 st.session_state[f"qa_final_res_{sel_qa_id}"] = None 
                 st.session_state[f"qa_active_shot_{sel_qa_id}"] = None
@@ -275,7 +233,6 @@ with tab_qa:
                         st.session_state[f"qa_active_shot_{sel_qa_id}"] = s_res
                         st.rerun()
 
-        # [CHẶNG 2] BĂNG CHUYỀN VÀ QWEN-VL SOI ẢNH
         if st.session_state[f"qa_active_shot_{sel_qa_id}"] and not st.session_state[f"qa_final_res_{sel_qa_id}"]:
             active_shot = st.session_state[f"qa_active_shot_{sel_qa_id}"]
             vid_id = active_shot["video_id"]
@@ -308,10 +265,10 @@ with tab_qa:
                             qa_result = call_qa_api(question=sel_qa_text, shot_id=active_shot["shot_id"], custom_image_path=img_path)
                             if qa_result:
                                 qa_result["frame_idx"] = target_frame
+                                qa_result["video_id"] = vid_id
                                 st.session_state[f"qa_final_res_{sel_qa_id}"] = qa_result
                             st.rerun()
 
-        # [CHẶNG 3] DUYỆT VÀ CHỐT 100 FRAMES
         if sel_qa_id in st.session_state.cart: st.success(f"🛒 Câu hỏi này đã chốt đáp án trong Giỏ hàng!")
 
         final_res = st.session_state[f"qa_final_res_{sel_qa_id}"]
@@ -327,7 +284,7 @@ with tab_qa:
                     if st.button("🛒 Chốt nộp đáp án này", type="primary", use_container_width=True):
                         padded_cart = generate_padded_frames(
                             anchor_vid=final_res.get("video_id"),
-                            anchor_frame_idx=get_exact_frame_idx(final_res),
+                            anchor_frame_idx=final_res.get("frame_idx"),
                             semantic_results=st.session_state.get(f"qa_frames_{sel_qa_id}", []),
                             answer=user_edited_ans.strip(),
                             max_frames=100
@@ -342,7 +299,7 @@ with tab_qa:
                         st.rerun()
 
 # ==========================================
-# PHASE 2.3: TRAKE (TRUY VẾT BẰNG THANH TRƯỢT ĐỘNG)
+# PHASE 3: TRAKE
 # ==========================================
 with tab_trake:
     st.header("⏱️ Giải quyết TRAKE (Đồ thị Thời gian)")
@@ -366,15 +323,12 @@ with tab_trake:
                 )
                 st.session_state.trake_active_shot = None 
 
-        # HIỂN THỊ LƯỚI KẾT QUẢ ĐÃ LỌC
         if st.session_state.trake_results and not st.session_state.trake_active_shot:
             st.success(f"Đã tìm thấy {len(st.session_state.trake_results)} Video chứa đủ chuỗi sự kiện!")
             tr_cols = st.columns(4)
             for i, res in enumerate(st.session_state.trake_results):
                 with tr_cols[i % 4]:
                     if os.path.exists(res.get("thumbnail_url", "")) : st.image(res.get("thumbnail_url"))
-                    
-                    # Trích xuất số lượng hành động AI tìm được
                     seq_len = len(res.get("suggested_timestamps", []))
                     st.caption(f"**{res['video_id']}** | Chứa {seq_len} Hành động")
                     
@@ -382,13 +336,10 @@ with tab_trake:
                         st.session_state.trake_active_shot = res
                         st.rerun()
 
-        # TRẠM NỘI SOI ĐA SỰ KIỆN
         if st.session_state.trake_active_shot:
             active_res = st.session_state.trake_active_shot
             vid_id = active_res["video_id"]
             fps = active_res["metadata"].get("fps", 25.0)
-            
-            # Lấy mảng thời gian đề xuất từ Backend
             suggested_ts = active_res.get("suggested_timestamps", [float(active_res["metadata"].get("start_ts", 0.0))])
             num_events = len(suggested_ts)
 
@@ -412,30 +363,22 @@ with tab_trake:
             with col_vid:
                 if raw_video_path and raw_video_path.exists(): st.video(str(raw_video_path))
                 else: st.error("Lỗi Video")
-                
-                st.info(f"💡 AI đã tự động đặt sẵn **{num_events}** thanh trượt ở các mốc thời gian hợp lệ. Hãy kiểm tra băng chuyền bên phải và chốt Frame!")
+                st.info(f"💡 AI đã đặt sẵn **{num_events}** thanh trượt. Kiểm tra băng chuyền bên phải và chốt Frame!")
 
             with col_ctrl:
-                # Quản lý mảng Frame đã chốt cho từng hành động
                 state_key = f"trake_frames_{vid_id}"
                 if state_key not in st.session_state or len(st.session_state[state_key]) != num_events:
                     st.session_state[state_key] = [None] * num_events
 
-                # ==========================================
-                # VÒNG LẶP SINH RA N KHỐI UI (Dựa theo số hành động)
-                # ==========================================
                 for ev_idx, base_ts in enumerate(suggested_ts):
                     with st.expander(f"🎬 Sự kiện {ev_idx + 1} (AI Đề xuất: {base_ts:.1f}s)", expanded=True):
                         current_slider_val = st.session_state.get(f"slider_{vid_id}_{ev_idx}", float(base_ts))
-                        
-                        # Thanh trượt và Ô nhập số liệu độc lập cho mỗi sự kiện
                         selected_ts = st.slider(f"Định vị thô (giây):", min_value=0.0, max_value=float(total_duration), value=float(current_slider_val), step=0.1, key=f"sl_raw_{vid_id}_{ev_idx}")
                         fine_ts = st.number_input(f"Nhập số (giây):", min_value=0.0, max_value=float(total_duration), value=float(selected_ts), step=round(1.0/fps, 3), format="%.3f", key=f"sl_fine_{vid_id}_{ev_idx}")
 
                         exact_frame = round(fine_ts * fps)
                         st.markdown(f"Frame đang trỏ: **<span style='color:#ff4b4b'>{exact_frame}</span>**", unsafe_allow_html=True)
 
-                        # Băng chuyền độc lập
                         gap_sec_tr = st.slider("Độ giãn cách:", min_value=0.1, max_value=2.0, value=0.5, step=0.1, key=f"gap_{vid_id}_{ev_idx}")
                         step_frames = max(1, int(fps * gap_sec_tr))
                         offsets = [-step_frames*2, -step_frames, 0, step_frames, step_frames*2]
@@ -452,10 +395,8 @@ with tab_trake:
                                     st.rerun()
 
                 st.markdown("---")
-                st.write("**Chuỗi sự kiện đang chọn:**")
-                
-                # Hiển thị trạng thái Array (VD: 1253 -> [...] -> [...])
                 seq_display = [str(f) if f is not None else "[...]" for f in st.session_state[state_key]]
+                st.write("**Chuỗi sự kiện đang chọn:**")
                 st.code(" ➡️ ".join(seq_display))
                 
                 c1, c2 = st.columns(2)
@@ -465,8 +406,6 @@ with tab_trake:
                         st.rerun()
                 with c2:
                     is_complete = all(f is not None for f in st.session_state[state_key])
-                    
-                    # LOGIC KIỂM ĐỊNH (Gatekeeper): Không cho nộp nếu Frame sau < Frame trước
                     is_valid_order = True
                     if is_complete:
                         for i in range(num_events - 1):
@@ -487,7 +426,7 @@ with tab_trake:
                             st.rerun()
 
 # ==========================================
-# PHASE 3: SUBMISSION HUB (TRẠM NỘP BÀI)
+# PHASE 4: SUBMISSION HUB
 # ==========================================
 with tab_submit:
     st.header("📦 Trạm Quản lý & Nộp Bài")

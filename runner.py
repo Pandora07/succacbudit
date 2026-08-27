@@ -56,7 +56,7 @@ def run_serve():
     
     # 2. Bật Streamlit (Hiển thị UI)
     logger.info("🖥️ Đang khởi động Giao diện Streamlit...")
-    ui_process = subprocess.Popen([sys.executable, "-m", "streamlit", "run", "src.ui/app.py"])
+    ui_process = subprocess.Popen([sys.executable, "-m", "streamlit", "run", "src/ui/app.py"])
     
     try:
         # Giữ cho script chạy liên tục để giám sát 2 process kia

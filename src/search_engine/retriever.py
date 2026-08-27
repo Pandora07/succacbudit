@@ -5,7 +5,7 @@ Vị trí: src/search_engine/retriever.py
 Kiến trúc 3 luồng:
   1. text_dense  (MiniLM 384D)  — Ngữ nghĩa câu văn
   2. text_sparse (SPLADE)       — Từ khóa chính xác, OCR, số lượng
-  3. image_dense (SigLIP 1024D) — Cross-modal: text query ↔ image embedding (CLIP-style)
+  3. image_dense (SigLIP 768D)  — Cross-modal: text query ↔ image embedding (CLIP-style)
 
 Weighted RRF (ưu tiên ảnh):
   - image_dense nhận trọng số IMAGE_RRF_WEIGHT (mặc định 2.0) → gấp đôi text streams
@@ -20,14 +20,12 @@ from qdrant_client.http import models
 from src.config.common import get_logger
 from src.config.config import (
     QDRANT_HOST, QDRANT_PORT, COLLECTION_NAME,
-    RRF_K,
-    PREFETCH_MULT_TEXT_DENSE,
-    PREFETCH_MULT_TEXT_SPARSE,
-    PREFETCH_MULT_IMAGE_DENSE,
-    IMAGE_RRF_WEIGHT,
     SIGLIP_MODEL_ID,
+    RRF_K, PREFETCH_MULT_TEXT_DENSE, PREFETCH_MULT_TEXT_SPARSE,
+    PREFETCH_MULT_IMAGE_DENSE, IMAGE_RRF_WEIGHT,
 )
-from src.data_pipeline.vectorizers import TextDenseVectorizer, TextSparseVectorizer
+# Nhập đủ 3 Động cơ từ vectorizers.py
+from src.data_pipeline.vectorizers import TextDenseVectorizer, TextSparseVectorizer, SiglipEncoder
 
 logger = get_logger(__name__)
 
@@ -37,54 +35,14 @@ PREFETCH_MULTIPLIER_SPARSE = PREFETCH_MULT_TEXT_SPARSE
 PREFETCH_MULTIPLIER_IMAGE  = PREFETCH_MULT_IMAGE_DENSE
 
 
-class SigLIPTextEncoder:
-    """Encode text query bằng SigLIP text encoder để match vào image_dense space."""
-
-    def __init__(self, model_id: str = SIGLIP_MODEL_ID):
-        from transformers import AutoProcessor, AutoModel
-        self.device = "mps" if torch.backends.mps.is_available() else "cpu"
-        logger.info(f"🟣 Khởi tạo SigLIP Text Encoder ({model_id}) trên {self.device.upper()}")
-        self.processor = AutoProcessor.from_pretrained(model_id)
-        self.model = AutoModel.from_pretrained(model_id).to(self.device)
-        self.model.eval()
-
-    def encode(self, text: str) -> list[float]:
-        """Encode text thành vector 1024D trong cùng không gian với image_dense."""
-        try:
-            inputs = self.processor(
-                text=[text], return_tensors="pt", padding=True, truncation=True
-            ).to(self.device)
-            with torch.no_grad():
-                text_features = self.model.get_text_features(**inputs)
-
-            # Cùng cách xử lý với ImageDenseVectorizer — unwrap nếu là Output object
-            if hasattr(text_features, "pooler_output") and text_features.pooler_output is not None:
-                text_features = text_features.pooler_output
-            elif hasattr(text_features, "last_hidden_state"):
-                text_features = text_features.last_hidden_state[:, 0]
-            # else: đã là tensor thuần
-
-            # L2 Normalize — cùng chuẩn với image features đã ingest
-            text_features = text_features / text_features.norm(p=2, dim=-1, keepdim=True)
-            return text_features.squeeze().cpu().tolist()
-        except Exception as e:
-            logger.error(f"❌ Lỗi SigLIP text encode: {e}")
-            return [0.0] * 1024
-
-
-
-
 class HybridRetriever:
     def __init__(self):
         logger.info("🔍 Khởi động Bộ máy Tìm kiếm Hybrid (3-Stream Weighted RRF)...")
         self.client = QdrantClient(host=QDRANT_HOST, port=QDRANT_PORT)
 
-        # Luồng 1 & 2: Text encoders
         self.text_dense_encoder  = TextDenseVectorizer()
         self.text_sparse_encoder = TextSparseVectorizer()
-
-        # Luồng 3: SigLIP text encoder — cross-modal search vào image_dense space
-        self.siglip_text_encoder = SigLIPTextEncoder()
+        self.siglip_encoder      = SiglipEncoder()
 
         logger.info(
             f"✅ Hybrid Retriever sẵn sàng! "
@@ -153,47 +111,36 @@ class HybridRetriever:
     # SEARCH CHÍNH
     # ==========================================
     def search(self, dense_query: str, sparse_query: str, top_k: int = 20) -> list[dict]:
-        """
-        Hybrid search 3-stream với Weighted RRF.
-
-        Args:
-            dense_query:  Query đã dịch sang tiếng Anh (cho SigLIP + MiniLM)
-            sparse_query: Query bản gốc/từ khóa (cho SPLADE — bắt OCR, tên riêng)
-            top_k:        Số kết quả trả về
-
-        Returns:
-            List kết quả đã sort theo score giảm dần.
-        """
         if not dense_query or not dense_query.strip():
             return []
 
-        # --- Encode 3 query vectors ---
-        dense_vec  = self.text_dense_encoder.encode(dense_query)
-        siglip_vec = self.siglip_text_encoder.encode(dense_query)
+        # Sinh 3 loại vector từ 3 mô hình khác nhau
+        text_dense_vec = self.text_dense_encoder.encode(dense_query)
+        siglip_vec     = self.siglip_encoder.encode_text(dense_query)
+        
         safe_sparse = sparse_query if sparse_query and sparse_query.strip() else dense_query
         sparse_dict = self.text_sparse_encoder.encode(safe_sparse)
 
-        # --- 3 lần query Qdrant độc lập (để weighted RRF client-side) ---
         try:
-            # Stream 1: image_dense (cross-modal, CLIP-style)
+            # Stream 1: image_dense (Tìm ảnh bằng SigLIP)
             image_res = self.client.query_points(
                 collection_name=COLLECTION_NAME,
-                query=siglip_vec,
+                query=siglip_vec, # Dùng vector của SigLIP
                 using="image_dense",
                 limit=top_k * PREFETCH_MULT_IMAGE_DENSE,
                 with_payload=True,
             )
 
-            # Stream 2: text_dense (ngữ nghĩa câu văn)
+            # Stream 2: text_dense (Tìm text bằng MiniLM)
             text_dense_res = self.client.query_points(
                 collection_name=COLLECTION_NAME,
-                query=dense_vec,
+                query=text_dense_vec, # Dùng vector của MiniLM
                 using="text_dense",
                 limit=top_k * PREFETCH_MULT_TEXT_DENSE,
                 with_payload=True,
             )
 
-            # Stream 3: text_sparse (từ khóa SPLADE)
+            # Stream 3: text_sparse (Tìm từ khóa bằng SPLADE)
             text_sparse_res = self.client.query_points(
                 collection_name=COLLECTION_NAME,
                 query=models.SparseVector(
@@ -209,13 +156,11 @@ class HybridRetriever:
             logger.error(f"❌ Lỗi truy vấn Qdrant: {e}")
             return []
 
-        # --- Weighted RRF: image × IMAGE_RRF_WEIGHT, text × 1.0 ---
         fused = self._weighted_rrf(
             stream_results=[image_res, text_dense_res, text_sparse_res],
             weights=[IMAGE_RRF_WEIGHT, 1.0, 1.0],
             top_k=top_k,
         )
-
         return self._format_results(fused)
 
     # ==========================================

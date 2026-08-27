@@ -6,7 +6,12 @@ Vị trí: src/db/qdrant_manager.py
 from qdrant_client import QdrantClient
 from qdrant_client.http import models
 from src.config.common import get_logger
-from src.config.config import QDRANT_HOST, QDRANT_PORT
+from src.config.config import (
+    QDRANT_HOST,
+    QDRANT_PORT,
+    DIM_IMAGE_DENSE,
+    DIM_TEXT_DENSE,
+)
 
 logger = get_logger(__name__)
 
@@ -26,25 +31,32 @@ class QdrantManager:
             logger.warning(f"⚠️ Collection '{self.collection_name}' đã tồn tại. Đang xóa để khởi tạo lại...")
             self.client.delete_collection(self.collection_name)
 
-        logger.info("🔨 Đang xây dựng cấu trúc Collection Hybrid mới...")
+        logger.info(
+            f"🔨 Đang xây dựng cấu trúc Collection Hybrid mới "
+            f"(image_dense={DIM_IMAGE_DENSE}, text_dense={DIM_TEXT_DENSE})..."
+        )
         self.client.create_collection(
             collection_name=self.collection_name,
             # 1. Cấu hình 2 trục Dense Vector
+            # image_dense và text_dense giờ cùng ra từ SigLIP (2 tháp của
+            # cùng 1 model) nên PHẢI cùng chiều — đọc từ config, không hardcode
+            # để tránh lệch khi đổi model.
             vectors_config={
                 "image_dense": models.VectorParams(
-                    size=1024, # SigLIP size
+                    size=DIM_IMAGE_DENSE,
                     distance=models.Distance.COSINE
                 ),
                 "text_dense": models.VectorParams(
-                    size=384,  # MiniLM size
+                    size=DIM_TEXT_DENSE,
                     distance=models.Distance.COSINE
                 )
             },
-            # 2. Cấu hình trục Sparse Vector (BM25/Splade)
+            # 2. Cấu hình trục Sparse Vector (SPLADE)
+            # Không dùng modifier=IDF: SPLADE đã tự học trọng số quan trọng
+            # cho từng token qua log(1+ReLU(logit)) lúc encode, thêm IDF ở
+            # đây sẽ nhân đúp 2 lớp "độ hiếm" và làm lệch phân bố đã học.
             sparse_vectors_config={
-                "text_sparse": models.SparseVectorParams(
-                    modifier=models.Modifier.IDF # Áp dụng thuật toán Inverse Document Frequency
-                )
+                "text_sparse": models.SparseVectorParams()
             }
         )
         logger.info(f"✅ Đã tạo thành công Collection '{self.collection_name}'!")
